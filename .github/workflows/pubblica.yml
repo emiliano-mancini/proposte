@@ -1,0 +1,70 @@
+name: Foto, screenshot e pubblicazione
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      cartelle:
+        description: "Cartelle da rifare (vuoto = quelle cambiate)"
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pubblica
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Proposte cambiate
+        id: changed
+        run: |
+          if [ -n "${{ github.event.inputs.cartelle }}" ]; then
+            DIRS="${{ github.event.inputs.cartelle }}"
+          else
+            DIRS=$(git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E '^[^/]+/index\.html$' | cut -d/ -f1 | sort -u | tr '\n' ' ')
+          fi
+          echo "dirs=$DIRS" >> "$GITHUB_OUTPUT"
+          echo "Da elaborare: $DIRS"
+
+      - name: Installa Playwright
+        if: steps.changed.outputs.dirs != ''
+        run: |
+          npm i --no-save playwright@1.48.2
+          npx playwright install --with-deps chromium
+
+      - name: Scarica foto e fai screenshot
+        if: steps.changed.outputs.dirs != ''
+        run: node tools/localizza.mjs ${{ steps.changed.outputs.dirs }}
+
+      - name: Salva nel repository
+        if: steps.changed.outputs.dirs != ''
+        run: |
+          git config user.name "proposte-bot"
+          git config user.email "proposte-bot@users.noreply.github.com"
+          git add -A -- . ':!node_modules' ':!package.json' ':!package-lock.json'
+          git diff --cached --quiet || (git commit -m "Foto e screenshot: ${{ steps.changed.outputs.dirs }} [skip ci]" && git push)
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@v4
