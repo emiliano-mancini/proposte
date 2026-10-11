@@ -70,7 +70,7 @@ async function shoot(browser, port, dir) {
     await page.evaluate(() => document.fonts.ready);
     await page.waitForTimeout(1200);
     const h = await page.evaluate(() => document.documentElement.scrollHeight);
-    await page.screenshot({ path: path.join(ROOT, dir, s.name), type: 'jpeg', quality: 78, fullPage: h <= 9000, clip: h > 9000 ? { x: 0, y: 0, width: s.viewport.width, height: 9000 } : undefined });
+    await page.screenshot({ path: path.join(ROOT, dir, s.name), type: 'jpeg', quality: 78, fullPage: true, clip: h > 9000 ? { x: 0, y: 0, width: s.viewport.width, height: 9000 } : undefined });
     await ctx.close();
   }
 }
