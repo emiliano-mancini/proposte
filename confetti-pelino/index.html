@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Confetti Pelino · Sulmona, dal 1783</title>
+<meta name="description" content="Confetti Pelino, maestri della dolcezza dal 1783. Confetti di Sulmona senza amidi, glutine né maltodestrine, Museo dell'Arte e della Tecnologia Confettiera, bomboniere per ogni evento.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<style>
+:root{
+  --paper:#f7f1e6; --paper-2:#efe5d3; --cream:#fffaf1; --ink:#2b2118; --muted:#6e6152; --gold:#b08a3e; --gold-2:#d4b46a; --wine:#5a1f2b; --deep:#1f1813;
+  --rose:#f2d4d4; --mint:#d6eadf; --sky:#d8e4f2; --butter:#f5ebc4;
+  --disp:"Cormorant Garamond","Times New Roman",serif; --body:"Jost","Segoe UI",system-ui,sans-serif;
+  --H:url("https://pelinostore.com/cdn/shop/files/Confetti_Pelino_Hero_2.png?v=1739959469&width=2000");
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35;background-image:radial-gradient(rgba(120,90,50,.08) 1px,transparent 1px);background-size:4px 4px}
+main,header,footer{position:relative;z-index:1}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:28px}
+.eyebrow{display:inline-flex;align-items:center;gap:14px;font:500 12px var(--body);letter-spacing:.32em;text-transform:uppercase;color:var(--gold)}
+.eyebrow::before{content:"";width:34px;height:1px;background:currentColor}
+h1,h2,h3{font-family:var(--disp);font-weight:500;margin:0;text-wrap:balance;letter-spacing:-.005em}
+h2{font-size:clamp(40px,5vw,68px);line-height:1.02;margin:16px 0 20px;max-width:16ch}
+h2 em,h1 em{font-style:italic;color:var(--gold)}
+.lead{max-width:56ch;color:var(--muted);margin:0;font-size:18px}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--wine);color:var(--cream);font:500 14px var(--body);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:16px 28px;border:1px solid var(--wine);transition:transform .25s,background .25s}
+.btn:hover{transform:translateY(-2px);background:#6e2735}
+.btn.gold{background:transparent;color:var(--cream);border-color:var(--gold-2)}
+.btn.line{background:transparent;color:var(--wine)}
+section{padding-block:120px}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:20;color:var(--cream);transition:background .35s,color .35s}
+.nav.solid{background:rgba(247,241,230,.94);color:var(--ink);backdrop-filter:blur(10px);box-shadow:0 1px 0 rgba(176,138,62,.35)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;padding-block:18px;gap:20px}
+.brand{font:500 26px/1 var(--disp);letter-spacing:.06em;text-decoration:none}
+.brand small{display:block;font:500 9.5px var(--body);letter-spacing:.38em;text-transform:uppercase;color:var(--gold-2);margin-top:5px}
+.nav.solid .brand small{color:var(--gold)}
+.menu{display:flex;gap:30px;font:500 13px var(--body);letter-spacing:.14em;text-transform:uppercase}
+.menu a{text-decoration:none;opacity:.88}
+.nav .btn{padding:11px 20px;font-size:12px}
+
+/* HERO */
+.hero{position:relative;height:100svh;min-height:640px;color:var(--cream);overflow:hidden;display:flex;align-items:center;padding:0}
+.hero-bg{position:absolute;inset:-6% 0 0 0;background:var(--H) center/cover,radial-gradient(ellipse at 70% 40%,#e9d7c0,#a88a68 55%,#3b2b1f);}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(31,24,19,.86) 0%,rgba(31,24,19,.55) 45%,rgba(31,24,19,.1) 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.seal{display:inline-flex;align-items:center;gap:14px;font:500 12px var(--body);letter-spacing:.32em;text-transform:uppercase;color:var(--gold-2)}
+.seal span{width:54px;height:54px;border:1px solid var(--gold-2);border-radius:50%;display:grid;place-items:center;font:italic 500 17px var(--disp);letter-spacing:0;text-transform:none}
+.hero h1{font-size:clamp(52px,8.4vw,124px);line-height:.94;margin:26px 0 24px;max-width:10ch;font-weight:400}
+.hero p{max-width:46ch;font-size:19px;margin:0 0 34px;opacity:.92}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.scrollhint{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);z-index:2;font:500 11px var(--body);letter-spacing:.3em;text-transform:uppercase;opacity:.7;color:var(--cream)}
+
+/* HONOURS */
+.honours{background:var(--deep);color:var(--paper);padding-block:0}
+.honours .wrap{display:grid;grid-template-columns:repeat(5,1fr)}
+.hon{padding:38px 18px;text-align:center;border-left:1px solid rgba(212,180,106,.18)}
+.hon:first-child{border-left:0}
+.hon b{display:block;font:400 54px/1 var(--disp);color:var(--gold-2);margin-bottom:10px;font-variant-numeric:lining-nums tabular-nums}
+.hon span{font-size:13px;letter-spacing:.06em;opacity:.78;display:block;max-width:20ch;margin:0 auto}
+
+/* STORY */
+.story .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:80px;align-items:center}
+.frame{position:relative;padding:14px;border:1px solid var(--gold);background:var(--cream)}
+.frame .ph{aspect-ratio:4/5;overflow:hidden;background:linear-gradient(160deg,#e8d9c2,#c9ad84)}
+.frame .ph div{width:100%;height:116%;background-size:cover;background-position:center}
+.frame figcaption{position:absolute;right:-22px;bottom:40px;background:var(--wine);color:var(--cream);font:italic 500 22px/1.15 var(--disp);padding:20px 24px;max-width:15ch;box-shadow:0 20px 40px -20px rgba(0,0,0,.4)}
+.story .gen{display:flex;gap:28px;margin-top:34px;flex-wrap:wrap}
+.story .gen div{border-top:1px solid var(--gold);padding-top:14px;min-width:150px}
+.story .gen b{display:block;font:400 34px/1 var(--disp);color:var(--wine)}
+.story .gen span{font-size:14px;color:var(--muted)}
+.story p+p{margin-top:16px}
+
+/* METHOD 3D */
+.method{position:relative;background:radial-gradient(ellipse at 50% 40%,#fffaf1 0%,#f3e7d3 60%,#e7d6ba 100%);padding:0;overflow:hidden}
+.method canvas{display:block;width:100%;height:min(92vh,820px)}
+.method .fallback{position:absolute;inset:0;background:radial-gradient(circle at 18% 30%,var(--rose) 0 34px,transparent 35px),radial-gradient(circle at 80% 24%,var(--mint) 0 42px,transparent 43px),radial-gradient(circle at 70% 78%,var(--sky) 0 30px,transparent 31px),radial-gradient(circle at 26% 76%,var(--butter) 0 38px,transparent 39px)}
+.method .over{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;pointer-events:none}
+.method .over .inner{max-width:720px;padding:44px 40px;background:rgba(255,250,241,.72);backdrop-filter:blur(8px);border:1px solid rgba(176,138,62,.4)}
+.method h2{margin-inline:auto}
+.method .lead{margin-inline:auto}
+.pills{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+.pills span{font:500 12px var(--body);letter-spacing:.16em;text-transform:uppercase;border:1px solid var(--gold);color:var(--wine);padding:8px 14px;background:var(--cream)}
+
+/* CATALOGO */
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;margin-top:56px}
+.cat{background:var(--cream);border:1px solid rgba(176,138,62,.35);padding:12px;text-decoration:none;display:flex;flex-direction:column;transition:transform .3s}
+.cat:hover{transform:translateY(-4px)}
+.cat .ph{aspect-ratio:3/4;overflow:hidden;background:linear-gradient(170deg,var(--rose),#e6c9b4)}
+.cat:nth-child(2) .ph{background:linear-gradient(170deg,var(--sky),#c6cfe0)}
+.cat:nth-child(3) .ph{background:linear-gradient(170deg,var(--mint),#b9d3c3)}
+.cat:nth-child(4) .ph{background:linear-gradient(170deg,var(--butter),#d9c48c)}
+.cat .ph div{width:100%;height:116%;background-size:cover;background-position:center}
+.cat .in{padding:20px 10px 10px}
+.cat small{font:500 11px var(--body);letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+.cat h3{font-size:30px;margin:6px 0 8px}
+.cat p{margin:0;font-size:15px;color:var(--muted)}
+
+/* EVENTI */
+.events{background:var(--wine);color:var(--cream)}
+.events .eyebrow{color:var(--gold-2)}
+.events .lead{color:rgba(255,250,241,.78)}
+.ev-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:56px;align-items:center;margin-top:20px}
+.ev-list{display:grid;grid-template-columns:1fr 1fr;gap:0 34px;margin-top:34px;padding:0;list-style:none}
+.ev-list li{font:400 24px var(--disp);padding:12px 0;border-bottom:1px solid rgba(212,180,106,.28);display:flex;justify-content:space-between;align-items:baseline}
+.ev-list li::after{content:"✦";font-size:11px;color:var(--gold-2)}
+.ev-photos{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.ev-photos .p{overflow:hidden;background:linear-gradient(160deg,#7a3443,#3e141d);aspect-ratio:3/4}
+.ev-photos .p:first-child{grid-column:span 2;aspect-ratio:16/10}
+.ev-photos .p div{width:100%;height:116%;background-size:cover;background-position:center}
+
+/* WIDE */
+.wide{position:relative;height:84vh;min-height:520px;overflow:hidden;color:var(--cream);display:flex;align-items:flex-end;padding:0}
+.wide .bg{position:absolute;inset:-12% 0;background-size:cover;background-position:center;background-color:#4a3a2c}
+.wide::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(31,24,19,.05) 30%,rgba(31,24,19,.85))}
+.wide .wrap{position:relative;z-index:2;width:100%;padding-bottom:80px}
+.wide h2{color:var(--cream);max-width:18ch}
+.wide .eyebrow{color:var(--gold-2)}
+.wide p{max-width:52ch;opacity:.9;margin:0}
+
+/* PREZZI */
+.listino{display:grid;grid-template-columns:1fr 1.25fr;gap:72px;align-items:start}
+.menu-card{background:var(--cream);border:1px solid var(--gold);padding:44px clamp(22px,4vw,48px);position:relative}
+.menu-card::before{content:"";position:absolute;inset:7px;border:1px solid rgba(176,138,62,.35);pointer-events:none}
+.menu-card h3{font-size:30px;text-align:center;margin-bottom:6px}
+.menu-card .sub{text-align:center;font:500 11px var(--body);letter-spacing:.3em;text-transform:uppercase;color:var(--gold);margin-bottom:26px}
+.row{display:flex;align-items:baseline;gap:12px;padding:11px 0;font-size:16px}
+.row .n{flex:none;max-width:70%}
+.row .d{flex:1;border-bottom:1px dotted rgba(110,97,82,.55);transform:translateY(-4px)}
+.row .p{flex:none;font:500 22px var(--disp);color:var(--wine);font-variant-numeric:lining-nums tabular-nums}
+.ship{margin-top:24px;text-align:center;font-size:14px;color:var(--muted)}
+.ship b{color:var(--wine)}
+
+/* CONTACT */
+.contact{background:var(--deep);color:var(--paper)}
+.contact .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:center}
+.contact h2{color:var(--cream)}
+.contact .eyebrow{color:var(--gold-2)}
+.contact .lead{color:rgba(247,241,230,.75)}
+.box{border:1px solid rgba(212,180,106,.45);padding:36px;display:flex;flex-direction:column;gap:12px}
+.box b{font:400 36px var(--disp);color:var(--gold-2)}
+.box a{text-decoration:none}
+.box .cta{margin-top:14px}
+footer{background:#16110d;color:rgba(247,241,230,.55);font-size:13px;padding-block:26px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.ribbon{position:fixed;right:14px;bottom:14px;z-index:30;background:#111;color:#fff;font:500 12px var(--body);padding:8px 12px;border-radius:6px;opacity:.88}
+.reveal{will-change:transform,opacity}
+
+@media (max-width:980px){
+  .honours .wrap{grid-template-columns:repeat(3,1fr)}
+  .hon:nth-child(4){border-left:0}
+  .cats{grid-template-columns:1fr 1fr}
+  .story .wrap,.ev-grid,.listino,.contact .wrap{grid-template-columns:1fr;gap:48px}
+  .frame figcaption{right:10px}
+}
+@media (max-width:760px){
+  body{font-size:16px}
+  .menu,.nav .btn{display:none}
+  section{padding-block:76px}
+  .honours .wrap{grid-template-columns:1fr 1fr}
+  .hon{border-left:0;border-top:1px solid rgba(212,180,106,.18);padding:26px 10px}
+  .hon:nth-child(-n+2){border-top:0}
+  .hon:last-child{grid-column:span 2}
+  .hon b{font-size:44px}
+  .cats{grid-template-columns:1fr}
+  .cat .ph{aspect-ratio:4/3}
+  .ev-list{grid-template-columns:1fr}
+  .method .over .inner{padding:30px 20px;margin-inline:16px}
+  .hero::after{background:linear-gradient(180deg,rgba(31,24,19,.55),rgba(31,24,19,.82))}
+  .wrap{padding-inline:20px}
+}
+@media (prefers-reduced-motion:reduce){.btn,.cat{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav" id="nav"><div class="wrap">
+  <a class="brand" href="#">Pelino<small>Sulmona · dal 1783</small></a>
+  <nav class="menu"><a href="#storia">Storia</a><a href="#catalogo">Catalogo</a><a href="#eventi">Eventi</a><a href="#museo">Museo</a><a href="#contatti">Contatti</a></nav>
+  <a class="btn" href="https://pelinostore.com">Acquista online</a>
+</div></header>
+
+<main>
+<section class="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="wrap">
+    <span class="seal reveal"><span>1783</span>Sulmona · Abruzzo</span>
+    <h1 id="heroTitle">Maestri della <em>dolcezza</em> dal 1783</h1>
+    <p class="reveal">Da sette generazioni la famiglia Pelino confetta a Sulmona con il metodo tradizionale: solo mandorla e zucchero, senza amidi, glutine né maltodestrine.</p>
+    <div class="cta reveal"><a class="btn" href="https://pelinostore.com">Scopri lo shop</a><a class="btn gold" href="#contatti">Contattaci</a></div>
+  </div>
+  <span class="scrollhint">Scorri</span>
+</section>
+
+<div class="honours"><div class="wrap">
+  <div class="hon"><b data-count="1783" data-plain="1">1783</b><span>anno di fondazione a Sulmona</span></div>
+  <div class="hon"><b data-count="7" data-suffix="ª">7ª</b><span>generazione della famiglia Pelino</span></div>
+  <div class="hon"><b data-count="66">66</b><span>massime onorificenze nazionali ed estere</span></div>
+  <div class="hon"><b data-count="12">12</b><span>Grand Prix</span></div>
+  <div class="hon"><b data-count="36">36</b><span>medaglie d'oro</span></div>
+</div></div>
+
+<section class="story" id="storia"><div class="wrap">
+  <figure class="frame reveal" style="margin:0">
+    <div class="ph"><div class="par" style="background-image:url('https://cdn.shopify.com/s/files/1/0833/5189/6330/files/588.jpg?v=1760991250&width=1400')"></div></div>
+    <figcaption>Di padre in figlio, da sette generazioni</figcaption>
+  </figure>
+  <div>
+    <span class="eyebrow">La nostra storia</span>
+    <h2 class="reveal">Una fabbrica, una famiglia, <em>una città</em></h2>
+    <p class="lead reveal">La fabbrica Pelino nasce a Sulmona nel 1783 e da allora passa di padre in figlio. Oggi è guidata dalla settima generazione della famiglia, che custodisce il metodo tradizionale sulmonese del confetto.</p>
+    <p class="lead reveal">Un lavoro paziente che negli anni ha raccolto 66 massime onorificenze nazionali ed estere, 12 Grand Prix e 36 medaglie d'oro.</p>
+    <div class="gen reveal"><div><b>1783</b><span>la fondazione</span></div><div><b>VII</b><span>generazione Pelino</span></div><div><b>Sulmona</b><span>Via Stazione Introdacqua 55</span></div></div>
+  </div>
+</div></section>
+
+<section class="method" aria-label="Confetti in 3D">
+  <div class="fallback" id="confFallback"></div>
+  <canvas id="conf"></canvas>
+  <div class="over"><div class="inner">
+    <span class="eyebrow">Il metodo sulmonese</span>
+    <h2>Solo mandorla e zucchero, <em>strato dopo strato</em></h2>
+    <p class="lead">I confetti Pelino sono preparati con il metodo tradizionale di Sulmona: senza amidi, senza glutine e senza maltodestrine.</p>
+    <div class="pills"><span>Senza amidi</span><span>Senza glutine</span><span>Senza maltodestrine</span></div>
+  </div></div>
+</section>
+
+<section id="catalogo"><div class="wrap">
+  <span class="eyebrow">Il catalogo</span>
+  <h2 class="reveal">Dal confetto classico alla <em>creazione d'arte</em></h2>
+  <p class="lead reveal">Quattro famiglie di prodotti, tutte disponibili sullo shop online con spedizione gratuita sopra i 70 €.</p>
+  <div class="cats">
+    <a class="cat reveal" href="https://pelinostore.com"><div class="ph"><div class="par" style="background-image:url('https://pelinostore.com/cdn/shop/files/pelinostore.jpg?v=1780933176&width=1000')"></div></div><div class="in"><small>Confetti</small><h3>I classici</h3><p>Mandorla, tenerelli, incartati singoli, assortiti e gusti vari.</p></div></a>
+    <a class="cat reveal" href="https://pelinostore.com"><div class="ph"><div class="par" style="background-image:url('https://pelinostore.com/cdn/shop/files/Eventi_Speciali_Confetti_Pelino.jpg?v=1739972391&width=1000')"></div></div><div class="in"><small>Eventi</small><h3>Bomboniere</h3><p>Segnaposto e confezioni per ogni ricorrenza della vita.</p></div></a>
+    <a class="cat reveal" href="https://pelinostore.com"><div class="ph"><div class="par" style="background-image:url('https://cdn.shopify.com/s/files/1/0833/5189/6330/files/1047.jpg?v=1760991394&width=1000')"></div></div><div class="in"><small>Creazioni artistiche</small><h3>Fiori e bouquet</h3><p>Fiori, cesti e bouquet composti a mano con i confetti.</p></div></a>
+    <a class="cat reveal" href="https://pelinostore.com"><div class="ph"><div class="par" style="background-image:url('https://pelinostore.com/cdn/shop/collections/66_gennaio_Pelino_FOTO_2023.jpg?v=1762443075&width=1000')"></div></div><div class="in"><small>Liquori</small><h3>La dispensa</h3><p>Liquori della casa, come l'Amaro Corinna.</p></div></a>
+  </div>
+</div></section>
+
+<section class="events" id="eventi"><div class="wrap ev-grid">
+  <div>
+    <span class="eyebrow">Per ogni occasione</span>
+    <h2 class="reveal" style="color:var(--cream)">I giorni da ricordare hanno <em>il loro confetto</em></h2>
+    <p class="lead reveal">Dal primo segnaposto alle nozze d'oro: confezioni, colori e bomboniere pensati per ciascuna ricorrenza.</p>
+    <ul class="ev-list" id="evList">
+      <li>Matrimonio</li><li>Battesimo</li><li>Comunione e Cresima</li><li>18 anni</li><li>Laurea</li><li>Confettata</li><li>Nozze d'argento e d'oro</li><li>Segnaposto</li><li>Natale</li><li>Pasqua</li>
+    </ul>
+  </div>
+  <div class="ev-photos">
+    <div class="p reveal"><div class="par" style="background-image:url('https://pelinostore.com/cdn/shop/files/Matrimonio_Confetti_Pelino.jpg?v=1739973127&width=1400')"></div></div>
+    <div class="p reveal"><div class="par" style="background-image:url('https://pelinostore.com/cdn/shop/files/Battesimo_Confetti_Pelino.jpg?v=1739972919&width=900')"></div></div>
+    <div class="p reveal"><div class="par" style="background-image:url('https://pelinostore.com/cdn/shop/files/Eventi_Speciali_Confetti_Pelino.jpg?v=1739972391&width=900')"></div></div>
+  </div>
+</div></section>
+
+<section class="wide" id="museo">
+  <div class="bg par" style="background-image:url('https://cdn.shopify.com/s/files/1/0833/5189/6330/files/1047.jpg?v=1760991394&width=2000'),linear-gradient(160deg,#6b5543,#2b2118)"></div>
+  <div class="wrap">
+    <span class="eyebrow">Dentro la fabbrica</span>
+    <h2 class="reveal">Il Museo dell'Arte e della Tecnologia Confettiera</h2>
+    <p class="reveal">Una parte della fabbrica di Sulmona ospita il museo dedicato all'arte e alla tecnologia del confetto: la storia di un mestiere che la famiglia Pelino porta avanti dal 1783.</p>
+  </div>
+</section>
+
+<section id="listino"><div class="wrap listino">
+  <div>
+    <span class="eyebrow">Dallo shop</span>
+    <h2 class="reveal">Qualche prezzo, <em>per cominciare</em></h2>
+    <p class="lead reveal">Una selezione dal catalogo online. Formati, gusti e confezioni per eventi sono tutti su pelinostore.com.</p>
+    <div class="cta reveal" style="margin-top:30px"><a class="btn" href="https://pelinostore.com">Vai allo shop</a></div>
+  </div>
+  <div class="menu-card reveal">
+    <h3>Listino scelto</h3>
+    <div class="sub">Prezzi dallo shop ufficiale</div>
+    <div class="row"><span class="n">Avola Extra</span><span class="d"></span><span class="p">da 21,00 €</span></div>
+    <div class="row"><span class="n">Avola Extra Pelino</span><span class="d"></span><span class="p">da 30,00 €</span></div>
+    <div class="row"><span class="n">Avola media</span><span class="d"></span><span class="p">da 16,00 €</span></div>
+    <div class="row"><span class="n">Avola Media 500 g, incartati singoli</span><span class="d"></span><span class="p">17,50 €</span></div>
+    <div class="row"><span class="n">Sacchettone Alaska</span><span class="d"></span><span class="p">da 11,00 €</span></div>
+    <div class="row"><span class="n">Crystal Box Bianco</span><span class="d"></span><span class="p">5,40 €</span></div>
+    <div class="row"><span class="n">Amaro Corinna 0,50 l</span><span class="d"></span><span class="p">12,50 €</span></div>
+    <p class="ship">Spedizione <b>gratuita sopra i 70 €</b></p>
+  </div>
+</div></section>
+
+<section class="contact" id="contatti"><div class="wrap">
+  <div>
+    <span class="eyebrow">Contatti</span>
+    <h2>Un evento da preparare? <em>Parliamone</em></h2>
+    <p class="lead">Per bomboniere, confettate e ordini speciali chiamaci o scrivici. Per gli acquisti diretti c'è lo shop online.</p>
+  </div>
+  <div class="box">
+    <a href="tel:+390864210047"><b>0864 210047</b></a>
+    <a href="mailto:pelino@pelino.it">pelino@pelino.it</a>
+    <div>Confetti Pelino Srl<br>Via Stazione Introdacqua 55, 67039 Sulmona (AQ)</div>
+    <div class="cta"><a class="btn" href="tel:+390864210047">Chiama</a><a class="btn gold" href="mailto:pelino@pelino.it">Scrivi</a><a class="btn gold" href="https://pelinostore.com">Shop</a></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>Confetti Pelino Srl · Sulmona (AQ) · dal 1783</span><span>Via Stazione Introdacqua 55 · 0864 210047</span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot = /[?&]shot=1/.test(location.search);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nav = document.getElementById('nav');
+  function onScroll(){ nav.classList.toggle('solid', window.scrollY > window.innerHeight*0.7); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  if (shot || reduce || !window.gsap) return;
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  var lenis = new Lenis({lerp:0.09});
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+  gsap.ticker.lagSmoothing(0);
+
+  gsap.fromTo('#heroBg',{scale:1.12},{scale:1,duration:2.6,ease:'expo.out'});
+  gsap.to('#heroBg',{yPercent:12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  document.fonts.ready.then(function(){
+    var st = new SplitText('#heroTitle',{type:'words'});
+    gsap.from(st.words,{yPercent:100,opacity:0,duration:1.3,ease:'expo.out',stagger:0.08,delay:0.2});
+  });
+  gsap.from('.hero .reveal',{y:24,opacity:0,duration:1.1,ease:'power3.out',stagger:0.14,delay:0.7});
+
+  document.querySelectorAll('[data-count]').forEach(function(el){
+    var end=+el.dataset.count, o={v:end>1000?1700:0}, suf=el.dataset.suffix||'', plain=el.dataset.plain;
+    gsap.to(o,{v:end,duration:1.8,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 88%'},onUpdate:function(){
+      var n=Math.round(o.v); el.textContent=(plain?String(n):n.toLocaleString('it-IT'))+suf; }});
+  });
+
+  gsap.utils.toArray('main .reveal').forEach(function(el){
+    if (el.closest('.hero')) return;
+    gsap.from(el,{y:40,opacity:0,duration:1.1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}});
+  });
+  gsap.from('#evList li',{x:-20,opacity:0,duration:.7,ease:'power3.out',stagger:.05,scrollTrigger:{trigger:'#evList',start:'top 85%'}});
+
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  window.addEventListener('load',function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+<script type="module">
+// Confetti 3D: ellissoidi lucidi pastello che fluttuano, ruotano con lo scroll
+const canvas = document.getElementById('conf');
+const shot = /[?&]shot=1/.test(location.search);
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+try {
+  const THREE = await import('../vendor/three.module.min.js');
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:true, alpha:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  const scene = new THREE.Scene();
+  const cam = new THREE.PerspectiveCamera(38, 1, 0.1, 100);
+  cam.position.set(0, 0, 16);
+
+  // ambiente morbido per riflessi lucidi
+  const pm = new THREE.PMREMGenerator(renderer);
+  const envScene = new THREE.Scene();
+  envScene.background = new THREE.Color(0xf6ead6);
+  const l1 = new THREE.Mesh(new THREE.PlaneGeometry(8,4), new THREE.MeshBasicMaterial({color:0xffffff}));
+  l1.position.set(-4,5,4); l1.lookAt(0,0,0); envScene.add(l1);
+  const l2 = new THREE.Mesh(new THREE.PlaneGeometry(6,6), new THREE.MeshBasicMaterial({color:0xffe2a8}));
+  l2.position.set(6,-2,3); l2.lookAt(0,0,0); envScene.add(l2);
+  scene.environment = pm.fromScene(envScene, 0.04).texture;
+
+  scene.add(new THREE.HemisphereLight(0xfffaf1, 0xd9c4a0, 0.8));
+  const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(-5,8,10); scene.add(key);
+
+  const colors = [0xffffff, 0xf4d2d6, 0xcfe6d8, 0xd5e2f3, 0xf6ebc2, 0xe9dcf3, 0xfaf3e6, 0xd4b46a];
+  const geo = new THREE.SphereGeometry(1, 48, 32);
+  geo.scale(1, 0.68, 0.72);
+  const group = new THREE.Group(); scene.add(group);
+  const items = [];
+  const rand = (a,b)=>a+Math.random()*(b-a);
+  let seed = 7; const r = ()=>{ seed=(seed*16807)%2147483647; return seed/2147483647; };
+  for (let i=0;i<46;i++){
+    const c = colors[i%colors.length];
+    const mat = new THREE.MeshPhysicalMaterial({color:c, roughness:0.22, clearcoat:1, clearcoatRoughness:0.08, metalness: c===0xd4b46a?0.7:0, sheen:0.3});
+    const m = new THREE.Mesh(geo, mat);
+    const ang = r()*Math.PI*2, rad = 3.2 + r()*6;
+    m.position.set(Math.cos(ang)*rad*1.35, (r()-0.5)*9, (r()-0.5)*7 - 1);
+    const s = 0.42 + r()*0.38; m.scale.setScalar(s);
+    m.rotation.set(r()*6, r()*6, r()*6);
+    group.add(m);
+    items.push({m, y:m.position.y, ph:r()*6.28, sp:0.4+r()*0.7, rx:(r()-0.5)*0.6, ry:(r()-0.5)*0.6});
+  }
+
+  function size(){ const w=canvas.clientWidth, h=canvas.clientHeight; renderer.setSize(w,h,false); cam.aspect=w/h; cam.position.z = w<700?22:16; cam.updateProjectionMatrix(); }
+  size(); addEventListener('resize', size);
+  let prog=0.5, tgt=0.5, visible=true; const t0=performance.now();
+  function frame(){
+    const t = (shot||reduce) ? 1.2 : (performance.now()-t0)/1000;
+    prog += (tgt-prog)*0.05;
+    group.rotation.y = (prog-0.5)*1.1; group.position.y = (prog-0.5)*-2;
+    for (const it of items){
+      it.m.position.y = it.y + Math.sin(t*it.sp+it.ph)*0.35;
+      it.m.rotation.x += (shot||reduce)?0:it.rx*0.01; it.m.rotation.y += (shot||reduce)?0:it.ry*0.01;
+    }
+    renderer.render(scene,cam);
+    if (visible && !shot && !reduce) requestAnimationFrame(frame);
+  }
+  if (!shot && !reduce && window.ScrollTrigger){
+    ScrollTrigger.create({trigger:'.method', start:'top bottom', end:'bottom top', onUpdate:s=>{ tgt=s.progress; }});
+  }
+  if (!shot && !reduce){
+    new IntersectionObserver(e=>{ const v=e[0].isIntersecting; if(v&&!visible){visible=true;frame();} else visible=v; }).observe(canvas);
+  }
+  frame();
+  document.getElementById('confFallback').remove();
+} catch(e) {
+  canvas.style.display='none';
+  canvas.parentElement.style.minHeight='640px';
+}
+</script>
+</body>
+</html>

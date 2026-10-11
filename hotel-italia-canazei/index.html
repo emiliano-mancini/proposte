@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Hotel Italia · Canazei, Val di Fassa</title>
+<meta name="description" content="Hotel Italia, tre stelle nel centro storico di Canazei: 22 camere con vista sulle Dolomiti, cucina ladina, a 300 m dalla funivia. Gestione familiare Anesi da oltre 70 anni.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<style>
+:root{
+  --night:#17202b; --slate:#26323f; --stone:#e9e4dc; --snow:#f8f6f2; --rosa:#e7a594; --rosa-d:#c4705c; --larch:#b4532f; --ink:#151b22; --muted:#5a6470; --line:#d7d0c4;
+  --disp:"Gloock",Georgia,serif; --body:"Manrope","Segoe UI",system-ui,sans-serif;
+  --H:url("https://www.hotelitalia.eu/images/pic-home-vacanze.jpg"),url("https://www.hotelitalia.eu/images/ogimage.jpg");
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--body);color:var(--ink);background:var(--snow);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:24px}
+.eyebrow{font:800 11.5px var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--rosa-d)}
+h1,h2,h3{font-family:var(--disp);font-weight:400;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h2{font-size:clamp(34px,4.6vw,58px);line-height:1.04;margin:14px 0 18px;max-width:17ch}
+.lead{max-width:58ch;color:var(--muted);margin:0}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--larch);color:#fff;font-weight:700;text-decoration:none;border-radius:6px;padding:15px 24px;font-size:15px;transition:transform .2s,background .2s;border:0}
+.btn:hover{transform:translateY(-2px);background:#9c4425}
+.btn.ghost{background:rgba(255,255,255,.1);border:1.5px solid rgba(255,255,255,.6);backdrop-filter:blur(6px)}
+.btn.light{background:var(--snow);color:var(--ink)}
+.btn.light:hover{background:#fff}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:20;color:#fff;transition:background .3s,color .3s}
+.nav.solid{background:rgba(248,246,242,.94);color:var(--ink);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;padding-block:14px;gap:18px}
+.brand{font:400 24px/1 var(--disp);display:flex;flex-direction:column;gap:4px}
+.brand small{font:700 10px var(--body);letter-spacing:.24em;text-transform:uppercase;opacity:.8}
+.stars{color:var(--rosa);letter-spacing:.1em}
+.menu{display:flex;gap:26px;font-weight:600;font-size:14.5px}
+.menu a{text-decoration:none;opacity:.9}
+.right{display:flex;align-items:center;gap:14px}
+.lang{display:flex;border:1.5px solid currentColor;border-radius:999px;padding:3px;gap:2px}
+.lang button{font:800 11px var(--body);letter-spacing:.12em;background:none;color:inherit;border:0;border-radius:999px;padding:6px 10px;cursor:pointer;opacity:.7}
+.lang button[aria-pressed="true"]{background:var(--rosa);color:var(--night);opacity:1}
+.nav .btn{padding:11px 18px}
+
+/* HERO */
+.hero{position:relative;height:100svh;min-height:640px;color:#fff;overflow:hidden;display:flex;align-items:flex-end}
+.hero-bg{position:absolute;inset:-6% 0 0 0;background:var(--H);background-size:cover;background-position:center;background-color:#53697d;background-image:var(--H),linear-gradient(180deg,#6f8aa3 0%,#d9b3a5 45%,#3c4a42 100%);transform-origin:center 60%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,20,28,.6) 0%,rgba(14,20,28,.08) 36%,rgba(14,20,28,.82) 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:clamp(56px,10vh,110px);display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.tag{display:inline-flex;gap:10px;align-items:center;font:700 12px var(--body);letter-spacing:.2em;text-transform:uppercase;background:rgba(0,0,0,.32);backdrop-filter:blur(6px);padding:8px 14px;border-radius:999px}
+.hero h1{font-size:clamp(46px,7.6vw,108px);line-height:.98;margin:20px 0 20px;max-width:13ch}
+.hero p{max-width:46ch;font-size:19px;margin:0 0 30px;opacity:.95}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.hello{border-left:2px solid var(--rosa);padding:6px 0 6px 18px;max-width:250px;font-size:14px;opacity:.92}
+.hello b{display:block;font:400 30px/1.05 var(--disp);color:var(--rosa);margin-bottom:6px}
+
+/* FACTS */
+.facts{background:var(--night);color:var(--snow)}
+.facts .wrap{display:grid;grid-template-columns:repeat(5,1fr)}
+.fact{padding:30px 20px;border-left:1px solid rgba(255,255,255,.1)}
+.fact:first-child{border-left:0}
+.fact b{display:block;font:400 42px/1 var(--disp);color:var(--rosa);margin-bottom:8px;font-variant-numeric:tabular-nums}
+.fact span{font-size:13.5px;opacity:.8}
+
+section{padding-block:110px}
+
+/* ROOMS */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.photo{border-radius:4px;overflow:hidden;background:linear-gradient(135deg,#c9b8a6,#7e8b96);position:relative}
+.photo .par{position:absolute;inset:-8% 0;background-size:cover;background-position:center}
+.rooms-ph{display:grid;grid-template-columns:1.3fr 1fr;grid-template-rows:240px 240px;gap:12px}
+.rooms-ph .photo:first-child{grid-row:span 2}
+.amen{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 0;padding:0;list-style:none}
+.amen li{font-size:14px;font-weight:600;border:1.5px solid var(--line);border-radius:999px;padding:7px 14px;background:#fff}
+
+/* TABLE (kitchen) */
+.kitchen{background:var(--stone)}
+.kitchen .split{grid-template-columns:1.1fr 1fr}
+.kitchen .big{aspect-ratio:4/5}
+.cheese{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px}
+.cheese div{background:var(--snow);padding:18px 20px;border-radius:4px}
+.cheese b{display:block;font:400 22px var(--disp)}
+.cheese span{font-size:14px;color:var(--muted)}
+
+/* SEASONS */
+.seasons{display:grid;grid-template-columns:1fr 1fr;min-height:84vh}
+.season{position:relative;color:#fff;display:flex;align-items:flex-end;padding:56px clamp(24px,5vw,72px);overflow:hidden;background:linear-gradient(160deg,#9db3c7,#33465a)}
+.season.summer{background:linear-gradient(160deg,#b7c79a,#3f5a3e)}
+.season .bg{position:absolute;inset:-10% 0;background-size:cover;background-position:center}
+.season::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,20,28,.05),rgba(14,20,28,.82))}
+.season .txt{position:relative;z-index:2;max-width:34ch}
+.season h3{font-size:clamp(34px,4vw,54px);line-height:1.02;margin:10px 0 14px}
+.season p{margin:0 0 16px;opacity:.92}
+.season ul{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+.season li{font-size:13.5px;font-weight:600;background:rgba(255,255,255,.15);backdrop-filter:blur(6px);border-radius:999px;padding:6px 12px}
+
+/* RELAX */
+.relax{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:46px}
+.rcard{background:#fff;border-radius:4px;overflow:hidden;box-shadow:0 1px 0 var(--line),0 24px 50px -36px rgba(20,30,40,.5)}
+.rcard .photo{aspect-ratio:16/10;border-radius:0}
+.rcard .in{padding:26px 28px 30px}
+.rcard h3{font-size:28px;margin-bottom:8px}
+.rcard p{margin:0;color:var(--muted);font-size:15.5px}
+
+/* 3D */
+.relief{position:relative;background:var(--night);color:var(--snow);padding:0;overflow:hidden}
+.relief canvas{display:block;width:100%;height:min(88vh,780px)}
+.relief .fallback{position:absolute;inset:0;background:
+  repeating-radial-gradient(ellipse at 55% 60%,rgba(231,165,148,.0) 0 22px,rgba(231,165,148,.28) 23px 24px),var(--night)}
+.relief .over{position:absolute;inset:0;display:flex;align-items:flex-end;pointer-events:none;padding-bottom:64px;background:linear-gradient(90deg,rgba(23,32,43,.92) 0%,rgba(23,32,43,.6) 40%,rgba(23,32,43,0) 70%),linear-gradient(0deg,rgba(23,32,43,.85),rgba(23,32,43,0) 45%)}
+.relief .over .wrap{width:100%}
+.relief h2{color:#fff}
+.relief .lead{color:rgba(248,246,242,.78)}
+.relief .eyebrow{color:var(--rosa)}
+.pin{position:absolute;left:50%;top:18%;transform:translateX(-50%);font:800 11px var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--rosa);text-align:center;pointer-events:none}
+.pin:after{content:"";display:block;width:1px;height:70px;background:var(--rosa);margin:8px auto 0}
+.dist{display:flex;gap:28px;flex-wrap:wrap;margin-top:22px;font-size:14px}
+.dist b{font:400 26px var(--disp);color:var(--rosa);display:block}
+
+/* GALLERY */
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:250px 250px;gap:12px;margin-top:40px}
+.gallery .photo:first-child{grid-row:span 2}
+
+/* INFO */
+.band{background:var(--stone)}
+.info{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:40px}
+.icard{background:var(--snow);padding:26px;border-radius:4px}
+.icard h3{font-size:24px;margin-bottom:12px}
+.icard ul{margin:0;padding:0;list-style:none;font-size:15px}
+.icard li{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}
+.icard li:last-child{border-bottom:0}
+.icard li b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.note{font-size:14px;color:var(--muted);margin-top:16px}
+
+/* CONTACT */
+.contact{background:var(--night);color:var(--snow)}
+.contact .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:center}
+.contact h2{color:#fff}
+.contact .eyebrow{color:var(--rosa)}
+.contact .lead{color:rgba(248,246,242,.8)}
+.box{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:6px;padding:32px;display:flex;flex-direction:column;gap:12px}
+.box a.big{font:400 32px var(--disp);color:var(--rosa);text-decoration:none}
+.box .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.speak{display:flex;gap:8px;margin-top:22px;font-size:13px;opacity:.8;flex-wrap:wrap}
+.speak span{border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:4px 10px}
+footer{background:#10161e;color:rgba(248,246,242,.6);font-size:13px;padding-block:26px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.ribbon{position:fixed;right:14px;bottom:14px;z-index:30;background:#111;color:#fff;font:700 12px var(--body);padding:8px 12px;border-radius:6px;opacity:.9}
+.fab{display:none}
+
+@media (max-width:1000px){
+  .menu{display:none}
+  .facts .wrap{grid-template-columns:repeat(3,1fr)}
+  .fact:nth-child(4){border-left:0}
+}
+@media (max-width:820px){
+  body{font-size:16px}
+  .nav .btn{display:none}
+  .lang button{padding:5px 8px}
+  .hero .wrap{grid-template-columns:1fr}
+  .hello{display:none}
+  .facts .wrap{grid-template-columns:1fr 1fr}
+  .fact{border-left:0;border-top:1px solid rgba(255,255,255,.1)}
+  .fact:last-child{grid-column:span 2}
+  .split,.kitchen .split{grid-template-columns:1fr;gap:36px}
+  .rooms-ph{grid-template-rows:180px 180px}
+  .seasons{grid-template-columns:1fr}
+  .season{min-height:72vh}
+  .relax{grid-template-columns:1fr}
+  .gallery{grid-template-columns:1fr 1fr;grid-template-rows:200px 150px 150px}
+  .gallery .photo:first-child{grid-column:span 2;grid-row:auto}
+  .info{grid-template-columns:1fr}
+  .contact .wrap{grid-template-columns:1fr}
+  section{padding-block:72px}
+  .relief canvas{height:78vh}
+  .ribbon{bottom:72px}
+  .fab{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:25;justify-content:center;box-shadow:0 10px 30px -10px rgba(0,0,0,.5)}
+}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav" id="nav"><div class="wrap">
+  <div class="brand">Hotel Italia<small><span class="stars">★★★</span> Canazei · Val di Fassa</small></div>
+  <nav class="menu"><a href="#camere">Camere</a><a href="#cucina">Cucina</a><a href="#stagioni">Inverno ed estate</a><a href="#dove">Dove siamo</a><a href="#info">Buono a sapersi</a></nav>
+  <div class="right">
+    <div class="lang" role="group" aria-label="Lingua">
+      <button type="button" data-l="it" aria-pressed="true">IT</button><button type="button" data-l="de" aria-pressed="false">DE</button><button type="button" data-l="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn" href="mailto:info@hotelitalia.eu?subject=Richiesta%20disponibilit%C3%A0" data-t="cta">Richiedi disponibilità</a>
+  </div>
+</div></header>
+
+<section class="hero" style="padding:0">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="wrap">
+    <div>
+      <span class="tag reveal" data-t="tag">★★★ · Centro storico di Canazei · Dolomiti</span>
+      <h1 id="heroTitle">Nel cuore di Canazei, le Dolomiti alla finestra</h1>
+      <p class="reveal" data-t="sub">Un piccolo albergo di famiglia nella zona pedonale del paese, a 300 metri dalla funivia. Ventidue camere con vista, cucina ladina e la famiglia Anesi ad accogliervi da oltre settant'anni.</p>
+      <div class="cta reveal"><a class="btn" href="mailto:info@hotelitalia.eu?subject=Richiesta%20disponibilit%C3%A0" data-t="cta">Richiedi disponibilità</a><a class="btn ghost" href="tel:+390462601120">+39 0462 601120</a></div>
+    </div>
+    <div class="hello reveal"><b data-t="hi">Benvenuti</b><span data-t="hiS">Ospiti da tutta Europa: scriveteci in italiano, tedesco o inglese.</span></div>
+  </div>
+</section>
+
+<div class="facts"><div class="wrap">
+  <div class="fact"><b>★★★</b><span>hotel in pieno centro storico</span></div>
+  <div class="fact"><b data-count="22">22</b><span>camere, tutte con vista sulle Dolomiti</span></div>
+  <div class="fact"><b data-count="70" data-pre="+">+70</b><span>anni di gestione della famiglia Anesi</span></div>
+  <div class="fact"><b data-count="300" data-fmt="m">300 m</b><span>a piedi dalla funivia</span></div>
+  <div class="fact"><b data-count="200" data-fmt="m">200 m</b><span>dal centro acquatico Dolaondes</span></div>
+</div></div>
+
+<section id="camere"><div class="wrap split">
+  <div>
+    <span class="eyebrow">Le camere</span>
+    <h2 class="reveal">Ventidue camere, una sola vista: le Dolomiti</h2>
+    <p class="lead reveal">Tutte le camere sono state rinnovate di recente e da ogni finestra si vedono le montagne. Alcune hanno il balcone: se lo desiderate, chiedetelo quando scrivete.</p>
+    <ul class="amen reveal"><li>SKY TV</li><li>Wi-Fi</li><li>Cassaforte</li><li>Telefono</li><li>Asciugacapelli</li><li>Bagno con vasca o doccia</li><li>WC e bidet</li></ul>
+  </div>
+  <div class="rooms-ph">
+    <div class="photo reveal"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/gallery-camere-big01.jpg')"></div></div>
+    <div class="photo reveal"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/gallery-camere-big02.jpg')"></div></div>
+    <div class="photo reveal"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/gallery-camere-big03.jpg')"></div></div>
+  </div>
+</div></section>
+
+<section class="kitchen" id="cucina"><div class="wrap split">
+  <div class="photo big reveal"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/pic-home-gastronomia.jpg')"></div></div>
+  <div>
+    <span class="eyebrow">A tavola</span>
+    <h2 class="reveal">Cucina ladina, la sera, dopo una giornata in quota</h2>
+    <p class="lead reveal">Ogni sera lo chef propone piatti della tradizione ladina accanto alla cucina italiana e internazionale. In cantina, vini del Trentino-Alto Adige e del resto d'Italia.</p>
+    <div class="cheese reveal">
+      <div><b>Puzzone di Moena</b><span>il formaggio della valle</span></div>
+      <div><b>Cuore di Fassa</b><span>formaggio locale</span></div>
+    </div>
+  </div>
+</div></section>
+
+<div class="seasons" id="stagioni">
+  <div class="season"><div class="bg par" style="background-image:url('https://www.hotelitalia.eu/images/plus-sci.jpg')"></div>
+    <div class="txt"><span class="eyebrow" style="color:#bfe0ff">Inverno</span><h3>Sci ai piedi, Sellaronda a 300 metri</h3><p>Siete nel comprensorio Sellaronda – Dolomiti Superski. La pista del bosco riporta in paese e finisce a pochi passi dal deposito sci dell'hotel.</p><ul><li>Ciaspole</li><li>Fiaccolate</li><li>Pattinaggio</li><li>Hockey di Serie A</li><li>Après-ski</li></ul></div></div>
+  <div class="season summer"><div class="bg par" style="background-image:url('https://www.hotelitalia.eu/images/plus-sport.jpg')"></div>
+    <div class="txt"><span class="eyebrow" style="color:#e8f0c8">Estate</span><h3>Da giugno a settembre, si sale</h3><p>Passeggiate nei boschi, arrampicata sulle pareti, bici nel fondovalle e sulle salite più dure. E la sera, gli eventi in paese.</p><ul><li>Escursioni</li><li>Arrampicata</li><li>Bici</li><li>I Suoni delle Dolomiti</li><li>Degustazioni</li></ul></div></div>
+</div>
+
+<section id="relax"><div class="wrap">
+  <span class="eyebrow">Relax e dopocena</span>
+  <h2 class="reveal">Acqua salata a 200 metri, uno SKY Bar in casa</h2>
+  <div class="relax">
+    <article class="rcard reveal"><div class="photo"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/pic-home-wellness.jpg')"></div></div><div class="in"><h3>Dolaondes, con lo sconto</h3><p>L'hotel non ha una spa interna: ha di meglio, una convenzione con il centro acquatico Dolaondes a 200 metri. Saune, piscina esterna di acqua salata, percorsi Kneipp e massaggi a prezzo ridotto. Le QC Terme Val di Fassa sono a circa 12 km.</p></div></article>
+    <article class="rcard reveal"><div class="photo"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/pic-home-skybar.jpg')"></div></div><div class="in"><h3>SKY Bar</h3><p>Per un drink dopo le piste o la partita in TV. E se cercate musica, l'Après-ski Rosengarten è proprio accanto: la sera l'hotel resta tranquillo, la domenica c'è musica dal vivo fino alle 22–24.</p></div></article>
+  </div>
+</div></section>
+
+<section class="relief" id="dove" aria-label="Rilievo delle Dolomiti in 3D">
+  <div class="fallback" id="reliefFallback"></div>
+  <canvas id="relief"></canvas>
+  <div class="over"><div class="wrap"><span class="eyebrow">Dove siamo</span><h2>In zona a traffico limitato, tutto a piedi</h2><p class="lead">Via Dolomites 120, 38032 Canazei (TN). Lasciate l'auto nel parcheggio privato: impianti, ristoranti, bar e negozi sono a pochi passi.</p>
+    <div class="dist"><div><b>300 m</b>funivia</div><div><b>200 m</b>Dolaondes</div><div><b>12 km</b>QC Terme</div></div></div></div>
+</section>
+
+<section><div class="wrap">
+  <span class="eyebrow">Fotografie</span>
+  <h2 class="reveal">L'hotel e il paese</h2>
+  <div class="gallery">
+    <div class="photo reveal"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/gallery01.jpg')"></div></div>
+    <div class="photo reveal"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/gallery02.jpg')"></div></div>
+    <div class="photo reveal"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/gallery03.jpg')"></div></div>
+    <div class="photo reveal"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/gallery04.jpg')"></div></div>
+    <div class="photo reveal"><div class="par" style="background-image:url('https://www.hotelitalia.eu/images/gallery05.jpg')"></div></div>
+  </div>
+</div></section>
+
+<section class="band" id="info"><div class="wrap">
+  <span class="eyebrow">Buono a sapersi</span>
+  <h2 class="reveal">Prezzi a persona in mezza pensione, su preventivo</h2>
+  <p class="lead reveal">Le tariffe variano secondo il periodo: scriveteci le date e vi mandiamo il preventivo. Intanto, ecco le condizioni.</p>
+  <div class="info">
+    <div class="icard reveal"><h3>Letto aggiunto</h3><ul><li>Bambini 0–3 anni<b>−70%</b></li><li>Bambini 4–12 anni<b>−30%</b></li><li>Dai 13 anni<b>−15%</b></li></ul></div>
+    <div class="icard reveal"><h3>Orari</h3><ul><li>Camera disponibile dalle<b>13:00</b></li><li>Partenza entro le<b>10:00</b></li><li>Arrivo dopo le 20:00<b>avvisate</b></li></ul></div>
+    <div class="icard reveal"><h3>Supplementi</h3><ul><li>Tassa di soggiorno<b>€ 2 / persona / giorno</b></li><li>Under 14<b>esenti</b></li><li>Cane (non al ristorante)<b>€ 15 / giorno</b></li></ul></div>
+  </div>
+  <p class="note">Caparra del 30% per confermare la prenotazione. Penali di cancellazione: 50% da 15 a 7 giorni, 75% da 6 a 4 giorni, 100% da 3 giorni prima dell'arrivo.</p>
+</div></section>
+
+<section class="contact" id="contatti"><div class="wrap">
+  <div><span class="eyebrow">Richiedi disponibilità</span><h2>Diteci le date, vi rispondiamo con il preventivo</h2><p class="lead">Quante persone siete, quante notti, se vi serve il balcone o un letto in più per i bambini. Al resto pensiamo noi.</p>
+    <div class="speak"><span>Italiano</span><span>Deutsch</span><span>English</span></div></div>
+  <div class="box">
+    <a class="big" href="tel:+390462601120">+39 0462 601120</a>
+    <div>Cellulare <a href="tel:+393496449495">+39 349 6449495</a></div>
+    <div><a href="mailto:info@hotelitalia.eu">info@hotelitalia.eu</a></div>
+    <div>Via Dolomites 120, 38032 Canazei (TN)</div>
+    <div class="row"><a class="btn" href="mailto:info@hotelitalia.eu?subject=Richiesta%20disponibilit%C3%A0" data-t="cta">Richiedi disponibilità</a><a class="btn light" href="https://www.hotelitalia.eu/richiesta_informazioni_it.php">Modulo sul sito</a></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span>Hotel Italia Canazei · Anesi Hotelier Srl · P.IVA 01099980227</span><span><a href="https://www.instagram.com/hotelitaliacanazei/">Instagram</a> · <a href="https://www.facebook.com/hotelitaliacanazei/">Facebook</a></span></div></footer>
+<a class="btn fab" href="mailto:info@hotelitalia.eu?subject=Richiesta%20disponibilit%C3%A0" data-t="cta">Richiedi disponibilità</a>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot = /[?&]shot=1/.test(location.search);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nav = document.getElementById('nav');
+  function onScroll(){ nav.classList.toggle('solid', window.scrollY > window.innerHeight*0.7); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  // Selettore lingua (elemento di design: cambia saluto, sottotitolo e pulsanti)
+  var T = {
+    it:{cta:'Richiedi disponibilità',tag:'★★★ · Centro storico di Canazei · Dolomiti',hi:'Benvenuti',hiS:'Ospiti da tutta Europa: scriveteci in italiano, tedesco o inglese.',
+        sub:"Un piccolo albergo di famiglia nella zona pedonale del paese, a 300 metri dalla funivia. Ventidue camere con vista, cucina ladina e la famiglia Anesi ad accogliervi da oltre settant'anni.",subj:'Richiesta disponibilità'},
+    de:{cta:'Verfügbarkeit anfragen',tag:'★★★ · Ortszentrum von Canazei · Dolomiten',hi:'Herzlich willkommen',hiS:'Schreiben Sie uns gern auf Deutsch, Italienisch oder Englisch.',
+        sub:'Ein kleines Familienhotel in der Fußgängerzone, 300 Meter von der Seilbahn. 22 Zimmer mit Dolomitenblick, ladinische Küche und seit über 70 Jahren Familie Anesi als Gastgeber.',subj:'Anfrage Verfügbarkeit'},
+    en:{cta:'Check availability',tag:'★★★ · Canazei old town · Dolomites',hi:'Welcome',hiS:'Write to us in English, German or Italian.',
+        sub:'A small family hotel in the pedestrian heart of the village, 300 metres from the cable car. 22 rooms with Dolomite views, Ladin cooking and the Anesi family as hosts for over 70 years.',subj:'Availability request'}
+  };
+  function setLang(l){
+    document.querySelectorAll('.lang button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.l===l ? 'true':'false'); });
+    document.querySelectorAll('[data-t]').forEach(function(el){ var k=el.dataset.t; if(T[l][k]) el.textContent=T[l][k]; });
+    document.querySelectorAll('a[href^="mailto:info@hotelitalia.eu?"]').forEach(function(a){ a.href='mailto:info@hotelitalia.eu?subject='+encodeURIComponent(T[l].subj); });
+    document.documentElement.lang = l;
+  }
+  document.querySelectorAll('.lang button').forEach(function(b){ b.addEventListener('click', function(){ setLang(b.dataset.l); }); });
+
+  if (shot || reduce || !window.gsap) return; // contenuto statico completo
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  var lenis = new Lenis({lerp:0.1});
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){ a.addEventListener('click',function(e){ var t=document.querySelector(a.getAttribute('href')); if(t){ e.preventDefault(); lenis.scrollTo(t,{offset:-60}); } }); });
+
+  gsap.fromTo('#heroBg',{scale:1.14},{scale:1,duration:2.6,ease:'expo.out'});
+  gsap.to('#heroBg',{yPercent:12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  document.fonts.ready.then(function(){
+    var st = new SplitText('#heroTitle',{type:'words'});
+    gsap.from(st.words,{yPercent:110,opacity:0,duration:1.1,ease:'expo.out',stagger:0.06,delay:0.2});
+  });
+  gsap.from('.hero .reveal',{y:24,opacity:0,duration:1,ease:'power3.out',stagger:0.12,delay:0.6});
+
+  document.querySelectorAll('[data-count]').forEach(function(el){
+    var end=+el.dataset.count, o={v:0}, fmt=el.dataset.fmt, pre=el.dataset.pre||'';
+    gsap.to(o,{v:end,duration:1.6,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 90%'},onUpdate:function(){
+      var n=Math.round(o.v).toLocaleString('it-IT'); el.textContent = pre + (fmt ? n+' '+fmt : n); }});
+  });
+
+  gsap.utils.toArray('section .reveal').forEach(function(el){
+    gsap.from(el,{y:40,opacity:0,duration:1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}});
+  });
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  window.addEventListener('load',function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+<script type="module">
+// Dolomiti 3D: rilievo a curve di livello, l'"enrosadira" accende le cime con lo scroll
+const canvas = document.getElementById('relief');
+const shot = /[?&]shot=1/.test(location.search);
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+try {
+  const THREE = await import('../vendor/three.module.min.js');
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x17202b);
+  const cam = new THREE.PerspectiveCamera(40, 1, 0.1, 100);
+
+  const geo = new THREE.PlaneGeometry(36, 24, 220, 150);
+  geo.rotateX(-Math.PI/2);
+  const p = geo.attributes.position;
+  const n2 = (x,z)=>Math.sin(x*1.3+z*0.7)*0.5+Math.sin(x*0.5-z*1.1)*0.6+Math.sin(x*2.7+z*2.1)*0.2+Math.sin(x*4.3-z*3.7)*0.08;
+  const g = (x,z,cx,cz,sx,sz,h)=>h*Math.exp(-Math.pow((x-cx)/sx,2)-Math.pow((z-cz)/sz,2));
+  for (let i=0;i<p.count;i++){
+    const x=p.getX(i), z=p.getZ(i);
+    let y = g(x,z,-2,-4,3.2,2.4,5.4)    // massiccio principale (gruppo del Sella)
+          + g(x,z,7,-6,2.4,2.2,4.6)     // Sassolungo
+          + g(x,z,-10,-2,3,2.6,3.9)     // Marmolada
+          + g(x,z,4,1,2.2,1.8,2.2)
+          + g(x,z,-6,5,2.6,2.4,1.6);
+    y *= 1 + 0.18*n2(x*0.9,z*0.9);
+    y += 0.4*n2(x*0.7,z*0.7) - Math.exp(-Math.pow((z-3.6)/1.4,2))*0.9; // fondovalle
+    // pareti dolomitiche: terrazza i rilievi alti
+    if (y>2.4) y = 2.4 + Math.floor((y-2.4)*2.2)/2.2 + ((y-2.4)*2.2%1)*0.12;
+    p.setY(i, y);
+  }
+  geo.computeVertexNormals();
+
+  const uni = { uGlow:{value:0.3}, uTime:{value:0} };
+  const mat = new THREE.ShaderMaterial({
+    uniforms: uni,
+    vertexShader:`varying float vH; varying vec3 vN; varying vec2 vXZ;
+      void main(){ vH=position.y; vN=normalize(normalMatrix*normal); vXZ=position.xz; gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0); }`,
+    fragmentShader:`varying float vH; varying vec3 vN; varying vec2 vXZ; uniform float uGlow;
+      void main(){
+        float k = vH*3.2;
+        float f = abs(fract(k-0.5)-0.5)/fwidth(k);
+        float line = 1.0 - min(f,1.0);
+        float k5 = vH*0.64; float f5 = abs(fract(k5-0.5)-0.5)/fwidth(k5);
+        float major = 1.0 - min(f5,1.0);
+        float t = clamp((vH+0.5)/6.0,0.0,1.0);
+        vec3 base = mix(vec3(0.09,0.125,0.17), vec3(0.16,0.2,0.25), t);
+        vec3 rosa = vec3(0.906,0.647,0.58);
+        vec3 snow = vec3(0.97,0.96,0.94);
+        vec3 lc = mix(vec3(0.42,0.5,0.56), mix(snow, rosa, uGlow), smoothstep(0.25,0.85,t));
+        float shade = 0.55 + 0.45*max(dot(vN, normalize(vec3(-0.5,0.8,0.4))),0.0);
+        vec3 c = base*shade + lc*(line*0.55 + major*0.6);
+        float fog = smoothstep(9.0, 18.0, length(vXZ));
+        c = mix(c, vec3(0.09,0.125,0.17), fog);
+        gl_FragColor = vec4(c,1.0);
+      }`
+  });
+  scene.add(new THREE.Mesh(geo, mat));
+
+  const pin = new THREE.Mesh(new THREE.SphereGeometry(0.16,16,16), new THREE.MeshBasicMaterial({color:0xe7a594}));
+  pin.position.set(3.0, 0.1, 3.6); scene.add(pin);
+  const ring = new THREE.Mesh(new THREE.RingGeometry(0.3,0.36,48), new THREE.MeshBasicMaterial({color:0xe7a594, transparent:true, opacity:0.6, side:THREE.DoubleSide}));
+  ring.rotation.x = -Math.PI/2; ring.position.copy(pin.position); scene.add(ring);
+
+  function size(){ const w=canvas.clientWidth, h=canvas.clientHeight; renderer.setSize(w,h,false); cam.aspect=w/h; cam.fov = w<700?58:40; cam.updateProjectionMatrix(); }
+  size(); addEventListener('resize', size);
+  let prog = 0.4, tgt = 0.4, visible = true;
+  function place(t){ const a = -0.7 + t*1.3; cam.position.set(Math.sin(a)*16, 9 - t*2.6, Math.cos(a)*16); cam.lookAt(0,0.8,-1); uni.uGlow.value = 0.15 + t*0.85; }
+  function frame(){
+    prog += (tgt-prog)*0.06; place(prog);
+    const s = 1+0.6*((performance.now()/1400)%1); ring.scale.setScalar(s); ring.material.opacity = 0.7*(1-((performance.now()/1400)%1));
+    renderer.render(scene,cam);
+    if(visible && !shot && !reduce) requestAnimationFrame(frame);
+  }
+  if (!shot && !reduce && window.ScrollTrigger){
+    ScrollTrigger.create({trigger:'.relief', start:'top bottom', end:'bottom top', onUpdate:s=>{ tgt = s.progress; }});
+    new IntersectionObserver(e=>{ const v=e[0].isIntersecting; if(v&&!visible){visible=true;frame();} else visible=v; }).observe(canvas);
+  }
+  if (shot) prog = tgt = 0.6;
+  frame();
+  document.getElementById('reliefFallback').remove();
+} catch(e) {
+  canvas.style.display='none';
+}
+</script>
+</body>
+</html>

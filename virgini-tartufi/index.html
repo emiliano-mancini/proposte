@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Virgini Tartufi · Spello, Umbria</title>
+<meta name="description" content="Virgini Tartufi, Spello (PG): una famiglia di cercatori di tartufo da generazioni. Tartufi freschi, salse, condimenti e specialità al tartufo dal nostro laboratorio, nel negozio vicino al centro storico.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<style>
+:root{
+  --soil:#1e1712; --soil-2:#2c221b; --bark:#4a3a2c; --cream:#f4ede1; --paper:#ebe2d2; --ochre:#c9973f; --ochre-2:#e2b866; --olive:#6d6a3e; --ink:#1c1612; --muted:#6b5e51;
+  --disp:"Cormorant Garamond",Georgia,serif; --body:"Manrope","Segoe UI",system-ui,sans-serif;
+  --U:"https://www.virginitartufi.it/wp-content/uploads/";
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--body);color:var(--ink);background:var(--cream);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:24px}
+.eyebrow{display:inline-block;font:700 12px var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--bark)}
+h1,h2,h3{font-family:var(--disp);font-weight:500;margin:0;text-wrap:balance}
+h2{font-size:clamp(38px,5vw,64px);line-height:1;margin:14px 0 20px;max-width:16ch}
+.lead{max-width:58ch;color:var(--muted);margin:0}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--ochre);color:#1b1206;font-weight:700;text-decoration:none;border-radius:4px;padding:15px 24px;font-size:15px;letter-spacing:.02em;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:var(--ochre-2)}
+.btn.ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.55)}
+.btn.dark{background:var(--soil);color:var(--cream)}
+section{padding-block:120px}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:20;color:#fff;transition:background .3s,color .3s}
+.nav.solid{background:rgba(30,23,18,.94);backdrop-filter:blur(10px)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;padding-block:16px;gap:18px}
+.brand{font:600 26px/1 var(--disp);letter-spacing:.02em}
+.brand small{display:block;font:600 10px var(--body);letter-spacing:.24em;text-transform:uppercase;opacity:.7;margin-top:4px}
+.menu{display:flex;gap:26px;font-weight:600;font-size:14px}
+.menu a{text-decoration:none;opacity:.88}
+.right{display:flex;align-items:center;gap:16px}
+.langs{display:flex;gap:2px;font:700 11px var(--body);letter-spacing:.1em}
+.langs span{padding:5px 7px;border-radius:3px;opacity:.6}
+.langs span.on{opacity:1;background:rgba(255,255,255,.14)}
+.nav .btn{padding:10px 16px;font-size:14px}
+
+/* HERO */
+.hero{position:relative;height:100svh;min-height:640px;color:#fff;overflow:hidden;display:flex;align-items:flex-end;padding:0}
+.hero-bg{position:absolute;inset:-6% 0 0 0;background:url("https://www.virginitartufi.it/wp-content/uploads/2023/08/K125516_web-1024x684.jpg") center/cover,radial-gradient(ellipse at 30% 30%,#6b5136,#2a1f17 70%);}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,14,10,.6) 0%,rgba(20,14,10,.1) 40%,rgba(20,14,10,.85) 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:clamp(56px,11vh,120px)}
+.tag{display:inline-flex;gap:10px;align-items:center;font:700 12px var(--body);letter-spacing:.22em;text-transform:uppercase;border-top:1px solid var(--ochre-2);padding-top:10px;color:var(--ochre-2)}
+.hero h1{font-size:clamp(52px,8.4vw,118px);line-height:.92;margin:20px 0 22px;max-width:13ch;font-weight:500}
+.hero h1 em{font-style:italic;color:var(--ochre-2)}
+.hero p{max-width:46ch;font-size:19px;margin:0 0 32px;opacity:.94}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.scrollhint{position:absolute;right:24px;bottom:28px;z-index:2;font:700 11px var(--body);letter-spacing:.24em;text-transform:uppercase;writing-mode:vertical-rl;opacity:.7}
+
+/* FACTS */
+.facts{background:var(--soil);color:var(--cream)}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.fact{padding:32px 24px;border-left:1px solid rgba(244,237,225,.1)}
+.fact:first-child{border-left:0}
+.fact b{display:block;font:500 50px/1 var(--disp);color:var(--ochre-2);margin-bottom:8px;font-variant-numeric:tabular-nums}
+.fact span{font-size:14px;opacity:.78}
+
+/* FAMIGLIA */
+.family .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:72px;align-items:center}
+.stack{position:relative;aspect-ratio:4/5}
+.stack .ph{position:absolute;overflow:hidden;border-radius:4px;background:linear-gradient(160deg,#5a4532,#2b2019)}
+.stack .ph div{position:absolute;inset:-8% 0;background-size:cover;background-position:center}
+.stack .a{inset:0 18% 12% 0}
+.stack .b{width:46%;aspect-ratio:1;right:0;bottom:0;border:8px solid var(--cream);background:linear-gradient(160deg,#7a5f45,#3a2c21)}
+.quote{font:italic 500 clamp(30px,3.4vw,44px)/1.15 var(--disp);color:var(--soil);margin:26px 0 26px;padding-left:24px;border-left:3px solid var(--ochre);max-width:22ch}
+.family p{color:var(--muted);max-width:52ch;margin:0 0 16px}
+
+/* TARTUFI */
+.truffles{background:var(--paper)}
+.tgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:52px}
+.tcard{position:relative;border-radius:4px;overflow:hidden;aspect-ratio:3/4.2;color:#fff;display:flex;align-items:flex-end;background:linear-gradient(170deg,#5c4734,#1f1813)}
+.tcard .bg{position:absolute;inset:-10% 0;background-size:cover;background-position:center}
+.tcard::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,14,10,0) 40%,rgba(20,14,10,.85))}
+.tcard .in{position:relative;z-index:2;padding:22px}
+.tcard small{font:700 11px var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--ochre-2)}
+.tcard h3{font-size:34px;line-height:1;margin-top:6px}
+.tnote{margin-top:22px;color:var(--muted);font-size:15px}
+
+/* 3D FILIERA */
+.filiera{position:relative;background:radial-gradient(ellipse at 70% 50%,#3a2c20,var(--soil) 65%);color:var(--cream);padding:0;overflow:hidden}
+.filiera .grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:min(92vh,820px)}
+.filiera canvas{display:block;width:100%;height:min(80vh,680px)}
+.filiera .stage{position:relative}
+.filiera .fallback{position:absolute;inset:12%;border-radius:50%;background:radial-gradient(circle at 38% 34%,#6a5442,#2a1f17 62%,transparent 70%)}
+.filiera .eyebrow{color:var(--ochre-2)}
+.filiera h2{color:#fff}
+.steps{list-style:none;margin:34px 0 0;padding:0;display:grid;gap:4px}
+.steps li{display:grid;grid-template-columns:56px 1fr;gap:6px;padding:18px 0;border-top:1px solid rgba(244,237,225,.12)}
+.steps b{font:500 30px/1 var(--disp);color:var(--ochre-2)}
+.steps h3{font-size:26px;color:#fff;margin-bottom:4px}
+.steps p{margin:0;color:rgba(244,237,225,.72);font-size:15px}
+
+/* DISPENSA */
+.dhead{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:48px;border-top:1px solid #d9ccb6}
+.prod{display:flex;gap:14px;align-items:baseline;padding:18px 6px;border-bottom:1px solid #d9ccb6;font-weight:600;font-size:16px}
+.prod:nth-child(3n+2),.prod:nth-child(3n+3){padding-left:20px;border-left:1px solid #d9ccb6}
+.prod i{font:italic 500 18px var(--disp);color:var(--ochre);font-style:italic;min-width:26px}
+.gallery{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-template-rows:280px 280px;gap:14px;margin-top:64px}
+.gallery div{border-radius:4px;overflow:hidden;background:linear-gradient(160deg,#6f573f,#2f241b)}
+.gallery div span{display:block;width:100%;height:116%;margin-top:-8%;background-size:cover;background-position:center}
+.gallery div:first-child{grid-row:span 2}
+.gallery div:nth-child(4){grid-column:span 2}
+
+/* NEGOZIO */
+.shop{position:relative;min-height:88vh;color:#fff;display:flex;align-items:center;overflow:hidden;padding:0}
+.shop .bg{position:absolute;inset:-10% 0;background:url("https://www.virginitartufi.it/wp-content/uploads/2018/08/virgini-negozio-1-1024x691.jpg") center/cover,linear-gradient(135deg,#6a5038,#241b14)}
+.shop::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,14,10,.88) 0%,rgba(20,14,10,.55) 50%,rgba(20,14,10,.1) 100%)}
+.shop .wrap{position:relative;z-index:2;width:100%;padding-block:110px}
+.shop .eyebrow{color:var(--ochre-2)}
+.shop p{max-width:46ch;opacity:.9;margin:0 0 28px}
+.world{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+.world span{font:600 13px var(--body);border:1px solid rgba(255,255,255,.35);padding:7px 14px;border-radius:999px}
+
+/* CONTATTI */
+.contact{background:var(--cream)}
+.contact .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:center}
+.box{background:var(--soil);color:var(--cream);border-radius:4px;padding:36px;display:flex;flex-direction:column;gap:12px}
+.box b{font:500 36px/1 var(--disp);color:var(--ochre-2)}
+.box a:not(.btn){text-decoration:none}
+.box .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.box .btn.ghost{color:var(--cream);border-color:rgba(244,237,225,.4)}
+.box .addr{opacity:.75;font-size:15px}
+footer{background:#140f0b;color:rgba(244,237,225,.6);font-size:13px;padding-block:26px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.ribbon{position:fixed;right:14px;bottom:14px;z-index:30;background:#111;color:#fff;font:600 12px var(--body);padding:8px 12px;border-radius:6px;opacity:.88}
+.reveal{will-change:transform,opacity}
+
+@media (max-width:960px){
+  .menu{display:none}
+  .family .wrap,.contact .wrap{grid-template-columns:1fr;gap:48px}
+  .tgrid{grid-template-columns:1fr 1fr}
+  .filiera .grid{grid-template-columns:1fr}
+  .filiera canvas{height:52vh}
+  .filiera .txt{padding-bottom:80px}
+  .products{grid-template-columns:1fr 1fr}
+  .prod:nth-child(3n+2),.prod:nth-child(3n+3){padding-left:6px;border-left:0}
+  .prod:nth-child(2n){padding-left:20px;border-left:1px solid #d9ccb6}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  section{padding-block:76px}
+  .nav .btn,.langs{display:none}
+  .facts .wrap{grid-template-columns:1fr 1fr}
+  .fact:nth-child(3){border-left:0}
+  .fact b{font-size:42px}
+  .tgrid{grid-template-columns:1fr 1fr;gap:10px}
+  .tcard h3{font-size:24px}
+  .tcard .in{padding:14px}
+  .products{grid-template-columns:1fr}
+  .prod:nth-child(2n){padding-left:6px;border-left:0}
+  .gallery{grid-template-columns:1fr 1fr;grid-template-rows:220px 160px 160px}
+  .gallery div:first-child{grid-column:span 2;grid-row:auto}
+  .gallery div:nth-child(4){grid-column:auto}
+  .scrollhint{display:none}
+  .shop::after{background:linear-gradient(180deg,rgba(20,14,10,.55),rgba(20,14,10,.88))}
+}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav" id="nav"><div class="wrap">
+  <div class="brand">Virgini Tartufi<small>Spello · Umbria</small></div>
+  <nav class="menu"><a href="#famiglia">La famiglia</a><a href="#tartufi">I tartufi</a><a href="#dispensa">La dispensa</a><a href="#negozio">Il negozio</a><a href="#contatti">Contatti</a></nav>
+  <div class="right">
+    <div class="langs" aria-label="Lingue del sito"><span class="on">IT</span><span>EN</span><span>JA</span></div>
+    <a class="btn" href="#contatti">Richiedi il catalogo</a>
+  </div>
+</div></header>
+
+<section class="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="wrap">
+    <span class="tag reveal">Spello · Umbria · cercatori da generazioni</span>
+    <h1 id="heroTitle">Il tartufo, cercato <em>in famiglia</em></h1>
+    <p class="reveal">Da generazioni andiamo a cercarlo con i nostri cani, rispettando la terra e le sue stagioni. Poi lo lavoriamo nel nostro laboratorio e lo portiamo in tavola, a Spello e nel mondo.</p>
+    <div class="cta reveal"><a class="btn" href="mailto:info@virginitartufi.it?subject=Richiesta%20catalogo%20Virgini%20Tartufi">Richiedi il catalogo / ordina</a><a class="btn ghost" href="#tartufi">Scopri i tartufi</a></div>
+  </div>
+  <span class="scrollhint">Scorri</span>
+</section>
+
+<div class="facts"><div class="wrap">
+  <div class="fact"><b data-count="4">4</b><span>varietà di tartufo fresco e congelato</span></div>
+  <div class="fact"><b data-count="14">14</b><span>linee di prodotti al tartufo in dispensa</span></div>
+  <div class="fact"><b data-count="1">1</b><span>negozio e laboratorio, vicino al centro storico</span></div>
+  <div class="fact"><b data-count="3">3</b><span>lingue per i clienti: italiano, inglese, giapponese</span></div>
+</div></div>
+
+<section class="family" id="famiglia"><div class="wrap">
+  <div class="stack reveal">
+    <div class="ph a"><div class="par" style="background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/08/K125422_web-819x1024.jpg')"></div></div>
+    <div class="ph b"><div style="inset:0;background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/09/virgini_emiliano.png')"></div></div>
+  </div>
+  <div>
+    <span class="eyebrow">La famiglia Virgini</span>
+    <h2 class="reveal">Una storia che si tramanda con il cane al fianco</h2>
+    <blockquote class="quote reveal">«Parlare di tartufo nella nostra famiglia è parlare di noi.»</blockquote>
+    <p class="reveal">La cerca del tartufo da noi è un mestiere di famiglia, passato da una generazione all'altra. Usciamo con cani addestrati, conosciamo i boschi e aspettiamo che sia la stagione a decidere.</p>
+    <p class="reveal">Rispettare la terra significa anche prendere solo quello che dà: è così che il tartufo torna, anno dopo anno.</p>
+  </div>
+</div></section>
+
+<section class="truffles" id="tartufi"><div class="wrap">
+  <span class="eyebrow">Tartufi freschi e congelati</span>
+  <h2 class="reveal">Quattro tartufi, quattro caratteri</h2>
+  <p class="lead reveal">Li selezioniamo uno per uno e li proponiamo freschi, nel loro periodo, o congelati per averli tutto l'anno. Chiedici cosa è disponibile in questo momento.</p>
+  <div class="tgrid">
+    <article class="tcard reveal"><div class="bg par" style="background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/08/K125219-2_web_web-819x1024.jpg')"></div><div class="in"><small>Tuber magnatum</small><h3>Bianco pregiato</h3></div></article>
+    <article class="tcard reveal"><div class="bg par" style="background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/08/K125498_web-819x1024.jpg')"></div><div class="in"><small>Tuber melanosporum</small><h3>Nero pregiato</h3></div></article>
+    <article class="tcard reveal"><div class="bg par" style="background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/08/K125218-2_web_web-1024x1024.jpg')"></div><div class="in"><small>Tuber aestivum</small><h3>Nero estivo</h3></div></article>
+    <article class="tcard reveal"><div class="bg par" style="background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/08/K121773_web.jpg')"></div><div class="in"><small>Tuber borchii</small><h3>Bianchetto</h3></div></article>
+  </div>
+</div></section>
+
+<section class="filiera" aria-label="Dalla cerca al vasetto">
+  <div class="wrap grid">
+    <div class="stage"><div class="fallback" id="tFallback"></div><canvas id="truffle" aria-hidden="true"></canvas></div>
+    <div class="txt">
+      <span class="eyebrow">La nostra filiera</span>
+      <h2>Dalla cerca al vasetto, tutto passa da noi</h2>
+      <ol class="steps">
+        <li><b>01</b><div><h3>La cerca</h3><p>Nei boschi umbri, con i nostri cani addestrati e il ritmo delle stagioni.</p></div></li>
+        <li><b>02</b><div><h3>Il laboratorio</h3><p>Il tartufo diventa salse, burro, condimenti e specialità, lavorati da noi.</p></div></li>
+        <li><b>03</b><div><h3>Il negozio</h3><p>A Spello, a due passi dal centro storico, e per i clienti in Italia e all'estero.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="dispensa"><div class="wrap">
+  <div class="dhead">
+    <div><span class="eyebrow">La dispensa al tartufo</span>
+    <h2 class="reveal">Dal tartufo fresco al sale, una tavola intera</h2></div>
+    <a class="btn dark" href="mailto:info@virginitartufi.it?subject=Richiesta%20catalogo%20Virgini%20Tartufi">Chiedi il catalogo completo</a>
+  </div>
+  <div class="products" id="prods">
+    <div class="prod"><i>i</i>Tartufi freschi e congelati</div>
+    <div class="prod"><i>ii</i>Salse tartufate bianche e nere</div>
+    <div class="prod"><i>iii</i>Condimenti al tartufo</div>
+    <div class="prod"><i>iv</i>Burro al tartufo</div>
+    <div class="prod"><i>v</i>Condimento a base di olio EVO al tartufo</div>
+    <div class="prod"><i>vi</i>Gnocchi, riso e polenta al tartufo</div>
+    <div class="prod"><i>vii</i>Pasta al tartufo</div>
+    <div class="prod"><i>viii</i>Porcini secchi</div>
+    <div class="prod"><i>ix</i>Miele al tartufo</div>
+    <div class="prod"><i>x</i>Sale al tartufo</div>
+    <div class="prod"><i>xi</i>Formaggi e salumi al tartufo</div>
+    <div class="prod"><i>xii</i>Grappe e liquori al tartufo</div>
+    <div class="prod"><i>xiii</i>Carpaccio di tartufo</div>
+    <div class="prod"><i>xiv</i>Affettatartufi</div>
+  </div>
+  <div class="gallery">
+    <div class="reveal"><span class="par" style="background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/08/K3M3592-2_web_web.jpg')"></span></div>
+    <div class="reveal"><span class="par" style="background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/08/K125525_web-1024x684.jpg')"></span></div>
+    <div class="reveal"><span class="par" style="background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/08/K125372_web-1024x684.jpg')"></span></div>
+    <div class="reveal"><span class="par" style="background-image:url('https://www.virginitartufi.it/wp-content/uploads/2023/08/K125475_web-1024x684.jpg')"></span></div>
+  </div>
+</div></section>
+
+<section class="shop" id="negozio">
+  <div class="bg par" id="shopBg"></div>
+  <div class="wrap">
+    <span class="eyebrow">Il negozio di Spello</span>
+    <h2 class="reveal">Vieni a trovarci in Via Marconi</h2>
+    <p class="reveal">Negozio e laboratorio sono vicino al centro storico di Spello: entri, guardi da vicino i tartufi e scegli con noi. Se sei lontano, scrivici: catalogo e ordini passano anche da telefono e mail.</p>
+    <div class="world reveal"><span>Italiano</span><span>English</span><span>日本語</span></div>
+    <a class="btn reveal" href="https://www.google.com/maps/search/?api=1&query=Via+Marconi+71+Spello" rel="noopener">Indicazioni per il negozio</a>
+  </div>
+</section>
+
+<section class="contact" id="contatti"><div class="wrap">
+  <div>
+    <span class="eyebrow">Catalogo e ordini</span>
+    <h2>Scrivici: ti mandiamo il catalogo e prepariamo l'ordine</h2>
+    <p class="lead">Per tartufi freschi, specialità della dispensa, regali e forniture: chiamaci o mandaci una mail, ti rispondiamo noi della famiglia.</p>
+  </div>
+  <div class="box">
+    <b><a href="tel:+390742302105">+39 0742 302105</a></b>
+    <div>Cellulare <a href="tel:+393341835307">+39 334 1835307</a></div>
+    <div><a href="mailto:info@virginitartufi.it">info@virginitartufi.it</a></div>
+    <div class="addr">Via Marconi 71, 06038 Spello (PG), Umbria</div>
+    <div class="btns"><a class="btn" href="mailto:info@virginitartufi.it?subject=Richiesta%20catalogo%20Virgini%20Tartufi">Richiedi il catalogo / ordina</a><a class="btn ghost" href="tel:+390742302105">Chiama</a></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span>Virgini Tartufi Srl · Via Marconi 71, 06038 Spello (PG)</span><a href="https://www.virginitartufi.it" rel="noopener">virginitartufi.it</a></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot = /[?&]shot=1/.test(location.search);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nav = document.getElementById('nav');
+  function onScroll(){ nav.classList.toggle('solid', window.scrollY > window.innerHeight*0.7); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  if (shot || reduce || !window.gsap) return; // contenuto statico completo
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  var lenis = new Lenis({lerp:0.09});
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){ a.addEventListener('click',function(e){ var t=document.querySelector(a.getAttribute('href')); if(t){e.preventDefault(); lenis.scrollTo(t,{offset:-60});} }); });
+
+  gsap.fromTo('#heroBg',{scale:1.14},{scale:1,duration:2.6,ease:'expo.out'});
+  gsap.to('#heroBg',{yPercent:12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  document.fonts.ready.then(function(){
+    var st = new SplitText('#heroTitle',{type:'words'});
+    gsap.from(st.words,{yPercent:110,opacity:0,duration:1.2,ease:'expo.out',stagger:0.07,delay:0.2});
+  });
+  gsap.from('.hero .reveal',{y:24,opacity:0,duration:1,ease:'power3.out',stagger:0.12,delay:0.6});
+
+  document.querySelectorAll('[data-count]').forEach(function(el){
+    var end=+el.dataset.count, o={v:0};
+    gsap.to(o,{v:end,duration:1.4,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 88%'},onUpdate:function(){ el.textContent = Math.round(o.v); }});
+  });
+
+  gsap.utils.toArray('section:not(.hero) .reveal').forEach(function(el){
+    gsap.from(el,{y:40,opacity:0,duration:1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}});
+  });
+  gsap.from('#prods .prod',{y:18,opacity:0,duration:.6,ease:'power3.out',stagger:.04,scrollTrigger:{trigger:'#prods',start:'top 85%'}});
+  gsap.from('.steps li',{x:30,opacity:0,duration:.8,ease:'power3.out',stagger:.12,scrollTrigger:{trigger:'.steps',start:'top 80%'}});
+
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  window.addEventListener('load',function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+<script type="module">
+// Tartufo procedurale: sfera deformata con rumore, superficie rugosa, ruota con lo scroll
+const canvas = document.getElementById('truffle');
+const shot = /[?&]shot=1/.test(location.search);
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+try {
+  const THREE = await import('../vendor/three.module.min.js');
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:true, alpha:true, preserveDrawingBuffer:shot});
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+  const scene = new THREE.Scene();
+  const cam = new THREE.PerspectiveCamera(34, 1, 0.1, 50);
+  cam.position.set(0, 0.4, 6.2); cam.lookAt(0,0,0);
+
+  // rumore 3D a valori (hash) + fbm
+  const hash = (x,y,z)=>{ let h = Math.sin(x*127.1+y*311.7+z*74.7)*43758.5453; return h-Math.floor(h); };
+  const sm = t=>t*t*(3-2*t);
+  function vnoise(x,y,z){
+    const xi=Math.floor(x), yi=Math.floor(y), zi=Math.floor(z), xf=sm(x-xi), yf=sm(y-yi), zf=sm(z-zi);
+    const l=(a,b,t)=>a+(b-a)*t;
+    return l(l(l(hash(xi,yi,zi),hash(xi+1,yi,zi),xf),l(hash(xi,yi+1,zi),hash(xi+1,yi+1,zi),xf),yf),
+             l(l(hash(xi,yi,zi+1),hash(xi+1,yi,zi+1),xf),l(hash(xi,yi+1,zi+1),hash(xi+1,yi+1,zi+1),xf),yf),zf)*2-1;
+  }
+  const fbm=(x,y,z)=>{ let s=0,a=.5,f=1; for(let i=0;i<4;i++){ s+=a*vnoise(x*f,y*f,z*f); a*=.5; f*=2.1; } return s; };
+
+  const geo = new THREE.IcosahedronGeometry(1.5, 48);
+  const p = geo.attributes.position, v = new THREE.Vector3(), col = [];
+  for (let i=0;i<p.count;i++){
+    v.fromBufferAttribute(p,i).normalize();
+    const lump = 0.22*fbm(v.x*1.3+3, v.y*1.3, v.z*1.3);           // forma irregolare
+    const warts = 0.07*Math.abs(vnoise(v.x*9, v.y*9, v.z*9));       // verruche piramidali
+    const grain = 0.018*vnoise(v.x*28, v.y*28, v.z*28);             // grana fine
+    const r = 1.5*(1 + lump) + warts - grain;
+    v.multiplyScalar(r); v.y *= 0.86;
+    p.setXYZ(i, v.x, v.y, v.z);
+    const k = 0.55 + 0.9*warts/0.07*0.5 + lump;
+    const c = new THREE.Color().setRGB(0.075*k+0.03, 0.05*k+0.02, 0.036*k+0.014);
+    col.push(c.r,c.g,c.b);
+  }
+  geo.setAttribute('color', new THREE.Float32BufferAttribute(col,3));
+  geo.computeVertexNormals();
+  const truffle = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({vertexColors:true, roughness:0.92, metalness:0.0}));
+  scene.add(truffle);
+
+  scene.add(new THREE.HemisphereLight(0xffe7c2, 0x1a120c, 0.7));
+  const key = new THREE.DirectionalLight(0xffd08a, 2.5); key.position.set(-4,4,5); scene.add(key);
+  const rim = new THREE.DirectionalLight(0xe2b866, 2.4); rim.position.set(5,1,-4); scene.add(rim);
+
+  function size(){ const w=canvas.clientWidth, h=canvas.clientHeight; renderer.setSize(w,h,false); cam.aspect=w/h; cam.position.z = 6.4/Math.min(1, Math.max(.55, cam.aspect*1.05)); cam.updateProjectionMatrix(); if (typeof truffle!=='undefined') renderer.render(scene,cam); }
+  addEventListener('resize', size);
+  let scrollRot = 0, tgt = 0, visible = true;
+  function frame(t){
+    scrollRot += (tgt-scrollRot)*0.06;
+    truffle.rotation.y = scrollRot*3 + (reduce?0:(t||0)/6000);
+    truffle.rotation.x = 0.35 + Math.sin(scrollRot*2)*0.15;
+    renderer.render(scene,cam);
+    if (visible && !shot && !reduce) requestAnimationFrame(frame);
+  }
+  if (!shot && !reduce && window.ScrollTrigger){
+    ScrollTrigger.create({trigger:'.filiera', start:'top bottom', end:'bottom top', onUpdate:s=>{ tgt = s.progress; }});
+  }
+  if (!shot && !reduce){
+    new IntersectionObserver(e=>{ const vis=e[0].isIntersecting; if(vis&&!visible){visible=true;requestAnimationFrame(frame);} else visible=vis; }).observe(canvas);
+  }
+  truffle.rotation.set(0.35, 0.6, 0);
+  size(); frame(0);
+  document.getElementById('tFallback').remove();
+} catch(e) {
+  canvas.style.visibility='hidden';
+}
+</script>
+</body>
+</html>

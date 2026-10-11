@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Cantine Valenti · Etna, Passopisciaro</title>
+<meta name="description" content="Cantina a Passopisciaro, Castiglione di Sicilia, sul versante nord dell'Etna. Dal 2004 in un'antica distilleria: Etna Bianco e Rosso DOC, Carricante e Nerello Mascalese da agricoltura biologica, sala degustazione fino a 80 persone.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Outfit:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<style>
+:root{
+  --chalk:#f7f5ef; --stone:#ebe7dc; --line:#d9d3c3; --vine:#2f4a35; --vine-2:#557a58; --sage:#a9b89a; --gold:#b38b45; --gold-2:#d6b46f; --ink:#1d221e; --muted:#676d66;
+  --disp:"Bodoni Moda","Didot",Georgia,serif; --body:"Outfit","Segoe UI",system-ui,sans-serif;
+  --H:url("https://cantinevalenti.it/wp-content/uploads/2021/05/vavelnti_layout_sito_mod.jpg");
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--body);font-weight:400;color:var(--ink);background:var(--chalk);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1220px;margin:0 auto;padding-inline:24px}
+.eyebrow{display:inline-flex;align-items:center;gap:12px;font:500 12px var(--body);letter-spacing:.26em;text-transform:uppercase;color:var(--gold)}
+.eyebrow::before{content:"";width:28px;height:1px;background:currentColor}
+h1,h2,h3{font-family:var(--disp);font-weight:400;margin:0;text-wrap:balance}
+h2{font-size:clamp(36px,4.6vw,62px);line-height:1.04;margin:16px 0 20px;max-width:17ch}
+h2 em,h1 em{font-style:italic;color:var(--gold)}
+.lead{max-width:58ch;color:var(--muted);margin:0;font-size:18px;font-weight:300}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--vine);color:var(--chalk);font-weight:500;text-decoration:none;border-radius:0;padding:15px 26px;font-size:14px;letter-spacing:.08em;text-transform:uppercase;transition:background .25s,transform .25s}
+.btn:hover{background:var(--gold);transform:translateY(-2px)}
+.btn.gold{background:var(--gold);color:#fff}
+.btn.gold:hover{background:var(--vine)}
+.btn.line{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.7)}
+.btn.line:hover{background:#fff;color:var(--ink)}
+section{padding-block:120px;position:relative}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:20;color:#fff;transition:background .35s,color .35s}
+.nav.solid{background:rgba(247,245,239,.94);color:var(--ink);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;padding-block:16px;gap:20px}
+.brand{font:400 25px/1 var(--disp);letter-spacing:.04em}
+.brand small{display:block;font:500 10px var(--body);letter-spacing:.3em;text-transform:uppercase;opacity:.75;margin-top:6px}
+.menu{display:flex;gap:28px;font-size:14px;letter-spacing:.06em}
+.menu a{text-decoration:none;opacity:.9}
+.menu a:hover{color:var(--gold)}
+.right{display:flex;align-items:center;gap:16px}
+.lang{display:inline-flex;border:1px solid currentColor;border-radius:999px;padding:3px;font:600 11px var(--body);letter-spacing:.14em}
+.lang button{all:unset;cursor:pointer;padding:6px 11px;border-radius:999px;opacity:.7}
+.lang button[aria-pressed="true"]{background:var(--gold);color:#fff;opacity:1}
+.lang button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.nav .btn{padding:11px 18px;font-size:12px}
+
+/* HERO */
+.hero{height:100svh;min-height:640px;color:#fff;overflow:hidden;display:flex;align-items:flex-end;padding:0;background:#3a4a3c}
+.hero-bg{position:absolute;inset:-8% 0 0 0;background:var(--H) center/cover,linear-gradient(170deg,#9fb294 0%,#5f7a5c 45%,#2f3b31 100%)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,28,22,.45) 0%,rgba(20,28,22,.05) 40%,rgba(20,28,22,.75) 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:clamp(60px,10vh,110px);display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.hero .tag{font:500 12px var(--body);letter-spacing:.28em;text-transform:uppercase;color:var(--gold-2)}
+.hero h1{font-size:clamp(48px,8.2vw,118px);line-height:.98;margin:18px 0 22px;max-width:11ch}
+.hero h1 em{color:var(--gold-2)}
+.hero p{max-width:46ch;font-size:19px;font-weight:300;margin:0 0 30px;opacity:.95}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.export{border:1px solid rgba(255,255,255,.4);backdrop-filter:blur(8px);background:rgba(255,255,255,.08);padding:20px 22px;max-width:270px;font-size:14px;font-weight:300}
+.export b{display:block;font:400 22px var(--disp);margin-bottom:6px}
+.export .lang{margin-top:14px;color:#fff;display:flex;width:max-content}
+
+/* FACTS */
+.facts{background:var(--stone);border-bottom:1px solid var(--line)}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.fact{padding:36px 24px;border-left:1px solid var(--line)}
+.fact:first-child{border-left:0}
+.fact b{display:block;font:400 54px/1 var(--disp);color:var(--vine);margin-bottom:10px;font-variant-numeric:tabular-nums}
+.fact span{font-size:14px;color:var(--muted)}
+
+/* STORY */
+.story .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:80px;align-items:center}
+.story .ph{position:relative;aspect-ratio:4/5;overflow:hidden;background:linear-gradient(160deg,#c9c0a8,#7f8a6e)}
+.story .ph div{position:absolute;inset:-10% 0;background-size:cover;background-position:center}
+.story .frame{position:relative}
+.story .frame::after{content:"";position:absolute;inset:22px -22px -22px 22px;border:1px solid var(--gold);z-index:-1}
+.story p{margin:0 0 16px;max-width:54ch;font-weight:300}
+.sign{display:flex;gap:28px;margin-top:28px;flex-wrap:wrap}
+.sign div{font:italic 400 24px var(--disp);color:var(--vine)}
+.sign small{display:block;font:500 11px var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-style:normal}
+
+/* CONTRADE */
+.contrade{background:var(--vine);color:var(--chalk);overflow:hidden}
+.contrade .eyebrow{color:var(--gold-2)}
+.contrade h2{color:#fff}
+.contrade .lead{color:rgba(247,245,239,.75)}
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);margin-top:56px;border-top:1px solid rgba(247,245,239,.2)}
+.c{padding:34px 28px 34px 0;border-bottom:1px solid rgba(247,245,239,.2)}
+.c:nth-child(3n+2),.c:nth-child(3n){padding-left:28px;border-left:1px solid rgba(247,245,239,.2)}
+.c .n{font:500 11px var(--body);letter-spacing:.24em;color:var(--gold-2)}
+.c h3{font-size:36px;margin:8px 0 8px;color:#fff}
+.c p{margin:0;font-size:15px;font-weight:300;color:rgba(247,245,239,.75)}
+.method{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px}
+.method span{border:1px solid rgba(214,180,111,.6);color:var(--gold-2);font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:9px 16px}
+
+/* HARVEST */
+.harvest{display:grid;grid-template-columns:1fr 1fr;min-height:84vh}
+.harvest .img{position:relative;overflow:hidden;background:linear-gradient(160deg,#7d8f6c,#3f5240)}
+.harvest .img div{position:absolute;inset:-10% 0;background-size:cover;background-position:center}
+.harvest .txt{padding:110px clamp(24px,6vw,96px);background:var(--chalk);display:flex;flex-direction:column;justify-content:center}
+.steps{list-style:none;margin:30px 0 0;padding:0;border-left:1px solid var(--gold)}
+.steps li{position:relative;padding:0 0 26px 28px}
+.steps li::before{content:"";position:absolute;left:-5px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--gold)}
+.steps b{display:block;font:400 22px var(--disp);color:var(--vine)}
+.steps span{font-size:15px;color:var(--muted);font-weight:300}
+
+/* GLASS 3D */
+.glass{background:linear-gradient(180deg,var(--chalk),var(--stone));padding:0;overflow:hidden}
+.glass canvas{display:block;width:100%;height:min(88vh,760px)}
+.glass .over{position:absolute;inset:0;display:flex;align-items:center;pointer-events:none}
+.glass .over .wrap{width:100%}
+.glass .over .txt{max-width:420px}
+.glass .chips{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}
+.glass .chips span{display:inline-flex;align-items:center;gap:8px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.glass .chips i{width:14px;height:14px;border-radius:50%;display:inline-block}
+.glass .fallback{position:absolute;inset:0;background:radial-gradient(circle at 70% 50%,rgba(179,139,69,.25),transparent 40%)}
+
+/* WINES */
+.wines{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:56px}
+.wine{background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s}
+.wine:hover{transform:translateY(-4px);box-shadow:0 24px 40px -30px rgba(30,40,30,.5)}
+.wine .bottle{aspect-ratio:3/4;position:relative;overflow:hidden;display:grid;place-items:center}
+.wine .bottle div{position:absolute;inset:0;background-size:contain;background-repeat:no-repeat;background-position:center bottom}
+.wine .bottle .ini{font:italic 400 72px var(--disp);color:rgba(255,255,255,.85)}
+.wine .in{padding:20px 20px 24px;border-top:1px solid var(--line)}
+.wine .den{font:500 11px var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.wine h3{font-size:26px;line-height:1.1;margin:6px 0 8px}
+.wine p{margin:0;font-size:14px;color:var(--muted);font-weight:300}
+.b-white{background:linear-gradient(180deg,#f3ecd3,#e2d3a2)}
+.b-orange{background:linear-gradient(180deg,#f0d3a8,#d49a55)}
+.b-rose{background:linear-gradient(180deg,#f6dcd8,#e0a49b)}
+.b-red{background:linear-gradient(180deg,#d8b3b0,#7d2a33)}
+.b-oil{background:linear-gradient(180deg,#e7ebcf,#9fa856)}
+.names{margin-top:36px;font:italic 400 20px/1.5 var(--disp);color:var(--vine);max-width:60ch}
+
+/* TASTING */
+.tasting{position:relative;min-height:92vh;color:#fff;display:flex;align-items:flex-end;overflow:hidden;padding:0}
+.tasting .bg{position:absolute;inset:-10% 0;background:url("https://cantinevalenti.it/wp-content/uploads/2021/03/DEGUSTAZIONI-scaled.jpg") center/cover,linear-gradient(160deg,#8a7a5a,#3b3527)}
+.tasting::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,26,20,.82) 0%,rgba(20,26,20,.35) 60%,rgba(20,26,20,.1))}
+.tasting .wrap{position:relative;z-index:2;width:100%;padding-block:110px}
+.tasting h2{color:#fff}
+.tasting .eyebrow{color:var(--gold-2)}
+.tasting .lead{color:rgba(255,255,255,.85)}
+.opts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:40px 0 34px;max-width:860px}
+.opt{border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.06);backdrop-filter:blur(6px);padding:22px}
+.opt b{display:block;font:400 22px/1.15 var(--disp);margin-bottom:6px}
+.opt span{font-size:14px;font-weight:300;opacity:.85}
+
+/* GALLERY */
+.gallery{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:220px;gap:12px;margin-top:48px}
+.gallery div{background-size:cover;background-position:center;background-color:var(--sage)}
+.gallery div:nth-child(1){grid-column:span 3;grid-row:span 2}
+.gallery div:nth-child(2),.gallery div:nth-child(3){grid-column:span 3}
+.gallery div:nth-child(4),.gallery div:nth-child(5),.gallery div:nth-child(6){grid-column:span 2}
+.gallery div:nth-child(2){background-color:#c7b98e}
+.gallery div:nth-child(3){background-color:#7f9372}
+.gallery div:nth-child(4){background-color:#d8cfb8}
+.gallery div:nth-child(5){background-color:#5d7458}
+.gallery div:nth-child(6){background-color:#b9a26e}
+
+/* CONTACT */
+.contact{background:var(--stone)}
+.contact .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:start}
+.card{background:#fff;border:1px solid var(--line);padding:34px;display:flex;flex-direction:column;gap:0}
+.card .row{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.card .row span{font:500 11px var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);padding-top:4px}
+.card .row a,.card .row div{font-weight:500;text-decoration:none;text-align:right}
+.card .row a:hover{color:var(--gold)}
+.card .btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+footer{background:var(--vine);color:rgba(247,245,239,.7);font-size:13px;padding-block:26px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.ribbon{position:fixed;right:14px;bottom:14px;z-index:30;background:#111;color:#fff;font:600 12px var(--body);padding:8px 12px;border-radius:8px;opacity:.88}
+.reveal{will-change:transform,opacity}
+
+@media (max-width:1000px){
+  .wines{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:860px){
+  body{font-size:16px}
+  .menu,.nav .btn{display:none}
+  .hero .wrap{grid-template-columns:1fr}
+  .export{max-width:none}
+  .facts .wrap{grid-template-columns:1fr 1fr}
+  .fact:nth-child(3){border-left:0}
+  .fact b{font-size:44px}
+  .story .wrap,.contact .wrap{grid-template-columns:1fr;gap:56px}
+  .story .frame::after{inset:14px -10px -14px 14px}
+  .cgrid{grid-template-columns:1fr}
+  .c,.c:nth-child(3n+2),.c:nth-child(3n){padding:26px 0;border-left:0}
+  .harvest{grid-template-columns:1fr}
+  .harvest .img{min-height:60vh}
+  .harvest .txt{padding:72px 24px}
+  .glass{display:flex;flex-direction:column}
+  .glass .over{position:relative;padding-top:72px;order:-1}
+  .glass canvas{height:72vh}
+  .hero{height:auto;min-height:100svh;padding-top:120px}
+  .gallery div:nth-child(6){grid-column:span 2}
+  .opts{grid-template-columns:1fr}
+  .gallery{grid-template-columns:1fr 1fr;grid-auto-rows:170px}
+  .gallery div:nth-child(n){grid-column:span 1;grid-row:span 1}
+  .gallery div:nth-child(1){grid-column:span 2}
+  section{padding-block:80px}
+  .card{padding:24px}
+}
+@media (max-width:520px){
+  .wines{grid-template-columns:1fr}
+  .wine{display:grid;grid-template-columns:120px 1fr}
+  .wine .bottle{aspect-ratio:auto;min-height:160px}
+  .wine .bottle .ini{font-size:48px}
+  .wine .in{border-top:0;border-left:1px solid var(--line)}
+}
+@media (prefers-reduced-motion:reduce){.btn,.wine{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav" id="nav"><div class="wrap">
+  <div class="brand">Cantine Valenti<small>Etna · Passopisciaro</small></div>
+  <nav class="menu"><a href="#storia" data-en="Story">Storia</a><a href="#contrade" data-en="Vineyards">Vigneti</a><a href="#vini" data-en="Wines">Vini</a><a href="#degustazioni" data-en="Tastings">Degustazioni</a><a href="#contatti" data-en="Contact">Contatti</a></nav>
+  <div class="right">
+    <div class="lang" role="group" aria-label="Lingua / Language"><button type="button" data-lang="it" aria-pressed="true">IT</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
+    <a class="btn gold" href="#degustazioni" data-en="Book a tasting">Prenota una degustazione</a>
+  </div>
+</div></header>
+
+<section class="hero">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="wrap">
+    <div>
+      <span class="tag reveal" data-en="Etna DOC · North slope · Since 2004">Etna DOC · Versante nord · dal 2004</span>
+      <h1 id="heroTitle" data-en="Discover Etna, <em>sip by sip</em>">Scoprire l'Etna, <em>sorso dopo sorso</em></h1>
+      <p class="reveal" data-en="Carricante and Nerello Mascalese from six contrade around Passopisciaro, farmed organically, worked by hoe and picked by hand. Our cellar is a restored old distillery.">Carricante e Nerello Mascalese da sei contrade intorno a Passopisciaro, coltivati in biologico, lavorati a zappa e vendemmiati a mano. La cantina è un'antica distilleria recuperata.</p>
+      <div class="cta reveal"><a class="btn gold" href="#degustazioni" data-en="Book a tasting">Prenota una degustazione</a><a class="btn line" href="#vini" data-en="Our wines">I nostri vini</a></div>
+    </div>
+    <aside class="export reveal"><b data-en="From Etna to the world">Dall'Etna al mondo</b><span data-en="This site speaks your language too.">Questo sito parla anche la tua lingua.</span><div class="lang" role="group" aria-label="Lingua / Language"><button type="button" data-lang="it" aria-pressed="true">Italiano</button><button type="button" data-lang="en" aria-pressed="false">English</button></div></aside>
+  </div>
+</section>
+
+<div class="facts"><div class="wrap">
+  <div class="fact"><b data-count="2004">2004</b><span data-en="the old distillery becomes a winery">l'antica distilleria diventa cantina</span></div>
+  <div class="fact"><b data-count="30" data-pre="&gt; ">&gt; 30</b><span data-en="hectares, mostly vineyards, plus olive grove">ettari, quasi tutti a vigneto, più l'uliveto</span></div>
+  <div class="fact"><b data-count="6">6</b><span data-en="contrade on Etna's north slope">contrade sul versante nord dell'Etna</span></div>
+  <div class="fact"><b data-count="80">80</b><span data-en="guests in the tasting room">posti nella sala degustazione</span></div>
+</div></div>
+
+<section class="story" id="storia"><div class="wrap">
+  <div class="frame reveal"><div class="ph"><div class="par" style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/la-nostra-storia-cantine-valenti.jpg')"></div></div></div>
+  <div>
+    <span class="eyebrow" data-en="Our story">La nostra storia</span>
+    <h2 class="reveal" data-en="Born from the ashes of an <em>old distillery</em>">Nata dalle ceneri di un'<em>antica distilleria</em></h2>
+    <p class="reveal">Cantine Valenti nasce nel 2004 dal recupero di un'antica distilleria a Passopisciaro, frazione di Castiglione di Sicilia, nel cuore dell'Etna DOC. È il sogno di una famiglia, unita dall'amore per Catania e per il suo vulcano.</p>
+    <p class="reveal">Oltre 30 ettari, in gran parte vigneto, con una piccola parte di uliveto per l'olio Monte Etna DOP. Accanto ai vecchi alberelli, alcuni con più di un secolo di vita, ci sono impianti a controspalliera a cordone speronato e guyot. Niente chimica: si lavora in biologico, con la zappa, e ogni operazione si fa a mano, dalla potatura alla raccolta.</p>
+    <div class="sign reveal"><div>Giovanni<small data-en="Founder">Fondatore</small></div><div>Francesca<small data-en="Founder">Fondatrice</small></div><div>Alessandro<small data-en="Founder">Fondatore</small></div></div>
+  </div>
+</div></section>
+
+<section class="contrade" id="contrade"><div class="wrap">
+  <span class="eyebrow" data-en="The vineyards">I vigneti</span>
+  <h2 class="reveal" data-en="Six contrade, <em>six different soils</em>">Sei contrade, <em>sei terre diverse</em></h2>
+  <p class="lead reveal" data-en="Around Passopisciaro, altitude, exposure and Etna's day-night swings give structured, aromatic wines. Each contrada is studied for its character, and the oldest vines are vinified separately.">Intorno a Passopisciaro altitudine, esposizione ed escursioni termiche dell'Etna danno vini strutturati e aromatici. Ogni contrada viene studiata per la sua vocazione, e le vigne più antiche si vinificano a parte.</p>
+  <div class="cgrid">
+    <div class="c reveal"><span class="n">01</span><h3>Guardiola</h3><p>Terrazzamenti con vecchie vigne prefillossera, vinificate separatamente. Qui nasce parte dell'Enrico IV.</p></div>
+    <div class="c reveal"><span class="n">02</span><h3>Santo Spirito</h3><p>"Terre nere" formate dalle sciare: ricche di minerali, molta sabbia vulcanica, ottimo drenaggio.</p></div>
+    <div class="c reveal"><span class="n">03</span><h3>Arcuria</h3><p>Terreno sabbioso, ricco di sostanza organica. Carricante per l'Enrico IV.</p></div>
+    <div class="c reveal"><span class="n">04</span><h3>Bonanno</h3><p>Terreno soffice e fertile. Da qui il Nerello Mascalese del Norma.</p></div>
+    <div class="c reveal"><span class="n">05</span><h3>Pietramarina</h3><p>Una delle sei contrade dei vigneti di famiglia, sui suoli di cenere vulcanica dell'Etna.</p></div>
+    <div class="c reveal"><span class="n">06</span><h3>Corvo</h3><p>Come Bonanno, terreno soffice e fertile.</p></div>
+  </div>
+  <div class="method reveal"><span data-en="Organic">Biologico</span><span data-en="Hoe-worked">Lavorato a zappa</span><span data-en="Hand-picked">Raccolta a mano</span><span data-en="Bush vines & espalier">Alberello e controspalliera</span></div>
+</div></section>
+
+<div class="harvest">
+  <div class="img"><div class="par" style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/vini.jpg')"></div></div>
+  <div class="txt">
+    <span class="eyebrow" data-en="Harvest">La vendemmia</span>
+    <h2 class="reveal" data-en="Two months, <em>by hand</em>">Due mesi, <em>a mano</em></h2>
+    <p class="lead reveal" data-en="Picking moves plot by plot, following variety, altitude and ripeness.">La raccolta è scalare: si segue la varietà, l'altitudine e la maturazione di ogni vigna.</p>
+    <ol class="steps reveal">
+      <li><b data-en="Mid September">Metà settembre</b><span data-en="We start with Nerello Mascalese.">Si comincia con il Nerello Mascalese.</span></li>
+      <li><b data-en="Late Sept – early Oct">Fine settembre – inizio ottobre</b><span data-en="We finish with Carricante.">Si chiude con il Carricante.</span></li>
+      <li><b data-en="20 kg crates">Cassette da 20 kg</b><span data-en="Hand-picked grapes reach the cellar within an hour.">L'uva raccolta a mano arriva in cantina entro un'ora.</span></li>
+    </ol>
+  </div>
+</div>
+
+<section class="glass" aria-label="Calice in 3D">
+  <div class="fallback" id="glassFallback"></div>
+  <canvas id="glass"></canvas>
+  <div class="over"><div class="wrap"><div class="txt">
+    <span class="eyebrow" data-en="Two grapes">Due vitigni</span>
+    <h2 data-en="From <em>Carricante</em> to Nerello">Dal <em>Carricante</em> al Nerello</h2>
+    <p class="lead" data-en="The white of Etna, salty and mineral, and the red of the volcano, fine and fresh. Scroll and the glass changes colour.">Il bianco dell'Etna, sapido e minerale, e il rosso del vulcano, fine e fresco. Scorri e il calice cambia colore.</p>
+    <div class="chips"><span><i style="background:#e6cf86"></i>Carricante</span><span><i style="background:#e9a59a"></i>Rosato</span><span><i style="background:#7d1f2c"></i>Nerello Mascalese</span></div>
+  </div></div></div>
+</section>
+
+<section id="vini"><div class="wrap">
+  <span class="eyebrow" data-en="The wines">I vini</span>
+  <h2 class="reveal" data-en="Eight wines <em>and one oil</em>">Otto vini <em>e un olio</em></h2>
+  <p class="lead reveal" data-en="Whites, reds and a rosé from Carricante, Nerello Mascalese and Grecanico. Available in our online shop.">Bianchi, rossi e un rosato da Carricante, Nerello Mascalese e Grecanico. Li trovi nello shop online.</p>
+  <div class="wines">
+    <article class="wine reveal"><div class="bottle b-white"><div style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/vino_0002_enrico_IV.jpg')"></div></div><div class="in"><span class="den">Etna Bianco DOC</span><h3>Enrico IV</h3><p>Carricante in purezza da Arcuria e Guardiola. Spezie, pompelmo, menta e frutta tropicale; molto sapido.</p></div></article>
+    <article class="wine reveal"><div class="bottle b-white"><span class="ini">S</span></div><div class="in"><span class="den">Etna Bianco DOC</span><h3>Enrico IV Contrada Santo Spirito</h3><p>L'Etna Bianco delle terre nere di contrada Santo Spirito.</p></div></article>
+    <article class="wine reveal"><div class="bottle b-orange"><span class="ini">C</span></div><div class="in"><span class="den">IGP · Orange wine</span><h3>Ciuri di Lava</h3><p>Carricante raccolto tra le contrade, a seconda dell'annata.</p></div></article>
+    <article class="wine reveal"><div class="bottle b-white"><span class="ini">I</span></div><div class="in"><span class="den">IGP · Nerello Mascalese</span><h3>L'Innesto</h3><p>Un bianco da uve nere: Nerello Mascalese vinificato in bianco.</p></div></article>
+    <article class="wine reveal"><div class="bottle b-white"><span class="ini">M</span></div><div class="in"><span class="den">Grecanico</span><h3>Malavoglia</h3><p>Il bianco da uve Grecanico.</p></div></article>
+    <article class="wine reveal"><div class="bottle b-rose"><span class="ini">P</span></div><div class="in"><span class="den">Rosato</span><h3>Poesia</h3><p>Rosato di Nerello Mascalese.</p></div></article>
+    <article class="wine reveal"><div class="bottle b-red"><div style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/vino_0003_norma.jpg')"></div></div><div class="in"><span class="den">Etna Rosso DOC</span><h3>Norma</h3><p>Nerello Mascalese con un tocco di Cappuccio, contrada Bonanno. 8–9 mesi in botte, 12 in bottiglia.</p></div></article>
+    <article class="wine reveal"><div class="bottle b-red"><span class="ini">P</span></div><div class="in"><span class="den">Etna Rosso DOC</span><h3>Puritani</h3><p>L'altro Etna Rosso della cantina.</p></div></article>
+  </div>
+  <div class="wines" style="grid-template-columns:minmax(0,1fr);margin-top:18px">
+    <article class="wine reveal" style="display:grid;grid-template-columns:160px 1fr"><div class="bottle b-oil" style="aspect-ratio:auto;min-height:150px"><span class="ini">O</span></div><div class="in" style="border-top:0;border-left:1px solid var(--line);align-self:center"><span class="den">Olio extravergine · DOP</span><h3>Monte Etna DOP</h3><p>Dall'uliveto di famiglia, cultivar Nocellara dell'Etna.</p></div></article>
+  </div>
+    <div class="cta reveal" style="margin-top:28px"><a class="btn" href="https://cantinevalenti.it/i-vini/" data-en="Go to the shop">Vai allo shop</a></div>
+</div></section>
+
+<section class="tasting" id="degustazioni">
+  <div class="bg par"></div>
+  <div class="wrap">
+    <span class="eyebrow" data-en="Visit the winery">Vieni in cantina</span>
+    <h2 class="reveal" data-en="Taste Etna <em>where it is made</em>">Degusta l'Etna <em>dove nasce</em></h2>
+    <p class="lead reveal" data-en="Our tasting room inside the cellar pairs the wines with local specialities, hosted by our staff.">Nella sala degustazione, dentro la cantina, il nostro staff abbina i vini alle specialità del territorio.</p>
+    <div class="opts">
+      <div class="opt reveal"><b data-en="Set packages">Pacchetti standard</b><span data-en="Choose one of our tasting formats.">Scegli una delle nostre formule di degustazione.</span></div>
+      <div class="opt reveal"><b data-en="Tailor-made">Percorso su misura</b><span data-en="A custom itinerary or a small event, up to 80 guests.">Un itinerario personalizzato o un piccolo evento, fino a 80 persone.</span></div>
+      <div class="opt reveal"><b data-en="Vineyard tour">Visita ai vigneti</b><span data-en="Add a guided walk among the vines.">Aggiungi una visita guidata tra i filari.</span></div>
+    </div>
+    <div class="cta reveal"><a class="btn gold" href="mailto:info@cantinevalenti.it?subject=Richiesta%20degustazione" data-en="Request a tasting">Richiedi una degustazione</a><a class="btn line" href="tel:+393355981785" data-en="Call +39 335 5981785">Chiama +39 335 5981785</a></div>
+  </div>
+</section>
+
+<section><div class="wrap">
+  <span class="eyebrow" data-en="Gallery">Galleria</span>
+  <h2 class="reveal" data-en="Passopisciaro, <em>north slope</em>">Passopisciaro, <em>versante nord</em></h2>
+  <div class="gallery">
+    <div class="reveal" style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/gallery-home_0005_Livello-24.jpg')"></div>
+    <div class="reveal" style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/gallery-home_0004_Livello-25.jpg')"></div>
+    <div class="reveal" style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/gallery-home_0003_Livello-26.jpg')"></div>
+    <div class="reveal" style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/gallery-home_0002_Livello-27.jpg')"></div>
+    <div class="reveal" style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/gallery-home_0001_Livello-28.jpg')"></div>
+    <div class="reveal" style="background-image:url('https://cantinevalenti.it/wp-content/uploads/2021/03/gallery-home_0000_Livello-29.jpg')"></div>
+  </div>
+</div></section>
+
+<section class="contact" id="contatti"><div class="wrap">
+  <div>
+    <span class="eyebrow" data-en="Contact">Contatti</span>
+    <h2 data-en="Come and find us <em>on Etna</em>">Vieni a trovarci <em>sull'Etna</em></h2>
+    <p class="lead" data-en="For tastings, events, orders and trade enquiries, call or write: we reply as soon as possible.">Per degustazioni, eventi, ordini e richieste dall'Italia e dall'estero, chiamaci o scrivici: ti rispondiamo al più presto.</p>
+  </div>
+  <div class="card">
+    <div class="row"><span data-en="Phone">Telefono</span><a href="tel:+390942983016">+39 0942 983016</a></div>
+    <div class="row"><span data-en="Mobile">Cellulare</span><a href="tel:+393355981785">+39 335 5981785</a></div>
+    <div class="row"><span>Email</span><a href="mailto:info@cantinevalenti.it">info@cantinevalenti.it</a></div>
+    <div class="row"><span data-en="Address">Indirizzo</span><div>Via Roma 42, fraz. Passopisciaro<br>Castiglione di Sicilia (CT)</div></div>
+    <div class="btns"><a class="btn gold" href="tel:+390942983016" data-en="Call now">Chiama ora</a><a class="btn" href="https://cantinevalenti.it/i-vini/" data-en="Online shop">Shop online</a></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span>Cantine Valenti srl · Società Agricola · Via Roma 42, Passopisciaro, Castiglione di Sicilia (CT)</span><span>Etna DOC</span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot = /[?&]shot=1/.test(location.search);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nav = document.getElementById('nav');
+  function onScroll(){ nav.classList.toggle('solid', window.scrollY > window.innerHeight*0.7); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  // Selettore lingua IT/EN (titoli e testi chiave)
+  var split = null;
+  function setLang(l){
+    document.documentElement.lang = l;
+    document.querySelectorAll('[data-en]').forEach(function(el){
+      if (el.dataset.it === undefined) el.dataset.it = el.innerHTML;
+      el.innerHTML = l === 'en' ? el.dataset.en : el.dataset.it;
+    });
+    document.querySelectorAll('.lang button').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.lang === l); });
+    try{ localStorage.setItem('valenti-lang', l); }catch(e){}
+  }
+  document.querySelectorAll('.lang button').forEach(function(b){ b.addEventListener('click', function(){ if(split){split.revert();split=null;} setLang(b.dataset.lang); }); });
+  try{ if(localStorage.getItem('valenti-lang')==='en' && !shot) setLang('en'); }catch(e){}
+
+  if (shot || reduce || !window.gsap) return;
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  var lenis = new Lenis({lerp:0.1});
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+  gsap.ticker.lagSmoothing(0);
+
+  gsap.fromTo('#heroBg',{scale:1.15},{scale:1,duration:2.6,ease:'expo.out'});
+  gsap.to('#heroBg',{yPercent:12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  document.fonts.ready.then(function(){
+    split = new SplitText('#heroTitle',{type:'words'});
+    gsap.from(split.words,{yPercent:100,opacity:0,duration:1.2,ease:'expo.out',stagger:0.07,delay:0.2,onComplete:function(){ if(split){split.revert();split=null;} }});
+  });
+  gsap.from('.hero .reveal',{y:24,opacity:0,duration:1,ease:'power3.out',stagger:0.12,delay:0.6});
+
+  document.querySelectorAll('[data-count]').forEach(function(el){
+    var end=+el.dataset.count, pre=el.dataset.pre?el.dataset.pre.replace('&gt;','>'):'', o={v:end>1000?end-40:0};
+    gsap.to(o,{v:end,duration:1.6,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 88%'},onUpdate:function(){ el.textContent = pre+Math.round(o.v); }});
+  });
+
+  gsap.utils.toArray('section .reveal, .harvest .reveal').forEach(function(el){
+    gsap.from(el,{y:40,opacity:0,duration:1.1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}});
+  });
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  window.addEventListener('load',function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+<script type="module">
+// Calice di vetro procedurale: il vino passa dal Carricante al Nerello con lo scroll
+const canvas = document.getElementById('glass');
+const shot = /[?&]shot=1/.test(location.search);
+try {
+  const THREE = await import('../vendor/three.module.min.js');
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:true, alpha:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  const scene = new THREE.Scene();
+  const cam = new THREE.PerspectiveCamera(32, 1, 0.1, 100);
+  const pivot = new THREE.Group(); scene.add(pivot);
+
+  // profilo del calice (raggio, altezza)
+  const prof = [[0,0],[1.05,0],[1.08,0.03],[1.0,0.07],[0.35,0.12],[0.1,0.2],[0.07,0.4],[0.065,1.6],[0.08,1.85],[0.25,2.0],[0.62,2.2],[0.95,2.55],[1.14,3.0],[1.18,3.5],[1.1,4.0],[0.98,4.4]];
+  const foot = prof.slice(0,7).map(([r,y])=>new THREE.Vector2(r,y));
+  const bowl = new THREE.SplineCurve(prof.slice(7).map(([r,y])=>new THREE.Vector2(r,y))).getPoints(60);
+  const outer = foot.concat(bowl);
+  const glassGeo = new THREE.LatheGeometry(outer, 96);
+  const glassMat = new THREE.MeshPhysicalMaterial({color:0xffffff, metalness:0, roughness:0.04, transparent:true, opacity:0.22, clearcoat:1, clearcoatRoughness:0.03, side:THREE.DoubleSide, depthWrite:false});
+  const glass = new THREE.Mesh(glassGeo, glassMat); pivot.add(glass);
+  // bordo luminoso
+  const rim = new THREE.Mesh(new THREE.TorusGeometry(0.98,0.012,10,120), new THREE.MeshPhysicalMaterial({color:0xffffff, roughness:0.05, transparent:true, opacity:0.7}));
+  rim.rotation.x = Math.PI/2; rim.position.y = 4.4; pivot.add(rim);
+  // vino
+  const lvl = 3.05;
+  const wineProf = new THREE.SplineCurve([[0,1.98],[0.22,2.02],[0.58,2.22],[0.9,2.56],[1.08,3.0],[1.1,lvl]].map(([r,y])=>new THREE.Vector2(r*0.95,y))).getPoints(40).concat([new THREE.Vector2(0,lvl)]);
+  const wineMat = new THREE.MeshPhysicalMaterial({color:0xe6cf86, roughness:0.15, transparent:true, opacity:0.88, clearcoat:0.6});
+  const wine = new THREE.Mesh(new THREE.LatheGeometry(wineProf, 96), wineMat); pivot.add(wine);
+  // riflessi verticali finti
+  const hl = new THREE.Mesh(new THREE.PlaneGeometry(0.08,1.6), new THREE.MeshBasicMaterial({color:0xffffff, transparent:true, opacity:0.35}));
+  hl.position.set(-0.55,3.35,1.0); hl.rotation.z = 0.08; scene.add(hl);
+  // ombra a terra
+  const sh = new THREE.Mesh(new THREE.CircleGeometry(1.6,48), new THREE.MeshBasicMaterial({color:0x2f4a35, transparent:true, opacity:0.10}));
+  sh.rotation.x = -Math.PI/2; sh.position.y = -0.01; pivot.add(sh);
+
+  scene.add(new THREE.HemisphereLight(0xffffff, 0xd9d3c3, 1.2));
+  const k = new THREE.DirectionalLight(0xfff1d6, 2.4); k.position.set(4,6,5); scene.add(k);
+  const b = new THREE.DirectionalLight(0xb38b45, 1.4); b.position.set(-5,3,-4); scene.add(b);
+
+  const cols = [new THREE.Color(0xe6cf86), new THREE.Color(0xe9a59a), new THREE.Color(0x7d1f2c)];
+  function colorAt(t){ const c = new THREE.Color(); if (t<0.5) c.copy(cols[0]).lerp(cols[1], t/0.5); else c.copy(cols[1]).lerp(cols[2], (t-0.5)/0.5); return c; }
+
+  function size(){
+    if(!canvas.clientWidth) return;
+    const w=canvas.clientWidth, h=canvas.clientHeight; renderer.setSize(w,h,false); cam.aspect=w/h; cam.updateProjectionMatrix();
+    const mobile = w<700;
+    pivot.position.set(mobile?0:1.9, -2.2, 0);
+    hl.position.set(pivot.position.x-0.55, pivot.position.y+3.35, 1.0);
+    cam.position.set(0, 1.2, mobile?15:12); cam.lookAt(0, 0, 0);
+    renderer.render(scene,cam);
+  }
+  let prog = shot ? 0.62 : 0, tgt = prog, visible = true;
+  size(); addEventListener('resize', size);
+  function place(t){ pivot.rotation.y = t*2.2; pivot.rotation.z = Math.sin(t*Math.PI)*0.06; wineMat.color.copy(colorAt(t)); wineMat.opacity = 0.82 + t*0.14; }
+  function frame(){ prog += (tgt-prog)*0.06; place(prog); renderer.render(scene,cam); if(visible && !shot) requestAnimationFrame(frame); }
+  if (!shot && window.ScrollTrigger && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+    ScrollTrigger.create({trigger:'.glass', start:'top 80%', end:'bottom 20%', onUpdate:s=>{ tgt = s.progress; }});
+    new IntersectionObserver(e=>{ const v=e[0].isIntersecting; if(v&&!visible){visible=true;frame();} else visible=v; }).observe(canvas);
+  } else { visible = false; place(0.62); }
+  frame();
+  document.getElementById('glassFallback').remove();
+} catch(e) {
+  canvas.style.display='none';
+}
+</script>
+</body>
+</html>

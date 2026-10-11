@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Sport Hotel Padola · Comelico Superiore, Dolomiti</title>
+<meta name="description" content="Hotel 3 stelle a conduzione familiare a Padola, in Val Comelico, dal 1972: 26 camere, ristorante e bar aperti a tutti, sauna finlandese, ski room e room bike. Ski Area Alta Val Comelico a pochi minuti.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Work+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<style>
+:root{
+  --navy:#0d1a2a; --navy-2:#16283d; --red:#d42a3c; --red-2:#ef4256; --gold:#c9a24a; --snow:#f1f3f4; --ice:#d6e6ec; --ink:#0d1a2a; --muted:#56636f; --line:#d5dbe0;
+  --disp:"Big Shoulders Display","Arial Narrow",Impact,sans-serif; --body:"Work Sans","Segoe UI",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--body);color:var(--ink);background:var(--snow);font-size:16.5px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:24px}
+h1,h2,h3{font-family:var(--disp);font-weight:800;margin:0;text-transform:uppercase;letter-spacing:.005em;line-height:.92}
+h2{font-size:clamp(46px,6.4vw,92px);margin:10px 0 22px}
+.idx{display:flex;align-items:center;gap:14px;font:700 13px var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--red)}
+.idx b{font:900 15px var(--disp);background:var(--red);color:#fff;padding:4px 8px;letter-spacing:.05em}
+.lead{color:var(--muted);max-width:56ch;margin:0}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--red);color:#fff;font:700 14px var(--body);letter-spacing:.08em;text-transform:uppercase;text-decoration:none;padding:16px 26px;clip-path:polygon(0 0,100% 0,calc(100% - 12px) 100%,0 100%);transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:var(--red-2)}
+.btn.w{background:#fff;color:var(--navy)}
+.btn.out{background:transparent;color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.7);clip-path:none}
+section{padding-block:110px}
+.ph{background-color:var(--navy-2);background-image:linear-gradient(150deg,#5b7891,#1b3048);background-size:cover;background-position:center;overflow:hidden}
+.par{width:100%;height:116%;margin-top:-8%;background-size:cover;background-position:center}
+.bg.par{height:auto;margin-top:0}
+
+/* TOPBAR + NAV */
+.top{position:fixed;inset:0 0 auto;z-index:20;transition:transform .3s}
+.bar{background:var(--red);color:#fff;font:600 12.5px var(--body)}
+.bar .wrap{display:flex;justify-content:space-between;align-items:center;gap:14px;padding-block:7px}
+.bar a{text-decoration:none}
+.bar .l{display:flex;gap:20px}
+.langs{display:flex;gap:4px}
+.langs a{padding:2px 8px;font-weight:700;letter-spacing:.08em}
+.langs a.on{background:#fff;color:var(--red)}
+.nav{color:#fff;transition:background .3s,color .3s}
+.top.solid .nav{background:var(--navy);box-shadow:0 1px 0 rgba(255,255,255,.08)}
+.nav .wrap{display:flex;justify-content:space-between;align-items:center;padding-block:14px;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand .st{font:900 13px var(--disp);color:var(--gold);letter-spacing:.2em;border:1.5px solid var(--gold);padding:4px 7px}
+.brand span{font:800 26px/1 var(--disp);text-transform:uppercase;letter-spacing:.02em}
+.brand small{display:block;font:600 10px var(--body);letter-spacing:.24em;opacity:.7;margin-top:2px}
+.menu{display:flex;gap:26px;font:600 13.5px var(--body);text-transform:uppercase;letter-spacing:.1em}
+.menu a{text-decoration:none}
+.nav .btn{padding:12px 20px;font-size:12.5px}
+
+/* HERO */
+.hero{position:relative;min-height:100svh;color:#fff;overflow:hidden;padding:0;display:flex;align-items:flex-end}
+.hero-bg{position:absolute;inset:-6% 0 0;background-image:url("https://irp.cdn-website.com/59d19170/dms3rep/multi/opt/sport-hotel-comelico-superiore+%2812%29-1351w.jpg"),linear-gradient(180deg,#7fb2d6 0%,#c8dde6 40%,#6f7f72 70%,#2b3a2f 100%)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,26,42,.55) 0%,rgba(13,26,42,0) 35%,rgba(13,26,42,.85) 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-top:150px;padding-bottom:70px;display:grid;grid-template-columns:1fr auto;gap:40px;align-items:end}
+.hero .tag{display:inline-block;font:700 12.5px var(--body);letter-spacing:.2em;text-transform:uppercase;background:var(--navy);padding:8px 12px;border-left:4px solid var(--red)}
+.hero h1{font-size:clamp(62px,10.5vw,170px);line-height:.86;margin:22px 0 26px;max-width:9.5ch}
+.hero h1 .r{color:var(--red-2)}
+.hero p{max-width:48ch;font-size:18px;margin:0 0 30px;opacity:.95}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero aside{display:grid;gap:10px;min-width:240px}
+.hero aside div{background:rgba(13,26,42,.7);backdrop-filter:blur(8px);padding:16px 18px;border-left:4px solid var(--gold)}
+.hero aside b{display:block;font:800 30px/1 var(--disp);text-transform:uppercase}
+.hero aside span{font-size:13px;opacity:.8}
+
+/* TICKER */
+.ticker{background:var(--navy);color:#fff;overflow:hidden;padding-block:18px;white-space:nowrap}
+.ticker .tr{display:inline-flex;gap:46px;font:800 34px var(--disp);text-transform:uppercase;letter-spacing:.02em}
+.ticker .tr span:nth-child(even){color:var(--red-2)}
+.ticker .tr i{color:var(--gold);font-style:normal}
+
+/* NUMBERS */
+.nums{display:grid;grid-template-columns:repeat(4,1fr);border-top:2px solid var(--navy);border-bottom:2px solid var(--navy)}
+.num{padding:34px 24px;border-left:2px solid var(--navy)}
+.num:first-child{border-left:0}
+.num b{display:block;font:900 clamp(56px,6vw,84px)/.9 var(--disp);font-variant-numeric:tabular-nums;color:var(--navy)}
+.num b em{font-style:normal;color:var(--red)}
+.num span{display:block;margin-top:8px;font-size:14px;color:var(--muted);font-weight:500}
+
+/* CAMERE */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,5vw,80px);align-items:center}
+.split .pic{height:600px;clip-path:polygon(0 0,100% 0,100% 92%,88% 100%,0 100%)}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:26px;border-top:1px solid var(--line)}
+.feat div{padding:14px 0;border-bottom:1px solid var(--line);font-weight:600;display:flex;gap:10px;align-items:center}
+.feat div:before{content:"";width:8px;height:8px;background:var(--red);transform:rotate(45deg);flex:none}
+
+/* TRATTAMENTI */
+.plans{background:var(--navy);color:#fff}
+.plans .idx{color:var(--gold)}
+.plans .idx b{background:var(--gold);color:var(--navy)}
+.plans .lead{color:rgba(241,243,244,.7)}
+.pgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:50px;background:rgba(255,255,255,.12)}
+.pl{background:var(--navy);padding:34px 26px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between}
+.pl small{font:800 16px var(--disp);color:var(--red-2);letter-spacing:.1em}
+.pl h3{font-size:38px;margin:14px 0 12px}
+.pl p{margin:0;font-size:15px;opacity:.75}
+.pl.hl{background:var(--red)}
+.pl.hl small{color:#fff}
+
+/* CUCINA */
+.kitchen .pic{height:560px;clip-path:polygon(12% 0,100% 0,100% 100%,0 100%,0 8%)}
+.open{display:inline-flex;gap:10px;align-items:center;margin-top:24px;background:var(--ice);padding:12px 16px;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.08em}
+.open:before{content:"";width:10px;height:10px;border-radius:50%;background:#2fae5f;box-shadow:0 0 0 4px rgba(47,174,95,.2)}
+
+/* STAGIONI */
+.seasons{display:grid;grid-template-columns:1fr 1fr;padding:0}
+.sea{position:relative;min-height:86vh;color:#fff;overflow:hidden;display:flex;align-items:flex-end;padding:50px clamp(24px,4vw,64px)}
+.sea .bg{position:absolute;inset:-10% 0}
+.sea::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,26,42,.05),rgba(13,26,42,.85))}
+.sea .t{position:relative;z-index:2}
+.sea .lbl{font:800 16px var(--disp);letter-spacing:.2em;text-transform:uppercase;padding:4px 10px;background:var(--red);display:inline-block}
+.sea.win .lbl{background:#fff;color:var(--navy)}
+.sea h3{font-size:clamp(54px,6vw,96px);margin:16px 0 18px}
+.sea ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.sea li{font-weight:600;font-size:14px;border:1.5px solid rgba(255,255,255,.6);padding:6px 12px}
+
+/* PANORAMA */
+.pano{background:linear-gradient(180deg,#cfe3ec 0%,#eef4f6 60%,var(--snow) 100%);padding:100px 0 0;overflow:hidden;position:relative}
+.pano .head{text-align:center}
+.pano svg{display:block;width:100%;height:auto;margin-top:30px}
+.pano .layer{will-change:transform}
+.pano text{font:800 15px var(--disp);letter-spacing:.14em;text-transform:uppercase;fill:var(--navy)}
+.pano .note{text-align:center;font-size:12px;color:var(--muted);padding:10px 0 0;letter-spacing:.1em;text-transform:uppercase}
+
+/* SERVIZI BENTO */
+.bento{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:200px;gap:14px;margin-top:46px}
+.b{background:#fff;padding:24px;display:flex;flex-direction:column;justify-content:flex-end;position:relative;overflow:hidden;border-bottom:4px solid var(--navy)}
+.b h3{font-size:30px;line-height:.95}
+.b p{margin:6px 0 0;font-size:14px;color:var(--muted)}
+.b.big{grid-column:span 2;grid-row:span 2;color:#fff;border-bottom-color:var(--red)}
+.b.big .ph{position:absolute;inset:0}
+.b.big::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,rgba(13,26,42,.85))}
+.b.big .t{position:relative;z-index:2}
+.b.big h3{font-size:52px}
+.b.big p{color:rgba(255,255,255,.85)}
+.b.red{background:var(--red);color:#fff;border-bottom-color:var(--navy)}
+.b.red p{color:rgba(255,255,255,.85)}
+.b.nav2{background:var(--navy);color:#fff;border-bottom-color:var(--gold)}
+.b.nav2 p{color:rgba(255,255,255,.7)}
+
+/* APERTURA + DOVE */
+.where{position:relative;color:#fff;overflow:hidden}
+.where .bg{position:absolute;inset:-10% 0;background-image:url("https://irp.cdn-website.com/59d19170/dms3rep/multi/opt/sport-hotel-comelico-superiore+%282%29-1497w.jpg"),linear-gradient(150deg,#4d6b84,#0d1a2a)}
+.where::after{content:"";position:absolute;inset:0;background:rgba(13,26,42,.82)}
+.where .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:60px}
+.where .idx{color:var(--gold)}
+.where .idx b{background:var(--gold);color:var(--navy)}
+.where .lead{color:rgba(241,243,244,.78)}
+.cal{display:grid;grid-template-columns:repeat(6,1fr);gap:4px;margin-top:26px}
+.cal div{padding:12px 0;text-align:center;font:800 18px var(--disp);letter-spacing:.08em;background:rgba(255,255,255,.12)}
+.cal div.off{background:transparent;box-shadow:inset 0 0 0 1.5px rgba(239,66,86,.8);color:var(--red-2);text-decoration:line-through}
+.near{list-style:none;padding:0;margin:26px 0 0}
+.near li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.15);font-weight:600}
+.near li span{opacity:.6;font-weight:400;text-align:right}
+
+/* CONTATTI */
+.contact{background:var(--red);color:#fff}
+.contact .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+.contact h2{font-size:clamp(50px,7vw,108px)}
+.contact .slogan{font:600 20px var(--body);opacity:.92;margin:0}
+.cl{display:grid;gap:2px;background:rgba(255,255,255,.25)}
+.cl a,.cl div{background:var(--red);padding:18px 4px 18px 0;display:flex;justify-content:space-between;gap:12px;text-decoration:none;align-items:baseline}
+.cl small{font:700 12px var(--body);letter-spacing:.18em;text-transform:uppercase;opacity:.75}
+.cl b{font:800 30px var(--disp);text-transform:uppercase;text-align:right}
+.contact .cta{margin-top:26px}
+footer{background:var(--navy);color:rgba(241,243,244,.6);font-size:13px;padding-block:22px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ribbon{position:fixed;right:14px;bottom:14px;z-index:30;background:var(--navy);color:#fff;font:600 12px var(--body);padding:8px 12px;border-left:4px solid var(--gold)}
+.reveal{will-change:transform,opacity}
+
+@media (max-width:900px){
+  body{font-size:16px}
+  section{padding-block:72px}
+  .bar .l a:nth-child(2){display:none}
+  .menu,.nav .btn{display:none}
+  .hero .wrap{grid-template-columns:1fr;padding-top:130px}
+  .hero aside{grid-template-columns:1fr 1fr;min-width:0}
+  .ticker .tr{font-size:24px}
+  .nums{grid-template-columns:1fr 1fr}
+  .num:nth-child(3){border-left:0}
+  .num:nth-child(n+3){border-top:2px solid var(--navy)}
+  .split{grid-template-columns:1fr}
+  .split .pic{height:380px}
+  .kitchen .split .pic{order:-1}
+  .pgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pl{padding:24px 16px}
+  .pl h3{font-size:20px;overflow-wrap:break-word}
+  .bento{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .b{padding:18px}
+  .b h3{font-size:21px}
+  .hero h1{font-size:clamp(44px,13vw,64px)}
+  .pl{min-height:200px}
+  .seasons{grid-template-columns:1fr}
+  .sea{min-height:70vh}
+  .bento{grid-template-columns:1fr 1fr;grid-auto-rows:170px}
+  .b.big{grid-row:span 2}
+  .b.big h3{font-size:40px}
+  .where .wrap,.contact .wrap{grid-template-columns:1fr}
+  .pano text{font-size:34px;letter-spacing:.06em}
+  .cl b{font-size:22px}
+}
+</style>
+</head>
+<body>
+<div class="top" id="top">
+  <div class="bar"><div class="wrap">
+    <div class="l"><a href="tel:+390435470026">+39 0435 470026</a><a href="https://wa.me/393472722894">WhatsApp 347 272 2894</a></div>
+    <div class="langs" aria-label="Lingua"><a class="on" href="#">IT</a><a href="#" title="English">EN</a><a href="#" title="Deutsch">DE</a></div>
+  </div></div>
+  <header class="nav"><div class="wrap">
+    <a class="brand" href="#"><i class="st" style="font-style:normal">★★★</i><span>Sport Hotel<small>Padola · Val Comelico</small></span></a>
+    <nav class="menu"><a href="#camere">Camere</a><a href="#trattamenti">Trattamenti</a><a href="#stagioni">Stagioni</a><a href="#servizi">Servizi</a></nav>
+    <a class="btn" href="#contatti">Prenota</a>
+  </div></header>
+</div>
+
+<section class="hero">
+  <div class="hero-bg ph" id="heroBg"></div>
+  <div class="wrap">
+    <div>
+      <span class="tag reveal">Dolomiti · Patrimonio UNESCO</span>
+      <h1 id="heroTitle">Le Dolomiti ti aspettano. <span class="r">E anche noi.</span></h1>
+      <p class="reveal">Hotel 3 stelle a conduzione familiare a Padola, nella Val Comelico, dal 1972. D'inverno la Ski Area Alta Val Comelico a pochi minuti; d'estate sentieri, malghe e mountain bike.</p>
+      <div class="cta reveal"><a class="btn" href="#contatti">Richiedi disponibilità</a><a class="btn out" href="https://wa.me/393472722894">Scrivi su WhatsApp</a></div>
+    </div>
+    <aside class="reveal">
+      <div><b>Inverno</b><span>sci alpino e ciaspolate</span></div>
+      <div><b>Estate</b><span>trekking, MTB e malghe</span></div>
+    </aside>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="tr" id="tick">
+  <span>Padola</span><i>✦</i><span>Val Comelico</span><i>✦</i><span>Dolomiti UNESCO</span><i>✦</i><span>Dal 1972</span><i>✦</i><span>Ski Area Alta Val Comelico</span><i>✦</i><span>Dolomiti Superski</span><i>✦</i>
+  <span>Padola</span><i>✦</i><span>Val Comelico</span><i>✦</i><span>Dolomiti UNESCO</span><i>✦</i><span>Dal 1972</span><i>✦</i><span>Ski Area Alta Val Comelico</span><i>✦</i><span>Dolomiti Superski</span><i>✦</i>
+</div></div>
+
+<section style="padding-block:70px"><div class="wrap">
+  <div class="nums">
+    <div class="num"><b data-count="1972" data-from="1900">1972</b><span>l'anno in cui la famiglia ha aperto</span></div>
+    <div class="num"><b data-count="26">26</b><span>camere, con ascensore a tutti i piani</span></div>
+    <div class="num"><b><em>★</em><i style="font-style:normal" data-count="3">3</i></b><span>stelle, nel cuore di Padola</span></div>
+    <div class="num"><b data-count="2">2</b><span>stagioni: da giugno ad aprile</span></div>
+  </div>
+</div></section>
+
+<section id="camere" style="padding-top:20px"><div class="wrap split">
+  <div class="pic ph"><div class="par" style="background-image:url('https://irp.cdn-website.com/59d19170/dms3rep/multi/opt/rIKYdZzFQQueM9XA1hnl-630w.jpg')"></div></div>
+  <div>
+    <span class="idx"><b>01</b>Camere</span>
+    <h2 class="reveal">26 camere per ripartire ogni mattina</h2>
+    <p class="lead reveal">Camere confortevoli con pulizia giornaliera e letti aggiuntivi su richiesta. L'ascensore arriva a tutti i piani.</p>
+    <div class="feat">
+      <div class="reveal">TV</div><div class="reveal">Wi-Fi gratuito</div>
+      <div class="reveal">Telefono</div><div class="reveal">Pulizia giornaliera</div>
+      <div class="reveal">Letti aggiuntivi</div><div class="reveal">Ascensore a tutti i piani</div>
+    </div>
+  </div>
+</div></section>
+
+<section class="plans" id="trattamenti"><div class="wrap">
+  <span class="idx"><b>02</b>Trattamenti</span>
+  <h2 class="reveal">Scegli come stare</h2>
+  <p class="lead reveal">Dalla colazione fatta in casa alla pensione completa, con tariffe dedicate ai gruppi. Chiedici un preventivo per le tue date.</p>
+  <div class="pgrid">
+    <div class="pl reveal"><small>B&amp;B</small><div><h3>Bed &amp; Breakfast</h3><p>Pernottamento con colazione fatta in casa.</p></div></div>
+    <div class="pl hl reveal"><small>HB</small><div><h3>Mezza pensione</h3><p>Colazione e cena con la cucina tipica bellunese.</p></div></div>
+    <div class="pl reveal"><small>FB</small><div><h3>Pensione completa</h3><p>Colazione, pranzo e cena in hotel.</p></div></div>
+    <div class="pl reveal"><small>GR</small><div><h3>Gruppi</h3><p>Tariffe dedicate ai gruppi, su richiesta.</p></div></div>
+  </div>
+</div></section>
+
+<section class="kitchen" id="cucina"><div class="wrap split">
+  <div>
+    <span class="idx"><b>03</b>Ristorante &amp; bar</span>
+    <h2 class="reveal">Ravioli e ricette di casa</h2>
+    <p class="lead reveal">In cucina c'è una delle proprietarie: ricette venete e dolomitiche, piatti della tradizione bellunese e ravioli. Il ristorante e il bar sono aperti a tutti, non solo agli ospiti dell'hotel.</p>
+    <div class="open reveal">Ristorante e bar aperti a tutti</div>
+  </div>
+  <div class="pic ph"><div class="par" style="background-image:url('https://irp.cdn-website.com/59d19170/dms3rep/multi/opt/0WO5p000003FcMpGAK_12364062-ebc6269b-630w.jpg')"></div></div>
+</div></section>
+
+<div class="seasons" id="stagioni">
+  <div class="sea"><div class="bg par ph" style="background-image:url('https://irp.cdn-website.com/59d19170/dms3rep/multi/opt/sport-hotel-comelico-superiore+%2814%29-630w.jpg'),linear-gradient(160deg,#7aa36a,#2c4a37)"></div>
+    <div class="t"><span class="lbl">04 · Estate</span><h3>Sentieri, malghe, bici</h3><ul><li>Trekking</li><li>Mountain bike</li><li>Malghe</li><li>Rifugi</li><li>Torbiere di Danta</li></ul></div></div>
+  <div class="sea win"><div class="bg par ph" style="background-image:url('https://irp.cdn-website.com/59d19170/dms3rep/multi/opt/sport-hotel-comelico-superiore+%289%29-630w.jpg'),linear-gradient(160deg,#c9dbe6,#4f6c86)"></div>
+    <div class="t"><span class="lbl">04 · Inverno</span><h3>Neve a pochi minuti</h3><ul><li>Sci alpino</li><li>Ski Area Alta Val Comelico</li><li>Dolomiti Superski</li><li>Ciaspolate</li></ul></div></div>
+</div>
+
+<section class="pano" aria-label="Le cime intorno a Padola">
+  <div class="wrap head"><span class="idx" style="justify-content:center"><b>05</b>Panorama</span><h2 class="reveal">Le cime davanti a casa</h2><p class="lead reveal" style="margin-inline:auto">Dalla Val Comelico lo sguardo arriva sull'Ajarnola, sulla Cima Undici e sulla Croda Rossa; poco sopra il paese, le Torbiere di Danta.</p></div>
+  <svg viewBox="0 0 1440 420" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Illustrazione delle cime: Ajarnola, Cima Undici, Croda Rossa">
+    <g class="layer" data-depth="0.4"><path d="M0 300 L120 230 L210 260 L330 170 L420 220 L520 150 L640 230 L760 180 L880 240 L1000 160 L1120 220 L1260 170 L1440 250 L1440 420 L0 420Z" fill="#a9c3d1"/></g>
+    <g class="layer" data-depth="0.8">
+      <path d="M0 340 L90 300 L170 230 L230 120 L262 150 L300 90 L350 170 L420 240 L520 260 L600 210 L660 140 L700 70 L730 110 L770 60 L820 150 L900 230 L1000 250 L1080 200 L1150 120 L1190 150 L1240 100 L1300 190 L1380 260 L1440 280 L1440 420 L0 420Z" fill="#5d7c93"/>
+      <path d="M230 120 L262 150 L300 90 L318 118 L284 140 L262 170Z M700 70 L730 110 L770 60 L792 100 L760 96 L730 135 L712 104Z M1150 120 L1190 150 L1240 100 L1262 135 L1222 140 L1190 172Z" fill="#f1f3f4"/>
+      <line x1="300" y1="80" x2="300" y2="48" stroke="#0d1a2a" stroke-width="1.5"/><text x="300" y="40" text-anchor="middle">Ajarnola</text>
+      <line x1="770" y1="52" x2="770" y2="30" stroke="#0d1a2a" stroke-width="1.5"/><text x="770" y="22" text-anchor="middle">Cima Undici</text>
+      <line x1="1240" y1="90" x2="1240" y2="58" stroke="#0d1a2a" stroke-width="1.5"/><text x="1240" y="50" text-anchor="middle">Croda Rossa</text>
+    </g>
+    <g class="layer" data-depth="1.3"><path d="M0 380 L140 350 L260 365 L380 330 L470 345 L600 310 L720 340 L860 320 L980 350 L1100 325 L1240 352 L1440 330 L1440 420 L0 420Z" fill="#26405a"/>
+      <g fill="#0d1a2a"><path d="M180 362 l12 -34 l12 34z M205 360 l10 -28 l10 28z M960 352 l12 -36 l12 36z M990 352 l9 -26 l9 26z M1320 338 l12 -34 l12 34z"/></g>
+      <circle cx="610" cy="318" r="7" fill="#d42a3c"/><text x="610" y="300" text-anchor="middle" style="fill:#d42a3c">Padola</text>
+    </g>
+  </svg>
+  <div class="note">Illustrazione indicativa, non in scala</div>
+</section>
+
+<section id="servizi"><div class="wrap">
+  <span class="idx"><b>06</b>Servizi</span>
+  <h2 class="reveal">Tutto per chi fa sport</h2>
+  <div class="bento">
+    <div class="b big reveal"><div class="ph"><div class="par" style="background-image:url('https://irp.cdn-website.com/59d19170/dms3rep/multi/opt/sport-hotel-comelico-superiore+%284%29-630w.jpg')"></div></div><div class="t"><h3>Sauna finlandese</h3><p>Con zona relax, per chiudere la giornata dopo le piste o il sentiero.</p></div></div>
+    <div class="b red reveal"><h3>Ski room</h3><p>Per sci e scarponi.</p></div>
+    <div class="b reveal"><h3>Room bike</h3><p>Deposito per le biciclette.</p></div>
+    <div class="b reveal"><h3>Parcheggio e giardino</h3><p>Gratuiti per gli ospiti.</p></div>
+    <div class="b nav2 reveal"><h3>Sentieri, rifugi e malghe</h3><p>Ti consigliamo noi dove andare.</p></div>
+    <div class="b reveal"><h3>Animali</h3><p>Ammessi gli animali di piccola taglia.</p></div>
+    <div class="b reveal"><h3>Wi-Fi gratuito</h3><p>In tutte le camere.</p></div>
+    <div class="b reveal"><h3>Ascensore</h3><p>A tutti i piani.</p></div>
+    <div class="b red reveal"><h3>Ristorante e bar</h3><p>Aperti anche agli esterni.</p></div>
+  </div>
+</div></section>
+
+<section class="where"><div class="bg par"></div><div class="wrap">
+  <div>
+    <span class="idx"><b>07</b>Apertura</span>
+    <h2 class="reveal">Da giugno ad aprile</h2>
+    <p class="lead reveal">Apriamo a giugno per l'estate e restiamo aperti fino alla fine della stagione invernale, ad aprile. Siamo chiusi solo a maggio e a novembre.</p>
+    <div class="cal reveal">
+      <div>Gen</div><div>Feb</div><div>Mar</div><div>Apr</div><div class="off">Mag</div><div>Giu</div>
+      <div>Lug</div><div>Ago</div><div>Set</div><div>Ott</div><div class="off">Nov</div><div>Dic</div>
+    </div>
+  </div>
+  <div>
+    <span class="idx"><b>08</b>Dove siamo</span>
+    <h2 class="reveal">Padola, Val Comelico</h2>
+    <ul class="near">
+      <li class="reveal">Ski Area Alta Val Comelico <span>a pochi minuti</span></li>
+      <li class="reveal">Val Pusteria <span>vicina</span></li>
+      <li class="reveal">Confine austriaco <span>vicino</span></li>
+      <li class="reveal">Auronzo di Cadore <span>vicina</span></li>
+      <li class="reveal">Sappada <span>vicina</span></li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="contact" id="contatti"><div class="wrap">
+  <div>
+    <span class="idx" style="color:#fff"><b style="background:#fff;color:var(--red)">09</b>Prenota</span>
+    <h2>Ti aspettiamo a Padola</h2>
+    <p class="slogan">“Le Dolomiti ti aspettano e anche Noi.”</p>
+    <div class="cta"><a class="btn w" href="mailto:info@sporthotelpadola.it?subject=Richiesta%20disponibilit%C3%A0">Richiedi disponibilità</a><a class="btn out" href="https://www.sporthotelpadola.it">Sito attuale</a></div>
+  </div>
+  <div class="cl">
+    <a href="tel:+390435470026"><small>Telefono</small><b>+39 0435 470026</b></a>
+    <a href="https://wa.me/393472722894"><small>WhatsApp</small><b>+39 347 2722894</b></a>
+    <a href="mailto:info@sporthotelpadola.it"><small>Email</small><b style="text-transform:none">info@sporthotelpadola.it</b></a>
+    <div><small>Indirizzo</small><b style="font-size:20px">Via Milano 10, 32040 Padola<br>Comelico Superiore (BL)</b></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span>Sport Hotel Padola ★★★ · Via Milano 10, Comelico Superiore (BL)</span><span>IT · EN · DE</span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot = /[?&]shot=1/.test(location.search);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var top = document.getElementById('top');
+  function onScroll(){ top.classList.toggle('solid', window.scrollY > 80); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  document.querySelectorAll('.langs a').forEach(function(a){ a.addEventListener('click',function(e){ e.preventDefault(); document.querySelectorAll('.langs a').forEach(function(b){b.classList.toggle('on',b===a);}); }); });
+  if (shot || reduce || !window.gsap) return;
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  var lenis = new Lenis({lerp:0.12});
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+  gsap.ticker.lagSmoothing(0);
+
+  gsap.fromTo('#heroBg',{scale:1.15},{scale:1,duration:2.2,ease:'expo.out'});
+  gsap.to('#heroBg',{yPercent:14,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  document.fonts.ready.then(function(){
+    var st = new SplitText('#heroTitle',{type:'words'});
+    gsap.from(st.words,{xPercent:-30,opacity:0,skewX:-12,duration:.9,ease:'power4.out',stagger:0.07,delay:0.15});
+  });
+  gsap.from('.hero .reveal',{y:26,opacity:0,duration:.9,ease:'power3.out',stagger:0.1,delay:0.5});
+
+  // Ticker legato allo scroll (scrub)
+  gsap.fromTo('#tick',{xPercent:0},{xPercent:-50,ease:'none',scrollTrigger:{trigger:'.ticker',start:'top bottom',end:'+=2200',scrub:1}});
+
+  document.querySelectorAll('[data-count]').forEach(function(el){
+    var end=+el.dataset.count, o={v:+(el.dataset.from||0)};
+    gsap.to(o,{v:end,duration:1.6,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 88%'},onUpdate:function(){ el.textContent=Math.round(o.v); }});
+  });
+
+  gsap.utils.toArray('section .reveal').forEach(function(el){
+    if (el.closest('.hero')) return;
+    gsap.from(el,{y:46,opacity:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 90%'}});
+  });
+
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  // Panorama: livelli in parallax
+  gsap.utils.toArray('.pano .layer').forEach(function(g){
+    var d=+g.dataset.depth;
+    gsap.fromTo(g,{y:60*d,x:-20*d},{y:-10*d,x:20*d,ease:'none',scrollTrigger:{trigger:'.pano',start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  window.addEventListener('load',function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+</body>
+</html>

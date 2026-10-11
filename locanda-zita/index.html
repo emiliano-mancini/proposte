@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Locanda Zita · Vesale di Sestola, ai piedi del Cimone</title>
+<meta name="description" content="Locanda in pietra e legno nel borgo medievale di Vesale di Sestola: 11 camere che portano il nome di un fiore, 2 suite con idromassaggio, appartamenti, wellness e cucina di montagna.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Karla:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<style>
+:root{
+  --paper:#f4ecdf; --paper-2:#ebdfcb; --wine:#6e1f2b; --wine-2:#8f2e3b; --sage:#7c8a68; --ochre:#c48a2e; --stone:#2f2924; --muted:#6c5f55; --line:#d9c9b0;
+  --disp:"Cormorant Garamond",Garamond,Georgia,serif; --body:"Karla","Helvetica Neue",Arial,sans-serif;
+  --U:"https://www.locandazita.com/wp-content/uploads/2015/10/";
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:var(--body);color:var(--stone);background:var(--paper);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:24px}
+.kick{font:700 11.5px var(--body);letter-spacing:.26em;text-transform:uppercase;color:var(--wine-2);display:inline-flex;align-items:center;gap:12px}
+.kick:before{content:"";width:28px;height:1px;background:currentColor}
+h1,h2,h3{font-family:var(--disp);font-weight:500;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h2{font-size:clamp(38px,5vw,64px);line-height:1.02;margin:14px 0 20px;max-width:16ch}
+h2 em,h1 em{font-style:italic;color:var(--wine)}
+.lead{max-width:56ch;color:var(--muted);margin:0}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--wine);color:#fff8ee;font-weight:700;text-decoration:none;border-radius:4px;padding:15px 24px;font-size:14px;letter-spacing:.06em;text-transform:uppercase;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:var(--wine-2)}
+.btn.line{background:transparent;color:var(--stone);border:1.5px solid var(--stone)}
+section{padding-block:120px}
+.ph{background:linear-gradient(135deg,#a38866,#5e4a3a);background-size:cover;background-position:center;overflow:hidden}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:20;color:#fff8ee;transition:background .3s,color .3s}
+.nav.solid{background:rgba(244,236,223,.94);color:var(--stone);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
+.nav .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding-block:14px;gap:16px}
+.menu{display:flex;gap:26px;font-size:14px;font-weight:500}
+.menu a{text-decoration:none}
+.brand{text-align:center;font:italic 600 28px/1 var(--disp);text-decoration:none}
+.brand small{display:block;font:700 9.5px var(--body);font-style:normal;letter-spacing:.3em;text-transform:uppercase;opacity:.75;margin-top:4px}
+.nav .right{display:flex;justify-content:flex-end;gap:14px;align-items:center}
+.nav .tel{font-size:14px;font-weight:700;text-decoration:none}
+.nav .btn{padding:11px 18px;font-size:12.5px}
+
+/* HERO */
+.hero{position:relative;height:100svh;min-height:640px;overflow:hidden;padding:0;color:#fff8ee}
+.hero-bg{position:absolute;inset:-6% 0 0;background-image:url("https://www.locandazita.com/wp-content/uploads/2015/10/slide-ext-1.jpg"),linear-gradient(160deg,#8a7a63,#4b3d32 60%,#2a231e)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(30,20,16,.72),rgba(30,20,16,.15) 60%),linear-gradient(0deg,rgba(30,20,16,.55),transparent 45%)}
+.hero .wrap{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:clamp(60px,11vh,120px)}
+.hero .kick{color:#f0c98a}
+.hero h1{font-size:clamp(52px,8.6vw,124px);line-height:.92;margin:22px 0 22px;max-width:11ch}
+.hero h1 em{color:#f0c98a}
+.hero p{max-width:46ch;font-size:19px;margin:0 0 32px;opacity:.94}
+.hero .btn.line{color:#fff8ee;border-color:rgba(255,248,238,.7)}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.stamp{position:absolute;right:clamp(24px,5vw,72px);top:clamp(100px,18vh,170px);z-index:2;width:150px;height:150px;border:1px solid rgba(255,248,238,.6);border-radius:50%;display:grid;place-items:center;text-align:center;font:italic 500 20px/1.15 var(--disp)}
+.stamp small{display:block;font:700 9.5px var(--body);font-style:normal;letter-spacing:.24em;text-transform:uppercase;margin-top:6px}
+
+/* STORIA */
+.story .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,90px);align-items:center}
+.story .imgs{position:relative;height:620px}
+.story .imgs .a{position:absolute;inset:0 18% 14% 0;border-radius:200px 200px 4px 4px}
+.story .imgs .b{position:absolute;right:0;bottom:0;width:48%;aspect-ratio:3/4;border:8px solid var(--paper);border-radius:4px}
+.story .imgs .par{width:100%;height:116%;margin-top:-8%;background-size:cover;background-position:center}
+.time{list-style:none;padding:0;margin:34px 0 0;border-top:1px solid var(--line)}
+.time li{display:grid;grid-template-columns:140px 1fr;gap:18px;padding:16px 0;border-bottom:1px solid var(--line)}
+.time b{font:italic 600 24px/1.1 var(--disp);color:var(--wine)}
+
+/* NUMERI */
+.nums{background:var(--wine);color:#fff8ee}
+.nums .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.num{padding:36px 22px;border-left:1px solid rgba(255,248,238,.18);text-align:center}
+.num:first-child{border-left:0}
+.num b{display:block;font:500 54px/1 var(--disp);color:#f0c98a;font-variant-numeric:tabular-nums;margin-bottom:8px}
+.num span{font-size:14px;opacity:.85}
+
+/* CAMERE */
+.rooms-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap}
+.flowers{display:flex;flex-wrap:wrap;gap:8px;margin-top:30px}
+.flowers span{font:italic 500 18px var(--disp);padding:6px 16px;border:1px solid var(--line);border-radius:999px;background:#fbf6ee}
+.rooms{display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:auto auto;gap:22px;margin-top:52px}
+.room{background:#fbf6ee;border:1px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column}
+.room .ph{aspect-ratio:16/10}
+.room:first-child{grid-row:span 2}
+.room:first-child .ph{aspect-ratio:auto;flex:1;min-height:340px}
+.room .par{width:100%;height:116%;margin-top:-8%;background-size:cover;background-position:center}
+.room .in{padding:24px 26px 28px}
+.room h3{font-size:32px;line-height:1.05;margin-bottom:8px}
+.room p{margin:0;color:var(--muted);font-size:15.5px}
+.apts{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:22px;border:1px solid var(--line);border-radius:6px;background:#fbf6ee}
+.apt{padding:24px;border-left:1px solid var(--line)}
+.apt:first-child{border-left:0}
+.apt h3{font-size:24px;margin-bottom:6px}
+.apt p{margin:0;font-size:14.5px;color:var(--muted)}
+
+/* WELLNESS */
+.well{position:relative;min-height:88vh;display:flex;align-items:center;color:#fff8ee;overflow:hidden}
+.well .bg{position:absolute;inset:-10% 0;background-image:url("https://www.locandazita.com/wp-content/uploads/2015/10/slide-wellness.jpg"),linear-gradient(140deg,#4a5a52,#22302b);background-size:cover;background-position:center}
+.well::after{content:"";position:absolute;inset:0;background:linear-gradient(270deg,rgba(25,20,18,.82) 0%,rgba(25,20,18,.2) 70%)}
+.well .wrap{position:relative;z-index:2;display:flex;justify-content:flex-end;width:100%}
+.well .card{max-width:470px}
+.well .kick{color:#f0c98a}
+.well h2 em{color:#f0c98a}
+.well ul{list-style:none;padding:0;margin:20px 0 26px;display:flex;flex-wrap:wrap;gap:8px}
+.well li{font-size:14px;font-weight:500;border:1px solid rgba(255,248,238,.4);border-radius:999px;padding:6px 14px}
+.well .rate{font:italic 500 26px var(--disp);color:#f0c98a}
+
+/* CUCINA */
+.kitchen .wrap{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(36px,6vw,90px);align-items:start}
+.pasta{margin:30px 0 0;padding:0;list-style:none;font:italic 500 clamp(28px,3.4vw,44px)/1.15 var(--disp);color:var(--wine)}
+.pasta li{border-bottom:1px solid var(--line);padding:6px 0;display:flex;justify-content:space-between;align-items:baseline;gap:20px}
+.pasta small{font:500 12px var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-style:normal}
+.kimgs{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.kimgs .ph{border-radius:4px;aspect-ratio:4/5}
+.kimgs .ph:first-child{grid-column:span 2;aspect-ratio:16/10}
+.kimgs .par{width:100%;height:116%;margin-top:-8%;background-size:cover;background-position:center}
+.kitchen .note{margin-top:24px;font-size:15px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.tags span{background:var(--sage);color:#fff;font-size:13px;font-weight:700;padding:5px 12px;border-radius:3px}
+
+/* PREZZI */
+.prices{background:var(--paper-2)}
+.prices .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(36px,6vw,90px)}
+.plist{border-top:2px solid var(--stone)}
+.prow{display:grid;grid-template-columns:1fr auto;gap:18px;padding:20px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.prow h3{font-size:28px;line-height:1.1}
+.prow p{margin:4px 0 0;font-size:14px;color:var(--muted)}
+.prow b{font:600 34px var(--disp);color:var(--wine);white-space:nowrap}
+.prow b small{font:500 13px var(--body);color:var(--muted)}
+.perks{margin-top:34px;background:var(--wine);color:#fff8ee;border-radius:6px;padding:28px}
+.perks h3{font-size:28px;margin-bottom:12px;color:#f0c98a}
+.perks ul{margin:0;padding-left:18px}
+
+/* 3D */
+.topo{position:relative;background:#211b17;color:#f4ecdf;padding:0;overflow:hidden}
+.topo canvas{display:block;width:100%;height:min(88vh,780px)}
+.topo .over{position:absolute;inset:0;pointer-events:none;display:flex;align-items:flex-start;background:linear-gradient(90deg,rgba(33,27,23,.92) 0%,rgba(33,27,23,.55) 35%,transparent 60%)}
+.topo .over .lead{max-width:44ch}
+.topo .over .wrap{width:100%;padding-top:90px}
+.topo .kick{color:#f0c98a}
+.topo h2{color:#f4ecdf}
+.topo h2 em{color:#f0c98a}
+.topo .lead{color:rgba(244,236,223,.75)}
+.topo .fallback{position:absolute;inset:0;background:repeating-radial-gradient(ellipse at 60% 70%,transparent 0 22px,rgba(240,201,138,.18) 23px 24px)}
+.legend{position:absolute;right:24px;bottom:24px;font:500 12px var(--body);letter-spacing:.18em;text-transform:uppercase;color:rgba(244,236,223,.6);text-align:right}
+
+/* SERVIZI */
+.serv .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,90px)}
+.svc{list-style:none;padding:0;margin:26px 0 0;columns:2;column-gap:28px}
+.svc li{break-inside:avoid;padding:12px 0;border-bottom:1px solid var(--line);font-weight:500}
+.svc li:before{content:"✿";color:var(--wine);margin-right:10px}
+.around{display:grid;gap:14px;margin-top:26px}
+.ar{display:grid;grid-template-columns:52px 1fr;gap:16px;align-items:start;background:#fbf6ee;border:1px solid var(--line);border-radius:6px;padding:18px}
+.ar i{font:italic 600 30px/1 var(--disp);color:var(--ochre);font-style:italic}
+.ar h3{font-size:24px}
+.ar p{margin:2px 0 0;font-size:15px;color:var(--muted)}
+
+/* GALLERY */
+.strip{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:12px;padding:0 12px 12px}
+.strip .ph{height:340px;border-radius:4px}
+.strip .ph:nth-child(even){margin-top:50px}
+
+/* CONTATTI */
+.contact{background:var(--stone);color:var(--paper)}
+.contact .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;align-items:center}
+.contact .kick{color:#f0c98a}
+.contact h2{color:#fff8ee}
+.contact h2 em{color:#f0c98a}
+.contact .lead{color:rgba(244,236,223,.75)}
+.cbox{border:1px solid rgba(244,236,223,.2);border-radius:6px;padding:30px;display:grid;gap:14px}
+.cbox .big{font:500 36px/1 var(--disp);color:#f0c98a;text-decoration:none}
+.cbox a{text-decoration:none}
+.cbox .row{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(244,236,223,.12);padding-bottom:10px;font-size:15px}
+.cbox .row span{opacity:.65}
+.cbox .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+.cbox .btn.line{color:var(--paper);border-color:rgba(244,236,223,.5)}
+footer{background:#1e1916;color:rgba(244,236,223,.6);font-size:13px;padding-block:22px}
+footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.ribbon{position:fixed;left:14px;bottom:14px;z-index:30;background:var(--stone);color:#fff8ee;font:700 12px var(--body);padding:8px 12px;border-radius:4px;opacity:.92}
+.reveal{will-change:transform,opacity}
+
+@media (max-width:900px){
+  body{font-size:16px}
+  section{padding-block:76px}
+  .nav .wrap{grid-template-columns:1fr auto}
+  .menu,.nav .tel{display:none}
+  .brand{text-align:left}
+  .nav .btn{padding:9px 14px;font-size:11.5px}
+  .stamp{display:none}
+  .story .wrap,.kitchen .wrap,.prices .wrap,.serv .wrap,.contact .wrap{grid-template-columns:1fr}
+  .story .imgs{height:440px}
+  .nums .wrap{grid-template-columns:1fr 1fr}
+  .num:nth-child(3){border-left:0}
+  .num{border-top:1px solid rgba(255,248,238,.18)}
+  .rooms{grid-template-columns:1fr}
+  .room:first-child{grid-row:auto}
+  .room:first-child .ph{min-height:280px}
+  .apts{grid-template-columns:1fr 1fr}
+  .apt:nth-child(3){border-left:0}
+  .apt{border-top:1px solid var(--line)}
+  .svc{columns:1}
+  .strip{grid-template-columns:1fr 1fr}
+  .strip .ph{height:200px}
+  .strip .ph:nth-child(even){margin-top:30px}
+  .time li{grid-template-columns:1fr;gap:2px}
+  .topo .over .wrap{padding-top:60px}
+  .prow b{font-size:28px}
+}
+</style>
+</head>
+<body>
+<header class="nav" id="nav"><div class="wrap">
+  <nav class="menu"><a href="#storia">La locanda</a><a href="#camere">Camere</a><a href="#cucina">Cucina</a><a href="#prezzi">Prezzi</a></nav>
+  <a class="brand" href="#">Locanda Zita<small>Vesale di Sestola</small></a>
+  <div class="right"><a class="tel" href="tel:+393355878504">335 587 8504</a><a class="btn" href="#contatti">Prenota</a></div>
+</div></header>
+
+<section class="hero">
+  <div class="hero-bg ph" id="heroBg"></div>
+  <div class="stamp reveal">dal<br>1987<small>gestione</small></div>
+  <div class="wrap">
+    <span class="kick reveal">Borgo medievale di Vesale · Monte Cimone</span>
+    <h1 id="heroTitle">Pietra, legno e la cucina di <em>nonna Zita</em></h1>
+    <p class="reveal">Una locanda dalle radici di fine Ottocento nel cuore di Vesale di Sestola: 11 camere che portano il nome di un fiore, due suite con vista sulla valle del Cimone, sauna e una tavola di montagna con funghi tutto l'anno.</p>
+    <div class="cta reveal"><a class="btn" href="#contatti">Prenota direttamente</a><a class="btn line" href="#prezzi">Prezzi</a></div>
+  </div>
+</section>
+
+<section class="story" id="storia"><div class="wrap">
+  <div class="imgs">
+    <div class="a ph"><div class="par" style="background-image:url('https://www.locandazita.com/wp-content/uploads/2015/10/slide-ext-2.jpg')"></div></div>
+    <div class="b ph reveal"><div class="par" style="background-image:url('https://www.locandazita.com/wp-content/uploads/2015/10/G4A9723.jpg')"></div></div>
+  </div>
+  <div>
+    <span class="kick">La nostra storia</span>
+    <h2 class="reveal">Una locanda che porta <em>un nome di famiglia</em></h2>
+    <p class="lead reveal">La Locanda Zita ha le sue radici alla fine dell'Ottocento e porta il nome della nonna Zita, che l'ha gestita per molti anni. Dal 1987 c'è l'attuale gestione, che ne ha conservato l'anima: un edificio in pietra e legno, in piazza San Giorgio, nel borgo medievale di Vesale ai piedi del Monte Cimone.</p>
+    <ul class="time">
+      <li class="reveal"><b>Fine Ottocento</b><span>Nascono le radici della locanda, nel borgo di Vesale.</span></li>
+      <li class="reveal"><b>Nonna Zita</b><span>La gestisce per molti anni e le lascia il suo nome.</span></li>
+      <li class="reveal"><b>Dal 1987</b><span>L'attuale gestione accoglie gli ospiti nella locanda di piazza San Giorgio.</span></li>
+    </ul>
+  </div>
+</div></section>
+
+<div class="nums"><div class="wrap">
+  <div class="num"><b data-count="11">11</b><span>camere, ognuna con il nome di un fiore</span></div>
+  <div class="num"><b data-count="2">2</b><span>suite con vasca idromassaggio</span></div>
+  <div class="num"><b data-count="10">10</b><span>ospiti nella villa più grande</span></div>
+  <div class="num"><b data-count="1987" data-plain="1">1987</b><span>l'anno dell'attuale gestione</span></div>
+</div></div>
+
+<section id="camere"><div class="wrap">
+  <div class="rooms-head">
+    <div><span class="kick">Dormire alla locanda</span>
+    <h2 class="reveal">Ogni camera è <em>un fiore</em></h2></div>
+    <p class="lead reveal" style="max-width:44ch">Ogni stanza porta il nome di un fiore che ne ispira i colori. Arredi in legno fatti da artigiani, il silenzio del borgo e, dalle suite, la vista sulla valle del Cimone.</p>
+  </div>
+  <div class="rooms">
+    <article class="room reveal"><div class="ph"><div class="par" style="background-image:url('https://www.locandazita.com/wp-content/uploads/2015/10/slide-camere-1.jpg')"></div></div><div class="in"><h3>11 camere</h3><p>Singole e doppie, ciascuna con i colori del suo fiore e mobili in legno artigianali. In B&amp;B, mezza pensione o pensione completa.</p></div></article>
+    <article class="room reveal"><div class="ph"><div class="par" style="background-image:url('https://www.locandazita.com/wp-content/uploads/2015/10/Camera106-12-1.jpg')"></div></div><div class="in"><h3>2 suite con idromassaggio</h3><p>Vasca idromassaggio in camera e vista aperta sulla valle del Cimone.</p></div></article>
+    <article class="room reveal"><div class="ph"><div class="par" style="background-image:url('https://www.locandazita.com/wp-content/uploads/2015/10/Camera106_Vista.jpg')"></div></div><div class="in"><h3>Con vista sulla valle</h3><p>Dalle finestre delle suite, la valle e i crinali del Cimone.</p></div></article>
+  </div>
+  <div class="apts reveal">
+    <div class="apt"><h3>Per famiglie</h3><p>Appartamenti da 8 a 10 persone.</p></div>
+    <div class="apt"><h3>Bilocali con giardino</h3><p>Da 2 a 4 persone, a 150 m dalla locanda. Animali ammessi.</p></div>
+    <div class="apt"><h3>Centro di Sestola</h3><p>Appartamenti nel centro del paese.</p></div>
+    <div class="apt"><h3>La villa</h3><p>Fino a 10 ospiti, tutta per voi.</p></div>
+  </div>
+</div></section>
+
+<section class="well" id="wellness">
+  <div class="bg par ph"></div>
+  <div class="wrap"><div class="card">
+    <span class="kick">Wellness in esclusiva</span>
+    <h2 class="reveal">Sauna e idromassaggio, <em>solo per voi</em></h2>
+    <p class="reveal" style="opacity:.9;margin:0">La zona benessere si prenota e si usa in esclusiva, dalle 10 alle 21: nessun altro ospite, solo la vostra camera.</p>
+    <ul class="reveal"><li>Terrazza panoramica</li><li>Solarium</li><li>Idromassaggio</li><li>Sauna finlandese</li></ul>
+    <div class="rate reveal">20 € l'ora per camera</div>
+  </div></div>
+</section>
+
+<section class="kitchen" id="cucina"><div class="wrap">
+  <div>
+    <span class="kick">Ristorante e cantina</span>
+    <h2 class="reveal">La cucina di montagna, <em>fatta a mano</em></h2>
+    <p class="lead reveal">Funghi tutto l'anno, il tartufo nel tardo autunno, crescentine e gnocco fritto. La pasta si tira a mano e si condisce con selvaggina o funghi.</p>
+    <ul class="pasta">
+      <li class="reveal">Tagliatelle <small>a mano</small></li>
+      <li class="reveal">Tortelloni</li>
+      <li class="reveal">Tortellini</li>
+      <li class="reveal">Strozzapreti</li>
+      <li class="reveal">Gnocchi <small>con selvaggina o funghi</small></li>
+    </ul>
+    <p class="note reveal">In cantina c'è una zona dedicata alle degustazioni. Su richiesta prepariamo piatti vegani, vegetariani e per celiaci.</p>
+    <div class="tags reveal"><span>Vegano</span><span>Vegetariano</span><span>Senza glutine</span></div>
+  </div>
+  <div class="kimgs">
+    <div class="ph reveal"><div class="par" style="background-image:url('https://www.locandazita.com/wp-content/uploads/2015/10/tagliata-con-funghi.jpg')"></div></div>
+    <div class="ph reveal"><div class="par" style="background-image:url('https://www.locandazita.com/wp-content/uploads/2015/10/SalaCantina-07.jpg')"></div></div>
+    <div class="ph reveal"><div class="par" style="background-image:url('https://www.locandazita.com/wp-content/uploads/2015/10/P2A0462-scaled.jpg')"></div></div>
+  </div>
+</div></section>
+
+<section class="prices" id="prezzi"><div class="wrap">
+  <div>
+    <span class="kick">Prezzi</span>
+    <h2 class="reveal">Tariffe chiare, <em>a partire da</em></h2>
+    <p class="lead reveal">Prezzi di partenza per notte. Scriveteci le date e vi mandiamo l'offerta precisa per il vostro soggiorno.</p>
+    <div class="perks reveal">
+      <h3>Se prenotate direttamente</h3>
+      <ul><li>Green fee del golf gratuito</li><li>Cimone Card inclusa</li><li>Sconti sullo skipass</li></ul>
+    </div>
+  </div>
+  <div class="plist">
+    <div class="prow reveal"><div><h3>Singola B&amp;B</h3><p>pernottamento e colazione</p></div><b>da 55 € <small>a persona</small></b></div>
+    <div class="prow reveal"><div><h3>Doppia B&amp;B</h3><p>pernottamento e colazione</p></div><b>da 70 € <small>a camera</small></b></div>
+    <div class="prow reveal"><div><h3>Mezza pensione</h3><p>a notte in camera doppia</p></div><b>da 125 € <small>a notte</small></b></div>
+    <div class="prow reveal"><div><h3>Pensione completa</h3><p>a notte, per soggiorni oltre 5 notti</p></div><b>da 160 € <small>a notte</small></b></div>
+    <div class="prow reveal"><div><h3>Wellness in esclusiva</h3><p>dalle 10 alle 21, su prenotazione</p></div><b>20 € <small>l'ora per camera</small></b></div>
+  </div>
+</div></section>
+
+<section class="topo" aria-label="Il Monte Cimone in curve di livello">
+  <div class="fallback" id="topoFallback"></div>
+  <canvas id="topo"></canvas>
+  <div class="over"><div class="wrap">
+    <span class="kick">Dove siamo</span>
+    <h2>Ai piedi del <em>Monte Cimone</em></h2>
+    <p class="lead">Piazza San Giorgio 6, Vesale di Sestola (MO). Il borgo medievale guarda il Cimone: d'inverno le piste, d'estate sentieri, cavalli e mountain bike.</p>
+  </div></div>
+  <div class="legend">Monte Cimone · rilievo in curve di livello</div>
+</section>
+
+<section class="serv"><div class="wrap">
+  <div>
+    <span class="kick">Servizi</span>
+    <h2 class="reveal">Pensato per chi <em>va in montagna</em></h2>
+    <ul class="svc">
+      <li>Wi-Fi gratuito</li><li>Parcheggio gratuito</li><li>Ricovero mountain bike</li><li>Officina per la bici</li><li>Deposito sci</li><li>Animali ammessi</li><li>Terrazza panoramica</li><li>Cantina per degustazioni</li>
+    </ul>
+  </div>
+  <div>
+    <span class="kick">Dintorni</span>
+    <div class="around">
+      <div class="ar reveal"><i>I</i><div><h3>Sci al Cimone</h3><p>Le piste del comprensorio del Monte Cimone, con sconti sullo skipass per chi prenota da noi.</p></div></div>
+      <div class="ar reveal"><i>II</i><div><h3>Trekking, cavallo e MTB</h3><p>Sentieri, equitazione e percorsi in mountain bike; al rientro, ricovero e officina per la bici.</p></div></div>
+      <div class="ar reveal"><i>III</i><div><h3>Castello di Sestola</h3><p>Da visitare nei dintorni, sopra il paese di Sestola.</p></div></div>
+    </div>
+  </div>
+</div></section>
+
+<div class="strip">
+  <div class="ph reveal"><div class="par" style="height:116%;margin-top:-8%;background:url('https://www.locandazita.com/wp-content/uploads/2015/10/slide-ext-2.jpg') center/cover"></div></div>
+  <div class="ph reveal"><div class="par" style="height:116%;margin-top:-8%;background:url('https://www.locandazita.com/wp-content/uploads/2015/10/slide-camere-2.jpg') center/cover"></div></div>
+  <div class="ph reveal"><div class="par" style="height:116%;margin-top:-8%;background:url('https://www.locandazita.com/wp-content/uploads/2015/10/VistaAppartamento-01.jpg') center/cover"></div></div>
+  <div class="ph reveal"><div class="par" style="height:116%;margin-top:-8%;background:url('https://www.locandazita.com/wp-content/uploads/2015/10/G4A9723.jpg') center/cover"></div></div>
+</div>
+
+<section class="contact" id="contatti"><div class="wrap">
+  <div>
+    <span class="kick">Prenotazioni</span>
+    <h2>Scriveteci le date, <em>vi aspettiamo in piazza</em></h2>
+    <p class="lead">Chi prenota direttamente riceve il green fee del golf, la Cimone Card e gli sconti sullo skipass. Per informazioni e prenotazioni chiamate o scriveteci su WhatsApp.</p>
+  </div>
+  <div class="cbox">
+    <a class="big" href="tel:+393355878504">335 587 8504</a>
+    <div class="row"><span>Telefono</span><a href="tel:+39053664278">+39 0536 64278</a></div>
+    <div class="row"><span>WhatsApp</span><a href="https://wa.me/393387706555">338 770 6555</a></div>
+    <div class="row"><span>Email</span><a href="mailto:info@locandazita.com">info@locandazita.com</a></div>
+    <div class="row"><span>Indirizzo</span><span style="opacity:1;text-align:right">Piazza San Giorgio 6, 41029 Vesale di Sestola (MO)</span></div>
+    <div class="btns"><a class="btn" href="mailto:info@locandazita.com?subject=Richiesta%20prenotazione">Scrivi una email</a><a class="btn line" href="https://www.locandazita.com">Sito attuale</a></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span>Locanda Zita · Piazza San Giorgio 6, Vesale di Sestola (MO)</span><span>info@locandazita.com</span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot = /[?&]shot=1/.test(location.search);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nav = document.getElementById('nav');
+  function onScroll(){ nav.classList.toggle('solid', window.scrollY > window.innerHeight*0.7); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  if (shot || reduce || !window.gsap) return;
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  var lenis = new Lenis({lerp:0.09});
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+  gsap.ticker.lagSmoothing(0);
+
+  gsap.fromTo('#heroBg',{scale:1.12},{scale:1,duration:2.6,ease:'expo.out'});
+  gsap.to('#heroBg',{yPercent:12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  document.fonts.ready.then(function(){
+    var st = new SplitText('#heroTitle',{type:'words'});
+    gsap.from(st.words,{yPercent:80,opacity:0,rotate:3,duration:1.2,ease:'expo.out',stagger:0.07,delay:0.2});
+  });
+  gsap.from('.hero .reveal',{y:24,opacity:0,duration:1,ease:'power3.out',stagger:0.12,delay:0.6});
+
+  document.querySelectorAll('[data-count]').forEach(function(el){
+    var end=+el.dataset.count, o={v:el.dataset.plain?1900:0}, plain=el.dataset.plain;
+    gsap.to(o,{v:end,duration:1.8,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 88%'},onUpdate:function(){
+      el.textContent = plain ? String(Math.round(o.v)) : Math.round(o.v).toLocaleString('it-IT'); }});
+  });
+
+  gsap.utils.toArray('section .reveal, .strip .reveal, .apts.reveal').forEach(function(el){
+    if (el.closest('.hero')) return;
+    gsap.from(el,{y:44,opacity:0,duration:1.1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 90%'}});
+  });
+
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  window.addEventListener('load',function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+<script type="module">
+// Monte Cimone: curve di livello 3D (marching squares) che si sollevano con lo scroll
+const canvas = document.getElementById('topo');
+const shot = /[?&]shot=1/.test(location.search);
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+try {
+  const THREE = await import('../vendor/three.module.min.js');
+  const renderer = new THREE.WebGLRenderer({canvas, antialias:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x211b17);
+  scene.fog = new THREE.Fog(0x211b17, 18, 40);
+  const cam = new THREE.PerspectiveCamera(40, 1, 0.1, 100);
+
+  // altezza: Cimone (cupola) + crinali secondari
+  const H = (x,z)=>{
+    const d = Math.hypot(x-2,z+1);
+    let h = 6.2*Math.exp(-Math.pow(d/5.2,2));
+    h += 2.6*Math.exp(-Math.pow(Math.hypot(x+7,z-1)/3.6,2));
+    h += 2.0*Math.exp(-Math.pow(Math.hypot(x-10,z-4)/3.2,2));
+    h += 0.45*Math.sin(x*0.9+z*0.5)*Math.cos(z*0.7-x*0.3) + 0.2*Math.sin(x*2.1-z*1.7);
+    return h;
+  };
+  const N=120, W=30, step=W/N;
+  const grid=[]; for(let j=0;j<=N;j++){ grid[j]=[]; for(let i=0;i<=N;i++){ grid[j][i]=H(-W/2+i*step,-W/2+j*step); } }
+  const levels=[]; for(let l=-0.2;l<6.6;l+=0.38) levels.push(l);
+  const group = new THREE.Group(); scene.add(group);
+  const lerp=(a,b,va,vb,l)=>a+(b-a)*((l-va)/(vb-va));
+  levels.forEach((lv,k)=>{
+    const pts=[];
+    for(let j=0;j<N;j++) for(let i=0;i<N;i++){
+      const a=grid[j][i], b=grid[j][i+1], c=grid[j+1][i+1], d=grid[j+1][i];
+      const x0=-W/2+i*step, z0=-W/2+j*step;
+      const e=[];
+      if((a<lv)!==(b<lv)) e.push([lerp(x0,x0+step,a,b,lv),z0]);
+      if((b<lv)!==(c<lv)) e.push([x0+step,lerp(z0,z0+step,b,c,lv)]);
+      if((c<lv)!==(d<lv)) e.push([lerp(x0+step,x0,c,d,lv),z0+step]);
+      if((d<lv)!==(a<lv)) e.push([x0,lerp(z0+step,z0,d,a,lv)]);
+      if(e.length>=2){ pts.push(e[0][0],lv,e[0][1],e[1][0],lv,e[1][1]); }
+      if(e.length===4){ pts.push(e[2][0],lv,e[2][1],e[3][0],lv,e[3][1]); }
+    }
+    const g=new THREE.BufferGeometry(); g.setAttribute('position',new THREE.Float32BufferAttribute(pts,3));
+    const t=k/levels.length;
+    const col=new THREE.Color().lerpColors(new THREE.Color(0x7c8a68),new THREE.Color(0xf0c98a),t);
+    const ln=new THREE.LineSegments(g,new THREE.LineBasicMaterial({color:col,transparent:true,opacity:k%5===0?0.95:0.55}));
+    ln.userData.lv=lv; group.add(ln);
+  });
+  // borgo di Vesale (indicativo) e cima
+  const mk=(c,s)=>new THREE.Mesh(new THREE.SphereGeometry(s,16,16),new THREE.MeshBasicMaterial({color:c}));
+  const top=mk(0xf4ecdf,0.16); top.position.set(2,H(2,-1)+0.2,-1); group.add(top);
+  const pin=mk(0xc2414f,0.2); pin.position.set(-4,H(-4,6)+0.15,6); group.add(pin);
+  const stem=new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(-4,H(-4,6),6),new THREE.Vector3(-4,H(-4,6)+1.6,6)]),new THREE.LineBasicMaterial({color:0xc2414f}));
+  group.add(stem);
+
+  function size(){ const w=canvas.clientWidth, h=canvas.clientHeight; renderer.setSize(w,h,false); cam.aspect=w/h; cam.fov=w<700?58:40; cam.updateProjectionMatrix(); }
+  size(); addEventListener('resize', size);
+  let prog=0.5, tgt=0.5, visible=true;
+  function place(t){
+    const a=0.5+t*1.1; cam.position.set(Math.sin(a)*22, 12-t*3, Math.cos(a)*22); cam.lookAt(0,1.2,0);
+    group.children.forEach(c=>{ if(c.userData.lv!==undefined){ c.scale.y = 0.35+0.65*Math.min(1,t*2); } });
+  }
+  function frame(){ prog+=(tgt-prog)*0.06; place(prog); renderer.render(scene,cam); if(visible && !shot && !reduce) requestAnimationFrame(frame); }
+  if(!shot && !reduce && window.ScrollTrigger){
+    ScrollTrigger.create({trigger:'.topo',start:'top bottom',end:'bottom top',onUpdate:s=>{ tgt=s.progress; }});
+    new IntersectionObserver(e=>{ const v=e[0].isIntersecting; if(v&&!visible){visible=true;frame();} else visible=v; }).observe(canvas);
+  }
+  frame();
+  document.getElementById('topoFallback').remove();
+} catch(e) {
+  canvas.style.display='none';
+}
+</script>
+</body>
+</html>
