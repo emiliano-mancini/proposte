@@ -1,4 +1,4 @@
-/* VNG kit — comportamento dei componenti di vng.css. Nessuna dipendenza.
+/*! VNG kit — comportamento dei componenti di vng.css. Nessuna dipendenza.
    Riscritto da VengeanceUI (MIT, © 2025-2026 Ashutoshx7). Uso: <script src="vng.js" defer></script>
    Si avvia da solo su DOMContentLoaded; per contenuti aggiunti dopo: VNG.init(radice).
    Modalità foto: ?shot=1 → html.vng-static, contatori al valore finale, niente autoplay. */
@@ -15,8 +15,9 @@
   function flip(el) {
     if (!once(el, "flip")) return;
     var text = el.textContent, dur = parseFloat(el.dataset.duration || "2.4"), n = text.length;
-    el.setAttribute("aria-label", text); el.textContent = "";
+    el.textContent = "";
     el.classList.add("vng-flip");
+    var sr = document.createElement("span"); sr.className = "vng-sr"; sr.textContent = text; el.appendChild(sr);
     for (var i = 0; i < n; i++) {
       var ch = text[i];
       if (ch === " ") { var sp = document.createElement("span"); sp.innerHTML = "&nbsp;"; sp.setAttribute("aria-hidden", "true"); el.appendChild(sp); continue; }
@@ -44,7 +45,7 @@
     window.addEventListener("resize", function () { target = ax = center(active); nav.style.setProperty("--ax", ax + "px"); });
     // segue le sezioni durante lo scroll, se i link puntano ad ancore della pagina
     if ("IntersectionObserver" in window) {
-      var map = links.map(function (a) { var id = (a.getAttribute("href") || "").slice(1); return [a, id && document.getElementById(id)]; }).filter(function (p) { return p[1]; });
+      var map = links.map(function (a) { var h = a.getAttribute("href") || "", id = h.charAt(0) === "#" ? h.slice(1) : ""; return [a, id && document.getElementById(id)]; }).filter(function (p) { return p[1]; });
       if (map.length) {
         var io = new IntersectionObserver(function (ents) { ents.forEach(function (en) { if (en.isIntersecting) map.forEach(function (p) { if (p[1] === en.target) go(p[0]); }); }); }, { rootMargin: "-45% 0px -50% 0px" });
         map.forEach(function (p) { io.observe(p[1]); });
@@ -57,7 +58,7 @@
     if (!once(el, "count")) return;
     var to = parseFloat(el.dataset.vngCount), dec = parseInt(el.dataset.decimals || "0", 10);
     var pre = el.dataset.prefix || "", suf = el.dataset.suffix || "", dur = parseFloat(el.dataset.duration || "1.6") * 1000;
-    function fmt(v) { return pre + v.toLocaleString("it-IT", { minimumFractionDigits: dec, maximumFractionDigits: dec }) + suf; }
+    function fmt(v) { return pre + v.toLocaleString(document.documentElement.lang || "it-IT", { minimumFractionDigits: dec, maximumFractionDigits: dec }) + suf; }
     if (still || !("IntersectionObserver" in window) || isNaN(to)) { if (!isNaN(to)) el.textContent = fmt(to); return; }
     el.textContent = fmt(0);
     var io = new IntersectionObserver(function (ents) {
@@ -72,10 +73,15 @@
   function marquee(el) {
     if (!once(el, "marquee")) return;
     var track = el.querySelector(".vng-marquee__track"); if (!track) return;
-    var items = Array.prototype.slice.call(track.children);
-    items.forEach(function (n) { var c = n.cloneNode(true); c.setAttribute("aria-hidden", "true"); track.appendChild(c); });
-    // fila troppo corta: altre copie finché supera due volte la larghezza visibile
-    var guard = 0; while (track.scrollWidth < el.clientWidth * 2 && guard++ < 6) items.forEach(function (n) { var c = n.cloneNode(true); c.setAttribute("aria-hidden", "true"); track.appendChild(c); });
+    // La fila deve essere due metà identiche (translateX(-50%)): si raddoppia sempre TUTTO il contenuto.
+    function dup() {
+      Array.prototype.slice.call(track.children).forEach(function (n) {
+        var c = n.cloneNode(true); c.setAttribute("aria-hidden", "true"); c.setAttribute("inert", "");
+        $$(c, "a,button,input,[tabindex]").forEach(function (f) { f.setAttribute("tabindex", "-1"); });
+        track.appendChild(c);
+      });
+    }
+    dup(); var guard = 0; while (track.scrollWidth < el.clientWidth * 2 && guard++ < 4) dup();
     if (!still) el.classList.add("is-ready");
   }
 

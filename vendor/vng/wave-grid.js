@@ -1,4 +1,4 @@
-/* Wave grid 3D — cubi istanziati che ondeggiano al passaggio del cursore/dito.
+/*! Wave grid 3D — cubi istanziati che ondeggiano al passaggio del cursore/dito.
    Riscritto da VengeanceUI WaveGridBackground (MIT, © 2025-2026 Ashutoshx7) in modulo ES senza React.
    Differenze rispetto all'originale (collaudo 2026-10-12):
    - niente post-processing (EffectComposer non serve: basta three.module.min.js); la vignetta è CSS (.vng-wave::after);
@@ -147,28 +147,31 @@ export function mountWaveGrid(THREE, container, opts = {}) {
   const ro = new ResizeObserver(resize); ro.observe(container);
   renderer.setPixelRatio(s.pr); renderer.setSize(s.w, s.h, false);
 
-  let running = false, visible = false, prev = performance.now();
+  let running = false, visible = false, destroyed = false, io = null, prev = performance.now();
+  const onVis = () => (document.hidden ? sleep() : wake());
   const frame = (t) => {
     const dt = Math.min(0.05, (t - prev) / 1000); prev = t;
     updateTrail(dt);
     lerped.x += (mouse.x - lerped.x) * 0.04; lerped.y += (mouse.y - lerped.y) * 0.04; place(lerped.x, lerped.y);
     renderer.render(scene, camera);
   };
-  function wake() { if (!still && visible && !running && !document.hidden) { running = true; prev = performance.now(); renderer.setAnimationLoop(frame); } }
+  function wake() { if (!destroyed && !still && visible && !running && !document.hidden) { running = true; prev = performance.now(); renderer.setAnimationLoop(frame); } }
   function sleep() { if (running) { running = false; renderer.setAnimationLoop(null); } }
 
   if (still) {
     // un'onda congelata, così lo screenshot mostra l'effetto
     push(-bounds * 0.12, bounds * 0.05, 1); trail[0].age = 0.6; updateTrail(0); renderer.render(scene, camera);
   } else {
-    const io = new IntersectionObserver((e) => { visible = e[0].isIntersecting; visible ? wake() : sleep(); });
+    io = new IntersectionObserver((e) => { visible = e[0].isIntersecting; visible ? wake() : sleep(); });
     io.observe(container);
-    document.addEventListener("visibilitychange", () => (document.hidden ? sleep() : wake()));
+    document.addEventListener("visibilitychange", onVis);
   }
 
   return {
     destroy() {
-      sleep(); ro.disconnect();
+      destroyed = true; sleep(); ro.disconnect(); if (io) io.disconnect();
+      document.removeEventListener("visibilitychange", onVis);
+      mesh.dispose();
       container.removeEventListener("pointermove", onMove); container.removeEventListener("pointerleave", onLeave);
       geo.dispose(); mat.dispose(); depth.dispose(); trailTex.dispose(); plane.geometry.dispose(); plane.material.dispose();
       renderer.dispose(); renderer.forceContextLoss(); canvas.remove();

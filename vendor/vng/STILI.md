@@ -5,7 +5,7 @@
 ## Regola di rotazione (obbligatoria)
 
 1. Per ogni sito scegli **una direzione** (D1–D10), **un archetipo di hero** (H1–H8) e **un elemento firma** (la cosa che si ricorda: una sola).
-2. **Mai la stessa direzione** usata negli ultimi 3 siti, **mai lo stesso archetipo di hero** due volte nello stesso giro (di notte: nella stessa notte). Lo storico si tiene nel registro del progetto (nel Radar: campo `stile` del lead, es. `D4/H6/marquee prodotti`).
+2. **Mai la stessa direzione** usata negli ultimi 3 siti, **mai lo stesso archetipo di hero** due volte nello stesso giro (di notte: nella stessa notte). Con più di 8 siti in un giro un hero può tornare una volta, ma con direzione e palette diverse. Lo storico si tiene nel registro del progetto (nel Radar: campo `stile` del lead, es. `D4/H6/marquee prodotti`).
 3. **Il settore suggerisce, non obbliga**: una cantina può essere D2 o D9 o D6. Se le ultime scelte hanno già usato la direzione "ovvia", prendi la seconda.
 4. **Font**: mai la stessa coppia in due siti di fila. Vietati come scelta di default: Inter, Space Grotesk, Poppins, Montserrat da soli. Si possono usare come testo corrente solo accanto a un display caratterizzato.
 5. **Colori**: palette dalle foto vere del cliente (un colore dominante campionato + un neutro con la stessa tinta + un accento). Mai il viola→blu, mai il crema+terracotta "da IA" se il cliente non lo giustifica.

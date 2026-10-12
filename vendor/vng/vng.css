@@ -1,4 +1,4 @@
-/* =============================================================================
+/*! =============================================================================
    VNG kit — componenti animati in HTML/CSS/JS puro, senza React né Tailwind.
    Riscritti dai componenti di VengeanceUI (MIT, © 2025-2026 Ashutoshx7 —
    vedi LICENSE-VengeanceUI) con le correzioni trovate nel collaudo del 2026-10-12.
@@ -45,16 +45,17 @@
    Mettere <span class="vng-beam"></span> dentro un elemento position:relative.
    --------------------------------------------------------------------------- */
 @keyframes vng-beam { to { offset-distance: 100%; } }
+/* Il box stesso fa da anello: padding = spessore, maschera = solo il padding.
+   overflow:hidden taglia al bordo esterno, così la scia non allarga la pagina e resta visibile. */
 .vng-beam {
-  position: absolute; inset: 0; border-radius: inherit; pointer-events: none; overflow: hidden; /* la scia non deve allargare la pagina */
-  border: var(--vng-beam-width, 1.5px) solid transparent;
-  -webkit-mask: linear-gradient(transparent, transparent) padding-box, linear-gradient(#fff, #fff) border-box;
-  -webkit-mask-composite: source-in; mask: linear-gradient(transparent, transparent) padding-box, linear-gradient(#fff, #fff) border-box;
-  mask-composite: intersect;
+  position: absolute; inset: 0; border-radius: inherit; pointer-events: none; overflow: hidden;
+  padding: var(--vng-beam-width, 1.5px);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
 }
 .vng-beam::after {
   content: ""; position: absolute; aspect-ratio: 1; width: var(--vng-beam-size, 160px);
-  background: linear-gradient(to left, var(--vng-beam-from, var(--vng-accent)), var(--vng-beam-to, #9c40ff), transparent);
+  background: linear-gradient(to left, var(--vng-beam-from, var(--vng-accent)), var(--vng-beam-to, var(--vng-fg)), transparent);
   offset-anchor: 90% 50%; offset-path: rect(0 auto auto 0 round var(--vng-beam-size, 160px));
   animation: vng-beam var(--vng-beam-speed, 8s) linear infinite;
 }
@@ -92,6 +93,7 @@
 @keyframes vng-flip { 0% { transform: rotateX(0); } 25%, 100% { transform: rotateX(90deg); } }
 @keyframes vng-fade { 0% { opacity: 1; } 30%, 100% { opacity: var(--o, 0); } }
 .vng-flip { display: inline-block; perspective: 1000px; white-space: nowrap; }
+.vng-sr { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .vng-flip__c {
   display: inline-block; position: relative; transform-style: preserve-3d;
   -webkit-text-fill-color: transparent; color: inherit; height: 1.2em; line-height: 1.2em; vertical-align: middle;
@@ -162,7 +164,7 @@
 .vng-marquee__track { display: flex; width: max-content; gap: var(--vng-marquee-gap, 3rem); align-items: center; padding-right: var(--vng-marquee-gap, 3rem); }
 .vng-marquee.is-ready .vng-marquee__track { animation: vng-marquee var(--vng-marquee-speed, 40s) linear infinite; }
 .vng-marquee[data-reverse] .vng-marquee__track { animation-direction: reverse; }
-.vng-marquee:hover .vng-marquee__track { animation-play-state: paused; }
+.vng-marquee:hover .vng-marquee__track, .vng-marquee:focus-within .vng-marquee__track, .vng-marquee.is-paused .vng-marquee__track { animation-play-state: paused; }
 
 /* ---------------------------------------------------------------------------
    9. FAQ (FaqAccordion) — su <details>: funziona anche senza JS.
