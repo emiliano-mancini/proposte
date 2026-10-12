@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>VNG kit — Collaudo</title>
+<link rel="stylesheet" href="./vng.css">
+<script src="./vng.js" defer></script>
+<style>
+  /* Ogni sito ridefinisce questi token: è qui che due siti smettono di sembrare uguali. */
+  :root {
+    --vng-bg: #0d0b09; --vng-fg: #f6efe6; --vng-muted: #b3a798; --vng-accent: #e8a33d; --vng-accent-fg: #160f06;
+    --vng-surface: rgba(32, 26, 20, .65); --vng-line: rgba(246, 239, 230, .14);
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--vng-bg); color: var(--vng-fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; overflow-x: hidden; }
+  .wrap { width: min(1100px, 100% - 32px); margin-inline: auto; }
+  .tag { font: 600 .7rem/1 ui-monospace, monospace; letter-spacing: .25em; text-transform: uppercase; color: var(--vng-muted); }
+  h1, h2 { line-height: 1.05; text-wrap: balance; margin: 0; }
+  h2 { font-size: clamp(1.8rem, 4vw, 2.8rem); margin-top: .4rem; }
+  section { padding-block: 5rem; }
+  .top { position: fixed; inset: 0 0 auto; z-index: 20; display: flex; justify-content: center; padding: 1rem 16px 0; }
+  .hero { min-height: 640px; display: grid; place-items: center; text-align: center; padding: 6rem 16px 3rem; }
+  .hero h1 { font-size: clamp(2.8rem, 9vw, 6.5rem); font-weight: 900; letter-spacing: -.03em; text-shadow: 0 4px 30px rgba(0,0,0,.7); }
+  .hero p { font-size: clamp(1.1rem, 2.4vw, 1.5rem); margin: 1rem 0 2rem; color: var(--vng-fg); }
+  .accent { color: var(--vng-accent); }
+  .cards { display: grid; gap: 2.2rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 3rem; padding: 1rem; }
+  .cards .vng-glow { min-height: 220px; display: grid; place-content: center; text-align: center; padding: 1.5rem; }
+  .cards p { color: var(--vng-muted); margin: .5rem 0 0; }
+  .beam-box { position: relative; border-radius: 1rem; border: 1px solid var(--vng-line); padding: 2.5rem; margin-top: 3rem; background: var(--vng-surface); }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 2rem; text-align: center; }
+  .stats span[data-vng-count] { font-size: clamp(2.4rem, 6vw, 3.6rem); font-weight: 800; }
+  .stats p { margin: .2rem 0 0; color: var(--vng-muted); font-size: .9rem; }
+  .logo { font: 800 1.4rem/1 Georgia, serif; color: var(--vng-muted); white-space: nowrap; }
+  .pg { position: relative; height: 420px; overflow: hidden; display: grid; place-items: center; text-align: center; }
+  .pg > div:last-child { position: relative; z-index: 2; pointer-events: none; }
+  .vng-wave { height: 520px; display: grid; place-items: center; text-align: center; }
+  .split { display: grid; gap: 3rem; grid-template-columns: 1fr; }
+  @media (min-width: 860px) { .split { grid-template-columns: 1fr 1fr; } .reveal-col { padding-left: 7rem; } }
+</style>
+</head>
+<body>
+  <div class="top">
+    <nav class="vng-spot" data-vng-spot aria-label="Sezioni">
+      <a href="#home" class="is-active">Home</a><a href="#servizi">Servizi</a><a href="#lavori">Lavori</a><a href="#faq">FAQ</a>
+    </nav>
+  </div>
+
+  <section id="home" class="vng-aurora hero" style="--vng-a1:#e8a33d;--vng-a2:#c2410c;--vng-a3:#fde68a">
+    <div class="vng-aurora__bg"></div>
+    <div>
+      <p class="tag">aurora · flip · bottone</p>
+      <h1>Officina <span class="accent">Pixel</span></h1>
+      <p>Siti web che <span data-vng-flip class="accent" style="font-weight:800">si muovono</span></p>
+      <a class="vng-hbtn" href="#faq"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Richiedi un preventivo</span><span class="vng-hbtn__b">Richiedi un preventivo →</span></a>
+    </div>
+  </section>
+
+  <section id="servizi">
+    <div class="wrap">
+      <p class="tag">glow card · border beam</p>
+      <h2>Cosa facciamo</h2>
+      <div class="cards">
+        <div class="vng-glow" style="--vng-g1:#e8a33d;--vng-g2:#c2410c;--vng-g3:#fde68a;--vng-g4:#7c2d12"><h3>Siti vetrina</h3><p>Chi sei e come contattarti, in cinque secondi.</p></div>
+        <div class="vng-glow" style="--vng-g1:#14b8a6;--vng-g2:#0ea5e9;--vng-g3:#a3e635;--vng-g4:#0f766e;--vng-glow-speed:7s"><h3>Prenotazioni</h3><p>Il cliente prenota da solo.</p></div>
+        <div class="vng-glow" style="--vng-g1:#f472b6;--vng-g2:#a855f7;--vng-g3:#fb7185;--vng-g4:#6d28d9;--vng-glow-speed:4s"><h3>Animazioni</h3><p>Carattere senza distrarre.</p></div>
+      </div>
+      <div class="beam-box"><span class="vng-beam"></span><strong>Border beam</strong> — una scia di luce che gira sul bordo di un riquadro qualsiasi.</div>
+    </div>
+  </section>
+
+  <section style="border-block:1px solid var(--vng-line)">
+    <div class="wrap stats">
+      <div><span data-vng-count="48" data-suffix="h">48h</span><p>per la prima bozza</p></div>
+      <div><span data-vng-count="3">3</span><p>revisioni incluse</p></div>
+      <div><span data-vng-count="12" data-prefix="€">€12</span><p>hosting al mese (esempio)</p></div>
+      <div><span data-vng-count="4.5" data-decimals="1">4,5</span><p>secondi di caricamento (esempio)</p></div>
+    </div>
+    <p class="tag" style="text-align:center;margin-top:2rem">contatori · numeri di esempio</p>
+    <div class="vng-marquee" data-vng-marquee style="margin-top:2.5rem">
+      <div class="vng-marquee__track">
+        <span class="logo">Bar</span><span class="logo">Tatuatori</span><span class="logo">Cantine</span><span class="logo">Hotel</span><span class="logo">Palestre</span><span class="logo">Ristoranti</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="pg">
+    <div class="vng-pgrid" data-vng-pgrid="28"></div>
+    <div><p class="tag">griglia in prospettiva</p><h2>Passa il cursore sulle piastrelle</h2></div>
+  </section>
+
+  <section id="lavori">
+    <div class="wrap split">
+      <div>
+        <p class="tag">pila di card</p>
+        <h2>Per chi lavoriamo</h2>
+        <div class="vng-stack" data-vng-stack data-autoplay="4500" style="margin-top:2rem">
+          <div class="vng-stack__cards">
+            <figure data-title="Bar & enoteche" data-text="Menu sfogliabile, eventi della settimana, mappa."><img alt="Bar" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cdefs%3E%3ClinearGradient id='g' x2='1' y2='1'%3E%3Cstop stop-color='%237c2d12'/%3E%3Cstop offset='1' stop-color='%23f59e0b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='4' height='4' fill='url(%23g)'/%3E%3C/svg%3E"></figure>
+            <figure data-title="Studi di tatuaggio" data-text="Portfolio a griglia e richiesta preventivo con foto."><img alt="Tatuatori" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cdefs%3E%3ClinearGradient id='g' x2='1' y2='1'%3E%3Cstop stop-color='%23111827'/%3E%3Cstop offset='1' stop-color='%236d28d9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='4' height='4' fill='url(%23g)'/%3E%3C/svg%3E"></figure>
+            <figure data-title="Cantine" data-text="Etichette, visite in cantina, spedizioni."><img alt="Cantine" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Cdefs%3E%3ClinearGradient id='g' x2='1' y2='1'%3E%3Cstop stop-color='%23450a0a'/%3E%3Cstop offset='1' stop-color='%23be123c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='4' height='4' fill='url(%23g)'/%3E%3C/svg%3E"></figure>
+          </div>
+          <div class="vng-stack__text"><h3></h3><p></p></div>
+          <div class="vng-stack__nav"><button type="button" data-prev aria-label="Precedente">←</button><span data-count></span><button type="button" data-next aria-label="Successiva">→</button></div>
+        </div>
+      </div>
+      <div class="reveal-col">
+        <p class="tag">lista con foto</p>
+        <h2>Menu della settimana</h2>
+        <ul class="vng-reveal" style="margin-top:2rem">
+          <li><a href="#lavori"><img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Crect width='4' height='4' fill='%23b45309'/%3E%3C/svg%3E"><b>01</b>Degustazione rossi<small>Ven</small></a></li>
+          <li><a href="#lavori"><img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Crect width='4' height='4' fill='%230f766e'/%3E%3C/svg%3E"><b>02</b>Aperitivo in terrazza<small>Sab</small></a></li>
+          <li><a href="#lavori"><img alt="" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 4'%3E%3Crect width='4' height='4' fill='%236d28d9'/%3E%3C/svg%3E"><b>03</b>Jazz dal vivo<small>Dom</small></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="vng-wave" data-vng-wave>
+    <div class="vng-wave__content"><p class="tag">wave grid · three.js</p><h2>Passa il dito qui sopra</h2></div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap" style="max-width:820px">
+      <p class="tag">faq</p>
+      <h2>Domande frequenti</h2>
+      <div class="vng-faq" style="margin-top:2rem">
+        <details open><summary>Funziona senza JavaScript?</summary><div class="vng-faq__a">Sì: è un normale &lt;details&gt;.</div></details>
+        <details><summary>Le animazioni rallentano il sito?</summary><div class="vng-faq__a">Il 3D sì: una sola scena per pagina, ferma fuori schermo.</div></details>
+        <details><summary>Si vede bene sul telefono?</summary><div class="vng-faq__a">Ogni componente è provato a 390 px di larghezza.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <script type="module">
+    import { mountWaveGrid } from "./wave-grid.js";
+    // Three.js dalla cartella vendor del repo
+    const src = "../three.module.min.js";
+    try {
+      const THREE = await import(src);
+      mountWaveGrid(THREE, document.querySelector("[data-vng-wave]"), { colorBase: "#1c1712", colorHigh: "#e8a33d", gridSize: 30 });
+    } catch (e) { console.info("wave grid: Three.js non disponibile, resta lo sfondo CSS"); }
+  </script>
+</body>
+</html>

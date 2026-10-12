@@ -1,0 +1,256 @@
+/* =============================================================================
+   VNG kit — componenti animati in HTML/CSS/JS puro, senza React né Tailwind.
+   Riscritti dai componenti di VengeanceUI (MIT, © 2025-2026 Ashutoshx7 —
+   vedi LICENSE-VengeanceUI) con le correzioni trovate nel collaudo del 2026-10-12.
+   Tutti i colori passano da variabili --vng-*: ogni sito le ridefinisce
+   (mai lasciare i default: sono quelli che fanno sembrare i siti tutti uguali).
+   ============================================================================= */
+
+:root {
+  --vng-fg: #f4f4f5;
+  --vng-muted: #a1a1aa;
+  --vng-bg: #0a0a0b;
+  --vng-surface: rgba(24, 24, 27, .6);
+  --vng-line: rgba(255, 255, 255, .14);
+  --vng-accent: #f59e0b;
+  --vng-accent-fg: #0a0a0b;
+  --vng-ease-out: cubic-bezier(.22, 1, .36, 1);
+  --vng-ease-back: cubic-bezier(.34, 1.56, .64, 1);
+}
+
+/* ---------------------------------------------------------------------------
+   1. Glow card (GlowBorderCard) — bordo a gradiente conico che ruota.
+   <div class="vng-glow" style="--vng-g1:#06f;--vng-g2:#0cf;--vng-g3:#f0c">…</div>
+   --------------------------------------------------------------------------- */
+@property --vng-angle { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+@keyframes vng-angle { to { --vng-angle: 1turn; } }
+.vng-glow {
+  --vng-g1: #669900; --vng-g2: #3399cc; --vng-g3: #cc3399; --vng-g4: #ff9900;
+  position: relative; isolation: isolate; overflow: hidden;
+  border-radius: var(--vng-glow-radius, .9rem);
+  background: var(--vng-surface);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+}
+.vng-glow::before {
+  content: ""; position: absolute; z-index: -1;
+  inset: var(--vng-glow-inset, -1em);
+  border: var(--vng-glow-width, 1.25em) solid; border-radius: inherit;
+  border-image: conic-gradient(from var(--vng-angle), var(--vng-g1), var(--vng-g2), var(--vng-g3), var(--vng-g4), var(--vng-g1)) 1;
+  filter: blur(var(--vng-glow-blur, .75em));
+  animation: vng-angle var(--vng-glow-speed, 5s) linear infinite;
+}
+
+/* ---------------------------------------------------------------------------
+   2. Border beam (BorderBeam) — una scia di luce che corre lungo il bordo.
+   Mettere <span class="vng-beam"></span> dentro un elemento position:relative.
+   --------------------------------------------------------------------------- */
+@keyframes vng-beam { to { offset-distance: 100%; } }
+.vng-beam {
+  position: absolute; inset: 0; border-radius: inherit; pointer-events: none; overflow: hidden; /* la scia non deve allargare la pagina */
+  border: var(--vng-beam-width, 1.5px) solid transparent;
+  -webkit-mask: linear-gradient(transparent, transparent) padding-box, linear-gradient(#fff, #fff) border-box;
+  -webkit-mask-composite: source-in; mask: linear-gradient(transparent, transparent) padding-box, linear-gradient(#fff, #fff) border-box;
+  mask-composite: intersect;
+}
+.vng-beam::after {
+  content: ""; position: absolute; aspect-ratio: 1; width: var(--vng-beam-size, 160px);
+  background: linear-gradient(to left, var(--vng-beam-from, var(--vng-accent)), var(--vng-beam-to, #9c40ff), transparent);
+  offset-anchor: 90% 50%; offset-path: rect(0 auto auto 0 round var(--vng-beam-size, 160px));
+  animation: vng-beam var(--vng-beam-speed, 8s) linear infinite;
+}
+
+/* ---------------------------------------------------------------------------
+   3. Aurora (AuroraHero / AnimatedRays) — sfondo a strisce colorate che scorrono.
+   <section class="vng-aurora vng-aurora--dark"><div class="vng-aurora__bg"></div>…</section>
+   Il titolo "effetto vetro" dell'originale non si legge su fondo scuro: qui il
+   testo sta sopra, normale, con un'ombra.
+   --------------------------------------------------------------------------- */
+@keyframes vng-aurora { from { background-position: 50% 50%, 50% 50%; } to { background-position: 350% 50%, 350% 50%; } }
+.vng-aurora { position: relative; overflow: hidden; isolation: isolate; background: var(--vng-aurora-ground, #000); }
+.vng-aurora__bg {
+  --vng-stripe: var(--vng-aurora-ground, #000);
+  --s: repeating-linear-gradient(100deg, var(--vng-stripe) 0%, var(--vng-stripe) 7%, transparent 10%, transparent 12%, var(--vng-stripe) 16%);
+  --r: repeating-linear-gradient(100deg, var(--vng-a1, #60a5fa) 10%, var(--vng-a2, #e879f9) 15%, var(--vng-a1, #60a5fa) 20%, var(--vng-a3, #5eead4) 25%, var(--vng-a1, #60a5fa) 30%);
+  position: absolute; inset: 0; z-index: -1;
+  background-image: var(--s), var(--r); background-size: 300%, 200%; background-position: 50% 50%, 50% 50%;
+  filter: blur(10px) opacity(var(--vng-aurora-strength, 55%)) saturate(200%);
+  -webkit-mask-image: radial-gradient(ellipse at var(--vng-aurora-at, 100% 0%), #000 40%, transparent 70%);
+  mask-image: radial-gradient(ellipse at var(--vng-aurora-at, 100% 0%), #000 40%, transparent 70%);
+}
+.vng-aurora__bg::after {
+  content: ""; position: absolute; inset: 0;
+  background-image: var(--s), var(--r); background-size: 200%, 100%;
+  animation: vng-aurora 60s linear infinite; mix-blend-mode: difference;
+}
+.vng-aurora--light { --vng-aurora-ground: #fff; }
+.vng-aurora--light .vng-aurora__bg { filter: blur(10px) invert(100%); }
+
+/* ---------------------------------------------------------------------------
+   4. Flip text (FlipText) — lettere che ruotano in 3D.
+   <span class="vng-flip" data-vng-flip>si muovono</span>  (serve vng.js)
+   --------------------------------------------------------------------------- */
+@keyframes vng-flip { 0% { transform: rotateX(0); } 25%, 100% { transform: rotateX(90deg); } }
+@keyframes vng-fade { 0% { opacity: 1; } 30%, 100% { opacity: var(--o, 0); } }
+.vng-flip { display: inline-block; perspective: 1000px; white-space: nowrap; }
+.vng-flip__c {
+  display: inline-block; position: relative; transform-style: preserve-3d;
+  -webkit-text-fill-color: transparent; color: inherit; height: 1.2em; line-height: 1.2em; vertical-align: middle;
+  animation: vng-flip var(--d, 2.4s) var(--delay, 0s) infinite ease;
+}
+.vng-flip__c::before, .vng-flip__c::after {
+  content: attr(data-c); position: absolute; top: 50%; left: 50%; width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  -webkit-text-fill-color: currentColor; backface-visibility: hidden;
+  animation: vng-fade var(--d, 2.4s) var(--delay, 0s) infinite ease;
+}
+.vng-flip__c::after { transform: translate(-50%, -50%) translateZ(.6em); }
+.vng-flip__c::before { transform: translate(-50%, -50%) rotateX(-90deg) translateZ(.6em); opacity: 0; --o: 1; }
+
+/* ---------------------------------------------------------------------------
+   5. Bottone hover (InteractiveHoverButton) — il punto si espande e riempie.
+   <a class="vng-hbtn" href="#"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Prenota</span><span class="vng-hbtn__b">Prenota →</span></a>
+   --------------------------------------------------------------------------- */
+.vng-hbtn {
+  position: relative; display: inline-flex; align-items: center; gap: .55em; overflow: hidden; cursor: pointer;
+  padding: .75em 1.6em; border: 1px solid var(--vng-line); border-radius: 999px;
+  background: transparent; color: var(--vng-fg); font: inherit; font-weight: 600; text-decoration: none;
+}
+.vng-hbtn__dot { width: .5em; height: .5em; border-radius: 50%; background: var(--vng-accent); transition: transform .45s var(--vng-ease-out); }
+.vng-hbtn__a { display: inline-block; transition: transform .35s var(--vng-ease-out), opacity .35s; }
+.vng-hbtn__b {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: .4em;
+  color: var(--vng-accent-fg); opacity: 0; transform: translateX(3em); transition: transform .35s var(--vng-ease-out), opacity .35s;
+}
+.vng-hbtn:hover .vng-hbtn__dot, .vng-hbtn:focus-visible .vng-hbtn__dot { transform: scale(60); }
+.vng-hbtn:hover .vng-hbtn__a, .vng-hbtn:focus-visible .vng-hbtn__a { transform: translateX(3em); opacity: 0; }
+.vng-hbtn:hover .vng-hbtn__b, .vng-hbtn:focus-visible .vng-hbtn__b { transform: none; opacity: 1; }
+.vng-hbtn:focus-visible { outline: 2px solid var(--vng-accent); outline-offset: 3px; }
+
+/* ---------------------------------------------------------------------------
+   6. Spotlight nav (SpotlightNavbar) — luce che segue il cursore + voce attiva.
+   <nav class="vng-spot" data-vng-spot><a href="#a" class="is-active">Home</a>…</nav>
+   --------------------------------------------------------------------------- */
+.vng-spot {
+  --x: 50%; --ax: 50%;
+  position: relative; display: inline-flex; gap: 0; padding: 0 .4rem; height: 2.75rem; align-items: center;
+  border: 1px solid var(--vng-line); border-radius: 999px; overflow: hidden;
+  background: var(--vng-spot-bg, rgba(10, 10, 10, .55)); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .25);
+}
+.vng-spot a { position: relative; z-index: 2; padding: .5rem 1rem; color: var(--vng-muted); text-decoration: none; font-size: .9rem; font-weight: 500; border-radius: 999px; transition: color .2s; }
+.vng-spot a:hover, .vng-spot a.is-active { color: var(--vng-fg); }
+.vng-spot a:focus-visible { outline: 2px solid var(--vng-accent); outline-offset: -2px; }
+.vng-spot::before { content: ""; position: absolute; inset: 0; z-index: 1; opacity: 0; transition: opacity .3s; pointer-events: none;
+  background: radial-gradient(120px circle at var(--x) 100%, var(--vng-spot-light, rgba(255, 255, 255, .15)), transparent 50%); }
+.vng-spot.is-hover::before { opacity: 1; }
+.vng-spot::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; z-index: 1; pointer-events: none;
+  background: radial-gradient(60px circle at var(--ax) 0%, var(--vng-spot-line, var(--vng-fg)), transparent 100%); }
+
+/* ---------------------------------------------------------------------------
+   7. Contatore (StatsCounter)  <span data-vng-count="48" data-suffix="h">48h</span>
+   Il valore finale è già scritto nell'HTML: senza JS o in ?shot=1 resta quello.
+   --------------------------------------------------------------------------- */
+[data-vng-count] { font-variant-numeric: tabular-nums; }
+
+/* ---------------------------------------------------------------------------
+   8. Marquee loghi (LogoSlider) — CORRETTO: l'originale installato col
+   registro non ha lo stile e resta fermo. Qui il JS duplica la fila.
+   <div class="vng-marquee" data-vng-marquee><div class="vng-marquee__track">…</div></div>
+   --------------------------------------------------------------------------- */
+@keyframes vng-marquee { to { transform: translateX(-50%); } }
+.vng-marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent); }
+.vng-marquee__track { display: flex; width: max-content; gap: var(--vng-marquee-gap, 3rem); align-items: center; padding-right: var(--vng-marquee-gap, 3rem); }
+.vng-marquee.is-ready .vng-marquee__track { animation: vng-marquee var(--vng-marquee-speed, 40s) linear infinite; }
+.vng-marquee[data-reverse] .vng-marquee__track { animation-direction: reverse; }
+.vng-marquee:hover .vng-marquee__track { animation-play-state: paused; }
+
+/* ---------------------------------------------------------------------------
+   9. FAQ (FaqAccordion) — su <details>: funziona anche senza JS.
+   <div class="vng-faq"><details><summary>Domanda</summary><div class="vng-faq__a">Risposta</div></details>…</div>
+   --------------------------------------------------------------------------- */
+.vng-faq { display: grid; }
+.vng-faq details { border-bottom: 1px solid var(--vng-line); border-left: 6px solid var(--vng-line); transition: border-color .2s, background .2s; }
+.vng-faq details[open] { border-left-color: var(--vng-accent); background: var(--vng-surface); }
+.vng-faq summary { list-style: none; cursor: pointer; position: relative; padding: 1.1rem 3rem 1.1rem 3.2rem; font-weight: 600; color: var(--vng-fg); }
+.vng-faq summary::-webkit-details-marker { display: none; }
+.vng-faq summary::before { content: "+"; position: absolute; left: 1.1rem; top: 50%; transform: translateY(-50%); font-size: 1.6rem; font-weight: 400; color: var(--vng-muted); transition: transform .25s var(--vng-ease-out); }
+.vng-faq details[open] summary::before { content: "−"; color: var(--vng-accent); }
+.vng-faq summary:focus-visible { outline: 2px solid var(--vng-accent); outline-offset: -2px; }
+.vng-faq__a { padding: 0 1.5rem 1.4rem 3.2rem; color: var(--vng-muted); }
+
+/* ---------------------------------------------------------------------------
+   10. Lista con foto al passaggio (ImageRevealList)
+   <ul class="vng-reveal"><li><a href="#"><img src="…" alt=""><b>01</b>Titolo<small>Nota</small></a></li></ul>
+   Su telefono (niente hover) la foto resta piccola accanto al titolo.
+   --------------------------------------------------------------------------- */
+.vng-reveal { list-style: none; margin: 0; padding: .5rem; border: 1px solid var(--vng-line); border-radius: .9rem; background: var(--vng-surface); }
+.vng-reveal a { position: relative; display: flex; align-items: center; gap: 1rem; padding: 1rem; border-radius: .6rem; color: var(--vng-fg); text-decoration: none; transition: background .2s, transform .2s; }
+.vng-reveal a:hover, .vng-reveal a:focus-visible { background: rgba(255, 255, 255, .06); transform: translateX(4px); }
+.vng-reveal b { min-width: 1.6rem; font-weight: 400; font-size: .8rem; color: var(--vng-muted); }
+.vng-reveal small { margin-left: auto; color: var(--vng-muted); }
+.vng-reveal img { position: absolute; left: -6.5rem; top: 50%; width: 5rem; height: 7rem; object-fit: cover; border-radius: .4rem;
+  opacity: 0; transform: translateY(-50%) scale(.9); transition: opacity .3s, transform .3s var(--vng-ease-back), left .3s var(--vng-ease-back); pointer-events: none; box-shadow: 0 20px 40px rgba(0, 0, 0, .4); }
+.vng-reveal a:hover img, .vng-reveal a:focus-visible img { opacity: 1; left: -6rem; transform: translateY(-50%) scale(1); }
+@media (hover: none), (max-width: 760px) {
+  .vng-reveal img { position: static; opacity: 1; transform: none; width: 3rem; height: 3rem; box-shadow: none; order: -1; }
+}
+
+/* ---------------------------------------------------------------------------
+   11. Griglia in prospettiva (PerspectiveGrid) — piastrelle che si accendono.
+   <div class="vng-pgrid" data-vng-pgrid="24"></div>  (serve vng.js)
+   --------------------------------------------------------------------------- */
+.vng-pgrid { position: absolute; inset: 0; overflow: hidden; perspective: 2000px; }
+.vng-pgrid__plane { position: absolute; left: 50%; top: 50%; width: 80rem; aspect-ratio: 1; display: grid; transform-style: preserve-3d;
+  transform: translate(-50%, -50%) rotateX(30deg) rotateY(-5deg) rotateZ(20deg) scale(2); }
+.vng-pgrid__plane i { border: 1px solid var(--vng-line); transition: background-color 1.5s; }
+.vng-pgrid__plane i:hover { background-color: var(--vng-accent); transition-duration: 0s; }
+.vng-pgrid::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(circle, transparent 25%, var(--vng-bg) 80%); }
+
+/* ---------------------------------------------------------------------------
+   12. Pila di card (TestimonialsCard) — foto che si scambiano in 3D.
+   <div class="vng-stack" data-vng-stack data-autoplay="4500">
+     <div class="vng-stack__cards"><figure data-title="…" data-text="…"><img src="…" alt="…"></figure>…</div>
+     <div class="vng-stack__text"><h3></h3><p></p></div>
+     <div class="vng-stack__nav"><button data-prev aria-label="Precedente">←</button><span data-count></span><button data-next aria-label="Successiva">→</button></div>
+   </div>
+   Le frasi nelle card devono essere VERE (lavori, prodotti, sedi): mai recensioni inventate.
+   --------------------------------------------------------------------------- */
+.vng-stack { display: grid; gap: 1.5rem 2.5rem; align-items: center; max-width: 52rem; margin-inline: auto; }
+@media (min-width: 760px) { .vng-stack { grid-template-columns: 1fr 1fr; } .vng-stack__cards { grid-row: span 2; } }
+.vng-stack__cards { position: relative; aspect-ratio: 1; width: calc(100% - 3rem); max-width: 100%; margin-inline: auto; perspective: 1400px; } /* margine: le card dietro sono ruotate e spostate */
+.vng-stack__cards figure { position: absolute; inset: 0; margin: 0; overflow: hidden; border: 6px solid var(--vng-stack-frame, #2a2a2e); border-radius: .6rem;
+  background: var(--vng-surface); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, .5);
+  transition: transform .75s var(--vng-ease-out), opacity .75s var(--vng-ease-out); }
+.vng-stack__cards img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.vng-stack__text h3 { margin: 0 0 .5rem; color: var(--vng-fg); }
+.vng-stack__text p { margin: 0; color: var(--vng-muted); }
+.vng-stack__nav { display: flex; align-items: center; gap: .6rem; }
+.vng-stack__nav button { width: 2.6rem; height: 2.6rem; border-radius: 50%; border: 1px solid var(--vng-line); background: var(--vng-surface); color: var(--vng-fg); cursor: pointer; font-size: 1rem; }
+.vng-stack__nav button:hover { transform: scale(1.06); }
+.vng-stack__nav button:focus-visible { outline: 2px solid var(--vng-accent); outline-offset: 2px; }
+.vng-stack__nav [data-count] { font-variant-numeric: tabular-nums; color: var(--vng-muted); font-size: .85rem; min-width: 3rem; text-align: center; }
+
+/* ---------------------------------------------------------------------------
+   13. Wave grid 3D (WaveGridBackground) — cubi Three.js che ondeggiano.
+   <div class="vng-wave" data-vng-wave><div class="vng-wave__content">…</div></div>
+   Vedi wave-grid.js: va montato con Three.js (import dinamico + fallback).
+   --------------------------------------------------------------------------- */
+.vng-wave { position: relative; overflow: hidden; background: radial-gradient(circle at 50% 40%, var(--vng-wave-glow, #2a1d05), var(--vng-bg) 70%); }
+.vng-wave canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.vng-wave::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(circle, transparent 45%, rgba(0, 0, 0, .55)); }
+.vng-wave__content { position: relative; z-index: 2; pointer-events: none; }
+.vng-wave__content a, .vng-wave__content button { pointer-events: auto; }
+
+/* ---------------------------------------------------------------------------
+   Movimento ridotto e modalità foto (?shot=1 mette html.vng-static via vng.js)
+   --------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .vng-glow::before, .vng-beam::after, .vng-aurora__bg::after, .vng-flip__c, .vng-flip__c::before, .vng-flip__c::after, .vng-marquee.is-ready .vng-marquee__track { animation: none !important; }
+  .vng-flip__c { -webkit-text-fill-color: currentColor; }
+  .vng-flip__c::before, .vng-flip__c::after { display: none; }
+}
+html.vng-static .vng-glow::before, html.vng-static .vng-beam::after, html.vng-static .vng-aurora__bg::after,
+html.vng-static .vng-flip__c, html.vng-static .vng-flip__c::before, html.vng-static .vng-flip__c::after,
+html.vng-static .vng-marquee__track { animation: none !important; }
+html.vng-static .vng-flip__c { -webkit-text-fill-color: currentColor; }
+html.vng-static .vng-flip__c::before, html.vng-static .vng-flip__c::after { display: none; }
