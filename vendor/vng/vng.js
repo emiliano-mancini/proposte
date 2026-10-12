@@ -77,6 +77,7 @@
     function dup() {
       Array.prototype.slice.call(track.children).forEach(function (n) {
         var c = n.cloneNode(true); c.setAttribute("aria-hidden", "true"); c.setAttribute("inert", "");
+        c.removeAttribute("id"); $$(c, "[id]").forEach(function (x) { x.removeAttribute("id"); });
         $$(c, "a,button,input,[tabindex]").forEach(function (f) { f.setAttribute("tabindex", "-1"); });
         track.appendChild(c);
       });
