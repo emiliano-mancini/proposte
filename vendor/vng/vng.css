@@ -212,7 +212,7 @@
    12. Pila di card (TestimonialsCard) — foto che si scambiano in 3D.
    <div class="vng-stack" data-vng-stack data-autoplay="4500">
      <div class="vng-stack__cards"><figure data-title="…" data-text="…"><img src="…" alt="…"></figure>…</div>
-     <div class="vng-stack__text"><h3></h3><p></p></div>
+     <div class="vng-stack__text"><h3>Titolo della 1ª card</h3><p>Testo della 1ª card</p></div>  ← precompilati: senza JS si legge la prima
      <div class="vng-stack__nav"><button data-prev aria-label="Precedente">←</button><span data-count></span><button data-next aria-label="Successiva">→</button></div>
    </div>
    Le frasi nelle card devono essere VERE (lavori, prodotti, sedi): mai recensioni inventate.
