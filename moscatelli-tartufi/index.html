@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Moscatelli Tartufi Norcia · L'arte del tartufo a Norcia</title>
+<meta name="description" content="Tartufi, salumi, pecorino e prodotti tipici di Norcia. La famiglia Moscatelli dal 1850, il marchio dal 1990. Negozi a Norcia e Serravalle di Norcia, spedizioni e ordini al telefono.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  --notte:#0f0c09; --terra:#1a140f; --terra-2:#241b14; --oro:#c9a45c; --ottone:#9c7a43; --avorio:#efe6d3; --fumo:#a69882; --tartufo:#3a2a1d;
+  --disp:"Cormorant Garamond",Garamond,Georgia,serif; --body:"Manrope","Segoe UI",system-ui,sans-serif;
+  --vng-bg:#0f0c09; --vng-fg:#efe6d3; --vng-muted:#a69882; --vng-accent:#c9a45c; --vng-accent-fg:#0f0c09;
+  --vng-surface:rgba(30,23,17,.82); --vng-line:rgba(201,164,92,.22);
+  --vng-g1:#c9a45c; --vng-g2:#6b4a22; --vng-g3:#f1d79a; --vng-g4:#3a2a1d;
+  --vng-beam-from:#c9a45c; --vng-beam-to:#f6e4b8; --vng-stack-frame:#2a2016; --vng-wave-glow:#3a2a14;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--notte);color:var(--avorio);font:400 16px/1.7 var(--body);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1220px;margin:0 auto;padding-inline:28px}
+h1,h2,h3{font-family:var(--disp);font-weight:500;margin:0;text-wrap:balance;letter-spacing:.005em}
+h2{font-size:clamp(40px,5.2vw,72px);line-height:1}
+h2 i,h1 i{color:var(--oro);font-weight:400}
+.eyebrow{font:600 11px/1 var(--body);letter-spacing:.32em;text-transform:uppercase;color:var(--oro)}
+.lead{color:var(--fumo);max-width:54ch;margin:22px 0 0}
+.rule{display:block;width:64px;height:1px;background:var(--oro);margin:22px 0}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--oro);color:var(--notte);font:700 13px var(--body);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:16px 26px;border-radius:2px;transition:background .25s}
+.btn:hover{background:#e0bf7a}
+.btn.ghost{background:transparent;color:var(--avorio);box-shadow:inset 0 0 0 1px rgba(239,230,211,.4)}
+.btn.ghost:hover{box-shadow:inset 0 0 0 1px var(--oro);color:var(--oro)}
+section{padding-block:130px;position:relative}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:40;transition:background .4s,border-color .4s;border-bottom:1px solid transparent}
+.nav.solid{background:rgba(15,12,9,.88);backdrop-filter:blur(12px);border-color:var(--vng-line)}
+.nav .wrap{display:flex;align-items:center;gap:30px;height:78px}
+.brand{text-decoration:none;font:500 24px/1 var(--disp);letter-spacing:.04em}
+.brand small{display:block;font:600 9px var(--body);letter-spacing:.42em;text-transform:uppercase;color:var(--oro);margin-top:5px}
+.menu{display:flex;gap:30px;margin-left:auto;font-size:13px;letter-spacing:.08em}
+.menu a{text-decoration:none;color:var(--fumo);transition:color .2s}
+.menu a:hover{color:var(--avorio)}
+.nav .btn{padding:12px 18px;font-size:11px}
+
+/* HERO 3D */
+.hero{height:100svh;min-height:660px;padding:0;display:grid;place-items:center;text-align:center;
+  background:radial-gradient(ellipse at 50% 60%,#3a2a14 0%,#1a140f 45%,#0f0c09 80%)}
+.hero.vng-wave::after{background:radial-gradient(ellipse at 50% 50%,rgba(15,12,9,.25) 0%,rgba(15,12,9,.55) 55%,rgba(15,12,9,.95) 100%)}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(15,12,9,.7),transparent 30%,transparent 70%,var(--notte))}
+.hero .vng-wave__content{z-index:3;padding:0 20px;max-width:1000px}
+.hero .eyebrow{display:inline-block;padding:9px 18px;border:1px solid var(--vng-line);background:rgba(15,12,9,.5);backdrop-filter:blur(6px)}
+.hero h1{font-size:clamp(54px,9vw,140px);line-height:.92;margin:28px 0 22px;text-shadow:0 6px 40px rgba(0,0,0,.8)}
+.hero p{max-width:46ch;margin:0 auto 36px;font-size:18px;color:#d8ccb4;text-shadow:0 2px 20px rgba(0,0,0,.9)}
+.hero .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.hint{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);z-index:3;font:600 10px var(--body);letter-spacing:.3em;text-transform:uppercase;color:var(--fumo);pointer-events:none}
+
+/* STORIA ANNI */
+.storia .wrap{display:grid;grid-template-columns:5fr 7fr;gap:80px;align-items:start}
+.storia .ph{position:relative;aspect-ratio:4/5;overflow:hidden;background-color:var(--tartufo);border:1px solid var(--vng-line)}
+.storia .ph div{position:absolute;inset:-10% 0;background-size:cover;background-position:center;filter:saturate(.85) contrast(1.05)}
+.storia .ph figcaption{position:absolute;left:0;right:0;bottom:0;padding:18px 20px;font:italic 400 18px var(--disp);background:linear-gradient(transparent,rgba(15,12,9,.9));color:var(--avorio)}
+.anni{list-style:none;padding:0;margin:44px 0 0;display:grid;grid-template-columns:repeat(2,1fr);gap:0}
+.anni li{padding:26px 26px 26px 0;border-top:1px solid var(--vng-line)}
+.anni b{display:block;font:400 54px/1 var(--disp);color:var(--oro)}
+.anni p{margin:10px 0 0;color:var(--fumo);font-size:15px;max-width:32ch}
+.stemma{margin-top:30px;font:italic 400 22px/1.4 var(--disp);color:var(--avorio);border-left:1px solid var(--oro);padding-left:22px}
+
+/* PRODOTTI glow */
+.prodotti{background:linear-gradient(180deg,var(--notte),var(--terra) 30%,var(--terra) 70%,var(--notte))}
+.prodotti .head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap}
+.grid{display:grid;grid-template-columns:1.25fr 1fr 1fr;grid-template-rows:auto auto;gap:34px;margin-top:64px;padding:14px}
+.vng-glow{--vng-g1:#c9a45c;--vng-g2:#6b4a22;--vng-g3:#f1d79a;--vng-g4:#3a2a1d;--vng-glow-width:.7em;--vng-glow-blur:1.1em;--vng-glow-inset:-.5em;--vng-glow-radius:4px;display:flex;flex-direction:column}
+.vng-glow .pic{position:relative;aspect-ratio:600/724;background-color:#ece3d2;overflow:hidden}
+.vng-glow .pic img{width:100%;height:100%;object-fit:cover}
+.vng-glow .tx{padding:22px 24px 26px}
+.vng-glow h3{font-size:26px;line-height:1.1}
+.vng-glow .sp{font-size:13px;color:var(--fumo);margin:8px 0 14px}
+.vng-glow .pr{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-top:1px solid var(--vng-line);padding-top:14px}
+.vng-glow .pr b{font:500 30px var(--disp);color:var(--oro)}
+.vng-glow .pr span{font-size:12px;color:var(--fumo);letter-spacing:.06em}
+.feat{grid-row:span 2}
+.feat .pic{aspect-ratio:auto;flex:1;min-height:420px}
+.feat h3{font-size:34px}
+.formati{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 16px}
+.formati span{font-size:12px;border:1px solid var(--vng-line);padding:4px 10px;color:var(--avorio)}
+.mini{display:grid;grid-template-columns:110px 1fr;align-items:stretch}
+.wide{grid-column:span 2}
+.mini .pic{aspect-ratio:auto;height:100%}
+.mini .tx{padding:18px 20px}
+.mini h3{font-size:22px}
+
+/* GROTTE */
+.grotte{padding:0;min-height:86vh;display:grid;grid-template-columns:1fr 1fr;background:var(--terra)}
+.grotte .img{position:relative;overflow:hidden;background-color:#4a3a22}
+.grotte .img div{position:absolute;inset:-12% 0;background-size:cover;background-position:center}
+.grotte .tx{padding:120px clamp(28px,6vw,96px);display:flex;flex-direction:column;justify-content:center}
+.big18{font:400 clamp(120px,16vw,220px)/.8 var(--disp);color:var(--oro);margin:20px 0 6px}
+.big18 small{font-size:.22em;letter-spacing:.1em;color:var(--avorio);margin-left:10px}
+
+/* DISPENSA stack */
+.dispensa .wrap{display:grid;grid-template-columns:4fr 7fr;gap:70px;align-items:center}
+.dispensa .vng-stack{max-width:none;margin:0}
+.dispensa .vng-stack__text h3{font-size:36px}
+.cats{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.cats span{font-size:13px;color:var(--fumo);border-bottom:1px solid var(--vng-line);padding:4px 0;margin-right:14px}
+
+/* NEGOZI */
+.negozi{background:var(--terra)}
+.shops{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:60px}
+.shop{position:relative;border:1px solid var(--vng-line);background:var(--notte)}
+.shop .ph{aspect-ratio:16/10;background-size:cover;background-position:center;background-color:var(--tartufo)}
+.shop .tx{padding:26px 28px 30px}
+.shop h3{font-size:32px}
+.shop p{color:var(--fumo);margin:8px 0 0}
+.orari{position:relative;margin-top:28px;padding:32px 34px;border:1px solid var(--vng-line);background:rgba(15,12,9,.6);display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;border-radius:3px}
+.orari b{display:block;font:500 24px var(--disp);color:var(--oro)}
+.orari span{color:var(--fumo);font-size:14px}
+
+/* CONTATTI */
+.contatti .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:80px;align-items:start}
+.tel{display:block;font:400 clamp(38px,4.6vw,60px)/1 var(--disp);color:var(--oro);text-decoration:none;margin:30px 0 8px}
+.list{display:grid;gap:0;margin-top:10px}
+.list div{display:grid;grid-template-columns:150px 1fr;gap:18px;padding:16px 0;border-bottom:1px solid var(--vng-line);font-size:15px}
+.list dt,.list .k{color:var(--oro);font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:600;padding-top:4px}
+.list a{color:var(--avorio)}
+.servizi{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.servizi span{font-size:13px;padding:7px 14px;border:1px solid var(--vng-line);color:var(--avorio)}
+footer{border-top:1px solid var(--vng-line);color:var(--fumo);font-size:12px;padding-block:28px}
+footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.ribbon{position:fixed;right:14px;bottom:14px;z-index:50;background:var(--oro);color:var(--notte);font:700 11px var(--body);letter-spacing:.04em;padding:8px 12px;border-radius:2px}
+
+@media (max-width:980px){
+  .menu{display:none}
+  .nav .btn{margin-left:auto}
+  .storia .wrap,.dispensa .wrap,.contatti .wrap{grid-template-columns:1fr;gap:50px}
+  .storia .ph{aspect-ratio:4/3}
+  .grid{grid-template-columns:1fr 1fr}
+  .feat{grid-row:auto;grid-column:span 2}
+  .feat .pic{min-height:0;aspect-ratio:4/3;flex:none}
+  .grotte{grid-template-columns:1fr}
+  .grotte .img{min-height:50vh}
+  .grotte .tx{padding:80px 28px}
+  .shops{grid-template-columns:1fr}
+  section{padding-block:90px}
+}
+@media (max-width:620px){
+  .wrap{padding-inline:18px}
+  .brand{font-size:20px}
+  .brand small{letter-spacing:.3em}
+  .nav .btn{padding:10px 12px;letter-spacing:.08em}
+  .grid{grid-template-columns:1fr;gap:28px;padding:8px}
+  .feat,.wide{grid-column:auto}
+  .hint{display:none}
+  .mini{grid-template-columns:96px 1fr}
+  .grid .vng-glow:not(.mini) .pic{aspect-ratio:1}
+  .anni{grid-template-columns:1fr}
+  .anni b{font-size:46px}
+  .orari{grid-template-columns:1fr;padding:24px}
+  .list div{grid-template-columns:1fr;gap:4px}
+  .hero p{font-size:16px}
+}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav" id="nav"><div class="wrap">
+  <a class="brand" href="#top">Moscatelli<small>Tartufi · Norcia</small></a>
+  <nav class="menu" aria-label="Sezioni"><a href="#famiglia">La famiglia</a><a href="#tartufi">Tartufi</a><a href="#dispensa">Dispensa</a><a href="#negozi">Negozi</a><a href="#contatti">Contatti</a></nav>
+  <a class="btn" href="tel:+390743822267">Ordina al telefono</a>
+</div></header>
+
+<main id="top">
+<section class="hero vng-wave" data-vng-wave aria-label="Moscatelli Tartufi Norcia">
+  <div class="vng-wave__content">
+    <span class="eyebrow">Norcia · la famiglia dal 1850</span>
+    <h1 id="heroTitle">L'arte del <i>tartufo</i> a Norcia</h1>
+    <p class="hsub">Tartufi delle nostre tartufaie e della Valnerina, salumi e pecorino stagionati come una volta. Due negozi, a Norcia e a Serravalle di Norcia. E spediamo a casa.</p>
+    <div class="cta"><a class="btn" href="#tartufi">Scopri i tartufi</a><a class="btn ghost" href="#negozi">Vieni in negozio</a></div>
+  </div>
+  <span class="hint">Muovi il cursore sul terreno</span>
+</section>
+
+<section class="storia" id="famiglia"><div class="wrap">
+  <figure class="ph" style="margin:0"><div class="par" style="background-image:url('https://www.moscatellitartufi.com/image/catalog/Punto%20vendita%20Norcia/chisiamo.jpg')"></div><figcaption>Serravalle di Norcia, "La Posta"</figcaption></figure>
+  <div>
+    <span class="eyebrow">La famiglia Moscatelli</span>
+    <h2 class="rv" style="margin-top:20px">Cinque generazioni <i>tra</i> Norcia e Cascia</h2>
+    <p class="lead rv">I muri in pietra di Serravalle li costruì Marco Moscatelli, trisnonno dell'attuale titolare Romeo. La sua Pizzicheria-Norcineria era anche sosta per i carrettieri: la chiamavano "La Posta".</p>
+    <ol class="anni">
+      <li class="rv"><b>1850</b><p>Marco lavora la carne di maiale e apre la Pizzicheria-Norcineria di Serravalle.</p></li>
+      <li class="rv"><b>1861</b><p>Una lettera manoscritta, ancora conservata dalla famiglia, documenta l'attività.</p></li>
+      <li class="rv"><b>1969</b><p>Adolfo e il figlio Romeo trasformano La Posta in albergo con ristorante: per vent'anni piatti al tartufo e salumi del proprio laboratorio.</p></li>
+      <li class="rv"><b>1990</b><p>Romeo crea il marchio Moscatelli Tartufi Norcia, con lo stemma di famiglia.</p></li>
+    </ol>
+    <p class="stemma rv">Due leoni rampanti su un ulivo: lo stemma della famiglia, oggi sul marchio.</p>
+  </div>
+</div></section>
+
+<section class="prodotti" id="tartufi"><div class="wrap">
+  <div class="head">
+    <div><span class="eyebrow">Tartufi in vasetto</span><h2 style="margin-top:20px">Dalla tartufaia <i>alla</i> tavola</h2></div>
+    <p class="lead" style="margin:0;max-width:40ch">Prezzi del negozio online, IVA inclusa. Il tartufo fresco segue la stagione: chiedi la disponibilità al telefono.</p>
+  </div>
+  <div class="grid">
+    <article class="vng-glow feat rv">
+      <div class="pic"><img src="https://www.moscatellitartufi.com/image/cache/catalog/prodotti/tartufi/TartufiGrattugiati-19-600x724.jpg" alt="Vasetto di tartufi estivi grattugiati Moscatelli" loading="lazy"></div>
+      <div class="tx">
+        <h3>Tartufi estivi grattugiati già pronti</h3>
+        <p class="sp">Tuber aestivum Vitt. Tartufo estivo grattugiato, sale e olio extravergine d'oliva: su pasta, bruschette e frittate, senza cuocerlo.</p>
+        <div class="formati"><span>30 g · 7,00 €</span><span>50 g · 12,00 €</span><span>80 g · 16,00 €</span><span>130 g · 25,00 €</span><span>170 g · 38,00 €</span></div>
+        <div class="pr"><span>a partire da</span><b>7,00 €</b></div>
+      </div>
+    </article>
+    <article class="vng-glow rv" style="--vng-glow-speed:7s">
+      <div class="pic"><img src="https://www.moscatellitartufi.com/image/cache/catalog/prodotti/tartufi/BOSCAIOLA/TartufiFunghi-27-600x724.jpg" alt="Boscaiola con tartufi neri pregiati e funghi champignon" loading="lazy"></div>
+      <div class="tx">
+        <h3>Boscaiola al tartufo nero pregiato</h3>
+        <p class="sp">Champignon trifolati con 30% di Tartufo Nero Pregiato di Norcia. 80 · 130 · 170 g.</p>
+        <div class="pr"><span>80 g</span><b>16,00 €</b></div>
+      </div>
+    </article>
+    <article class="vng-glow rv" style="--vng-glow-speed:6s">
+      <div class="pic"><img src="https://www.moscatellitartufi.com/image/cache/catalog/prodotti/tartufi/BOSCAIOLA/TartufiPorcini-37-600x724.jpg" alt="Boscaiola con tartufi estivi e funghi porcini" loading="lazy"></div>
+      <div class="tx">
+        <h3>Boscaiola tartufo e porcini</h3>
+        <p class="sp">Porcini trifolati con tartufo estivo grattugiato. Da 80 a 250 g.</p>
+        <div class="pr"><span>80 g</span><b>11,00 €</b></div>
+      </div>
+    </article>
+    <article class="vng-glow mini wide rv" style="--vng-glow-speed:8s">
+      <div class="pic"><img src="https://www.moscatellitartufi.com/image/cache/catalog/prodotti/tartufi/BOSCAIOLA/TartufiFunghi-30-600x724.jpg" alt="Boscaiola con tartufi estivi e funghi champignon" loading="lazy"></div>
+      <div class="tx">
+        <h3>Boscaiola con tartufi estivi e champignon</h3>
+        <p class="sp">Uno dei condimenti più tradizionali della cucina umbra. 130 g 11,00 € · 170 g 13,00 € · 250 g 18,00 € · 500 g 26,00 €. In catalogo anche l'insalata di tartufi estivi a fettine: 60 g 12,00 €.</p>
+        <div class="pr"><span>80 g</span><b>7,00 €</b></div>
+      </div>
+    </article>
+  </div>
+</div></section>
+
+<section class="grotte" aria-label="Stagionatura">
+  <div class="img"><div class="par" style="background-image:url('https://www.moscatellitartufi.com/image/catalog/Categorie%20Home/formaggi.jpg')"></div></div>
+  <div class="tx">
+    <span class="eyebrow">Pecorino e salumi</span>
+    <div class="big18">18<small>mesi</small></div>
+    <h2 style="font-size:clamp(34px,3.6vw,50px)">In grotte naturali, <i>nelle fascere di legno</i></h2>
+    <p class="lead">Il pecorino stagiona fino a 18 mesi. I salumi maturano nel piccolo laboratorio di famiglia, lo stesso usato dal tempo dell'albergo "La Posta". L'azienda ha scelto di restare piccola: prima la qualità, poi la quantità.</p>
+  </div>
+</section>
+
+<section class="dispensa" id="dispensa"><div class="wrap">
+  <div>
+    <span class="eyebrow">La dispensa di Norcia</span>
+    <h2 class="rv" style="margin-top:20px">Non solo <i>tartufo</i></h2>
+    <p class="lead rv">Nove categorie nel catalogo: dai salumi di suino e cinghiale ai cesti regalo pronti da spedire.</p>
+    <div class="cats rv"><span>Tartufi</span><span>Formaggi</span><span>Salumi</span><span>Conserve</span><span>Prodotti secchi</span><span>Olio EVO</span><span>Vini e liquori</span><span>Cesti e regali</span><span>Oggettistica</span></div>
+  </div>
+  <div class="vng-stack" data-vng-stack data-autoplay="4200">
+    <div class="vng-stack__cards">
+      <figure data-title="Tartufi" data-text="Neri pregiati, estivi e scorzoni: grattugiati, a fettine e nei condimenti pronti."><img alt="Tartufi Moscatelli" src="https://www.moscatellitartufi.com/image/catalog/Categorie%20Home/tartufi.jpg" style="background-color:#3a2a1d"></figure>
+      <figure data-title="Salumi di suino e cinghiale" data-text="Stagionati nel laboratorio di famiglia a Serravalle di Norcia."><img alt="Salumi" src="https://www.moscatellitartufi.com/image/catalog/Categorie%20Home/salumi.jpg" style="background-color:#5a2a22"></figure>
+      <figure data-title="Conserve al tartufo" data-text="Salse e condimenti in vasetto, come la Boscaiola."><img alt="Conserve" src="https://www.moscatellitartufi.com/image/catalog/Categorie%20Home/conserve.jpg" style="background-color:#4a3a22"></figure>
+      <figure data-title="Olio extravergine d'oliva" data-text="L'olio umbro, anche da regalare."><img alt="Olio extravergine" src="https://www.moscatellitartufi.com/image/catalog/Categorie%20Home/olio.jpg" style="background-color:#4b4a22"></figure>
+      <figure data-title="Cesti e regali" data-text="Confezioni con i prodotti di Norcia, spedite a casa."><img alt="Cesti regalo" src="https://www.moscatellitartufi.com/image/catalog/Categorie%20Home/regali.jpg" style="background-color:#5a3d29"></figure>
+    </div>
+    <div class="vng-stack__text"><h3>Tartufi</h3><p>Neri pregiati, estivi e scorzoni: grattugiati, a fettine e nei condimenti pronti.</p></div>
+    <div class="vng-stack__nav"><button type="button" data-prev aria-label="Precedente">←</button><span data-count>1 / 5</span><button type="button" data-next aria-label="Successiva">→</button></div>
+  </div>
+</div></section>
+
+<section class="negozi" id="negozi"><div class="wrap">
+  <span class="eyebrow">I nostri negozi</span>
+  <h2 class="rv" style="margin-top:20px">Due porte <i>sulla</i> Valnerina</h2>
+  <div class="shops">
+    <article class="shop rv"><div class="ph" style="background-image:url('https://www.moscatellitartufi.com/image/catalog/Punto%20vendita%20Norcia/norcia.jpg')"></div>
+      <div class="tx"><h3>Norcia</h3><p>Corso Sertorio 42/44, 06046 Norcia (PG). Tel. <a href="tel:+390743828279">0743 82 82 79</a></p></div></article>
+    <article class="shop rv"><div class="ph" style="background-image:url('https://www.moscatellitartufi.com/image/catalog/Punto%20vendita%20Norcia/serravalle.jpg')"></div>
+      <div class="tx"><h3>Serravalle di Norcia</h3><p>Dove tutto è cominciato, nel 1850: la vecchia "Posta" tra Norcia e Cascia.</p></div></article>
+  </div>
+  <div class="orari rv"><span class="vng-beam"></span>
+    <div><b>Lun – ven</b><span>9:00–18:00 · chiuso il giovedì</span></div>
+    <div><b>Sab – dom</b><span>9:00–19:30</span></div>
+    <div><b>Festivi</b><span>Aperti con orario continuato, tranne Natale e Santo Stefano</span></div>
+  </div>
+  <p class="lead" style="font-size:13px">Orari del negozio di Norcia.</p>
+</div></section>
+
+<section class="contatti" id="contatti"><div class="wrap">
+  <div>
+    <span class="eyebrow">Ordini e informazioni</span>
+    <h2 style="margin-top:20px">Ordina al telefono, <i>spediamo noi</i></h2>
+    <a class="tel" href="tel:+390743822267">+39 0743 82 22 67</a>
+    <p class="lead" style="margin-top:6px">Per un ordine, per il tartufo fresco di stagione o per diventare rivenditore.</p>
+    <div class="servizi"><span>Spedizioni</span><span>Pagamenti online</span><span>Ordini telefonici</span><span>Area rivenditori</span><span>Cesti regalo</span></div>
+    <div class="cta" style="display:flex;gap:12px;flex-wrap:wrap;margin-top:34px"><a class="btn" href="tel:+390743822267">Chiama ora</a><a class="btn ghost" href="mailto:info@moscatellitartufi.com">Scrivi una email</a></div>
+  </div>
+  <dl class="list">
+    <div><dt>Telefono</dt><dd style="margin:0"><a href="tel:+390743822267">+39 0743 82 22 67</a></dd></div>
+    <div><dt>Assistenza vendite</dt><dd style="margin:0"><a href="tel:+393487411690">+39 348 74 11 690</a></dd></div>
+    <div><dt>Negozio Norcia</dt><dd style="margin:0"><a href="tel:+390743828279">+39 0743 82 82 79</a></dd></div>
+    <div><dt>Email</dt><dd style="margin:0"><a href="mailto:info@moscatellitartufi.com">info@moscatellitartufi.com</a></dd></div>
+    <div><dt>Indirizzo</dt><dd style="margin:0">Corso Sertorio 42/44<br>06046 Norcia (PG)</dd></div>
+    <div><dt>Social</dt><dd style="margin:0"><a href="https://www.facebook.com/Moscatelli-Tartufi-Norcia-1142023872485931/" rel="noopener">Facebook</a></dd></div>
+  </dl>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>© Moscatelli Tartufi Norcia s.r.l. · P.IVA 03020610543</span><span>Norcia · Serravalle di Norcia</span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot=/[?&]shot=1/.test(location.search);
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var nav=document.getElementById('nav');
+  function onScroll(){nav.classList.toggle('solid',window.scrollY>80);}
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  if(shot||reduce||!window.gsap) return;
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:0.08});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var id=a.getAttribute('href');if(id.length>1&&document.querySelector(id)){e.preventDefault();lenis.scrollTo(id,{offset:-78});}});});
+
+  document.fonts.ready.then(function(){
+    var st=new SplitText('#heroTitle',{type:'words'});
+    gsap.from(st.words,{y:40,opacity:0,filter:'blur(8px)',duration:1.6,ease:'power3.out',stagger:.14,delay:.3});
+  });
+  gsap.from('.hero .eyebrow, .hero .hsub, .hero .cta',{y:20,opacity:0,duration:1.4,ease:'power2.out',stagger:.15,delay:.9});
+  gsap.to('.hero .vng-wave__content',{yPercent:-18,opacity:.2,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+
+  gsap.utils.toArray('.rv').forEach(function(el){
+    gsap.from(el,{y:40,opacity:0,duration:1.2,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 88%'}});
+  });
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1.5}});
+  });
+  gsap.from('.big18',{yPercent:30,opacity:0,duration:1.4,ease:'power3.out',scrollTrigger:{trigger:'.grotte',start:'top 70%'}});
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+})();
+</script>
+<script type="module">
+import { mountWaveGrid } from "../vendor/vng/wave-grid.js";
+try {
+  const THREE = await import("../vendor/three.module.min.js");
+  mountWaveGrid(THREE, document.querySelector("[data-vng-wave]"), { colorBase: "#20170f", colorHigh: "#c9a45c", gridSize: 34, waveAmplitude: 0.45, exposure: 1.6 });
+} catch (e) { console.info("wave grid: Three.js non disponibile, resta lo sfondo CSS"); }
+</script>
+</body>
+</html>

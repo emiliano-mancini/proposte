@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Hotel Ristorante Filippone · Gioia dei Marsi, alle porte del Parco Nazionale d'Abruzzo</title>
+<meta name="description" content="Hotel e ristorante storico della Marsica a Gioia dei Marsi (AQ): 36 camere, 4 appartamenti, 2 suite, cucina tradizionale abruzzese, piscina, sala vetrata per oltre 300 persone.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  --paper:#f2ece1; --paper-2:#e8e0d1; --ink:#1d1b18; --ink-2:#4a463f; --stone:#5b6a52; --stone-d:#3e4a38; --stone-l:#c9cdb9; --rule:#cfc5b3; --wood:#8a6a4c;
+  --serif:"Playfair Display",Georgia,"Times New Roman",serif; --sans:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;
+  --vng-bg:#f2ece1; --vng-fg:#1d1b18; --vng-muted:#5d584f; --vng-accent:#5b6a52; --vng-accent-fg:#f2ece1;
+  --vng-surface:#f8f4ec; --vng-line:#cfc5b3;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;line-height:1.04;text-wrap:balance}
+em{font-style:italic}
+p{margin:0 0 1em}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:clamp(16px,3.5vw,48px)}
+.kicker{font:600 12px/1.3 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--stone)}
+.folio{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--ink);border-bottom:1px solid var(--rule);padding:10px 0;font:500 12px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+h2{font-size:clamp(38px,5vw,72px)}
+h2 em{color:var(--stone)}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--paper);text-decoration:none;font:600 14px var(--sans);letter-spacing:.06em;text-transform:uppercase;padding:15px 24px;border-radius:2px;transition:background .25s}
+.btn:hover{background:var(--stone)}
+.btn.line{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn.line:hover{background:var(--ink);color:var(--paper)}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:40;background:rgba(242,236,225,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:66px}
+.brand{text-decoration:none;font:500 22px/1 var(--serif)}
+.brand small{display:block;font:600 10px var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--stone);margin-top:4px}
+.menu{display:flex;gap:30px;font:500 14px var(--sans)}
+.menu a{text-decoration:none;border-bottom:1px solid transparent}
+.menu a:hover{border-color:var(--ink)}
+.nav .btn{padding:11px 18px;font-size:12px}
+
+/* HERO collage */
+.hero{padding-top:96px;min-height:100svh;position:relative}
+.hero-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(24px,4vw,64px);align-items:center;padding-block:clamp(28px,5vh,56px) clamp(40px,7vh,80px)}
+.hero h1{font-size:clamp(46px,6.4vw,104px);line-height:.98;margin:22px 0 24px;letter-spacing:-.01em}
+.hero h1 em{color:var(--stone)}
+.hero .dek{font:400 20px/1.5 var(--serif);font-style:italic;color:var(--ink-2);max-width:34ch;margin-bottom:28px}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.collage{position:relative;height:min(74vh,660px);min-height:480px}
+.collage figure{position:absolute;margin:0;background:var(--stone-l);box-shadow:0 30px 60px -30px rgba(29,27,24,.55);border:8px solid #fbf8f2}
+.collage figure div{position:absolute;inset:0;background-size:cover;background-position:center}
+.collage figcaption{position:absolute;left:8px;top:8px;background:#fbf8f2;padding:3px 9px;font:italic 400 13px var(--serif);color:var(--ink-2);white-space:nowrap}
+.c1{left:4%;top:2%;width:56%;height:56%;z-index:2;background-color:#a8876a !important}
+.c2{right:0;top:12%;width:44%;height:46%;z-index:3;background-color:#c3b49d !important}
+.c3{left:20%;bottom:4%;width:46%;height:40%;z-index:4;background-color:#7f9a8f !important}
+.c4{right:6%;bottom:0;width:30%;height:34%;z-index:5;background-color:#9b7a5a !important}
+.hero .stamp{position:absolute;right:clamp(16px,3.5vw,48px);bottom:18px;font:600 11px var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--ink-2)}
+
+/* NUMERI */
+.facts{border-block:1px solid var(--ink);background:var(--paper-2)}
+.facts .wrap{display:grid;grid-template-columns:repeat(5,1fr)}
+.fact{padding:26px 18px;border-left:1px solid var(--rule)}
+.fact:first-child{border-left:0}
+.fact b{display:block;font:400 clamp(40px,4.4vw,62px)/1 var(--serif)}
+.fact span{font-size:14px;color:var(--ink-2)}
+
+/* INTRO editoriale */
+.sec{padding-block:clamp(80px,10vw,140px)}
+.intro .cols{display:grid;grid-template-columns:5fr 7fr;gap:clamp(30px,5vw,80px);margin-top:40px}
+.intro .cols .txt{columns:2;column-gap:40px;font-size:17px}
+.intro .cols .txt p:first-child::first-letter{float:left;font:400 92px/.82 var(--serif);color:var(--stone);padding:6px 10px 0 0}
+.intro aside{border-top:1px solid var(--ink);padding-top:18px}
+.intro aside ul{list-style:none;margin:16px 0 0;padding:0}
+.intro aside li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule);font-size:15px}
+.intro aside li b{font:400 18px var(--serif)}
+
+/* GALLERIA orizzontale */
+.hgal{background:var(--ink);color:var(--paper);overflow:hidden}
+.hgal-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;padding-top:clamp(70px,8vw,110px);padding-bottom:36px}
+.hgal-head h2 em{color:var(--stone-l)}
+.hgal-head p{max-width:38ch;color:#cfc8bb;margin:0}
+.hgal .kicker{color:var(--stone-l)}
+.hgal-track{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding:0 clamp(16px,3.5vw,48px) clamp(70px,8vw,110px);max-width:1240px;margin:0 auto}
+.panel{margin:0;position:relative}
+.panel .ph{position:relative;aspect-ratio:4/3;overflow:hidden;background:#5a4c3f}
+.panel .ph div{position:absolute;inset:0 -6%;background-size:cover;background-position:center}
+.panel figcaption{display:flex;gap:14px;align-items:baseline;padding-top:14px;border-top:1px solid #4a463f;margin-top:14px}
+.panel figcaption b{font:400 14px var(--sans);color:var(--stone-l);letter-spacing:.1em}
+.panel figcaption span{font:400 26px/1.1 var(--serif)}
+.panel figcaption small{display:block;font:400 14px var(--sans);color:#b9b2a5;margin-top:4px}
+.panel.intro-panel{display:none}
+/* modalità pin (aggiunta da JS) */
+.hgal-on .hgal-pin{height:100vh;display:flex;flex-direction:column;justify-content:center}
+.hgal-on .hgal-head{padding-top:0}
+.hgal-on .hgal-track{display:flex;gap:34px;width:max-content;max-width:none;margin:0;padding-bottom:0;padding-right:12vw}
+.hgal-on .panel{width:min(46vw,620px);flex:none}
+.hgal-on .panel:nth-child(even){margin-top:7vh}
+.hgal-on .panel .ph{aspect-ratio:16/10}
+
+/* CAMERE con lista */
+.rooms{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(30px,6vw,96px);align-items:start}
+.rooms .lead{font:400 21px/1.5 var(--serif);color:var(--ink-2)}
+.equip{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px;padding:0;list-style:none}
+.equip li{border:1px solid var(--rule);padding:6px 12px;font-size:14px;border-radius:999px;background:#f8f4ec}
+.rooms-list{padding-left:7rem}
+.vng-reveal{border-color:var(--rule);border-radius:2px;padding:.25rem}
+.vng-reveal li + li a{border-top:1px solid var(--rule)}
+.vng-reveal a{border-radius:0;font:400 22px/1.2 var(--serif)}
+.vng-reveal a:hover,.vng-reveal a:focus-visible{background:var(--paper-2)}
+.vng-reveal b{font-family:var(--sans);color:var(--stone)}
+.vng-reveal small{font:400 13px var(--sans);text-align:right;max-width:42%;min-width:0}
+.vng-reveal a{min-width:0}
+.vng-reveal img{background:var(--stone-l)}
+@media (hover:hover) and (min-width:761px){
+  .vng-reveal img{width:7rem;height:9rem;left:-8.5rem}
+  .vng-reveal a:hover img,.vng-reveal a:focus-visible img{left:-8rem}
+}
+
+/* RISTORANTE ed EVENTI */
+.spread{background:var(--paper-2);border-block:1px solid var(--rule)}
+.spread .grid{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(30px,5vw,80px);align-items:center}
+.pull{font:italic 400 clamp(28px,3.4vw,46px)/1.25 var(--serif);margin:24px 0;padding-left:28px;border-left:3px solid var(--stone)}
+.spread .ph{position:relative;overflow:hidden;aspect-ratio:4/5;background:#b9a68a}
+.spread .ph div{position:absolute;inset:-8% 0;background-size:cover;background-position:center}
+.spread .ph figcaption{position:absolute;left:0;bottom:0;background:var(--paper);padding:10px 14px;font:italic 400 14px var(--serif)}
+.spread .ph.wide{aspect-ratio:16/10}
+.events{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(30px,5vw,80px);align-items:center;margin-top:clamp(70px,8vw,120px)}
+.events ul{list-style:none;padding:0;margin:20px 0 0;columns:2;column-gap:24px}
+.events li{padding:8px 0;border-bottom:1px solid var(--rule);break-inside:avoid}
+
+/* SERVIZI indice */
+.index{border-top:1px solid var(--ink);margin-top:36px}
+.index > div{display:grid;grid-template-columns:80px 1fr 1.4fr;gap:24px;padding:26px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.index b{font:400 15px var(--sans);color:var(--stone);letter-spacing:.1em}
+.index h3{font-size:clamp(26px,2.6vw,36px)}
+.index p{margin:0;color:var(--ink-2)}
+
+/* FAQ */
+.faq-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:clamp(30px,5vw,80px)}
+.vng-faq summary{font:500 19px/1.35 var(--serif)}
+.vng-faq details{border-left-width:3px}
+
+/* CONTATTI */
+.contact{background:var(--stone-d);color:var(--paper)}
+.contact .kicker{color:var(--stone-l)}
+.contact h2 em{color:var(--stone-l)}
+.contact .grid{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(30px,5vw,80px);align-items:end}
+.contact dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:0}
+.contact dt,.contact dd{padding:14px 0;border-bottom:1px solid rgba(242,236,225,.22);margin:0}
+.contact dt{font:600 12px var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--stone-l);padding-right:24px}
+.contact dd{font:400 21px/1.3 var(--serif)}
+.contact dd a{text-decoration:none;border-bottom:1px solid rgba(242,236,225,.4)}
+.contact .btn{background:var(--paper);color:var(--ink)}
+.contact .btn:hover{background:var(--stone-l)}
+.contact .btn.line{background:transparent;color:var(--paper);border-color:var(--paper)}
+footer{background:var(--ink);color:#bdb5a6;font-size:13px;padding:22px 0}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ribbon{position:fixed;right:12px;bottom:12px;z-index:60;background:var(--paper);color:var(--ink);border:1px solid var(--ink);font:italic 400 13px var(--serif);padding:7px 12px}
+
+@media (max-width:980px){
+  .menu{display:none}
+  .hero-grid{grid-template-columns:minmax(0,1fr)}
+  .collage{height:440px;min-height:0}
+  .facts .wrap{grid-template-columns:repeat(3,1fr)}
+  .fact:nth-child(4){border-left:0}
+  .fact:nth-child(n+4){border-top:1px solid var(--rule)}
+  .intro .cols{grid-template-columns:minmax(0,1fr)}
+  .hgal-track{grid-template-columns:1fr 1fr}
+  .rooms{grid-template-columns:minmax(0,1fr)}
+  .rooms-list{padding-left:0}
+  .spread .grid,.events,.faq-grid,.contact .grid{grid-template-columns:minmax(0,1fr)}
+  .events .ph{order:-1}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .nav .btn{padding:10px 12px;font-size:11px}
+  .brand{font-size:19px}
+  .brand small{display:none}
+  .hero{padding-top:84px}
+  .collage{height:340px}
+  .collage figcaption{display:none}
+  .collage figure{border-width:5px}
+  .facts .wrap{grid-template-columns:1fr 1fr}
+  .fact:nth-child(n){border-left:0;border-top:1px solid var(--rule)}
+  .fact:nth-child(even){border-left:1px solid var(--rule)}
+  .fact:first-child,.fact:nth-child(2){border-top:0}
+  .fact:last-child{grid-column:span 2}
+  .intro .cols .txt{columns:1}
+  .hgal-track{grid-template-columns:1fr}
+  .hgal-on .panel{width:78vw}
+  .events ul{columns:1}
+  .vng-reveal a{flex-wrap:wrap;row-gap:2px}
+  .vng-reveal small{flex-basis:100%;max-width:none;text-align:left;margin-left:0;padding-left:6.6rem}
+  .index > div{grid-template-columns:1fr;gap:6px}
+  .contact dl{grid-template-columns:1fr}
+  .contact dt{border-bottom:0;padding-bottom:0}
+  .ribbon{right:8px;bottom:8px;font-size:11px}
+  .folio span:last-child{display:none}
+}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top">Filippone<small>Hotel · Ristorante · Gioia dei Marsi</small></a>
+  <nav class="menu" aria-label="Sezioni"><a href="#galleria">Sale e camere</a><a href="#camere">Camere</a><a href="#ristorante">Ristorante</a><a href="#eventi">Eventi</a><a href="#faq">Domande</a></nav>
+  <a class="btn" href="#contatti">Prenota</a>
+</div></header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div class="folio"><span>Hotel Ristorante Filippone</span><span>Marsica · Abruzzo</span><span>Parco Nazionale d'Abruzzo, Lazio e Molise</span></div>
+    <div class="hero-grid">
+      <div>
+        <span class="kicker">Gioia dei Marsi (AQ)</span>
+        <h1 id="heroTitle">Alle porte del Parco, una tavola <em>con oltre cinquant'anni</em> di storia</h1>
+        <p class="dek">Hotel e ristorante storico della Marsica: camere rinnovate, cucina abruzzese, piscina in giardino e una sala vetrata per le vostre feste.</p>
+        <div class="cta"><a class="btn" href="#contatti">Chiedi disponibilità</a><a class="btn line" href="tel:+39086388111">Chiama 0863 88111</a></div>
+      </div>
+      <div class="collage" id="collage" aria-label="Collage di foto dell'hotel">
+        <figure class="c1"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/camera-suite-deluxe-hotel-filippone-gioia-dei-marsi-marsi-2.jpg')" role="img" aria-label="Suite Deluxe in mansarda"></div><figcaption>Suite Deluxe in mansarda</figcaption></figure>
+        <figure class="c2"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/junior-suite-hotel-filippone-5.jpg')" role="img" aria-label="Junior Suite con travi a vista"></div><figcaption>Junior Suite</figcaption></figure>
+        <figure class="c3"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/10/piscina_servizi_filippone.png')" role="img" aria-label="La piscina all'aperto"></div><figcaption>La piscina</figcaption></figure>
+        <figure class="c4"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/camera-212-deluxe-2.jpg')" role="img" aria-label="Matrimoniale Deluxe"></div><figcaption>Deluxe</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="facts"><div class="wrap">
+  <div class="fact"><b>36</b><span>camere</span></div>
+  <div class="fact"><b>4</b><span>appartamenti</span></div>
+  <div class="fact"><b>2</b><span>suite in mansarda</span></div>
+  <div class="fact"><b>300+</b><span>ospiti nella sala vetrata</span></div>
+  <div class="fact"><b>50+</b><span>anni di ristorante</span></div>
+</div></div>
+
+<section class="sec intro"><div class="wrap">
+  <span class="kicker">La casa</span>
+  <h2 class="rv">Una struttura storica, <em>rinnovata</em> camera per camera</h2>
+  <div class="cols">
+    <aside>
+      <span class="kicker">Dove siamo</span>
+      <ul>
+        <li><span>Parco Nazionale d'Abruzzo</span><b>pochi minuti</b></li>
+        <li><span>Impianti di Pescasseroli</span><b>pochi km</b></li>
+        <li><span>Telespazio Fucino</span><b>circa 10 minuti</b></li>
+        <li><span>Aeroporti di Roma e Pescara</span><b>con navetta</b></li>
+      </ul>
+    </aside>
+    <div class="txt">
+      <p>L'Hotel Filippone, struttura storica e rinomata, è a Gioia dei Marsi, alle porte del Parco Nazionale d'Abruzzo, Lazio e Molise. Qui si dorme, si mangia e si festeggia: hotel, ristorante, piscina e sala ricevimenti sono sotto lo stesso tetto.</p>
+      <p>Le camere sono state rinnovate: bagni con nuove docce multifunzione, parquet o pavimenti eco-sostenibili al posto della moquette, Smart TV HD. Alcune sono pensate per ospiti con disabilità motorie.</p>
+      <p>L'elettricità e l'acqua calda arrivano dai pannelli solari. Per chi lavora al Fucino, per chi va sulle piste di Pescasseroli e per chi cammina nel Parco, siamo un punto di partenza comodo.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="hgal" id="galleria" aria-label="Galleria: sale, camere, piscina">
+  <div class="hgal-pin">
+    <div class="wrap hgal-head">
+      <div><span class="kicker">Sfoglia l'hotel</span><h2 style="margin-top:10px">Sale, camere <em>e giardino</em></h2></div>
+      <p>Dal ristorante alla sala vetrata, dalla piscina alle suite in mansarda.</p>
+    </div>
+    <div class="hgal-track" id="hgalTrack">
+      <figure class="panel"><div class="ph"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/10/ristorante_servizi_filippone.png')" role="img" aria-label="Il ristorante"></div></div><figcaption><b>01</b><span>Il ristorante<small>Cucina abruzzese e pasta fresca</small></span></figcaption></figure>
+      <figure class="panel"><div class="ph"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/10/matrimoni_servizi_filippone.png')" role="img" aria-label="Matrimoni e banchetti"></div></div><figcaption><b>02</b><span>La sala vetrata<small>Sul giardino, oltre 300 persone</small></span></figcaption></figure>
+      <figure class="panel"><div class="ph"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/10/piscina_servizi_filippone.png')" role="img" aria-label="La piscina"></div></div><figcaption><b>03</b><span>La piscina<small>Gazebo, lettini, pranzo a bordo vasca</small></span></figcaption></figure>
+      <figure class="panel"><div class="ph"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/camera-suite-deluxe-hotel-filippone-gioia-dei-marsi-marsi-4.jpg')" role="img" aria-label="Suite Deluxe"></div></div><figcaption><b>04</b><span>Suite Deluxe<small>Salotto, vasca Jacuzzi, terrazzo sulla valle</small></span></figcaption></figure>
+      <figure class="panel"><div class="ph"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/junior-suite-hotel-filippone-2.jpg')" role="img" aria-label="Junior Suite"></div></div><figcaption><b>05</b><span>Junior Suite<small>In mansarda, terrazzo sulle montagne del Parco</small></span></figcaption></figure>
+      <figure class="panel"><div class="ph"><div style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/camera-cardinale-mazzarino-hotel-filippone-gioia-dei-marsi-marsi-4.jpg')" role="img" aria-label="Bilocale"></div></div><figcaption><b>06</b><span>Bilocale<small>4 posti, cucina e balcone panoramico</small></span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="camere"><div class="wrap rooms">
+  <div>
+    <span class="kicker">Le camere</span>
+    <h2 class="rv" style="margin:12px 0 22px">Sette modi di <em>restare</em></h2>
+    <p class="lead">36 camere, 4 appartamenti e 2 suite. Dalla doppia per una notte di lavoro al bilocale per la famiglia, fino alle suite sotto il tetto.</p>
+    <ul class="equip"><li>Wi-Fi</li><li>Smart TV HD</li><li>Aria condizionata</li><li>Cassaforte</li><li>Minibar</li><li>Telefono</li><li>Asciugacapelli</li><li>Set cortesia</li></ul>
+  </div>
+  <div class="rooms-list">
+    <ul class="vng-reveal">
+      <li><a href="#contatti"><img alt="" src="https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/camera-suite-deluxe-hotel-filippone-gioia-dei-marsi-marsi-2.jpg"><b>01</b>Suite Deluxe<small>mansarda, Jacuzzi</small></a></li>
+      <li><a href="#contatti"><img alt="" src="https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/junior-suite-hotel-filippone-5.jpg"><b>02</b>Junior Suite<small>mansarda, terrazzo</small></a></li>
+      <li><a href="#contatti"><img alt="" src="https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/camera-212-deluxe-2.jpg"><b>03</b>Matrimoniale Deluxe<small>idromassaggio o doccia multifunzione</small></a></li>
+      <li><a href="#contatti"><img alt="" src="https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/matrimoniale-standard-hotel-filippone-gioia-dei-marsi.jpg"><b>04</b>Matrimoniale<small>2 persone</small></a></li>
+      <li><a href="#contatti"><img alt="" src="https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/camera-tripla-hotel-filippone-gioia-dei-marsi8.jpg"><b>05</b>Doppia uso singola / twin<small>1–2 persone</small></a></li>
+      <li><a href="#contatti"><img alt="" src="https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/camera-ignazio-silone-hotel-filippone-gioia-dei-marsi-marsi.jpg"><b>06</b>Tripla<small>3 persone</small></a></li>
+      <li><a href="#contatti"><img alt="" src="https://www.hotelristorantefilippone.com/wp-content/uploads/2017/06/camera-cardinale-mazzarino-hotel-filippone-gioia-dei-marsi-marsi-2.jpg"><b>07</b>Bilocale<small>4 posti, cucina</small></a></li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="sec spread" id="ristorante"><div class="wrap">
+  <div class="grid">
+    <div>
+      <span class="kicker">Il ristorante</span>
+      <h2 class="rv" style="margin-top:12px">Cucina <em>abruzzese</em>, come si è sempre fatta</h2>
+      <blockquote class="pull">«La cucina è tradizionale ed i prodotti tipici del posto sono preparati con cura secondo ricette di antica tradizione.»</blockquote>
+      <p>Pasta fresca, prodotti locali, aperitivi in giardino e d'estate il pranzo a bordo piscina. C'è anche il buffet da asporto.</p>
+    </div>
+    <figure class="ph" style="margin:0"><div class="par" style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/10/ristorante_servizi_filippone.png')" role="img" aria-label="Il ristorante dell'Hotel Filippone"></div><figcaption>Il ristorante</figcaption></figure>
+  </div>
+
+  <div class="events" id="eventi">
+    <figure class="ph wide" style="margin:0"><div class="par" style="background-image:url('https://www.hotelristorantefilippone.com/wp-content/uploads/2017/10/matrimoni_servizi_filippone.png')" role="img" aria-label="Matrimoni e banchetti"></div><figcaption>Matrimoni e banchetti</figcaption></figure>
+    <div>
+      <span class="kicker">Ricevimenti e congressi</span>
+      <h2 class="rv" style="margin:12px 0 18px">Una sala vetrata sul giardino, <em>per oltre 300</em></h2>
+      <p>La moderna sala vetrata ospita feste e lavoro. Per ogni evento c'è un coordinatore dedicato.</p>
+      <ul><li>Matrimoni</li><li>Comunioni</li><li>Cresime</li><li>Battesimi</li><li>Convegni</li><li>Meeting aziendali</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec" id="servizi"><div class="wrap">
+  <span class="kicker">Servizi</span>
+  <h2 class="rv" style="margin-top:12px">Oltre la camera</h2>
+  <div class="index">
+    <div><b>I.</b><h3>Piscina all'aperto</h3><p>Con gazebo e lettini. Si può pranzare a bordo piscina.</p></div>
+    <div><b>II.</b><h3>Navetta</h3><p>Da e per gli aeroporti di Roma e Pescara e verso i luoghi turistici.</p></div>
+    <div><b>III.</b><h3>Escursioni guidate</h3><p>Nel Parco Nazionale d'Abruzzo, Lazio e Molise, a pochi minuti dall'hotel.</p></div>
+    <div><b>IV.</b><h3>Eco-hotel</h3><p>Pannelli solari per l'elettricità e l'acqua calda.</p></div>
+  </div>
+</div></section>
+
+<section class="sec" id="faq" style="padding-top:0"><div class="wrap faq-grid">
+  <div><span class="kicker">Domande frequenti</span><h2 class="rv" style="margin-top:12px">Prima di <em>partire</em></h2></div>
+  <div class="vng-faq">
+    <details open><summary>Dove si trova l'hotel?</summary><div class="vng-faq__a">In Via Duca degli Abruzzi 173 a Gioia dei Marsi (AQ), alle porte del Parco Nazionale d'Abruzzo, Lazio e Molise, a pochi chilometri dagli impianti di Pescasseroli.</div></details>
+    <details><summary>Che camere avete?</summary><div class="vng-faq__a">36 camere, 4 appartamenti e 2 suite: doppia uso singola o twin, matrimoniale, matrimoniale deluxe, tripla, bilocale da 4 posti, Junior Suite e Suite Deluxe in mansarda.</div></details>
+    <details><summary>Ci sono camere per ospiti con disabilità motorie?</summary><div class="vng-faq__a">Sì, alcune camere rinnovate sono pensate per ospiti con disabilità motorie.</div></details>
+    <details><summary>Posso organizzare un matrimonio o un convegno?</summary><div class="vng-faq__a">Sì. La sala vetrata sul giardino accoglie oltre 300 persone per matrimoni, comunioni, cresime, battesimi, convegni e meeting, con un coordinatore dedicato.</div></details>
+    <details><summary>C'è un servizio navetta?</summary><div class="vng-faq__a">Sì, da e per gli aeroporti di Roma e Pescara e verso i luoghi turistici.</div></details>
+    <details><summary>Siete vicini al Telespazio Fucino?</summary><div class="vng-faq__a">Sì, il Fucino Space Center è a circa 10 minuti dall'hotel.</div></details>
+    <details><summary>Quanto costa una camera?</summary><div class="vng-faq__a">Le tariffe cambiano secondo periodo e camera: chiamaci allo 0863 88111 o scrivi a info@filippone.it.</div></details>
+  </div>
+</div></section>
+
+<section class="sec contact" id="contatti"><div class="wrap grid">
+  <div>
+    <span class="kicker">Prenotazioni e informazioni</span>
+    <h2 style="margin:12px 0 22px">Vi aspettiamo <em>a Gioia dei Marsi</em></h2>
+    <p style="color:#d9d4c8;max-width:44ch">Scriveteci le date, quante persone siete e che camera preferite. Per eventi e matrimoni chiedete del coordinatore.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:26px"><a class="btn" href="tel:+39086388111">Chiama l'hotel</a><a class="btn line" href="mailto:info@filippone.it">Scrivi una email</a></div>
+  </div>
+  <dl>
+    <dt>Indirizzo</dt><dd>Via Duca degli Abruzzi 173<br>67055 Gioia dei Marsi (AQ)</dd>
+    <dt>Telefono</dt><dd><a href="tel:+39086388111">+39 0863 88111</a></dd>
+    <dt>Cellulare</dt><dd><a href="tel:+393519223850">+39 351 92 23 850</a></dd>
+    <dt>Email</dt><dd><a href="mailto:info@filippone.it">info@filippone.it</a></dd>
+  </dl>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>Hotel Ristorante Filippone · Gioia dei Marsi (AQ)</span><span>Codice regionale 066046ALB0001</span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot = /[?&]shot=1\b/.test(location.search);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (shot || reduce || !window.gsap) return; // tutto statico: galleria a griglia
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  var lenis = new Lenis({lerp:0.09});
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){ a.addEventListener('click',function(e){ var id=a.getAttribute('href'); if(id.length>1 && document.querySelector(id)){ e.preventDefault(); lenis.scrollTo(id,{offset:-66}); } }); });
+
+  // Titolo riga per riga
+  document.fonts.ready.then(function(){
+    var st = new SplitText('#heroTitle',{type:'lines,words',linesClass:'ln'});
+    gsap.set(st.lines,{overflow:'hidden'});
+    gsap.from(st.words,{yPercent:105,duration:1.1,ease:'expo.out',stagger:.035,delay:.15});
+  });
+  gsap.from('.hero .dek, .hero .cta, .hero .kicker',{y:24,opacity:0,duration:1,ease:'power3.out',stagger:.1,delay:.5});
+
+  // Collage: entra composto, poi si separa allo scroll
+  var figs = gsap.utils.toArray('#collage figure');
+  gsap.from(figs,{y:60,opacity:0,rotation:function(i){return [-4,3,-2,5][i];},duration:1.2,ease:'expo.out',stagger:.12,delay:.3});
+  var spread = [{x:-70,y:-50,rotation:-5},{x:80,y:-60,rotation:4},{x:-50,y:70,rotation:-3},{x:70,y:60,rotation:6}];
+  var mob = window.innerWidth < 640 ? .45 : 1;
+  figs.forEach(function(f,i){
+    gsap.to(f,{x:spread[i].x*mob,y:spread[i].y*mob,rotation:spread[i].rotation,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+    gsap.fromTo(f.firstElementChild,{scale:1.12},{scale:1,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  });
+
+  // Galleria orizzontale pinnata
+  var sec = document.getElementById('galleria'), track = document.getElementById('hgalTrack');
+  document.documentElement.classList.add('hgal-on');
+  function dist(){ return Math.max(0, track.scrollWidth - window.innerWidth); }
+  gsap.to(track,{x:function(){return -dist();},ease:'none',scrollTrigger:{trigger:sec,pin:true,start:'top top',end:function(){return '+='+dist();},scrub:1,invalidateOnRefresh:true}});
+
+  // Entrate e parallax
+  gsap.utils.toArray('.rv').forEach(function(el){ gsap.from(el,{y:40,opacity:0,duration:1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}}); });
+  gsap.from('.vng-reveal li',{y:20,opacity:0,duration:.6,ease:'power3.out',stagger:.06,scrollTrigger:{trigger:'.vng-reveal',start:'top 85%'}});
+  gsap.from('.index > div',{y:30,opacity:0,duration:.7,ease:'power3.out',stagger:.08,scrollTrigger:{trigger:'.index',start:'top 85%'}});
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  // foto che si scoprono a tendina
+  gsap.utils.toArray('.spread .ph').forEach(function(el){
+    gsap.fromTo(el,{clipPath:'inset(0 0 100% 0)'},{clipPath:'inset(0 0 0% 0)',duration:1.3,ease:'expo.inOut',scrollTrigger:{trigger:el,start:'top 80%'}});
+  });
+  window.addEventListener('load',function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+</body>
+</html>

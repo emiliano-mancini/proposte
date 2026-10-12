@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Antica Norcineria F.lli Ansuini · Norcia</title>
+<meta name="description" content="Norcineria di famiglia a Norcia dagli anni '50: Prosciutto IGP di Norcia, salami, lonze, guanciale e salsicce. Bottega in Viale della Stazione, aperta tutti i giorni 7:00–19:30.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Work+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  --farina:#f4ecdc; --farina-2:#ebdfc8; --carta:#fbf7ef; --legno:#5b3a24; --legno-2:#8a5d3b; --salume:#a3262a; --salume-2:#c4474a; --rosa:#e9b7a6; --ink:#2b1b12; --muted:#6f5a48;
+  --disp:"Young Serif",Georgia,serif; --body:"Work Sans","Segoe UI",system-ui,sans-serif;
+  --vng-bg:#f4ecdc; --vng-fg:#2b1b12; --vng-muted:#6f5a48; --vng-accent:#a3262a; --vng-accent-fg:#fbf7ef;
+  --vng-surface:#fbf7ef; --vng-line:rgba(91,58,36,.18);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--farina);color:var(--ink);font:400 17px/1.6 var(--body);-webkit-font-smoothing:antialiased;overflow-x:clip}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:24px}
+h1,h2,h3{font-family:var(--disp);font-weight:400;margin:0;text-wrap:balance;letter-spacing:-.01em}
+h2{font-size:clamp(34px,4.6vw,58px);line-height:1.04}
+.kicker{display:inline-flex;align-items:center;gap:10px;font:600 12px/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--salume)}
+.kicker::before{content:"";width:28px;height:2px;background:currentColor}
+.lead{color:var(--muted);max-width:56ch;margin:18px 0 0}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--salume);color:var(--carta);font-weight:600;text-decoration:none;border-radius:6px;padding:14px 22px;font-size:15px;box-shadow:0 2px 0 #6e1416;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:var(--salume-2)}
+.btn.line{background:transparent;color:var(--legno);box-shadow:inset 0 0 0 1.5px var(--legno)}
+section{padding-block:110px}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:40;background:rgba(244,236,220,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--vng-line)}
+.nav .wrap{display:flex;align-items:center;gap:28px;height:70px}
+.brand{font:400 20px/1.05 var(--disp);text-decoration:none;color:var(--legno)}
+.brand small{display:block;font:600 10px var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--salume);margin-top:3px}
+.menu{display:flex;gap:26px;margin-left:auto;font-weight:500;font-size:15px}
+.menu a{text-decoration:none}
+.menu a:hover{color:var(--salume)}
+.nav .btn{padding:11px 18px}
+
+/* HERO collage H6 */
+.hero{position:relative;padding:130px 0 90px;overflow:hidden;background:
+  radial-gradient(900px 500px at 85% 30%,rgba(163,38,42,.09),transparent 60%),var(--farina)}
+.hero .wrap{display:grid;grid-template-columns:1fr 1.08fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(46px,6.6vw,92px);line-height:.98;color:var(--legno)}
+.hero h1 em{font-style:normal;color:var(--salume)}
+.hero p.sub{font-size:19px;max-width:42ch;margin:24px 0 32px;color:var(--muted)}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero .meta{display:flex;gap:22px;flex-wrap:wrap;margin-top:34px;font-size:14px;color:var(--muted)}
+.hero .meta b{display:block;font:400 17px var(--disp);color:var(--legno)}
+.collage{position:relative;height:620px}
+.ph{position:absolute;border-radius:6px;overflow:hidden;box-shadow:0 30px 60px -28px rgba(60,30,15,.55),0 0 0 8px var(--carta);background-size:cover;background-position:center;will-change:transform}
+.ph span{position:absolute;left:10px;bottom:10px;font:600 11px var(--body);letter-spacing:.14em;text-transform:uppercase;background:var(--carta);color:var(--legno);padding:5px 9px;border-radius:3px}
+.p1{left:8%;top:6%;width:56%;height:58%;background-color:#7a4a32;z-index:2;transform:rotate(-3deg)}
+.p2{right:0;top:0;width:40%;height:44%;background-color:#9c5a43;z-index:3;transform:rotate(4deg)}
+.p3{left:0;bottom:4%;width:42%;height:40%;background-color:#5b3a24;z-index:4;transform:rotate(2deg)}
+.p4{right:4%;bottom:0;width:48%;height:46%;background-color:#b1726a;z-index:5;transform:rotate(-2deg)}
+.p5{left:36%;top:38%;width:30%;height:30%;background-color:var(--carta);background-size:contain;background-repeat:no-repeat;z-index:6;transform:rotate(-6deg);border-radius:50%}
+.stamp{position:absolute;right:-6px;top:46%;z-index:7;width:118px;height:118px;border-radius:50%;background:var(--salume);color:var(--carta);display:grid;place-items:center;text-align:center;font:400 15px/1.15 var(--disp);transform:rotate(10deg);box-shadow:0 10px 30px -10px rgba(110,20,22,.6)}
+.stamp small{display:block;font:600 9px var(--body);letter-spacing:.2em;text-transform:uppercase;opacity:.85}
+
+/* NUMERI */
+.facts{background:var(--legno);color:var(--farina);padding-block:0}
+.facts .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.fact{padding:34px 24px;border-left:1px solid rgba(244,236,220,.14)}
+.fact:first-child{border-left:0}
+.fact b{display:block;font:400 46px/1 var(--disp);color:var(--rosa);margin-bottom:10px}
+.fact span{font-size:14px;opacity:.85}
+
+/* STORIA */
+.storia .wrap{display:grid;grid-template-columns:5fr 6fr;gap:70px;align-items:start}
+.storia .pics{position:relative;height:640px}
+.storia .pics .frame{position:absolute;overflow:hidden;border-radius:4px;background-color:#6b4530}
+.storia .pics .frame div{position:absolute;inset:-12% 0;background-size:cover;background-position:center}
+.storia .f1{left:0;top:0;width:78%;height:66%}
+.storia .f2{right:0;bottom:0;width:58%;height:46%;box-shadow:0 0 0 10px var(--farina);background-color:#8a5d3b}
+.tl{list-style:none;padding:0;margin:40px 0 0;border-left:2px solid var(--vng-line)}
+.tl li{position:relative;padding:0 0 30px 30px}
+.tl li::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--salume);box-shadow:0 0 0 4px var(--farina)}
+.tl b{display:block;font:400 22px var(--disp);color:var(--legno)}
+.tl p{margin:4px 0 0;color:var(--muted)}
+.valori{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.valori span{border:1px solid var(--vng-line);background:var(--carta);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:500}
+
+/* LISTINO (firma) */
+.listino{background:var(--carta);border-block:1px solid var(--vng-line)}
+.listino .head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-top:36px}
+.tabs button{font:600 14px var(--body);border:1.5px solid var(--legno);background:transparent;color:var(--legno);border-radius:999px;padding:9px 16px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--legno);color:var(--farina)}
+.tabs button:focus-visible{outline:2px solid var(--salume);outline-offset:2px}
+.book{display:grid;grid-template-columns:5fr 7fr;gap:48px;margin-top:34px;align-items:start}
+.scheda{position:sticky;top:100px;background:var(--farina);border-radius:8px;padding:28px;border:1px solid var(--vng-line);overflow:hidden}
+.scheda .img{aspect-ratio:1;background:radial-gradient(circle at 50% 55%,#fff 0 55%,var(--farina-2) 56%);border-radius:50%;display:grid;place-items:center;overflow:hidden}
+.scheda img{width:82%;height:82%;object-fit:contain;background-color:transparent}
+.scheda h3{font-size:30px;margin-top:22px;color:var(--legno)}
+.scheda p{margin:6px 0 0;color:var(--muted);font-size:15px}
+.scheda .num{position:absolute;right:22px;top:18px;font:400 14px var(--disp);color:var(--salume)}
+.pagina h3.cat{font-size:24px;color:var(--salume);margin:0 0 12px}
+.pagina + .pagina{margin-top:36px}
+.js .pagina[hidden]{display:none}
+.listino .vng-reveal{background:var(--farina);padding:.4rem}
+.listino .vng-reveal a{padding:.75rem 1rem;font-weight:500}
+.listino .vng-reveal a:hover,.listino .vng-reveal a:focus-visible,.listino .vng-reveal a.on{background:rgba(163,38,42,.08)}
+.listino .vng-reveal b{font-family:var(--disp);color:var(--salume)}
+.listino .vng-reveal small{font-size:13px}
+.listino .vng-reveal img{background-color:#fff}
+.nota{margin-top:22px;font-size:14px;color:var(--muted)}
+.nota a{color:var(--salume);font-weight:600}
+
+/* BOTTEGA */
+.bottega{position:relative;min-height:88vh;display:flex;align-items:flex-end;color:var(--carta);padding:0;overflow:hidden;background-color:#4a2c1b}
+.bottega .bg{position:absolute;inset:-12% 0;background-size:cover;background-position:center}
+.bottega::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(35,18,10,.85) 0%,rgba(35,18,10,.45) 55%,rgba(35,18,10,.1))}
+.bottega .wrap{position:relative;z-index:2;width:100%;padding-block:110px}
+.bottega .kicker{color:var(--rosa)}
+.bottega h2{max-width:14ch;margin-top:14px}
+.bottega p{max-width:48ch;opacity:.92;margin:18px 0 0}
+.bottega ul{list-style:none;padding:0;margin:26px 0 0;display:flex;gap:10px;flex-wrap:wrap}
+.bottega li{background:rgba(251,247,239,.14);backdrop-filter:blur(6px);border:1px solid rgba(251,247,239,.25);border-radius:4px;padding:8px 12px;font-size:14px;font-weight:500}
+
+/* PRODUZIONE */
+.prod .wrap{display:grid;grid-template-columns:4fr 7fr;gap:60px;align-items:center}
+.strip{display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:240px 240px;gap:12px}
+.strip div{border-radius:4px;background-size:cover;background-position:center}
+.strip div:first-child{grid-row:span 2}
+.prod ul{padding-left:18px;color:var(--muted);margin:20px 0 0}
+
+/* FAQ */
+.faq .wrap{display:grid;grid-template-columns:4fr 7fr;gap:60px}
+.faq .vng-faq summary{font-size:17px}
+
+/* CONTATTI */
+.contatti{background:var(--salume);color:var(--carta)}
+.contatti .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;align-items:start}
+.contatti .kicker{color:var(--rosa)}
+.contatti h2{margin-top:14px}
+.contatti .lead{color:rgba(251,247,239,.85)}
+.card-c{background:var(--carta);color:var(--ink);border-radius:8px;padding:30px;display:grid;gap:18px}
+.card-c .big{font:400 32px var(--disp);color:var(--salume);text-decoration:none}
+.card-c dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 18px;font-size:15px}
+.card-c dt{font-weight:600;color:var(--legno)}
+.card-c dd{margin:0;color:var(--muted)}
+.card-c dd a{color:var(--ink)}
+.contatti .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.contatti .btn{background:var(--carta);color:var(--salume);box-shadow:0 2px 0 #6e1416}
+.contatti .btn.line{background:transparent;color:var(--carta);box-shadow:inset 0 0 0 1.5px var(--carta)}
+footer{background:var(--ink);color:rgba(244,236,220,.7);font-size:13px;padding-block:26px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{color:inherit}
+.ribbon{position:fixed;right:14px;bottom:14px;z-index:50;background:var(--ink);color:var(--farina);font:600 12px var(--body);padding:8px 12px;border-radius:4px;box-shadow:0 6px 20px -8px rgba(0,0,0,.5)}
+
+@media (max-width:980px){
+  .menu{display:none}
+  .nav .btn{margin-left:auto}
+  .hero{padding-top:110px}
+  .hero .wrap,.storia .wrap,.book,.prod .wrap,.faq .wrap,.contatti .wrap{grid-template-columns:1fr}
+  .collage{height:440px}
+  .facts .wrap{grid-template-columns:1fr 1fr}
+  .fact:nth-child(3){border-left:0}
+  .fact{border-top:1px solid rgba(244,236,220,.14)}
+  .storia .pics{height:440px}
+  .scheda{position:relative;top:0;display:grid;grid-template-columns:110px 1fr;gap:18px;align-items:center;padding:18px}
+  .scheda h3{margin-top:0;font-size:24px}
+  section{padding-block:76px}
+  .strip{grid-template-rows:180px 180px}
+}
+@media (max-width:520px){
+  body{font-size:16px}
+  .nav .btn{padding:9px 14px;font-size:13px;white-space:nowrap}
+  .nav .btn .long{display:none}
+  .brand small{letter-spacing:.14em}
+  .brand{font-size:16px}
+  .collage{height:360px}
+  .stamp{width:92px;height:92px;font-size:12px;right:0}
+  .ph{box-shadow:0 20px 40px -20px rgba(60,30,15,.55),0 0 0 5px var(--carta)}
+  .fact b{font-size:36px}
+  .fact{padding:24px 14px}
+  .card-c dl{grid-template-columns:1fr}
+  .card-c dt{margin-top:6px}
+}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top">F.lli Ansuini<small>Antica Norcineria · Norcia</small></a>
+  <nav class="menu" aria-label="Sezioni"><a href="#storia">Storia</a><a href="#listino">Listino</a><a href="#bottega">Bottega</a><a href="#domande">Info utili</a><a href="#contatti">Contatti</a></nav>
+  <a class="btn" href="tel:+390743816809">Chiama<span class="long"> la bottega</span></a>
+</div></header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div class="intro">
+      <span class="kicker">Norcia · dagli anni '50</span>
+      <h1 id="heroTitle" style="margin-top:18px">La migliore tradizione <em>Norcina</em></h1>
+      <p class="sub">Prosciutto IGP di Norcia, salami, lonze e guanciale lavorati e stagionati dalla famiglia Ansuini. Vieni in bottega in Viale della Stazione: aperta tutti i giorni.</p>
+      <div class="cta"><a class="btn" href="#listino">Sfoglia il listino</a><a class="btn line" href="#contatti">Orari e indirizzo</a></div>
+      <div class="meta"><div><b>7:00–19:30</b>tutti i giorni</div><div><b>Viale della Stazione</b>Norcia (PG)</div></div>
+    </div>
+    <div class="collage" id="collage" aria-label="Foto della norcineria">
+      <div class="ph p1" style="background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/07/NorcineriaSlide0.jpg')"><span>Norcineria</span></div>
+      <div class="ph p2" style="background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/01/home_1.jpg')"><span>La bottega</span></div>
+      <div class="ph p3" style="background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/07/SlideProduzione_1.jpg')"><span>Produzione</span></div>
+      <div class="ph p4" style="background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/03/DSC03242-1-768x432.jpeg')"><span>Valnerina</span></div>
+      <div class="ph p5" style="background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/05/ProsciuttoIGPDiNorcia.png')" role="img" aria-label="Prosciutto IGP di Norcia"></div>
+      <div class="stamp"><div><small>Prosciutto</small>IGP di<br>Norcia</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="facts"><div class="wrap">
+  <div class="fact"><b data-vng-count="41">41</b><span>salumi nel catalogo della norcineria</span></div>
+  <div class="fact"><b data-vng-count="7" data-suffix="/7">7/7</b><span>bottega aperta tutti i giorni, 7:00–19:30</span></div>
+  <div class="fact"><b>anni '50</b><span>Vittorio Ansuini inizia il mestiere di norcino</span></div>
+  <div class="fact"><b>IGP</b><span>Prosciutto di Norcia in listino</span></div>
+</div></div>
+
+<section class="storia" id="storia"><div class="wrap">
+  <div class="pics">
+    <div class="frame f1"><div class="par" style="background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/01/img_chi_siamo_1.jpeg')"></div></div>
+    <div class="frame f2"><div class="par" style="background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/01/bottega_chi_siamo.jpeg')"></div></div>
+  </div>
+  <div>
+    <span class="kicker">La nostra storia</span>
+    <h2 class="rv" style="margin-top:14px">Custodi del gusto di una tradizione immortale</h2>
+    <p class="lead rv">Tutto parte dal mestiere di Vittorio Ansuini, che lavorava i maiali del territorio per farne prosciutti e salami. Oggi i fondatori sono ancora in bottega, e la famiglia segue ogni fase.</p>
+    <ol class="tl">
+      <li class="rv"><b>Anni '50 · Vittorio e Anna</b><p>Nasce la norcineria: Vittorio con la moglie Anna lavora i suini della zona come vuole la tradizione norcina.</p></li>
+      <li class="rv"><b>Anni 2000 · Lo stabilimento</b><p>Apre lo stabilimento per la lavorazione e la stagionatura di salami, lonze, lonzini, pancetta, guanciale e prosciutto.</p></li>
+      <li class="rv"><b>Oggi · Luigi e Walter</b><p>Il figlio Luigi segue la produzione, il figlio Walter la vendita all'ingrosso su tutto il territorio nazionale.</p></li>
+    </ol>
+    <div class="valori rv"><span>Materie prime genuine</span><span>Qualità</span><span>Esperienza</span><span>Artigianalità</span></div>
+  </div>
+</div></section>
+
+<section class="listino" id="listino"><div class="wrap">
+  <div class="head">
+    <div><span class="kicker">Il listino della bottega</span><h2 style="margin-top:14px">41 salumi, da sfogliare</h2></div>
+    <p class="lead" style="margin:0;max-width:40ch">Passa sui nomi per vedere il prodotto. Scegli una pagina: stagionati, salami, salsicce o le specialità di Norcia.</p>
+  </div>
+  <div class="tabs" role="tablist" aria-label="Pagine del listino">
+    <button role="tab" aria-selected="true" data-tab="0">Prosciutti e stagionati</button>
+    <button role="tab" aria-selected="false" data-tab="1">Salami</button>
+    <button role="tab" aria-selected="false" data-tab="2">Salsicce</button>
+    <button role="tab" aria-selected="false" data-tab="3">Specialità norcine</button>
+  </div>
+  <div class="book">
+    <aside class="scheda" aria-live="polite">
+      <span class="num" id="sNum">01</span>
+      <div class="img"><img id="sImg" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/ProsciuttoIGPDiNorcia.png" alt="Prosciutto IGP di Norcia"></div>
+      <div><h3 id="sName">Prosciutto IGP di Norcia</h3><p id="sCat">Prosciutti e stagionati</p></div>
+    </aside>
+    <div class="pages">
+      <div class="pagina" data-page="0"><h3 class="cat">Prosciutti e stagionati</h3>
+        <ul class="vng-reveal">
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/ProsciuttoIGPDiNorcia.png"><b>01</b>Prosciutto IGP di Norcia<small>IGP</small></a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/ProsciuttoNazionaleConOsso.png"><b>02</b>Prosciutto con osso nazionale<small>intero</small></a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/CulattaStagionata.png"><b>03</b>Culatta stagionata</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/FioccoDolce.png"><b>04</b>Fiocco dolce</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Capocollo.png"><b>05</b>Capocollo</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Lonzino.png"><b>06</b>Lonzino</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Pancetta.png"><b>07</b>Pancetta</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Guanciale.png"><b>08</b>Guanciale<small>intero, cubettato, affettato</small></a></li>
+        </ul>
+      </div>
+      <div class="pagina" data-page="1"><h3 class="cat">Salami</h3>
+        <ul class="vng-reveal">
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/SalameNorcino.png"><b>09</b>Salame norcino</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/SalameCorallino.png"><b>10</b>Salame corallina</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/SalameAlTartufo.png"><b>11</b>Salame al tartufo</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/SalameConCinghiale-1.png"><b>12</b>Salame con cinghiale</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/SalameConCervo.png"><b>13</b>Salame con cervo</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/SalamellaDiNorcia.png"><b>14</b>Salamella di Norcia</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Cinghialina.png"><b>15</b>Cinghialina</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Piccantina.png"><b>16</b>Piccantina</a></li>
+        </ul>
+      </div>
+      <div class="pagina" data-page="2"><h3 class="cat">Salsicce</h3>
+        <ul class="vng-reveal">
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/SalsicciaABastone.png"><b>17</b>Salsiccia a bastone</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/BastonePiccante.png"><b>18</b>Bastone piccante</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/SalsicciaSaleEPepe.png"><b>19</b>Salsiccia sale e pepe<small>sfusa</small></a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/SalsicciaConCinghiale.png"><b>20</b>Salsiccia con cinghiale</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Casareccia.png"><b>21</b>Casareccia</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/CoppiettePiccanti.png"><b>22</b>Coppiette piccanti</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/PolpaTascabile-1.png"><b>23</b>Polpa tascabile</a></li>
+        </ul>
+      </div>
+      <div class="pagina" data-page="3"><h3 class="cat">Specialità norcine</h3>
+        <ul class="vng-reveal">
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/MortadellaDiTartufo.png"><b>24</b>Mortadella di tartufo</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/MortadellaDiCinghiale.png"><b>25</b>Mortadella di cinghiale</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/CoppaDiTesta.png"><b>26</b>Coppa di testa</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/CoglioniDiMulo.png"><b>27</b>Coglioni di mulo</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/PalleDelNonno.png"><b>28</b>Palle del nonno</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Fiaschette.png"><b>29</b>Fiaschette</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/GranfettaDeiSibilli.png"><b>30</b>Granfetta dei Sibillini</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/CremosoDiNorcia.png"><b>31</b>Cremoso di Norcia</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/LaGustosaDiNorcia.png"><b>32</b>La Gustosa di Norcia</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Nursinelle.png"><b>33</b>Nursinelle</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Ansuinetto.png"><b>34</b>Ansuinetto</a></li>
+          <li><a href="#listino"><img alt="" src="https://www.ansuininorcia.com/wp-content/uploads/2023/05/Maialino.png"><b>35</b>Maialino</a></li>
+        </ul>
+      </div>
+      <p class="nota">Prezzi e disponibilità in bottega, al telefono o sullo <a href="https://www.anticanorcineriaansuini.com/" rel="noopener">shop online</a>. Nel catalogo completo ci sono anche Granfiocco, Granfetta, Nursinetto e Piccolo norcino.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="bottega" id="bottega">
+  <div class="bg par" style="background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/03/O1A4497-1024x683.jpg')"></div>
+  <div class="wrap">
+    <span class="kicker">La bottega</span>
+    <h2>Se passi per la Valnerina, fermati a Norcia</h2>
+    <p>In Viale della Stazione Mastro Vittorio e la moglie Anna ti consigliano i salumi giusti, anche per un panino cotto sulla brace a legna. Prosciutto, lonza, capocollo e coppa, con un'ampia scelta di formaggi e carni fresche.</p>
+    <ul><li>Aperta 7 giorni su 7</li><li>7:00–19:30</li><li>Parcheggio ampio per camper</li><li>Carico dell'acqua gratuito</li></ul>
+  </div>
+</section>
+
+<section class="prod" id="produzione"><div class="wrap">
+  <div>
+    <span class="kicker">Lavorazione e stagionatura</span>
+    <h2 class="rv" style="margin-top:14px">Dallo stabilimento al banco</h2>
+    <p class="lead rv">Dagli anni 2000 la famiglia lavora e stagiona in un proprio stabilimento. Luigi Ansuini segue la produzione.</p>
+    <ul class="rv"><li>Salami e lonze</li><li>Lonzini e pancetta</li><li>Guanciale</li><li>Prosciutto</li></ul>
+  </div>
+  <div class="strip">
+    <div class="rv" style="background-color:#7a4a32;background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/07/SlideProduzione_3.jpg')"></div>
+    <div class="rv" style="background-color:#9c5a43;background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/07/SlideProduzione_5.jpg')"></div>
+    <div class="rv" style="background-color:#5b3a24;background-image:url('https://www.ansuininorcia.com/wp-content/uploads/2023/07/NorcineriaSlide2.jpg')"></div>
+  </div>
+</div></section>
+
+<section class="faq" id="domande" style="background:var(--farina-2)"><div class="wrap">
+  <div><span class="kicker">Info utili</span><h2 style="margin-top:14px">Prima di venire in bottega</h2></div>
+  <div class="vng-faq">
+    <details open><summary>Quando è aperta la bottega?</summary><div class="vng-faq__a">Tutti i giorni, dal lunedì alla domenica, dalle 7:00 alle 19:30. L'ufficio risponde dal lunedì al venerdì 9:00–20:00 e il sabato 9:00–13:00.</div></details>
+    <details><summary>Dove vi trovo a Norcia?</summary><div class="vng-faq__a">In Viale della Stazione 46, 06046 Norcia (PG).</div></details>
+    <details><summary>Arrivo in camper: posso parcheggiare?</summary><div class="vng-faq__a">Sì, la norcineria ha un ampio parcheggio per i camper con carico dell'acqua gratuito.</div></details>
+    <details><summary>Posso comprare online?</summary><div class="vng-faq__a">Sì, sullo shop dell'Antica Norcineria Ansuini: <a href="https://www.anticanorcineriaansuini.com/" rel="noopener">anticanorcineriaansuini.com</a>.</div></details>
+    <details><summary>Fate vendita all'ingrosso?</summary><div class="vng-faq__a">Sì, Walter Ansuini segue la vendita all'ingrosso su tutto il territorio nazionale. Scrivi a <a href="mailto:info@ansuininorcia.com">info@ansuininorcia.com</a>.</div></details>
+  </div>
+</div></section>
+
+<section class="contatti" id="contatti"><div class="wrap">
+  <div>
+    <span class="kicker">Vieni a trovarci</span>
+    <h2>Antica Norcineria F.lli Ansuini</h2>
+    <p class="lead">Chiama per un ordine o per sapere cosa c'è al banco oggi. Rispondiamo anche via email.</p>
+    <div class="btns"><a class="btn" href="tel:+390743816809">Chiama 0743 816809</a><a class="btn line" href="mailto:info@ansuininorcia.com">Scrivi una email</a></div>
+  </div>
+  <div class="card-c">
+    <a class="big" href="tel:+390743816809">0743 816809</a>
+    <dl>
+      <dt>Indirizzo</dt><dd>Viale della Stazione 46<br>06046 Norcia (PG)</dd>
+      <dt>Email</dt><dd><a href="mailto:info@ansuininorcia.com">info@ansuininorcia.com</a></dd>
+      <dt>Bottega</dt><dd>Lunedì–domenica 7:00–19:30</dd>
+      <dt>Ufficio</dt><dd>Lun–ven 9:00–20:00 · sab 9:00–13:00</dd>
+      <dt>Social</dt><dd><a href="https://www.facebook.com/Antica.norcineria.fratelli.ansuini.norcia" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/antica_norcineria_ansuini/" rel="noopener">Instagram</a></dd>
+    </dl>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>Antica Norcineria F.lli Ansuini · P.IVA 02546040540</span><a href="https://www.anticanorcineriaansuini.com/" rel="noopener">Shop online</a></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot=/[?&]shot=1/.test(location.search);
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Listino che si sfoglia: pagine a schede + scheda prodotto
+  var root=document.documentElement; root.classList.add('js');
+  var tabs=[].slice.call(document.querySelectorAll('.tabs button'));
+  var pages=[].slice.call(document.querySelectorAll('.pagina'));
+  var sImg=document.getElementById('sImg'), sName=document.getElementById('sName'), sCat=document.getElementById('sCat'), sNum=document.getElementById('sNum');
+  function pick(a){
+    var img=a.querySelector('img'); if(!img) return;
+    document.querySelectorAll('.listino .vng-reveal a.on').forEach(function(x){x.classList.remove('on');});
+    a.classList.add('on');
+    sImg.src=img.src; sImg.alt=a.childNodes[2]?a.childNodes[2].textContent.trim():'';
+    sName.textContent=sImg.alt;
+    sNum.textContent=a.querySelector('b').textContent;
+    sCat.textContent=a.closest('.pagina').querySelector('.cat').textContent;
+    if(window.gsap && !shot && !reduce) gsap.fromTo('.scheda .img',{scale:.94,rotation:-4},{scale:1,rotation:0,duration:.5,ease:'back.out(2)'});
+  }
+  function show(i){
+    tabs.forEach(function(t,k){t.setAttribute('aria-selected',k===i?'true':'false');});
+    pages.forEach(function(p,k){p.hidden=k!==i;});
+    var first=pages[i].querySelector('a'); if(first) pick(first);
+    if(window.gsap && !shot && !reduce) gsap.from(pages[i].querySelectorAll('li'),{x:30,opacity:0,duration:.45,stagger:.04,ease:'power2.out'});
+  }
+  tabs.forEach(function(t,k){t.addEventListener('click',function(){show(k);});});
+  document.querySelectorAll('.listino .vng-reveal a').forEach(function(a){
+    a.addEventListener('mouseenter',function(){pick(a);});
+    a.addEventListener('focus',function(){pick(a);});
+    a.addEventListener('click',function(e){e.preventDefault();pick(a);});
+  });
+  pages.forEach(function(p,k){p.hidden=k!==0;});
+
+  if(shot||reduce||!window.gsap) return;
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:0.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var id=a.getAttribute('href');if(id.length>1&&document.querySelector(id)&&!a.closest('.vng-reveal')){e.preventDefault();lenis.scrollTo(id,{offset:-70});}});});
+
+  document.fonts.ready.then(function(){
+    var st=new SplitText('#heroTitle',{type:'words'});
+    gsap.from(st.words,{yPercent:100,opacity:0,duration:1,ease:'expo.out',stagger:.08,delay:.15});
+  });
+  gsap.from('.intro .sub, .intro .cta, .intro .meta',{y:24,opacity:0,duration:.9,ease:'power3.out',stagger:.1,delay:.5});
+
+  // Collage: le foto entrano impilate e si separano con lo scroll
+  var spread={'.p1':{x:-60,y:-40,rotation:-8},'.p2':{x:70,y:-50,rotation:9},'.p3':{x:-80,y:50,rotation:6},'.p4':{x:70,y:60,rotation:-7},'.p5':{x:0,y:-10,rotation:-14,scale:1.15}};
+  gsap.from('#collage .ph',{y:60,opacity:0,scale:.9,duration:1,ease:'power3.out',stagger:.09,delay:.2});
+  gsap.from('.stamp',{scale:0,rotation:-40,duration:.8,ease:'back.out(2)',delay:1});
+  Object.keys(spread).forEach(function(sel){
+    gsap.to('#collage '+sel,Object.assign({ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}},spread[sel]));
+  });
+
+  gsap.utils.toArray('.rv').forEach(function(el){
+    gsap.from(el,{y:36,opacity:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}});
+  });
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-7},{yPercent:7,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  gsap.from('.bottega li',{y:20,opacity:0,duration:.6,stagger:.07,ease:'power2.out',scrollTrigger:{trigger:'.bottega ul',start:'top 90%'}});
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+})();
+</script>
+</body>
+</html>

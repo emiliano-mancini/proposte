@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Albergo Punta Zerbion · Champoluc, Val d'Ayas</title>
+<meta name="description" content="Hotel 3 stelle a Champoluc, ai piedi del Monte Rosa: camere, ristorante di cucina alpina e centro benessere con piscina coperta. Gestione familiare dal 1964.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Jost:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  /* palette dalle foto: notte d'alta quota, neve, larice, acqua della piscina */
+  --night:#0d1217; --night-2:#151c23; --slate:#26313b; --snow:#f4f1ea; --snow-dim:rgba(244,241,234,.72);
+  --larch:#b9844f; --larch-lt:#dcb07c; --sky:#7c9dbf; --pool:#8cc7cc;
+  --disp:"Bodoni Moda","Didot",Georgia,serif; --body:"Jost","Futura","Segoe UI",system-ui,sans-serif;
+  --vng-bg:#0d1217; --vng-fg:#f4f1ea; --vng-muted:rgba(244,241,234,.66); --vng-accent:#dcb07c; --vng-accent-fg:#14100b;
+  --vng-surface:rgba(21,28,35,.6); --vng-line:rgba(244,241,234,.18);
+  --vng-spot-bg:rgba(13,18,23,.42); --vng-spot-light:rgba(220,176,124,.22); --vng-spot-line:#dcb07c;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--night);color:var(--snow);font-family:var(--body);font-weight:300;font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:400;margin:0;line-height:.95;text-wrap:balance}
+em{font-style:italic}
+.wrap{width:min(1240px,100% - 48px);margin-inline:auto}
+.kicker{font:500 12px/1 var(--body);letter-spacing:.32em;text-transform:uppercase;color:var(--larch-lt)}
+.muted{color:var(--snow-dim)}
+
+/* NAV */
+.top{position:fixed;inset:0 0 auto;z-index:40;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px clamp(16px,3vw,40px)}
+.top{transition:background .35s,padding .35s}
+.top.solid{background:rgba(13,18,23,.88);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);padding-block:10px;box-shadow:0 1px 0 rgba(244,241,234,.08)}
+.brand{font:400 22px/1 var(--disp);letter-spacing:.02em;text-decoration:none;text-shadow:0 2px 18px rgba(0,0,0,.5)}
+.brand small{display:block;font:500 9.5px/1 var(--body);letter-spacing:.34em;text-transform:uppercase;opacity:.8;margin-top:6px}
+.vng-spot a{font-family:var(--body);letter-spacing:.06em}
+.top .vng-hbtn{background:rgba(13,18,23,.45);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-color:rgba(244,241,234,.4);font-size:15px;letter-spacing:.06em}
+
+/* HERO — sequenza pinnata. Senza JS / ?shot=1: fotogrammi uno sotto l'altro */
+.seq{position:relative;background:#000}
+.frame{position:relative;height:100svh;min-height:620px;overflow:hidden;margin:0;display:flex;align-items:flex-end}
+.frame .ph{position:absolute;inset:0;background-size:cover;background-position:center;transform-origin:50% 60%}
+.frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,9,12,.55) 0%,rgba(6,9,12,0) 30%,rgba(6,9,12,.05) 55%,rgba(6,9,12,.82) 100%)}
+.cap{position:relative;z-index:3;width:100%;padding:0 clamp(20px,5vw,72px) clamp(64px,12vh,120px)}
+.cap .no{display:block;font:500 12px/1 var(--body);letter-spacing:.34em;color:var(--larch-lt);margin-bottom:22px;text-shadow:0 1px 12px rgba(0,0,0,.7)}
+.big{font-size:clamp(54px,10.4vw,176px);letter-spacing:-.025em;max-width:11ch;text-shadow:0 6px 40px rgba(0,0,0,.35)}
+.big em{color:var(--larch-lt)}
+.cap p{max-width:44ch;margin:26px 0 0;font-size:clamp(16px,1.4vw,19px);color:rgba(244,241,234,.9)}
+.cap .act{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+.bars{display:none}
+.seq-ui{display:none}
+/* modalità cinema (classe aggiunta solo da JS, quando le animazioni sono attive) */
+html.cine .seq-stage{position:relative;height:100svh;overflow:hidden}
+html.cine .frame{position:absolute;inset:0;min-height:0;height:auto}
+html.cine .bars{display:block}
+html.cine .bars i{position:absolute;left:0;right:0;height:5.5vh;background:#000;z-index:5}
+html.cine .bars i:first-child{top:0}
+html.cine .bars i:last-child{bottom:0}
+html.cine .seq-ui{display:flex;position:absolute;right:clamp(20px,4vw,56px);bottom:calc(5.5vh + 22px);z-index:6;align-items:center;gap:14px;font:500 12px/1 var(--body);letter-spacing:.3em}
+.seq-ui .rail{width:120px;height:1px;background:rgba(244,241,234,.3);position:relative;overflow:hidden}
+.seq-ui .rail b{position:absolute;inset:0;background:var(--larch-lt);transform-origin:left;transform:scaleX(.2)}
+
+/* SEZIONI */
+section{position:relative}
+.pad{padding-block:clamp(90px,13vw,170px)}
+.manifest{background:var(--night)}
+.manifest .lead{font:400 clamp(32px,4.6vw,68px)/1.08 var(--disp);letter-spacing:-.015em;max-width:20ch;margin:26px 0 0}
+.manifest .lead em{color:var(--larch-lt)}
+.facts{display:flex;flex-wrap:wrap;gap:14px 40px;margin-top:56px;padding-top:28px;border-top:1px solid var(--vng-line);font-size:15px;letter-spacing:.05em}
+.facts span b{font:italic 400 22px var(--disp);color:var(--larch-lt);margin-right:8px;letter-spacing:0}
+
+/* letterbox */
+.lbox{position:relative;overflow:hidden;aspect-ratio:2.35/1;background-color:var(--slate)}
+.lbox .par,.tall .par{position:absolute;inset:-12% 0;background-size:cover;background-position:center}
+.shot-cap{display:flex;justify-content:space-between;gap:16px;font:500 11px/1.4 var(--body);letter-spacing:.28em;text-transform:uppercase;color:var(--snow-dim);margin-top:14px}
+
+/* CAMERE */
+.rooms{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(36px,6vw,96px);align-items:start}
+.rooms h2{font-size:clamp(46px,6vw,92px)}
+.tall{position:relative;overflow:hidden;aspect-ratio:4/5;background-color:#5a4632}
+.rlist{list-style:none;margin:40px 0 0;padding:0;border-top:1px solid var(--vng-line)}
+.rlist li{display:grid;grid-template-columns:64px 1fr;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--vng-line)}
+.rlist i{font:italic 400 20px var(--disp);color:var(--larch-lt)}
+.rlist span{font:400 clamp(30px,3.2vw,46px)/1 var(--disp)}
+.note{font-size:15px;color:var(--snow-dim);margin-top:22px;max-width:44ch}
+.mini{margin-top:28px}
+.mini .lbox{aspect-ratio:3/2}
+
+/* SPA */
+.spa{background:linear-gradient(180deg,var(--night) 0%,#0f1a1d 100%)}
+.spa-hero{position:relative;height:min(92vh,860px);min-height:520px;overflow:hidden;background-color:#1d3a3e;display:flex;align-items:flex-end}
+.spa-hero .par{position:absolute;inset:-12% 0;background-size:cover;background-position:center}
+.spa-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,16,18,.15),rgba(8,16,18,.82))}
+.spa-hero .wrap{position:relative;z-index:2;padding-bottom:clamp(48px,8vw,96px)}
+.spa-hero h2{font-size:clamp(50px,8.6vw,150px);max-width:12ch}
+.spa-hero h2 em{color:var(--pool)}
+.spa-body{display:grid;grid-template-columns:1fr 1fr 1fr;gap:clamp(20px,3vw,44px);align-items:start}
+.spa-body .txt{grid-column:1}
+.spa-body .lbox{aspect-ratio:3/4}
+.spa-body .lbox:nth-of-type(2){margin-top:90px}
+.rules{list-style:none;padding:0;margin:28px 0 0;font-size:15.5px}
+.rules li{padding:12px 0 12px 26px;border-top:1px solid var(--vng-line);position:relative}
+.rules li::before{content:"";position:absolute;left:0;top:23px;width:12px;height:1px;background:var(--pool)}
+
+/* RISTORANTE */
+.food{display:grid;grid-template-columns:5fr 7fr;gap:clamp(36px,6vw,90px);align-items:center}
+.food h2{font-size:clamp(46px,6.4vw,104px)}
+.food h2 em{color:var(--larch-lt)}
+.stagger{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.stagger .tall:last-child{margin-top:110px}
+.stagger .tall:first-child{background-color:#4b3a2a}
+.stagger .tall:last-child{background-color:#6b4b2c}
+.wide{margin-top:clamp(56px,8vw,110px)}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.tags span{font-size:14px;letter-spacing:.06em;border:1px solid var(--vng-line);border-radius:999px;padding:7px 15px}
+
+/* OFFERTE */
+.offers{background:var(--snow);color:var(--night)}
+.offers .kicker{color:#8a5a2e}
+.offer{display:grid;grid-template-columns:120px 1fr auto;gap:24px;align-items:end;padding:44px 0;border-bottom:1px solid rgba(13,18,23,.18)}
+.offer:first-of-type{border-top:1px solid rgba(13,18,23,.18);margin-top:40px}
+.offer i{font:italic 400 22px var(--disp);color:#8a5a2e}
+.offer h3{font-size:clamp(42px,6.6vw,110px);letter-spacing:-.02em}
+.offer p{margin:12px 0 0;max-width:46ch;color:#3b4650;font-size:16px}
+.offer .pct{font:400 clamp(56px,8vw,130px)/.9 var(--disp);color:#8a5a2e;white-space:nowrap}
+
+/* SERVIZI */
+.serv{display:grid;grid-template-columns:5fr 6fr;gap:clamp(36px,6vw,96px);align-items:center}
+.serv .tall{aspect-ratio:3/4;background-color:#3d5a36}
+.serv ul{list-style:none;padding:0;margin:34px 0 0}
+.serv li{font:400 clamp(26px,2.8vw,40px)/1.15 var(--disp);padding:16px 0;border-bottom:1px solid var(--vng-line)}
+.serv li small{display:block;font:300 15px/1.4 var(--body);color:var(--snow-dim);margin-top:6px}
+
+/* CONTATTI */
+.contact{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;background-color:#2b3a48}
+.contact .par{position:absolute;inset:-12% 0;background-size:cover;background-position:center}
+.contact::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,18,23,.3),rgba(13,18,23,.9) 70%)}
+.contact .wrap{position:relative;z-index:2;padding-block:140px clamp(60px,9vw,110px)}
+.contact h2{font-size:clamp(50px,8.4vw,140px);max-width:12ch}
+.contact h2 em{color:var(--larch-lt)}
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:56px;padding-top:30px;border-top:1px solid var(--vng-line)}
+.cgrid a{text-decoration:none}
+.cgrid b{display:block;font:400 clamp(24px,2.4vw,34px)/1.15 var(--disp);margin-top:10px;overflow-wrap:anywhere}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:44px}
+.vng-hbtn.solid{background:var(--larch-lt);color:var(--night);border-color:var(--larch-lt)}
+.vng-hbtn.solid .vng-hbtn__dot{background:var(--night)}
+.vng-hbtn.solid .vng-hbtn__b{color:var(--snow)}
+footer{background:#07090c;color:rgba(244,241,234,.55);font-size:13px;padding:26px 0 70px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between}
+.ribbon{position:fixed;left:14px;bottom:14px;z-index:60;background:rgba(244,241,234,.94);color:#0d1217;font:500 12px/1.2 var(--body);padding:8px 12px;border-radius:6px;letter-spacing:.02em}
+
+@media (max-width:980px){
+  .vng-spot{display:none}
+  .rooms,.food,.serv{grid-template-columns:1fr}
+  .spa-body{grid-template-columns:1fr 1fr}
+  .spa-body .txt{grid-column:1 / -1}
+  .spa-body .lbox:nth-of-type(2){margin-top:40px}
+  .cgrid{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  body{font-size:16.5px}
+  .wrap{width:calc(100% - 32px)}
+  .brand{font-size:19px}
+  .brand small{letter-spacing:.24em}
+  .top{padding:14px 16px}
+  .top .vng-hbtn{padding:.6em 1.1em;font-size:14px}
+  .frame{min-height:560px}
+  .cap{padding:0 16px 84px}
+  .big{font-size:clamp(46px,14vw,72px)}
+  .offer{grid-template-columns:1fr;gap:10px}
+  .offer .pct{font-size:64px}
+  .stagger .tall:last-child{margin-top:60px}
+  .mini{grid-template-columns:1fr}
+  html.cine .seq-ui{display:none}
+}
+@media (prefers-reduced-motion:reduce){.vng-hbtn *{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#top">Punta Zerbion<small>Albergo · Champoluc</small></a>
+  <nav class="vng-spot" data-vng-spot aria-label="Sezioni">
+    <a href="#camere" class="is-active">Camere</a><a href="#spa">Benessere</a><a href="#ristorante">Ristorante</a><a href="#offerte">Offerte</a><a href="#contatti">Contatti</a>
+  </nav>
+  <a class="vng-hbtn" href="#contatti"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Prenota</span><span class="vng-hbtn__b" aria-hidden="true">Prenota →</span></a>
+</header>
+
+<section class="seq" id="top" aria-label="L'albergo in cinque scene">
+  <div class="seq-stage" id="stage">
+    <figure class="frame">
+      <div class="ph" style="background-color:#5d7690;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/spa-hotel-champoluc-val-d-ayas.jpg')"></div>
+      <figcaption class="cap">
+        <span class="no">01 — Champoluc · Val d'Ayas</span>
+        <h1 class="big" id="heroTitle">Un luogo che entra <em>nell'anima</em></h1>
+        <p>Albergo e centro benessere ai piedi del Monte Rosa, lontano dalle zone più trafficate.</p>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <div class="ph" style="background-color:#c9d3dc;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/esterna-inverno.jpg')"></div>
+      <figcaption class="cap">
+        <span class="no">02 — Inverno</span>
+        <h2 class="big">Sotto la neve del <em>Monte Rosa</em></h2>
+        <p>Vicino agli impianti Monterosa Ski, con transfer invernale dell'albergo.</p>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <div class="ph" style="background-color:#2f6a70;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/centro-benessere-hotel-a-champoluc-val-dayas2.jpg')"></div>
+      <figcaption class="cap">
+        <span class="no">03 — Centro benessere</span>
+        <h2 class="big">L'acqua, <em>al coperto</em></h2>
+        <p>Piscina coperta, getti d'acqua, sauna e zona relax, per tutto il soggiorno.</p>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <div class="ph" style="background-color:#5b4330;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/ristorante-champoluc-valdayas.jpg')"></div>
+      <figcaption class="cap">
+        <span class="no">04 — Ristorante</span>
+        <h2 class="big">Polenta, selvaggina, <em>vino</em></h2>
+        <p>Cucina tipica alpina con prodotti a km 0 e DOP.</p>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <div class="ph" style="background-color:#6f8a5a;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/esterna.jpg')"></div>
+      <figcaption class="cap">
+        <span class="no">05 — Dal 1964</span>
+        <h2 class="big">La stessa <em>famiglia</em>, da allora</h2>
+        <p>Frazione Corbet 8, Ayas-Champoluc. Scriveteci le date del vostro soggiorno.</p>
+        <div class="act">
+          <a class="vng-hbtn solid" href="#contatti"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Richiedi disponibilità</span><span class="vng-hbtn__b" aria-hidden="true">Richiedi disponibilità →</span></a>
+        </div>
+      </figcaption>
+    </figure>
+    <div class="bars" aria-hidden="true"><i></i><i></i></div>
+    <div class="seq-ui" aria-hidden="true"><span id="seqNo">01</span><span class="rail"><b id="seqBar"></b></span><span>05</span></div>
+  </div>
+</section>
+
+<section class="manifest pad">
+  <div class="wrap">
+    <span class="kicker rv">Albergo Punta Zerbion · 3 stelle</span>
+    <p class="lead rv">Più di un hotel: un albergo di famiglia a Champoluc, <em>immerso nella natura</em>, vicino a sentieri, piste ciclabili e impianti di risalita.</p>
+    <div class="facts rv">
+      <span><b>1964</b>gestione dei proprietari</span>
+      <span><b>Ayas</b>frazione Corbet, Champoluc</span>
+      <span><b>Spa</b>con piscina coperta</span>
+      <span><b>Cani</b>di piccola taglia, fino a 10 kg</span>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="camere" style="padding-top:0">
+  <div class="wrap rooms">
+    <div>
+      <div class="tall"><div class="par" style="background-color:#7a5a3c;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2026/01/hotel-a-champoluc-8.jpg')"></div></div>
+      <div class="shot-cap"><span>Camera</span><span>Punta Zerbion</span></div>
+    </div>
+    <div>
+      <span class="kicker">Le camere</span>
+      <h2 class="rv" style="margin-top:18px">Quattro modi di <em style="color:var(--larch-lt)">restare</em></h2>
+      <ul class="rlist">
+        <li class="rv"><i>I</i><span>Singola</span></li>
+        <li class="rv"><i>II</i><span>Standard</span></li>
+        <li class="rv"><i>III</i><span>Tripla</span></li>
+        <li class="rv"><i>IV</i><span>Quadrupla</span></li>
+      </ul>
+      <p class="note rv">Molte camere hanno il balcone o affacciano sul giardino. Le tariffe sono su richiesta: scriveteci date e numero di persone.</p>
+      <div class="mini">
+        <div class="lbox"><div class="par" style="background-color:#8a6a4a;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/spa-hotel-ayas-camera-standard-3.jpg')"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="spa" id="spa">
+  <div class="spa-hero">
+    <div class="par" style="background-color:#1d4a50;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/centro-benessere-hotel-a-champoluc-val-dayas.jpg')"></div>
+    <div class="wrap">
+      <span class="kicker">Centro benessere</span>
+      <h2 style="margin-top:18px" class="rv">Piscina coperta, <em>sauna</em>, silenzio</h2>
+    </div>
+  </div>
+  <div class="wrap pad spa-body">
+    <div class="txt">
+      <p class="rv" style="margin:0;font-size:clamp(18px,1.6vw,21px)">Uno dei pochi alberghi della zona con piscina interna. Getti d'acqua tonificanti, sauna e zona relax sono a disposizione per tutto il soggiorno.</p>
+      <ul class="rules">
+        <li class="rv">Bambini fino a 14 anni: accesso entro le 18:00</li>
+        <li class="rv">Obbligatori ciabatte, cuffia e accappatoio</li>
+        <li class="rv">Accappatoio e ciabatte si noleggiano in albergo</li>
+      </ul>
+    </div>
+    <div class="lbox"><div class="par" style="background-color:#6a4a32;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/centro-benessere-hotel-a-champoluc-val-dayas1.jpg')"></div></div>
+    <div class="lbox"><div class="par" style="background-color:#2f6a70;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/centro-benessere-hotel-a-champoluc-val-dayas2.jpg')"></div></div>
+  </div>
+</section>
+
+<section class="pad" id="ristorante">
+  <div class="wrap food">
+    <div>
+      <span class="kicker">Il ristorante</span>
+      <h2 class="rv" style="margin-top:18px">La valle, <em>nel piatto</em></h2>
+      <p class="rv" style="margin:28px 0 0;max-width:42ch">Polenta con selvaggina, zuppe locali e verdure del territorio, con i vini in abbinamento. Menu degustazione a tema, prodotti a km 0 e DOP. D'estate si mangia nel dehors.</p>
+      <div class="tags rv"><span>Vegetariano</span><span>Senza glutine</span><span>Dehors estivo</span></div>
+      <p class="rv" style="margin:30px 0 0">Prenotazione tavolo <a href="tel:+390125305766" style="color:var(--larch-lt);text-decoration:none;border-bottom:1px solid">+39 0125 305766</a></p>
+    </div>
+    <div class="stagger">
+      <div class="tall"><div class="par" style="background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/ristorante-champoluc-valle-d-ayas2.jpg')"></div></div>
+      <div class="tall"><div class="par" style="background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/ristorante-champoluc-valdayas.jpg')"></div></div>
+    </div>
+  </div>
+  <div class="wrap wide">
+    <div class="lbox"><div class="par" style="background-color:#5f7a52;background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/ristorante-champoluc-val-d-ayas.jpg')"></div></div>
+    <div class="shot-cap"><span>Il dehors d'estate</span><span>Champoluc · Val d'Ayas</span></div>
+  </div>
+</section>
+
+<section class="offers pad" id="offerte">
+  <div class="wrap">
+    <span class="kicker">Offerte</span>
+    <div class="offer">
+      <i>№ 1</i>
+      <div><h3 class="rv">Happy Ski Monterosa</h3><p>Sconto del 35% sullo skipass del comprensorio Monterosa Ski.</p></div>
+      <span class="pct rv">−35%</span>
+    </div>
+    <div class="offer">
+      <i>№ 2</i>
+      <div><h3 class="rv">Discover Ayas</h3><p>Escursioni guidate alla scoperta della Val d'Ayas.</p></div>
+      <span class="pct rv" aria-hidden="true">→</span>
+    </div>
+  </div>
+</section>
+
+<section class="pad">
+  <div class="wrap serv">
+    <div class="tall"><div class="par" style="background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/giardino-esterno-768x1024.jpg')"></div></div>
+    <div>
+      <span class="kicker">Servizi</span>
+      <ul>
+        <li class="rv">Transfer invernale<small>nella stagione sciistica</small></li>
+        <li class="rv">Giardino e parco giochi<small>all'aperto, intorno all'albergo</small></li>
+        <li class="rv">Deposito bici<small>le piste ciclabili sono vicine</small></li>
+        <li class="rv">Cani piccoli ammessi<small>fino a 10 kg</small></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contatti">
+  <div class="par" style="background-image:url('https://www.puntazerbion.com/wp-content/uploads/2022/04/esterna-inverno.jpg')"></div>
+  <div class="wrap">
+    <span class="kicker">Prenotazioni</span>
+    <h2 style="margin-top:18px" class="rv">Scriveteci le <em>date</em></h2>
+    <div class="cgrid">
+      <a href="tel:+390125305766"><span class="kicker">Telefono</span><b>+39 0125 305766</b></a>
+      <a href="mailto:info@puntazerbion.com"><span class="kicker">Email</span><b>info@puntazerbion.com</b></a>
+      <div><span class="kicker">Indirizzo</span><b>Frazione Corbet 8<br>11020 Ayas-Champoluc (AO)</b></div>
+    </div>
+    <div class="cta-row">
+      <a class="vng-hbtn solid" href="mailto:info@puntazerbion.com?subject=Richiesta%20disponibilit%C3%A0"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Richiedi disponibilità</span><span class="vng-hbtn__b" aria-hidden="true">Scrivici →</span></a>
+      <a class="vng-hbtn" href="tel:+390125305766"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Chiama l'albergo</span><span class="vng-hbtn__b" aria-hidden="true">Chiama ora →</span></a>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap">
+  <span>Albergo Punta Zerbion · Punta Zerbion SAS di Champretavy Rosella e C</span>
+  <span>P.IVA 01289980078 · CIN IT007007A1UIPUTQ4T</span>
+</div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot = /[?&]shot=1\b/.test(location.search);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var top = document.querySelector('.top'), seq = document.querySelector('.seq');
+  function onScroll(){ var r = seq.getBoundingClientRect(); top.classList.toggle('solid', r.bottom < 80); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+  if (shot || reduce || !window.gsap || !window.ScrollTrigger) return; // fotogrammi in verticale, tutto statico
+
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  document.documentElement.classList.add('cine');
+
+  var lenis = new Lenis({lerp:0.09});
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click',function(e){ var id=a.getAttribute('href'); if(id.length>1 && document.querySelector(id)){ e.preventDefault(); lenis.scrollTo(id,{offset:0}); } });
+  });
+
+  // ---- Sequenza pinnata: dissolvenza + zoom + titoli che cambiano
+  var frames = gsap.utils.toArray('.frame'), n = frames.length;
+  var no = document.getElementById('seqNo'), bar = document.getElementById('seqBar');
+  frames.forEach(function(f,i){ if(i) gsap.set(f,{autoAlpha:0}); });
+  var tl = gsap.timeline({defaults:{ease:'none'}, scrollTrigger:{
+    trigger:'.seq', start:'top top', end:'+=' + (n-1)*110 + '%', pin:true, scrub:1, anticipatePin:1,
+    onUpdate:function(s){ var k=Math.min(n-1,Math.round(s.progress*(n-1))); no.textContent='0'+(k+1); bar.style.transform='scaleX('+((k+1)/n)+')'; }
+  }});
+  frames.forEach(function(f,i){
+    var ph=f.querySelector('.ph'), cap=f.querySelector('.cap');
+    tl.fromTo(ph,{scale:1.22},{scale:1.02,duration:1.4},i===0?0:(i-1)+0.55);
+    if(i<n-1){
+      var nx=frames[i+1];
+      tl.to(cap,{yPercent:-30,autoAlpha:0,duration:0.35},i+0.45)
+        .to(nx,{autoAlpha:1,duration:0.45},i+0.55)
+        .from(nx.querySelector('.big'),{yPercent:40,autoAlpha:0,duration:0.4},i+0.65)
+        .from(nx.querySelectorAll('.cap p,.cap .no,.cap .act'),{y:30,autoAlpha:0,duration:0.35,stagger:0.05},i+0.75);
+    }
+  });
+  tl.to({}, {duration:0.3});
+
+  // Titolo principale parola per parola
+  document.fonts.ready.then(function(){
+    var st = new SplitText('#heroTitle',{type:'words'});
+    gsap.from(st.words,{yPercent:120,autoAlpha:0,duration:1.2,ease:'expo.out',stagger:0.08,delay:0.15});
+  });
+  gsap.from('.frame:first-child .cap p, .frame:first-child .no',{y:24,autoAlpha:0,duration:1,ease:'power3.out',delay:0.7,stagger:0.1});
+  gsap.from('.top',{y:-30,autoAlpha:0,duration:1,ease:'power3.out',delay:0.3});
+
+  // Entrate e parallax
+  gsap.utils.toArray('.rv').forEach(function(el){
+    gsap.from(el,{y:46,autoAlpha:0,duration:1.1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}});
+  });
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-7},{yPercent:7,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  window.addEventListener('load',function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+</body>
+</html>

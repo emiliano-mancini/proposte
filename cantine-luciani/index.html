@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Cantine Luciani 1888 · Brunello di Montalcino</title>
+<meta name="description" content="Cantine Luciani 1888, Montalcino: Brunello di Montalcino, Brunello Riserva e Rosso di Montalcino da oltre 50 ettari sul versante est della collina.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  --paper:#f3ece0; --paper-2:#e9dfcf; --ink:#1f1915; --ink-2:#3a302a; --muted:#6e6157;
+  --brunello:#7b1e2b; --brunello-d:#4e1219; --oak:#9a7650; --rule:#cdbfa9;
+  --disp:"Fraunces",Georgia,serif; --text:"Source Serif 4",Georgia,serif;
+  --vng-bg:var(--paper); --vng-fg:var(--ink); --vng-muted:var(--muted); --vng-accent:var(--brunello); --vng-accent-fg:#fbf6ee;
+  --vng-surface:rgba(255,250,242,.7); --vng-line:rgba(31,25,21,.16);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font:18px/1.6 var(--text);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{width:min(1240px,100% - 32px);margin-inline:auto}
+h1,h2,h3{font-family:var(--disp);font-weight:400;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.kicker{font:600 12px/1.2 var(--text);letter-spacing:.24em;text-transform:uppercase;color:var(--brunello)}
+.rule{border:0;border-top:1px solid var(--rule);margin:0}
+.btn{display:inline-flex;align-items:center;gap:.6em;background:var(--brunello);color:#fbf6ee;text-decoration:none;font:600 15px/1 var(--text);padding:15px 24px;border-radius:2px;transition:background .2s}
+.btn:hover{background:var(--brunello-d)}
+.btn.line{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.btn.line:hover{background:var(--ink);color:var(--paper)}
+
+/* masthead */
+.mast{position:sticky;top:0;z-index:20;background:rgba(243,236,224,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+.mast .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:14px}
+.logo{font:600 22px/1 var(--disp);text-decoration:none;letter-spacing:-.01em}
+.logo em{font-style:italic;font-weight:400;color:var(--brunello)}
+.menu{display:flex;gap:26px;font-size:15px}
+.menu a{text-decoration:none;color:var(--ink-2)}
+.menu a:hover{color:var(--brunello)}
+.mast .btn{padding:11px 18px;font-size:14px}
+
+/* hero 50/50 */
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:calc(100svh - 64px);border-bottom:1px solid var(--rule)}
+.hero-txt{display:flex;flex-direction:column;justify-content:space-between;padding:56px clamp(20px,5vw,72px) 48px max(16px,calc((100vw - 1240px)/2))}
+.issue{display:flex;justify-content:space-between;font:600 12px var(--text);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--ink);padding-bottom:10px}
+.hero h1{font-size:clamp(46px,6.4vw,96px);line-height:.96;font-weight:350;margin:36px 0 26px;font-variation-settings:"opsz" 144}
+.hero h1 i{color:var(--brunello);font-weight:300}
+.hero .lead{max-width:40ch;color:var(--ink-2);font-size:19px;margin:0 0 30px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.hero-ph{position:relative;overflow:hidden;background:#5b3a2c}
+.hero-ph .img{position:absolute;inset:-8% 0;background:#5b3a2c url('https://www.cantineluciani1888.it/wp-content/uploads/2017/08/uva-1024x638.jpg') center/cover}
+.hero-ph figcaption{position:absolute;left:24px;bottom:24px;right:24px;display:flex;align-items:flex-end;gap:18px}
+.plate{width:min(190px,34%);aspect-ratio:3/5;background:#f7f1e6;box-shadow:0 30px 60px -20px rgba(0,0,0,.6);padding:10px;flex:none}
+.plate img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+.cap{color:#fbf6ee;font:italic 15px/1.4 var(--text);text-shadow:0 1px 12px rgba(0,0,0,.6);max-width:24ch}
+
+section{padding-block:120px}
+
+/* 1888 */
+.year{display:grid;grid-template-columns:1.25fr 1fr;gap:64px;align-items:end}
+.big{font:300 clamp(120px,24vw,360px)/.8 var(--disp);color:var(--brunello);letter-spacing:-.05em;font-variation-settings:"opsz" 144;display:block}
+.year h2{font-size:clamp(32px,3.6vw,48px);line-height:1.1;margin:18px 0 22px}
+.dropcap::first-letter{float:left;font:400 4.6em/.8 var(--disp);color:var(--brunello);margin:.06em .1em 0 0}
+.year p{margin:0 0 1em;color:var(--ink-2)}
+.sign{font:italic 17px var(--text);color:var(--muted);border-top:1px solid var(--rule);padding-top:14px;margin-top:20px}
+
+/* numbers */
+.nums{background:var(--ink);color:var(--paper);padding-block:0}
+.nums .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.num{padding:44px 26px;border-left:1px solid rgba(243,236,224,.14)}
+.num:first-child{border-left:0;padding-left:0}
+.num b{display:block;font:300 clamp(44px,5vw,68px)/1 var(--disp);color:#e7c9a9;font-variation-settings:"opsz" 144}
+.num span{display:block;margin-top:10px;font-size:15px;color:rgba(243,236,224,.72);max-width:22ch}
+
+/* vigneti: colonne editoriali */
+.feature{display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+.feature h2{font-size:clamp(36px,4.4vw,60px);line-height:1.02;margin:16px 0 0}
+.cols{columns:2;column-gap:44px;color:var(--ink-2)}
+.cols p{margin:0 0 1em;break-inside:avoid}
+.wide{margin-top:64px;position:relative;overflow:hidden;aspect-ratio:21/9;background:#6d7350}
+.wide .img{position:absolute;inset:-10% 0;background-size:cover;background-position:center}
+.credit{font:italic 14px var(--text);color:var(--muted);margin-top:10px}
+.pull{font:italic 300 clamp(26px,3vw,38px)/1.25 var(--disp);color:var(--brunello);border-left:2px solid var(--brunello);padding-left:24px;margin:0 0 36px}
+
+/* vini */
+.wines{background:var(--paper-2)}
+.vhead{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end}
+.vhead h2{font-size:clamp(40px,5vw,72px);line-height:1}
+.vhead .vng-reveal{margin-left:7rem}
+.vng-reveal a{font:400 22px var(--disp)}
+.vng-reveal img{object-fit:contain;background:#f7f1e6}
+.wine{display:grid;grid-template-columns:4fr 7fr;gap:64px;align-items:center;padding-top:96px;margin-top:96px;border-top:1px solid var(--rule)}
+.wine:nth-of-type(even){grid-template-columns:7fr 4fr}
+.wine:nth-of-type(even) .bottle{order:2}
+.bottle{aspect-ratio:3/4;background:#f7f1e6;overflow:hidden;position:relative}
+.bottle img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply;padding:18px}
+.bottle .no{position:absolute;left:16px;top:12px;font:300 54px/1 var(--disp);color:var(--brunello)}
+.wine h3{font-size:clamp(34px,3.8vw,54px);line-height:1.02;margin:12px 0 18px}
+.wine p{color:var(--ink-2);margin:0 0 1em;max-width:58ch}
+.spec{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);margin-top:26px}
+.spec div{padding:14px 14px 0 0;font-size:15px}
+.spec dt{font:600 11px var(--text);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.spec dd{margin:0}
+.pdf{display:inline-block;margin-top:20px;font-size:15px;color:var(--brunello)}
+
+/* cantina */
+.cellar{position:relative;color:#fbf6ee;padding:0;min-height:88vh;display:flex;align-items:flex-end;overflow:hidden;background:#3c2a20}
+.cellar .img{position:absolute;inset:-10% 0;background:#3c2a20 url('https://www.cantineluciani1888.it/wp-content/uploads/2017/08/botti-acc-1024x638.jpg') center/cover}
+.cellar::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(25,15,10,.15),rgba(25,15,10,.88))}
+.cellar .wrap{position:relative;z-index:2;padding-block:90px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end}
+.cellar h2{font-size:clamp(40px,5vw,76px);line-height:1}
+.cellar .kicker{color:#e7c9a9}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{counter-increment:s;padding:14px 0 14px 48px;border-top:1px solid rgba(251,246,238,.25);position:relative}
+.steps li::before{content:counter(s,upper-roman);position:absolute;left:0;top:14px;font:italic 400 20px var(--disp);color:#e7c9a9}
+
+/* mercati */
+.markets{display:grid;grid-template-columns:7fr 5fr;gap:64px;align-items:center}
+.markets h2{font-size:clamp(34px,4vw,56px);line-height:1.05;margin-top:14px}
+.markets .mph{aspect-ratio:4/5;background:#6b3b2c;overflow:hidden;position:relative}
+.markets .mph .img{position:absolute;inset:-8% 0;background:#6b3b2c url('https://www.cantineluciani1888.it/wp-content/uploads/2017/08/bott-vini-1024x638.jpg') center/cover}
+.where{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0;padding:0;list-style:none}
+.where li{border:1px solid var(--ink);padding:7px 14px;font-size:15px}
+
+/* faq */
+.faq{display:grid;grid-template-columns:4fr 8fr;gap:64px}
+.faq h2{font-size:clamp(34px,4vw,56px);line-height:1.05;margin-top:14px}
+.vng-faq summary{font:500 20px/1.35 var(--disp)}
+.vng-faq__a{font-size:17px}
+
+/* contatti */
+.contact{background:var(--brunello-d);color:#fbf6ee}
+.contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+.contact h2{font-size:clamp(40px,5.4vw,80px);line-height:1}
+.contact .kicker{color:#e7c9a9}
+.contact p{color:rgba(251,246,238,.8);max-width:44ch}
+.card{border-top:1px solid rgba(251,246,238,.3)}
+.card a,.card div{display:block;padding:18px 0;border-bottom:1px solid rgba(251,246,238,.3);text-decoration:none;font-size:19px}
+.card small{display:block;font:600 11px var(--text);letter-spacing:.2em;text-transform:uppercase;color:#e7c9a9;margin-bottom:4px}
+.card a:hover{color:#e7c9a9}
+.contact .btn{background:#fbf6ee;color:var(--brunello-d);margin-top:28px}
+footer{background:var(--ink);color:rgba(243,236,224,.6);font-size:14px;padding-block:26px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.ribbon{position:fixed;right:14px;bottom:14px;z-index:40;background:var(--ink);color:var(--paper);font:600 12px var(--text);padding:8px 12px;border-radius:2px;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+
+@media (max-width:900px){
+  body{font-size:17px}
+  .menu{display:none}
+  .hero{grid-template-columns:1fr;min-height:0}
+  .hero-txt{padding:36px 16px 40px}
+  .hero-ph{min-height:78vh}
+  section{padding-block:76px}
+  .year,.feature,.vhead,.wine,.wine:nth-of-type(even),.cellar .wrap,.markets,.faq,.contact .wrap{grid-template-columns:1fr;gap:36px}
+  .wine:nth-of-type(even) .bottle{order:0}
+  .wine{padding-top:56px;margin-top:56px}
+  .bottle{max-width:360px}
+  .vhead .vng-reveal{margin-left:0}
+  .nums .wrap{grid-template-columns:1fr 1fr}
+  .num{padding:30px 16px}
+  .num:nth-child(3){border-left:0;padding-left:0}
+  .num:nth-child(n+3){border-top:1px solid rgba(243,236,224,.14)}
+  .cols{columns:1}
+  .wide{aspect-ratio:4/3}
+  .cellar{min-height:0}
+  .cellar .wrap{padding-block:200px 60px}
+  .markets .mph{aspect-ratio:4/3}
+  .ribbon{right:8px;bottom:8px;font-size:11px}
+}
+@media (max-width:420px){.spec{grid-template-columns:1fr 1fr}.mast .btn{padding:10px 12px}.logo{font-size:19px}}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <a class="logo" href="#top">Cantine Luciani <em>1888</em></a>
+  <nav class="menu" aria-label="Sezioni"><a href="#storia">Dal 1888</a><a href="#vigneti">Vigneti</a><a href="#vini">I vini</a><a href="#cantina">Cantina</a><a href="#faq">Domande</a></nav>
+  <a class="btn" href="#contatti">Contattaci</a>
+</div></header>
+
+<main id="top">
+<section class="hero" style="padding:0">
+  <div class="hero-txt">
+    <div class="issue"><span>Montalcino · Siena</span><span>Loc. La Chiusa 87</span></div>
+    <div>
+      <p class="kicker">Brunello di Montalcino · Riserva · Rosso</p>
+      <h1 id="heroTitle">Dal 1888 ad oggi, produciamo vino <i>per passione</i></h1>
+      <p class="lead hin">Oltre 50 ettari sul versante est della collina di Montalcino, vendemmia interamente a mano e almeno 36 mesi in grandi botti di rovere di Slavonia.</p>
+      <div class="cta hin"><a class="btn" href="#vini">Scopri i vini</a><a class="btn line" href="#contatti">Scrivici</a></div>
+    </div>
+    <p class="cap" style="color:var(--muted);text-shadow:none;max-width:none;margin:40px 0 0">Luciani Francesco · socio del Consorzio del Brunello di Montalcino</p>
+  </div>
+  <figure class="hero-ph" style="margin:0">
+    <div class="img par"></div>
+    <figcaption>
+      <div class="plate"><img src="https://www.cantineluciani1888.it/wp-content/uploads/2015/06/brunello-jpeg.jpg" alt="Bottiglia di Brunello di Montalcino Cantine Luciani"></div>
+      <span class="cap">Sangiovese in purezza, dal versante orientale del colle di Montalcino.</span>
+    </figcaption>
+  </figure>
+</section>
+
+<section id="storia"><div class="wrap year">
+  <div>
+    <p class="kicker">La data sull'etichetta</p>
+    <span class="big" data-vng-count="888" data-prefix="1" data-duration="2.4">1888</span>
+  </div>
+  <div class="yin">
+    <h2>Un anno scritto nel nome</h2>
+    <p class="dropcap">“Mettiamo passione in quello che facciamo, ecco perché il nostro vino piace.” Il 1888 è nel nostro nome: da allora ad oggi produciamo vino per passione. Luciani Francesco è socio del Consorzio del Brunello di Montalcino.</p>
+    <p>La qualità per noi è tutto: altitudine, terreno, esposizione. Tutto è studiato nei minimi dettagli per offrirvi un ottimo vino.</p>
+    <p class="sign">Loc. La Chiusa 87, Montalcino</p>
+  </div>
+</div></section>
+
+<div class="nums" aria-label="I numeri della cantina"><div class="wrap">
+  <div class="num"><b data-vng-count="50" data-suffix=" ha">50 ha</b><span>e oltre di vigneti, quasi tutti sul versante est</span></div>
+  <div class="num"><b data-vng-count="350" data-suffix=" m">350 m</b><span>di altitudine media dei vigneti</span></div>
+  <div class="num"><b data-vng-count="36" data-suffix=" mesi">36 mesi</b><span>almeno, in botti di Slavonia da 15–40 hl</span></div>
+  <div class="num"><b data-vng-count="50" data-suffix=" q/ha">50 q/ha</b><span>di resa circa, con 2–3 diradamenti</span></div>
+</div></div>
+
+<section id="vigneti"><div class="wrap">
+  <div class="feature">
+    <div>
+      <p class="kicker">I vigneti</p>
+      <h2 class="sp">Calcare, sassi e il sole del mattino</h2>
+    </div>
+    <div>
+      <p class="pull">Altitudine, terreno, esposizione: tutto è studiato nei minimi dettagli.</p>
+      <div class="cols">
+        <p>I nostri vigneti superano i 50 ettari e stanno quasi tutti sul versante orientale del colle di Montalcino, a un'altitudine media di circa 350 metri, con esposizione a est e sud-est.</p>
+        <p>I suoli sono calcarei e ricchi di scheletro. Le viti sono allevate a cordone speronato unilaterale, con 3–5 speroni e da 3.000 a 4.200 ceppi per ettaro.</p>
+        <p>Teniamo le rese intorno ai 50 quintali per ettaro, con diradamenti in 2–3 passaggi tra allegagione e invaiatura.</p>
+        <p>La vendemmia è interamente manuale.</p>
+      </div>
+    </div>
+  </div>
+  <figure class="wide" style="margin-inline:0"><div class="img par" style="background-image:url('https://www.cantineluciani1888.it/wp-content/uploads/2015/06/imag0025.jpg')"></div></figure>
+  <p class="credit">Foto Cantine Luciani</p>
+</div></section>
+
+<section class="wines" id="vini"><div class="wrap">
+  <div class="vhead">
+    <div>
+      <p class="kicker">I vini</p>
+      <h2 class="sp">Tre rossi, un solo vitigno: il Sangiovese</h2>
+      <p style="color:var(--ink-2);max-width:44ch;margin:20px 0 0">Brunello, Riserva e Rosso nascono dalle stesse uve e dalle stesse rese. Cambia il tempo che passano in botte.</p>
+    </div>
+    <ul class="vng-reveal" aria-label="Indice dei vini">
+      <li><a href="#brunello"><img alt="" src="https://www.cantineluciani1888.it/wp-content/uploads/2015/06/brunello-jpeg.jpg"><b>I</b>Brunello di Montalcino<small>36+ mesi</small></a></li>
+      <li><a href="#riserva"><img alt="" src="https://www.cantineluciani1888.it/wp-content/uploads/2015/06/brunello-riserva-jpeg-1.jpg"><b>II</b>Brunello Riserva<small>4+ anni</small></a></li>
+      <li><a href="#rosso"><img alt="" src="https://www.cantineluciani1888.it/wp-content/uploads/2015/06/rosso-jpeg-1.jpg"><b>III</b>Rosso di Montalcino<small>18 mesi</small></a></li>
+    </ul>
+  </div>
+
+  <article class="wine" id="brunello">
+    <div class="bottle"><span class="no">I</span><img loading="lazy" src="https://www.cantineluciani1888.it/wp-content/uploads/2015/06/brunello-jpeg.jpg" alt="Bottiglia di Brunello di Montalcino Cantine Luciani"></div>
+    <div class="win">
+      <p class="kicker">Sangiovese in purezza</p>
+      <h3>Brunello di Montalcino</h3>
+      <p>Almeno 36 mesi in botti di rovere di Slavonia, a volte oltre 40. Rosso rubino che vira al granato; naso ampio ed etereo, con frutti rossi, amarena, cannella e liquirizia. Caldo, asciutto, di buon corpo.</p>
+      <dl class="spec"><div><dt>Servizio</dt><dd>20 °C</dd></div><div><dt>Affinamento</dt><dd>36+ mesi in botte</dd></div><div><dt>A tavola</dt><dd>Carni rosse, selvaggina, arrosti, formaggi stagionati</dd></div></dl>
+      <a class="pdf" href="https://www.cantineluciani1888.it/wp-content/uploads/2017/08/brunello_montalcino_eng.pdf">Scheda tecnica (PDF, inglese) →</a>
+    </div>
+  </article>
+
+  <article class="wine" id="riserva">
+    <div class="bottle"><span class="no">II</span><img loading="lazy" src="https://www.cantineluciani1888.it/wp-content/uploads/2015/06/brunello-riserva-jpeg-1.jpg" alt="Bottiglia di Brunello di Montalcino Riserva Cantine Luciani"></div>
+    <div class="win">
+      <p class="kicker">Solo nelle grandi annate</p>
+      <h3>Brunello di Montalcino Riserva</h3>
+      <p>Almeno 4 anni in botte e oltre un anno in bottiglia. Rosso granato; frutta matura quasi in confettura, cuoio e spezie, tannini potenti. Da aprire almeno due ore prima.</p>
+      <dl class="spec"><div><dt>Servizio</dt><dd>20 °C</dd></div><div><dt>Affinamento</dt><dd>4+ anni in botte</dd></div><div><dt>A tavola</dt><dd>Brasati, selvaggina in salmì</dd></div></dl>
+      <a class="pdf" href="https://www.cantineluciani1888.it/wp-content/uploads/2017/08/brunello_montalcino_riserva_eng.pdf">Scheda tecnica (PDF, inglese) →</a>
+    </div>
+  </article>
+
+  <article class="wine" id="rosso">
+    <div class="bottle"><span class="no">III</span><img loading="lazy" src="https://www.cantineluciani1888.it/wp-content/uploads/2015/06/rosso-jpeg-1.jpg" alt="Bottiglia di Rosso di Montalcino Cantine Luciani"></div>
+    <div class="win">
+      <p class="kicker">Stesse uve, stesse rese del Brunello</p>
+      <h3>Rosso di Montalcino</h3>
+      <p>Diciotto mesi di affinamento. Rubino con riflessi violacei; fine e fruttato, vinoso, con tannini equilibrati.</p>
+      <dl class="spec"><div><dt>Servizio</dt><dd>18 °C</dd></div><div><dt>Affinamento</dt><dd>18 mesi</dd></div><div><dt>A tavola</dt><dd>Carni alla griglia, formaggi freschi</dd></div></dl>
+    </div>
+  </article>
+</div></section>
+
+<section class="cellar" id="cantina">
+  <div class="img par"></div>
+  <div class="wrap">
+    <div><p class="kicker">In cantina</p><h2 class="sp">Lieviti spontanei, legno grande, pazienza</h2></div>
+    <ol class="steps">
+      <li>Fermentazione spontanea in acciaio per 15–25 giorni, con frequenti rimontaggi.</li>
+      <li>Pressatura soffice, poi 6 mesi in acciaio.</li>
+      <li>Almeno 36 mesi in botti di rovere di Slavonia da 15 a 40 ettolitri.</li>
+    </ol>
+  </div>
+</section>
+
+<section><div class="wrap markets">
+  <div>
+    <p class="kicker">Dove si beve</p>
+    <h2 class="sp">Una produzione limitata, che viaggia lontano</h2>
+    <p style="color:var(--ink-2);max-width:52ch;margin:20px 0 0">I nostri vini si vendono soprattutto all'estero, tramite importatori. In Italia li trovi quasi solo in enoteca.</p>
+    <ul class="where"><li>Europa</li><li>Nord America</li><li>Sud America</li><li>Estremo Oriente</li><li>Enoteche in Italia</li></ul>
+  </div>
+  <div class="mph"><div class="img par"></div></div>
+</div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap"><hr class="rule" style="margin-bottom:96px">
+  <div class="faq">
+    <div><p class="kicker">Domande</p><h2>Prima di stappare</h2></div>
+    <div class="vng-faq">
+      <details open><summary>Dove trovo i vini Luciani in Italia?</summary><div class="vng-faq__a">In Italia i nostri vini sono venduti quasi solo in enoteca. Per sapere dove trovarli scrivici a info@cantineluciani1888.it.</div></details>
+      <details><summary>Che differenza c'è tra Brunello e Brunello Riserva?</summary><div class="vng-faq__a">Il Brunello affina almeno 36 mesi in botte. La Riserva si fa solo nelle grandi annate: almeno 4 anni in botte e oltre un anno in bottiglia.</div></details>
+      <details><summary>A che temperatura si serve il Brunello?</summary><div class="vng-faq__a">A 20 °C. La Riserva va aperta almeno due ore prima. Il Rosso di Montalcino si serve a 18 °C.</div></details>
+      <details><summary>Come si fa la vendemmia?</summary><div class="vng-faq__a">Interamente a mano, su vigneti con rese di circa 50 quintali per ettaro.</div></details>
+      <details><summary>Dove si trova la cantina?</summary><div class="vng-faq__a">In Loc. La Chiusa 87, 53024 Montalcino (SI).</div></details>
+    </div>
+  </div>
+</div></section>
+
+<section class="contact" id="contatti"><div class="wrap">
+  <div>
+    <p class="kicker">Contatti</p>
+    <h2 class="sp">Vieni ad assaggiare i nostri vini</h2>
+    <p style="margin-top:20px">Per ordini, importazione o per assaggiare i nostri vini a Montalcino, chiamaci o scrivici.</p>
+    <a class="btn" href="mailto:info@cantineluciani1888.it">Scrivi una email</a>
+  </div>
+  <div class="card">
+    <div><small>Indirizzo</small>Loc. La Chiusa 87, 53024 Montalcino (SI)</div>
+    <a href="tel:+393471833811"><small>Telefono</small>+39 347 1833811</a>
+    <a href="mailto:info@cantineluciani1888.it"><small>Email</small>info@cantineluciani1888.it</a>
+    <a href="mailto:cantineluciani@alice.it"><small>Email</small>cantineluciani@alice.it</a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>Cantine Luciani 1888 · Montalcino (SI)</span><span>Italiano · <a href="https://www.cantineluciani1888.it/?lang=en">English</a></span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot=/[?&]shot=1\b/.test(location.search);
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(shot||reduce||!window.gsap||!window.ScrollTrigger) return;
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();lenis.scrollTo(t,{offset:-64});}});});
+
+  document.fonts.ready.then(function(){
+    var st=new SplitText('#heroTitle',{type:'lines,words',linesClass:'ln'});
+    st.lines.forEach(function(l){l.style.overflow='hidden';l.style.paddingBottom='.06em';});
+    gsap.from(st.words,{yPercent:110,duration:1.2,ease:'expo.out',stagger:.05,delay:.1});
+    gsap.utils.toArray('.sp').forEach(function(h){
+      var s=new SplitText(h,{type:'lines',linesClass:'ln'});
+      gsap.from(s.lines,{y:40,opacity:0,duration:1,ease:'power3.out',stagger:.1,scrollTrigger:{trigger:h,start:'top 85%'}});
+    });
+    ScrollTrigger.refresh();
+  });
+  gsap.from('.hin',{y:24,opacity:0,duration:1,ease:'power3.out',stagger:.12,delay:.6});
+  // foto a tendina
+  gsap.from('.hero-ph',{clipPath:'inset(0 0 100% 0)',duration:1.4,ease:'expo.inOut'});
+  gsap.from('.plate',{y:60,opacity:0,duration:1.2,ease:'power3.out',delay:.9});
+  gsap.utils.toArray('.wide,.mph,.bottle').forEach(function(el){
+    gsap.from(el,{clipPath:'inset(0 0 100% 0)',ease:'none',scrollTrigger:{trigger:el,start:'top 90%',end:'top 45%',scrub:1}});
+  });
+  gsap.utils.toArray('.yin,.cols p,.pull,.win,.steps li,.where li,.vng-faq details,.card > *').forEach(function(el){
+    gsap.from(el,{y:30,opacity:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 90%'}});
+  });
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-7},{yPercent:7,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  gsap.fromTo('.big',{xPercent:-4},{xPercent:4,ease:'none',scrollTrigger:{trigger:'#storia',start:'top bottom',end:'bottom top',scrub:1}});
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+})();
+</script>
+</body>
+</html>

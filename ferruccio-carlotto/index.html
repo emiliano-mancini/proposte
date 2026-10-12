@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Ferruccio Carlotto Vignaiolo · Ora / Auer</title>
+<meta name="description" content="Ferruccio Carlotto Vignaiolo, Ora (BZ): Pinot Nero Filari di Mazzon, Lagrein di ora in ora e Schiava. Visite solo su appuntamento.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  --bg:#f6f5f2; --stone:#e8e5df; --stone-2:#d9d5ce; --ink:#151413; --mid:#6a6661; --pinot:#a01c30; --pinot-d:#7a1424;
+  --sans:"Instrument Sans","Helvetica Neue",Arial,sans-serif; --serif:"Instrument Serif",Georgia,serif;
+  --vng-bg:var(--bg); --vng-fg:var(--ink); --vng-muted:var(--mid); --vng-accent:var(--pinot); --vng-accent-fg:#fff;
+  --vng-surface:#fff; --vng-line:rgba(21,20,19,.14); --vng-stack-frame:#fff;
+  --gut:24px;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{width:min(1320px,100% - 32px);margin-inline:auto}
+.g{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gut)}
+h1,h2,h3{font-weight:600;margin:0;letter-spacing:-.035em;line-height:.95}
+.ix{font:500 12px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mid);display:flex;gap:12px;align-items:center}
+.ix b{color:var(--pinot);font-weight:600}
+.serif{font-family:var(--serif);font-weight:400;letter-spacing:0}
+.hair{border-top:1px solid var(--ink)}
+section{padding-block:120px}
+
+/* nav */
+.top{position:sticky;top:0;z-index:30;background:rgba(246,245,242,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--vng-line)}
+.top .g{align-items:center;height:68px}
+.brand{grid-column:1/5;text-decoration:none;font-weight:600;letter-spacing:-.02em;font-size:17px;line-height:1.1}
+.brand span{display:block;font:400 13px var(--sans);color:var(--mid);letter-spacing:0}
+.links{grid-column:5/10;display:flex;gap:28px;font-size:14px;font-weight:500}
+.links a{text-decoration:none;color:var(--mid)}
+.links a:hover{color:var(--ink)}
+.navr{grid-column:10/13;display:flex;justify-content:flex-end;align-items:center;gap:18px}
+.lang{font-size:12px;color:var(--mid);letter-spacing:.04em}
+.lang a{text-decoration:none}
+.lang a:hover{color:var(--pinot)}
+.vng-hbtn{background:var(--ink);color:#fff;border-color:var(--ink);font-size:14px;padding:.7em 1.3em}
+.vng-hbtn.light{background:transparent;color:var(--ink);border-color:var(--ink)}
+.vng-hbtn.onred{background:#fff;color:var(--ink);border-color:#fff}
+
+/* hero: prodotto in primo piano */
+.hero{padding:0;border-bottom:1px solid var(--vng-line);position:relative}
+.cols-bg{position:absolute;inset:0;pointer-events:none}
+.cols-bg .g{height:100%}
+.cols-bg i{border-left:1px solid rgba(21,20,19,.06)}
+.cols-bg i:last-child{border-right:1px solid rgba(21,20,19,.06)}
+.hero .g{min-height:calc(100svh - 68px);align-items:stretch;position:relative}
+.h-l{grid-column:1/6;display:flex;flex-direction:column;justify-content:space-between;padding-block:56px}
+.hero h1{font-size:clamp(56px,7.4vw,124px);margin:26px 0 0}
+.hero h1 .serif{display:block;font-style:italic;color:var(--pinot);font-size:.62em;margin-top:.15em;letter-spacing:-.01em}
+.specs{margin:40px 0 0;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink)}
+.specs div{padding:12px 12px 12px 0;border-bottom:1px solid var(--vng-line)}
+.specs dt{font-size:12px;color:var(--mid);margin-bottom:2px}
+.specs dd{margin:0;font-weight:500;font-size:17px;font-variant-numeric:tabular-nums}
+.h-b{grid-column:6/9;background:var(--stone);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.h-b img{height:88%;width:100%;object-fit:contain;mix-blend-mode:multiply;position:relative;z-index:1}
+.h-b .yr{position:absolute;left:0;right:0;bottom:-0.12em;text-align:center;font:400 clamp(90px,11vw,180px)/1 var(--serif);color:rgba(160,28,48,.14)}
+.h-r{grid-column:9/13;display:flex;flex-direction:column;justify-content:flex-end;padding-block:56px}
+.h-r p{font-size:19px;line-height:1.45;margin:0 0 28px;max-width:30ch}
+.h-r .row{display:flex;gap:10px;flex-wrap:wrap}
+
+/* principio */
+.motto{font-size:clamp(44px,6.4vw,110px);grid-column:1/11}
+.motto em{font-family:var(--serif);font-weight:400;color:var(--pinot);letter-spacing:-.01em}
+.trio{margin-top:80px}
+.trio > div{grid-column:span 4;border-top:1px solid var(--ink);padding-top:16px}
+.trio h3{font-size:22px;letter-spacing:-.02em;line-height:1.15;margin:14px 0 10px}
+.trio p{margin:0;color:var(--mid);max-width:38ch}
+
+/* storia */
+.hist{background:var(--ink);color:var(--bg)}
+.hist .ix{color:#a9a49d}
+.hist h2{font-size:clamp(36px,4.4vw,68px);grid-column:1/8;margin-top:22px}
+.tl{margin-top:72px}
+.tl > div{grid-column:span 4;border-top:1px solid rgba(246,245,242,.3);padding-top:18px}
+.tl b{display:block;font:400 clamp(64px,7vw,112px)/1 var(--serif);color:#fff;letter-spacing:-.01em}
+.tl b.red{color:#e0566a}
+.tl p{color:#bdb8b0;max-width:36ch;margin:14px 0 0}
+
+/* vini */
+.vhead h2{grid-column:1/8;font-size:clamp(40px,5vw,84px);margin-top:22px}
+.vhead p{grid-column:9/13;align-self:end;color:var(--mid);margin:0}
+.vstack{margin-top:64px}
+.vstack .vng-stack{grid-column:1/7;max-width:none;margin:0;grid-template-columns:1fr;}
+.vng-stack__cards{max-width:440px;margin-inline:0;width:calc(100% - 3rem)}
+.vng-stack__cards figure{border-width:0;border-radius:0;background:var(--stone);box-shadow:0 30px 60px -30px rgba(0,0,0,.35)}
+.vng-stack__cards img.bt{object-fit:contain;mix-blend-mode:multiply;padding:22px}
+.vng-stack__text h3{font-size:30px;letter-spacing:-.03em}
+.vng-stack__text p{max-width:40ch}
+.vng-stack__nav button{border-radius:0}
+.tbl{grid-column:7/13;align-self:start}
+table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:11px 10px 11px 0;border-bottom:1px solid var(--vng-line);vertical-align:top}
+thead th{border-bottom:1px solid var(--ink);font-weight:600;font-size:13px}
+thead th small{display:block;font:italic 400 15px var(--serif);color:var(--pinot)}
+tbody th{font-weight:400;color:var(--mid);width:28%}
+.pdfs{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px;font-size:14px}
+.pdfs a{color:var(--pinot);text-underline-offset:3px}
+
+/* vigne */
+.vig{background:var(--stone)}
+.vig h2{grid-column:1/6;font-size:clamp(36px,4vw,64px);margin-top:22px}
+.vig .intro{grid-column:7/13;align-self:end;margin:0;color:var(--mid);max-width:52ch}
+.plots{margin-top:56px;list-style:none;padding:0}
+.plots li{grid-column:span 3;border-top:1px solid var(--ink);padding:14px 0 30px;display:flex;justify-content:space-between;gap:12px}
+.plots li span{font-weight:600;font-size:19px;letter-spacing:-.02em}
+.plots li em{font:italic 22px/1 var(--serif);color:var(--pinot)}
+
+/* immagini */
+.gal{margin-top:56px;row-gap:var(--gut);grid-auto-rows:clamp(180px,21.5vw,312px)}
+.gal div{background:var(--stone-2) center/cover;overflow:hidden;position:relative}
+.gal div i{position:absolute;inset:-8% 0;background:inherit;background-size:cover;background-position:center}
+.gal .a{grid-column:1/7}
+.gal .b{grid-column:7/10}
+.gal .c{grid-column:10/13}
+.gal .d{grid-column:1/4}
+.gal .e{grid-column:4/7}
+.gal .f{grid-column:7/13}
+
+/* visite + faq */
+.faqg h2{grid-column:1/5;font-size:clamp(36px,4vw,64px);margin-top:22px}
+.faqg .vng-faq{grid-column:6/13}
+.vng-faq details{border-left-width:3px}
+.vng-faq summary{font-size:18px;font-weight:500}
+
+/* contatti */
+.contact{background:var(--pinot);color:#fff}
+.contact .ix,.contact .ix b{color:rgba(255,255,255,.75)}
+.contact h2{grid-column:1/7;font-size:clamp(44px,6vw,100px);margin-top:22px}
+.contact h2 em{font-family:var(--serif);font-weight:400}
+.cl{grid-column:8/13;align-self:end}
+.cl > a:not(.vng-hbtn),.cl > div{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:14px 0;border-top:1px solid rgba(255,255,255,.35);text-decoration:none;font-size:18px}
+.cl small{font-size:12px;color:rgba(255,255,255,.7);padding-top:4px}
+.cl > a:not(.vng-hbtn):hover{color:#ffd9de}
+.contact .vng-hbtn{margin-top:28px;--vng-accent:var(--ink);--vng-accent-fg:#fff;--vng-line:#fff}
+footer{padding-block:28px;font-size:13px;color:var(--mid)}
+footer .g > *{grid-column:span 6}
+footer .g > :last-child{text-align:right}
+.ribbon{position:fixed;right:12px;bottom:12px;z-index:40;background:var(--ink);color:#fff;font:600 12px var(--sans);padding:8px 12px}
+
+@media (max-width:960px){
+  .g{grid-template-columns:repeat(4,minmax(0,1fr));--gut:16px}
+  .links{display:none}
+  .brand{grid-column:1/3}.navr{grid-column:3/5}
+  .lang{display:none}
+  .hero .g{min-height:0}
+  .h-l,.h-b,.h-r,.motto,.hist h2,.vhead h2,.vhead p,.vstack .vng-stack,.tbl,.vig h2,.vig .intro,.faqg h2,.faqg .vng-faq,.contact h2,.cl{grid-column:1/-1}
+  .h-l{padding-block:36px 28px}
+  .h-b{height:72vh;min-height:460px}
+  .h-r{padding-block:28px 48px}
+  .trio > div,.tl > div{grid-column:1/-1;margin-bottom:28px}
+  .trio,.tl{margin-top:48px}
+  .vhead p,.vig .intro{margin-top:18px}
+  .tbl{margin-top:56px;overflow-x:auto}
+  table{min-width:520px}
+  .plots li{grid-column:span 2}
+  .gal{grid-auto-rows:auto}
+  .gal .a{grid-column:1/-1;aspect-ratio:4/3}
+  .gal .b,.gal .c,.gal .d,.gal .e{grid-column:span 2;aspect-ratio:1}
+  .gal .f{grid-column:1/-1;aspect-ratio:2/1}
+  .faqg .vng-faq{margin-top:32px}
+  .cl{margin-top:36px}
+  section{padding-block:76px}
+  .cols-bg{display:none}
+  footer .g > *{grid-column:1/-1;text-align:left!important}
+}
+@media (max-width:420px){.navr .vng-hbtn{font-size:13px;padding:.6em 1em}.brand{font-size:15px}.brand span{font-size:12px}.cl > a:not(.vng-hbtn),.cl > div{grid-template-columns:1fr;gap:2px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap g">
+  <a class="brand" href="#top">Ferruccio Carlotto<span>Vignaiolo · Ora / Auer</span></a>
+  <nav class="links" aria-label="Sezioni"><a href="#principio">Principio</a><a href="#storia">Storia</a><a href="#vini">Vini</a><a href="#vigne">Vigne</a><a href="#visite">Visite</a></nav>
+  <div class="navr">
+    <span class="lang" title="Il sito attuale è anche in tedesco e inglese">IT · <a href="https://www.ferruccio-carlotto.com/index.php/de/" hreflang="de">DE</a> · <a href="https://www.ferruccio-carlotto.com/index.php/en/" hreflang="en">EN</a></span>
+    <a class="vng-hbtn" href="#contatti"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Visita</span><span class="vng-hbtn__b" aria-hidden="true">Visita →</span></a>
+  </div>
+</div></header>
+
+<main id="top">
+<section class="hero">
+  <div class="cols-bg" aria-hidden="true"><div class="wrap g"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+  <div class="wrap g">
+    <div class="h-l">
+      <p class="ix col"><b>01</b> Pinot Nero · Alto Adige DOC</p>
+      <div>
+        <h1 id="heroTitle">Filari di Mazzon <span class="serif">Pinot Nero</span></h1>
+        <dl class="specs col">
+          <div><dt>Vigneti</dt><dd>4 ha a Mazzon</dd></div>
+          <div><dt>Quota</dt><dd>300–450 m</dd></div>
+          <div><dt>Ceppi per ettaro</dt><dd>7.800–9.200</dd></div>
+          <div><dt>Affinamento</dt><dd>12 mesi, botti grandi e barrique</dd></div>
+          <div><dt>Bottiglie</dt><dd>circa 30.000</dd></div>
+          <div><dt>Prima annata</dt><dd>2001</dd></div>
+        </dl>
+      </div>
+    </div>
+    <figure class="h-b col" style="margin:0">
+      <img id="heroBottle" src="https://www.ferruccio-carlotto.com/images/PinotNero-2021.jpg" alt="Bottiglia di Pinot Nero Filari di Mazzon 2021, Ferruccio Carlotto">
+      <span class="yr" aria-hidden="true">2021</span>
+    </figure>
+    <div class="h-r col">
+      <p>Al naso frutto dolce; in bocca sapido e rotondo, tannino fine e fitto, lampone e cassis. Dalla collina di Mazzon, ai piedi del Parco naturale Monte Corno.</p>
+      <div class="row">
+        <a class="vng-hbtn" href="#contatti"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Prenota una visita</span><span class="vng-hbtn__b" aria-hidden="true">Prenota una visita →</span></a>
+        <a class="vng-hbtn light" href="#vini"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">I tre vini</span><span class="vng-hbtn__b" aria-hidden="true">I tre vini →</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="principio"><div class="wrap">
+  <p class="ix"><b>02</b> Principio</p>
+  <div class="g" style="margin-top:22px"><h2 class="motto sp">Il vitigno giusto <em>nel posto giusto.</em></h2></div>
+  <div class="g trio">
+    <div class="col"><p class="ix">Mazzon</p><h3>Pinot Nero</h3><p>Sulla collina di Mazzon, sinistra Adige. Suolo calcareo fluvio-glaciale ricco di scheletro, argilla intorno al 15%.</p></div>
+    <div class="col"><p class="ix">Ora</p><h3>Lagrein</h3><p>Sul conoide alluvionale del Rio Nero, a 230 m. Terreno sciolto e sassoso, di porfido e calcari, che trattiene il calore.</p></div>
+    <div class="col"><p class="ix">6 ettari</p><h3>Una cantina di famiglia</h3><p>70% Pinot Nero, 25% Lagrein, 5% Schiava. Metodi tradizionali in vigna e in cantina.</p></div>
+  </div>
+</div></section>
+
+<section class="hist" id="storia"><div class="wrap">
+  <p class="ix"><b>03</b> Storia</p>
+  <div class="g"><h2 class="sp">Tre generazioni in vigna, a Mazzon e Ora</h2></div>
+  <div class="g tl">
+    <div class="col"><b>1940</b><p>Umberto Carlotto inizia a coltivare a mezzadria il maso Schloßhof a Mazzon, vicino a Castel Caldiff. Per 50 anni ne cura le vigne con il fratello e il figlio Ferruccio.</p></div>
+    <div class="col"><b class="red">2000</b><p>Ferruccio e la figlia Michela iniziano a vinificare le proprie uve. È la prima annata del Lagrein “di ora in ora”.</p></div>
+    <div class="col"><b>2001</b><p>Prima annata imbottigliata del Pinot Nero “Filari di Mazzon”.</p></div>
+  </div>
+</div></section>
+
+<section id="vini"><div class="wrap">
+  <p class="ix"><b>04</b> I vini</p>
+  <div class="g vhead"><h2 class="sp">Tre vini, sei ettari</h2><p>Circa 50.000 bottiglie l'anno da 6 ettari. Ogni vino ha la sua scheda tecnica in PDF.</p></div>
+  <div class="g vstack">
+    <div class="vng-stack" data-vng-stack data-autoplay="5000">
+      <div class="vng-stack__cards">
+        <figure data-title="Filari di Mazzon · Pinot Nero" data-text="Alto Adige DOC. Frutto dolce al naso; sapido, rotondo, tannino fine e fitto, lampone e cassis. Circa 30.000 bottiglie."><img class="bt" src="https://www.ferruccio-carlotto.com/images/PinotNero-2021.jpg" alt="Bottiglia di Pinot Nero Filari di Mazzon 2021"></figure>
+        <figure data-title="di ora in ora · Lagrein" data-text="Alto Adige DOC. Al naso la mora tipica; tannino ricco e compatto, con la freschezza come punto di forza. 19.000 bottiglie."><img class="bt" src="https://www.ferruccio-carlotto.com/images/Lagrein-2021.jpg" alt="Bottiglia di Lagrein di ora in ora 2021"></figure>
+        <figure data-title="Schiava" data-text="Vigneti delle Dolomiti IGT. Leggera, fruttata e fresca, poco alcolica: un vino da bere con facilità. Circa 2.000 bottiglie."><img src="https://www.ferruccio-carlotto.com/images/3.jpg" alt="Foto dalla galleria di Ferruccio Carlotto"></figure>
+      </div>
+      <div class="vng-stack__text"><h3>Filari di Mazzon · Pinot Nero</h3><p>Alto Adige DOC. Frutto dolce al naso; sapido, rotondo, tannino fine e fitto, lampone e cassis. Circa 30.000 bottiglie.</p></div>
+      <div class="vng-stack__nav"><button type="button" data-prev aria-label="Vino precedente">←</button><span data-count>1 / 3</span><button type="button" data-next aria-label="Vino successivo">→</button></div>
+    </div>
+    <div class="tbl col">
+      <table>
+        <thead><tr><th></th><th>Pinot Nero<small>Filari di Mazzon</small></th><th>Lagrein<small>di ora in ora</small></th><th>Schiava<small>&nbsp;</small></th></tr></thead>
+        <tbody>
+          <tr><th>Denominazione</th><td>Alto Adige DOC</td><td>Alto Adige DOC</td><td>Vigneti delle Dolomiti IGT</td></tr>
+          <tr><th>Vigneti</th><td>Mazzon, 4 ha</td><td>Ora, 1,7 ha</td><td>Ora, circa 0,2 ha</td></tr>
+          <tr><th>Quota</th><td>300–450 m</td><td>230 m</td><td>circa 200 m</td></tr>
+          <tr><th>Allevamento</th><td>Guyot, 7.800–9.200 ceppi/ha</td><td>Pergola e guyot, 6.500 ceppi/ha</td><td>Guyot, 6.500 ceppi/ha</td></tr>
+          <tr><th>Malolattica</th><td>Tini di rovere</td><td>Acciaio</td><td>Acciaio</td></tr>
+          <tr><th>Affinamento</th><td>12 mesi botti grandi e barrique, 6 mesi in bottiglia</td><td>12 mesi botti grandi e barrique, 6 mesi in bottiglia</td><td>Alcuni mesi in acciaio, imbottigliato la primavera dopo</td></tr>
+          <tr><th>Bottiglie</th><td>circa 30.000</td><td>19.000</td><td>circa 2.000</td></tr>
+          <tr><th>Prima annata</th><td>2001</td><td>2000</td><td>2000</td></tr>
+        </tbody>
+      </table>
+      <div class="pdfs"><a href="https://www.ferruccio-carlotto.com/docs/pinot-docx-it.pdf">Scheda Pinot Nero (PDF)</a><a href="https://www.ferruccio-carlotto.com/docs/lagrein-docx-it.pdf">Scheda Lagrein (PDF)</a><a href="https://www.ferruccio-carlotto.com/docs/schiava-docx-it.pdf">Scheda Schiava (PDF)</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="vig" id="vigne"><div class="wrap">
+  <p class="ix"><b>05</b> Le vigne del Pinot Nero</p>
+  <div class="g"><h2 class="sp">Sette vigne, un solo Filari di Mazzon</h2><p class="intro">Il Pinot Nero nasce da sette appezzamenti sulla collina di Mazzon, piantati tra il 2000 e il 2019. Macerazione di circa 10 giorni con rimontaggi e follature quotidiani.</p></div>
+  <ul class="g plots">
+    <li class="col"><span>Paggen</span><em>2000</em></li>
+    <li class="col"><span>Oberes Langfeld</span><em>2000</em></li>
+    <li class="col"><span>Kreuzl</span><em>2010</em></li>
+    <li class="col"><span>Keilackerl</span><em>2013</em></li>
+    <li class="col"><span>Loch</span><em>2014</em></li>
+    <li class="col"><span>Unteres Langfeld</span><em>2015</em></li>
+    <li class="col"><span>Auf dem Bichl</span><em>2019</em></li>
+  </ul>
+</div></section>
+
+<section id="immagini"><div class="wrap">
+  <p class="ix"><b>06</b> Immagini</p>
+  <div class="g gal">
+    <div class="a col" style="background-color:#7d8466"><i class="par" style="background-image:url('https://www.ferruccio-carlotto.com/images/1.jpg')"></i></div>
+    <div class="b col" style="background-color:#8a7f72"><i style="background-image:url('https://www.ferruccio-carlotto.com/images/2.jpg')"></i></div>
+    <div class="c col" style="background-color:#6f7660"><i style="background-image:url('https://www.ferruccio-carlotto.com/images/5.jpg')"></i></div>
+    <div class="d col" style="background-color:#857a6c"><i style="background-image:url('https://www.ferruccio-carlotto.com/images/6.jpg')"></i></div>
+    <div class="e col" style="background-color:#6a5b55"><i style="background-image:url('https://www.ferruccio-carlotto.com/images/7.jpg')"></i></div>
+    <div class="f col" style="background-color:#7a806a"><i class="par" style="background-image:url('https://www.ferruccio-carlotto.com/images/8.jpg')"></i></div>
+  </div>
+</div></section>
+
+<section id="visite" style="padding-top:0"><div class="wrap">
+  <div class="hair" style="margin-bottom:96px"></div>
+  <p class="ix"><b>07</b> Visite e domande</p>
+  <div class="g faqg">
+    <h2 class="sp">Si visita su appuntamento</h2>
+    <div class="vng-faq">
+      <details open><summary>Si può visitare la cantina?</summary><div class="vng-faq__a">Sì, solo su appuntamento. Chiamate lo 0471 810407 o il 347 5526233, oppure scrivete a michelacarlotto@gmail.com.</div></details>
+      <details><summary>Dove si trova la cantina?</summary><div class="vng-faq__a">In via Clauser / Clauserweg 19, 39040 Ora / Auer (BZ). Il Pinot Nero viene dalla collina di Mazzon, il Lagrein e la Schiava da Ora.</div></details>
+      <details><summary>Che differenza c'è tra il Pinot Nero e il Lagrein?</summary><div class="vng-faq__a">Il Pinot Nero “Filari di Mazzon” nasce su suolo calcareo tra 300 e 450 m: frutto dolce, lampone e cassis, tannino fine. Il Lagrein “di ora in ora” nasce su terreno sassoso a 230 m: mora, tannino ricco e compatto, freschezza.</div></details>
+      <details><summary>Ci sono le schede tecniche dei vini?</summary><div class="vng-faq__a">Sì, in PDF: <a href="https://www.ferruccio-carlotto.com/docs/pinot-docx-it.pdf">Pinot Nero</a>, <a href="https://www.ferruccio-carlotto.com/docs/lagrein-docx-it.pdf">Lagrein</a> e <a href="https://www.ferruccio-carlotto.com/docs/schiava-docx-it.pdf">Schiava</a>.</div></details>
+      <details><summary>In che lingue posso scrivervi?</summary><div class="vng-faq__a">Il sito è in italiano, tedesco e inglese: <a href="https://www.ferruccio-carlotto.com/index.php/de/" hreflang="de">Deutsch</a> · <a href="https://www.ferruccio-carlotto.com/index.php/en/" hreflang="en">English</a>.</div></details>
+    </div>
+  </div>
+</div></section>
+
+<section class="contact" id="contatti"><div class="wrap">
+  <p class="ix"><b>08</b> Contatti</p>
+  <div class="g">
+    <h2 class="sp">Prenota una visita <em>a Ora.</em></h2>
+    <div class="cl">
+      <div><small>Indirizzo</small><span>Via Clauser / Clauserweg 19, I-39040 Ora / Auer (BZ)</span></div>
+      <a href="tel:+390471810407"><small>Telefono</small><span>+39 0471 810407</span></a>
+      <a href="tel:+393475526233"><small>Cellulare</small><span>+39 347 5526233</span></a>
+      <a href="mailto:michelacarlotto@gmail.com"><small>Email</small><span>michelacarlotto@gmail.com</span></a>
+      <a class="vng-hbtn onred" href="tel:+390471810407"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Chiama la cantina</span><span class="vng-hbtn__b" aria-hidden="true">Chiama la cantina →</span></a>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap g"><span>Weingut Ferruccio Carlotto · Ora / Auer (BZ)</span><span>Italiano · <a href="https://www.ferruccio-carlotto.com/index.php/de/" hreflang="de">Deutsch</a> · <a href="https://www.ferruccio-carlotto.com/index.php/en/" hreflang="en">English</a></span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot=/[?&]shot=1\b/.test(location.search);
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(shot||reduce||!window.gsap||!window.ScrollTrigger) return;
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();lenis.scrollTo(t,{offset:-68});}});});
+
+  // hero: colonne che compaiono in sequenza
+  gsap.from('.cols-bg i',{scaleY:0,transformOrigin:'top',duration:1.2,ease:'expo.out',stagger:.04});
+  gsap.from('.hero .col',{y:40,opacity:0,duration:1,ease:'expo.out',stagger:.12,delay:.2});
+  gsap.from('#heroBottle',{yPercent:12,duration:1.6,ease:'expo.out',delay:.3});
+  gsap.to('#heroBottle',{yPercent:-6,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  gsap.to('.h-b .yr',{yPercent:-30,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  document.fonts.ready.then(function(){
+    var st=new SplitText('#heroTitle',{type:'words'});
+    gsap.from(st.words,{yPercent:100,opacity:0,duration:1,ease:'expo.out',stagger:.07,delay:.15});
+    gsap.utils.toArray('.sp').forEach(function(h){
+      var s=new SplitText(h,{type:'words'});
+      gsap.from(s.words,{y:30,opacity:0,duration:.8,ease:'power3.out',stagger:.04,scrollTrigger:{trigger:h,start:'top 85%'}});
+    });
+    ScrollTrigger.refresh();
+  });
+  // comparsa per colonne: ogni gruppo entra colonna dopo colonna
+  ['.trio','.tl','.plots','.gal','.vstack'].forEach(function(sel){
+    document.querySelectorAll(sel).forEach(function(g){
+      var items=g.querySelectorAll(':scope > .col, :scope > .vng-stack');
+      gsap.from(items,{y:48,opacity:0,duration:.9,ease:'power3.out',stagger:.1,scrollTrigger:{trigger:g,start:'top 82%'}});
+    });
+  });
+  gsap.from('.vng-faq details,.cl > *',{y:24,opacity:0,duration:.7,ease:'power3.out',stagger:.06,scrollTrigger:{trigger:'#visite',start:'top 70%'}});
+  gsap.utils.toArray('.gal i').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+})();
+</script>
+</body>
+</html>

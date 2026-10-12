@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Coltelleria Saladini · Coltelli artigianali a Scarperia</title>
+<meta name="description" content="Coltelli chiudibili, da cucina, storici e tagliasigari fatti a mano a Scarperia (FI). Negozio in Via Solferino 19, aperto 7 giorni su 7.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  --graphite:#141619; --graphite-2:#1d2024; --graphite-3:#272b30;
+  --steel:#8b949b; --steel-2:#c3c9cd; --steel-3:#e6e9eb;
+  --brass:#d98a2b; --brass-2:#f0a94a; --horn:#3a2a1e;
+  --sans:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+  --vng-bg:#141619; --vng-fg:#e6e9eb; --vng-muted:#8b949b; --vng-accent:#d98a2b; --vng-accent-fg:#141619;
+  --vng-surface:rgba(39,43,48,.7); --vng-line:rgba(195,201,205,.13);
+  --vng-marquee-gap:3.5rem; --vng-marquee-speed:55s;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--graphite);color:var(--steel-3);font-family:var(--sans);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:24px}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--steel)}
+.mono b{color:var(--brass);font-weight:500}
+h1,h2,h3{font-weight:600;margin:0;letter-spacing:-.01em;text-wrap:balance;line-height:.98}
+h2{font-size:clamp(38px,5.2vw,72px);text-transform:uppercase;margin:14px 0 18px}
+h2 em{font-style:normal;color:var(--brass)}
+.lead{color:var(--steel-2);max-width:56ch;margin:0}
+section{padding-block:110px;position:relative}
+.rule{display:flex;align-items:center;gap:14px}
+.rule::after{content:"";flex:1;height:1px;background:var(--vng-line)}
+.btn{display:inline-flex;align-items:center;gap:10px;font:600 15px var(--mono);letter-spacing:.04em;text-transform:uppercase;text-decoration:none;background:var(--brass);color:var(--graphite);padding:15px 22px;border:0;transition:background .2s,transform .2s}
+.btn:hover{background:var(--brass-2);transform:translateY(-2px)}
+.btn.line{background:transparent;color:var(--steel-3);box-shadow:inset 0 0 0 1px var(--steel)}
+.btn.line:hover{box-shadow:inset 0 0 0 1px var(--brass);color:var(--brass)}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto;z-index:40;background:rgba(20,22,25,.82);backdrop-filter:blur(10px);border-bottom:1px solid var(--vng-line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;height:68px}
+.brand{display:flex;align-items:baseline;gap:12px;text-decoration:none}
+.brand strong{font:700 24px var(--sans);letter-spacing:.14em}
+.brand span{font:500 10px var(--mono);letter-spacing:.14em;color:var(--steel);text-transform:uppercase}
+.menu{display:flex;gap:26px;font:500 13px var(--mono);text-transform:uppercase;letter-spacing:.06em}
+.menu a{text-decoration:none;color:var(--steel-2)}
+.menu a:hover{color:var(--brass)}
+.nav .btn{padding:11px 16px;font-size:13px}
+
+/* HERO — prodotto in primo piano */
+.hero{padding:118px 0 0;background:
+  linear-gradient(var(--vng-line) 1px,transparent 1px) 0 0/100% 80px,
+  linear-gradient(90deg,var(--vng-line) 1px,transparent 1px) 0 0/80px 100%,
+  radial-gradient(ellipse at 60% 55%,#2b3036,var(--graphite) 70%);overflow:hidden}
+.hero-top{display:grid;grid-template-columns:1fr;gap:26px}
+.hero-sub{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:end}
+.hero h1{font-size:clamp(62px,13.5vw,200px);text-transform:uppercase;letter-spacing:-.03em;line-height:.82;margin:18px 0 0}
+.hero h1 .w{display:inline-block}
+.hero-claim{font-size:clamp(20px,2vw,26px);color:var(--steel-2);margin:0 0 22px;max-width:30ch}
+.hero-claim b{color:var(--steel-3);font-weight:600}
+.price-tag{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.price-tag .p{font:600 clamp(40px,4.4vw,58px)/1 var(--sans);color:var(--brass)}
+.price-tag .p small{font:500 13px var(--mono);color:var(--steel);display:block;letter-spacing:.08em;margin-bottom:8px}
+.knife-stage{position:relative;margin:34px 0 0;padding:28px 0 56px}
+.knife{position:relative;aspect-ratio:2.5/1;max-width:1180px;margin:0 auto;background:#1b1e21 url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/1001_fiorentino1.jpg') center/contain no-repeat;border:1px solid var(--vng-line)}
+.dim{position:absolute;font:500 11px var(--mono);letter-spacing:.08em;color:var(--brass);text-transform:uppercase;white-space:nowrap}
+.dim.total{left:0;right:0;bottom:-38px;display:flex;align-items:center;gap:10px}
+.dim.total::before,.dim.total::after{content:"";flex:1;height:1px;background:var(--brass);opacity:.7}
+.dim.total span{padding:0 4px}
+.tick{position:absolute;bottom:-44px;width:1px;height:14px;background:var(--brass)}
+.tick.l{left:0}.tick.r{right:0}
+.dim.code{left:14px;top:12px;color:var(--steel)}
+.dim.mat{right:14px;top:12px;color:var(--steel)}
+.specs{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--vng-line);border-bottom:1px solid var(--vng-line);margin-top:10px}
+.specs div{padding:20px 18px;border-left:1px solid var(--vng-line)}
+.specs div:first-child{border-left:0}
+.specs dt{font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--steel);margin-bottom:6px}
+.specs dd{margin:0;font-size:22px;font-weight:600}
+
+/* CONTATORI */
+.counters{padding-block:0;background:var(--graphite-2);border-bottom:1px solid var(--vng-line)}
+.counters .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.cnt{padding:42px 22px 38px;border-left:1px solid var(--vng-line)}
+.cnt:first-child{border-left:0}
+.cnt .num{display:block;font:600 clamp(48px,5.4vw,76px)/1 var(--sans);color:var(--steel-3);letter-spacing:-.02em}
+.cnt p{margin:10px 0 0;font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--steel)}
+.cnt p b{color:var(--brass);font-weight:500}
+
+/* MARQUEE */
+.mq{padding-block:46px;border-bottom:1px solid var(--vng-line);background:var(--graphite)}
+.mq .logo{font:600 clamp(40px,6vw,84px)/1 var(--sans);text-transform:uppercase;white-space:nowrap;color:transparent;-webkit-text-stroke:1px var(--steel)}
+.mq .logo.f{color:var(--steel-3);-webkit-text-stroke:0}
+.mq .sep{color:var(--brass);font:500 28px var(--mono)}
+.mq-label{text-align:center;margin-bottom:22px}
+
+/* LISTINO */
+.cat-head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:46px}
+.list{border-top:1px solid var(--steel)}
+.row{display:grid;grid-template-columns:90px 1.1fr 1.6fr 170px;gap:24px;align-items:center;padding:18px 0;border-bottom:1px solid var(--vng-line);text-decoration:none;transition:background .25s}
+.row:hover{background:rgba(217,138,43,.06)}
+.row .c{font:500 13px var(--mono);color:var(--steel)}
+.row h3{font-size:clamp(26px,2.8vw,38px);text-transform:uppercase}
+.row h3 small{display:block;font:400 14px var(--sans);text-transform:none;color:var(--steel);letter-spacing:0;margin-top:6px;line-height:1.35}
+.row .img{aspect-ratio:2.5/1;background:#1f2226 center/contain no-repeat;border:1px solid var(--vng-line);transition:transform .4s}
+.row:hover .img{transform:scale(1.03)}
+.row .pr{font:600 24px var(--sans);text-align:right;color:var(--brass)}
+.row .pr small{display:block;font:500 11px var(--mono);color:var(--steel);letter-spacing:.06em;text-transform:uppercase}
+.note{font:500 12px var(--mono);color:var(--steel);margin-top:18px;letter-spacing:.03em}
+
+/* TIMELINE */
+.tl{background:var(--steel-3);color:var(--graphite);padding-block:0;overflow:hidden}
+.tl .mono{color:#5b646b}
+.tl-in{padding-block:100px 90px}
+.tl h2{color:var(--graphite)}
+.tl h2 em{color:#b46a14}
+.track-wrap{position:relative;margin-top:50px}
+.track{display:flex;gap:0;width:max-content;position:relative}
+.track::before{content:"";position:absolute;left:0;right:0;top:94px;height:2px;background:var(--graphite)}
+.ev{width:330px;padding-right:44px;position:relative}
+.ev .y{font:600 76px/1 var(--sans);letter-spacing:-.03em;height:80px;display:flex;align-items:flex-end}
+.ev .y small{font-size:34px}
+.ev::after{content:"";position:absolute;left:0;top:86px;width:18px;height:18px;background:var(--brass);border:3px solid var(--graphite)}
+.ev .mono{display:block;margin:36px 0 8px}
+.ev h3{font-size:26px;text-transform:uppercase;margin-bottom:8px}
+.ev p{margin:0;color:#3d444a;font-size:16px}
+.ev.now .y{color:#b46a14}
+
+/* LABORATORIO con griglia */
+.lab{overflow:hidden;background:var(--graphite)}
+.lab .vng-pgrid{z-index:0}
+.lab .wrap{position:relative;z-index:2}
+.lab-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.quote{font:500 clamp(30px,3.6vw,50px)/1.05 var(--sans);text-transform:uppercase;margin:16px 0 22px}
+.quote q{quotes:"«" "»"}
+.lab ul{list-style:none;padding:0;margin:28px 0 34px;border-top:1px solid var(--vng-line)}
+.lab li{padding:14px 0;border-bottom:1px solid var(--vng-line);display:flex;gap:18px}
+.lab li span{font:500 12px var(--mono);color:var(--brass);padding-top:4px;min-width:30px}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ph{overflow:hidden;background-color:#2c3035;position:relative}
+.ph div{position:absolute;inset:-8% 0;background-size:cover;background-position:center}
+.ph.a{aspect-ratio:3/2;grid-column:span 2}
+.ph.b,.ph.c{aspect-ratio:1}
+.ph figcaption{position:absolute;left:10px;bottom:10px;z-index:2;font:500 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;background:rgba(20,22,25,.82);padding:5px 8px;color:var(--steel-2)}
+
+/* COLLEZIONI */
+.coll{background:var(--graphite-2)}
+.coll-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;margin-top:46px}
+.cl{position:relative;background:var(--graphite-3);border:1px solid var(--vng-line);overflow:hidden;display:flex;flex-direction:column}
+.cl .ph{flex:1;min-height:230px}
+.cl .t{padding:22px 22px 24px}
+.cl h3{font-size:30px;text-transform:uppercase;margin:6px 0 8px}
+.cl p{margin:0;color:var(--steel-2);font-size:16px}
+.cl.k{grid-column:span 7;grid-row:span 2}
+.cl.k .ph{min-height:360px}
+.cl.s{grid-column:span 5}
+.cl.m{grid-column:span 5}
+.mats{grid-column:span 12;display:grid;grid-template-columns:auto repeat(3,1fr);gap:16px;align-items:stretch;border-top:1px solid var(--vng-line);padding-top:22px;margin-top:10px}
+.mat{display:flex;gap:14px;align-items:center}
+.mat i{width:72px;height:72px;flex:none;background:var(--horn) center/cover;border:1px solid var(--vng-line)}
+.mat b{display:block;font-size:19px;text-transform:uppercase}
+.mat span{font:500 11px var(--mono);color:var(--steel);letter-spacing:.06em;text-transform:uppercase}
+
+/* PERSONE */
+.people{display:grid;grid-template-columns:repeat(2,1fr);gap:0;margin-top:46px;border-top:1px solid var(--steel)}
+.pp{display:grid;grid-template-columns:150px 1fr;gap:24px;padding:28px 28px 28px 0;border-bottom:1px solid var(--vng-line)}
+.pp + .pp{padding-left:28px;border-left:1px solid var(--vng-line)}
+.pp .face{aspect-ratio:3/4;background:#2c3035 center/cover;filter:grayscale(.35)}
+.pp h3{font-size:32px;text-transform:uppercase;margin:6px 0 10px}
+.pp p{margin:0;color:var(--steel-2);font-size:16px}
+
+/* CONTATTI */
+.visit{background:var(--brass);color:var(--graphite)}
+.visit .mono{color:#4a2e0c}
+.visit h2{color:var(--graphite)}
+.visit-grid{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:0;margin-top:40px;border-top:2px solid var(--graphite)}
+.vb{padding:26px 26px 26px 0}
+.vb + .vb{padding-left:26px;border-left:1px solid rgba(20,22,25,.3)}
+.vb h3{font-size:24px;text-transform:uppercase;margin:8px 0 10px}
+.vb p{margin:0 0 6px}
+.vb a{font-weight:600}
+.hours{width:100%;border-collapse:collapse;font:500 14px var(--mono)}
+.hours td{padding:8px 0;border-bottom:1px solid rgba(20,22,25,.25)}
+.hours td:last-child{text-align:right}
+.big-tel{display:block;font:700 clamp(34px,4vw,52px)/1 var(--sans);text-decoration:none;margin:10px 0 14px}
+.visit .btn{background:var(--graphite);color:var(--steel-3)}
+.visit .btn:hover{background:#000}
+.visit .btn.line{background:transparent;color:var(--graphite);box-shadow:inset 0 0 0 1.5px var(--graphite)}
+footer{background:#0d0e10;color:var(--steel);font:500 12px var(--mono);letter-spacing:.04em;padding-block:26px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.ribbon{position:fixed;left:14px;bottom:14px;z-index:60;background:var(--brass);color:var(--graphite);font:600 11px var(--mono);letter-spacing:.04em;padding:8px 12px;text-transform:uppercase;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+
+@media (max-width:980px){
+  .menu{display:none}
+  .hero-top{grid-template-columns:1fr}
+  .specs{grid-template-columns:repeat(3,1fr)}
+  .specs div:nth-child(4){border-left:0}
+  .specs div:nth-child(n+4){border-top:1px solid var(--vng-line)}
+  .counters .wrap{grid-template-columns:1fr 1fr}
+  .cnt:nth-child(3){border-left:0}
+  .cnt:nth-child(n+3){border-top:1px solid var(--vng-line)}
+  .cat-head,.lab-grid,.hero-sub{grid-template-columns:1fr}
+  .row{grid-template-columns:70px 1fr 130px}
+  .row .img{grid-column:1/-1;grid-row:2}
+  .cl.k,.cl.s,.cl.m{grid-column:span 12}
+  .mats{grid-template-columns:1fr}
+  .people{grid-template-columns:1fr}
+  .pp + .pp{padding-left:0;border-left:0}
+  .visit-grid{grid-template-columns:1fr}
+  .vb + .vb{padding-left:0;border-left:0;border-top:1px solid rgba(20,22,25,.3)}
+}
+@media (max-width:620px){
+  body{font-size:16px}
+  section{padding-block:76px}
+  .wrap{padding-inline:16px}
+  .nav .btn{padding:9px 12px;font-size:11px}
+  .brand span{display:none}
+  .specs{grid-template-columns:1fr 1fr}
+  .specs div{border-left:0!important;border-top:1px solid var(--vng-line)!important;padding:16px 12px 16px 0}
+  .specs div:nth-child(-n+2){border-top:0!important}
+  .specs div:last-child{grid-column:span 2}
+  .specs dd{font-size:19px}
+  .row{grid-template-columns:1fr auto;gap:10px 16px}
+  .row .c{grid-column:1/-1}
+  .row .img{grid-row:auto}
+  .pp{grid-template-columns:96px 1fr;padding-right:0}
+  .dim.mat{display:none}
+  .ev{width:270px;padding-right:30px}
+  .ev .y{font-size:60px}
+}
+/* timeline: senza pin scorre col dito; in ?shot=1 va a capo */
+.track-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:16px;scrollbar-width:thin}
+.track-wrap.pinned{overflow:visible}
+html.vng-static .track{flex-wrap:wrap;width:auto;row-gap:40px}
+html.vng-static .track::before{display:none}
+html.vng-static .ev{background:linear-gradient(var(--graphite),var(--graphite)) 0 94px/100% 2px no-repeat}
+@media (prefers-reduced-motion:reduce){.btn,.row,.row .img{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top"><strong>SALADINI</strong><span>Coltelleria · Scarperia</span></a>
+  <nav class="menu" aria-label="Sezioni"><a href="#coltelli">Coltelli</a><a href="#storia">Storia</a><a href="#laboratorio">Laboratorio</a><a href="#collezioni">Collezioni</a><a href="#visita">Orari</a></nav>
+  <a class="btn" href="#visita">Contattaci</a>
+</div></header>
+
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-top">
+      <div>
+        <p class="mono reveal">Cod. <b>1001</b> · coltello chiudibile · Scarperia (FI)</p>
+        <h1 id="heroTitle">Fiorentino</h1>
+      </div>
+      <div class="hero-sub">
+        <p class="hero-claim reveal"><b>Artigiani per scelta, innovatori per natura.</b> Forse il coltello più raffinato della produzione scarperiese di fine Ottocento, rifinito a mano nel nostro laboratorio.</p>
+        <div class="price-tag reveal">
+          <div class="p"><small>Prezzo IVA inclusa</small>€ 205–215</div>
+          <a class="btn" href="mailto:e-commerce@coltelleriasaladini.it?subject=Fiorentino%20cod.%201001">Chiedi disponibilità</a>
+        </div>
+      </div>
+    </div>
+    <div class="knife-stage">
+      <div class="knife" id="knife" role="img" aria-label="Coltello chiudibile Fiorentino Saladini con manico in corno">
+        <span class="dim code">Fig. 01 — Fiorentino</span>
+        <span class="dim mat">Manico: corno di bue / bufalo</span>
+        <span class="tick l"></span><span class="tick r"></span>
+        <span class="dim total"><span>Lunghezza totale 19 cm</span></span>
+      </div>
+    </div>
+    <dl class="specs">
+      <div><dt>Lunghezza</dt><dd>19 cm</dd></div>
+      <div><dt>Lama</dt><dd>8,2 cm</dd></div>
+      <div><dt>Peso</dt><dd>85 g</dd></div>
+      <div><dt>Acciaio lama</dt><dd>MA5MV temprato</dd></div>
+      <div><dt>Fasce</dt><dd>Argento 625 inciso</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="counters" aria-label="In numeri"><div class="wrap">
+  <div class="cnt"><span class="num" data-vng-count="1841">1841</span><p>Saladini maestri coltellinai <b>a Scarperia</b></p></div>
+  <div class="cnt"><span class="num" data-vng-count="1997">1997</span><p>apre la bottega <b>in Via Solferino</b></p></div>
+  <div class="cnt"><span class="num" data-vng-count="15">15</span><p>modelli <b>chiudibili</b> nello shop</p></div>
+  <div class="cnt"><span class="num" data-vng-count="7" data-suffix="/7">7/7</span><p>negozio aperto <b>tutti i giorni</b></p></div>
+</div></section>
+
+<div class="mq">
+  <p class="mono mq-label">I modelli tradizionali — rifiniti a mano</p>
+  <div class="vng-marquee" data-vng-marquee>
+    <div class="vng-marquee__track">
+      <span class="logo f">Fiorentino</span><span class="sep">/</span>
+      <span class="logo">Senese</span><span class="sep">/</span>
+      <span class="logo f">Zuava</span><span class="sep">/</span>
+      <span class="logo">Gobbo Abruzzese</span><span class="sep">/</span>
+      <span class="logo f">Tre Pianelle</span><span class="sep">/</span>
+      <span class="logo">Maremmano</span><span class="sep">/</span>
+      <span class="logo f">Rasolino</span><span class="sep">/</span>
+      <span class="logo">Pattada</span><span class="sep">/</span>
+      <span class="logo f">Scarperiese</span><span class="sep">/</span>
+      <span class="logo">Caccia Mugellano</span><span class="sep">/</span>
+    </div>
+  </div>
+</div>
+
+<section id="coltelli"><div class="wrap">
+  <div class="cat-head">
+    <div><p class="mono rule">Listino · coltelli chiudibili</p><h2 class="reveal">La tradizione <em>si chiude</em> in tasca</h2></div>
+    <p class="lead reveal">Ogni coltello è rifinito a mano, con vite in acciaio inox per la manutenzione. Il prezzo cambia con il materiale del manico: corno di bue, corno di bufalo o legno d'olivo.</p>
+  </div>
+  <div class="list">
+    <a class="row reveal" href="mailto:e-commerce@coltelleriasaladini.it?subject=Senese%20cod.%201003"><span class="c">1003</span><h3>Senese<small>Simile al Fiorentino, senza fasce metalliche. Profilo snello. Lama 8 cm, 104 g.</small></h3><div class="img" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/1003O_senese.jpg')"></div><div class="pr"><small>da</small>€ 125–155</div></a>
+    <a class="row reveal" href="mailto:e-commerce@coltelleriasaladini.it?subject=Zuava%20cod.%201004"><span class="c">1004</span><h3>Zuava<small>Il classico di Scarperia: guance in corno o legno, due solidi bolster. Lama 8,5 cm, 110 g.</small></h3><div class="img" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/1004O_zuava_olivo.jpg')"></div><div class="pr"><small>da</small>€ 155–175</div></a>
+    <a class="row reveal" href="mailto:e-commerce@coltelleriasaladini.it?subject=Gobbo%20Abruzzese%20cod.%201005"><span class="c">1005</span><h3>Gobbo Abruzzese<small>Modello tradizionale chiudibile.</small></h3><div class="img" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/1005_gobbo_abruzzese.jpg')"></div><div class="pr"><small>da</small>€ 115–140</div></a>
+    <a class="row reveal" href="mailto:e-commerce@coltelleriasaladini.it?subject=Tre%20Pianelle%20cod.%201006"><span class="c">1006</span><h3>Tre Pianelle<small>Modello tradizionale chiudibile.</small></h3><div class="img" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/1006_tre_pianelle.jpg')"></div><div class="pr"><small>da</small>€ 140–160</div></a>
+    <a class="row reveal" href="mailto:e-commerce@coltelleriasaladini.it?subject=Pattada%20cod.%201028"><span class="c">1028</span><h3>Pattada<small>Modello tradizionale chiudibile.</small></h3><div class="img" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/1028_pattada_senza_sodi.jpg')"></div><div class="pr"><small>da</small>€ 125–170</div></a>
+    <a class="row reveal" href="mailto:e-commerce@coltelleriasaladini.it?subject=Scarperiese%20cod.%201030"><span class="c">1030</span><h3>Scarperiese<small>Disegnato da Giacomo Cecchi. Lama N690 da 9 cm, guance in inox o titanio.</small></h3><div class="img" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/1030TC_scarperiese_titanio.jpg')"></div><div class="pr"><small>da</small>€ 195–315</div></a>
+  </div>
+  <p class="note">Prezzi IVA inclusa, pubblicati sullo shop. La disponibilità riguarda i componenti: la consegna può richiedere fino a 30 giorni lavorativi. Anche Maremmano tradizionale (€ 130–155), Maremmano a foglia (€ 140–170), Rasolino (€ 125–140), Rasolino tagliasigari (€ 130–155), Trend con targhetta argento (€ 125–155), Caccia Mugellano (€ 125–170), Zuava next (€ 125–170) e Coltello da funghi (€ 120–145).</p>
+</div></section>
+
+<section class="tl" id="storia"><div class="tl-in">
+  <div class="wrap">
+    <p class="mono rule">Cronologia</p>
+    <h2>Scarperia, <em>la città dei ferri taglienti</em></h2>
+    <p class="lead" style="color:#3d444a">Un borgo medievale a pochi chilometri da Firenze dove si fanno coltelli dal XV secolo. «La passione dei nostri avi vive nei nostri coltelli artigianali».</p>
+  </div>
+  <div class="track-wrap" id="trackWrap"><div class="wrap"><div class="track" id="track">
+    <div class="ev"><div class="y">XV<small>&nbsp;sec.</small></div><span class="mono">Scarperia</span><h3>Nasce una tradizione</h3><p>A Scarperia comincia la tradizione coltellinaia che dura ancora oggi.</p></div>
+    <div class="ev"><div class="y">1841</div><span class="mono">Pieve di Fagna</span><h3>Maestri coltellinai</h3><p>La famiglia Saladini è documentata a Scarperia come maestri coltellinai negli archivi storici della Pieve di Fagna.</p></div>
+    <div class="ev"><div class="y">1984</div><span class="mono">Leonardo Saladini</span><h3>L'apprendistato</h3><p>Leonardo, nato nel 1969, inizia a lavorare presso lo zio Marcello Azzini.</p></div>
+    <div class="ev"><div class="y">1996<small>–98</small></div><span class="mono">Giacomo Cecchi</span><h3>Maestro coltellinaio</h3><p>Giacomo ottiene gli attestati di maestro coltellinaio e di lavorazione artistica dei metalli.</p></div>
+    <div class="ev"><div class="y">1997</div><span class="mono">Via Solferino</span><h3>Apre la coltelleria</h3><p>Leonardo apre la Coltelleria Saladini nel centro di Scarperia.</p></div>
+    <div class="ev"><div class="y">2002</div><span class="mono">Nuovi modelli</span><h3>Arriva Giacomo</h3><p>Allievo di Marcello Azzini e Renzo Berti, progetta e realizza i nuovi modelli Saladini.</p></div>
+    <div class="ev now"><div class="y">Oggi</div><span class="mono">Negozio + laboratorio</span><h3>Showroom e laboratorio</h3><p>Negozio in Via Solferino 19, aperto 7 giorni su 7; laboratorio in Via Kennedy 172.</p></div>
+  </div></div></div>
+</div></section>
+
+<section class="lab" id="laboratorio">
+  <div class="vng-pgrid" data-vng-pgrid="26"></div>
+  <div class="wrap lab-grid">
+    <div>
+      <p class="mono rule">Il laboratorio · Via Kennedy 172</p>
+      <p class="quote reveal"><q>I macchinari fondamentali che utilizziamo sono le nostre mani</q></p>
+      <p class="lead reveal">Esperienza, manualità, ingegno: gli ingredienti del nostro mestiere. In laboratorio puoi toccare le materie prime e vedere come nasce un coltello.</p>
+      <ul>
+        <li><span>01</span>Studio delle lame e schizzi dei manici</li>
+        <li><span>02</span>Lavorazione della lama in acciaio</li>
+        <li><span>03</span>Montaggio e rifinitura a mano</li>
+        <li><span>04</span>Intarsi e incisioni su richiesta</li>
+      </ul>
+      <a class="btn line" href="tel:+390558431010">Prenota una visita · 055 8431010</a>
+    </div>
+    <div class="photos">
+      <figure class="ph a" style="margin:0"><div class="par" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/lavorazione-1024x682.jpg')"></div><figcaption>Lavorazione</figcaption></figure>
+      <figure class="ph b" style="margin:0"><div class="par" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/04/schizzi_manici-1024x679.jpg')"></div><figcaption>Schizzi dei manici</figcaption></figure>
+      <figure class="ph c" style="margin:0"><div class="par" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/lama-1024x682.jpg')"></div><figcaption>La lama</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="coll" id="collezioni"><div class="wrap">
+  <p class="mono rule">Oltre i chiudibili</p>
+  <h2 class="reveal">Cucina, storia, <em>sigari</em></h2>
+  <div class="coll-grid">
+    <article class="cl k reveal"><div class="ph"><div class="par" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/coltelli_formaggio-1024x682.jpg')"></div></div><div class="t"><span class="mono">Collezione Cucina</span><h3>Acciaio forgiato</h3><p>Coltelli per la casa e per i professionisti, con manici in corno di bue, bufalo o legno.</p></div></article>
+    <article class="cl s reveal"><div class="ph"><div class="par" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/passatore-1024x682.jpg')"></div></div><div class="t"><span class="mono">Coltelli storici · su ordinazione</span><h3>Riproduzioni</h3><p>Modelli storici rifatti a mano, con intarsi e incisioni.</p></div></article>
+    <article class="cl m reveal"><div class="ph"><div class="par" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/04/tagliasigari_foro_chiuso-1024x680.jpg')"></div></div><div class="t"><span class="mono">Tagliasigari</span><h3>Da tavolo e da tasca</h3><p>In materiali naturali, personalizzabili.</p></div></article>
+    <div class="mats">
+      <span class="mono" style="align-self:center">Essenze e materiali</span>
+      <div class="mat"><i style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/CORNO-DI-BUE.jpg')"></i><div><b>Corno di bue</b><span>manico</span></div></div>
+      <div class="mat"><i style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/CORNO-DI-BUFALO.jpg')"></i><div><b>Corno di bufalo</b><span>manico</span></div></div>
+      <div class="mat"><i style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/OLIVO.jpg');background-color:#7a5a32"></i><div><b>Legno d'olivo</b><span>manico</span></div></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="persone"><div class="wrap">
+  <p class="mono rule">Chi fa i coltelli</p>
+  <h2 class="reveal">Due mestieri, <em>una bottega</em></h2>
+  <div class="people">
+    <div class="pp reveal"><div class="face" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/leonardo_saladini.jpg')"></div><div><span class="mono">Fondatore · parte commerciale</span><h3>Leonardo Saladini</h3><p>Nato nel 1969, apprendista dal 1984 presso lo zio Marcello Azzini. Nel 1997 apre la coltelleria in Via Solferino.</p></div></div>
+    <div class="pp reveal"><div class="face" style="background-image:url('https://www.coltelleriasaladini.it/wp-content/uploads/2014/03/giacomo_cecchi.jpg')"></div><div><span class="mono">Progetto e nuovi modelli</span><h3>Giacomo Cecchi</h3><p>Nato nel 1974, studi di architettura e design, maestro coltellinaio. In Saladini dal 2002.</p></div></div>
+  </div>
+</div></section>
+
+<section class="visit" id="visita"><div class="wrap">
+  <p class="mono">Vieni a Scarperia (FI)</p>
+  <h2>Prendilo in mano prima di sceglierlo</h2>
+  <div class="visit-grid">
+    <div class="vb">
+      <span class="mono">Telefono</span>
+      <a class="big-tel" href="tel:+390558431010">055 8431010</a>
+      <p><a href="mailto:e-commerce@coltelleriasaladini.it">e-commerce@coltelleriasaladini.it</a></p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:18px"><a class="btn" href="tel:+390558431010">Chiama</a><a class="btn line" href="mailto:e-commerce@coltelleriasaladini.it">Scrivi</a></div>
+    </div>
+    <div class="vb">
+      <span class="mono">Negozio e showroom</span>
+      <h3>Via Solferino 19</h3>
+      <p>50038 Scarperia (FI)</p>
+      <table class="hours"><tr><td>Lun–Ven</td><td>9:00–13:00 · 15:00–19:00</td></tr><tr><td>Sab–Dom</td><td>10:00–12:30 · 15:00–18:30</td></tr></table>
+    </div>
+    <div class="vb">
+      <span class="mono">Laboratorio</span>
+      <h3>Via Kennedy 172</h3>
+      <p>50038 Scarperia (FI)</p>
+      <p style="margin-top:12px">Qui si toccano le materie prime e si vede la lavorazione dal vivo.</p>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span>Coltelleria Saladini · Scarperia e San Piero (FI)</span><span>Coltelli chiudibili · Cucina · Storici · Tagliasigari</span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  // gli anni non vogliono il separatore delle migliaia
+  document.querySelectorAll('[data-vng-count="1841"],[data-vng-count="1997"]').forEach(function(el){
+    var end=+el.dataset.vngCount; el.removeAttribute('data-vng-count'); el.dataset.year=end; el.style.fontVariantNumeric='tabular-nums';
+  });
+  var shot=/[?&]shot=1/.test(location.search);
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(shot||reduce||!window.gsap) return;
+
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:0.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();lenis.scrollTo(t,{offset:-68});}});});
+
+  // titolo
+  document.fonts.ready.then(function(){
+    var st=new SplitText('#heroTitle',{type:'chars'});
+    gsap.from(st.chars,{yPercent:100,opacity:0,duration:.9,ease:'power4.out',stagger:.035,delay:.1});
+  });
+  gsap.from('.hero .reveal',{y:24,opacity:0,duration:.9,ease:'power3.out',stagger:.1,delay:.4});
+  // coltello: entra da destra e scorre col parallax
+  gsap.from('#knife',{xPercent:12,opacity:0,duration:1.4,ease:'expo.out',delay:.3});
+  gsap.to('#knife',{xPercent:-4,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  gsap.from('.specs > div',{y:20,opacity:0,duration:.7,stagger:.07,ease:'power3.out',delay:.8});
+
+  // anni che contano
+  document.querySelectorAll('[data-year]').forEach(function(el){
+    var end=+el.dataset.year,o={v:end-180};
+    gsap.to(o,{v:end,duration:1.8,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 90%'},onUpdate:function(){el.textContent=Math.round(o.v);}});
+  });
+
+  gsap.utils.toArray('.reveal').forEach(function(el){
+    if(el.closest('.hero')) return;
+    gsap.from(el,{y:36,opacity:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 90%'}});
+  });
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-5},{yPercent:5,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+
+  // timeline orizzontale: pin solo su schermi larghi
+  var mm=gsap.matchMedia();
+  mm.add('(min-width: 900px)',function(){
+    var track=document.getElementById('track'),tw=document.getElementById('trackWrap');
+    tw.classList.add('pinned');
+    function dist(){return Math.max(0,track.scrollWidth-track.parentElement.clientWidth);}
+    gsap.to(track,{x:function(){return -dist();},ease:'none',scrollTrigger:{trigger:'.tl',start:'top top',end:function(){return '+='+dist();},pin:true,scrub:1,invalidateOnRefresh:true}});
+    return function(){tw.classList.remove('pinned');};
+  });
+  gsap.from('.ev',{y:30,opacity:0,duration:.8,stagger:.08,ease:'power3.out',scrollTrigger:{trigger:'.tl',start:'top 70%'}});
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+})();
+</script>
+</body>
+</html>

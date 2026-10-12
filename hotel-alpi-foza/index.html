@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Hotel Alpi di Foza · Bike Hotel e ristorante sull'Altopiano di Asiago</title>
+<meta name="description" content="Albergo-ristorante di famiglia nel centro di Foza, Altopiano di Asiago 7 Comuni: suite familiari, camere e mansarde, cucina del territorio, e-mountain bike a prezzi agevolati.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  --green:#2f6b2a; --green-d:#1f4a1b; --yellow:#f6b90f; --orange:#ea6a12; --ink:#111110; --paper:#f3efe3; --white:#fffdf6;
+  --disp:"Anton","Impact",sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace; --body:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --b:4px solid var(--ink);
+  --vng-bg:#f3efe3; --vng-fg:#111110; --vng-muted:#3d3a33; --vng-accent:#111110; --vng-accent-fg:#f6b90f;
+  --vng-surface:#fffdf6; --vng-line:#111110; --vng-ease-out:cubic-bezier(.22,1,.36,1);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:400;text-transform:uppercase;margin:0;line-height:.92;letter-spacing:.005em}
+.wrap{max-width:1320px;margin:0 auto;padding-inline:clamp(16px,3vw,40px)}
+.tag{font:700 12px/1.2 var(--mono);letter-spacing:.14em;text-transform:uppercase}
+.tag.box{display:inline-block;background:var(--ink);color:var(--yellow);padding:6px 10px}
+p{margin:0 0 1em}
+
+/* bottone brutalista (vng-hbtn) */
+.vng-hbtn{border:var(--b);border-radius:0;background:var(--yellow);color:var(--ink);font:700 14px/1 var(--mono);text-transform:uppercase;letter-spacing:.06em;padding:16px 22px;box-shadow:6px 6px 0 var(--ink);transition:transform .15s,box-shadow .15s}
+.vng-hbtn:hover{transform:translate(3px,3px);box-shadow:3px 3px 0 var(--ink)}
+.vng-hbtn__dot{border-radius:0;background:var(--ink)}
+.vng-hbtn.dark{background:var(--ink);color:var(--yellow);--vng-accent:var(--yellow);--vng-accent-fg:var(--ink)}
+.vng-hbtn.dark .vng-hbtn__dot{background:var(--yellow)}
+.vng-hbtn.green{background:var(--green);color:var(--white)}
+
+/* NAV */
+.nav{position:fixed;inset:0 0 auto 0;z-index:40;background:var(--paper);border-bottom:var(--b)}
+.nav .wrap{display:flex;align-items:stretch;justify-content:space-between;gap:16px;min-height:64px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font:400 24px/1 var(--disp);text-transform:uppercase}
+.brand i{display:grid;place-items:center;width:38px;height:38px;background:var(--green);color:var(--yellow);border:3px solid var(--ink);font-style:normal;font-size:20px}
+.menu{display:flex;align-items:stretch;font:700 13px var(--mono);text-transform:uppercase;letter-spacing:.06em}
+.menu a{display:flex;align-items:center;padding:0 18px;text-decoration:none;border-left:var(--b)}
+.menu a:hover{background:var(--ink);color:var(--yellow)}
+.nav .vng-hbtn{align-self:center;padding:12px 16px;box-shadow:4px 4px 0 var(--ink)}
+
+/* HERO tipografico */
+.hero{background:var(--yellow);border-bottom:var(--b);padding:clamp(110px,14vh,150px) 0 clamp(36px,6vh,64px);min-height:100svh;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+.hero > .wrap{width:100%}
+.hero .top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.hero h1{font-size:clamp(84px,19.5vw,330px);line-height:.84;margin:28px 0 10px;letter-spacing:-.01em}
+.hero h1 .w{display:inline-block}
+.hero h1 .g{color:var(--green)}
+.rot{font:400 clamp(30px,5.2vw,78px)/1.05 var(--disp);text-transform:uppercase;display:flex;flex-wrap:wrap;align-items:baseline;gap:.25em}
+.rot .box{background:var(--ink);color:var(--yellow);padding:.04em .22em .08em;display:inline-flex;gap:.2em}
+.rot-words .sep{opacity:.5}
+.js-rot .rot-words .sep{display:none}
+.js-rot .rot-words [data-vng-flip]:not(.on){display:none}
+.hero .bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-top:30px}
+.hero .bottom p{max-width:46ch;font-size:18px;margin:0}
+
+/* FOTO che arriva allo scroll */
+.reveal-photo{position:relative;height:min(92vh,860px);border-bottom:var(--b);overflow:hidden;background:var(--green)}
+.reveal-photo .img{position:absolute;inset:-8% 0;background:#4c7a39 url('https://static.wixstatic.com/media/bd65c3_c5eb918ad40d4166829ee808b8a5101c~mv2.jpg') center/cover}
+.reveal-photo .cap{position:absolute;left:clamp(16px,3vw,40px);bottom:clamp(16px,3vw,40px);background:var(--paper);border:var(--b);padding:14px 18px;max-width:min(520px,calc(100% - 32px))}
+.reveal-photo .cap b{font:400 30px/1 var(--disp);text-transform:uppercase;display:block;margin-bottom:6px}
+
+/* INTRO asimmetrica */
+.intro{display:grid;grid-template-columns:1.1fr 1fr;border-bottom:var(--b)}
+.intro > div{padding:clamp(40px,6vw,90px) clamp(16px,3vw,40px)}
+.intro .l{border-right:var(--b)}
+.intro h2{font-size:clamp(52px,7vw,112px)}
+.intro .people{display:grid;grid-template-columns:1fr 1fr;border-top:var(--b);margin-top:32px}
+.intro .people div{padding:14px 0;border-bottom:2px solid var(--ink);font:500 14px var(--mono)}
+.intro .people div:nth-child(odd){border-right:2px solid var(--ink);padding-right:12px}
+.intro .people div:nth-child(even){padding-left:12px}
+.intro .people b{display:block;font:400 26px var(--disp);text-transform:uppercase}
+.intro .r .lead{font-size:21px;line-height:1.45;font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.chips span{border:3px solid var(--ink);padding:8px 12px;font:700 13px var(--mono);text-transform:uppercase;background:var(--white)}
+
+/* MARQUEE enorme */
+.big-marquee{background:var(--ink);color:var(--yellow);border-bottom:var(--b);padding:18px 0;-webkit-mask-image:none;mask-image:none;--vng-marquee-gap:2.2rem;--vng-marquee-speed:34s}
+.big-marquee span{font:400 clamp(70px,11vw,170px)/1 var(--disp);text-transform:uppercase;white-space:nowrap}
+.big-marquee span.o{color:transparent;-webkit-text-stroke:2px var(--yellow)}
+.big-marquee span.s{color:var(--orange)}
+
+/* CAMERE */
+.sec{padding:clamp(70px,9vw,120px) 0;border-bottom:var(--b)}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:40px}
+.sec-head h2{font-size:clamp(56px,9vw,150px)}
+.sec-head p{max-width:42ch;margin:0}
+.rooms{display:grid;grid-template-columns:1.25fr 1fr;border:var(--b);background:var(--white)}
+.rooms .ph{position:relative;overflow:hidden;border-right:var(--b);min-height:460px;background:#9a7b55}
+.rooms .ph div{position:absolute;inset:-8% 0;background:#9a7b55 url('https://static.wixstatic.com/media/bd65c3_2e8e9f8e648b4bc8a7d5700910d3b238.jpg') center/cover}
+.rooms .ph .tag{position:absolute;left:16px;top:16px;z-index:2}
+.rlist{list-style:none;margin:0;padding:0}
+.rlist li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:18px 22px;border-bottom:3px solid var(--ink)}
+.rlist li:last-child{border-bottom:0}
+.rlist b{font:400 clamp(26px,3vw,40px)/1 var(--disp);text-transform:uppercase;min-width:0}
+.rlist small{font:500 13px var(--mono);text-align:right}
+.rlist li:hover{background:var(--yellow)}
+.prices{display:grid;grid-template-columns:repeat(3,1fr);margin-top:28px;border:var(--b)}
+.price{padding:24px 22px;border-right:var(--b);background:var(--paper)}
+.price:last-child{border-right:0}
+.price:nth-child(1){background:var(--green);color:var(--white)}
+.price:nth-child(2){background:var(--yellow)}
+.price .tag{display:block;margin-bottom:10px}
+.price strong{font:400 clamp(44px,5vw,72px)/1 var(--disp);display:block}
+.price span{font:500 13px var(--mono)}
+.tbl-wrap{overflow-x:auto;margin-top:28px;border:var(--b);background:var(--white)}
+table{border-collapse:collapse;width:100%;min-width:560px;font:500 14px var(--mono)}
+th,td{padding:13px 16px;border-bottom:2px solid var(--ink);text-align:left}
+th{background:var(--ink);color:var(--yellow);font-weight:700;text-transform:uppercase;font-size:12px;letter-spacing:.08em}
+td:not(:first-child),th:not(:first-child){text-align:right}
+tr:last-child td{border-bottom:0}
+.note{font:500 13px/1.5 var(--mono);margin-top:14px;max-width:90ch}
+
+/* CUCINA */
+.kitchen{background:var(--green);color:var(--white)}
+.kitchen .sec-head h2{color:var(--yellow)}
+.dishes{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:auto auto;gap:0;border:var(--b);background:var(--ink)}
+.dish{position:relative;border:2px solid var(--ink);background:var(--paper);color:var(--ink);display:flex;flex-direction:column}
+.dish .ph{position:relative;overflow:hidden;aspect-ratio:4/3;background:#d9a441;border-bottom:var(--b)}
+.dish .ph div{position:absolute;inset:-8% 0;background-size:cover;background-position:center}
+.dish.big{grid-row:span 2}
+.dish.big .ph{aspect-ratio:auto;flex:1;min-height:360px}
+.dish .t{padding:16px 18px}
+.dish h3{font-size:clamp(24px,2.4vw,34px);margin-bottom:6px}
+.dish p{font:500 13px/1.45 var(--mono);margin:0}
+.kitchen .duo{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:40px;align-items:stretch}
+.kitchen .duo .ph{position:relative;overflow:hidden;border:var(--b);min-height:340px;background:#6b4b2c}
+.kitchen .duo .ph div{position:absolute;inset:-8% 0;background-size:cover;background-position:center}
+.kitchen .quote{border:var(--b);background:var(--yellow);color:var(--ink);padding:clamp(24px,3vw,40px);display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.kitchen .quote h3{font-size:clamp(40px,4.4vw,68px)}
+
+/* BIKE / ALTOPIANO */
+.bike{background:var(--paper)}
+.bgrid{display:grid;grid-template-columns:repeat(12,1fr);gap:0;border:var(--b)}
+.bcell{border:2px solid var(--ink);padding:24px;position:relative;overflow:hidden;min-height:240px}
+.bcell.photo{padding:0;background:#5c7f4a}
+.bcell.photo div{position:absolute;inset:-8% 0;background-size:cover;background-position:center}
+.bcell.photo .tag{position:absolute;left:12px;bottom:12px;z-index:2}
+.bcell h3{font-size:clamp(34px,3.6vw,56px);margin-bottom:12px}
+.bcell p{font-size:16px;margin:0}
+.c-ebike{grid-column:span 5;background:var(--orange);color:var(--ink)}
+.c-ebike h3{font-size:clamp(44px,5vw,84px);overflow-wrap:anywhere}
+.c-p1{grid-column:span 7;min-height:380px}
+.c-p2{grid-column:span 4}
+.c-walk{grid-column:span 4;background:var(--yellow)}
+.c-snow{grid-column:span 4;background:var(--ink);color:var(--paper)}
+.c-snow h3{color:var(--yellow)}
+.c-p3{grid-column:span 6;min-height:320px}
+.c-war{grid-column:span 6;background:var(--white)}
+
+/* SERVIZI + WHATSAPP */
+.svc{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:var(--b);background:var(--ink);color:var(--paper)}
+.svc div{padding:26px clamp(16px,2vw,28px);border-right:2px solid #444;font:700 14px var(--mono);text-transform:uppercase;letter-spacing:.05em}
+.svc div:last-child{border-right:0}
+.svc div b{display:block;color:var(--yellow);font:400 30px/1 var(--disp);margin-bottom:8px}
+.wa{background:var(--yellow);border-bottom:var(--b)}
+.wa .wrap{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:center;padding-block:clamp(50px,7vw,90px)}
+.wa h2{font-size:clamp(48px,7vw,110px)}
+.wa .card{border:var(--b);background:var(--white);padding:24px;box-shadow:10px 10px 0 var(--ink)}
+.wa .card ol{margin:0;padding-left:1.4em;font:500 15px/1.7 var(--mono)}
+.wa .num{font:400 44px/1 var(--disp);display:block;margin:4px 0 14px}
+
+/* CONTATTI */
+.contact{background:var(--ink);color:var(--paper);padding:clamp(70px,9vw,120px) 0}
+.contact h2{font-size:clamp(64px,11vw,190px);color:var(--yellow)}
+.cgrid{display:grid;grid-template-columns:repeat(3,1fr);border:4px solid var(--paper);margin-top:40px}
+.cgrid > div{padding:24px;border-right:4px solid var(--paper)}
+.cgrid > div:last-child{border-right:0}
+.cgrid .tag{color:var(--yellow);display:block;margin-bottom:12px}
+.cgrid a{display:block;text-decoration:none;font:400 30px/1.15 var(--disp);text-transform:uppercase}
+.cgrid a:hover{color:var(--yellow)}
+.cgrid p{font:500 14px/1.6 var(--mono);margin:8px 0 0}
+.contact .cta{display:flex;gap:18px;flex-wrap:wrap;margin-top:36px}
+.contact .vng-hbtn{border-color:var(--paper);box-shadow:6px 6px 0 var(--paper)}
+footer{background:var(--green-d);color:var(--paper);font:500 12px var(--mono);padding:20px 0}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.ribbon{position:fixed;left:12px;bottom:12px;z-index:60;background:var(--ink);color:var(--yellow);border:3px solid var(--yellow);font:700 11px var(--mono);padding:8px 10px;text-transform:uppercase;letter-spacing:.04em}
+
+@media (max-width:980px){
+  .menu{display:none}
+  .intro{grid-template-columns:1fr}
+  .intro .l{border-right:0;border-bottom:var(--b)}
+  .rooms{grid-template-columns:minmax(0,1fr)}
+  .rooms .ph{border-right:0;border-bottom:var(--b);min-height:300px}
+  .dishes{grid-template-columns:1fr 1fr}
+  .dish.big{grid-column:span 2;grid-row:auto}
+  .dish.big .ph{min-height:280px}
+  .kitchen .duo{grid-template-columns:1fr}
+  .bgrid{grid-template-columns:1fr 1fr}
+  .bgrid > *{grid-column:span 1 !important}
+  .c-ebike,.c-p1{grid-column:span 2 !important}
+  .svc{grid-template-columns:1fr 1fr}
+  .svc div:nth-child(2){border-right:0}
+  .svc div:nth-child(-n+2){border-bottom:2px solid #444}
+  .wa .wrap{grid-template-columns:1fr}
+  .cgrid{grid-template-columns:1fr}
+  .cgrid > div{border-right:0;border-bottom:4px solid var(--paper)}
+  .cgrid > div:last-child{border-bottom:0}
+}
+@media (max-width:600px){
+  body{font-size:16px}
+  .brand span{font-size:20px}
+  .nav .vng-hbtn{padding:10px 12px;font-size:12px}
+  .hero h1{font-size:clamp(66px,22vw,120px)}
+  .prices{grid-template-columns:1fr}
+  .price{border-right:0;border-bottom:var(--b)}
+  .price:last-child{border-bottom:0}
+  .dishes{grid-template-columns:1fr}
+  .dish.big{grid-column:auto}
+  .bgrid{grid-template-columns:1fr}
+  .c-ebike,.c-p1{grid-column:auto !important}
+  .bcell.photo{min-height:240px}
+  .svc{grid-template-columns:1fr}
+  .svc div{border-right:0;border-bottom:2px solid #444}
+  .cgrid a{font-size:24px}
+  .ribbon{left:8px;right:auto;bottom:8px;font-size:10px;max-width:calc(100% - 16px)}
+}
+@media (prefers-reduced-motion:reduce){.vng-hbtn{transition:none}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top"><i>A</i><span>Alpi di Foza</span></a>
+  <nav class="menu" aria-label="Sezioni"><a href="#camere">Camere</a><a href="#cucina">Cucina</a><a href="#bike">Bike &amp; Altopiano</a><a href="#contatti">Contatti</a></nav>
+  <a class="vng-hbtn" href="#contatti"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Prenota</span><span class="vng-hbtn__b" aria-hidden="true">Prenota →</span></a>
+</div></header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap top">
+    <span class="tag box">Foza (VI) · Altopiano di Asiago 7 Comuni</span>
+    <span class="tag">Hotel · Ristorante · Bike Hotel</span>
+  </div>
+  <div class="wrap">
+    <h1 id="heroTitle"><span class="w">Hotel</span> <span class="w g">Alpi</span><br><span class="w">di Foza</span></h1>
+    <p class="rot" aria-live="off"><span>Si sale quassù per</span>
+      <span class="box rot-words" id="rot"><span data-vng-flip data-duration="2.6">la bici</span><span class="sep">/</span><span data-vng-flip data-duration="2.6">la cucina</span><span class="sep">/</span><span data-vng-flip data-duration="2.6">l'altopiano</span><span class="sep">/</span><span data-vng-flip data-duration="2.6">le ciaspole</span></span>
+    </p>
+  </div>
+  <div class="wrap bottom">
+    <p class="hero-p">Albergo e ristorante di famiglia nel centro di Foza, vicino alla chiesa e al museo. Cucina del territorio con qualche tocco creativo, e-mountain bike a prezzi agevolati, sentieri dietro casa.</p>
+    <a class="vng-hbtn dark" href="#contatti"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Chiedi disponibilità</span><span class="vng-hbtn__b" aria-hidden="true">Scrivici →</span></a>
+  </div>
+</section>
+
+<section class="reveal-photo" id="foto" aria-label="Foza e l'Altopiano">
+  <div class="img" id="bigImg" role="img" aria-label="Panorama di Foza sull'Altopiano di Asiago"></div>
+  <div class="cap"><b>Foza, 15 minuti da Asiago</b><span class="tag">Un paese con oltre mille anni di storia, vicino a Gallio</span></div>
+</section>
+
+<section class="intro">
+  <div class="l">
+    <span class="tag box">La famiglia Munari</span>
+    <h2 style="margin-top:22px" class="rv">Ospitalità di casa, cucina di sostanza</h2>
+    <div class="people">
+      <div><b>Gianni</b>titolare</div>
+      <div><b>Enzo</b>titolare</div>
+      <div><b>Gianmarco</b>titolare</div>
+      <div><b>Paola</b>ti segue al ristorante</div>
+    </div>
+  </div>
+  <div class="r">
+    <p class="lead rv">Un soggiorno all'Hotel Alpi di Foza, sull'Altopiano di Asiago 7 Comuni, vuol dire soprattutto ospitalità familiare.</p>
+    <p class="rv">Siamo nel centro del paese, accanto alla chiesa e al Museo di Foza. Da qui si parte a piedi o in bici per passeggiate brevi ed escursioni lunghe, d'estate e d'inverno. La sera si torna a tavola: piatti tipici del territorio, con qualche idea in più.</p>
+    <div class="chips"><span>Suite familiari</span><span>Mansarde</span><span>Appartamento in dependance</span><span>Ristorante alla carta</span><span>Serate a tema</span></div>
+  </div>
+</section>
+
+<div class="vng-marquee big-marquee" data-vng-marquee aria-label="Bike Hotel, cucina del territorio, Altopiano dei 7 Comuni, ciaspolate">
+  <div class="vng-marquee__track">
+    <span>Bike Hotel</span><span class="s">✱</span><span class="o">Cucina del territorio</span><span class="s">✱</span><span>Altopiano 7 Comuni</span><span class="s">✱</span><span class="o">Ciaspolate</span><span class="s">✱</span><span>Marcesina</span><span class="s">✱</span>
+  </div>
+</div>
+
+<section class="sec" id="camere"><div class="wrap">
+  <div class="sec-head">
+    <h2 class="rv">Camere</h2>
+    <p>Dalla suite per tutta la famiglia alla mansarda per due. Camera e colazione, mezza pensione o pensione completa.</p>
+  </div>
+  <div class="rooms">
+    <div class="ph"><span class="tag box">Suite familiare</span><div class="par" role="img" aria-label="Suite familiare dell'Hotel Alpi di Foza"></div></div>
+    <ul class="rlist">
+      <li><b>Suite familiari</b><small>4 letti, anche con due camere</small></li>
+      <li><b>Camere Classic</b><small>doppie</small></li>
+      <li><b>Camere Standard</b><small>doppie</small></li>
+      <li><b>Camere Economy</b><small>doppie</small></li>
+      <li><b>Mansarde</b><small>sotto il tetto</small></li>
+      <li><b>Appartamento</b><small>in dependance</small></li>
+    </ul>
+  </div>
+
+  <div class="prices">
+    <div class="price"><span class="tag">B&amp;B Classic</span><strong>€ 35–49</strong><span>a persona al giorno, in doppia</span></div>
+    <div class="price"><span class="tag">B&amp;B Standard</span><strong>€ 30–49</strong><span>a persona al giorno, in doppia</span></div>
+    <div class="price"><span class="tag">B&amp;B Economy</span><strong>€ 27–40</strong><span>a persona al giorno, in doppia</span></div>
+  </div>
+
+  <div class="tbl-wrap"><table>
+    <thead><tr><th>Camera e colazione, prezzo a camera</th><th>Classic</th><th>Standard</th><th>Economy</th></tr></thead>
+    <tbody>
+      <tr><td>Doppia, 2 persone</td><td>€ 65 / 85</td><td>€ 60 / 75</td><td>€ 55 / 70</td></tr>
+      <tr><td>Suite familiare, 4 letti</td><td>€ 89 / 130</td><td>€ 85 / 115</td><td>—</td></tr>
+      <tr><td>Suite familiare con due camere</td><td>€ 105 / 180</td><td>—</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Listino indicativo pubblicato sul sito, secondo periodo e disponibilità. Bambini 0–2 anni gratis (si pagano solo i pasti), 3–6 anni −50%, 7–12 anni −30%. Supplemento singola € 10–15. Ciaspole incluse gratis.</p>
+</div></section>
+
+<section class="sec kitchen" id="cucina"><div class="wrap">
+  <div class="sec-head">
+    <h2 class="rv">Cucina di sostanza</h2>
+    <p>Piatti tipici del territorio, con qualche tocco creativo. Colazione con prodotti locali.</p>
+  </div>
+  <div class="dishes">
+    <article class="dish big"><div class="ph"><div class="par" style="background-image:url('https://static.wixstatic.com/media/bd65c3_16a048b5aec5485f8ff25ead31d2b318~mv2.jpg')" role="img" aria-label="Lumache al ginepro selvatico su polenta"></div></div>
+      <div class="t"><h3>Lumache al ginepro selvatico</h3><p>Con scarola brasata, su nido di polenta e croccante di pane.</p></div></article>
+    <article class="dish"><div class="ph"><div class="par" style="background-image:url('https://static.wixstatic.com/media/bd65c3_882f024f16ac480c8e742899ea58f00d.jpg')" role="img" aria-label="Millefoglie di polenta"></div></div>
+      <div class="t"><h3>Millefoglie di polenta</h3></div></article>
+    <article class="dish"><div class="ph"><div class="par" style="background-image:url('https://static.wixstatic.com/media/bd65c3_c15310c7e1c0447292c624460d765af8.jpg')" role="img" aria-label="Zuppa di cipolle"></div></div>
+      <div class="t"><h3>Zuppa di cipolle</h3></div></article>
+    <article class="dish"><div class="ph"><div class="par" style="background-image:url('https://static.wixstatic.com/media/bd65c3_88b0c6fa70e44a5d8afb87e9f2fdf091.jpg')" role="img" aria-label="Gli chef in cucina"></div></div>
+      <div class="t"><h3>I nostri chef</h3></div></article>
+    <article class="dish"><div class="ph"><div class="par" style="background-image:url('https://static.wixstatic.com/media/bd65c3_49c2985136d84358bfaf30db7d264792.jpg')" role="img" aria-label="Sala del ristorante"></div></div>
+      <div class="t"><h3>La sala</h3></div></article>
+  </div>
+  <div class="duo">
+    <div class="ph"><div class="par" style="background-image:url('https://static.wixstatic.com/media/bd65c3_89d788f64a974c8ca9a909bbd447e446.jpg')" role="img" aria-label="Paola al ristorante"></div></div>
+    <div class="quote">
+      <span class="tag">Ristorante alla carta · serate a tema</span>
+      <h3>Paola ti segue al ristorante</h3>
+      <p style="margin:0">Cucina del territorio con tocchi creativi. Per prenotare un tavolo chiama l'hotel.</p>
+      <div><a class="vng-hbtn dark" href="tel:+390424698092"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Prenota un tavolo</span><span class="vng-hbtn__b" aria-hidden="true">0424 698092 →</span></a></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec bike" id="bike"><div class="wrap">
+  <div class="sec-head">
+    <h2 class="rv">Bike &amp; Altopiano</h2>
+    <p>Un territorio da scoprire giorno dopo giorno, piano piano, senza fretta.</p>
+  </div>
+  <div class="bgrid">
+    <div class="bcell c-ebike"><span class="tag">Bike Hotel</span><h3>E-MTB a prezzi agevolati</h3><p>Da noi le e-mountain bike sono a prezzi agevolati, e ti consigliamo i percorsi adatti al tuo allenamento e alla tua esperienza.</p></div>
+    <div class="bcell photo c-p1"><div class="par" style="background-image:url('https://static.wixstatic.com/media/bd65c3_cfd42087b96a4b5cb794da9404651258.jpg')" role="img" aria-label="Trekking sull'Altopiano"></div><span class="tag box">Trekking sull'Altopiano</span></div>
+    <div class="bcell photo c-p2"><div class="par" style="background-image:url('https://static.wixstatic.com/media/bd65c3_bc67fbf2004d4d56a143e3aa9c6eda08.jpg')" role="img" aria-label="Laghetti della torbiera di Marcesina"></div><span class="tag box">Torbiera di Marcesina</span></div>
+    <div class="bcell c-walk"><span class="tag">A piedi</span><h3>Escursioni guidate</h3><p>Passeggiate brevi ed escursioni lunghe sui sentieri dell'Altopiano.</p></div>
+    <div class="bcell c-snow"><span class="tag">D'inverno</span><h3>Ciaspolate</h3><p>Le ciaspole te le diamo noi, incluse gratis nel soggiorno.</p></div>
+    <div class="bcell photo c-p3"><div class="par" style="background-image:url('https://static.wixstatic.com/media/bd65c3_9e19d0874f444a23b695492bd8a4a31f.jpg')" role="img" aria-label="La Transumanza"></div><span class="tag box">Evento: la Transumanza</span></div>
+    <div class="bcell c-war"><span class="tag">Storia</span><h3>Luoghi della Grande Guerra</h3><p>Sull'Altopiano dei 7 Comuni si visitano i luoghi della Prima guerra mondiale. In paese c'è il Museo di Foza.</p></div>
+  </div>
+</div></section>
+
+<div class="svc">
+  <div><b>P</b>Parcheggio gratuito davanti all'hotel</div>
+  <div><b>↕</b>Ascensore</div>
+  <div><b>Wi-Fi</b>In hotel</div>
+  <div><b>☺</b>Parco giochi vicino</div>
+</div>
+
+<section class="wa"><div class="wrap">
+  <div><span class="tag box">Offerte su WhatsApp</span><h2 style="margin-top:20px" class="rv">Le offerte arrivano sul telefono</h2></div>
+  <div class="card">
+    <span class="tag">Salva il numero</span>
+    <span class="num">0424 698064</span>
+    <ol><li>Salvalo in rubrica</li><li>Mandaci su WhatsApp nome e cognome</li><li>Scrivi «OFFERTE»</li></ol>
+  </div>
+</div></section>
+
+<section class="contact" id="contatti"><div class="wrap">
+  <span class="tag" style="color:var(--paper)">Contatti e prenotazioni</span>
+  <h2 class="rv" style="margin-top:14px">Ci vediamo a Foza</h2>
+  <div class="cgrid">
+    <div><span class="tag">Hotel</span><a href="tel:+390424698092">0424 698092</a><a href="tel:+390424698064">0424 698064</a><p>Cellulari: Gianni <a style="display:inline;font:inherit" href="tel:+393404595815">340 4595815</a> · Gianmarco <a style="display:inline;font:inherit" href="tel:+393404595813">340 4595813</a> · Enzo <a style="display:inline;font:inherit" href="tel:+393496839516">349 6839516</a></p></div>
+    <div><span class="tag">Email</span><a href="mailto:info@hotelalpifoza.com" style="text-transform:none;font-size:clamp(20px,2.2vw,28px)">info@hotelalpifoza.com</a><p>Scrivici le date e quante persone siete.</p></div>
+    <div><span class="tag">Indirizzo</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Via+Roma+14+36010+Foza+VI">Via Roma 14<br>36010 Foza (VI)</a><p>Altopiano di Asiago 7 Comuni. Circa 15 minuti da Asiago.</p></div>
+  </div>
+  <div class="cta">
+    <a class="vng-hbtn" href="mailto:info@hotelalpifoza.com"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Scrivi una email</span><span class="vng-hbtn__b" aria-hidden="true">info@hotelalpifoza.com</span></a>
+    <a class="vng-hbtn green" href="tel:+390424698092"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Chiama l'hotel</span><span class="vng-hbtn__b" aria-hidden="true">0424 698092 →</span></a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>Hotel Alpi snc di Munari Giovanni e Enzo · P.IVA 02363670247</span><span>Via Roma 14, 36010 Foza (VI)</span></div></footer>
+<div class="ribbon">Proposta di restyling – bozza non ufficiale</div>
+
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/SplitText.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script>
+(function(){
+  var shot = /[?&]shot=1\b/.test(location.search);
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var still = shot || reduce;
+
+  // Parole che ruotano: una alla volta (vng-flip fa girare le lettere)
+  var rot = document.getElementById('rot');
+  if (rot){
+    var words = rot.querySelectorAll('[data-vng-flip]'), k = 0;
+    document.documentElement.classList.add('js-rot');
+    words[0].classList.add('on');
+    if (!still) setInterval(function(){ words[k].classList.remove('on'); k=(k+1)%words.length; words[k].classList.add('on'); }, 2600);
+  }
+
+  if (still || !window.gsap) return;
+  gsap.registerPlugin(ScrollTrigger, SplitText);
+  var lenis = new Lenis({lerp:0.1});
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add(function(t){ lenis.raf(t*1000); });
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){ a.addEventListener('click',function(e){ var id=a.getAttribute('href'); if(id.length>1 && document.querySelector(id)){ e.preventDefault(); lenis.scrollTo(id,{offset:-64}); } }); });
+
+  // Titolo: parole che salgono a blocchi
+  document.fonts.ready.then(function(){
+    var st = new SplitText('#heroTitle',{type:'chars'});
+    gsap.from(st.chars,{yPercent:100,opacity:0,duration:.9,ease:'power4.out',stagger:.035,delay:.1});
+  });
+  gsap.from('.hero .rot, .hero .bottom > *',{y:30,opacity:0,duration:.8,ease:'power3.out',stagger:.1,delay:.6});
+  // il titolo si allontana mentre arriva la foto
+  gsap.to('#heroTitle',{yPercent:-18,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+
+  // La foto arriva allo scroll: da riquadro a tutto schermo
+  gsap.fromTo('.reveal-photo',{clipPath:'inset(14% 18% 14% 18%)'},{clipPath:'inset(0% 0% 0% 0%)',ease:'none',scrollTrigger:{trigger:'.reveal-photo',start:'top 95%',end:'top 15%',scrub:1}});
+  gsap.fromTo('#bigImg',{scale:1.25},{scale:1,ease:'none',scrollTrigger:{trigger:'.reveal-photo',start:'top bottom',end:'bottom top',scrub:1}});
+  gsap.from('.reveal-photo .cap',{x:-60,opacity:0,duration:.8,ease:'power3.out',scrollTrigger:{trigger:'.reveal-photo',start:'top 40%'}});
+
+  // Entrate a scatto (solo transform/opacity)
+  gsap.utils.toArray('.rv').forEach(function(el){ gsap.from(el,{y:50,opacity:0,duration:.8,ease:'power4.out',scrollTrigger:{trigger:el,start:'top 88%'}}); });
+  gsap.from('.rlist li',{x:40,opacity:0,duration:.5,ease:'power3.out',stagger:.06,scrollTrigger:{trigger:'.rlist',start:'top 80%'}});
+  ['.prices','.dishes','.bgrid','.svc'].forEach(function(g){ gsap.from(document.querySelector(g).children,{y:40,opacity:0,duration:.6,ease:'power3.out',stagger:.06,scrollTrigger:{trigger:g,start:'top 85%'}}); });
+
+  // Parallax foto
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  window.addEventListener('load',function(){ ScrollTrigger.refresh(); });
+})();
+</script>
+</body>
+</html>
