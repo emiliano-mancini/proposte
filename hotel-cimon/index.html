@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0a1631">
+<title>Cimon Dolomites Hotel – Predazzo, Val di Fiemme (proposta di restyling)</title>
+<meta name="description" content="Proposta di restyling del sito del Cimon Dolomites Hotel di Predazzo, Val di Fiemme. Bozza non ufficiale.">
+<script>
+/* Decide subito se usare il movimento: ?shot=1 e prefers-reduced-motion = pagina statica, tutto visibile. */
+(function(){var d=document.documentElement,s=/[?&]shot=1\b/.test(location.search),r=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+if(s)d.classList.add("shot");if(!s&&!r)d.classList.add("js-motion");})();
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%230a1631%27/%3E%3Cpath d=%27M4 24l8-13 5 8 3-4 8 9z%27 fill=%27%23f2b457%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"></noscript>
+<link rel="preload" as="image" href="img/hero.jpg" fetchpriority="high">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<style>
+/* ---------- Token: palette campionata dalla facciata di sera e dalle piste (non i default VNG) ---------- */
+:root{
+  --night:#0a1631; --night-2:#12244a; --dusk:#2e5398; --dawn:#1d3f6a;
+  --amber:#f2b457; --amber-deep:#9a5a06; --snow:#f2f6fb; --ice:#dde8f4; --timber:#2a1d17; --pine:#16322a;
+  --ink:#0a1631; --muted-d:#c6d1e8; --muted-l:#2f3b57;
+  --f-display:"Instrument Serif","Times New Roman",serif; --f-body:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --vng-bg:var(--night); --vng-fg:var(--snow); --vng-muted:var(--muted-d); --vng-accent:var(--amber); --vng-accent-fg:var(--ink);
+  --vng-surface:rgba(18,36,74,.55); --vng-line:rgba(242,246,251,.16);
+  --label-h:28px; --nav-h:60px; --dock-h:0px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:auto}
+body{margin:0;background:var(--night);color:var(--snow);font:400 17px/1.6 var(--f-body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--f-display);font-weight:400;line-height:1;margin:0;text-wrap:balance}
+h2{font-size:clamp(2.3rem,6vw,4.6rem);letter-spacing:-.01em}
+h3{font-size:clamp(1.5rem,3vw,2rem)}
+p{margin:0}
+.wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+.eyebrow{font:600 .8rem/1.2 var(--f-body);letter-spacing:.22em;text-transform:uppercase;color:var(--amber)}
+.light .eyebrow{color:var(--amber-deep)}
+.mono{font-variant-numeric:tabular-nums}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px;border-radius:4px}
+.light :focus-visible{outline-color:var(--dusk)}
+section{position:relative}
+.pad{padding-block:clamp(4.5rem,11vw,9rem)}
+.light{background:var(--snow);color:var(--ink)}
+.light p,.light li{color:var(--muted-l)}
+.light h2,.light h3{color:var(--ink)}
+
+/* ---------- Etichetta bozza + navigazione ---------- */
+.label{position:fixed;inset:0 0 auto 0;z-index:100;height:var(--label-h);display:grid;place-items:center;background:var(--amber);color:var(--ink);font:700 .7rem/1 var(--f-body);letter-spacing:.12em;text-transform:uppercase;text-align:center;padding-inline:8px}
+.nav{position:fixed;inset:var(--label-h) 0 auto 0;z-index:90;height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-inline:20px;background:linear-gradient(rgba(10,22,49,.88),rgba(10,22,49,.55));backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--vng-line)}
+.brand{display:flex;align-items:baseline;gap:.6rem;text-decoration:none}
+.brand b{font:400 1.9rem/1 var(--f-display);letter-spacing:.02em}
+.brand span{font:600 .62rem/1 var(--f-body);letter-spacing:.2em;text-transform:uppercase;color:var(--muted-d)}
+.nav__links{display:none;gap:1.6rem;list-style:none;margin:0;padding:0;font-weight:500;font-size:.92rem}
+.nav__links a{text-decoration:none;color:var(--muted-d);padding:.5rem 0;transition:color .2s}
+.nav__links a:hover{color:var(--snow)}
+.nav .nav__cta{display:none}
+.menu{position:relative}
+.menu summary{list-style:none;cursor:pointer;font-weight:600;font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;padding:.7rem .2rem;min-height:44px;display:flex;align-items:center}
+.menu summary::-webkit-details-marker{display:none}
+.menu ul{position:absolute;right:0;top:100%;margin:.4rem 0 0;padding:.6rem;list-style:none;background:var(--night-2);border:1px solid var(--vng-line);border-radius:.8rem;min-width:200px;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+.menu a{display:block;padding:.8rem 1rem;text-decoration:none;border-radius:.5rem;font-weight:500}
+.menu a:hover{background:rgba(255,255,255,.07)}
+@media(min-width:980px){.nav__links{display:flex}.menu{display:none}.nav .nav__cta{display:inline-flex}}
+
+/* Barra contatti sempre a portata di pollice (telefono) */
+.dock{position:fixed;inset:auto 0 0 0;z-index:95;display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(10,22,49,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--vng-line)}
+.dock a{display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:50px;border-radius:999px;font-weight:700;text-decoration:none;font-size:1rem}
+.dock .d1{background:var(--amber);color:var(--ink)}
+.dock .d2{border:1.5px solid rgba(242,246,251,.5);color:var(--snow)}
+@media(min-width:820px){.dock{display:none}}
+@media(max-width:819px){:root{--dock-h:72px}body{padding-bottom:var(--dock-h)}}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;min-height:52px;padding:.85rem 1.7rem;border-radius:999px;font-weight:700;text-decoration:none;font-size:1rem;transition:transform .25s cubic-bezier(.2,.9,.3,1.3),background .2s}
+.btn--amber{background:var(--amber);color:var(--ink)}
+.btn--amber:hover{transform:translateY(-2px)}
+.btn--ghost{border:1.5px solid rgba(242,246,251,.45);color:var(--snow)}
+.btn--ghost:hover{background:rgba(255,255,255,.08)}
+.light .btn--ghost{border-color:rgba(10,22,49,.4);color:var(--ink)}
+.light .btn--ghost:hover{background:rgba(10,22,49,.06)}
+.vng-hbtn{--vng-accent:var(--amber);font:700 1.05rem/1 var(--f-body)}
+
+/* ---------- Hero: serata di Predazzo + fascia panoramica da cinema ---------- */
+.hero{min-height:0;padding:calc(var(--label-h) + var(--nav-h)) 0 clamp(1.4rem,3vw,2.4rem);display:flex;flex-direction:column;gap:clamp(1.2rem,2.4vw,2rem);background:radial-gradient(900px 420px at 88% 100%,rgba(242,180,87,.2),transparent 70%),linear-gradient(180deg,var(--night) 0%,var(--night-2) 100%);overflow:hidden}
+.hero__stage{position:relative;display:block}
+.hero__over{position:absolute;inset:auto 0 0 0;padding:5rem 0 1.2rem;background:linear-gradient(0deg,rgba(10,22,49,.94) 0%,rgba(10,22,49,.66) 55%,rgba(10,22,49,0) 100%)}
+.hero__over .wrap{display:grid;gap:1.1rem}
+.hero h1{font-size:clamp(2.7rem,11.6vw,3.4rem);line-height:.98;letter-spacing:-.02em;max-width:15ch}
+.hero h1 em{color:var(--amber);font-style:italic}
+.hero__sub{max-width:46ch;color:var(--muted-d);font-size:clamp(1.05rem,1.6vw,1.25rem)}
+.band{position:relative;width:100%;height:min(54svh,440px);overflow:hidden;background:var(--night-2)}
+.band img{width:100%;height:100%;object-fit:cover;object-position:44% 50%;transform-origin:50% 60%}
+.hero__bar{display:grid;gap:1.2rem 3rem}
+.hero__cta{display:none;flex-wrap:wrap;gap:.8rem}
+.facts{display:none;flex-wrap:wrap;gap:.4rem 1.6rem;list-style:none;margin:0;padding:0;font-size:.95rem;color:var(--muted-d)}
+.facts li::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--amber);margin-right:.55rem;vertical-align:middle}
+@media(min-width:980px){
+  .hero{min-height:100svh;justify-content:space-between}
+  .band{height:clamp(440px,66svh,640px)}
+  .hero__over{padding:9rem 0 2rem}
+  .hero h1{font-size:clamp(3.6rem,6.7vw,6.4rem);max-width:none}
+  .hero__bar{grid-template-columns:1.1fr auto;align-items:center}
+  .hero__cta{display:flex;grid-column:2;grid-row:1}
+  .facts{display:flex;grid-column:1/-1}
+}
+.band::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,22,49,.3),transparent 35%,transparent 70%,rgba(10,22,49,.2));pointer-events:none}
+
+/* ---------- Numeri (dal sito dell'hotel) ---------- */
+.nums{background:var(--snow);color:var(--ink)}
+.nums__grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2.2rem 1.4rem;padding-block:clamp(2.6rem,6vw,4.4rem)}
+.num b{display:block;font:400 clamp(3rem,8vw,5.6rem)/1 var(--f-display);color:var(--ink)}
+.num b small{font-size:.42em;color:var(--amber-deep);margin-left:.18em;letter-spacing:.02em}
+.num b{white-space:nowrap}
+.num>span{display:block;margin-top:.6rem;color:var(--muted-l);font-size:1rem;max-width:24ch}
+@media(min-width:820px){.nums__grid{grid-template-columns:repeat(4,1fr)}}
+
+/* ---------- Firma: la giornata che scorre dal mattino alla sera ---------- */
+.day{background:linear-gradient(180deg,var(--dawn),var(--night-2));color:var(--snow)}
+.day__intro{padding:clamp(4rem,9vw,7rem) 0 2rem}
+.day__intro p{max-width:52ch;margin-top:1.1rem;color:var(--muted-d);font-size:1.1rem}
+.day__intro h2{margin-top:.8rem;max-width:14ch}
+.day__stage{position:relative}
+.day__sky,.day__arc,.day__clock{display:none}
+.steps{list-style:none;width:min(1200px,100% - 40px);margin:0 auto;padding:0 0 3rem}
+.step{display:grid;gap:1.4rem;padding:2rem 0;border-top:1px solid var(--vng-line)}
+.step__time{font:400 clamp(2.4rem,6vw,3.6rem)/1 var(--f-display);color:var(--amber)}
+.step h3{margin:.2rem 0 .7rem}
+.step p{color:var(--muted-d);max-width:44ch;font-size:1.06rem}
+.step figure{margin:0;border-radius:1rem;overflow:hidden;aspect-ratio:3/2;background:var(--night)}
+.step figure img{width:100%;height:100%;object-fit:cover}
+@media(min-width:820px){.step{grid-template-columns:.9fr 1.1fr;align-items:center;gap:3rem}.step:nth-child(even) figure{order:-1}}
+/* modalità movimento: palcoscenico fissato, un passo alla volta */
+.js-motion .day__stage{height:100svh;min-height:600px;overflow:hidden}
+.js-motion .day__intro{padding-bottom:0}
+.js-motion .day__sky{display:block;position:absolute;inset:0;pointer-events:none}
+.js-motion .day__sky i{position:absolute;inset:0;display:block}
+.js-motion .sky-a{background:linear-gradient(180deg,#1d3f6a,#2d5a8c 70%,#4a7aa8)}
+.js-motion .sky-b{background:linear-gradient(180deg,#1d3a78,#2e5398 62%,#6a5a86);opacity:0}
+.js-motion .sky-c{background:linear-gradient(180deg,#050d22,#0a1631 60%,#12244a);opacity:0}
+.js-motion .day__arc{display:block;position:absolute;left:0;right:0;top:calc(var(--label-h) + var(--nav-h) + 6px);height:64px;pointer-events:none}
+.js-motion .day__arc svg{position:absolute;inset:0;width:100%;height:100%}
+.js-motion .day__arc path{fill:none;stroke:rgba(242,246,251,.28);stroke-width:1.5;stroke-dasharray:3 7;vector-effect:non-scaling-stroke}
+.js-motion .day__sun{position:absolute;width:22px;height:22px;margin:-11px 0 0 -11px;border-radius:50%;background:var(--amber);box-shadow:0 0 0 6px rgba(242,180,87,.2),0 0 40px 10px rgba(242,180,87,.55)}
+.js-motion .day__clock{display:block;position:absolute;left:max(20px,calc((100% - 1200px)/2));top:calc(var(--label-h) + var(--nav-h) + 78px);font:400 clamp(3.4rem,9vw,7rem)/1 var(--f-display);color:var(--snow);letter-spacing:-.01em}
+.js-motion .day__clock small{font:600 .72rem/1 var(--f-body);letter-spacing:.2em;text-transform:uppercase;color:var(--amber);display:block;margin-bottom:.5rem}
+.js-motion .steps{position:absolute;inset:0;padding:0;width:auto;margin:0}
+.js-motion .step{position:absolute;inset:0;border:0;padding:calc(var(--label-h) + var(--nav-h) + 12.5rem) max(20px,calc((100% - 1200px)/2)) 2rem;opacity:0;align-content:start}
+.js-motion .step:first-child{opacity:1}
+.js-motion .step__time{display:none}
+.js-motion .step figure{aspect-ratio:3/2;max-height:48svh}
+@media(min-width:820px){
+  .js-motion .step{padding-top:calc(var(--label-h) + var(--nav-h) + 3rem);align-content:center;gap:4rem}
+  .js-motion .step figure{max-height:62svh;aspect-ratio:16/10}
+  .js-motion .step h3{font-size:clamp(2rem,3.4vw,2.9rem)}.js-motion .step p{font-size:1.1rem;max-width:40ch}
+  .js-motion .step:nth-child(even) figure{order:0}
+  .js-motion .day__clock{top:auto;bottom:2.4rem;left:max(20px,calc((100% - 1200px)/2))}
+  .js-motion .step__txt{padding-bottom:4rem}
+}
+@media(max-width:819px){.js-motion .step{grid-template-columns:1fr;gap:1rem}.js-motion .step figure{order:-1}.js-motion .step p{font-size:.98rem}.js-motion .day__clock{font-size:3.2rem}}
+
+/* ---------- Camere (chiaro): mosaico sfalsato ---------- */
+.rooms{--col-gap:clamp(1.2rem,3vw,2.6rem)}
+.rooms__head{display:grid;gap:1.2rem;margin-bottom:clamp(2.4rem,6vw,4.5rem)}
+.rooms__head p{max-width:50ch;font-size:1.1rem}
+.rooms__grid{display:grid;gap:var(--col-gap)}
+.room{display:grid;gap:.9rem}
+.room .ph{aspect-ratio:3/2;border-radius:1rem;overflow:hidden;background:var(--ice)}
+.room .ph img{width:100%;height:100%;object-fit:cover;transform:scale(1.1)}
+.room h3{font-size:clamp(1.7rem,3vw,2.3rem)}
+.room .occ{font:700 .78rem/1.2 var(--f-body);letter-spacing:.16em;text-transform:uppercase;color:var(--amber-deep)}
+.room p{font-size:1.06rem;max-width:46ch}
+.rooms__grid .room:nth-child(n){margin-top:0}
+.room--text{align-content:start;padding:1.8rem 1.8rem 2rem;border-radius:1rem;background:var(--night);color:var(--snow)}
+.rooms__more{display:grid;gap:1rem;margin-top:clamp(1.6rem,3vw,2.6rem)}
+@media(min-width:820px){.rooms__more{grid-template-columns:repeat(3,1fr)}}
+.room--text h3{color:var(--snow)}.room--text p{color:var(--muted-d)}.room--text .occ{color:var(--amber)}
+.rooms__all{margin-top:clamp(2rem,5vw,3.4rem);padding:1.3rem 1.5rem;border:1px solid rgba(10,22,49,.18);border-radius:1rem;display:flex;flex-wrap:wrap;gap:.5rem 1.6rem;align-items:center;font-size:.95rem}
+.rooms__all b{color:var(--ink)}
+@media(min-width:820px){
+  .rooms__head{grid-template-columns:1.2fr 1fr;align-items:end}
+  .rooms__grid{grid-template-columns:1fr 1fr;column-gap:clamp(2rem,5vw,4.5rem);row-gap:clamp(2.2rem,4vw,3.4rem);align-items:start}
+}
+
+@media(max-width:819px){
+  .rooms__grid,.trails{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:1rem;margin-inline:-20px;padding:0 20px 1rem;-webkit-overflow-scrolling:touch}
+  .rooms__grid .room,.trails .trail{flex:0 0 80%;scroll-snap-align:start}
+  .rooms__grid::after,.trails::after{content:"";flex:0 0 1px}
+}
+.swipe{display:none}
+@media(max-width:819px){.swipe{display:block;margin-top:.6rem;font-size:.9rem;color:var(--muted-l)}}
+/* ---------- Benessere (legno scuro) ---------- */
+.spa{background:radial-gradient(800px 420px at 12% 0%,rgba(242,180,87,.16),transparent 70%),var(--timber)}
+.spa__grid{display:grid;gap:2.6rem}
+.spa__txt p{color:#e6dcd5;font-size:1.08rem;max-width:46ch;margin-top:1.2rem}
+.spa__txt ul{list-style:none;padding:0;margin:1.6rem 0 0;display:grid;gap:.1rem}
+.spa__txt li{display:flex;align-items:center;gap:.9rem;padding:.85rem 0;border-top:1px solid rgba(242,246,251,.14);font-weight:500}
+.spa__txt li::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--amber);flex:none}
+.mosaic{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:clamp(110px,24vw,210px);gap:.8rem}
+.mosaic figure{margin:0;border-radius:.9rem;overflow:hidden;background:#1a110d}
+.mosaic img{width:100%;height:100%;object-fit:cover}
+.mosaic .m1{grid-row:span 2}.mosaic figure:nth-child(2){grid-row:span 2}
+@media(min-width:900px){.spa__grid{grid-template-columns:1fr 1.1fr;align-items:center;gap:5rem}.mosaic{grid-auto-rows:clamp(130px,17vw,230px)}}
+
+/* ---------- Inverno: sezione piena a tutto schermo largo ---------- */
+.snow{background:var(--night);padding-bottom:clamp(3rem,7vw,5.5rem)}
+.snow__band{position:relative;overflow:hidden;aspect-ratio:1920/550;min-height:320px}
+.snow__band img{width:100%;height:100%;object-fit:cover;transform:scale(1.12)}
+.snow__band::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,22,49,.96) 0%,rgba(10,22,49,.78) 38%,rgba(10,22,49,0) 78%)}
+.snow__cap{position:absolute;left:0;right:0;bottom:clamp(1rem,3vw,2.4rem);z-index:2;text-shadow:0 2px 18px rgba(0,0,0,.6)}
+.snow__cap h2{max-width:16ch}
+.snow__list{display:grid;grid-template-columns:1fr;gap:0;list-style:none;margin:clamp(1.6rem,4vw,3rem) 0 0;padding:0}
+.snow__list li{padding:1.1rem 0;border-top:1px solid var(--vng-line);color:var(--muted-d);font-size:1.05rem}
+.snow__list b{display:block;color:var(--snow);font:400 1.5rem/1.15 var(--f-display);margin-bottom:.2rem}
+@media(min-width:820px){.snow__list{grid-template-columns:repeat(4,1fr);gap:0 2rem}.snow__list li{border-top:2px solid var(--amber)}}
+@media(max-width:700px){.snow__band{aspect-ratio:auto;height:60svh}}
+
+/* ---------- Tavola (chiaro) ---------- */
+.table .grid{display:grid;gap:2.6rem}
+.table__txt p{max-width:46ch;margin-top:1.2rem;font-size:1.08rem}
+.table__txt ul{margin:1.4rem 0 0;padding:0;list-style:none;display:grid;gap:.2rem}
+.table__txt li{padding:.8rem 0;border-top:1px solid rgba(10,22,49,.15);font-size:1.05rem}
+.pics{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.pics figure{margin:0;border-radius:.9rem;overflow:hidden;aspect-ratio:4/5;background:var(--ice)}
+.pics figure:nth-child(2){margin-top:3rem}
+.pics img{width:100%;height:100%;object-fit:cover}
+@media(min-width:900px){.table .grid{grid-template-columns:1fr 1fr;gap:5rem;align-items:center}}
+
+/* ---------- Estate: tre percorsi con dati veri ---------- */
+.summer{background:linear-gradient(180deg,var(--snow),var(--ice))}
+.trails{display:grid;gap:1.8rem;margin-top:clamp(2rem,5vw,3.4rem)}
+.trail{display:grid;grid-template-rows:auto auto 1fr;gap:1rem;align-content:start}
+.trail .ph{aspect-ratio:3/2;border-radius:1.1rem;overflow:hidden}.trail .ph img{width:100%;height:100%;object-fit:cover;transform:scale(1.08)}
+.trail h3{font-size:clamp(1.7rem,2.6vw,2.2rem)}
+.trail dl{display:grid;grid-template-columns:repeat(4,auto);gap:.3rem 1.2rem;margin:0;justify-content:start;padding-top:.9rem;border-top:1px solid rgba(10,22,49,.2)}
+.trail dt{font:700 .72rem/1 var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:var(--amber-deep)}
+.trail dd{margin:.3rem 0 0;font:600 1.1rem/1.2 var(--f-body);color:var(--ink)}
+@media(min-width:900px){.trails{grid-template-columns:repeat(3,1fr);gap:2.4rem}}
+.summer__note{margin-top:2rem;max-width:62ch;font-size:1.06rem}
+@media(min-width:900px){.trails{grid-template-columns:repeat(3,1fr)}.trail:nth-child(2){margin-top:2.6rem}}
+
+/* ---------- Offerte (notte) ---------- */
+.deals{background:radial-gradient(800px 380px at 90% 0%,rgba(242,180,87,.14),transparent 70%),var(--pine)}
+.deals__head{display:grid;gap:1rem;margin-bottom:clamp(2rem,5vw,3.4rem)}
+.deals__head p{color:var(--muted-d);max-width:56ch}
+.deal{display:grid;gap:.9rem;padding:1.6rem 0;border-top:1px solid var(--vng-line)}
+.deal__when{font:700 .86rem/1.5 var(--f-body);letter-spacing:.12em;text-transform:uppercase;color:var(--amber)}
+.deal h3{font-size:clamp(1.7rem,3.4vw,2.4rem);margin:0 0 .5rem}
+.deal p{color:var(--muted-d);max-width:56ch;font-size:1.06rem}
+.deal a{justify-self:start;color:var(--snow);font-weight:600;text-underline-offset:4px;text-decoration-thickness:1.5px}
+.deals__fine{margin-top:1.4rem;color:var(--muted-d);font-size:.95rem}
+@media(min-width:820px){.deal{grid-template-columns:260px 1fr auto;align-items:start;gap:2rem}.deal a{justify-self:end;align-self:center}}
+
+/* ---------- FAQ + contatti ---------- */
+.contact{background:radial-gradient(700px 360px at 85% 0%,rgba(242,180,87,.16),transparent 70%),var(--night-2)}
+.contact__grid{display:grid;gap:3rem}
+.contact h2{max-width:12ch}
+.contact__card{border:1px solid var(--vng-line);border-radius:1.2rem;padding:clamp(1.4rem,3vw,2.2rem);background:rgba(10,22,49,.5);display:grid;gap:1.3rem;position:relative}
+.contact__row small{display:block;font:700 .66rem/1 var(--f-body);letter-spacing:.18em;text-transform:uppercase;color:var(--amber);margin-bottom:.35rem}
+.contact__row a,.contact__row address{font:400 clamp(1.5rem,3.4vw,2.1rem)/1.15 var(--f-display);font-style:normal;text-decoration:none;overflow-wrap:anywhere}
+.contact__row a:hover{text-decoration:underline;text-underline-offset:5px}
+.contact__map{font-size:.92rem;color:var(--muted-d)}
+.contact__map a{color:var(--snow);font:600 .92rem var(--f-body);text-decoration:underline;text-underline-offset:4px}
+.vng-faq{margin-top:1.6rem}
+.vng-faq summary{font-weight:600}
+.vng-faq .vng-faq__a{color:var(--muted-d)}
+@media(min-width:900px){.contact__grid{grid-template-columns:1.1fr .9fr;gap:5rem;align-items:start}}
+
+footer{background:#060e22;padding:2.2rem 0 2.6rem;font-size:.82rem;color:#9aa8c4}
+footer p+p{margin-top:.7rem}
+footer a{color:#c9d4ea}
+
+/* ---------- Entrate (solo con movimento attivo) ---------- */
+.js-motion .rv{opacity:0;transform:translateY(32px)}
+.progress{position:fixed;left:0;top:calc(var(--label-h) + var(--nav-h));height:3px;width:100%;background:var(--amber);transform-origin:0 50%;transform:scaleX(0);z-index:91}
+.shot .progress,html:not(.js-motion) .progress{display:none}
+</style>
+</head>
+<body>
+<div class="label" role="note">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="nav">
+  <a class="brand" href="#top" aria-label="Cimon Dolomites Hotel, inizio pagina"><b>Cimon</b><span>Dolomites Hotel ★★★</span></a>
+  <ul class="nav__links">
+    <li><a href="#giornata">La giornata</a></li><li><a href="#camere">Camere</a></li><li><a href="#benessere">Benessere</a></li><li><a href="#tavola">Tavola</a></li><li><a href="#estate">Estate</a></li><li><a href="#offerte">Offerte</a></li><li><a href="#contatti">Contatti</a></li>
+  </ul>
+  <a class="btn btn--amber nav__cta" href="mailto:info@hotelcimon.it?subject=Richiesta%20di%20informazioni%20e%20disponibilit%C3%A0">Richiedi informazioni</a>
+  <details class="menu">
+    <summary aria-label="Apri il menu"><svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" style="margin-right:.5rem"><path d="M2 5h18M2 11h18M2 17h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Menu</summary>
+    <ul>
+      <li><a href="#giornata">La giornata</a></li><li><a href="#camere">Camere</a></li><li><a href="#benessere">Benessere</a></li><li><a href="#tavola">Tavola</a></li><li><a href="#estate">Estate</a></li><li><a href="#offerte">Offerte</a></li><li><a href="#contatti">Contatti</a></li>
+    </ul>
+  </details>
+</header>
+<div class="progress" aria-hidden="true"></div>
+
+<main id="top">
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__stage">
+    <div class="band"><img src="img/hero.jpg" width="1920" height="550" alt="Sciatrice in discesa con le montagne innevate della Val di Fiemme sullo sfondo" data-hero></div>
+    <div class="hero__over"><div class="wrap">
+      <p class="eyebrow">Predazzo · Val di Fiemme · Trentino</p>
+      <h1 data-split>Sulle piste al mattino, <em>in famiglia la sera.</em></h1>
+    </div></div>
+  </div>
+  <div class="wrap hero__bar">
+    <p class="hero__sub">Il Cimon Dolomites Hotel, 3 stelle, è gestito con passione dalla famiglia Morandini da oltre 30 anni.</p>
+    <div class="hero__cta">
+      <a class="btn btn--amber" href="mailto:info@hotelcimon.it?subject=Richiesta%20di%20informazioni%20e%20disponibilit%C3%A0">Richiedi informazioni</a>
+      <a class="btn btn--ghost" href="tel:+390462501691">Chiama +39 0462 501691</a>
+    </div>
+    <ul class="facts"><li>Via Fontanele 1, Predazzo</li><li>Navetta gratuita per gli impianti</li><li>Centro benessere</li></ul>
+  </div>
+</section>
+
+<!-- ============ NUMERI ============ -->
+<section class="nums" aria-label="Il Cimon in numeri">
+  <div class="wrap nums__grid">
+    <div class="num"><b><span data-vng-count="30" data-suffix="+">30+</span></b><span>anni di gestione della famiglia Morandini</span></div>
+    <div class="num"><b><span data-vng-count="7">7</span></b><span>tipi di camera e suite, quasi tutte con balcone</span></div>
+    <div class="num"><b><span data-vng-count="18">18</span><small>km</small></b><span>di piste di fondo a Lago di Tesero, in parte illuminate</span></div>
+    <div class="num"><b><span data-vng-count="900" data-suffix="+">900+</span><small>m</small></b><span>di Alpine Coaster Gardone, nel bosco del Latemar</span></div>
+  </div>
+</section>
+
+<!-- ============ FIRMA: LA GIORNATA ============ -->
+<section class="day" id="giornata" aria-labelledby="day-t">
+  <div class="wrap day__intro">
+    <p class="eyebrow">Una giornata al Cimon</p>
+    <h2 id="day-t">Dalla colazione alle luci della sera</h2>
+    <p>Cinque momenti, dal buffet del mattino alla neve, dalla sauna alla cena. Tutto ciò che trovi qui è quello che l’hotel racconta oggi sul proprio sito.</p>
+  </div>
+  <div class="day__stage">
+    <div class="day__sky" aria-hidden="true"><i class="sky-a"></i><i class="sky-b"></i><i class="sky-c"></i></div>
+    <div class="day__arc" aria-hidden="true"><svg viewBox="0 0 1000 64" preserveAspectRatio="none"><path d="M0,60 Q500,-50 1000,60"/></svg><span class="day__sun"></span></div>
+    <div class="day__clock" aria-hidden="true"><small>Ore</small><span class="mono" data-clock>08:00</span></div>
+    <ol class="steps">
+      <li class="step">
+        <div class="step__txt"><span class="step__time mono">08:00</span><h3>Colazione con dolci fatti in casa</h3><p>Buffet con dolci fatti in casa, muesli e corn-flakes, frutta fresca, angolo del salato; prodotti biologici e dietetici di ottima qualità.</p></div>
+        <figure><img src="img/colazione.jpg" width="840" height="460" loading="lazy" alt="Colazione servita con cappuccino, uovo, salumi, formaggi e dolci"></figure>
+      </li>
+      <li class="step">
+        <div class="step__txt"><span class="step__time mono">09:30</span><h3>Navetta gratuita e piste</h3><p>Un servizio navetta gratuito porta alle vicine funivie dello Ski Center Latemar. Latemar, Alpe Cermis, Bellamonte e Alpe Lusia rientrano nello speciale Skipass Fiemme Obereggen.</p></div>
+        <figure><img src="img/piste.jpg" width="1920" height="550" loading="lazy" alt="Tre sciatori in discesa con la catena delle Dolomiti alle spalle"></figure>
+      </li>
+      <li class="step">
+        <div class="step__txt"><span class="step__time mono">16:30</span><h3>Benessere dopo la neve</h3><p>Bagno turco, biosauna (sanarium), sauna finlandese, poltrone a infrarossi e zona relax con angolo tisaneria. Accappatoio e ciabattine sono in dotazione nelle camere.</p></div>
+        <figure><img src="img/spa-relax.jpg" width="840" height="460" loading="lazy" alt="Zona relax del centro benessere con lettini e candele"></figure>
+      </li>
+      <li class="step">
+        <div class="step__txt"><span class="step__time mono">19:30</span><h3>Cena in famiglia</h3><p>La cucina è curata direttamente dalla famiglia: più primi e secondi tra cui scegliere, buffet di verdure di stagione e una variegata proposta di vini trentini.</p></div>
+        <figure><img src="img/cena-canederli.jpg" width="840" height="460" loading="lazy" alt="Canederli conditi con burro fuso e salvia"></figure>
+      </li>
+      <li class="step">
+        <div class="step__txt"><span class="step__time mono">22:00</span><h3>Si accendono le luci del Cimon</h3><p>Camere in legno di cirmolo, larice o abete, quasi tutte con balcone sulla Val di Fiemme. Buonanotte dalle Dolomiti.</p></div>
+        <figure><img src="img/facciata.jpg" width="840" height="460" loading="lazy" alt="Facciata dell’hotel illuminata di sera, con la neve sulla strada"></figure>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ CAMERE ============ -->
+<section class="rooms light pad" id="camere" aria-labelledby="rooms-t">
+  <div class="wrap">
+    <div class="rooms__head">
+      <div><p class="eyebrow">Camere e suite</p><h2 id="rooms-t" style="margin-top:.8rem">Legno vero, <em>balcone sulla valle</em></h2></div>
+      <p>Sette tipologie, dalla camera semplice alla suite per quattro. In tutte: TV satellitare, telefono, cassaforte e bagno con doccia.</p>
+    </div>
+    <p class="swipe" aria-hidden="true">Scorri di lato per vedere tutte le camere →</p>
+    <div class="rooms__grid">
+      <article class="room rv"><div class="ph"><img src="img/camera-dolomites.jpg" width="1152" height="768" loading="lazy" alt="Camera Dolomites con parete in legno decorata con abeti intagliati" data-px></div><span class="occ">2–3 persone</span><h3>Camera Dolomites</h3><p>Stile caratteristico delle Dolomiti: abete invecchiato, larice e cirmolo, divano letto per 1 o 2 persone, vista sulla valle e balcone.</p></article>
+      <article class="room rv"><div class="ph"><img src="img/camera-stella.jpg" width="1920" height="1280" loading="lazy" alt="Camera Stella Alpina in legno di larice con letto matrimoniale" data-px></div><span class="occ">2–3 persone</span><h3>Camera Stella Alpina</h3><p>Di nuovissima realizzazione, in legno di larice: divano, frigobar e balcone.</p></article>
+      <article class="room rv"><div class="ph"><img src="img/camera-giglio.jpg" width="840" height="460" loading="lazy" alt="Camera Giglio Rosso con letto matrimoniale e salottino" data-px></div><span class="occ">2–4 persone</span><h3>Camera Giglio Rosso</h3><p>Spaziosa, in larice o legno vecchio, con divano letto per 1 o 2 persone e due balconi sulla Val di Fiemme.</p></article>
+      <article class="room rv"><div class="ph"><img src="img/camera-negritella.jpg" width="840" height="460" loading="lazy" alt="Camera Negritella con letto matrimoniale e tessuti chiari" data-px></div><span class="occ">2–4 persone</span><h3>Camera Negritella</h3><p>Stile rustico in abete, larice o legno vecchio, con possibilità di terzo e quarto letto.</p></article>
+      <article class="room rv"><div class="ph"><img src="img/camera-anemone.jpg" width="840" height="460" loading="lazy" alt="Camera Anemone con letto matrimoniale e finiture in legno" data-px></div><span class="occ">2 persone</span><h3>Camera Anemone</h3><p>Completamente rinnovata, in legno di cirmolo o abete, con parquet o moquette e balcone.</p></article>
+      <article class="room rv"><div class="ph"><img src="img/camera-suite.jpg" width="840" height="460" loading="lazy" alt="Suite Arnica con finestre sulle Dolomiti" data-px></div><span class="occ">4 persone</span><h3>Suite Arnica</h3><p>Due camere matrimoniali e angolo soggiorno, vista sulle Dolomiti. Cesto di frutta all’arrivo e quotidiano ogni mattina.</p></article>
+    </div>
+    <div class="rooms__all"><span><b>Camera Bucaneve</b> (2 persone): camera semplice, matrimoniale o a due letti, con moquette e balcone.</span><b>Prezzi e disponibilità:</b> si chiedono direttamente all’hotel.<a class="btn btn--ghost" href="mailto:info@hotelcimon.it?subject=Prezzi%20e%20disponibilit%C3%A0%20camere">Scrivi all’hotel</a></div>
+  </div>
+</section>
+
+<!-- ============ BENESSERE ============ -->
+<section class="spa pad" id="benessere" aria-labelledby="spa-t">
+  <div class="wrap spa__grid">
+    <div class="spa__txt">
+      <p class="eyebrow">Centro benessere</p>
+      <h2 id="spa-t" style="margin-top:.8rem">Il caldo giusto, <em>dopo una giornata sulla neve</em></h2>
+      <p>Materiali naturali e colori tenui: un posto dove ritrovare il tempo per sé.</p>
+      <ul><li>Bagno turco</li><li>Biosauna (sanarium)</li><li>Sauna finlandese</li><li>Poltrone a infrarossi</li><li>Zona relax con angolo tisaneria</li></ul>
+    </div>
+    <div class="mosaic">
+      <figure class="m1"><img src="img/spa-sauna.jpg" width="840" height="460" loading="lazy" alt="Sauna con soffitto a stelle e candele" data-px></figure>
+      <figure><img src="img/spa-sala.jpg" width="840" height="460" loading="lazy" alt="Sala relax con lettini davanti a un pannello fotografico di montagna" data-px></figure>
+      
+      
+    </div>
+  </div>
+</section>
+
+<!-- ============ INVERNO (sezione piena) ============ -->
+<section class="snow" aria-labelledby="snow-t">
+  <div class="snow__band"><img src="img/piste-capanna.jpg" width="1920" height="550" loading="lazy" alt="Baita in legno vicino alle piste, con cabinovia e sciatori sulla neve" data-px>
+    <div class="snow__cap"><div class="wrap"><p class="eyebrow">Inverno in Val di Fiemme</p><h2 id="snow-t" style="margin-top:.6rem">Piste, fondo e slittino a due passi</h2></div></div></div>
+  <div class="wrap">
+    <ul class="snow__list">
+      <li><b>Ski Center Latemar</b>Navetta gratuita dall’hotel alle vicine funivie.</li>
+      <li><b>Lago di Tesero</b>Oltre 18 km di piste di fondo, in parte illuminate per sciare di sera.</li>
+      <li><b>Passo Lavazè</b>Un altro centro fondo con 40 km di piste di varia difficoltà.</li>
+      <li><b>Alpine Coaster Gardone</b>Più di 900 metri di dossi, salti e un giro a 360° su slitte a due posti.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ TAVOLA ============ -->
+<section class="table light pad" id="tavola" aria-labelledby="table-t">
+  <div class="wrap grid">
+    <div class="table__txt">
+      <p class="eyebrow">Gourmet</p>
+      <h2 id="table-t" style="margin-top:.8rem">La cucina la fa <em>la famiglia</em></h2>
+      <p>Piatti tradizionali e non, genuini e sfiziosi. Colazione a buffet, cena con scelta tra diversi primi e secondi e una variegata proposta di vini trentini.</p>
+      <ul>
+        <li>A colazione: dolci fatti in casa, muesli e corn-flakes, frutta fresca, angolo del salato.</li>
+        <li>A cena: buffet di verdure di stagione e piatti a scelta.</li>
+        <li>Per i più piccoli: piatti specifici per bambini, pappe su misura dai 6 mesi a 1 anno e mezzo, seggioloni, rialza sedia e scalda-biberon.</li>
+      </ul>
+    </div>
+    <div class="pics">
+      <figure class="rv"><img src="img/cena-porcini.jpg" width="840" height="460" loading="lazy" alt="Piatto di carne con funghi porcini e calice di vino rosso" data-px></figure>
+      <figure class="rv"><img src="img/dolci.jpg" width="840" height="460" loading="lazy" alt="Dolce al cucchiaio con frutti rossi e una rosa" data-px></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ESTATE ============ -->
+<section class="summer pad light" id="estate" aria-labelledby="sum-t">
+  <div class="wrap">
+    <p class="eyebrow">E d’estate</p>
+    <h2 id="sum-t" style="margin-top:.8rem;max-width:16ch">Sentieri, boschi e <em>malghe</em></h2>
+    <p class="swipe" aria-hidden="true">Scorri di lato →</p>
+    <div class="trails">
+      <article class="trail rv"><div class="ph"><img src="img/estate-famiglia.jpg" width="840" height="460" loading="lazy" alt="Famiglia in cammino su un sentiero con le montagne sullo sfondo" data-px></div><h3>Cascatelle di Ziano di Fiemme</h3><dl><div><dt>Lunghezza</dt><dd>4,1 km</dd></div><div><dt>Dislivello</dt><dd>225 m</dd></div><div><dt>Durata</dt><dd>2:00 h</dd></div><div><dt>Difficoltà</dt><dd>Facile</dd></div></dl></article>
+      <article class="trail rv"><div class="ph"><img src="img/estate-prato.jpg" width="840" height="460" loading="lazy" alt="Prato alpino e cime delle Dolomiti sotto un cielo azzurro" data-px></div><h3>Bosco sensoriale di Bellamonte</h3><dl><div><dt>Lunghezza</dt><dd>2,90 km</dd></div><div><dt>Dislivello</dt><dd>64 m</dd></div><div><dt>Durata</dt><dd>1:00 h</dd></div><div><dt>Difficoltà</dt><dd>Facile</dd></div></dl></article>
+      <article class="trail rv"><div class="ph"><img src="img/estate-baite.jpg" width="840" height="460" loading="lazy" alt="Baite in legno e prati in quota in una giornata di sole" data-px></div><h3>Monte Cornon</h3><dl><div><dt>Lunghezza</dt><dd>5,6 km</dd></div><div><dt>Dislivello</dt><dd>300 m</dd></div><div><dt>Durata</dt><dd>2:30 h</dd></div><div><dt>Difficoltà</dt><dd>Media</dd></div></dl></article>
+    </div>
+    <p class="summer__note">Con la Fiemme Cembra Guest Card, inclusa nel soggiorno a partire da 2 notti, ci si sposta con i mezzi pubblici e si accede a musei, attività e impianti a prezzi agevolati. In bici: il Percorso degli Abeti di Risonanza nel Parco di Paneveggio attraversa due ponti tibetani.</p>
+  </div>
+</section>
+
+<!-- ============ OFFERTE ============ -->
+<section class="deals pad" id="offerte" aria-labelledby="deal-t">
+  <div class="wrap">
+    <div class="deals__head"><p class="eyebrow">Offerte stagione 2026/27</p><h2 id="deal-t">Le offerte dell’inverno</h2><p>Tutte le date e le condizioni sono quelle pubblicate oggi dall’hotel; per i prezzi si chiede direttamente alla struttura.</p></div>
+    <div>
+      <div class="deal rv"><span class="deal__when">04.12 – 16.12.2026</span><div><h3>Dolomiti SUPER PREMIERE</h3><p>4 notti in mezza pensione al prezzo di 3 e 4 giorni di sci al prezzo di 3 con lo Skipass Dolomiti Superski (da acquistare a parte). Scuola di sci e noleggio dell’attrezzatura a prezzi speciali da € 195 a persona in mezza pensione.</p></div><a href="mailto:info@hotelcimon.it?subject=Offerta%20Dolomiti%20SUPER%20PREMIERE">Chiedi disponibilità</a></div>
+      <div class="deal rv"><span class="deal__when">08.12 – 25.12.2026 · 06.01 – 30.01 · 13.02 – 20.03.2027</span><div><h3>Vacanza in famiglia</h3><p>Un bambino fino a 6 anni (non compiuti) in camera con due adulti soggiorna gratis.</p></div><a href="mailto:info@hotelcimon.it?subject=Offerta%20Vacanza%20in%20famiglia">Chiedi disponibilità</a></div>
+      <div class="deal rv"><span class="deal__when">06.01 – 31.01 · 06.03 – 13.03.2027</span><div><h3>Settimana bianca</h3><p>Soggiorno minimo di 5 notti in mezza pensione: sconto subito sul totale.</p></div><a href="mailto:info@hotelcimon.it?subject=Offerta%20Settimana%20bianca">Chiedi disponibilità</a></div>
+      <div class="deal rv"><span class="deal__when">01.02 – 04.02 · 06.03 – 20.03.2027</span><div><h3>Vacanza breve</h3><p>Soggiorno minimo di 3 notti in mezza pensione: sconto subito sul totale.</p></div><a href="mailto:info@hotelcimon.it?subject=Offerta%20Vacanza%20breve">Chiedi disponibilità</a></div>
+      <div class="deal rv"><span class="deal__when">13.02 – 05.03.2027</span><div><h3>Promo febbraio</h3><p>Per le prenotazioni di almeno 6 notti, sconto del 5%.</p></div><a href="mailto:info@hotelcimon.it?subject=Offerta%20Promo%20febbraio">Chiedi disponibilità</a></div>
+      <div class="deal rv"><span class="deal__when">14.03 – 20.03.2027</span><div><h3>Spring days</h3><p>7 notti in mezza pensione al prezzo di 6 e 6 giorni di sci (dal 17.03.2027) al prezzo di 5 con lo Skipass Dolomiti Superski.</p></div><a href="mailto:info@hotelcimon.it?subject=Offerta%20Spring%20days">Chiedi disponibilità</a></div>
+    </div>
+    <p class="deals__fine">Le promozioni non sono cumulabili tra loro.</p>
+  </div>
+</section>
+
+<!-- ============ CONTATTI + FAQ ============ -->
+<section class="contact pad" id="contatti" aria-labelledby="ct-t">
+  <div class="wrap contact__grid">
+    <div>
+      <p class="eyebrow">Contatti</p>
+      <h2 id="ct-t" style="margin-top:.8rem">Scrivici o <em>chiamaci</em></h2>
+      <div class="vng-faq">
+        <details open><summary>Come si raggiungono gli impianti?</summary><div class="vng-faq__a">Con la navetta gratuita dell’hotel, che porta alle vicine funivie dello Ski Center Latemar.</div></details>
+        <details><summary>Cosa include la Fiemme Cembra Guest Card?</summary><div class="vng-faq__a">È inclusa nel soggiorno a partire da 2 notti: mezzi pubblici, trenini e navette, musei e attività, e sconti sugli impianti di risalita.</div></details>
+        <details><summary>Quali camere vanno bene per una famiglia?</summary><div class="vng-faq__a">Giglio Rosso e Negritella ospitano da 2 a 4 persone; la Suite Arnica, con due camere matrimoniali, ospita 4 persone.</div></details>
+        <details><summary>Come chiedo prezzi e disponibilità?</summary><div class="vng-faq__a">Scrivendo a info@hotelcimon.it o chiamando +39 0462 501691.</div></details>
+      </div>
+    </div>
+    <div class="contact__card">
+      <div class="contact__row"><small>Telefono</small><a href="tel:+390462501691">+39 0462 501691</a></div>
+      <div class="contact__row"><small>Email</small><a href="mailto:info@hotelcimon.it?subject=Richiesta%20di%20informazioni%20e%20disponibilit%C3%A0">info@hotelcimon.it</a></div>
+      <div class="contact__row"><small>Indirizzo</small><address>Via Fontanele 1<br>Predazzo, Val di Fiemme (TN)</address></div>
+      <a class="btn btn--ghost" href="https://www.openstreetmap.org/search?query=Via%20Fontanele%201%20Predazzo" rel="noopener">Apri la mappa</a>
+      <a class="vng-hbtn" href="mailto:info@hotelcimon.it?subject=Richiesta%20di%20informazioni%20e%20disponibilit%C3%A0"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Richiedi informazioni</span><span class="vng-hbtn__b" aria-hidden="true">Scrivi ora →</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Hotel Garnì Cimon di Morandini Cecilia, Cristina e Tiziana s.a.s. · P. IVA 01066090224 · CIN IT022147A1QHSS39M7</p>
+    <p>Foto: hotel e archivio APT visitfiemme.it (© A. Campanile, orlerimages.com, F. Modica). Bozza di restyling non approvata dall’hotel · <a href="confronto/">Confronto prima/dopo</a></p>
+  </footer>
+
+<nav class="dock" aria-label="Contatti rapidi">
+  <a class="d1" href="tel:+390462501691">Chiama</a>
+  <a class="d2" href="mailto:info@hotelcimon.it?subject=Richiesta%20di%20informazioni%20e%20disponibilit%C3%A0">Scrivi</a>
+</nav>
+
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script src="../vendor/vng/vng.js" defer></script>
+<script defer>
+window.addEventListener("DOMContentLoaded", function () {
+  var root = document.documentElement;
+  if (!root.classList.contains("js-motion") || !window.gsap || !window.ScrollTrigger) { root.classList.remove("js-motion"); return; }
+  gsap.registerPlugin(ScrollTrigger, window.SplitText);
+  var mobile = matchMedia("(max-width: 819px)").matches;
+
+  /* Scroll morbido: Lenis guidato dal ticker di GSAP (su touch resta il tocco nativo). */
+  var lenis = null;
+  if (window.Lenis) {
+    lenis = new Lenis({ lerp: 0.09, smoothWheel: true });
+    lenis.on("scroll", ScrollTrigger.update);
+    gsap.ticker.add(function (t) { lenis.raf(t * 1000); });
+    gsap.ticker.lagSmoothing(0);
+    document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        var id = a.getAttribute("href"); var t = id.length > 1 && document.querySelector(id);
+        if (t) { e.preventDefault(); var m = a.closest("details"); if (m) m.removeAttribute("open"); lenis.scrollTo(t, { offset: -88 }); }
+      });
+    });
+  }
+  gsap.to(".progress", { scaleX: 1, ease: "none", scrollTrigger: { start: 0, end: "max", scrub: 0.3 } });
+
+  /* Titolo hero: parole che salgono da una maschera. */
+  var h1 = document.querySelector("[data-split]");
+  if (h1 && window.SplitText) {
+    var sp = SplitText.create(h1, { type: "words", mask: "words", aria: "auto" });
+    h1.classList.add("is-ready");
+    gsap.from(sp.words, { yPercent: 110, duration: 1.1, ease: "expo.out", stagger: 0.07, delay: 0.1 });
+  } else if (h1) { h1.classList.add("is-ready"); }
+  gsap.fromTo(".band img", { scale: 1.18 }, { scale: 1, duration: 2.2, ease: "power3.out" });
+  gsap.to(".band img", { yPercent: 6, ease: "none", scrollTrigger: { trigger: ".band", start: "top 70%", end: "bottom top", scrub: 1 } });
+
+  /* Entrate (solo transform + opacity). */
+  gsap.utils.toArray(".rv").forEach(function (el) {
+    gsap.to(el, { opacity: 1, y: 0, duration: 1, ease: "power3.out", scrollTrigger: { trigger: el, start: "top 88%", once: true } });
+  });
+  /* Parallax leggero sulle foto. */
+  gsap.utils.toArray("[data-px]").forEach(function (img) {
+    var box = img.parentElement;
+    gsap.fromTo(img, { yPercent: -5 }, { yPercent: 5, ease: "none", scrollTrigger: { trigger: box, start: "top bottom", end: "bottom top", scrub: 1 } });
+  });
+
+  /* FIRMA: la giornata. Il sole percorre l'arco, il cielo passa dall'alba alla notte, il passo cambia. */
+  var stage = document.querySelector(".day__stage");
+  var steps = gsap.utils.toArray(".step");
+  var clock = document.querySelector("[data-clock]");
+  var sun = document.querySelector(".day__sun");
+  if (stage && steps.length) {
+    var prox = { p: 0 };
+    function paint() {
+      var p = prox.p, mins = 7.5 * 60 + p * 15 * 60, h = Math.floor(mins / 60), m = Math.floor(mins % 60);
+      if (clock) clock.textContent = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m;
+      if (sun) { var y = 60 * Math.pow(1 - p, 2) + 2 * (1 - p) * p * -50 + 60 * p * p; sun.style.left = (p * 100) + "%"; sun.style.top = (y) + "px"; }
+    }
+    paint();
+    var n = steps.length, tl = gsap.timeline({ defaults: { ease: "none" }, scrollTrigger: { trigger: stage, start: "top top", end: function () { return "+=" + innerHeight * (mobile ? 3.2 : 3.8); }, pin: true, scrub: 1, anticipatePin: 1 } });
+    tl.to(prox, { p: 1, duration: n, onUpdate: paint }, 0);
+    tl.to(".sky-b", { opacity: 1, duration: n * 0.5 }, 0.3).to(".sky-c", { opacity: 1, duration: n * 0.45 }, n * 0.55);
+    steps.forEach(function (s, i) {
+      if (i === 0) { tl.to(s, { opacity: 0, y: -30, duration: 0.2, ease: "power2.in" }, 1 - 0.22); return; }
+      tl.fromTo(s, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.22, ease: "power2.out" }, i);
+      if (i < n - 1) tl.to(s, { opacity: 0, y: -30, duration: 0.2, ease: "power2.in" }, i + 1 - 0.22);
+    });
+    steps.forEach(function (s, i) { if (i === 0) gsap.set(s, { opacity: 1 }); });
+  }
+
+  function refresh() { ScrollTrigger.refresh(); }
+  addEventListener("load", refresh);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(refresh);
+  addEventListener("resize", refresh);
+  document.addEventListener("visibilitychange", function () { if (lenis) { document.hidden ? lenis.stop() : lenis.start(); } });
+});
+</script>
+</body>
+</html>
