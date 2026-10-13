@@ -1,11 +1,12 @@
 {
   "slug": "riviera",
   "url": "https://www.rivieraprofumi.com/prodotto/boise-fruite/",
-  "misuratoIl": "2026-10-13T21:46:43.271Z",
+  "misuratoIl": "2026-10-13T21:51:30.981Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
-  "caricamentoTotaleMs": 4117,
-  "lcpMs": 1265,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3992,
+  "lcpMs": 1634,
   "lcpElemento": "IMG https://www.rivieraprofumi.com/wp-content/uploads/2022/05/montale_boise_fruite-500x500-1.png",
   "cls": 0.023,
   "urlFinale": "https://www.rivieraprofumi.com/prodotto/boise-fruite/?attribute_size=100ml",
@@ -14,13 +15,13 @@
   "h1": [
     "BOISÉ FRUITÉ"
   ],
-  "ttfb": 216,
-  "fcp": 601,
-  "domReady": 1998,
-  "load": 4115,
-  "pesoKB": 7970,
+  "ttfb": 419,
+  "fcp": 1034,
+  "domReady": 2068,
+  "load": 3990,
+  "pesoKB": 7687,
   "richieste": 250,
-  "script": 142,
+  "script": 143,
   "serviziEsterni": [
     "use.typekit.net",
     "code.jquery.com",
@@ -34,28 +35,34 @@
     "static.cloudflareinsights.com",
     "www.googletagmanager.com",
     "s.pinimg.com",
-    "static-tracking.klaviyo.com",
     "bat.bing.com",
     "apis.google.com",
-    "fast.a.klaviyo.com",
     "ct.pinterest.com",
     "googleads.g.doubleclick.net",
+    "www.clarity.ms",
+    "static-tracking.klaviyo.com",
     "conf.config-security.com",
     "api.config-security.com",
+    "fast.a.klaviyo.com",
     "fonts.googleapis.com",
-    "www.clarity.ms",
-    "static-forms.klaviyo.com",
     "scripts.clarity.ms",
     "analytics.tiktok.com",
     "directory.cookieyes.com",
     "unpkg.com",
     "cdnjs.cloudflare.com",
-    "e.clarity.ms"
+    "k.clarity.ms",
+    "static-forms.klaviyo.com",
+    "connect.facebook.net",
+    "bat.bing.net"
   ],
   "immaginiPiuPesanti": [
     {
       "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/03/Dalila-1024x1024.png",
       "kb": 1308
+    },
+    {
+      "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/02/montale_arabians_tonka.jpg",
+      "kb": 75
     },
     {
       "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/02/Amber_Musk_Packshot_white_sRGB_edited.jpg",
@@ -68,10 +75,6 @@
     {
       "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/02/montale_intense_cafe.jpg",
       "kb": 62
-    },
-    {
-      "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/02/montale_arabians_tonka.jpg",
-      "kb": 38
     }
   ],
   "scorrimentoOrizzontale": false,
@@ -111,61 +114,61 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 4269,
+      "ms": 472,
       "status": 200,
-      "cache": "DYNAMIC"
+      "cache": "HIT"
     },
     {
-      "ms": 208,
+      "ms": 127,
       "status": 200,
-      "cache": "DYNAMIC"
+      "cache": "HIT"
     },
     {
-      "ms": 216,
+      "ms": 142,
       "status": 200,
-      "cache": "DYNAMIC"
+      "cache": "HIT"
     }
   ],
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboise-fruite&scrsrc"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboise-fruite&scrsrc"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&tid=AW-520454215&en=page_view&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboise-f"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&apvc=0&tid=AW-520454215&en=page_view&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboise-fr"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&tid=AW-520454215&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboise-fruite&sc"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&apvc=0&ae=g&tid=AW-520454215&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboise-fruite&scr"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&tid=AW-520454215&en=view_item_list&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&apvc=0&ae=g&tid=AW-520454215&en=view_item_list&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&tid=AW-520454215&en=view_item&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fbo"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&apvc=0&ae=g&tid=AW-520454215&en=view_item&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboi"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791927998506&cv=11&fst=1791927998506&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6ac1v9210913267z8845452026za"
+      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791928286015&cv=11&fst=1791928286015&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ac1h2v921091"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791927998493&cv=11&fst=1791927998493&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ac1v92109132"
+      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791928286028&cv=11&fst=1791928286028&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item_list&gtm=45be6ac1h2v921"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791927998510&cv=11&fst=1791927998510&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item_list&gtm=45be6ac1v92109"
+      "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&auid=186631764.1791928286&dt=Bois%C3%A9%20Fruit%C3%A9%20%7C%20Profumo%20Montale%20%7C%20Profumo%20Un"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791927998519&cv=11&fst=1791927998519&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6ac1v9210913267"
+      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791928286032&cv=11&fst=1791928286032&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6ac1h2v92109132"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=1625218516.1791927998&dt=Bois%C3%A9%20Fruit%C3%A9%20%7C%20Profumo%20Montale%20%7C%20Profumo%20U"
+      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791928286025&cv=11&fst=1791928286025&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6ac1h2v9210913267z8845452026"
     }
   ]
 }

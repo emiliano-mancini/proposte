@@ -1,23 +1,24 @@
 {
   "slug": "ibfor",
-  "url": "http://www.ibfor.com/",
-  "misuratoIl": "2026-10-13T21:45:07.428Z",
+  "url": "https://www.ibfor.com/",
+  "misuratoIl": "2026-10-13T21:50:21.485Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
-  "caricamentoTotaleMs": 5418,
-  "lcpMs": 4738,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4543,
+  "lcpMs": 4262,
   "lcpElemento": "DIV ",
   "cls": 1,
   "urlFinale": "https://www.ibfor.com/",
   "titolo": "IBFOR - Your design shop",
   "descrizione": null,
   "h1": [],
-  "ttfb": 1647,
-  "fcp": 3046,
-  "domReady": 4720,
-  "load": 5416,
-  "pesoKB": 6572,
-  "richieste": 132,
+  "ttfb": 1771,
+  "fcp": 3745,
+  "domReady": 4252,
+  "load": 4541,
+  "pesoKB": 35253,
+  "richieste": 133,
   "script": 28,
   "serviziEsterni": [
     "cdn.tnx.it",
@@ -34,8 +35,8 @@
     "stats.g.doubleclick.net",
     "www.clarity.ms",
     "scripts.clarity.ms",
-    "l.clarity.ms",
-    "c.clarity.ms"
+    "c.clarity.ms",
+    "z.clarity.ms"
   ],
   "immaginiPiuPesanti": [
     {
@@ -116,34 +117,22 @@
   "viewport": "width=device-width, minimum-scale=1.0, maximum-scale=1.0",
   "rispostaServer": [
     {
-      "ms": 1430,
+      "ms": 1109,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 913,
+      "ms": 742,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 853,
+      "ms": 671,
       "status": 200,
       "cache": null
     }
   ],
   "risorseRotte": [
-    {
-      "status": 401,
-      "url": "https://player.vimeo.com/video/1226941836?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&muted=1&loop=1&background=1&dnt=1"
-    },
-    {
-      "status": 999,
-      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a18762ab33e829/vvA8nZ7w0vqXkSIjRnQgFcrWWpqc.z3yznOLm2DVNK8-1791927900-1.2.1.1-HKOL"
-    },
-    {
-      "status": 401,
-      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a18762ab33e829/1791927900878/bbf5c91ab805278e4ad09e6eea30da4791f232e96161b7ae538de4755320"
-    },
     {
       "status": 999,
       "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WFJQKDD2"
@@ -171,6 +160,10 @@
     {
       "status": 999,
       "url": "https://v2.zopim.com/?5qZl7FS0KPfiBohhA5ylSBId7Matp7JL"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-ZDSNKHHJ44&gtm=45je6ac1v884798282za208zd884798282xf1&_p=1791928217542&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dm"
     }
   ]
 }

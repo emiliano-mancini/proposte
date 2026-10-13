@@ -1,11 +1,12 @@
 {
   "slug": "idrofast",
   "url": "https://idrofastshop.com/",
-  "misuratoIl": "2026-10-13T21:46:33.944Z",
+  "misuratoIl": "2026-10-13T21:51:22.643Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
-  "caricamentoTotaleMs": 1634,
-  "lcpMs": 733,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1256,
+  "lcpMs": 374,
   "lcpElemento": "IMG https://idrofastshop.com/cdn/shop/files/1_ff5a3762-b9df-4b73-90d0-f9351325bd0a.png?v=1764786310&width=1100",
   "cls": 0,
   "urlFinale": "https://idrofastshop.com/",
@@ -14,19 +15,19 @@
   "h1": [
     ""
   ],
-  "ttfb": 290,
-  "fcp": 705,
-  "domReady": 1155,
-  "load": 1633,
-  "pesoKB": 3914,
-  "richieste": 267,
-  "script": 65,
+  "ttfb": 286,
+  "fcp": 374,
+  "domReady": 711,
+  "load": 1255,
+  "pesoKB": 3987,
+  "richieste": 303,
+  "script": 66,
   "serviziEsterni": [
-    "shop.app",
     "cdn.shopify.com",
+    "shop.app",
     "otlp-http-production.shopifysvc.com",
-    "a.pandect.es",
     "forms.shopifyapps.com",
+    "a.pandect.es",
     "monorail-edge.shopifysvc.com"
   ],
   "immaginiPiuPesanti": [
@@ -98,17 +99,17 @@
   "viewport": "width=device-width,initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 701,
+      "ms": 304,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 216,
+      "ms": 197,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 345,
+      "ms": 113,
       "status": 200,
       "cache": "DYNAMIC"
     }
@@ -116,11 +117,11 @@
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://idrofastshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+      "url": "https://idrofastshop.com/api/collect"
     },
     {
       "status": 999,
-      "url": "https://idrofastshop.com/api/collect"
+      "url": "https://idrofastshop.com/.well-known/shopify/monorail/unstable/produce_batch"
     },
     {
       "status": 999,

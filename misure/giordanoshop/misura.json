@@ -1,11 +1,12 @@
 {
   "slug": "giordanoshop",
   "url": "https://www.giordanoshop.com/products/lettino-prendisole-da-giardino-con-ruote-in-alluminio-vorghini-sandy-ecru",
-  "misuratoIl": "2026-10-13T21:43:53.996Z",
+  "misuratoIl": "2026-10-13T21:49:55.454Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
-  "caricamentoTotaleMs": 6657,
-  "lcpMs": 2794,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 6486,
+  "lcpMs": 1944,
   "lcpElemento": "IMG https://www.giordanoshop.com/cdn/shop/files/6_2F7_2F5_2Fb_2F3_2F675b32ead71b733c571800a69bd38069_1000x.jpg?v=1785228006",
   "cls": 0.005,
   "urlFinale": "https://www.giordanoshop.com/products/lettino-prendisole-da-giardino-con-ruote-in-alluminio-vorghini-sandy-ecru",
@@ -15,13 +16,13 @@
     "Lettino Prendisole da Giardino con Ruote in Alluminio Vorghini Sandy Ecru",
     "Iscriviti e ottieni doppio regalo!"
   ],
-  "ttfb": 470,
-  "fcp": 723,
-  "domReady": 1676,
-  "load": 6655,
-  "pesoKB": 19065,
-  "richieste": 507,
-  "script": 189,
+  "ttfb": 211,
+  "fcp": 349,
+  "domReady": 1225,
+  "load": 6485,
+  "pesoKB": 19054,
+  "richieste": 500,
+  "script": 188,
   "serviziEsterni": [
     "ajax.googleapis.com",
     "cdnjs.cloudflare.com",
@@ -33,20 +34,20 @@
     "js.klarna.com",
     "cdn.scalapay.com",
     "widget.feedaty.com",
-    "apis.google.com",
     "www.aicel.org",
+    "apis.google.com",
     "a.klaviyo.com",
     "cdn.textyess.com",
     "cdn.clerk.io",
     "static.hotjar.com",
-    "script.hotjar.com",
     "static-tracking.klaviyo.com",
+    "script.hotjar.com",
     "static.growave.io",
     "fast.a.klaviyo.com",
+    "idb.iubenda.com",
+    "fonts.googleapis.com",
     "api.clerk.io",
     "cdnwidget.judge.me",
-    "fonts.googleapis.com",
-    "idb.iubenda.com",
     "api.judge.me",
     "otlp-http-production.shopifysvc.com",
     "shop.app",
@@ -66,7 +67,8 @@
     "cdn.pushowl.com",
     "ka-p.fontawesome.com",
     "invitejs.trustpilot.com",
-    "www.google-analytics.com"
+    "www.google-analytics.com",
+    "tracking.aws.judge.me"
   ],
   "immaginiPiuPesanti": [
     {
@@ -148,17 +150,17 @@
   "viewport": "width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0",
   "rispostaServer": [
     {
-      "ms": 379,
+      "ms": 161,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 185,
+      "ms": 141,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 204,
+      "ms": 128,
       "status": 200,
       "cache": "DYNAMIC"
     }
@@ -178,7 +180,7 @@
     },
     {
       "status": 999,
-      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+      "url": "https://shop.app/pay/hop?analytics_trace_id=76a9b7c1-3d5e-4074-8269-5209e83e9159&target_origin=https%3A%2F%2Fwww.giordanoshop.com&client_handle=giordanoshop-pro"
     },
     {
       "status": 999,
@@ -186,11 +188,11 @@
     },
     {
       "status": 999,
-      "url": "https://gum.eu.criteo.com/fpm/sid?first_party_id=069b6c4d-e0e3-472d-8708-8d8b68f7fbb3&first_party_domain=www.giordanoshop.com&first_party_name=shopify_client_id"
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
     },
     {
       "status": 999,
-      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+      "url": "https://gum.eu.criteo.com/fpm/sid?first_party_id=1bc165b4-1dfb-4c76-af76-add4bddd32d3&first_party_domain=www.giordanoshop.com&first_party_name=shopify_client_id"
     },
     {
       "status": 999,

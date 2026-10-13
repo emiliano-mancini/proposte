@@ -1,11 +1,12 @@
 {
   "slug": "ilmondodelbarbecue",
-  "url": "http://www.ilmondodelbarbecue.it/",
-  "misuratoIl": "2026-10-13T21:42:09.461Z",
+  "url": "https://www.ilmondodelbarbecue.it/",
+  "misuratoIl": "2026-10-13T21:50:47.276Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
-  "caricamentoTotaleMs": 5303,
-  "lcpMs": 3462,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4743,
+  "lcpMs": 3299,
   "lcpElemento": "SECTION https://www.ilmondodelbarbecue.it/img/cms/cucine_da_esterno/5.png",
   "cls": 0.011,
   "urlFinale": "https://www.ilmondodelbarbecue.it/",
@@ -14,10 +15,10 @@
   "h1": [
     "Il negozio di barbecue e cucine da esterno n°1 in Italia"
   ],
-  "ttfb": 1644,
-  "fcp": 2356,
-  "domReady": 3521,
-  "load": 5302,
+  "ttfb": 1321,
+  "fcp": 2189,
+  "domReady": 3294,
+  "load": 4740,
   "pesoKB": 5106,
   "richieste": 158,
   "script": 41,
@@ -37,11 +38,10 @@
     "fast.a.klaviyo.com",
     "www.gstatic.com",
     "api-product-reviews.cxr.skeepers.io",
+    "static-forms.klaviyo.com",
     "dynamic.criteo.com",
     "cdn.iubenda.com",
-    "static-forms.klaviyo.com",
     "gum.criteo.com",
-    "csp.withgoogle.com",
     "cs.iubenda.com",
     "googleads.g.doubleclick.net",
     "idb.iubenda.com",
@@ -62,7 +62,7 @@
     },
     {
       "url": "https://www.ilmondodelbarbecue.it/img/cms/home/foto-home-bbq_01_2024.jpg",
-      "kb": 214
+      "kb": 215
     },
     {
       "url": "https://www.ilmondodelbarbecue.it/img/cms/home/foto-home-bbq_04_2024.jpg",
@@ -114,17 +114,17 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 1815,
+      "ms": 1307,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 705,
+      "ms": 465,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 647,
+      "ms": 475,
       "status": 200,
       "cache": null
     }
@@ -136,11 +136,7 @@
     },
     {
       "status": 999,
-      "url": "https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d"
-    },
-    {
-      "status": 999,
-      "url": "https://www.google.com/rmkt/collect/926882853/?random=211636307&fst=1791927725275&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ac0v893849886z9910484"
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=961810688&fst=1791928243230&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ac0v893849886z9910484"
     }
   ]
 }
