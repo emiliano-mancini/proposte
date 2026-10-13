@@ -14,12 +14,12 @@ const pairs = process.argv.slice(2).map(a => {
 }).filter(p => p.slug && /^https?:\/\//.test(p.url));
 
 async function serverTimes(url) {
-  // tempo di risposta del server (prima del primo byte), 3 richieste senza cache
+  // tempo di risposta del server come lo vede un visitatore normale (nessuna intestazione anti-cache): 3 richieste
   const out = [];
   for (let i = 0; i < 3; i++) {
     const t0 = performance.now();
     try {
-      const r = await fetch(url, { headers: { 'user-agent': PHONE.userAgent, 'cache-control': 'no-cache' }, redirect: 'follow' });
+      const r = await fetch(url, { headers: { 'user-agent': PHONE.userAgent, 'accept': 'text/html,application/xhtml+xml', 'accept-language': 'it-IT,it;q=0.9' }, redirect: 'follow' });
       const t = Math.round(performance.now() - t0);
       await r.arrayBuffer();
       out.push({ ms: t, status: r.status, cache: r.headers.get('cf-cache-status') || r.headers.get('x-cache') || r.headers.get('x-cache-status') || null });
@@ -98,7 +98,8 @@ async function measure(browser, { slug, url }) {
   await ctx.close();
   const out = {
     slug, url, misuratoIl: new Date().toISOString(), dispositivo: 'Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)',
-    erroreCaricamento: error, caricamentoTotaleMs: loadWall,
+    erroreCaricamento: error,
+    bloccatoDaProtezione: /ci siamo quasi|just a moment|attention required|request could not be satisfied/i.test(data?.titolo || ''), caricamentoTotaleMs: loadWall,
     lcpMs: m?.lcp ? Math.round(m.lcp.t) : null, lcpElemento: m?.lcp?.el || null, cls: m ? +m.cls.toFixed(3) : null,
     ...data,
     pesoKB: Math.round(reqs.reduce((a, r) => a + r.bytes, 0) / 1024),
