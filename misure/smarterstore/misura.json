@@ -1,0 +1,199 @@
+{
+  "slug": "smarterstore",
+  "url": "https://smarterstore.it/le-nostre-proposte-imperdibili/apple-iphone-17-pro-256gb-cosmic-orange-europa.html",
+  "misuratoIl": "2026-10-13T21:42:56.984Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 3620,
+  "lcpMs": 3826,
+  "lcpElemento": "IMG https://smarterstore.it/media/catalog/product/cache/f2e5a07c6f0c65171e445e7997c32db2/a/p/apple-iphone-17-pro-256gb-cosmi",
+  "cls": 0.046,
+  "urlFinale": "https://smarterstore.it/le-nostre-proposte-imperdibili/apple-iphone-17-pro-256gb-cosmic-orange-europa.html",
+  "titolo": "Apple iPhone 17 Pro",
+  "descrizione": "Apple iPhone 17 Pro Smarter Store smarterstore.it smarterstore",
+  "h1": [
+    "Apple iPhone 17 Pro 256GB Cosmic Orange Europa"
+  ],
+  "ttfb": 655,
+  "fcp": 1364,
+  "domReady": 1872,
+  "load": 3617,
+  "pesoKB": 3786,
+  "richieste": 250,
+  "script": 147,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "s.kk-resources.com",
+    "app.varify.io",
+    "tps.trovaprezzi.it",
+    "eu1-config.doofinder.com",
+    "www.paypal.com",
+    "cdn.doofinder.com",
+    "cdn.scalapay.com",
+    "widget.trustpilot.com",
+    "apis.google.com",
+    "www.googletagmanager.com",
+    "eu1-search.doofinder.com",
+    "smarterstoreit.twgdns.com",
+    "pathmonk-lib.pathmonk.com",
+    "invitejs.trustpilot.com",
+    "embeds.iubenda.com",
+    "www.clarity.ms",
+    "cdn.popupsmart.com",
+    "gateway.convalytrix.it",
+    "static.adup.io",
+    "tk.pathmonk.com",
+    "apisdk.pathmonk.com",
+    "scripts.clarity.ms",
+    "merchant.revolut.com",
+    "www.google.com",
+    "cdn.iubenda.com",
+    "eu1-api.doofinder.com",
+    "k.clarity.ms",
+    "idb.iubenda.com",
+    "connect.facebook.net",
+    "www.facebook.com",
+    "c.clarity.ms"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://smarterstore.it/media/wysiwyg/smartwave/porto/footer/logo_idealo.jpg",
+      "kb": 46
+    },
+    {
+      "url": "https://smarterstore.it/media/wysiwyg/smartwave/porto/product/logo_payments.png",
+      "kb": 37
+    },
+    {
+      "url": "https://smarterstore.it/media/wysiwyg/smartwave/porto/product/logo_payments-mob.png",
+      "kb": 37
+    },
+    {
+      "url": "https://smarterstore.it/media/catalog/product/cache/f2e5a07c6f0c65171e445e7997c32db2/a/p/apple-iphone-17-pro-256gb-cosmic-orange_1.jpg",
+      "kb": 34
+    },
+    {
+      "url": "https://smarterstore.it/media/catalog/product/cache/f2e5a07c6f0c65171e445e7997c32db2/a/p/apple-iphone-17-pro-1000gb-cosmic-orange_1.jpg",
+      "kb": 28
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Continua senza accettare → Informativa Vi informiamo che il sito consente l'invio di cookie tecnici necessari per il cor"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 839,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "assistenza@smarterstore.it",
+    " assistenza@smarterstore.it"
+  ],
+  "telefono": [
+    "+390699448300"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Leggi i termini e condizioni",
+      "h": "https://smarterstore.it/le-nostre-proposte-imperdibili/apple-iphone-17-pro-256gb-cosmic-orange-europa.html#"
+    },
+    {
+      "t": "condizioni di assicurazione, DIP e DIP Aggiuntivo)",
+      "h": "https://my.feedelio.it/docs/Set_WAKAM_ABM_ADT.pdf"
+    },
+    {
+      "t": "SPEDIZIONE E RESI",
+      "h": "https://smarterstore.it/le-nostre-proposte-imperdibili/apple-iphone-17-pro-256gb-cosmic-orange-europa.html#product_shipping_and_returns"
+    },
+    {
+      "t": "Ho preso visione della privacy policy",
+      "h": "https://www.iubenda.com/privacy-policy/58907651"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://smarterstore.it/condizioni-di-vendita"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://smarterstore.it/diritto-di-recesso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://smarterstore.it/about-us"
+    },
+    {
+      "t": "Richiedi un reso",
+      "h": "https://smarterstore.it/returns/guest/new/"
+    },
+    {
+      "t": "Reso e diritto di recesso",
+      "h": "https://smarterstore.it/diritto-di-recesso"
+    }
+  ],
+  "piattaforma": "Magento",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
+  "rispostaServer": [
+    {
+      "ms": 676,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 445,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 449,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 401,
+      "url": "https://apisdk.pathmonk.com/apisdk/v1/javascriptsdk/eg/QEKii1sZFAHsrJsJtTivICfKp/init"
+    },
+    {
+      "status": 999,
+      "url": "https://www.paypal.com/xoplatform/logger/api/logger?disableSetCookie=true"
+    },
+    {
+      "status": 403,
+      "url": "https://gateway.convalytrix.it/api/v1/add?source=js"
+    },
+    {
+      "status": 403,
+      "url": "https://gateway.convalytrix.it/api/v1/add?source=js"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fsmarterstore.it%2Fle-nostre-proposte-imperdibili%2Fapple"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&apvc=0&tid=AW-10800845667&en=page_view&dl=https%3A%2F%2Fsmarterstore.it%2Fle-nostre-proposte-imper"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&apvc=0&ae=g&tid=AW-10800845667&dl=https%3A%2F%2Fsmarterstore.it%2Fle-nostre-proposte-imperdibili%2"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-YZQVGY3Y5X&gtm=45je6ac0v874405635za20ozb890362485zd890362485xf1&_p=1791927770989&gcs=G100&gcd=13p3p3p3p5l1&"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-YZQVGY3Y5X&gtm=45je6ac0v874405635z8890362485za20gzb890362485zd890362485xf1&_p=1791927770989&gcs=G100&gcd=13"
+    }
+  ]
+}

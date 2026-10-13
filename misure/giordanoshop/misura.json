@@ -1,0 +1,208 @@
+{
+  "slug": "giordanoshop",
+  "url": "https://www.giordanoshop.com/products/lettino-prendisole-da-giardino-con-ruote-in-alluminio-vorghini-sandy-ecru",
+  "misuratoIl": "2026-10-13T21:43:53.996Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 6657,
+  "lcpMs": 2794,
+  "lcpElemento": "IMG https://www.giordanoshop.com/cdn/shop/files/6_2F7_2F5_2Fb_2F3_2F675b32ead71b733c571800a69bd38069_1000x.jpg?v=1785228006",
+  "cls": 0.005,
+  "urlFinale": "https://www.giordanoshop.com/products/lettino-prendisole-da-giardino-con-ruote-in-alluminio-vorghini-sandy-ecru",
+  "titolo": "Lettino Prendisole da Giardino con Ruote in Alluminio Vorghini Sandy Ecru – acquista su Giordano Shop",
+  "descrizione": "On sale Lettino Prendisole da Giardino con Ruote in Alluminio Vorghini Sandy Ecru ➡️ Acquista online su Giordano % Prezzi scontati ✔️ Vasto assortimento\n",
+  "h1": [
+    "Lettino Prendisole da Giardino con Ruote in Alluminio Vorghini Sandy Ecru",
+    "Iscriviti e ottieni doppio regalo!"
+  ],
+  "ttfb": 470,
+  "fcp": 723,
+  "domReady": 1676,
+  "load": 6655,
+  "pesoKB": 19065,
+  "richieste": 507,
+  "script": 189,
+  "serviziEsterni": [
+    "ajax.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "cdn.shopify.com",
+    "na.shgcdn3.com",
+    "static.klaviyo.com",
+    "js.klarna.com",
+    "cdn.scalapay.com",
+    "widget.feedaty.com",
+    "apis.google.com",
+    "www.aicel.org",
+    "a.klaviyo.com",
+    "cdn.textyess.com",
+    "cdn.clerk.io",
+    "static.hotjar.com",
+    "script.hotjar.com",
+    "static-tracking.klaviyo.com",
+    "static.growave.io",
+    "fast.a.klaviyo.com",
+    "api.clerk.io",
+    "cdnwidget.judge.me",
+    "fonts.googleapis.com",
+    "idb.iubenda.com",
+    "api.judge.me",
+    "otlp-http-production.shopifysvc.com",
+    "shop.app",
+    "x.klarnacdn.net",
+    "www.google.com",
+    "api-ai.textyess.com",
+    "www.googletagmanager.com",
+    "pagead2.googlesyndication.com",
+    "static-forms.klaviyo.com",
+    "cdn.powl.io",
+    "widget.scalapay.com",
+    "widget.trustpilot.com",
+    "kit.fontawesome.com",
+    "www.paypal.com",
+    "ecommplugins-scripts.trustpilot.com",
+    "ecommplugins-trustboxsettings.trustpilot.com",
+    "cdn.pushowl.com",
+    "ka-p.fontawesome.com",
+    "invitejs.trustpilot.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/0/7/d/8/6/07d86a93fb5bd1c3cb335f134db1fad7.png?width=240",
+      "kb": 1873
+    },
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/8/9/a/d/8/89ad8068ef411571a0957356949ed3c7.png?width=240",
+      "kb": 1775
+    },
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/d/5/e/9/4/d5e94e66c370e0796f0349d5d77a24e2.png?width=240",
+      "kb": 1417
+    },
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/2/c/5/9/e/2c59efc8e99361c99a94d7126f336a2b.png?width=240",
+      "kb": 1057
+    },
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/c/6/3/f/4/c63f4f215a073f4f079131a769bfef17.jpg?width=240",
+      "kb": 688
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi (www.giordanoshop.com) e terze parti selezionate (53) raccogliamo informazioni personali come specific"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 1778,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    ""
+  ],
+  "telefono": [
+    "04%202214%2040071",
+    "0909146395"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "termini e condizioni",
+      "h": "https://judge.me/terms"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.giordanoshop.com/pages/who-we-are"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.giordanoshop.com/pages/contatti"
+    },
+    {
+      "t": "Tempi e spese di spedizione",
+      "h": "https://giordanoshop-prod.myshopify.com/pages/tempi-e-spese-di-spedizione"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.giordanoshop.com/pages/termini-e-condizioni-di-vendita"
+    },
+    {
+      "t": "Klarna FAQ",
+      "h": "https://www.giordanoshop.com/pages/klarna-faq"
+    },
+    {
+      "t": "Recesso dal contratto",
+      "h": "https://www.giordanoshop.com/pages/widerruf-formular"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 379,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 185,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 204,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://gum.eu.criteo.com/fpm/sid?first_party_id=069b6c4d-e0e3-472d-8708-8d8b68f7fbb3&first_party_domain=www.giordanoshop.com&first_party_name=shopify_client_id"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    }
+  ]
+}

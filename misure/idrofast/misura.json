@@ -1,0 +1,130 @@
+{
+  "slug": "idrofast",
+  "url": "https://idrofastshop.com/",
+  "misuratoIl": "2026-10-13T21:46:33.944Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 1634,
+  "lcpMs": 733,
+  "lcpElemento": "IMG https://idrofastshop.com/cdn/shop/files/1_ff5a3762-b9df-4b73-90d0-f9351325bd0a.png?v=1764786310&width=1100",
+  "cls": 0,
+  "urlFinale": "https://idrofastshop.com/",
+  "titolo": "IDROFAST SHOP",
+  "descrizione": null,
+  "h1": [
+    ""
+  ],
+  "ttfb": 290,
+  "fcp": 705,
+  "domReady": 1155,
+  "load": 1633,
+  "pesoKB": 3914,
+  "richieste": 267,
+  "script": 65,
+  "serviziEsterni": [
+    "shop.app",
+    "cdn.shopify.com",
+    "otlp-http-production.shopifysvc.com",
+    "a.pandect.es",
+    "forms.shopifyapps.com",
+    "monorail-edge.shopifysvc.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://idrofastshop.com/cdn/shop/files/LOGO_-_1080_x_540_px.svg?v=1756396354&width=180",
+      "kb": 1488
+    },
+    {
+      "url": "https://idrofastshop.com/cdn/shop/files/1_ff5a3762-b9df-4b73-90d0-f9351325bd0a.png?v=1764786310&width=1100",
+      "kb": 104
+    },
+    {
+      "url": "https://idrofastshop.com/cdn/shop/files/2_3c1a41e9-e044-42a8-bded-0ee0c14be10f.png?v=1764786290&width=535",
+      "kb": 84
+    },
+    {
+      "url": "https://idrofastshop.com/cdn/shop/files/3_6a0035b6-601c-4103-9331-7aee09f77c0e.png?v=1764786234&width=533",
+      "kb": 84
+    },
+    {
+      "url": "https://idrofastshop.com/cdn/shop/files/5_e8350acd-addf-4869-9eb9-cd969e5b8ac5.png?v=1764786234&width=533",
+      "kb": 82
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Acquista ora",
+    "yPx": 4093,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizione gratuita oltre €49,90 di ordine!",
+      "h": "https://idrofastshop.com/collections/all"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.idrofast.fvg.it/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://idrofastshop.com/pages/contact"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.idrofast.fvg.it/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://idrofastshop.com/pages/contact"
+    },
+    {
+      "t": "Condizioni di servizio",
+      "h": "https://idrofastshop.com/policies/terms-of-service"
+    },
+    {
+      "t": "Termini e condizioni del servizio",
+      "h": "https://idrofastshop.com/policies/terms-of-service"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 701,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 216,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 345,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://idrofastshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://idrofastshop.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://idrofastshop.com/shopify_pay/accelerated_checkout"
+    }
+  ]
+}

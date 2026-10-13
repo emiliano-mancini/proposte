@@ -1,0 +1,171 @@
+{
+  "slug": "riviera",
+  "url": "https://www.rivieraprofumi.com/prodotto/boise-fruite/",
+  "misuratoIl": "2026-10-13T21:46:43.271Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 4117,
+  "lcpMs": 1265,
+  "lcpElemento": "IMG https://www.rivieraprofumi.com/wp-content/uploads/2022/05/montale_boise_fruite-500x500-1.png",
+  "cls": 0.023,
+  "urlFinale": "https://www.rivieraprofumi.com/prodotto/boise-fruite/?attribute_size=100ml",
+  "titolo": "Boisé Fruité | Profumo Montale | Profumo Unisex originale",
+  "descrizione": "Boisé Fruité, acquista online il profumo Montale nei formati 100ml. Profumo artistico unisex. Per te campioncini in omaggio.",
+  "h1": [
+    "BOISÉ FRUITÉ"
+  ],
+  "ttfb": 216,
+  "fcp": 601,
+  "domReady": 1998,
+  "load": 4115,
+  "pesoKB": 7970,
+  "richieste": 250,
+  "script": 142,
+  "serviziEsterni": [
+    "use.typekit.net",
+    "code.jquery.com",
+    "cdn.scalapay.com",
+    "widget.trustpilot.com",
+    "pagead2.googlesyndication.com",
+    "emailsignature.trustpilot.com",
+    "static.klaviyo.com",
+    "cdn.sniperfast.com",
+    "js.stripe.com",
+    "static.cloudflareinsights.com",
+    "www.googletagmanager.com",
+    "s.pinimg.com",
+    "static-tracking.klaviyo.com",
+    "bat.bing.com",
+    "apis.google.com",
+    "fast.a.klaviyo.com",
+    "ct.pinterest.com",
+    "googleads.g.doubleclick.net",
+    "conf.config-security.com",
+    "api.config-security.com",
+    "fonts.googleapis.com",
+    "www.clarity.ms",
+    "static-forms.klaviyo.com",
+    "scripts.clarity.ms",
+    "analytics.tiktok.com",
+    "directory.cookieyes.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "e.clarity.ms"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/03/Dalila-1024x1024.png",
+      "kb": 1308
+    },
+    {
+      "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/02/Amber_Musk_Packshot_white_sRGB_edited.jpg",
+      "kb": 64
+    },
+    {
+      "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/02/montale_blue_amber.jpg",
+      "kb": 63
+    },
+    {
+      "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/02/montale_intense_cafe.jpg",
+      "kb": 62
+    },
+    {
+      "url": "https://www.rivieraprofumi.com/wp-content/uploads/2021/02/montale_arabians_tonka.jpg",
+      "kb": 38
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi Al Carrello",
+    "yPx": 1255,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "ordini@rivieraprofumi.com"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.rivieraprofumi.com/termini-e-condizioni/"
+    },
+    {
+      "t": "Effettua una richiesta di Reso",
+      "h": "https://www.rivieraprofumi.com/diritto-di-recesso"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.rivieraprofumi.com/contatti/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.rivieraprofumi.com/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 4269,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 208,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 216,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboise-fruite&scrsrc"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&tid=AW-520454215&en=page_view&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboise-f"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&tid=AW-520454215&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fboise-fruite&sc"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&tid=AW-520454215&en=view_item_list&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&tid=AW-520454215&en=view_item&dl=https%3A%2F%2Fwww.rivieraprofumi.com%2Fprodotto%2Fbo"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791927998506&cv=11&fst=1791927998506&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6ac1v9210913267z8845452026za"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791927998493&cv=11&fst=1791927998493&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ac1v92109132"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791927998510&cv=11&fst=1791927998510&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item_list&gtm=45be6ac1v92109"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/520454215/?random=1791927998519&cv=11&fst=1791927998519&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6ac1v9210913267"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=1625218516.1791927998&dt=Bois%C3%A9%20Fruit%C3%A9%20%7C%20Profumo%20Montale%20%7C%20Profumo%20U"
+    }
+  ]
+}

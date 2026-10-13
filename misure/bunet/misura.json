@@ -1,0 +1,105 @@
+{
+  "slug": "bunet",
+  "url": "https://www.bunetabbigliamento.it/",
+  "misuratoIl": "2026-10-13T21:44:32.830Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 7298,
+  "lcpMs": 6079,
+  "lcpElemento": "IMG https://www.bunetabbigliamento.it/wp-content/uploads/2026/09/2533CDC8-BA23-4AFE-8024-6A1159CDB70E-768x960.png",
+  "cls": 0,
+  "urlFinale": "https://www.bunetabbigliamento.it/",
+  "titolo": "Bunet Abbigliamento – Abbigliamento Donna Torino",
+  "descrizione": "Scopri i nuovi arrivi di abbigliamento donna a Torino. Acquista direttamente su WhatsApp oppure vieni in negozio. Spedizione in tutta Italia.",
+  "h1": [],
+  "ttfb": 4097,
+  "fcp": 4621,
+  "domReady": 5854,
+  "load": 7297,
+  "pesoKB": 18142,
+  "richieste": 99,
+  "script": 30,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.iubenda.com",
+    "websitedemos.net",
+    "cs.iubenda.com",
+    "idb.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.bunetabbigliamento.it/wp-content/uploads/2026/09/B4A78970-9D13-432E-BADA-08D076FE962D.png",
+      "kb": 3288
+    },
+    {
+      "url": "https://www.bunetabbigliamento.it/wp-content/uploads/2026/09/3D4C34C3-06CB-4A5E-9489-BD26BF227B6E-768x960.png",
+      "kb": 1014
+    },
+    {
+      "url": "https://www.bunetabbigliamento.it/wp-content/uploads/2026/09/DD7AC24D-5BCD-443F-9D08-1DCCFB3CA6FB-768x960.png",
+      "kb": 994
+    },
+    {
+      "url": "https://www.bunetabbigliamento.it/wp-content/uploads/2026/09/92C07E31-2B13-4E3A-B7EF-1523D5E6C222-768x1152.png",
+      "kb": 989
+    },
+    {
+      "url": "https://www.bunetabbigliamento.it/wp-content/uploads/2026/09/C9966ED7-9919-4803-898C-DEE25C6F16AA-768x1024.png",
+      "kb": 933
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo c"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.bunetabbigliamento.it/chi-siamo/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.bunetabbigliamento.it/contatti/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.bunetabbigliamento.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1885,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1190,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1267,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.bunetabbigliamento.it/wp-content/uploads/2026/09/2026-09-12-214239.mp4"
+    }
+  ]
+}

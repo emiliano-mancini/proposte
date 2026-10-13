@@ -1,0 +1,176 @@
+{
+  "slug": "ibfor",
+  "url": "http://www.ibfor.com/",
+  "misuratoIl": "2026-10-13T21:45:07.428Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 5418,
+  "lcpMs": 4738,
+  "lcpElemento": "DIV ",
+  "cls": 1,
+  "urlFinale": "https://www.ibfor.com/",
+  "titolo": "IBFOR - Your design shop",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 1647,
+  "fcp": 3046,
+  "domReady": 4720,
+  "load": 5416,
+  "pesoKB": 6572,
+  "richieste": 132,
+  "script": 28,
+  "serviziEsterni": [
+    "cdn.tnx.it",
+    "www.googletagmanager.com",
+    "player.vimeo.com",
+    "bat.bing.com",
+    "connect.facebook.net",
+    "s.pinimg.com",
+    "www.clickcease.com",
+    "analytics.tiktok.com",
+    "bzrcdn.openai.com",
+    "v2.zopim.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "l.clarity.ms",
+    "c.clarity.ms"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://cdn.ibfor.com/utenti/ibfor_com/cache/_pics/8/3/-sgabelli-magn_45a959845c92a6d8e0ed404851030460_t.png",
+      "kb": 632
+    },
+    {
+      "url": "https://cdn.ibfor.com/utenti/ibfor_com/cache/_pics/8/9/bar--ristoranti---realizzazioni-ibfor_2b674ada717e3e7768968ad26859bace_t.png",
+      "kb": 576
+    },
+    {
+      "url": "https://cdn.ibfor.com/utenti/ibfor_com/cache/_pics/7/7/dsc02528_9e1de62419caf4a4bf93542be688caa7_t.png",
+      "kb": 567
+    },
+    {
+      "url": "https://cdn.ibfor.com/utenti/ibfor_com/cache/_pics/3/5/copertina-10_d045221ac8e1e168655509734b994efe_t.png",
+      "kb": 515
+    },
+    {
+      "url": "https://cdn.ibfor.com/utenti/ibfor_com/cache/_pics/6/2/copertina-edia-cassia-girevole-imbottita-mercis-bedrock-earthwild-26-braccioli-poltroncina-pranzo-persona",
+      "kb": 373
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "_cookie_banner_cont",
+      "copre": "30%",
+      "testo": "Utilizziamo cookie tecnici necessari al funzionamento del servizio e alla personalizzazione dei contenuti. Con il tuo co"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@ibfor.com"
+  ],
+  "telefono": [
+    "00393481483818"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.ibfor.com/it/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.ibfor.com/it/contatti/"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ibfor.com/it/faq/"
+    },
+    {
+      "t": "Residenziali",
+      "h": "https://www.ibfor.com/it/realizzazioni/residenziali/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.ibfor.com/it/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.ibfor.com/it/contatti/"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ibfor.com/it/termini-condizioni/#recesso"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ibfor.com/it/faq/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=1.0, maximum-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 1430,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 913,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 853,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 401,
+      "url": "https://player.vimeo.com/video/1226941836?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&muted=1&loop=1&background=1&dnt=1"
+    },
+    {
+      "status": 999,
+      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a18762ab33e829/vvA8nZ7w0vqXkSIjRnQgFcrWWpqc.z3yznOLm2DVNK8-1791927900-1.2.1.1-HKOL"
+    },
+    {
+      "status": 401,
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a18762ab33e829/1791927900878/bbf5c91ab805278e4ad09e6eea30da4791f232e96161b7ae538de4755320"
+    },
+    {
+      "status": 999,
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WFJQKDD2"
+    },
+    {
+      "status": 999,
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "status": 999,
+      "url": "https://s.pinimg.com/ct/core.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.clickcease.com/monitor/stat.js"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=D1T4J8RC77U2CG4JNNEG&lib=ttq"
+    },
+    {
+      "status": 999,
+      "url": "https://bzrcdn.openai.com/sdk/oaiq.min.js"
+    },
+    {
+      "status": 999,
+      "url": "https://v2.zopim.com/?5qZl7FS0KPfiBohhA5ylSBId7Matp7JL"
+    }
+  ]
+}

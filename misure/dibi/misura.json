@@ -1,0 +1,151 @@
+{
+  "slug": "dibi",
+  "url": "https://shop.dibigroup.com/porte-blindate/ad-uso-interno.html",
+  "misuratoIl": "2026-10-13T21:43:40.311Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 10862,
+  "lcpMs": 4281,
+  "lcpElemento": null,
+  "cls": 0.006,
+  "urlFinale": "https://shop.dibigroup.com/porte-blindate/ad-uso-interno.html",
+  "titolo": "Porte blindate ad uso interno. Configura e acquista online",
+  "descrizione": "Porte blindate ad uso interno, con elevati standard tecnologici e prestazionali. Configura online tra più di 70 modelli e acquista direttamente dal nostro sito.",
+  "h1": [
+    "PORTE BLINDATE AD USO INTERNO"
+  ],
+  "ttfb": 1691,
+  "fcp": 3039,
+  "domReady": 3129,
+  "load": 10860,
+  "pesoKB": 4428,
+  "richieste": 250,
+  "script": 176,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "integrations.etrusted.com",
+    "www.paypalobjects.com",
+    "widgets.trustedshops.com",
+    "static.zdassets.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "ekr.zdassets.com",
+    "app.legalblink.it",
+    "www.facebook.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://shop.dibigroup.com/media/logo/stores/1/logo_dibi.jpg",
+      "kb": 132
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/catalog/product/cache/bf8198ce51d8b2fc6b76a84de965e03c/s/e/segreta_1.png",
+      "kb": 112
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/catalog/product/cache/bf8198ce51d8b2fc6b76a84de965e03c/s/e/segreta_1_2.png",
+      "kb": 112
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/logo/stores/1/DIBI_Logo_sicurezza_design.png",
+      "kb": 74
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/catalog/product/cache/bf8198ce51d8b2fc6b76a84de965e03c/p/o/porta_blindata_poker2_est_sd_white_sx_amb_54.jpg",
+      "kb": 46
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "shop@dibigroup.com",
+    "info@dibigroup.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://shop.dibigroup.com/contact"
+    },
+    {
+      "t": "Reso / Recesso",
+      "h": "https://shop.dibigroup.com/diritto-di-recesso"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://shop.dibigroup.com/faq"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://shop.dibigroup.com/contatti"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://shop.dibigroup.com/condizioni-vendita"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://shop.dibigroup.com/spedizioni"
+    },
+    {
+      "t": "Recesso",
+      "h": "https://shop.dibigroup.com/diritto-di-recesso"
+    }
+  ],
+  "piattaforma": "Magento",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
+  "rispostaServer": [
+    {
+      "ms": 1702,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1176,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 319,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KDQ7ZTZLC6&gtm=45je6ac1v889658816za20ozb9123589615zd9123589615xf1&_p=1791927808759&gcs=G100&gcd=13p3p3p3p5l"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ac1v889658816z89123589615za20gzb9123589615zd9123589615xf1&_p=1791927808759&gcs=G100&gcd"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ac1v889658816za20ozb9123589615zd9123589615xf1&_p=1791927808759&em=tv.1~em.0ZBKf87neo75j"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ac1v889658816z89123589615za20gzb9123589615zd9123589615xf1&_p=1791927808759&gcs=G100&gcd"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fad-uso-interno.htm"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=0&ae=g&tid=AW-831424149&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fad-uso-interno"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=0&tid=AW-831424149&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fad-uso"
+    }
+  ]
+}

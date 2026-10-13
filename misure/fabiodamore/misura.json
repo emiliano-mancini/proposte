@@ -1,0 +1,152 @@
+{
+  "slug": "fabiodamore",
+  "url": "https://fabiodamorecamicie.com/collections/tutti-i-prodotti",
+  "misuratoIl": "2026-10-13T21:44:20.100Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 2998,
+  "lcpMs": 1620,
+  "lcpElemento": "IMG https://fabiodamorecamicie.com/cdn/shop/files/0017_3.jpg?v=1727714970&width=400",
+  "cls": 0,
+  "urlFinale": "https://fabiodamorecamicie.com/collections/tutti-i-prodotti",
+  "titolo": "TUTTI I PRODOTTI",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 268,
+  "fcp": 1535,
+  "domReady": 1881,
+  "load": 2997,
+  "pesoKB": 2738,
+  "richieste": 232,
+  "script": 59,
+  "serviziEsterni": [
+    "shop.app",
+    "cdn.shopify.com",
+    "cdn-sf.vitals.app",
+    "otlp-http-production.shopifysvc.com",
+    "monorail-edge.shopifysvc.com",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.merchant-center-analytics.goog",
+    "www.facebook.com",
+    "apps.synctrack.io",
+    "s3.eu-west-1.amazonaws.com",
+    "omnisnippet1.com",
+    "tr.vitals.co",
+    "wt.omnisendlink.com",
+    "o511301.ingest.us.sentry.io",
+    "ajax.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://fabiodamorecamicie.com/cdn/shop/t/2/assets/country-flags-2x.png?v=119388446682176363021727381941",
+      "kb": 152
+    },
+    {
+      "url": "https://fabiodamorecamicie.com/cdn/shop/files/1_0c11d605-5257-4641-82b1-0368a77ecc9d.jpg?v=1732109829&width=400",
+      "kb": 34
+    },
+    {
+      "url": "https://fabiodamorecamicie.com/cdn/shop/files/5_2.jpg?v=1734636494&width=400",
+      "kb": 34
+    },
+    {
+      "url": "https://fabiodamorecamicie.com/cdn/shop/files/3.png?v=1785341110&width=400",
+      "kb": 31
+    },
+    {
+      "url": "https://fabiodamorecamicie.com/cdn/shop/files/0015_5_eaad0663-e163-44fd-8b34-f69e178c02f3.jpg?v=1727716427&width=400",
+      "kb": 30
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "CONTATTA IL TUO PERSONAL SHOPPER",
+      "h": "http://wa.me/393341536429"
+    },
+    {
+      "t": "CONTATTA IL TUO PERSONAL SHOPPER",
+      "h": "http://wa.me/393341536429"
+    },
+    {
+      "t": "Informative Spedizioni",
+      "h": "https://fabiodamorecamicie.com/policies/shipping-policy"
+    },
+    {
+      "t": "Resi e Rimborsi",
+      "h": "https://fabiodamorecamicie.com/policies/refund-policy"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 1016,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 179,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 284,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "blob:https://fabiodamorecamicie.com/13da7dcf-fa28-4b8c-a700-933bca82f2dd"
+    },
+    {
+      "status": 999,
+      "url": "https://fabiodamorecamicie.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://fabiodamorecamicie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://fabiodamorecamicie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://fabiodamorecamicie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://fabiodamorecamicie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://fabiodamorecamicie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://fabiodamorecamicie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://fabiodamorecamicie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://fabiodamorecamicie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    }
+  ]
+}

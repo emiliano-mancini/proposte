@@ -1,0 +1,164 @@
+{
+  "slug": "rubinetteriashop",
+  "url": "https://www.rubinetteriashop.com/it/rubinetti-vasca-a-pavimento/12160-96341-miscelatore-esterno-per-vasca-colore-cromo-con-colonne-a-pavimento-e-doccetta-mamoli-gio-ponti-1040f2140021.html",
+  "misuratoIl": "2026-10-13T21:43:13.228Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 6385,
+  "lcpMs": 3895,
+  "lcpElemento": "IMG https://www.rubinetteriashop.com/60376-large_default/miscelatore-esterno-per-vasca-colore-cromo-con-colonne-a-pavimento-",
+  "cls": 0,
+  "urlFinale": "https://www.rubinetteriashop.com/it/rubinetti-vasca-a-pavimento/12160-96341-miscelatore-esterno-per-vasca-colore-cromo-con-colonne-a-pavimento-e-doccetta-mamoli-gio-ponti-1040f2140021.html",
+  "titolo": "Miscelatore esterno per vasca colore cromo con colonne a pavimento e doccetta Mamoli Gio Ponti 1040F2140021",
+  "descrizione": "Miscelatore esterno per vasca Mamoli Gio Ponti 1040F2140021: design innovativo, colonne a pavimento, doccetta inclusa. Disponibile online su RubinetteriaShop.",
+  "h1": [
+    "Miscelatore esterno per vasca colore cromo con colonne a pavimento e doccetta Mamoli Gio Ponti 1040F"
+  ],
+  "ttfb": 3092,
+  "fcp": 3714,
+  "domReady": 4764,
+  "load": 6383,
+  "pesoKB": 3636,
+  "richieste": 249,
+  "script": 112,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "cdnjs.cloudflare.com",
+    "cdn.jsdelivr.net",
+    "fonts.googleapis.com",
+    "js.stripe.com",
+    "eu1-config.doofinder.com",
+    "app.mailjet.com",
+    "widgets.rr.skeepers.io",
+    "static.klaviyo.com",
+    "cdn.scalapay.com",
+    "sibautomation.com",
+    "0lspz.mjt.lu",
+    "cdn.doofinder.com",
+    "eu1-search.doofinder.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "in-automate.brevo.com",
+    "eu1-recommendations.doofinder.com",
+    "pagead2.googlesyndication.com",
+    "ka-f.fontawesome.com",
+    "static-tracking.klaviyo.com",
+    "connect.facebook.net",
+    "idb.iubenda.com",
+    "www.google-analytics.com",
+    "fast.a.klaviyo.com",
+    "eu1-api.doofinder.com",
+    "www.facebook.com",
+    "static-forms.klaviyo.com",
+    "static-eu.oct8ne.com",
+    "frontal-eu.oct8ne.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.rubinetteriashop.com/70301-large_default/miscelatore-esterno-per-vasca-colore-cromo-con-doccetta-mamoli-gio-ponti-1030f2140021.jpg",
+      "kb": 36
+    },
+    {
+      "url": "https://www.rubinetteriashop.com/themes/seochef/assets/img/payment-new.svg",
+      "kb": 35
+    },
+    {
+      "url": "https://www.rubinetteriashop.com/50359-large_default/parte-esterna-miscelatore-termostatico-mamoli-gio-ponti-3515pe000001.jpg",
+      "kb": 28
+    },
+    {
+      "url": "https://www.rubinetteriashop.com/themes/seochef/assets/img/soddisfatti.svg",
+      "kb": 17
+    },
+    {
+      "url": "https://www.rubinetteriashop.com/38994-large_default/miscelatore-batteria-incasso-per-vasca-con-set-doccia-mamoli-gio-ponti-2519fr140021.jpg",
+      "kb": 17
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi (Rubinetteriashop srl) e terze parti selezionate (14) raccogliamo informazioni personali come specific"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 1172,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [
+    "support@rubinetteriashop.com",
+    "rubinetteriashop@pecdotcom.it"
+  ],
+  "telefono": [
+    "+390322097686",
+    "+39 0322 097 686"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizione resi e rimborsi",
+      "h": "https://www.rubinetteriashop.com/it/content/1-spedizione-resi-e-rimborsi"
+    },
+    {
+      "t": "Termini e condizioni d'uso",
+      "h": "https://www.rubinetteriashop.com/it/content/3-termini-e-condizioni-di-uso"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.rubinetteriashop.com/it/content/10-faq"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.rubinetteriashop.com/it/content/4-chi-siamo"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2844,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2145,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2312,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=1&ae=g&auid=760926308.1791927787&dt=Miscelatore%20esterno%20per%20vasca%20colore%20cromo%20con%20colonne%20"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=bcNdnGkg8IFycBqjE5SAti6xeHpwH-KmGg&auid=760926308.1791927787&gtm=45He6ac1v9113105496za200zd9113105496xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=0&tid=AW-1020684514&en=page_view&dl=https%3A%2F%2Fwww.rubinetteriashop.com%2Fit%2Frubinetti-v"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=0&ae=g&tid=AW-1020684514&dl=https%3A%2F%2Fwww.rubinetteriashop.com%2Fit%2Frubinetti-vasca-a-p"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4PDF23YM37&gtm=45je6ac1v882449770za20ozb9113105496zd9113105496xf1&_p=1791927786188&gcs=G100&gcd=13p3p3p3p5l"
+    }
+  ]
+}

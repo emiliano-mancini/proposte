@@ -1,0 +1,187 @@
+{
+  "slug": "amusi",
+  "url": "https://www.amusi.it/products/spray-olio-di-neem-gatti",
+  "misuratoIl": "2026-10-13T21:46:03.562Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 3665,
+  "lcpMs": 1142,
+  "lcpElemento": "IMG https://www.amusi.it/cdn/shop/files/carousel-cosmetica-gatto-olio-di-neem-1.jpg?v=1708353530&width=1000",
+  "cls": 0.002,
+  "urlFinale": "https://www.amusi.it/products/spray-olio-di-neem-gatti",
+  "titolo": "Olio di Neem per Gatti: Spray repellente contro insetti, pulci e parassiti | amusi",
+  "descrizione": "Lozione spray per gatti di amusi, contrasta gli insetti e i parassiti in modo naturale. Formulata con solo Olio di Neem e oli essenziali di Lavanda e Citronella.",
+  "h1": [
+    "Lozione all'Olio di Neem per Gatti"
+  ],
+  "ttfb": 668,
+  "fcp": 884,
+  "domReady": 1746,
+  "load": 3663,
+  "pesoKB": 4769,
+  "richieste": 333,
+  "script": 104,
+  "serviziEsterni": [
+    "cdn.shopify.com",
+    "dev.visualwebsiteoptimizer.com",
+    "shop.app",
+    "static.klaviyo.com",
+    "config.gorgias.chat",
+    "content.9gtb.com",
+    "config.gorgias.help",
+    "a.klaviyo.com",
+    "www.clarity.ms",
+    "otlp-http-production.shopifysvc.com",
+    "scripts.clarity.ms",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "www.paypal.com",
+    "o58632.ingest.sentry.io",
+    "static.rechargecdn.com",
+    "static-tracking.klaviyo.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "assets.gorgias.chat",
+    "fast.a.klaviyo.com",
+    "www.merchant-center-analytics.goog",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "monorail-edge.shopifysvc.com",
+    "d2wy8f7a9ursnm.cloudfront.net",
+    "h.clarity.ms",
+    "www.facebook.com",
+    "fonts.googleapis.com",
+    "amusi-petfood-production.myshopify.com",
+    "googleads.g.doubleclick.net",
+    "sessions.bugsnag.com",
+    "static-forms.klaviyo.com",
+    "gorgias-convert.com",
+    "amusi-petfood-production.shopify-checkout.config.gorgias.chat",
+    "widget.trustpilot.com",
+    "ecommplugins-scripts.trustpilot.com",
+    "ecommplugins-trustboxsettings.trustpilot.com",
+    "c.clarity.ms",
+    "www.sandbox.paypal.com",
+    "invitejs.trustpilot.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.amusi.it/cdn/shop/files/Ingredient_Lavender.svg?v=1772617980&width=80",
+      "kb": 71
+    },
+    {
+      "url": "https://www.amusi.it/cdn/shop/files/text_and_image_dog_2025.png?v=1761584020&width=1080",
+      "kb": 69
+    },
+    {
+      "url": "https://www.amusi.it/cdn/shop/files/MAIN_Fiale-Neem-Gatti-new.jpg?v=1783954193&width=1000",
+      "kb": 65
+    },
+    {
+      "url": "https://www.amusi.it/cdn/shop/files/MAIN_Fiale-Neem-Cani-new.jpg?v=1783954193&width=1000",
+      "kb": 64
+    },
+    {
+      "url": "https://www.amusi.it/cdn/shop/files/carousel-cosmetica-gatto-olio-di-neem-1.jpg?v=1708353530&width=1000",
+      "kb": 61
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi",
+    "yPx": 1264,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "supporto@amusi.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.amusi.it/pages/chi-siamo"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.amusi.it/pages/faq"
+    },
+    {
+      "t": "Spedizione e costi",
+      "h": "https://www.amusi.it/pages/spedizioni-e-costi"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.amusi.it/pages/contatti"
+    },
+    {
+      "t": "TERMINI E CONDIZIONI DI VENDITA",
+      "h": "https://www.amusi.it/pages/termini-e-condizioni"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 434,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 190,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 454,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.amusi.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.amusi.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.amusi.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=1&auid=1695974029.1791927958&dt=Olio%20di%20Neem%20per%20Gatti%3A%20Spray%20repellente%20contro%20insetti%2"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1695974029.1791927958&gtm=45je6ac0v883789121za208zb9177722994zd9177722994xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.amusi.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-53S54R8REE&gtm=45Pe6ac1h1v9177722994za200zd9177722994xf1&_p=1791927957427&gcs=G111&gcd=13t3t3t3"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-Q93H1W433H&gtm=45je6ac0v883789121za200zb9177722994zd9177722994xf1&_p=1791927957427&_gaz=1&gcs=G111&gcd=13t3t3t3"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-Q93H1W433H&gtm=45je6ac0v883789121za200zb9177722994zd9177722994xf1&_p=1791927957427&gcs=G111&gcd=13t3t3t3t5l1&np"
+    },
+    {
+      "status": 999,
+      "url": "https://www.amusi.it/shopify_pay/accelerated_checkout"
+    }
+  ]
+}

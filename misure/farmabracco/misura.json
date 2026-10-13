@@ -1,0 +1,198 @@
+{
+  "slug": "farmabracco",
+  "url": "https://farmabracco.it/products/vapo-essentia-lavanda-arancio-olio-essenziale-10-ml",
+  "misuratoIl": "2026-10-13T21:42:32.957Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 2064,
+  "lcpMs": 1618,
+  "lcpElemento": "DIV ",
+  "cls": 0,
+  "urlFinale": "https://farmabracco.it/products/vapo-essentia-lavanda-arancio-olio-essenziale-10-ml",
+  "titolo": "Vapo essentia lavanda arancio olio essenziale 10 ml | Farmabracco",
+  "descrizione": "Scheda descrittiva vapo ESSENTIA LAVANDA FIORI D'ARANCIO Descrizione Mix di profumo dell’olio essenziale di lavanda che si mescola con la nota agrumata e floreale dell’olio di fiori d’arancio, ristabilisce l’equilibrio e il buonumore in ogni momento della giornata. Modalità d'uso Versare alcune gocce dell’essenza nei d",
+  "h1": [
+    "vapo ESSENTIA\nLAVANDA\nFIORI D'ARANCIO"
+  ],
+  "ttfb": 493,
+  "fcp": 906,
+  "domReady": 1218,
+  "load": 2062,
+  "pesoKB": 2675,
+  "richieste": 236,
+  "script": 56,
+  "serviziEsterni": [
+    "consent.cookiebot.com",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "cdn.shopify.com",
+    "shop.app",
+    "cdn.jsdelivr.net",
+    "otlp-http-production.shopifysvc.com",
+    "l.getsitecontrol.com",
+    "consentcdn.cookiebot.com",
+    "connect.facebook.net",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.googleadservices.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.facebook.com",
+    "googleads.g.doubleclick.net",
+    "diffuser-cdn.app-us1.com",
+    "prism.app-us1.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://farmabracco.it/cdn/shop/files/vapo-essentia-lavanda-arancio-olio-essenziale-10-ml-0-c92fd0c58168215ce6ca7ca274223663.jpg?v=1691799153",
+      "kb": 31
+    },
+    {
+      "url": "https://farmabracco.it/cdn/shop/files/stillpur-salf-acqua-depurata-non-sterile-fustino-polietilene5-litri-0-0b6f7856039e575ae22f453ab96cc9ee-1_290x290.jpg?v=170",
+      "kb": 12
+    },
+    {
+      "url": "https://farmabracco.it/cdn/shop/files/logo-farmabracco.png?v=7614258524358639050",
+      "kb": 11
+    },
+    {
+      "url": "https://farmabracco.it/cdn/shop/files/logo-footer.png?v=1704445016",
+      "kb": 10
+    },
+    {
+      "url": "https://farmabracco.it/cdn/shop/files/logo-farmabracco.png?v=1701341580&width=180",
+      "kb": 9
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "60%",
+      "testo": "Consenso Dettagli Informazioni sui cookie Questo sito web utilizza i cookie Utilizziamo i cookie per personalizzare cont"
+    },
+    {
+      "id": "CybotCookiebotDialogBodyUnderlay",
+      "copre": "100%",
+      "testo": ""
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 1045,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@farmabracco.it"
+  ],
+  "telefono": [
+    "+393334378034"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Condizioni generali di vendita",
+      "h": ""
+    },
+    {
+      "t": "TERMINI E CONDIZIONI",
+      "h": "https://farmabracco.it/pages/termini-e-condizioni"
+    },
+    {
+      "t": "Presidi Medicali",
+      "h": "https://farmabracco.it/collections/presidi-medicali"
+    },
+    {
+      "t": "Consulta i Termini e le Condizioni Generali di Far",
+      "h": "https://farmabracco.it/pages/termini-e-condizioni"
+    },
+    {
+      "t": "Consulta i Termini e le Condizioni Generali di Tra",
+      "h": "https://www.tnt.com/express/it_it/site/home/condizioni-generali-di-trasporto.html"
+    },
+    {
+      "t": "Esercita il diritto di recesso",
+      "h": "https://farmabracco.it/pages/esercita-diritto-di-recesso"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://farmabracco.it/pages/domande-frequenti"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://farmabracco.it/pages/termini-e-condizioni"
+    },
+    {
+      "t": "TNT - Termini e condizioni",
+      "h": "https://www.tnt.com/express/it_it/site/home/condizioni-generali-di-trasporto.html"
+    },
+    {
+      "t": "Presidi Medicali",
+      "h": "https://farmabracco.it/collections/presidi-medicali"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1,maximum-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 643,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 171,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 202,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://farmabracco.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://farmabracco.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://farmabracco.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://farmabracco.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://farmabracco.it/shopify_pay/accelerated_checkout"
+    },
+    {
+      "status": 999,
+      "url": "https://farmabracco.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-Y6D3VFV8XM&gtm=45je6ac0h1v9176414731za200zb850056649zd850056649xf1&_p=1791927747656&_gaz=1&gcs=G111&gcd=13t3t3t"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=492003777.1791927749&gtm=45be6ac1v872420266za208zb850056649zd850056649xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&auid=492003777.1791927749&dt=Vapo%20essentia%20lavanda%20arancio%20olio%20essenziale%2010%20ml%20%7C%20Far"
+    },
+    {
+      "status": 999,
+      "url": "https://farmabracco.it/.well-known/shopify/monorail/unstable/produce_batch"
+    }
+  ]
+}

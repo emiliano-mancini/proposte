@@ -1,0 +1,146 @@
+{
+  "slug": "ilmondodelbarbecue",
+  "url": "http://www.ilmondodelbarbecue.it/",
+  "misuratoIl": "2026-10-13T21:42:09.461Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 5303,
+  "lcpMs": 3462,
+  "lcpElemento": "SECTION https://www.ilmondodelbarbecue.it/img/cms/cucine_da_esterno/5.png",
+  "cls": 0.011,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/",
+  "titolo": "Barbecue Gas, Carbone, Elettrici e Accessori - Il Mondo del Barbecue",
+  "descrizione": "Le migliori griglie per appassionati e professionisti del barbecue. Consegna 24/48h GRATIS da 99€. Assistenza Esperti Qualificati",
+  "h1": [
+    "Il negozio di barbecue e cucine da esterno n°1 in Italia"
+  ],
+  "ttfb": 1644,
+  "fcp": 2356,
+  "domReady": 3521,
+  "load": 5302,
+  "pesoKB": 5106,
+  "richieste": 158,
+  "script": 41,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "upstream.heidipay.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "eu1-layer.doofinder.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "cl-pbr.cxr.skeepers.io",
+    "fast.a.klaviyo.com",
+    "www.gstatic.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "static-forms.klaviyo.com",
+    "gum.criteo.com",
+    "csp.withgoogle.com",
+    "cs.iubenda.com",
+    "googleads.g.doubleclick.net",
+    "idb.iubenda.com",
+    "sslwidget.criteo.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/home/foto-home-bbq_02_2024.jpg",
+      "kb": 446
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/cucine_da_esterno/5.png",
+      "kb": 382
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/home/foto-home-bbq_03_2024.jpg",
+      "kb": 374
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/home/foto-home-bbq_01_2024.jpg",
+      "kb": 214
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/home/foto-home-bbq_04_2024.jpg",
+      "kb": 206
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1815,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 705,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 647,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.ilmondodelbarbecue.it/video/ste-maxime-v2.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=211636307&fst=1791927725275&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ac0v893849886z9910484"
+    }
+  ]
+}

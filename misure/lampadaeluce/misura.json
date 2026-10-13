@@ -1,0 +1,76 @@
+{
+  "slug": "lampadaeluce",
+  "url": "https://www.lampadaeluce.it/plafoniera-di-design-nera-con-vetro-fume-3-luci-uvas",
+  "misuratoIl": "2026-10-13T21:41:26.489Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 784,
+  "lcpMs": 517,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://www.lampadaeluce.it/plafoniera-di-design-nera-con-vetro-fume-3-luci-uvas",
+  "titolo": "Ci siamo quasi…",
+  "descrizione": null,
+  "h1": [
+    "www.lampadaeluce.it"
+  ],
+  "ttfb": 334,
+  "fcp": 517,
+  "domReady": 372,
+  "load": 780,
+  "pesoKB": 1006,
+  "richieste": 5,
+  "script": 2,
+  "serviziEsterni": [
+    "challenges.cloudflare.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a18211ae991e7d/1791927683103/Qp0zDFlury9uSFgwGS3wD_j3W__E1gF8Bkp0JfvcqQ4-1791927683-1.3.1.",
+      "kb": 6
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 217,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 58,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 90,
+      "status": 403,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 403,
+      "url": "https://www.lampadaeluce.it/plafoniera-di-design-nera-con-vetro-fume-3-luci-uvas"
+    },
+    {
+      "status": 999,
+      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a18211ae991e7d/XXKNr8HGPpIASiPfeCMPypziQaPRKdjnQGRHUEQKhnM-1791927682-1.2.1.1-6YrH"
+    },
+    {
+      "status": 401,
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a18211ae991e7d/1791927683097/4f9f14e73920cd3b1be28b51277fb8005c835f4e3c83943f1daf6a8634d1"
+    }
+  ]
+}

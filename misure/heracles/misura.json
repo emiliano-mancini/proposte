@@ -1,0 +1,76 @@
+{
+  "slug": "heracles",
+  "url": "https://www.heraclesnutrition.it/",
+  "misuratoIl": "2026-10-13T21:46:08.928Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 502,
+  "lcpMs": 456,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://www.heraclesnutrition.it/",
+  "titolo": "Ci siamo quasi…",
+  "descrizione": null,
+  "h1": [
+    "www.heraclesnutrition.it"
+  ],
+  "ttfb": 278,
+  "fcp": 456,
+  "domReady": 315,
+  "load": 501,
+  "pesoKB": 984,
+  "richieste": 5,
+  "script": 2,
+  "serviziEsterni": [
+    "challenges.cloudflare.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a188f87a1d000b/1791927965796/Pt6kGeJHSR1hBzZJ22Z3ntkAm0C3zy.czSXYV41XICg-1791927965-1.3.1.",
+      "kb": 4
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 242,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 108,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 109,
+      "status": 403,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 403,
+      "url": "https://www.heraclesnutrition.it/"
+    },
+    {
+      "status": 999,
+      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a188f87a1d000b/cVJ3boh0V8uFyUMC4PVuvBMGZBXGivHQt93rm4IcBpY-1791927965-1.2.1.1-35L."
+    },
+    {
+      "status": 401,
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a188f87a1d000b/1791927965793/0940ea4372783e281ba49f5484b0ccc1aaedec7ecda7135c65e13cd9f80f"
+    }
+  ]
+}

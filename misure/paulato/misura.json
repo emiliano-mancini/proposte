@@ -1,0 +1,76 @@
+{
+  "slug": "paulato",
+  "url": "https://shop.paulato.com/it/complementi-e-rivestimenti/20-473-vestiletto.html",
+  "misuratoIl": "2026-10-13T21:43:25.066Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 482,
+  "lcpMs": 456,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://shop.paulato.com/it/complementi-e-rivestimenti/20-473-vestiletto.html",
+  "titolo": "Ci siamo quasi…",
+  "descrizione": null,
+  "h1": [
+    "shop.paulato.com"
+  ],
+  "ttfb": 274,
+  "fcp": 456,
+  "domReady": 314,
+  "load": 480,
+  "pesoKB": 980,
+  "richieste": 5,
+  "script": 2,
+  "serviziEsterni": [
+    "challenges.cloudflare.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/ci/a4a184f87dd8b834/1791927801952/fWXx_tXD_67fNb6wEbX4G26ioXgEmCfSUx_BTFe_GWk-1791927801-1.3.1.",
+      "kb": 0
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 228,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 360,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 108,
+      "status": 403,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 403,
+      "url": "https://shop.paulato.com/it/complementi-e-rivestimenti/20-473-vestiletto.html"
+    },
+    {
+      "status": 999,
+      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a4a184f87dd8b834/7BouOtOCMnT_ZDQrIa9W2e.PsF.Wf67DFmEpXJhvkc4-1791927801-1.2.1.1-O9un"
+    },
+    {
+      "status": 401,
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/pat/a4a184f87dd8b834/1791927801951/0366ede79203f3632dd1eb61058a9523269a39642785900207b21a5b8c02"
+    }
+  ]
+}

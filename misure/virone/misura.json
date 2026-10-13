@@ -1,0 +1,162 @@
+{
+  "slug": "virone",
+  "url": "https://aziendaagricolavirone.it/shop/",
+  "misuratoIl": "2026-10-13T21:42:21.612Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 4607,
+  "lcpMs": 3887,
+  "lcpElemento": "IMG https://aziendaagricolavirone.it/wp-content/uploads/2026/10/preordine_arance_mobile.jpg",
+  "cls": 0.005,
+  "urlFinale": "https://aziendaagricolavirone.it/shop/",
+  "titolo": "Shop - Azienda Agricola Virone",
+  "descrizione": "Prodotti Archive - Azienda Agricola Virone",
+  "h1": [],
+  "ttfb": 2296,
+  "fcp": 2524,
+  "domReady": 3077,
+  "load": 4603,
+  "pesoKB": 2448,
+  "richieste": 192,
+  "script": 105,
+  "serviziEsterni": [
+    "cdn.brevo.com",
+    "fonts.gstatic.com",
+    "chimpstatic.com",
+    "sibautomation.com",
+    "www.youtube.com",
+    "www.googletagmanager.com",
+    "mcjs.prd.a.intuit.com",
+    "in-automate.brevo.com",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "analytics.tiktok.com",
+    "connect.facebook.net",
+    "www.facebook.com",
+    "analytics-ipv6.tiktokw.us"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/2026/10/preordine_arance_mobile.jpg",
+      "kb": 210
+    },
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/2022/10/arance_bio_kg-400x400.png",
+      "kb": 141
+    },
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/2021/05/pompelmo-rosa.png.webp",
+      "kb": 79
+    },
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/revslider/slider-12/slider122.png",
+      "kb": 66
+    },
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/2021/05/arance_bio_10kg-400x400.jpg",
+      "kb": 42
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 775,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+39388%206450716",
+    "%20(064)%20332-1233"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://aziendaagricolavirone.it/contattaci/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://aziendaagricolavirone.it/chi-siamo/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://aziendaagricolavirone.it/chi-siamo/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://aziendaagricolavirone.it/contattaci/"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://aziendaagricolavirone.it/termini-e-condizioni/"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://aziendaagricolavirone.it/contattaci/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://aziendaagricolavirone.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+  "rispostaServer": [
+    {
+      "ms": 2090,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1524,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1493,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/355030437/?random=1791927737221&cv=11&fst=1791927737221&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6ac1v91067875"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&auid=713648810.1791927737&dt=Shop%20-%20Azienda%20Agricola%20Virone&tid=AW-355030437&en=page_view&dl=https"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=0&auid=713648810.1791927737&dt=Shop&tid=AW-355030437&en=page_view&dl=https%3A%2F%2Faziendaagricolavirone.it%"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/355030437/?random=1791927737278&cv=11&fst=1791927737278&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je6ac1v9106787562"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-X0FR36WG0F&gtm=45je6ac1v9106787562za208zd9106787562xf1&_p=1791927736707&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=713648810.1791927737&gtm=45je6ac1v9106787562za208zd9106787562xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/measurement/conversion?random=1791927737257&cv=11&tid=G-X0FR36WG0F&fst=1791927737257&fmt=8&en=page_view&gtm=45je6ac1v9106787562za208zd910"
+    },
+    {
+      "status": 999,
+      "url": "https://chimpstatic.com/pixel/v1/track"
+    }
+  ]
+}

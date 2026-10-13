@@ -1,0 +1,184 @@
+{
+  "slug": "mareecielo",
+  "url": "https://www.mareecielo.it/varia-minuteria-da-pesca/1399-stonfo-salva-ancorette.html",
+  "misuratoIl": "2026-10-13T21:41:33.878Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "caricamentoTotaleMs": 3294,
+  "lcpMs": 2471,
+  "lcpElemento": "IMG https://www.mareecielo.it/3145-large_default/stonfo-salva-ancorette.jpg",
+  "cls": 0.024,
+  "urlFinale": "https://www.mareecielo.it/varia-minuteria-da-pesca/1399-stonfo-salva-ancorette.html",
+  "titolo": "Salva Ancorette per Artificiali Spinning STONFO | Mare e Cielo",
+  "descrizione": "Salva ancorette per artificiali da pesca. Evitano di far penetrare le punte nella buffetteria da pesca, ed evitano ferite accidentali. Varie misure",
+  "h1": [
+    "STONFO SALVA ANCORETTE"
+  ],
+  "ttfb": 1253,
+  "fcp": 1701,
+  "domReady": 2206,
+  "load": 3292,
+  "pesoKB": 3470,
+  "richieste": 62,
+  "script": 18,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "assets.motive.co",
+    "www.googletagmanager.com",
+    "js.klarna.com",
+    "www.google.com",
+    "fonts.gstatic.com",
+    "connect.facebook.net",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.gstatic.com",
+    "googleads.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "csp.withgoogle.com",
+    "www.facebook.com",
+    "www.paypal.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.mareecielo.it/3146-large_default/stonfo-salva-ancorette.jpg",
+      "kb": 239
+    },
+    {
+      "url": "https://www.mareecielo.it/3145-large_default/stonfo-salva-ancorette.jpg",
+      "kb": 189
+    },
+    {
+      "url": "https://www.mareecielo.it/3146-medium_default/stonfo-salva-ancorette.jpg",
+      "kb": 115
+    },
+    {
+      "url": "https://www.mareecielo.it/img/snap-fiiish-perfect-link-pack-of-10-z-1297-129766.jpg",
+      "kb": 98
+    },
+    {
+      "url": "https://www.mareecielo.it/3145-medium_default/stonfo-salva-ancorette.jpg",
+      "kb": 97
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "lgcookieslaw_banner_e07c34e8154c5837e0f338f21cd166ad",
+      "copre": "29%",
+      "testo": "Questo sito web utilizza cookie propri e di terze parti per migliorare i nostri servizi e mostrarti pubblicità relativa "
+    },
+    {
+      "id": "cp-popup cp-popup-visible",
+      "copre": "86%",
+      "testo": ""
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Acquista ora! Vedi combinazioni disponib",
+    "yPx": 655,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@mareecielo.it"
+  ],
+  "telefono": [
+    "+390828671240",
+    "(+39) 0828 671240"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Maps\n\t\t\t\t\t\t\t\t\t\t Contatti",
+      "h": "https://www.mareecielo.it/contattaci"
+    },
+    {
+      "t": "Maps Contatti",
+      "h": "https://www.mareecielo.it/contattaci"
+    },
+    {
+      "t": "RECESSO SU ORDINE",
+      "h": "https://www.mareecielo.it/module/legalwithdrawal/withdrawal"
+    },
+    {
+      "t": "Condizioni generali di vendita",
+      "h": "https://www.mareecielo.it/content/11-condizioni-generali-di-vendita"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.mareecielo.it/content/3-diritto-di-recesso"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://www.mareecielo.it/content/1-spedizioni"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.mareecielo.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.mareecielo.it/contattaci"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width",
+  "rispostaServer": [
+    {
+      "ms": 1269,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 677,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 608,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKV8NK87H6&gtm=45je6ac1v879744882za208zd879744882xf1&_p=1791927689039&em=tv.1~em.cdaTvT62L_2UwF8JYkV9pPmvALnjvJ"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKV8NK87H6&gtm=45je6ac1v879744882za200zd879744882xf1&_p=1791927689039&gcs=G111&gcd=13t3t3l3l5l1&npa=0&dma=0&eci"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/663107648/?random=1791927689401&cv=11&fst=1791927689401&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ac0v87465482"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/form-data/663107648?gtm=45be6ac0v874654824za200zb879744882zd879744882xecxf1&gcs=G111&gcd=13t3t3l3l5l1&dma=0&tag_exp=115938465~1159384"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=1774231735.1791927689&dt=Salva%20Ancorette%20per%20Artificiali%20Spinning%20STONFO%20%7C%20Mare%20e%2"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/663107648/?random=1791927689446&cv=11&fst=1791927689446&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6ac0v874654824z"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&auid=1774231735.1791927689&dt=Salva%20Ancorette%20per%20Artificiali%20Spinning%20STONFO%20%7C%20Mare%20e%2"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1774231735.1791927689&gtm=45be6ac0v874654824za208zb879744882zd879744882xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d"
+    }
+  ]
+}
