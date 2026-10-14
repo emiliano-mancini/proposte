@@ -1,0 +1,111 @@
+{
+  "slug": "pazzodesign-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/",
+  "misuratoIl": "2026-10-14T03:04:10.229Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 411,
+  "lcpMs": 411,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/sissi-1-v.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/",
+  "titolo": "Sedia Sissi set da 4 – 249 € con spedizione gratuita | Pazzo Design",
+  "descrizione": "Sedia Sissi, set da 4 sedie imbottite con schienale a petali e gambe dorate: 249 € IVA inclusa, spedizione gratuita in 48/72 ore, paga in 3 rate. Proposta di restyling – bozza non ufficiale.",
+  "h1": [
+    "Sedia Sissi"
+  ],
+  "ttfb": 138,
+  "fcp": 263,
+  "domReady": 155,
+  "load": 406,
+  "pesoKB": 119,
+  "richieste": 5,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/sissi-2.webp",
+      "kb": 17
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/logo.png",
+      "kb": 13
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/sissi-schema.webp",
+      "kb": 12
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/sissi-1-v.webp",
+      "kb": 8
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 691,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "support@pazzodesign.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "Condizioni",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 101,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 9,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 8,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
