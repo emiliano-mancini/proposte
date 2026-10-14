@@ -1,0 +1,111 @@
+{
+  "slug": "pazzodesign-finale",
+  "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/?v=3",
+  "misuratoIl": "2026-10-14T09:29:50.190Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 481,
+  "lcpMs": 432,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/?v=3",
+  "titolo": "Pazzo Design – tavoli, sedie e consolle di design con spedizione gratuita",
+  "descrizione": "Tavoli allungabili, consolle, sedie, poltrone e librerie di design. Spedizione gratuita in tutta Italia, consegna in 48/72 ore, 3 rate senza interessi. Proposta di restyling – bozza non ufficiale.",
+  "h1": [
+    "Il tavolo che si allunga quando servono posti."
+  ],
+  "ttfb": 119,
+  "fcp": 432,
+  "domReady": 439,
+  "load": 476,
+  "pesoKB": 172,
+  "richieste": 15,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/a07964950742.webp",
+      "kb": 25
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/686298b9a9a5.webp",
+      "kb": 14
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/logo.png",
+      "kb": 13
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/a93838aab2d3.webp",
+      "kb": 11
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/e1e883b23291.webp",
+      "kb": 8
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "support@pazzodesign.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Sedia Sissi set da 4\n249,00 €\nSpedizione gratuita",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/sedia-sissi/"
+    },
+    {
+      "t": "Poltrona Vittoria set da uno\n249,00 €\nSpedizione g",
+      "h": "https://pazzodesign.it/prodotto/poltrona-vittoria-set-da-uno/"
+    },
+    {
+      "t": "Sedia Giada set da 4 sedie\n219,00 €\nSpedizione gra",
+      "h": "https://pazzodesign.it/prodotto/sedia-giada-set-da-4-sedie/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 153,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

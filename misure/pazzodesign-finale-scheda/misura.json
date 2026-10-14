@@ -1,0 +1,115 @@
+{
+  "slug": "pazzodesign-finale-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/sedia-sissi/?v=3",
+  "misuratoIl": "2026-10-14T09:29:54.296Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 270,
+  "lcpMs": 296,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/sissi-1-v.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/sedia-sissi/?v=3",
+  "titolo": "Sedia Sissi set da 4 – 249 € con spedizione gratuita | Pazzo Design",
+  "descrizione": "Sedia Sissi, set da 4 sedie imbottite con schienale a petali e gambe dorate: 249 € IVA inclusa, spedizione gratuita in 48/72 ore, paga in 3 rate. Proposta di restyling – bozza non ufficiale.",
+  "h1": [
+    "Sedia Sissi"
+  ],
+  "ttfb": 85,
+  "fcp": 245,
+  "domReady": 232,
+  "load": 265,
+  "pesoKB": 135,
+  "richieste": 10,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/sissi-2.webp",
+      "kb": 17
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/logo.png",
+      "kb": 13
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/sissi-schema.webp",
+      "kb": 13
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/sissi-1-v.webp",
+      "kb": 8
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/sedia-sissi/img/ac05939e5dcd.webp",
+      "kb": 5
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 704,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "support@pazzodesign.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Condizioni",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "Jolanda\n140 → 200 cm\n449,00 €\nSpedizione gratuita",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/tavolo-jolanda/"
+    },
+    {
+      "t": "Diana\n120 → 200 cm\n290,00 €\nSpedizione gratuita",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-diana-da-120-a-200/"
+    },
+    {
+      "t": "Bianco con gambe bianche\n299,00 €\nSpedizione gratu",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-bianco-con-gambe-bianche/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

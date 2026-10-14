@@ -1,0 +1,106 @@
+{
+  "slug": "mondialtoys-finale",
+  "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/?v=3",
+  "misuratoIl": "2026-10-14T09:29:58.293Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 314,
+  "lcpMs": 346,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/?v=3",
+  "titolo": "Mondial Toys – macchine elettriche per bambini, moto, quad e tricicli",
+  "descrizione": "Macchine elettriche per bambini 12V e 24V, moto, quad e tricicli. Spedizione gratuita, reso gratuito entro 14 giorni, pagamento alla consegna. Proposta di restyling – bozza non ufficiale.",
+  "h1": [
+    "La prima macchina non si scorda mai."
+  ],
+  "ttfb": 92,
+  "fcp": 299,
+  "domReady": 281,
+  "load": 311,
+  "pesoKB": 541,
+  "richieste": 19,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/417ea2354fa0.webp",
+      "kb": 54
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/c5c74f1ec329.webp",
+      "kb": 32
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/49185c87ef0c.webp",
+      "kb": 32
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/5c9609846cd5.webp",
+      "kb": 30
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/5095273adbdd.webp",
+      "kb": 26
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@mondialtoys.it"
+  ],
+  "telefono": [
+    "+390815281273"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/chi-siamo/"
+    },
+    {
+      "t": "Resi",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/assistenza/#contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 80,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 503,
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/417ea2354fa0.webp"
+    }
+  ]
+}
