@@ -1,12 +1,12 @@
 {
   "slug": "mondialtoys",
   "url": "https://mondialtoys.it/auto-elettriche/10555-auto-elettrica-per-bambini-12v-bmw-x6m-con-sedile-in-pelle-ruote-in-gomma-telecomando-24g-porte-apribili-full-optional-bianco.html",
-  "misuratoIl": "2026-10-13T21:49:27.767Z",
+  "misuratoIl": "2026-10-14T02:15:59.656Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 3735,
-  "lcpMs": 4247,
+  "caricamentoTotaleMs": 3322,
+  "lcpMs": 3498,
   "lcpElemento": "P ",
   "cls": 0.02,
   "urlFinale": "https://mondialtoys.it/auto-elettriche/10555-auto-elettrica-per-bambini-12v-bmw-x6m-con-sedile-in-pelle-ruote-in-gomma-telecomando-24g-porte-apribili-full-optional-bianco.html",
@@ -15,25 +15,25 @@
   "h1": [
     "La pagina che cerchi non esiste."
   ],
-  "ttfb": 1146,
-  "fcp": 2189,
-  "domReady": 3129,
-  "load": 3733,
-  "pesoKB": 3938,
+  "ttfb": 968,
+  "fcp": 1879,
+  "domReady": 2637,
+  "load": 3321,
+  "pesoKB": 3933,
   "richieste": 175,
   "script": 93,
   "serviziEsterni": [
     "cs.iubenda.com",
     "cdn.iubenda.com",
+    "www.googletagmanager.com",
     "js.klarna.com",
     "eu1-config.doofinder.com",
     "cdn.shopify.com",
     "assets.prestashop3.com",
-    "www.googletagmanager.com",
     "fonts.googleapis.com",
     "cdn.doofinder.com",
-    "eu1-search.doofinder.com",
     "pagead2.googlesyndication.com",
+    "eu1-search.doofinder.com",
     "www.google-analytics.com",
     "idb.iubenda.com",
     "eu1-api.doofinder.com",
@@ -104,17 +104,17 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 1193,
+      "ms": 945,
       "status": 404,
       "cache": null
     },
     {
-      "ms": 546,
+      "ms": 403,
       "status": 404,
       "cache": null
     },
     {
-      "ms": 569,
+      "ms": 486,
       "status": 404,
       "cache": null
     }
@@ -126,15 +126,15 @@
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fmondialtoys.it%2Fauto-elettriche%2F10555-auto-elettrica-"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=7&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fmondialtoys.it%2Fauto-elettriche%2F10555-auto-elettrica-"
     },
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-G9SBKJDG60&gtm=45je6ac1v897127793za20ozb9117914975zd9117914975xf1&_p=1791928161776&gcs=G100&gcd=13p3p3p3p5l"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-G9SBKJDG60&gtm=45je6ac1v897127793za20ozb9117914975zd9117914975xf1&_p=1791944153699&gcs=G100&gcd=13p3p3p3p5l"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&tid=AW-980086752&dl=https%3A%2F%2Fmondialtoys.it%2Fauto-elettriche%2F10555-auto-elett"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&apvc=0&ae=g&tid=AW-980086752&dl=https%3A%2F%2Fmondialtoys.it%2Fauto-elettriche%2F10555-auto-elett"
     }
   ]
 }

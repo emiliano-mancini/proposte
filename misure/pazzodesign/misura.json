@@ -1,12 +1,12 @@
 {
   "slug": "pazzodesign",
   "url": "https://pazzodesign.it/prodotto/sedia-debora-beige-set-da-4-sedie/",
-  "misuratoIl": "2026-10-13T21:49:13.261Z",
+  "misuratoIl": "2026-10-14T02:14:51.059Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 4282,
-  "lcpMs": 3143,
+  "caricamentoTotaleMs": 4083,
+  "lcpMs": 3007,
   "lcpElemento": "H1 ",
   "cls": 0,
   "urlFinale": "https://pazzodesign.it/prodotto/sedia-debora-beige-set-da-4-sedie/",
@@ -15,12 +15,12 @@
   "h1": [
     "404"
   ],
-  "ttfb": 2567,
-  "fcp": 3143,
-  "domReady": 3587,
-  "load": 4279,
-  "pesoKB": 2299,
-  "richieste": 102,
+  "ttfb": 2530,
+  "fcp": 3007,
+  "domReady": 3379,
+  "load": 4078,
+  "pesoKB": 2298,
+  "richieste": 103,
   "script": 56,
   "serviziEsterni": [
     "widget.trustpilot.com",
@@ -32,22 +32,22 @@
     "www.google.com",
     "invitejs.trustpilot.com",
     "connect.facebook.net",
-    "fonts.gstatic.com",
     "s.pinimg.com",
+    "fonts.gstatic.com",
     "www.gstatic.com",
     "analytics.tiktok.com",
-    "pixel.wp.com",
     "www.google-analytics.com",
-    "cs.iubenda.com",
     "ct.pinterest.com",
+    "cs.iubenda.com",
+    "ad.doubleclick.net",
+    "pixel.wp.com",
     "unpkg.com",
     "cdnjs.cloudflare.com",
-    "ad.doubleclick.net",
     "www.facebook.com",
     "analytics.google.com",
     "stats.g.doubleclick.net",
-    "idb.iubenda.com",
-    "analytics-ipv6.tiktokw.us"
+    "analytics-ipv6.tiktokw.us",
+    "idb.iubenda.com"
   ],
   "immaginiPiuPesanti": [
     {
@@ -68,7 +68,7 @@
     {
       "id": "iubenda-cs-banner",
       "copre": "100%",
-      "testo": "Informativa Noi e terze parti selezionate raccogliamo informazioni personali e utilizziamo cookie o tecnologie simili pe"
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
     }
   ],
   "pulsanteAcquisto": null,
@@ -83,17 +83,17 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 2230,
+      "ms": 2484,
       "status": 404,
       "cache": null
     },
     {
-      "ms": 2220,
+      "ms": 2276,
       "status": 404,
       "cache": null
     },
     {
-      "ms": 1679,
+      "ms": 1460,
       "status": 404,
       "cache": null
     }
@@ -105,19 +105,23 @@
     },
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791928148465&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791944086272&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&ae=g&auid=236013228.1791928149&dt=Pagina%20non%20trovata%20-%20Pazzo%20Design&en=page_view&dl=https%3A%2F"
+      "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=1&ae=g&auid=300621813.1791944087&dt=Pagina%20non%20trovata%20-%20Pazzo%20Design&en=page_view&dl=https%3A%2F%"
     },
     {
       "status": 999,
-      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=236013228.1791928149&gtm=45He6ac0v9165237211za200zd9165237211xeaxf1&fmt=8"
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=300621813.1791944087&gtm=45He6ac1v9165237211za200zd9165237211xeaxf1&fmt=8"
     },
     {
       "status": 999,
-      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791928148465&_gaz=1&gcd=13l3l3l3l1l1&npa"
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791944086272&_gaz=1&gcd=13l3l3l3l1l1&npa"
+    },
+    {
+      "status": 999,
+      "url": "https://ct.pinterest.com/stats/"
     },
     {
       "status": 999,

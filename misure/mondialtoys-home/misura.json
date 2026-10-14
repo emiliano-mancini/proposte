@@ -1,0 +1,138 @@
+{
+  "slug": "mondialtoys-home",
+  "url": "https://mondialtoys.it/",
+  "misuratoIl": "2026-10-14T02:16:14.591Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 9139,
+  "lcpMs": 8961,
+  "lcpElemento": "DIV https://mondialtoys.it/themes/leo_jamoo_elements/assets/img/modules/leoslideshow/1790757542863_h9fvr35cyet.jpg",
+  "cls": 0.21,
+  "urlFinale": "https://mondialtoys.it/",
+  "titolo": "Giocattoli per bambini online, scontati ed in offerta",
+  "descrizione": "Su MondialToys troverai i migliori giocattoli del momento per far divertire ed imparare giocando il tuo bambino in tutta sicurezza.",
+  "h1": [
+    "Mondial Toys, shop di giocattoli online."
+  ],
+  "ttfb": 2199,
+  "fcp": 3009,
+  "domReady": 4213,
+  "load": 9139,
+  "pesoKB": 10470,
+  "richieste": 234,
+  "script": 88,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "js.klarna.com",
+    "eu1-config.doofinder.com",
+    "www.googletagmanager.com",
+    "cdn.shopify.com",
+    "fonts.googleapis.com",
+    "cdn.doofinder.com",
+    "pagead2.googlesyndication.com",
+    "eu1-api.doofinder.com",
+    "idb.iubenda.com",
+    "www.google-analytics.com",
+    "www.google.com",
+    "connect.facebook.net",
+    "www.gstatic.com",
+    "www.facebook.com",
+    "x.klarnacdn.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://mondialtoys.it/themes/leo_jamoo_elements/assets/img/modules/leoslideshow/1790757491096_qktflczdx0a.jpg",
+      "kb": 650
+    },
+    {
+      "url": "https://mondialtoys.it/img/logo-1790774917.jpg",
+      "kb": 588
+    },
+    {
+      "url": "https://mondialtoys.it/themes/leo_jamoo_elements/assets/img/modules/leoslideshow/1790757542863_h9fvr35cyet.jpg",
+      "kb": 541
+    },
+    {
+      "url": "https://mondialtoys.it/themes/leo_jamoo_elements/assets/img/modules/leoslideshow/1790757491836_4yb12ocn5su.jpg",
+      "kb": 450
+    },
+    {
+      "url": "https://mondialtoys.it/60341-home_default/triciclo-pieghevole-premier-6-in-1-per-bambini-da-12-mesi-a-5-anni-triciclo-con-sedile-girevole-e-reclinabile-peso-mas",
+      "kb": 285
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Noi (Mondial Toys s.r.l.) e terze parti selezionate (5) utilizziamo cookie o tecnologie simili per finalità tecniche e"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "ACQUISTA ORA",
+    "yPx": 685,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+390815281273"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Condizioni generali",
+      "h": "https://mondialtoys.it/content/3-condizioni-generali"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://mondialtoys.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://mondialtoys.it/contattaci"
+    },
+    {
+      "t": "Accetto i termini e le condizioni.",
+      "h": "https://mondialtoys.it/content/1-consegna"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2641,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1659,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2189,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fmondialtoys.it&scrsrc=www.googletagmanager.com&rnd=16905"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-G9SBKJDG60&gtm=45je6ac1h1v897127793za20ozb9117914975zd9117914975xf1&_p=1791944163883&gcs=G100&gcd=13p3p3p3p"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&apvc=0&ae=g&tid=AW-980086752&dl=https%3A%2F%2Fmondialtoys.it&scrsrc=www.googletagmanager.com&rnd=1"
+    }
+  ]
+}

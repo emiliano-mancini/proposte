@@ -1,0 +1,194 @@
+{
+  "slug": "pazzodesign-home",
+  "url": "https://pazzodesign.it/",
+  "misuratoIl": "2026-10-14T02:15:44.623Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5855,
+  "lcpMs": 5157,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/",
+  "titolo": "Homepage - Pazzo Design",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 3033,
+  "fcp": 3791,
+  "domReady": 4793,
+  "load": 5853,
+  "pesoKB": 8714,
+  "richieste": 171,
+  "script": 66,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "www.google.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "fonts.gstatic.com",
+    "s.pinimg.com",
+    "cs.iubenda.com",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "www.facebook.com",
+    "www.gstatic.com",
+    "analytics.tiktok.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "ct.pinterest.com",
+    "idb.iubenda.com",
+    "pixel.wp.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "analytics-ipv6.tiktokw.us"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2023/05/basamento-nero-home-sito.jpg",
+      "kb": 1806
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2025/06/Progetto-senza-titolo8.png",
+      "kb": 966
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2023/08/Tavolo-fisso-Dario-7-1.jpg",
+      "kb": 625
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2023/08/TEMPESTA-Consolle-Allungabile-17.jpg",
+      "kb": 520
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2025/06/POLTRONA-Articolo-2201-4-1.jpg",
+      "kb": 414
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "support@pazzodesign.it",
+    "pazzodesignsrls@legalmail.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "FAQ",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2666,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2273,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2379,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://connect.facebook.net/it_IT/sdk/xfbml.customerchat.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=1900568057.1791944139&dt=Homepage%20-%20Pazzo%20Design&en=page_view&dl=https%3A%2F%2Fpazzodesig"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1900568057.1791944139&gtm=45He6ac1v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1h1v895579905za208zd895579905xf1&_p=1791944138426&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791944138426&_gaz=1&gcd=13l3l3l3l1l1&npa"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    }
+  ]
+}
