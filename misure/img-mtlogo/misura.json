@@ -1,0 +1,55 @@
+{
+  "slug": "img-mtlogo",
+  "url": "https://mondialtoys.it/img/logo-1790774917.jpg",
+  "misuratoIl": "2026-10-14T02:36:06.362Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1066,
+  "lcpMs": 1087,
+  "lcpElemento": "IMG https://mondialtoys.it/img/logo-1790774917.jpg",
+  "cls": 0,
+  "urlFinale": "https://mondialtoys.it/img/logo-1790774917.jpg",
+  "titolo": "logo-1790774917.jpg (3740×581)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 460,
+  "fcp": 498,
+  "domReady": 1064,
+  "load": 1064,
+  "pesoKB": 588,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 446,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 119,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 118,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "img-mt1",
+  "url": "https://mondialtoys.it/63288-large_default/porsche-cayenne.jpg",
+  "misuratoIl": "2026-10-14T02:35:38.018Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 872,
+  "lcpMs": 887,
+  "lcpElemento": "IMG https://mondialtoys.it/63288-large_default/porsche-cayenne.jpg",
+  "cls": 0,
+  "urlFinale": "https://mondialtoys.it/63288-large_default/porsche-cayenne.jpg",
+  "titolo": "porsche-cayenne.jpg (800×800)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 440,
+  "fcp": 462,
+  "domReady": 856,
+  "load": 856,
+  "pesoKB": 335,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 742,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 130,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 129,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

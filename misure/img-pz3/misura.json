@@ -1,0 +1,55 @@
+{
+  "slug": "img-pz3",
+  "url": "https://pazzodesign.it/wp-content/uploads/2023/10/sissi-schema-1-1024x1024.jpg",
+  "misuratoIl": "2026-10-14T02:35:25.921Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 598,
+  "lcpMs": 603,
+  "lcpElemento": "IMG https://pazzodesign.it/wp-content/uploads/2023/10/sissi-schema-1-1024x1024.jpg",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/wp-content/uploads/2023/10/sissi-schema-1-1024x1024.jpg",
+  "titolo": "sissi-schema-1-1024x1024.jpg (1024×1024)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 478,
+  "fcp": 501,
+  "domReady": 596,
+  "load": 597,
+  "pesoKB": 40,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 358,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 365,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 118,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

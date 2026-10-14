@@ -1,0 +1,55 @@
+{
+  "slug": "img-pzlogo",
+  "url": "https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1-1024x147.png",
+  "misuratoIl": "2026-10-14T02:35:31.419Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 616,
+  "lcpMs": 618,
+  "lcpElemento": "IMG https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1-1024x147.png",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1-1024x147.png",
+  "titolo": "logo-pazzodesign-B-1-1-1024x147.png (1024×147)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 492,
+  "fcp": 513,
+  "domReady": 613,
+  "load": 613,
+  "pesoKB": 47,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 871,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 373,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 123,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}
