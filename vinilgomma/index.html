@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Vinilgomma – tubi flessibili in gomma e acciaio inox dal 1968</title>
+<meta name="description" content="Vinilgomma Srl, Gussago (BS): tubi flessibili in gomma e acciaio inox, raccordi e semilavorati. Proposta di restyling – bozza non ufficiale.">
+<meta name="theme-color" content="#0d0c0b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="data:,">
+<link rel="preload" as="image" href="img/hero-acciaieria-m.jpg" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-acciaieria.jpg" media="(min-width:761px)" fetchpriority="high">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Big+Shoulders+Display:wght@700;800;900&family=DM+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Big+Shoulders+Display:wght@700;800;900&family=DM+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  /* palette campionata dalla foto dell'acciaieria e dai tubi: grafite caldo, arancio colata, acciaio */
+  --vng-bg:#0d0c0b; --vng-fg:#f3efe9; --vng-muted:#c6beb3; --vng-accent:#ff8a1f; --vng-accent-fg:#1a0e03;
+  --vng-surface:rgba(30,27,24,.72); --vng-line:rgba(243,239,233,.16);
+  --vng-spot-bg:rgba(13,12,11,.72); --vng-spot-light:rgba(255,138,31,.28); --vng-spot-line:#ff8a1f;
+  --bg2:#151311; --steel:#d9dcdf; --steel-2:#e8eaec; --ink:#16130f; --amber:#ffb347;
+  --disp:"Big Shoulders Display","Arial Narrow",Impact,sans-serif; --body:"Barlow",system-ui,sans-serif; --mono:"DM Mono",ui-monospace,monospace;
+  --pad:clamp(20px,4vw,56px); color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:auto;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--vng-bg);color:var(--vng-fg);font:400 1.125rem/1.6 var(--body);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:800;text-transform:uppercase;line-height:.95;letter-spacing:.005em;margin:0;text-wrap:balance}
+.tag{font:500 .8rem/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--vng-muted)}
+.tag b{color:var(--vng-accent);font-weight:500}
+.wrap{width:min(1240px,100% - 2*var(--pad));margin-inline:auto}
+section{position:relative}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:2px solid var(--vng-accent);outline-offset:3px}
+
+/* etichetta fissa + nav */
+.draft{position:fixed;inset:0 0 auto;z-index:70;height:28px;display:flex;align-items:center;justify-content:center;background:#050403;border-bottom:1px solid var(--vng-accent);color:var(--vng-accent);font:500 .7rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:0 8px}
+.top{position:fixed;inset:28px 0 auto;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px var(--pad);transition:background .3s}
+.top.solid{background:rgba(13,12,11,.82);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.logo{display:block;background:#fff;border-radius:8px;padding:5px 9px;line-height:0}
+.logo img{width:112px;height:auto}
+.top>nav{display:none}
+.mnav{position:relative}.mnav summary{list-style:none;cursor:pointer;min-height:44px;display:flex;align-items:center;padding:0 18px;border-radius:999px;border:1px solid rgba(243,239,233,.55);background:rgba(13,12,11,.8);font-weight:600}.mnav summary::-webkit-details-marker{display:none}
+.mnav nav{position:absolute;right:0;top:52px;min-width:210px;background:#0d0c0b;border:1px solid var(--vng-line);border-radius:12px;padding:8px;display:grid}.mnav nav a{padding:14px 16px;text-decoration:none;border-radius:8px;font-weight:500}.mnav nav a:active{background:rgba(255,138,31,.2)}
+.top .hr{display:none}
+.top .tel{font-weight:600;text-decoration:none;margin-right:18px}
+@media(min-width:960px){.mnav{display:none}.top>nav{display:block}.top .hr{display:flex;align-items:center}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:.7em 1.5em;border-radius:999px;background:var(--vng-accent);color:var(--vng-accent-fg);font:600 1rem/1 var(--body);text-decoration:none;border:0;cursor:pointer}
+.btn:hover{background:var(--amber)}
+.vng-hbtn{min-height:52px;background:rgba(13,12,11,.35);border-color:rgba(243,239,233,.4)}
+
+/* barra contatto sempre a portata di pollice (telefono) */
+.thumb{position:fixed;inset:auto 0 0;z-index:65;display:grid;grid-template-columns:1.4fr 1fr;gap:10px;padding:10px var(--pad) calc(10px + env(safe-area-inset-bottom));background:#0d0c0b;border-top:2px solid var(--vng-accent)}
+.thumb a{min-height:50px;border-radius:12px;display:flex;align-items:center;justify-content:center;gap:.5em;font-weight:600;text-decoration:none}
+.thumb .a{background:var(--vng-accent);color:var(--vng-accent-fg)}
+.thumb .b{border:1px solid var(--vng-line);color:var(--vng-fg)}
+body{padding-bottom:72px}
+@media(min-width:960px){.thumb{display:none}body{padding-bottom:0}}
+
+/* hero */
+.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;padding:140px 0 0;isolation:isolate}
+.hero picture,.hero img.bg{position:absolute;inset:0;width:100%;height:100%;z-index:-2}
+.hero img.bg{object-fit:cover;object-position:52% 50%}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(13,12,11,.55) 0,rgba(13,12,11,0) 28%),linear-gradient(0deg,rgba(13,12,11,.96) 0,rgba(13,12,11,.82) 34%,rgba(13,12,11,.15) 68%,rgba(13,12,11,.25) 100%)}
+@media(min-width:960px){.hero::after{background:linear-gradient(180deg,rgba(13,12,11,.55) 0,rgba(13,12,11,0) 22%),linear-gradient(90deg,rgba(13,12,11,.92) 0,rgba(13,12,11,.7) 32%,rgba(13,12,11,0) 62%),linear-gradient(0deg,rgba(13,12,11,.9) 0,rgba(13,12,11,0) 38%)}}
+.hero .wrap{padding-bottom:28px}
+.hero h1{font-size:clamp(2.6rem,13vw,9.2rem);line-height:.9;margin:14px 0 20px;text-shadow:0 4px 30px rgba(0,0,0,.55)}
+.nw{white-space:nowrap;display:inline-block}
+.hero h1 em{font-style:normal;color:var(--vng-accent)}
+.hero .lead{font-size:clamp(1.05rem,2.2vw,1.35rem);max-width:34rem;margin:0 0 26px;color:#e6e0d8}
+.hero .cta{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+.hero .cta .link{font-weight:600;text-decoration:none;border-bottom:2px solid var(--vng-accent);padding-block:6px}
+.specs{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--vng-line);margin-top:34px;background:rgba(13,12,11,.55);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.specs div{padding:16px var(--pad);border-right:1px solid var(--vng-line);border-bottom:1px solid var(--vng-line)}
+.specs div:nth-child(2n){border-right:0}
+.specs b{display:block;font:800 clamp(1.6rem,5vw,2.3rem)/1 var(--disp);text-transform:uppercase;color:var(--vng-fg)}
+.specs span{font:500 .8rem/1.3 var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--vng-muted)}
+@media(min-width:760px){.specs{grid-template-columns:repeat(4,1fr)}.specs div{border-bottom:0}.specs div:nth-child(2n){border-right:1px solid var(--vng-line)}.specs div:last-child{border-right:0}}
+
+@media(max-width:759px){
+ .hero{min-height:0;padding-top:0;justify-content:flex-start}
+ .hero picture{position:relative;display:block;height:46svh;min-height:300px;-webkit-mask-image:linear-gradient(180deg,#000 62%,transparent);mask-image:linear-gradient(180deg,#000 62%,transparent)}
+ .hero img.bg{object-position:50% 80%}
+ .hero::after{display:none}
+ .hero .wrap{margin-top:-84px;position:relative;padding-bottom:6px}
+ .hero .lead{color:#efe9e0}
+ .specs{margin-top:22px;background:var(--bg2)}
+}
+/* azienda: numero firma */
+.azienda{padding:clamp(56px,7vw,100px) 0}
+.az-grid{display:grid;gap:44px}
+@media(min-width:960px){.az-grid{grid-template-columns:5fr 6fr;gap:clamp(48px,6vw,110px);align-items:start}}
+.big{position:relative;overflow:hidden;border-radius:6px;min-height:340px;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;background:#000}
+@media(min-width:960px){.big{position:sticky;top:120px;min-height:560px}}
+.big .par-wrap{position:absolute;inset:0;overflow:hidden}
+.big img{position:absolute;inset:-6% 0;width:100%;height:112%;object-fit:cover;opacity:.75}
+.big::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(13,12,11,.92),rgba(13,12,11,.1) 70%)}
+.big>*{position:relative;z-index:2}
+.num{font:900 clamp(7rem,26vw,15rem)/.8 var(--disp);color:var(--vng-accent);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.big p{text-shadow:0 2px 12px rgba(0,0,0,.9);margin:14px 0 0;font:500 .84rem/1.5 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#e9e3da}
+.az-text h2{font-size:clamp(2.4rem,6.4vw,5rem);margin:12px 0 26px}
+.az-text p{color:#d6cfc6;max-width:40rem;margin:0 0 1.1em}
+.vals{list-style:none;margin:38px 0 0;padding:0;border-top:1px solid var(--vng-line)}
+.vals li{display:grid;grid-template-columns:3.2rem 1fr;gap:6px 14px;padding:22px 0;border-bottom:1px solid var(--vng-line)}
+.vals b{font:500 .8rem/2.1 var(--mono);color:var(--vng-accent)}
+.vals h3{font-size:clamp(1.6rem,3.4vw,2.2rem)}
+.vals p{grid-column:2;margin:0;color:var(--vng-muted);font-size:1.08rem}
+
+/* gamma: mosaico */
+.gamma{padding:clamp(48px,7vw,96px) 0;background:#e9e7e2;color:#16130f}
+.gamma .tag{color:#4a443c}.gamma .tag b{color:#c2540a}
+.gamma-head p,.gamma-foot p{color:#3b362f!important}
+.gamma .tile{background:#fff;border-color:rgba(22,19,15,.16);color:#16130f}
+.gamma .tile:hover{border-color:#ff8a1f}
+.gamma .tile p,.gamma .tile .ex{color:#4a443c}
+.gamma .tile .go{color:#b8480a}
+.gamma .tile .ph,.gamma .tile .ph.dark{background:#e9e7e2}
+.gamma-head{display:grid;gap:18px;margin-bottom:46px}
+@media(min-width:960px){.gamma-head{grid-template-columns:7fr 5fr;align-items:end}}
+.gamma-head h2{font-size:clamp(2.6rem,7.4vw,6rem)}
+.gamma-head p{color:var(--vng-muted);margin:0;max-width:30rem;font-size:1.12rem}
+.mosaic{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:700px){.mosaic{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1040px){.mosaic{grid-template-columns:repeat(4,1fr)}}
+/* telefono: righe compatte, miniatura a sinistra */
+@media(max-width:699px){.tile{flex-direction:row;align-items:stretch}.tile .ph{flex:0 0 112px;aspect-ratio:auto;min-height:112px}.tile .tx{padding:12px 14px;justify-content:center;gap:4px}.tile h3{font-size:1.5rem}.tile .ex{font-size:.72rem}.tile p{display:none}}
+.tile{position:relative;display:flex;flex-direction:column;border:1px solid var(--vng-line);border-radius:6px;overflow:hidden;background:var(--vng-bg);text-decoration:none;transition:border-color .25s,transform .25s}
+.tile:hover{border-color:var(--vng-accent);transform:translateY(-3px)}
+.tile .ph{background:radial-gradient(circle at 50% 45%,#f6f7f8,#dde0e3);aspect-ratio:4/3;overflow:hidden;display:grid;place-items:center}
+
+.tile .ph{position:relative}
+.tile .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+.tile .ph.contain img{object-fit:contain;padding:4%;mix-blend-mode:multiply}
+.tile:hover .ph img{transform:scale(1.05)}
+.tile .tx{padding:20px 22px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+.tile h3{font-size:clamp(1.7rem,3vw,2.3rem)}
+.tile p{margin:0;color:var(--vng-muted);font-size:1.05rem}
+.tile .ex{min-height:3.2em;font:500 .78rem/1.6 var(--mono);letter-spacing:.04em;text-transform:uppercase;color:#cfc8be}
+.tile .go{margin-top:auto;padding-top:8px;font-weight:600;color:var(--vng-accent)}
+
+.gamma-foot{margin-top:34px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+.gamma-foot p{margin:0;color:var(--vng-muted);max-width:36rem}
+
+/* acciaieria: sequenza a scorrimento */
+.acc{padding:clamp(56px,7vw,90px) 0 0;overflow:hidden}
+.acc-head{display:grid;gap:18px;margin-bottom:34px}
+@media(min-width:960px){.acc-head{grid-template-columns:7fr 5fr;align-items:end}}
+.acc-head h2{font-size:clamp(2.6rem,7.4vw,6rem)}
+.acc-head h2 em{font-style:normal;color:var(--vng-accent)}
+.acc-head p{margin:0;color:#e3dcd2;max-width:32rem;font-size:1.12rem}
+.rail{overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:6px var(--pad) 40px;scrollbar-width:thin}
+.track{display:flex;gap:16px;width:max-content}
+.card{flex:0 0 min(84vw,330px);scroll-snap-align:start;border:1px solid var(--vng-line);border-radius:6px;overflow:hidden;background:var(--vng-surface)}
+.card .ph{background:radial-gradient(circle at 50% 45%,#f6f7f8,#dde0e3);aspect-ratio:3/2;overflow:hidden;position:relative}
+.card .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:3%;mix-blend-mode:multiply}
+.card .tx{padding:16px 18px 20px}
+.card .k{font:500 .76rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--vng-accent)}
+.card h3{font-size:1.8rem;margin-top:8px}
+.card p{margin:6px 0 0;color:var(--vng-muted);font-size:1.02rem}
+.rail .hint{font:500 .78rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--vng-muted);margin:0 0 12px}
+@media(min-width:900px){.card{flex-basis:380px}.acc.pinned{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:96px 0 0}.acc.pinned .rail{overflow:visible;padding-bottom:0}}
+html.vng-static .rail{overflow:visible;padding-bottom:30px}
+html.vng-static .track{flex-wrap:wrap;width:auto}
+html.vng-static .card h3{font-size:1.4rem}html.vng-static .card p{display:none}
+html.vng-static .card{flex-basis:calc(50% - 8px);min-width:0}
+@media(min-width:900px){html.vng-static .card{flex-basis:calc(25% - 12px)}}
+.hint{display:block}
+
+/* qualità */
+.qual{padding:clamp(56px,7vw,100px) 0}
+.q-grid{display:grid;gap:40px}
+@media(min-width:960px){.q-grid{grid-template-columns:5fr 6fr;gap:clamp(40px,6vw,100px);align-items:center}}
+.cert{display:grid;grid-template-columns:1fr;gap:14px}
+.cert figure{margin:0;background:#fff;border-radius:4px;overflow:hidden;box-shadow:0 30px 60px -20px rgba(0,0,0,.7);max-width:440px;justify-self:center;transform:rotate(-1.6deg)}
+.cert figcaption{font:500 .78rem/1.5 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--vng-muted);text-align:center;max-width:440px;justify-self:center}
+.q-text h2{font-size:clamp(2.4rem,6.4vw,5rem);margin:12px 0 24px}
+.q-text p{color:#d6cfc6;max-width:38rem}
+.facts{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:0;border-top:1px solid var(--vng-line)}
+.facts li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid var(--vng-line)}
+.facts span{color:var(--vng-muted)}
+.facts b{font-weight:600;text-align:right}
+.norms{padding:30px 0;border-block:1px solid var(--vng-line);background:var(--bg2)}
+.norms .vng-marquee__track span{font:800 clamp(1.8rem,5vw,3rem)/1 var(--disp);text-transform:uppercase;color:transparent;-webkit-text-stroke:1px rgba(243,239,233,.85);white-space:nowrap}
+.norms .vng-marquee__track span.on{color:var(--vng-accent);-webkit-text-stroke:0}
+.norms .nt{text-align:center;margin:0 0 16px}
+
+/* contatti */
+.contatti{padding:clamp(56px,8vw,100px) 0 80px}
+.sede{position:relative;height:clamp(240px,40vw,520px);overflow:hidden}
+.sede .par-wrap{position:absolute;inset:0;overflow:hidden}
+.sede img{position:absolute;inset:-6% 0;width:100%;height:112%;object-fit:cover;object-position:60% 50%;filter:saturate(.8) sepia(.18) brightness(.92)}
+.sede::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(13,12,11,.85),transparent 55%)}
+.sede .cap{position:absolute;z-index:2;left:var(--pad);bottom:22px;margin:0;color:#f1ebe2}
+.c-grid{display:grid;gap:36px}
+@media(min-width:960px){.c-grid{grid-template-columns:6fr 5fr;gap:80px}}
+.contatti h2{font-size:clamp(2.6rem,7.4vw,6rem);margin:12px 0 22px}
+.contatti .big-link{display:block;font:800 clamp(2rem,6vw,3.6rem)/1.05 var(--disp);text-transform:uppercase;text-decoration:none;color:var(--vng-fg);padding:6px 0;border-bottom:1px solid var(--vng-line);overflow-wrap:anywhere}
+.contatti .big-link:hover{color:var(--vng-accent)}
+.contatti .big-link.em{font:600 clamp(1.4rem,4vw,2rem)/1.2 var(--body);text-transform:none;border-bottom:0}
+.contatti dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:12px 20px;align-content:start}
+.contatti dt{font:500 .8rem/1.9 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--vng-muted)}
+.contatti dd{margin:0}
+.brief{grid-column:1/-1;border:1px solid var(--vng-line);border-radius:6px;padding:26px;background:var(--vng-surface);display:grid;gap:16px;align-items:start}
+.brief ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,auto);justify-content:start;gap:6px 36px}
+.brief li{font-size:1.05rem}.brief li::before{content:"— ";color:var(--vng-accent)}
+@media(min-width:960px){.brief{grid-template-columns:auto auto auto;justify-content:start;gap:28px 48px;align-items:center}}
+.c-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.c-actions .ghost{background:transparent;border:1px solid rgba(243,239,233,.55);color:var(--vng-fg)}
+.c-actions .ghost:hover{border-color:var(--vng-accent);background:transparent}
+footer{border-top:1px solid var(--vng-line);padding:28px 0 36px;color:var(--vng-muted);font-size:1rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between}
+footer p{margin:0}
+
+@media(max-width:699px){.tile{flex-direction:row;align-items:stretch}.tile .ph{flex:0 0 120px;aspect-ratio:auto;min-height:112px}.tile .tx{padding:12px 14px;justify-content:center;gap:4px}.tile h3{font-size:1.5rem}.tile .ex{min-height:0;font-size:.72rem}.tile p{display:none}.tile .go{padding-top:2px}}
+@media(prefers-reduced-motion:reduce){.tile,.tile .ph img{transition:none}}
+</style>
+</head>
+<body>
+<div class="draft" role="note">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top" id="top">
+  <a class="logo" href="#home" aria-label="Vinilgomma – inizio pagina"><img src="img/logo.png" width="112" height="41" alt="Vinilgomma"></a>
+  <details class="mnav"><summary>Menu</summary><nav aria-label="Menu"><a href="#azienda">Azienda</a><a href="#gamma">Gamma</a><a href="#acciaieria">Acciaieria</a><a href="#qualita">Qualità</a><a href="#contatti">Contatti</a></nav></details>
+  <nav class="vng-spot" data-vng-spot aria-label="Sezioni">
+    <a href="#azienda" class="is-active">Azienda</a><a href="#gamma">Gamma</a><a href="#acciaieria">Acciaieria</a><a href="#qualita">Qualità</a><a href="#contatti">Contatti</a>
+  </nav>
+  <div class="hr"><a class="tel" href="tel:+390302410444">030 2410444</a><a class="btn" href="mailto:info@vinilgomma.it?subject=Richiesta%20di%20offerta">Richiedi un’offerta</a></div>
+</header>
+
+<main id="home">
+<section class="hero" aria-labelledby="h1">
+  <picture>
+    <source media="(max-width:760px)" srcset="img/hero-acciaieria-m.jpg" width="1000" height="1100">
+    <img class="bg" src="img/hero-acciaieria.jpg" width="1920" height="1100" alt="Colata di acciaio fuso in acciaieria, con gancio di sollevamento e scintille" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="wrap">
+    <p class="tag"><b>●</b> Gussago (BS) · dal 1968</p>
+    <h1 id="h1"><span class="nw">Tubi flessibili</span> <span class="nw">per l’<em>acciaieria</em>.</span></h1>
+    <p class="lead">Gomma e acciaio inox, studiati, prodotti e assemblati a Gussago: da 5 a 250 mm di diametro, dalla bassa all’altissima pressione.</p>
+    <div class="cta">
+      <a class="vng-hbtn" href="mailto:info@vinilgomma.it?subject=Richiesta%20di%20offerta"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Richiedi un’offerta</span><span class="vng-hbtn__b" aria-hidden="true">Richiedi un’offerta →</span></a>
+      <a class="link" href="#gamma">Sfoglia la gamma</a>
+    </div>
+  </div>
+  <div class="specs">
+    <div><b>1968</b><span>Anno di fondazione</span></div>
+    <div><b>5–250 mm</b><span>Diametri dei tubi</span></div>
+    <div><b>ISO 9001:2015</b><span>Certificato Intertek</span></div>
+    <div><b>Direttiva PED</b><span>Tubi metallici a treccia</span></div>
+  </div>
+</section>
+
+<section class="azienda" id="azienda" aria-labelledby="h-az">
+  <div class="wrap az-grid">
+    <div class="big">
+      <div class="par-wrap"><img class="par" src="img/inox-flangia.jpg" width="1920" height="1100" alt="Tubo flessibile in acciaio inox a treccia con flangia, fotografato su fondo nero" loading="lazy"></div>
+      <div class="num"><span data-vng-count="58">58</span></div>
+      <p>Anni di tubi flessibili<br>in gomma e acciaio inox</p>
+    </div>
+    <div class="az-text">
+      <p class="tag"><b>01</b> · L’azienda</p>
+      <h2 id="h-az">Una storia di competenza</h2>
+      <p>Dal 1968 Vinilgomma produce e assembla tubi flessibili in gomma e acciaio inox. Più di cinquant’anni di esperienza, con migliaia e migliaia di tubi prodotti e assemblati, e materiali di altissima qualità, completamente certificati.</p>
+      <p>È il settore siderurgico quello in cui l’azienda si è specializzata: soluzioni studiate in modo specifico per le sue esigenze, in costante sviluppo commerciale e tecnologico.</p>
+      <ul class="vals">
+        <li><b>01</b><h3>Affidabilità</h3><p>Ogni passaggio della produzione è monitorato, con prove sui materiali secondo gli standard internazionali.</p></li>
+        <li><b>02</b><h3>Flessibilità</h3><p>Soluzioni su misura, costruite sulla richiesta del cliente grazie all’esperienza sul campo del personale.</p></li>
+        <li><b>03</b><h3>Qualità</h3><p>Dalla produzione all’assemblaggio ogni progetto è seguito dall’inizio alla fine, fase per fase.</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sede" aria-label="La sede">
+  <div class="par-wrap"><img class="par" src="img/sede.jpg" width="2400" height="824" alt="La sede Vinilgomma a Gussago" loading="lazy"></div>
+  <p class="cap tag"><b>●</b> La sede a Gussago (BS)</p>
+</section>
+
+<section class="gamma" id="gamma" aria-labelledby="h-gm">
+  <div class="wrap">
+    <div class="gamma-head">
+      <div><p class="tag"><b>02</b> · La gamma</p><h2 id="h-gm">Otto famiglie di prodotto</h2></div>
+      <p>Dai tubi in acciaio inox ai raccordi, dai tubi per media e alta pressione ai semilavorati: tutto dallo stesso fornitore. Le schede tecniche complete sono nei cataloghi.</p>
+    </div>
+    <div class="mosaic">
+      <a class="tile t1" href="https://www.vinilgomma.it/tubi-flessibili-acciaio-inox/" target="_blank" rel="noopener">
+        <div class="ph contain"><img src="img/tubi-inox.jpg" width="1024" height="1024" alt="Tubi flessibili in acciaio inox a treccia con raccordi rapidi" loading="lazy"></div>
+        <div class="tx"><p class="ex">Treccia singola · treccia doppia</p><h3>Tubi flessibili in acciaio inox</h3><p>La linea Silver a treccia singola e doppia.</p><span class="go">Vedi le schede →</span></div>
+      </a>
+      <a class="tile t2" href="https://www.vinilgomma.it/tubi-industriali-in-gomma/" target="_blank" rel="noopener">
+        <div class="ph contain"><img src="img/gomma.jpg" width="1100" height="457" alt="Matasse di tubi industriali in gomma di vari colori" loading="lazy"></div>
+        <div class="tx"><p class="ex">Acqua · aria · vapore · antiabrasivo</p><h3>Tubi industriali in gomma</h3><span class="go">Vedi le schede →</span></div>
+      </a>
+      <a class="tile t3" href="https://www.vinilgomma.it/tubi-industriali-media-ed-alta-pressione/" target="_blank" rel="noopener">
+        <div class="ph contain"><img src="img/media-pressione.jpg" width="1024" height="1024" alt="Tubi per media e alta pressione con trecce e spirali" loading="lazy"></div>
+        <div class="tx"><p class="ex">Norme EN 853 · 856 · 857 e SAE 100</p><h3>Media e alta pressione</h3><span class="go">Vedi le schede →</span></div>
+      </a>
+      <a class="tile t4" href="https://www.vinilgomma.it/raccordi-per-tubi/" target="_blank" rel="noopener">
+        <div class="ph contain"><img src="img/raccordi.jpg" width="1100" height="457" alt="Raccordi CAM-LOCK in ottone e acciaio" loading="lazy"></div>
+        <div class="tx"><p class="ex">CAM-LOCK®</p><h3>Raccordi per tubi</h3><span class="go">Vedi le schede →</span></div>
+      </a>
+      <a class="tile t5" href="https://www.vinilgomma.it/tubi-industriali-termoplastici/" target="_blank" rel="noopener">
+        <div class="ph contain"><img src="img/termoplastici.jpg" width="1024" height="1024" alt="Tubi termoplastici e in PTFE in sezione" loading="lazy"></div>
+        <div class="tx"><p class="ex">SAE 100 R7 · R8 · PTFE</p><h3>Termoplastici e PTFE</h3><span class="go">Vedi le schede →</span></div>
+      </a>
+      <a class="tile t6" href="https://www.vinilgomma.it/prodotti-in-vetro/" target="_blank" rel="noopener">
+        <div class="ph dark"><img src="img/vetro.jpg" width="1024" height="1024" alt="Calze e tessuti in fibra di vetro" loading="lazy"></div>
+        <div class="tx"><p class="ex">Calze · nastri · tessuti</p><h3>Prodotti in vetro</h3><span class="go">Vedi le schede →</span></div>
+      </a>
+      <a class="tile t7" href="https://www.vinilgomma.it/tubi-industriali/" target="_blank" rel="noopener">
+        <div class="ph contain"><img src="img/forno-25.jpg" width="1000" height="664" alt="Tubo Forno 25 con raccordo in acciaio e guaina bianca" loading="lazy"></div>
+        <div class="tx"><p class="ex">Forno · Ceraball · Cerabest · Neos</p><h3>Tubi industriali</h3><span class="go">Vedi le schede →</span></div>
+      </a>
+      <a class="tile t8" href="https://www.vinilgomma.it/semilavorati-e-accessori/" target="_blank" rel="noopener">
+        <div class="ph contain"><img src="img/semilavorati.jpg" width="1024" height="1024" alt="Staffe fissatubo in alluminio e plastica verde" loading="lazy"></div>
+        <div class="tx"><p class="ex">Lastre di gomma · staffe · Nylon · PTFE · PVC</p><h3>Semilavorati e accessori</h3><span class="go">Vedi le schede →</span></div>
+      </a>
+    </div>
+    <div class="gamma-foot">
+      <p>Cerchi un tubo che non vedi in elenco? Il personale progetta e assembla su richiesta.</p>
+      <a class="btn" href="mailto:info@vinilgomma.it?subject=Richiesta%20tubo%20su%20misura">Scrivici cosa ti serve</a>
+    </div>
+  </div>
+</section>
+
+<section class="acc" id="acciaieria" aria-labelledby="h-ac">
+  <div class="wrap acc-head">
+    <div><p class="tag"><b>03</b> · Per l’industria siderurgica</p><h2 id="h-ac">Dove il tubo lavora <em>davvero</em></h2></div>
+    <p>Le linee Forno, Ceraball e Cerabest nascono per l’impiantistica dell’acciaio. Scorri per vederle: nomi e foto sono quelli del catalogo.</p>
+  </div>
+  <div class="rail" id="rail">
+    <p class="hint" aria-hidden="true">Scorri →</p>
+    <div class="track" id="track">
+      <article class="card"><div class="ph"><img src="img/forno-25.jpg" width="1000" height="664" alt="Tubo Forno 25" loading="lazy"></div><div class="tx"><h3>Forno 25</h3><p>Raccordo in acciaio e guaina bianca.</p></div></article>
+      <article class="card"><div class="ph"><img src="img/forno-sp10.jpg" width="1000" height="664" alt="Tubo Forno SP 16 con flangia" loading="lazy"></div><div class="tx"><h3>Forno SP 16</h3><p>Con flangia, per il collegamento a impianto.</p></div></article>
+      <article class="card"><div class="ph"><img src="img/forno-sp10-silicone.jpg" width="1000" height="664" alt="Tubo Forno SP 16 Vetro Silicone, rosso, con flangia" loading="lazy"></div><div class="tx"><h3>Forno SP 16 Vetro Silicone</h3><p>Rivestimento in vetro e silicone rosso.</p></div></article>
+      <article class="card"><div class="ph"><img src="img/forno-spvu.jpg" width="1000" height="664" alt="Tubo Forno SP-2 16 VU con flangia nera" loading="lazy"></div><div class="tx"><h3>Forno SP-2 16 VU</h3><p>Versione con flangia nera.</p></div></article>
+      <article class="card"><div class="ph"><img src="img/forno-tall.jpg" width="1000" height="664" alt="Tubo Forno Tall con flangia" loading="lazy"></div><div class="tx"><h3>Forno Tall</h3><p>Flangia e guaina ad alta resistenza.</p></div></article>
+      <article class="card"><div class="ph"><img src="img/ceraball.jpg" width="1000" height="664" alt="Tubo Ceraball con rivestimento interno in elementi ceramici" loading="lazy"></div><div class="tx"><h3>Ceraball</h3><p>Tubo nero con interno a elementi ceramici.</p></div></article>
+      <article class="card"><div class="ph"><img src="img/cerabest.jpg" width="1000" height="664" alt="Tubo Cerabest con rivestimento interno in elementi ceramici" loading="lazy"></div><div class="tx"><h3>Cerabest</h3><p>Interno a elementi ceramici, in sezione.</p></div></article>
+      <article class="card"><div class="ph"><img src="img/abraflan.jpg" width="1000" height="664" alt="Tubo Abraflan con flangia in acciaio" loading="lazy"></div><div class="tx"><h3>Abraflan</h3><p>Tubo nero con flangia in acciaio.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="qual" id="qualita" aria-labelledby="h-q">
+  <div class="wrap q-grid">
+    <div class="cert">
+      <figure><img src="img/iso9001.jpg" width="643" height="909" alt="Certificato di registrazione ISO 9001:2015 di Vinilgomma, rilasciato da Intertek" loading="lazy"></figure>
+      <figcaption>Certificato ISO 9001:2015 · Intertek</figcaption>
+    </div>
+    <div class="q-text">
+      <p class="tag"><b>04</b> · Qualità certificata</p>
+      <h2 id="h-q">Controllo in ogni fase</h2>
+      <p>Vinilgomma segue ogni progetto dalla produzione all’assemblaggio, tenendo sotto controllo ogni fase di lavorazione. I certificati sono pubblicati sul sito aziendale.</p>
+      <ul class="facts">
+        <li><span>Sistema qualità</span><b>ISO 9001:2015 (Intertek)</b></li>
+        <li><span>Prima certificazione</span><b>4 febbraio 2009</b></li>
+        <li><span>Scadenza del certificato</span><b>1 gennaio 2027</b></li>
+        <li><span>Tubi metallici a treccia</span><b>Certificato di conformità UE (PED)</b></li>
+        <li><span>Fiere</span><b>METEC 2019, Düsseldorf</b></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="norms" aria-label="Norme dei tubi a catalogo">
+  <p class="tag nt">Norme e standard dei tubi a catalogo</p>
+  <div class="vng-marquee" data-vng-marquee style="--vng-marquee-speed:48s;--vng-marquee-gap:2.4rem">
+    <div class="vng-marquee__track">
+      <span class="on">EN 853</span><span>EN 854</span><span class="on">EN 856</span><span>EN 857</span><span class="on">SAE 100 R1</span><span>SAE 100 R7</span><span class="on">SAE 100 R12</span><span>CAM-LOCK®</span><span class="on">PTFE</span><span>ISO 9001:2015</span>
+    </div>
+  </div>
+</section>
+
+<section class="contatti" id="contatti" aria-labelledby="h-c">
+  <div class="wrap">
+    <div class="c-grid">
+      <div>
+        <p class="tag"><b>05</b> · Contatti</p>
+        <h2 id="h-c">Parliamo del tuo impianto</h2>
+        <a class="big-link" href="tel:+390302410444">030 2410444</a>
+        <a class="big-link em" href="mailto:info@vinilgomma.it">info@vinilgomma.it</a>
+        <div class="c-actions">
+          <a class="btn" href="mailto:info@vinilgomma.it?subject=Richiesta%20di%20offerta">Richiedi un’offerta</a>
+          <a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Via+Mandolossa+142+25064+Gussago" target="_blank" rel="noopener">Indicazioni stradali</a>
+        </div>
+      </div>
+      <div class="brief">
+        <p class="tag"><b>●</b> Per un preventivo ci servono</p>
+        <ul><li>Diametro interno</li><li>Pressione di esercizio</li><li>Fluido trasportato</li><li>Temperatura</li><li>Lunghezza e quantità</li></ul>
+        <a class="btn" href="mailto:info@vinilgomma.it?subject=Richiesta%20di%20preventivo&amp;body=Buongiorno%2C%20vorrei%20un%20preventivo.%0A%0ADiametro%20interno%3A%20%0APressione%20di%20esercizio%3A%20%0AFluido%3A%20%0ATemperatura%3A%20%0ALunghezza%20e%20quantit%C3%A0%3A%20%0A">Invia la richiesta</a>
+      </div>
+      <dl>
+        <dt>Sede</dt><dd>Vinilgomma Srl<br>Via Mandolossa, 142<br>25064 Gussago (BS)</dd>
+        <dt>P.IVA</dt><dd>01610790170</dd>
+        <dt>Fax</dt><dd>030 318411</dd>
+        <dt>Catalogo</dt><dd><a href="https://www.vinilgomma.it/cataloghi/" target="_blank" rel="noopener">Scarica i cataloghi</a></dd>
+      </dl>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Vinilgomma Srl · Via Mandolossa, 142 · 25064 Gussago (BS) · P.IVA 01610790170</p>
+    <p>Proposta di restyling – bozza non ufficiale, non pubblicata dall’azienda.</p>
+  </div>
+</footer>
+
+<div class="thumb">
+  <a class="a" href="tel:+390302410444">Chiama 030 2410444</a>
+  <a class="b" href="mailto:info@vinilgomma.it?subject=Richiesta%20di%20offerta">Scrivi</a>
+</div>
+
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var top=document.getElementById('top');
+  function sc(){top.classList.toggle('solid',window.scrollY>40);}
+  sc();window.addEventListener('scroll',sc,{passive:true});
+  var shot=/[?&]shot=1/.test(location.search);
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(shot) document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager';});
+  if(shot||reduce||!window.gsap) return;
+
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:0.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();lenis.scrollTo(t,{offset:-90});}});});
+
+  // titolo diviso in righe/caratteri
+  document.fonts.ready.then(function(){
+    var st=new SplitText('.hero h1',{type:'words,chars'});
+    gsap.from(st.chars,{yPercent:110,opacity:0,duration:.9,ease:'power4.out',stagger:.03,delay:.1});
+  });
+  gsap.from('.hero .tag,.hero .lead,.hero .cta',{y:24,opacity:0,duration:.9,ease:'power3.out',stagger:.12,delay:.45});
+  gsap.from('.specs div',{y:20,opacity:0,duration:.7,stagger:.08,ease:'power3.out',delay:.9});
+  gsap.to('.hero img.bg',{scale:1.08,yPercent:6,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+
+  // parallax leggero
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-4},{yPercent:4,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  // entrate
+  gsap.utils.toArray('.az-text > *,.vals li,.gamma-head > *,.tile,.acc-head > *,.q-text > *,.cert figure,.facts li,.c-grid > *').forEach(function(el){
+    gsap.from(el,{y:34,opacity:0,duration:.85,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 92%'}});
+  });
+
+  // sequenza orizzontale pinnata (solo schermi larghi)
+  var mm=gsap.matchMedia();
+  mm.add('(min-width: 900px)',function(){
+    var sec=document.getElementById('acciaieria'),track=document.getElementById('track'),rail=document.getElementById('rail');
+    sec.classList.add('pinned');
+    function dist(){return Math.max(0,track.scrollWidth-window.innerWidth+parseFloat(getComputedStyle(rail).paddingLeft)*2);}
+    gsap.to(track,{x:function(){return -dist();},ease:'none',scrollTrigger:{trigger:sec,start:'top top',end:function(){return '+='+dist();},pin:true,scrub:1,invalidateOnRefresh:true}});
+    return function(){sec.classList.remove('pinned');};
+  });
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+});
+</script>
+<noscript><style>.hint{display:none}</style></noscript>
+</body>
+</html>

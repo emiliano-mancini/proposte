@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Il sito di Vinilgomma, oggi e domani</title>
+<meta name="description" content="Confronto tra il sito attuale di Vinilgomma e la proposta di restyling – bozza non ufficiale.">
+<meta property="og:image" content="confronto.jpg">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Big+Shoulders+Display:wght@700;800;900&family=DM+Mono:wght@400;500&display=swap" media="print" onload="this.media='all'">
+<style>
+:root{--bg:#0d0c0b;--bg2:#151311;--fg:#f3efe9;--muted:#c6beb3;--accent:#ff8a1f;--accent-fg:#1a0e03;--line:rgba(243,239,233,.16);--red:#e5222a;
+ --disp:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;--body:"Barlow",system-ui,sans-serif;--mono:"DM Mono",ui-monospace,monospace;--pad:clamp(20px,4vw,56px);color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 1.125rem/1.6 var(--body);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--disp);font-weight:800;text-transform:uppercase;line-height:.95;margin:0;text-wrap:balance}
+.wrap{width:min(1100px,100% - 2*var(--pad));margin-inline:auto}
+.tag{font:500 .8rem/1.3 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.tag b{color:var(--accent);font-weight:500}
+.draft{background:#050403;border-bottom:1px solid var(--accent);color:var(--accent);font:500 .7rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;text-align:center;padding:9px 8px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:.8em 1.8em;border-radius:999px;background:var(--accent);color:var(--accent-fg);font:600 1.1rem/1 var(--body);text-decoration:none}
+.btn:hover{background:#ffb347}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+header.hd{padding:clamp(40px,7vw,90px) 0 30px}
+header.hd h1{font-size:clamp(2.8rem,9vw,7rem);margin:14px 0 18px;max-width:14ch}
+header.hd h1 em{font-style:normal;color:var(--accent)}
+header.hd p{max-width:36rem;color:var(--muted);margin:0}
+
+/* cursore prima / dopo */
+.cmp{display:grid;gap:26px;padding:20px 0 60px}
+@media(min-width:900px){.cmp{grid-template-columns:auto 1fr;gap:70px;align-items:center}}
+.slider{position:relative;width:min(340px,100%);aspect-ratio:390/844;margin-inline:auto;border-radius:34px;border:8px solid #26231f;overflow:hidden;background:#000;touch-action:pan-y;user-select:none;-webkit-user-select:none;box-shadow:0 40px 80px -30px rgba(0,0,0,.8)}
+.slider img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.slider .new{clip-path:inset(0 0 0 50%)}
+.slider .lab{position:absolute;top:12px;z-index:3;font:600 .8rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:7px 11px;border-radius:999px;background:rgba(13,12,11,.88);color:var(--fg);pointer-events:none}
+.slider .lab.l{left:12px}.slider .lab.r{right:12px;background:var(--accent);color:var(--accent-fg)}
+.handle{position:absolute;top:0;bottom:0;left:50%;width:44px;margin-left:-22px;z-index:4;cursor:ew-resize;touch-action:none;display:grid;place-items:center}
+.handle::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:3px;margin-left:-1.5px;background:var(--accent)}
+.handle span{position:relative;width:44px;height:44px;border-radius:50%;background:var(--accent);color:var(--accent-fg);display:grid;place-items:center;font-weight:700;box-shadow:0 6px 20px rgba(0,0,0,.5)}
+.cmp .txt h2{font-size:clamp(2rem,5vw,3.4rem);margin:10px 0 14px}
+.cmp .txt p{color:var(--muted);max-width:30rem}
+.hint{font:500 .8rem/1.4 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;margin:14px 0 0}
+
+/* problemi */
+.probs{padding:50px 0;background:var(--bg2);border-block:1px solid var(--line)}
+.probs h2{font-size:clamp(2.2rem,6vw,4.4rem);margin:10px 0 36px}
+.pgrid{display:grid;gap:22px}
+@media(min-width:860px){.pgrid{grid-template-columns:repeat(3,1fr)}}
+.p{border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--bg)}
+.p img{width:100%;aspect-ratio:13/10;object-fit:cover;object-position:center}
+.p div{padding:18px 20px 22px}
+.p b{font:500 .8rem/1 var(--mono);color:var(--red);letter-spacing:.1em}
+.p h3{font-size:1.8rem;margin:8px 0}
+.p p{margin:0;color:var(--muted);font-size:1.05rem}
+
+/* numeri */
+.nums{padding:60px 0}
+.nums h2{font-size:clamp(2.2rem,6vw,4.4rem);margin:10px 0 30px}
+.ng{display:grid;gap:16px}
+@media(min-width:800px){.ng{grid-template-columns:repeat(3,1fr)}}
+.n{border:1px solid var(--line);border-radius:6px;padding:22px;background:var(--bg2)}
+.n .k{font:500 .8rem/1.3 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.n .v{display:flex;align-items:baseline;flex-wrap:wrap;gap:10px;margin-top:12px;font:900 clamp(2.4rem,7vw,3.4rem)/1 var(--disp)}
+.n .v s{color:#a39a8f;text-decoration-color:var(--red);text-decoration-thickness:3px}
+.n .v i{font-style:normal;color:var(--accent);font-size:.7em}
+.n .v strong{color:var(--accent);font-weight:900}
+.note{margin:22px 0 0;color:var(--muted);font-size:.98rem;max-width:44rem}
+
+.go{padding:50px 0 70px;text-align:center}
+.go .btn{font-size:1.3rem;min-height:68px;padding:.9em 2.4em}
+.ag{padding:34px 0 60px;border-top:1px solid var(--line);color:var(--muted)}
+.ag a{color:var(--fg)}
+@media(max-width:700px){body{padding-bottom:0}}
+</style>
+</head>
+<body>
+<div class="draft" role="note">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="hd"><div class="wrap">
+  <p class="tag"><b>●</b> Confronto prima / dopo</p>
+  <h1>Il sito di Vinilgomma, <em>oggi e domani</em></h1>
+  <p>Le due prime schermate su telefono, fianco a fianco. Trascina il cursore, anche con il dito.</p>
+</div></header>
+
+<section class="wrap cmp" aria-label="Confronto prima e dopo">
+  <div>
+    <div class="slider" id="sl">
+      <img src="vecchio-top.jpg" width="780" height="1688" alt="Prima schermata del sito attuale su telefono: foto di un tubo con il banner cookie che copre metà schermo">
+      <img class="new" src="nuovo-top.jpg" width="780" height="1688" alt="Prima schermata della proposta su telefono: acciaieria, titolo grande e pulsante Chiama sempre visibile">
+      <span class="lab l">Oggi</span><span class="lab r">Con noi</span>
+      <div class="handle" id="hd" role="slider" tabindex="0" aria-label="Confronto prima e dopo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><span aria-hidden="true">⇆</span></div>
+    </div>
+    <p class="hint">← Trascina →</p>
+  </div>
+  <div class="txt">
+    <p class="tag"><b>01</b> · La prima schermata</p>
+    <h2>Cosa vede chi arriva dal telefono</h2>
+    <p>A sinistra il sito di oggi: il banner dei cookie occupa buona parte dello schermo. A destra la proposta: foto vera dell’azienda, titolo leggibile, numero di telefono e richiesta di offerta sempre a portata di pollice.</p>
+  </div>
+</section>
+
+<section class="probs"><div class="wrap">
+  <p class="tag"><b>02</b> · Cosa non funziona oggi</p>
+  <h2>Tre problemi del sito attuale</h2>
+  <div class="pgrid">
+    <article class="p"><img src="problema-1.jpg" width="780" height="760" alt="Banner dei cookie cerchiato in rosso sulla prima schermata del sito attuale" loading="lazy"><div><b>01</b><h3>Il banner copre mezzo schermo</h3><p>Su telefono il banner dei cookie occupa circa il 40% della prima schermata e resta lì finché non si accetta.</p></div></article>
+    <article class="p"><img src="problema-2.jpg" width="780" height="520" alt="Numero di telefono cerchiato in rosso nel fondo della pagina del sito attuale" loading="lazy"><div><b>02</b><h3>Il telefono non si tocca</h3><p>Il numero compare solo in fondo alla pagina, come testo semplice: nel codice non c’è un link per chiamare con un tocco.</p></div></article>
+    <article class="p"><img src="problema-3.jpg" width="780" height="760" alt="Blocco prodotto cerchiato in rosso: solo titolo e pulsante" loading="lazy"><div><b>03</b><h3>La gamma è solo un titolo</h3><p>Nella home ogni famiglia di prodotto è un titolo su fondo scuro con un pulsante: niente foto, niente dati per orientarsi.</p></div></article>
+  </div>
+</div></section>
+
+<section class="nums"><div class="wrap">
+  <p class="tag"><b>03</b> · Misurato con Lighthouse, su telefono</p>
+  <h2>Tre numeri, prima e dopo</h2>
+  <div class="ng">
+    <div class="n"><span class="k">Velocità (punteggio Google)</span><div class="v"><s>30</s><i>→</i><strong>94</strong></div></div>
+    <div class="n"><span class="k">Caricamento della parte principale (LCP)</span><div class="v"><s>8,1 s</s><i>→</i><strong>3,0 s</strong></div></div>
+    <div class="n"><span class="k">Accessibilità (punteggio Google)</span><div class="v"><s>74</s><i>→</i><strong>100</strong></div></div>
+  </div>
+  <p class="note">Misure fatte il 14 ottobre 2026 con Lighthouse in modalità telefono. Il sito nuovo è stato misurato in locale (fuori dal server definitivo) e non include ancora cookie banner o statistiche: i valori reali dipendono dall’hosting.</p>
+</div></section>
+
+<section class="go"><div class="wrap">
+  <p class="tag" style="margin-bottom:18px">Pronto a vederlo intero?</p>
+  <a class="btn" href="../">Guarda il sito nuovo</a>
+</div></section>
+
+<footer class="ag"><div class="wrap">
+  <p>Bozza non ufficiale preparata dall’agenzia, non pubblicata da Vinilgomma. Per parlarne: <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></p>
+</div></footer>
+
+<script>
+(function(){
+  var sl=document.getElementById('sl'),nw=sl.querySelector('.new'),h=document.getElementById('hd'),drag=false;
+  function set(p){p=Math.max(2,Math.min(98,p));nw.style.clipPath='inset(0 0 0 '+p+'%)';h.style.left=p+'%';h.setAttribute('aria-valuenow',Math.round(p));}
+  function pos(e){var r=sl.getBoundingClientRect();set((e.clientX-r.left)/r.width*100);}
+  sl.addEventListener('pointerdown',function(e){drag=true;sl.setPointerCapture(e.pointerId);pos(e);e.preventDefault();});
+  sl.addEventListener('pointermove',function(e){if(drag)pos(e);});
+  ['pointerup','pointercancel'].forEach(function(t){sl.addEventListener(t,function(){drag=false;});});
+  h.addEventListener('keydown',function(e){var v=+h.getAttribute('aria-valuenow');if(e.key==='ArrowLeft')set(v-5);if(e.key==='ArrowRight')set(v+5);});
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!reduce&&!/[?&]shot=1/.test(location.search)){var t0=null;function a(t){if(drag)return;t0=t0||t;var k=(t-t0)/1400;if(k<1){set(50+Math.sin(k*Math.PI*2)*18*(1-k));requestAnimationFrame(a);}else set(50);}requestAnimationFrame(a);}
+})();
+</script>
+</body>
+</html>
