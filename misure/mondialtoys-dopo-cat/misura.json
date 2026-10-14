@@ -1,0 +1,97 @@
+{
+  "slug": "mondialtoys-dopo-cat",
+  "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/macchine-elettriche/",
+  "misuratoIl": "2026-10-14T08:52:54.972Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 224,
+  "lcpMs": 222,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/mondialtoys-shop/macchine-elettriche/img/5095273adbdd.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/macchine-elettriche/",
+  "titolo": "Macchine elettriche per bambini – Mondial Toys",
+  "descrizione": "Macchine elettriche: Porsche, Ford, Mercedes, Lamborghini: 12V e 24V, monoposto e 2 posti, con telecomando. Spedizione gratuita, reso gratuito entro 14 giorni. Proposta di restyling – bozza non ufficiale.",
+  "h1": [
+    "Macchine elettriche"
+  ],
+  "ttfb": 97,
+  "fcp": 222,
+  "domReady": 220,
+  "load": 221,
+  "pesoKB": 513,
+  "richieste": 19,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/macchine-elettriche/img/8301b4f46592.webp",
+      "kb": 33
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/macchine-elettriche/img/49185c87ef0c.webp",
+      "kb": 32
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/macchine-elettriche/img/5c9609846cd5.webp",
+      "kb": 30
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/macchine-elettriche/img/5095273adbdd.webp",
+      "kb": 26
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/macchine-elettriche/img/2a41a7d10a52.webp",
+      "kb": 24
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@mondialtoys.it"
+  ],
+  "telefono": [
+    "+390815281273"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Resi",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/assistenza/#contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 54,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 13,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

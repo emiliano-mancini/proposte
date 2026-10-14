@@ -1,0 +1,131 @@
+{
+  "slug": "pazzodesign-dopo-tavoli",
+  "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/tavoli/",
+  "misuratoIl": "2026-10-14T08:52:43.260Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 226,
+  "lcpMs": 222,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/pazzodesign-shop/tavoli/img/4f59ec7348ce.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/tavoli/",
+  "titolo": "Tavoli – Pazzo Design",
+  "descrizione": "Tavoli Pazzo Design: Allungabili, in ceramica, rotondi e fissi. Spedizione gratuita in 48/72 ore. Proposta di restyling – bozza non ufficiale.",
+  "h1": [
+    "Tavoli"
+  ],
+  "ttfb": 122,
+  "fcp": 184,
+  "domReady": 177,
+  "load": 225,
+  "pesoKB": 103,
+  "richieste": 19,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/img/logo.png",
+      "kb": 13
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/tavoli/img/0a23ca977435.webp",
+      "kb": 5
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/tavoli/img/9b2f71477645.webp",
+      "kb": 3
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/tavoli/img/4f59ec7348ce.webp",
+      "kb": 3
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/tavoli/img/2223857f1b8f.webp",
+      "kb": 2
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "support@pazzodesign.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Jolanda\n140 → 200 cm\n449,00 €\nSpedizione gratuita",
+      "h": "https://emiliano-mancini.github.io/proposte/pazzodesign-shop/tavolo-jolanda/"
+    },
+    {
+      "t": "Denise\n140 → 200 cm\n449,00 €\nSpedizione gratuita",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-denise-da-140-a-200/"
+    },
+    {
+      "t": "Enea\n968,00 €\nSpedizione gratuita",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-enea/"
+    },
+    {
+      "t": "Bianco statuario con gambe nere\n449,00 €\nSpedizion",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-bianco-statuario-con-gambe-nere/"
+    },
+    {
+      "t": "Nero sahara con gambe nere\n449,00 €\nSpedizione gra",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-in-nero-sahara-con-gambe-nere/"
+    },
+    {
+      "t": "Bianco con gambe bianche\n299,00 €\nSpedizione gratu",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-bianco-con-gambe-bianche/"
+    },
+    {
+      "t": "Efrem\n110 → 170 cm\n169,00 €\nSpedizione gratuita",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-efrem-da-110-a-170/"
+    },
+    {
+      "t": "Filiberto\n180 → 260 cm\n899,00 €\nSpedizione gratuit",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-filiberto-da-180-a-260/"
+    },
+    {
+      "t": "−30 €\nZoe\n140 → 220 cm\n380,00 €\n410,00 €\nSpedizion",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-zoe-da-140-a-220/"
+    },
+    {
+      "t": "Diana\n120 → 200 cm\n290,00 €\nSpedizione gratuita",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-diana-da-120-a-200/"
+    },
+    {
+      "t": "Ambre\n120 → 200 cm\n290,00 €\nSpedizione gratuita",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-ambre-da-120-a-200/"
+    },
+    {
+      "t": "Sandra\n120 → 200 cm\n290,00 €\nSpedizione gratuita",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-sandra-da-120-a-200/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 45,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 13,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

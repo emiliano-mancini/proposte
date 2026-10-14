@@ -1,0 +1,105 @@
+{
+  "slug": "mondialtoys-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/porsche-cayenne/",
+  "misuratoIl": "2026-10-14T08:52:58.888Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 200,
+  "lcpMs": 205,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/cayenne-1.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/porsche-cayenne/",
+  "titolo": "Porsche Cayenne 12V per bambini con telecomando – 144,85 € spedizione gratuita | Mondial Toys",
+  "descrizione": "Auto elettrica per bambini Porsche Cayenne 12V con licenza ufficiale: guida con pedale e volante o con il telecomando 2.4G del genitore. Spedizione gratuita. Proposta di restyling – bozza non ufficiale.",
+  "h1": [
+    "Porsche Cayenne 12V con telecomando"
+  ],
+  "ttfb": 94,
+  "fcp": 160,
+  "domReady": 151,
+  "load": 198,
+  "pesoKB": 310,
+  "richieste": 10,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/porsche-cayenne/img/49185c87ef0c.webp",
+      "kb": 32
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/cayenne-2.webp",
+      "kb": 29
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/cayenne-1.webp",
+      "kb": 27
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/porsche-cayenne/img/3ee43e6dc1a5.webp",
+      "kb": 24
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/cayenne-3.webp",
+      "kb": 23
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 705,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@mondialtoys.it"
+  ],
+  "telefono": [
+    "+390815281273"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Resi e condizioni",
+      "h": "https://mondialtoys.it/content/1-consegna"
+    },
+    {
+      "t": "Resi",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/assistenza/#contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 49,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 13,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

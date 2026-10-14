@@ -1,58 +1,58 @@
 {
   "slug": "mondialtoys-dopo",
   "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/",
-  "misuratoIl": "2026-10-14T03:04:14.327Z",
+  "misuratoIl": "2026-10-14T08:52:51.064Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 294,
-  "lcpMs": 284,
-  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/cayenne-1.webp",
+  "caricamentoTotaleMs": 174,
+  "lcpMs": 318,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/5095273adbdd.webp",
   "cls": 0,
   "urlFinale": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/",
-  "titolo": "Porsche Cayenne 12V per bambini con telecomando – 144,85 € spedizione gratuita | Mondial Toys",
-  "descrizione": "Auto elettrica per bambini Porsche Cayenne 12V con licenza ufficiale: guida con pedale e volante o con il telecomando 2.4G del genitore. Spedizione gratuita. Proposta di restyling – bozza non ufficiale.",
+  "titolo": "Mondial Toys – macchine elettriche per bambini, moto, quad e tricicli",
+  "descrizione": "Macchine elettriche per bambini 12V e 24V, moto, quad e tricicli. Spedizione gratuita, reso gratuito entro 14 giorni, pagamento alla consegna. Proposta di restyling – bozza non ufficiale.",
   "h1": [
-    "Porsche Cayenne 12V con telecomando"
+    "La prima macchina non si scorda mai."
   ],
-  "ttfb": 123,
-  "fcp": 208,
-  "domReady": 196,
-  "load": 290,
-  "pesoKB": 209,
-  "richieste": 5,
+  "ttfb": 76,
+  "fcp": 171,
+  "domReady": 171,
+  "load": 172,
+  "pesoKB": 516,
+  "richieste": 19,
   "script": 0,
   "serviziEsterni": [
     "fonts.googleapis.com"
   ],
   "immaginiPiuPesanti": [
     {
-      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/cayenne-2.webp",
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/c5c74f1ec329.webp",
+      "kb": 32
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/49185c87ef0c.webp",
+      "kb": 32
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/5c9609846cd5.webp",
+      "kb": 30
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/417ea2354fa0.webp",
       "kb": 29
     },
     {
-      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/cayenne-1.webp",
-      "kb": 27
-    },
-    {
-      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/cayenne-3.webp",
-      "kb": 23
-    },
-    {
-      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/logo.webp",
-      "kb": 8
+      "url": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/img/5095273adbdd.webp",
+      "kb": 26
     }
   ],
   "scorrimentoOrizzontale": false,
   "sovrapposizioni": [],
-  "pulsanteAcquisto": {
-    "testo": "Aggiungi al carrello",
-    "yPx": 636,
-    "visibileSenzaScorrere": true
-  },
+  "pulsanteAcquisto": null,
   "parlaDiSpedizione": true,
   "parlaDiResi": true,
-  "recensioni": true,
+  "recensioni": false,
   "email": [
     "info@mondialtoys.it"
   ],
@@ -62,45 +62,37 @@
   "whatsapp": false,
   "linkUtili": [
     {
-      "t": "Spedizioni e resi",
-      "h": "https://mondialtoys.it/content/1-consegna"
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/chi-siamo/"
+    },
+    {
+      "t": "Resi",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/chi-siamo/"
     },
     {
       "t": "Contatti",
-      "h": "https://mondialtoys.it/contattaci"
-    },
-    {
-      "t": "Resi e condizioni",
-      "h": "https://mondialtoys.it/content/1-consegna"
-    },
-    {
-      "t": "leggi le condizioni",
-      "h": "https://mondialtoys.it/content/1-consegna"
-    },
-    {
-      "t": "Spedizioni e resi",
-      "h": "https://mondialtoys.it/content/1-consegna"
-    },
-    {
-      "t": "Condizioni generali",
-      "h": "https://mondialtoys.it/content/3-condizioni-generali"
+      "h": "https://emiliano-mancini.github.io/proposte/mondialtoys-shop/assistenza/#contatti"
     }
   ],
   "piattaforma": null,
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 13,
+      "ms": 14,
       "status": 200,
       "cache": "HIT"
     },
     {
-      "ms": 11,
+      "ms": 12,
       "status": 200,
       "cache": "HIT"
     },
     {
-      "ms": 7,
+      "ms": 12,
       "status": 200,
       "cache": "HIT"
     }
