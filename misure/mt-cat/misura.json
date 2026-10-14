@@ -1,0 +1,138 @@
+{
+  "slug": "mt-cat",
+  "url": "https://mondialtoys.it/24-macchine-elettriche-per-bambini",
+  "misuratoIl": "2026-10-14T02:27:15.954Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4831,
+  "lcpMs": 4816,
+  "lcpElemento": "P ",
+  "cls": 0.021,
+  "urlFinale": "https://mondialtoys.it/24-macchine-elettriche-per-bambini",
+  "titolo": "macchine elettrica per bambini 2 posti miglior prezzo",
+  "descrizione": "Scopri le migliori macchine elettriche per bambini: modelli sicuri, con telecomando e batteria potente. Acquista online, spedizione sempre gratuita!",
+  "h1": [
+    "Macchine Elettriche per Bambini"
+  ],
+  "ttfb": 2253,
+  "fcp": 3022,
+  "domReady": 3817,
+  "load": 4831,
+  "pesoKB": 6267,
+  "richieste": 204,
+  "script": 92,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "js.klarna.com",
+    "eu1-config.doofinder.com",
+    "cdn.shopify.com",
+    "fonts.googleapis.com",
+    "cdn.doofinder.com",
+    "eu1-api.doofinder.com",
+    "pagead2.googlesyndication.com",
+    "idb.iubenda.com",
+    "www.google-analytics.com",
+    "www.google.com",
+    "connect.facebook.net",
+    "www.gstatic.com",
+    "www.facebook.com",
+    "x.klarnacdn.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://mondialtoys.it/img/logo-1790774917.jpg",
+      "kb": 588
+    },
+    {
+      "url": "https://mondialtoys.it/67175-home_default/nuova-ford-bronco-24v-maxi-suv-fuoristrada-2-posti-auto-macchina-elettrica-per-bambini-con-telecomando-0995.jpg",
+      "kb": 250
+    },
+    {
+      "url": "https://mondialtoys.it/69200-home_default/macchina-elettrica-per-bambini-porsche-taycan-turbo-s-12v-monoposto-con-telecomando-cintura-a-3-punti.jpg",
+      "kb": 244
+    },
+    {
+      "url": "https://mondialtoys.it/67953-home_default/nuovo-ford-bronco-24v-set-4-ruote-in-gomma-eva-xl-con-copriruota.jpg",
+      "kb": 242
+    },
+    {
+      "url": "https://mondialtoys.it/63288-home_default/auto-elettrica-macchina-elettrica-per-bambini-porsche-cayenne-12v-con-telecomando.jpg",
+      "kb": 195
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Noi (Mondial Toys s.r.l.) e terze parti selezionate (5) utilizziamo cookie o tecnologie simili per finalità tecniche e"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+390815281273"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Condizioni generali",
+      "h": "https://mondialtoys.it/content/3-condizioni-generali"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://mondialtoys.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://mondialtoys.it/contattaci"
+    },
+    {
+      "t": "Accetto i termini e le condizioni.",
+      "h": "https://mondialtoys.it/content/1-consegna"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2555,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1820,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1896,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fmondialtoys.it%2F24-macchine-elettriche-per-bambini&scr"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-G9SBKJDG60&gtm=45je6ad0h2v897127793za20ozb9117914975zd9117914975xf1&_p=1791944829715&gcs=G100&gcd=13p3p3p3p"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-G9SBKJDG60&gtm=45je6ad0h2v897127793z89117914975za20gzb9117914975zd9117914975xf1&_p=1791944829715&gcs=G100&g"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&apvc=0&ae=g&tid=AW-980086752&dl=https%3A%2F%2Fmondialtoys.it%2F24-macchine-elettriche-per-bambini&"
+    }
+  ]
+}

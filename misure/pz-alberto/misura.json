@@ -1,0 +1,131 @@
+{
+  "slug": "pz-alberto",
+  "url": "https://pazzodesign.it/prodotto/sedia-alberto-verde-set-da-4-sedie/",
+  "misuratoIl": "2026-10-14T02:26:21.358Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3438,
+  "lcpMs": 2405,
+  "lcpElemento": "H1 ",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/prodotto/sedia-alberto-verde-set-da-4-sedie/",
+  "titolo": "Pagina non trovata - Pazzo Design",
+  "descrizione": null,
+  "h1": [
+    "404"
+  ],
+  "ttfb": 1952,
+  "fcp": 2405,
+  "domReady": 2753,
+  "load": 3436,
+  "pesoKB": 2299,
+  "richieste": 102,
+  "script": 56,
+  "serviziEsterni": [
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "www.google.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "fonts.gstatic.com",
+    "s.pinimg.com",
+    "ct.pinterest.com",
+    "www.gstatic.com",
+    "cs.iubenda.com",
+    "www.facebook.com",
+    "analytics.tiktok.com",
+    "pixel.wp.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "www.google-analytics.com",
+    "ad.doubleclick.net",
+    "idb.iubenda.com",
+    "analytics-ipv6.tiktokw.us",
+    "analytics.google.com",
+    "stats.g.doubleclick.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "kb": 2
+    },
+    {
+      "url": "https://www.facebook.com/tr/?id=529419078591451&ev=PageView&dl=https%3A%2F%2Fpazzodesign.it%2Fprodotto%2Fsedia-alberto-verde-set-da-4-sedie%2F&rl=&if=false&ts=1",
+      "kb": 0
+    },
+    {
+      "url": "https://pixel.wp.com/g.gif?v=ext&blog=255104677&post=0&tz=0&srv=pazzodesign.it&arch_err=%2Fprodotto%2Fsedia-alberto-verde-set-da-4-sedie%2F&j=1%3A15.8&host=pazz",
+      "kb": 0
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2314,
+      "status": 404,
+      "cache": null
+    },
+    {
+      "ms": 1899,
+      "status": 404,
+      "cache": null
+    },
+    {
+      "ms": 1516,
+      "status": 404,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 404,
+      "url": "https://pazzodesign.it/prodotto/sedia-alberto-verde-set-da-4-sedie/"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791944776686&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=907645058.1791944777&dt=Pagina%20non%20trovata%20-%20Pazzo%20Design&en=page_view&dl=https%3A%2F"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=907645058.1791944777&gtm=45He6ac1v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791944776686&_gaz=1&gcd=13l3l3l3l1l1&npa"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    }
+  ]
+}

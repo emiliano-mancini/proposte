@@ -1,0 +1,202 @@
+{
+  "slug": "pz-colette",
+  "url": "https://pazzodesign.it/prodotto/sedia-colette-trasparente-set-da-4-sedie/",
+  "misuratoIl": "2026-10-14T02:26:04.160Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5738,
+  "lcpMs": 3925,
+  "lcpElemento": "IMG https://pazzodesign.it/wp-content/uploads/2025/05/colette-1-1024x1024.jpg",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/prodotto/sedia-colette-trasparente-set-da-4-sedie/",
+  "titolo": "Sedia Colette trasparente set da 4 sedie - Pazzo Design",
+  "descrizione": null,
+  "h1": [
+    "Sedia Colette trasparente\nset da 4 sedie"
+  ],
+  "ttfb": 3074,
+  "fcp": 3688,
+  "domReady": 4487,
+  "load": 5737,
+  "pesoKB": 3242,
+  "richieste": 152,
+  "script": 66,
+  "serviziEsterni": [
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "www.google.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "fonts.gstatic.com",
+    "s.pinimg.com",
+    "cs.iubenda.com",
+    "www.facebook.com",
+    "ct.pinterest.com",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "www.gstatic.com",
+    "idb.iubenda.com",
+    "analytics.tiktok.com",
+    "pixel.wp.com",
+    "www.paypal.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "analytics-ipv6.tiktokw.us"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2025/05/colette-2-1024x1024.jpg",
+      "kb": 47
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1-1024x147.png",
+      "kb": 47
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2023/11/colette-schema-1024x1024.jpg",
+      "kb": 41
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/pazzodesign-orizn-mono-1024x140.png",
+      "kb": 31
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2025/05/colette-1-1024x1024.jpg",
+      "kb": 29
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1581,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "",
+    "support@pazzodesign.it",
+    "pazzodesignsrls@legalmail.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "FAQ",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/prodotto/sedia-colette-trasparente-set-da-4-sedie/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/prodotto/sedia-colette-trasparente-set-da-4-sedie/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 3331,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2959,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3135,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://connect.facebook.net/it_IT/sdk/xfbml.customerchat.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&ae=g&auid=643567367.1791944759&dt=Sedia%20Colette%20trasparente%20set%20da%204%20sedie%20-%20Pazzo%20Desig"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=643567367.1791944759&gtm=45He6ac1v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791944758317&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791944758317&_gaz=1&gcd=13l3l3l3l1l1&npa"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    }
+  ]
+}

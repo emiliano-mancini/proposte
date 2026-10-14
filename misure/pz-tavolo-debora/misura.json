@@ -1,0 +1,135 @@
+{
+  "slug": "pz-tavolo-debora",
+  "url": "https://pazzodesign.it/prodotto/tavolo-allungabile-debora-da-140-a-220-con-gambe-incrociate-bianche/",
+  "misuratoIl": "2026-10-14T02:26:34.755Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3276,
+  "lcpMs": 2276,
+  "lcpElemento": "H1 ",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/prodotto/tavolo-allungabile-debora-da-140-a-220-con-gambe-incrociate-bianche/",
+  "titolo": "Pagina non trovata - Pazzo Design",
+  "descrizione": null,
+  "h1": [
+    "404"
+  ],
+  "ttfb": 1827,
+  "fcp": 2276,
+  "domReady": 2653,
+  "load": 3274,
+  "pesoKB": 2299,
+  "richieste": 103,
+  "script": 56,
+  "serviziEsterni": [
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "www.google.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "s.pinimg.com",
+    "fonts.gstatic.com",
+    "ct.pinterest.com",
+    "www.facebook.com",
+    "www.gstatic.com",
+    "analytics.tiktok.com",
+    "cs.iubenda.com",
+    "pixel.wp.com",
+    "www.google-analytics.com",
+    "ad.doubleclick.net",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "analytics-ipv6.tiktokw.us",
+    "idb.iubenda.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "kb": 2
+    },
+    {
+      "url": "https://www.facebook.com/tr/?id=529419078591451&ev=PageView&dl=https%3A%2F%2Fpazzodesign.it%2Fprodotto%2Ftavolo-allungabile-debora-da-140-a-220-con-gambe-incroc",
+      "kb": 0
+    },
+    {
+      "url": "https://pixel.wp.com/g.gif?v=ext&blog=255104677&post=0&tz=0&srv=pazzodesign.it&arch_err=%2Fprodotto%2Ftavolo-allungabile-debora-da-140-a-220-con-gambe-incrociat",
+      "kb": 0
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1921,
+      "status": 404,
+      "cache": null
+    },
+    {
+      "ms": 1818,
+      "status": 404,
+      "cache": null
+    },
+    {
+      "ms": 1423,
+      "status": 404,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 404,
+      "url": "https://pazzodesign.it/prodotto/tavolo-allungabile-debora-da-140-a-220-con-gambe-incrociate-bianche/"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=983607945.1791944791&dt=Pagina%20non%20trovata%20-%20Pazzo%20Design&en=page_view&dl=https%3A%2F"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791944790110&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=983607945.1791944791&gtm=45He6ad0h2v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://ct.pinterest.com/stats/"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ad0h2v9116413574za20ozb9165237211zd9165237211xf1&_p=1791944790110&_gaz=1&gcd=13l3l3l3l1l1&n"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    }
+  ]
+}

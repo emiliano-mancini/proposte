@@ -1,0 +1,146 @@
+{
+  "slug": "mt-x6m",
+  "url": "https://mondialtoys.it/macchine-elettriche-per-bambini/14090-macchina-elettrica-per-bambini-bmw-x6m-12v-licenza-ufficiale-con-telecomando-sedile-in-pelle-ruote-in-gomma-e-porte-apribili-0765708040474.html",
+  "misuratoIl": "2026-10-14T02:27:04.874Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3764,
+  "lcpMs": 3807,
+  "lcpElemento": "IMG https://mondialtoys.it/60551-large_default/macchina-elettrica-per-bambini-bmw-x6m-12v-licenza-ufficiale-con-telecomando-",
+  "cls": 0.379,
+  "urlFinale": "https://mondialtoys.it/macchine-elettriche-per-bambini/14090-macchina-elettrica-per-bambini-bmw-x6m-12v-licenza-ufficiale-con-telecomando-sedile-in-pelle-ruote-in-gomma-e-porte-apribili-0765708040474.html",
+  "titolo": "Macchina Elettrica per Bambini BMW X6M 12V Licenza Ufficiale con Telecomando, Sedile in Pelle, Ruote in Gomma e Porte Apribili",
+  "descrizione": "Auto elettrica per bambini BMW X6M con licenza ufficiale. Batteria 12V 7Ah, Potente doppio motore 12V, Telecomando parentale 2.4G Soft Start, Sedile in Pelle e Cintura di Sicurezza a 3 Punti, Attacco per collegare il vostro Mp3, USB, TF CARD o altro dispositivo di riproduzione della musica. Ruote in Gomma.",
+  "h1": [
+    "Macchina Elettrica per Bambini BMW X6M 12V Licenza Ufficiale con Telecomando, Sedile in Pelle, Ruote"
+  ],
+  "ttfb": 1221,
+  "fcp": 2102,
+  "domReady": 2822,
+  "load": 3761,
+  "pesoKB": 7380,
+  "richieste": 218,
+  "script": 94,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "js.klarna.com",
+    "eu1-config.doofinder.com",
+    "cdn.shopify.com",
+    "assets.prestashop3.com",
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "cdn.doofinder.com",
+    "pagead2.googlesyndication.com",
+    "eu1-search.doofinder.com",
+    "idb.iubenda.com",
+    "www.google-analytics.com",
+    "www.google.com",
+    "www.paypal.com",
+    "connect.facebook.net",
+    "www.gstatic.com",
+    "eu1-api.doofinder.com",
+    "www.paypalobjects.com",
+    "www.facebook.com",
+    "x.klarnacdn.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://mondialtoys.it/img/cms/city-square-road-sky-cloud-Photoroom(2).jpg",
+      "kb": 1000
+    },
+    {
+      "url": "https://mondialtoys.it/img/cms/Bmw%20nero%201%20.jpg",
+      "kb": 723
+    },
+    {
+      "url": "https://mondialtoys.it/img/logo-1790774917.jpg",
+      "kb": 588
+    },
+    {
+      "url": "https://mondialtoys.it/60551-large_default/macchina-elettrica-per-bambini-bmw-x6m-12v-licenza-ufficiale-con-telecomando-sedile-in-pelle-ruote-in-gomma-e-porte-a",
+      "kb": 316
+    },
+    {
+      "url": "https://mondialtoys.it/60551-home_default/macchina-elettrica-per-bambini-bmw-x6m-12v-licenza-ufficiale-con-telecomando-sedile-in-pelle-ruote-in-gomma-e-porte-ap",
+      "kb": 193
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Noi (Mondial Toys s.r.l.) e terze parti selezionate (5) utilizziamo cookie o tecnologie simili per finalità tecniche e"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1584,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+390815281273"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Spedizione e resi",
+      "h": "https://mondialtoys.it/macchine-elettriche-per-bambini/14090-macchina-elettrica-per-bambini-bmw-x6m-12v-licenza-ufficiale-con-telecomando-sedile-in-pelle-ruote-in-gomma-e-porte-apribili-0765708040474.html#extra-0"
+    },
+    {
+      "t": "Condizioni generali",
+      "h": "https://mondialtoys.it/content/3-condizioni-generali"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://mondialtoys.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://mondialtoys.it/contattaci"
+    },
+    {
+      "t": "Accetto i termini e le condizioni.",
+      "h": "https://mondialtoys.it/content/1-consegna"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1174,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 496,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 577,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fmondialtoys.it%2Fmacchine-elettriche-per-bambini%2F1409"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-G9SBKJDG60&gtm=45je6ac1v897127793za20ozb9117914975zd9117914975xf1&_p=1791944818824&gcs=G100&gcd=13p3p3p3p5l"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&apvc=0&ae=g&tid=AW-980086752&dl=https%3A%2F%2Fmondialtoys.it%2Fmacchine-elettriche-per-bambini%2F1"
+    }
+  ]
+}

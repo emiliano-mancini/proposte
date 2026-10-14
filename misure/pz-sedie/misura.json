@@ -1,0 +1,200 @@
+{
+  "slug": "pz-sedie",
+  "url": "https://pazzodesign.it/categoria-prodotto/sedie/",
+  "misuratoIl": "2026-10-14T02:26:49.138Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4795,
+  "lcpMs": 3402,
+  "lcpElemento": "IMG https://pazzodesign.it/wp-content/uploads/2026/04/SEDIA-Articolo-2336-3-768x768.jpg",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/categoria-prodotto/sedie/",
+  "titolo": "Sedie Archivi - Pazzo Design",
+  "descrizione": null,
+  "h1": [
+    "Sedie"
+  ],
+  "ttfb": 2777,
+  "fcp": 3402,
+  "domReady": 4320,
+  "load": 4794,
+  "pesoKB": 3810,
+  "richieste": 148,
+  "script": 64,
+  "serviziEsterni": [
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "www.google.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "fonts.gstatic.com",
+    "s.pinimg.com",
+    "cs.iubenda.com",
+    "ct.pinterest.com",
+    "www.facebook.com",
+    "www.google-analytics.com",
+    "ad.doubleclick.net",
+    "www.gstatic.com",
+    "analytics.tiktok.com",
+    "pixel.wp.com",
+    "idb.iubenda.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "analytics-ipv6.tiktokw.us"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2025/06/Progetto-senza-titolo11.png",
+      "kb": 862
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2025/10/SGABELLO-Articolo-2329-2333-4-1024x1024.jpg",
+      "kb": 52
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/04/SEDIA-Articolo-2341-3-1024x1024.jpg",
+      "kb": 50
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1-1024x147.png",
+      "kb": 47
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/04/SEDIA-Articolo-2372-3-768x768.jpg",
+      "kb": 36
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "support@pazzodesign.it",
+    "pazzodesignsrls@legalmail.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "FAQ",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/categoria-prodotto/sedie/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/categoria-prodotto/sedie/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2737,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2511,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2272,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791944803980&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=1365313659.1791944805&dt=Sedie%20Archivi%20-%20Pazzo%20Design&en=page_view&dl=https%3A%2F%2Fpaz"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1365313659.1791944805&gtm=45He6ac1v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://ct.pinterest.com/stats/"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791944803980&_gaz=1&gcd=13l3l3l3l1l1&npa"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    }
+  ]
+}
