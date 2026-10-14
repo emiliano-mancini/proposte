@@ -1,0 +1,206 @@
+{
+  "slug": "pz-pina-orig",
+  "url": "https://pazzodesign.it/prodotto/consolle-allungabile-pina-da-45-a-402-con-gambe-nere-a-x/",
+  "misuratoIl": "2026-10-14T09:00:49.764Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5996,
+  "lcpMs": 4189,
+  "lcpElemento": "IMG https://pazzodesign.it/wp-content/uploads/2026/04/CONSOLLE-TAVOLO-Articolo-2373-10-1024x1024.jpg",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/prodotto/consolle-allungabile-pina-da-45-a-402-con-gambe-nere-a-x/",
+  "titolo": "Consolle allungabile Pina da 45 a 402 con gambe nere a X - Pazzo Design",
+  "descrizione": null,
+  "h1": [
+    "Consolle allungabile Pina da 45 a 402 con gambe nere a X"
+  ],
+  "ttfb": 3162,
+  "fcp": 3820,
+  "domReady": 4696,
+  "load": 5994,
+  "pesoKB": 4921,
+  "richieste": 159,
+  "script": 67,
+  "serviziEsterni": [
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "www.google.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "s.pinimg.com",
+    "fonts.gstatic.com",
+    "ct.pinterest.com",
+    "cs.iubenda.com",
+    "www.google-analytics.com",
+    "ad.doubleclick.net",
+    "www.gstatic.com",
+    "analytics.tiktok.com",
+    "pixel.wp.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "idb.iubenda.com",
+    "www.facebook.com",
+    "analytics-ipv6.tiktokw.us",
+    "www.paypal.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/04/gemini-watermark-removed.png",
+      "kb": 1551
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/04/CONSOLLE-TAVOLO-Articolo-2373-10-1024x1024.jpg",
+      "kb": 55
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/04/CONSOLLE-TAVOLO-Articolo-2373-2-1024x1024.jpg",
+      "kb": 51
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/04/CONSOLLE-TAVOLO-Articolo-2373-4-1024x1024.jpg",
+      "kb": 49
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1-1024x147.png",
+      "kb": 47
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 2929,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "",
+    "support@pazzodesign.it",
+    "pazzodesignsrls@legalmail.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "FAQ",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/prodotto/consolle-allungabile-pina-da-45-a-402-con-gambe-nere-a-x/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/prodotto/consolle-allungabile-pina-da-45-a-402-con-gambe-nere-a-x/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 3065,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3258,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2554,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://connect.facebook.net/it_IT/sdk/xfbml.customerchat.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&ae=g&auid=222315772.1791968444&dt=Consolle%20allungabile%20Pina%20da%2045%20a%20402%20con%20gambe%20nere%2"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791968443856&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=222315772.1791968444&gtm=45He6ac1v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791968443856&_gaz=1&gcd=13l3l3l3l1l1&npa"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6?analytics_message=eyJldmVudCI6IkVucmljaElwdjYiLCJldmVudF9pZCI6IiIsIm1lc3NhZ2VfaWQiOiJtZXNzYWdlSWQtMTc5MTk2ODQ"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    }
+  ]
+}

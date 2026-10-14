@@ -1,0 +1,206 @@
+{
+  "slug": "pz-jolanda-orig",
+  "url": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-jolanda-da-140-a-200/",
+  "misuratoIl": "2026-10-14T09:01:08.075Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5002,
+  "lcpMs": 3810,
+  "lcpElemento": "IMG https://pazzodesign.it/wp-content/uploads/2026/05/TAVOLO-Articolo-2355-9-1024x1024.jpg",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-jolanda-da-140-a-200/",
+  "titolo": "Tavolo allungabile in ceramica Jolanda da 140 a 200 - Pazzo Design",
+  "descrizione": null,
+  "h1": [
+    "Tavolo allungabile in ceramica Jolanda da 140 a 200"
+  ],
+  "ttfb": 2900,
+  "fcp": 3535,
+  "domReady": 3970,
+  "load": 5001,
+  "pesoKB": 3581,
+  "richieste": 174,
+  "script": 71,
+  "serviziEsterni": [
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "www.google.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "s.pinimg.com",
+    "fonts.gstatic.com",
+    "ct.pinterest.com",
+    "ad.doubleclick.net",
+    "cs.iubenda.com",
+    "www.gstatic.com",
+    "analytics.tiktok.com",
+    "www.google-analytics.com",
+    "pixel.wp.com",
+    "www.paypal.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "idb.iubenda.com",
+    "www.facebook.com",
+    "analytics-ipv6.tiktokw.us"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/05/TAVOLO-Articolo-2355-6-1024x1024.jpg",
+      "kb": 55
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/05/TAVOLO-Articolo-2355-3-1024x1024.jpg",
+      "kb": 50
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1-1024x147.png",
+      "kb": 47
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/05/TAVOLO-Articolo-2355-9-1024x1024.jpg",
+      "kb": 39
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2026/05/TAVOLO-Articolo-2355-5-1024x1024.jpg",
+      "kb": 37
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1967,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "",
+    "support@pazzodesign.it",
+    "pazzodesignsrls@legalmail.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "FAQ",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-jolanda-da-140-a-200/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/prodotto/tavolo-allungabile-in-ceramica-jolanda-da-140-a-200/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 3114,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2637,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2552,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://connect.facebook.net/it_IT/sdk/xfbml.customerchat.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&ae=g&auid=1494222466.1791968463&dt=Tavolo%20allungabile%20in%20ceramica%20Jolanda%20da%20140%20a%20200%20"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1494222466.1791968463&gtm=45He6ac1v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zb9165237211zd9165237211xf1&_p=1791968462922&gcd=13l3l3l3l1l1&npa=0&d"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791968462922&_gaz=1&gcd=13l3l3l3l1l1&npa"
+    },
+    {
+      "status": 999,
+      "url": "https://www.paypal.com/xoplatform/logger/api/logger?disableSetCookie=true"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    }
+  ]
+}
