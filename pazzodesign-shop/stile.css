@@ -168,6 +168,8 @@ footer .note{grid-column:1/-1;border-top:1px solid #3a3935;padding-top:16px;colo
 .mosaic img{flex:1;min-height:0}
 .mosaic span{position:static;background:#fff;border-top:1px solid var(--line);padding:8px 10px}
 .hl{font-size:.93rem}
+.hero .ctas{align-items:center;gap:18px}.tl{font-size:.95rem}
+@media (max-width:960px){.pills{-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}.hero .ctas{align-items:stretch}.tl{text-align:center}}
 @media (max-width:960px){.hero .ctas{flex-direction:column}.hero .ctas .btn{width:100%}.pills button{white-space:nowrap;padding:7px 10px;font-size:.82rem}.mosaic span{font-size:.74rem;padding:6px 8px}}
 .more-item{display:none}.all .more-item{display:block}.card[hidden]{display:none!important}
 .morebox{margin:24px 0 0;text-align:center}
@@ -239,8 +241,9 @@ footer .note{grid-column:1/-1;border-top:1px solid #3a3935;padding-top:16px;colo
 .shot .stick{position:static;transform:none}
 .stick .p{line-height:1.15}.stick .p b{display:block;font-size:1.15rem}.stick .p span{font-size:.75rem;color:var(--ink2)}
 .stick .btn{flex:1;min-height:48px}
-.ck.up{bottom:78px}
+.ck.up{}
 @media (max-width:960px){
+  .ck.up{bottom:78px}
   .pdp{grid-template-columns:1fr;gap:14px;padding:0 0 40px}
   .gal{margin-inline:calc(-1*var(--pad))}
   .gal .main{aspect-ratio:auto;height:min(30vh,250px);display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
