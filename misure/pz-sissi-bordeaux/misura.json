@@ -1,0 +1,127 @@
+{
+  "slug": "pz-sissi-bordeaux",
+  "url": "https://pazzodesign.it/prodotto/sedia-sissi-bordeaux-set-da-4/",
+  "misuratoIl": "2026-10-14T02:31:47.031Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3434,
+  "lcpMs": 2317,
+  "lcpElemento": "H1 ",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/prodotto/sedia-sissi-bordeaux-set-da-4/",
+  "titolo": "Pagina non trovata - Pazzo Design",
+  "descrizione": null,
+  "h1": [
+    "404"
+  ],
+  "ttfb": 1910,
+  "fcp": 2317,
+  "domReady": 2752,
+  "load": 3431,
+  "pesoKB": 2298,
+  "richieste": 102,
+  "script": 56,
+  "serviziEsterni": [
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "www.google.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "fonts.gstatic.com",
+    "s.pinimg.com",
+    "cs.iubenda.com",
+    "www.gstatic.com",
+    "ct.pinterest.com",
+    "analytics.tiktok.com",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "pixel.wp.com",
+    "idb.iubenda.com",
+    "www.facebook.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "analytics-ipv6.tiktokw.us"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "kb": 2
+    },
+    {
+      "url": "https://pixel.wp.com/g.gif?v=ext&blog=255104677&post=0&tz=0&srv=pazzodesign.it&arch_err=%2Fprodotto%2Fsedia-sissi-bordeaux-set-da-4%2F&j=1%3A15.8&host=pazzodesi",
+      "kb": 0
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2155,
+      "status": 404,
+      "cache": null
+    },
+    {
+      "ms": 1910,
+      "status": 404,
+      "cache": null
+    },
+    {
+      "ms": 1560,
+      "status": 404,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 404,
+      "url": "https://pazzodesign.it/prodotto/sedia-sissi-bordeaux-set-da-4/"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=1&ae=g&auid=1538351835.1791945103&dt=Pagina%20non%20trovata%20-%20Pazzo%20Design&en=page_view&dl=https%3A%2"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1538351835.1791945103&gtm=45He6ad0h2v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791945102285&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ad0h2v9116413574za20ozb9165237211zd9165237211xf1&_p=1791945102285&_gaz=1&gcd=13l3l3l3l1l1&n"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    }
+  ]
+}

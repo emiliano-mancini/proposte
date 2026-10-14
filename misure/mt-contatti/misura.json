@@ -1,0 +1,135 @@
+{
+  "slug": "mt-contatti",
+  "url": "https://mondialtoys.it/contattaci",
+  "misuratoIl": "2026-10-14T02:30:26.935Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2780,
+  "lcpMs": 2769,
+  "lcpElemento": "P ",
+  "cls": 0.02,
+  "urlFinale": "https://mondialtoys.it/contattaci",
+  "titolo": "Contattaci",
+  "descrizione": "Si può usare il nostro modulo per contattarci",
+  "h1": [],
+  "ttfb": 701,
+  "fcp": 1476,
+  "domReady": 1974,
+  "load": 2779,
+  "pesoKB": 3734,
+  "richieste": 170,
+  "script": 88,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "eu1-config.doofinder.com",
+    "js.klarna.com",
+    "www.googletagmanager.com",
+    "cdn.shopify.com",
+    "fonts.googleapis.com",
+    "cdn.doofinder.com",
+    "eu1-api.doofinder.com",
+    "pagead2.googlesyndication.com",
+    "www.google-analytics.com",
+    "idb.iubenda.com",
+    "www.google.com",
+    "connect.facebook.net",
+    "www.gstatic.com",
+    "www.facebook.com",
+    "x.klarnacdn.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://mondialtoys.it/img/logo-1790774917.jpg",
+      "kb": 588
+    },
+    {
+      "url": "https://mondialtoys.it/themes/leo_jamoo_elements/assets/img/logo-footer-white.png",
+      "kb": 57
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0489/1171/2423/files/leo-jamoo-elements-home1-footer-img2.png?v=1706601211",
+      "kb": 3
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "kb": 2
+    },
+    {
+      "url": "https://www.facebook.com/tr/?id=357460661332891&ev=PageView&dl=https%3A%2F%2Fmondialtoys.it%2Fcontattaci&rl=&if=false&ts=1791945022945&iw=false&sw=412&sh=915&v=",
+      "kb": 0
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Noi (Mondial Toys s.r.l.) e terze parti selezionate (5) utilizziamo cookie o tecnologie simili per finalità tecniche e"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@mondialtoys.it"
+  ],
+  "telefono": [
+    "0815281273",
+    "+390815281273"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Condizioni generali",
+      "h": "https://mondialtoys.it/content/3-condizioni-generali"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://mondialtoys.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://mondialtoys.it/contattaci"
+    },
+    {
+      "t": "Accetto i termini e le condizioni.",
+      "h": "https://mondialtoys.it/content/1-consegna"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 979,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 442,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 445,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=18&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fmondialtoys.it%2Fcontattaci&scrsrc=www.googletagmanager"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-G9SBKJDG60&gtm=45je6ac1v897127793za20ozb9117914975zd9117914975xf1&_p=1791945021205&gcs=G100&gcd=13p3p3p3p5l"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&apvc=0&ae=g&tid=AW-980086752&dl=https%3A%2F%2Fmondialtoys.it%2Fcontattaci&scrsrc=www.googletagman"
+    }
+  ]
+}

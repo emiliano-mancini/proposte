@@ -1,0 +1,146 @@
+{
+  "slug": "mt-prova",
+  "url": "https://mondialtoys.it/tutti-i-prodotti/16224-prova-sito.html",
+  "misuratoIl": "2026-10-14T02:30:18.226Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3263,
+  "lcpMs": 1900,
+  "lcpElemento": "IMG https://mondialtoys.it/img/p/it-default-large_default.jpg",
+  "cls": 0.037,
+  "urlFinale": "https://mondialtoys.it/tutti-i-prodotti/16224-prova-sito.html",
+  "titolo": "prova sito",
+  "descrizione": null,
+  "h1": [
+    "prova sito"
+  ],
+  "ttfb": 709,
+  "fcp": 1583,
+  "domReady": 2351,
+  "load": 3261,
+  "pesoKB": 4090,
+  "richieste": 186,
+  "script": 94,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "js.klarna.com",
+    "eu1-config.doofinder.com",
+    "cdn.shopify.com",
+    "assets.prestashop3.com",
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "cdn.doofinder.com",
+    "pagead2.googlesyndication.com",
+    "eu1-search.doofinder.com",
+    "www.google-analytics.com",
+    "idb.iubenda.com",
+    "eu1-api.doofinder.com",
+    "www.google.com",
+    "www.paypal.com",
+    "connect.facebook.net",
+    "www.gstatic.com",
+    "www.paypalobjects.com",
+    "www.facebook.com",
+    "x.klarnacdn.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://mondialtoys.it/img/logo-1790774917.jpg",
+      "kb": 588
+    },
+    {
+      "url": "https://mondialtoys.it/themes/leo_jamoo_elements/assets/img/logo-footer-white.png",
+      "kb": 57
+    },
+    {
+      "url": "https://mondialtoys.it/img/p/it-default-large_default.jpg",
+      "kb": 9
+    },
+    {
+      "url": "https://mondialtoys.it/modules/ps_checkout/views/img/mastercard.svg",
+      "kb": 5
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0489/1171/2423/files/leo-jamoo-elements-home1-footer-img2.png?v=1706601211",
+      "kb": 3
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Noi (Mondial Toys s.r.l.) e terze parti selezionate (5) utilizziamo cookie o tecnologie simili per finalità tecniche e"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 868,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+390815281273"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Spedizione e resi",
+      "h": "https://mondialtoys.it/tutti-i-prodotti/16224-prova-sito.html#extra-0"
+    },
+    {
+      "t": "Condizioni generali",
+      "h": "https://mondialtoys.it/content/3-condizioni-generali"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://mondialtoys.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://mondialtoys.it/contattaci"
+    },
+    {
+      "t": "Accetto i termini e le condizioni.",
+      "h": "https://mondialtoys.it/content/1-consegna"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1007,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 525,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 519,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fmondialtoys.it%2Ftutti-i-prodotti%2F16224-prova-sito.ht"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-G9SBKJDG60&gtm=45je6ac1v897127793za20ozb9117914975zd9117914975xf1&_p=1791945012652&gcs=G100&gcd=13p3p3p3p5l"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=0&ae=g&tid=AW-980086752&dl=https%3A%2F%2Fmondialtoys.it%2Ftutti-i-prodotti%2F16224-prova-sito"
+    }
+  ]
+}

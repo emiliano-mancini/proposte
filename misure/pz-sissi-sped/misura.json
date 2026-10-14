@@ -1,0 +1,206 @@
+{
+  "slug": "pz-sissi-sped",
+  "url": "https://pazzodesign.it/prodotto/sedia-sissi-set-da-4/#:~:text=Spedizione",
+  "misuratoIl": "2026-10-14T02:31:09.555Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5980,
+  "lcpMs": 3949,
+  "lcpElemento": "IMG https://pazzodesign.it/wp-content/uploads/2025/05/sissi-bianco-1-1024x1024.jpg",
+  "cls": 0.007,
+  "urlFinale": "https://pazzodesign.it/prodotto/sedia-sissi-set-da-4/",
+  "titolo": "Sedia Sissi set da 4 - Pazzo Design",
+  "descrizione": null,
+  "h1": [
+    "Sedia Sissi set da 4"
+  ],
+  "ttfb": 3193,
+  "fcp": 3761,
+  "domReady": 4733,
+  "load": 5978,
+  "pesoKB": 3306,
+  "richieste": 158,
+  "script": 68,
+  "serviziEsterni": [
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "www.google.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "fonts.gstatic.com",
+    "s.pinimg.com",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "cs.iubenda.com",
+    "www.facebook.com",
+    "ct.pinterest.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.gstatic.com",
+    "analytics.tiktok.com",
+    "idb.iubenda.com",
+    "pixel.wp.com",
+    "www.paypal.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "analytics-ipv6.tiktokw.us"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2025/05/sissi-bianco-2-1024x1024.jpg",
+      "kb": 50
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1-1024x147.png",
+      "kb": 47
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2023/10/sissi-schema-1-1024x1024.jpg",
+      "kb": 40
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2025/05/sissi-bianco-1-1024x1024.jpg",
+      "kb": 35
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/pazzodesign-orizn-mono-1024x140.png",
+      "kb": 31
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1064,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "",
+    "support@pazzodesign.it",
+    "pazzodesignsrls@legalmail.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "FAQ",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/prodotto/sedia-sissi-set-da-4/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/prodotto/sedia-sissi-set-da-4/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 3431,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3443,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3005,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://connect.facebook.net/it_IT/sdk/xfbml.customerchat.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=444763233.1791945064&dt=Sedia%20Sissi%20set%20da%204%20-%20Pazzo%20Design&en=page_view&dl=https%"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=444763233.1791945064&gtm=45He6ac1h1v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791945063574&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1h1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791945063574&_gaz=1&gcd=13l3l3l3l1l1&n"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://www.paypal.com/xoplatform/logger/api/logger?disableSetCookie=true"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "pz-contatti",
+  "url": "https://pazzodesign.it/contatti/",
+  "misuratoIl": "2026-10-14T02:30:52.861Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4447,
+  "lcpMs": 2979,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://pazzodesign.it/contatti/",
+  "titolo": "Contatti - Pazzo Design",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 2381,
+  "fcp": 2979,
+  "domReady": 3907,
+  "load": 4444,
+  "pesoKB": 3116,
+  "richieste": 148,
+  "script": 67,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "widget.trustpilot.com",
+    "stats.wp.com",
+    "s.kk-resources.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "www.google.com",
+    "invitejs.trustpilot.com",
+    "connect.facebook.net",
+    "maps.google.com",
+    "fonts.gstatic.com",
+    "s.pinimg.com",
+    "cs.iubenda.com",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "www.gstatic.com",
+    "ct.pinterest.com",
+    "www.facebook.com",
+    "analytics.tiktok.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "pixel.wp.com",
+    "unpkg.com",
+    "cdnjs.cloudflare.com",
+    "idb.iubenda.com",
+    "analytics-ipv6.tiktokw.us"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1-1024x147.png",
+      "kb": 47
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/pazzodesign-orizn-mono-1024x140.png",
+      "kb": 31
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2020/02/logo-pazzodesign-B-1-1.png",
+      "kb": 23
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2019/12/american-express-logo-1.svg",
+      "kb": 10
+    },
+    {
+      "url": "https://pazzodesign.it/wp-content/uploads/2019/12/master-card-logo-1.svg",
+      "kb": 9
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "support@pazzodesign.it",
+    "pazzodesignsrls@legalmail.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "FAQ",
+      "h": "https://pazzodesign.it/frequently-asked-questions/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/#"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pazzodesign.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://pazzodesign.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2562,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2109,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2015,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://connect.facebook.net/it_IT/sdk/xfbml.customerchat.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=1652212714.1791945048&dt=Contatti%20-%20Pazzo%20Design&en=page_view&dl=https%3A%2F%2Fpazzodesig"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1652212714.1791945048&gtm=45He6ac1v9165237211za200zd9165237211xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-F3TN9L0GRR&gtm=45je6ac1v895579905za208zd895579905xf1&_p=1791945047608&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GKW94FV3L9&gtm=45je6ac1v9116413574za20ozb9165237211zd9165237211xf1&_p=1791945047608&_gaz=1&gcd=13l3l3l3l1l1&npa"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://pazzodesign.it/?ob=open-bridge/events"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LdfeBstAAAAAB0Y9ZxLHgFD3eiciJXWlNp4DhaJ"
+    }
+  ]
+}
