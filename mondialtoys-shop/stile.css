@@ -143,6 +143,28 @@ footer .note{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.18);padding
   .band{padding:40px 0}
 }
 
+.ship .sm{display:none}
+.srch{display:inline-flex;color:var(--blue)}.srch svg{width:22px;height:22px}
+.b{top:auto;bottom:6px}
+.card .nm{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.6em}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.pills button{font:700 .88rem/1 var(--body);padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--blue);cursor:pointer}
+.pills button.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+.toolbar{align-items:center}.toolbar select{font:inherit;padding:6px 8px;border:1px solid var(--line);border-radius:8px;background:#fff;margin-left:6px}
+.card[hidden]{display:none}
+@media (max-width:960px){
+  .ship .lg{display:none}.ship .sm{display:inline}
+  .hero .perks,.hero .btn.alt{display:none}
+  .hero h1{font-size:2rem}
+  .hero .lead{font-size:.95rem;margin-top:10px}
+  .collage .tag{position:static;border-radius:0;box-shadow:none;border-top:1px solid var(--line)}
+  .collage .off{top:auto;bottom:auto;top:8px}
+  .cathead{padding:18px 0 12px}.cathead>p{display:none}
+  .pills{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+  .pills button{white-space:nowrap}
+  .toolbar{font-size:.8rem;padding:10px 12px}
+}
+
 .faq details{border-bottom:1px solid var(--line);padding:14px 0}
 .faq summary{cursor:pointer;font-weight:800;list-style:none;display:flex;justify-content:space-between;gap:12px;color:var(--ink)}
 .faq summary::after{content:"+";color:var(--red);font-size:1.3rem;line-height:1}

@@ -20,7 +20,7 @@
   <div class="wrap bar">
     <a class="logo" href="../" aria-label="Pazzo Design, home"><img src="../img/logo.png" width="420" height="57" alt="Pazzo Design"></a>
     <nav class="main-nav" aria-label="Categorie"><a href="../tavoli/">Tavoli</a><a href="../consolle/">Consolle</a><a href="../sedie/">Sedie</a><a href="../poltrone/">Poltrone</a><a href="../librerie/" aria-current="page">Librerie</a></nav>
-    <div class="tools"><a href="../assistenza/">Assistenza</a><a class="cart" href="https://pazzodesign.it/carrello/" aria-label="Carrello"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l-1.2 12H6.2L5 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span>Carrello</span></a></div>
+    <div class="tools"><a class="srch" href="https://pazzodesign.it/?s=&amp;post_type=product" aria-label="Cerca nel catalogo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></a><a class="hlp" href="../assistenza/">Assistenza</a><a class="cart" href="https://pazzodesign.it/carrello/" aria-label="Carrello"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l-1.2 12H6.2L5 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span>Carrello</span></a></div>
   </div>
   <nav class="cat-strip" aria-label="Categorie (telefono)"><div class="wrap"><a href="../tavoli/">Tavoli</a><a href="../consolle/">Consolle</a><a href="../sedie/">Sedie</a><a href="../poltrone/">Poltrone</a><a href="../librerie/" aria-current="page">Librerie</a></div></nav>
 </header>
@@ -31,8 +31,8 @@
   <p class="rise d2">A 4, 5 o 6 ripiani. Spedizione gratuita in tutta Italia, consegna in 48/72 ore, 3 rate senza interessi.</p>
 </section>
 <section class="wrap" aria-label="Prodotti">
-  <div class="toolbar"><span>1 di 1 prodotto</span><span>Prezzi IVA inclusa</span></div>
-  <ul class="grid"><li class="card"><a href="https://pazzodesign.it/prodotto/libreria-a-4-5-6-ripiani/"><span class="ph"><span class="b off">Offerta</span><img src="img/e1e883b23291.jpg" width="300" height="300" alt="Libreria a 4, 5 o 6 ripiani"></span><span class="nm">Libreria a 4, 5 o 6 ripiani</span><span class="pr"><b>69,00 €</b><s>77,00 €</s></span><span class="sh">Spedizione gratuita</span></a></li></ul>
+  <div class="toolbar"><span>1 di 1 prodotto · prezzi IVA inclusa</span><label>Ordina <select class="sort" aria-label="Ordina i prodotti"><option value="">In evidenza</option><option value="asc">Prezzo crescente</option><option value="desc">Prezzo decrescente</option></select></label></div>
+  <ul class="grid"><li class="card" data-p="69.00"><a href="https://pazzodesign.it/prodotto/libreria-a-4-5-6-ripiani/"><span class="ph"><span class="b off">−8 €</span><img src="img/e1e883b23291.webp" width="300" height="300" alt="Libreria a 4, 5 o 6 ripiani"></span><span class="nm">Libreria a 4, 5 o 6 ripiani</span><span class="pr"><b>69,00 €</b><s>77,00 €</s></span><span class="sh">Spedizione gratuita</span></a></li></ul>
   <div class="more"></div>
 </section>
 <section class="band" aria-label="Altri reparti" style="margin-top:56px">
@@ -52,7 +52,8 @@
 <script>
 (function(){var s=/[?&]shot=1/.test(location.search),ck=document.getElementById('ck');
 if(s){document.documentElement.classList.add('shot');document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'});ck.hidden=true;}
-document.getElementById('ckok').onclick=function(){ck.hidden=true};})();
+document.getElementById('ckok').onclick=function(){ck.hidden=true};
+document.querySelectorAll('.sort').forEach(function(sel){var g=document.querySelector('.grid'),orig=[].slice.call(g.children);sel.addEventListener('change',function(){var a=orig.slice();if(sel.value)a.sort(function(x,y){var d=parseFloat(x.dataset.p)-parseFloat(y.dataset.p);return sel.value=='asc'?d:-d});a.forEach(function(li){g.appendChild(li)})})});})();
 </script>
 </body>
 </html>

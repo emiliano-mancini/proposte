@@ -20,7 +20,7 @@
   <div class="wrap bar">
     <a class="logo" href="../" aria-label="Pazzo Design, home"><img src="../img/logo.png" width="420" height="57" alt="Pazzo Design"></a>
     <nav class="main-nav" aria-label="Categorie"><a href="../tavoli/">Tavoli</a><a href="../consolle/">Consolle</a><a href="../sedie/">Sedie</a><a href="../poltrone/">Poltrone</a><a href="../librerie/">Librerie</a></nav>
-    <div class="tools"><a href="../assistenza/" aria-current="page">Assistenza</a><a class="cart" href="https://pazzodesign.it/carrello/" aria-label="Carrello"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l-1.2 12H6.2L5 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span>Carrello</span></a></div>
+    <div class="tools"><a class="srch" href="https://pazzodesign.it/?s=&amp;post_type=product" aria-label="Cerca nel catalogo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></a><a class="hlp" href="../assistenza/" aria-current="page">Assistenza</a><a class="cart" href="https://pazzodesign.it/carrello/" aria-label="Carrello"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 7h14l-1.2 12H6.2L5 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span>Carrello</span></a></div>
   </div>
   <nav class="cat-strip" aria-label="Categorie (telefono)"><div class="wrap"><a href="../tavoli/">Tavoli</a><a href="../consolle/">Consolle</a><a href="../sedie/">Sedie</a><a href="../poltrone/">Poltrone</a><a href="../librerie/">Librerie</a></div></nav>
 </header>
@@ -63,7 +63,8 @@
 <script>
 (function(){var s=/[?&]shot=1/.test(location.search),ck=document.getElementById('ck');
 if(s){document.documentElement.classList.add('shot');document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'});ck.hidden=true;}
-document.getElementById('ckok').onclick=function(){ck.hidden=true};})();
+document.getElementById('ckok').onclick=function(){ck.hidden=true};
+document.querySelectorAll('.sort').forEach(function(sel){var g=document.querySelector('.grid'),orig=[].slice.call(g.children);sel.addEventListener('change',function(){var a=orig.slice();if(sel.value)a.sort(function(x,y){var d=parseFloat(x.dataset.p)-parseFloat(y.dataset.p);return sel.value=='asc'?d:-d});a.forEach(function(li){g.appendChild(li)})})});})();
 </script>
 </body>
 </html>
