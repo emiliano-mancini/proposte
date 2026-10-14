@@ -188,3 +188,5 @@ ul.grid.xs{grid-template-columns:repeat(4,minmax(0,1fr))}
 .faq summary::after{content:"+";color:var(--red);font-size:1.3rem;line-height:1}
 .faq details[open] summary::after{content:"–"}
 .faq details p{margin:8px 0 0}
+/* Schede su mobile: il banner cookie compare solo sopra la barra fissa, mai sopra il pulsante */
+@media (max-width:960px){body:has(#acquista) .ck:not(.up){display:none}}

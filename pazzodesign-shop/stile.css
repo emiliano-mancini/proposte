@@ -265,3 +265,5 @@ footer .note{grid-column:1/-1;border-top:1px solid #3a3935;padding-top:16px;colo
   .stick{display:flex}
 }
 @media (max-width:960px){body:has(#acquista) .promo{display:none}}
+/* Schede su mobile: il banner cookie compare solo sopra la barra fissa, mai sopra il pulsante */
+@media (max-width:960px){body:has(#acquista) .ck:not(.up){display:none}}
