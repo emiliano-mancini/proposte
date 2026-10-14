@@ -164,6 +164,11 @@ footer .note{grid-column:1/-1;border-top:1px solid #3a3935;padding-top:16px;colo
   .band{padding:44px 0}
 }
 
+.mosaic a{display:flex;flex-direction:column}
+.mosaic img{flex:1;min-height:0}
+.mosaic span{position:static;background:#fff;border-top:1px solid var(--line);padding:8px 10px}
+.hl{font-size:.93rem}
+@media (max-width:960px){.hero .ctas{flex-direction:column}.hero .ctas .btn{width:100%}.pills button{white-space:nowrap;padding:7px 10px;font-size:.82rem}.mosaic span{font-size:.74rem;padding:6px 8px}}
 .more-item{display:none}.all .more-item{display:block}.card[hidden]{display:none!important}
 .morebox{margin:24px 0 0;text-align:center}
 .card .mi{font-size:.82rem;color:var(--ink);font-weight:500;margin-top:3px}
@@ -194,6 +199,10 @@ footer .note{grid-column:1/-1;border-top:1px solid #3a3935;padding-top:16px;colo
   .toolbar{font-size:.8rem}
 }
 
+.trans{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;margin:16px 0 0;padding:12px;background:#fff;border:1px solid var(--line)}
+.trans figure{margin:0}.trans img{width:100%;aspect-ratio:4/3;object-fit:contain}
+.trans figcaption{font-size:.8rem;color:var(--ink2);text-align:center}.trans figcaption b{display:block;color:var(--ink);font-size:.9rem}
+.trans>span{font-size:1.4rem}.trans p{grid-column:1/-1;margin:4px 0 0;font-size:.84rem;color:var(--ink2);text-align:center}
 /* scheda prodotto */
 .pdp{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);padding:28px 0 56px;align-items:start}
 .gal{position:relative}

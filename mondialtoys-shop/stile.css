@@ -143,6 +143,10 @@ footer .note{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.18);padding
   .band{padding:40px 0}
 }
 
+.card .cl{font-size:.78rem;color:var(--ink2);margin-top:2px}
+.mob{display:none}
+@media (max-width:960px){.collage{display:none}.mob{display:grid}.hero .lead{display:none}.hero h1{font-size:1.8rem}}
+.coline b{color:var(--ink)}
 .more-item{display:none}.all .more-item{display:block}
 .morebox{margin:20px 0 0;text-align:center}
 .pills button span{opacity:.7;margin-left:3px}
