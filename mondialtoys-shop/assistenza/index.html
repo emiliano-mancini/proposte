@@ -55,11 +55,12 @@
 <div class="ck" id="ck" role="region" aria-label="Cookie"><span>Solo cookie tecnici.</span><button type="button" id="ckok">Ok</button></div>
 <script>
 (function(){var s=/[?&]shot=1/.test(location.search),ck=document.getElementById('ck');
-if(s){document.documentElement.classList.add('shot');document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'});ck.hidden=true;}
+if(s){document.documentElement.classList.add('shot','all');document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'});ck.hidden=true;}
 document.getElementById('ckok').onclick=function(){ck.hidden=true};
+var mb=document.getElementById('morebtn');if(mb){if(s)mb.parentNode.hidden=true;mb.onclick=function(){document.documentElement.classList.add('all');mb.parentNode.hidden=true}}
 var g=document.querySelector('.grid.main-grid');if(g){var orig=[].slice.call(g.children);
 document.querySelectorAll('.sort').forEach(function(sel){sel.addEventListener('change',function(){var a=orig.slice();if(sel.value)a.sort(function(x,y){var d=parseFloat(x.dataset.p)-parseFloat(y.dataset.p);return sel.value=='asc'?d:-d});a.forEach(function(li){g.appendChild(li)})})});
-document.querySelectorAll('.pills button').forEach(function(b){b.addEventListener('click',function(){var f=b.dataset.f;document.querySelectorAll('.pills button').forEach(function(x){x.classList.toggle('on',x===b)});orig.forEach(function(li){li.hidden=f&&(' '+li.dataset.t+' ').indexOf(' '+f+' ')<0})})});}})();
+document.querySelectorAll('.pills button').forEach(function(b){b.addEventListener('click',function(){var f=b.dataset.f;document.querySelectorAll('.pills button').forEach(function(x){x.classList.toggle('on',x===b)});if(f)document.documentElement.classList.add('all');orig.forEach(function(li){li.hidden=f&&(' '+li.dataset.t+' ').indexOf(' '+f+' ')<0})})});}})();
 </script>
 </body>
 </html>

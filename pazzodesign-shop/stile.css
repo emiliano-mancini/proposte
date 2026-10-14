@@ -164,6 +164,14 @@ footer .note{grid-column:1/-1;border-top:1px solid #3a3935;padding-top:16px;colo
   .band{padding:44px 0}
 }
 
+.more-item{display:none}.all .more-item{display:block}.card[hidden]{display:none!important}
+.morebox{margin:24px 0 0;text-align:center}
+.card .mi{font-size:.82rem;color:var(--ink);font-weight:500;margin-top:3px}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px}
+.pills button{font:500 .88rem/1 var(--sans);padding:8px 12px;border:0;background:var(--paper);box-shadow:inset 0 0 0 1px var(--line);cursor:pointer;color:var(--ink)}
+.pills button span{color:var(--ink2);margin-left:4px}
+.pills button.on{background:var(--ink);color:#fff}.pills button.on span{color:#cfcac0}
+.trustco{margin:6px 0 0;font-size:.82rem;color:var(--ink2)}
 .srch{display:inline-flex;color:var(--ink)}.srch svg{width:20px;height:20px}
 .hero{grid-template-areas:"ht mo" "hr mo"}
 .hero .ht{grid-area:ht;align-self:end}.hero .hr{grid-area:hr;align-self:start}.hero .mosaic{grid-area:mo}
@@ -226,7 +234,7 @@ footer .note{grid-column:1/-1;border-top:1px solid #3a3935;padding-top:16px;colo
 @media (max-width:960px){
   .pdp{grid-template-columns:1fr;gap:14px;padding:0 0 40px}
   .gal{margin-inline:calc(-1*var(--pad))}
-  .gal .main{aspect-ratio:auto;height:min(36vh,300px);display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+  .gal .main{aspect-ratio:auto;height:min(30vh,250px);display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
   .gal .main::-webkit-scrollbar{display:none}
   .gal .main img,.gal .main .alt{display:block;flex:0 0 100%;scroll-snap-align:center}
   .count{display:block;position:absolute;right:12px;bottom:10px;background:rgba(21,21,20,.75);color:#fff;font-size:.72rem;font-weight:600;padding:4px 8px}

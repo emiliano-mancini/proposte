@@ -143,6 +143,13 @@ footer .note{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.18);padding
   .band{padding:40px 0}
 }
 
+.more-item{display:none}.all .more-item{display:block}
+.morebox{margin:20px 0 0;text-align:center}
+.pills button span{opacity:.7;margin-left:3px}
+ul.grid.xs{grid-template-columns:repeat(4,minmax(0,1fr))}
+.trustchips{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:6px}
+.trustchips li{font:800 .74rem/1 var(--body);padding:6px 9px;border-radius:8px;background:#fff;border:1px solid var(--line);color:var(--ink)}
+.coline{margin:8px 0 0;font-size:.84rem;color:var(--ink2)}
 .ship .sm{display:none}
 .srch{display:inline-flex;color:var(--blue)}.srch svg{width:22px;height:22px}
 .b{top:auto;bottom:6px}
@@ -157,7 +164,13 @@ footer .note{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.18);padding
   .hero .perks,.hero .btn.alt{display:none}
   .hero h1{font-size:2rem}
   .hero .lead{font-size:.95rem;margin-top:10px}
-  .collage .tag{position:static;border-radius:0;box-shadow:none;border-top:1px solid var(--line)}
+  .collage{grid-template-columns:1fr 1fr 1fr;gap:8px}
+  .collage a:first-child{grid-row:auto}
+  .collage img{height:auto}
+  .collage .tag{position:static;border-radius:0;box-shadow:none;border-top:1px solid var(--line);padding:6px 7px;font-size:.7rem}
+  .collage .tag b{font-size:.9rem}
+  .collage .off{font-size:.7rem;padding:4px 7px;left:6px;top:6px}
+  ul.grid.xs{grid-template-columns:1fr 1fr}
   .collage .off{top:auto;bottom:auto;top:8px}
   .cathead{padding:18px 0 12px}.cathead>p{display:none}
   .pills{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
