@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Torronificio Marotto – torrone artigianale di Tonara, Sardegna</title>
+<meta name="description" content="Torronificio Marotto, Tonara (NU): torrone sardo artigianale con miele, mandorle, noci e nocciole. Proposta di restyling – bozza non ufficiale.">
+<meta name="theme-color" content="#2a1608">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="data:,">
+<link rel="preload" as="image" href="img/h-ritratto.jpg" fetchpriority="high">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Nunito:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Nunito:wght@400;600;700&display=swap"></noscript>
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  /* palette campionata dalle scatole: verde mandorle, blu noci, rosso nocciole, miele; inchiostro bruno dal legno del negozio */
+  --cream:#fff3d6; --paper:#fffaf0; --ink:#2a1608; --ink2:#4a2e18; --honey:#f2a81d; --honey-d:#b9740a;
+  --red:#b3261e; --green:#1e7a3c; --blue:#1d6fb0;
+  --vng-bg:var(--ink); --vng-fg:#fff3d6; --vng-muted:#f1e3c4; --vng-accent:var(--honey); --vng-accent-fg:var(--ink);
+  --vng-surface:rgba(42,22,8,.7); --vng-line:rgba(255,243,214,.2);
+  --disp:"Bricolage Grotesque","Arial Black",system-ui,sans-serif; --body:"Nunito",system-ui,sans-serif;
+  --pad:clamp(20px,4vw,56px); --bar:68px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:auto;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 1.0625rem/1.6 var(--body);overflow-x:hidden;padding-top:90px}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:800;line-height:1;letter-spacing:-.015em;margin:0;text-wrap:balance}
+p{margin:0}
+.wrap{width:min(1240px,100% - 2*var(--pad));margin-inline:auto}
+section{position:relative}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:3px solid var(--honey);outline-offset:3px}
+.kick{display:inline-block;font:700 .82rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;padding:.55em .9em;border-radius:999px;background:var(--ink);color:var(--cream)}
+.kick.red{background:var(--red);color:#fff}.kick.honey{background:var(--honey);color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:56px;padding:.8em 1.6em;border-radius:999px;border:3px solid var(--ink);background:var(--honey);color:var(--ink);font:800 1.05rem/1 var(--disp);text-decoration:none;box-shadow:4px 4px 0 var(--ink);transition:transform .35s cubic-bezier(.34,1.56,.64,1),box-shadow .35s}
+.btn:hover{transform:translate(-2px,-2px) rotate(-1.5deg);box-shadow:7px 7px 0 var(--ink)}
+.btn.alt{background:#fff}
+.btn.green{background:var(--green);color:#fff}
+/* etichetta e testata */
+.draft{position:fixed;z-index:60;top:0;left:0;right:0;height:26px;display:grid;place-items:center;background:var(--ink);color:var(--honey);font:700 .68rem/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:0 8px;text-align:center}
+.top{position:fixed;z-index:50;top:26px;left:0;right:0;height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 var(--pad);background:rgba(255,243,214,.94);border-bottom:2px solid var(--ink);transition:transform .4s}
+.top img{height:58px;width:auto;mix-blend-mode:multiply}
+.top nav{display:none;gap:6px}
+.top nav a{font:700 1rem/1 var(--body);text-decoration:none;padding:.7em 1em;border-radius:999px}
+.top nav a:hover{background:var(--honey)}
+.top .tel{display:none}.mtel{width:48px;height:48px;border-radius:50%;background:var(--honey);border:3px solid var(--ink);display:grid;place-items:center;color:var(--ink)}.mtel svg{width:22px;height:22px}@media(min-width:900px){.mtel{display:none}}
+@media(min-width:900px){body{padding-top:98px}.top{height:72px}.top img{height:68px}.top nav{display:flex}.top .tel{display:inline-flex;min-height:44px;padding:.5em 1.2em;font-size:.95rem}}
+/* barra contatti sempre sotto il pollice (mobile) */
+.bar{position:fixed;z-index:55;left:0;right:0;bottom:0;height:var(--bar);display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px var(--pad);background:var(--ink);border-top:3px solid var(--honey)}
+.bar a{display:flex;align-items:center;justify-content:center;gap:.5em;border-radius:999px;font:800 1.05rem/1 var(--disp);text-decoration:none;min-height:48px}
+.bar .c{background:var(--honey);color:var(--ink)}.bar .w{background:#137a3c;color:#fff}
+.bar svg{width:20px;height:20px;flex:none}
+@media(min-width:900px){.bar{display:none}}
+body{padding-bottom:var(--bar)}@media(min-width:900px){body{padding-bottom:0}}
+
+/* motivo a rombi dei tappeti sardi (rosso, miele, inchiostro) */
+.rombi{height:18px;background:linear-gradient(135deg,var(--red) 25%,transparent 25%) -9px 0/18px 18px,linear-gradient(225deg,var(--red) 25%,transparent 25%) -9px 0/18px 18px,linear-gradient(315deg,var(--red) 25%,transparent 25%) 0 0/18px 18px,linear-gradient(45deg,var(--red) 25%,transparent 25%) 0 0/18px 18px,var(--honey);border-block:3px solid var(--ink)}
+/* HERO — collage */
+.hero{padding:22px 0 50px;background:var(--cream);overflow:hidden}
+.hero .wrap{display:grid;gap:30px;align-items:center}
+@media(min-width:900px){.hero{padding:56px 0 70px}.hero .wrap{grid-template-columns:1.05fr 1fr;gap:40px}}
+.hero h1{font-size:clamp(2.5rem,10vw,6.4rem);margin:14px 0 14px;max-width:11ch}
+.hero h1 em{font-style:normal;color:var(--red)}
+.dk{display:none}@media(min-width:900px){.dk{display:inline}}
+.hero .lead{font-size:clamp(1.1rem,3.4vw,1.3rem);max-width:30rem;color:var(--ink2)}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.hero .cta{display:grid;grid-template-columns:1.6fr 1fr;gap:10px;padding-right:6px}.hero .cta .btn{min-height:50px;padding:.7em .8em;font-size:1rem;box-shadow:3px 3px 0 var(--ink)}@media(min-width:900px){.hero .cta{display:flex}.hero .cta .btn{padding:.8em 1.5em;font-size:1.1rem}}
+.collage{position:relative;aspect-ratio:1/.95;width:calc(100% - 14px)}
+.collage figure{position:absolute;margin:0;width:68%;border:4px solid var(--ink);border-radius:18px;overflow:hidden;box-shadow:8px 8px 0 var(--ink);background:#fff}
+.collage figure img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center 30%}
+.collage .a{left:0;top:0;transform:rotate(-5deg)}
+.collage .b{right:0;top:22%;transform:rotate(4deg);z-index:2}
+.collage .c{left:8%;bottom:0;transform:rotate(-2deg);z-index:3}
+.badge{position:absolute;z-index:4;right:5%;bottom:3%;width:clamp(88px,24vw,140px);aspect-ratio:1;border-radius:50%;background:var(--honey);border:4px solid var(--ink);display:grid;place-items:center;text-align:center;font:800 .7rem/1.15 var(--disp);text-transform:uppercase;padding:8px;transform:rotate(10deg);box-shadow:5px 5px 0 var(--ink)}
+.badge b{display:block;font-size:1.7rem}
+@media(min-width:900px){.badge{font-size:.95rem}.badge b{font-size:2.1rem}}
+
+/* MARQUEE */
+.mq{background:var(--ink);color:var(--cream);padding:12px 0;border-block:4px solid var(--honey);--vng-marquee-gap:2.2rem;--vng-marquee-speed:60s;-webkit-mask-image:none;mask-image:none}
+.mq span{font:800 clamp(2rem,6vw,3.8rem)/1 var(--disp);text-transform:uppercase;white-space:nowrap}
+.mq span{color:var(--cream)}.mq span:nth-child(4n+1){color:var(--honey)}
+.mq .dot{color:var(--red)!important;-webkit-text-stroke:0!important}
+
+.storia{padding:70px 0 10px;background:var(--cream)}.storia .big{font:800 clamp(1.8rem,5.4vw,3.6rem)/1.08 var(--disp);letter-spacing:-.01em;max-width:30ch;margin-top:18px;text-wrap:balance}.storia .sto{max-width:44rem;margin-top:22px;font-size:1.2rem;color:var(--ink2)}.storia em{font-style:normal;color:var(--red)}
+/* GUSTI */
+.gusti{padding:80px 0 90px;background:var(--cream)}
+.gusti .wrap{display:grid;gap:36px}
+.gusti .stick{display:grid;gap:26px}.gusti .in{display:grid;gap:14px;justify-items:start;align-content:center}.gusti .side{width:100%;aspect-ratio:3/2;object-fit:cover;border:4px solid var(--ink);border-radius:24px;box-shadow:9px 9px 0 var(--ink)}@media(min-width:900px){.gusti .stick{grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}}
+.gusti h2{font-size:clamp(2.3rem,7vw,4.6rem);margin:16px 0 6px}
+.gusti .stick p{color:var(--ink2);max-width:40rem;font-size:1.15rem}
+.gusti .aroma{margin-top:6px;padding:14px 18px;border:3px dashed var(--ink);border-radius:16px;font-weight:700;width:fit-content;max-width:100%}
+.stack{display:grid;gap:26px}
+@media(min-width:900px){.stack{grid-template-columns:repeat(3,1fr);gap:28px;align-items:stretch}.g{display:flex;flex-direction:column}.g .tx{flex:1}}
+.g{border:4px solid var(--ink);border-radius:26px;overflow:hidden;box-shadow:9px 9px 0 var(--ink);background:var(--paper);color:var(--ink)}
+.g img{width:100%;aspect-ratio:3/2;object-fit:cover;border-bottom:4px solid var(--ink)}
+.g .tx{padding:20px 24px 28px}
+.g .dot{display:inline-block;width:14px;height:14px;border-radius:50%;margin-right:10px;border:2px solid var(--ink);vertical-align:middle}
+.g.green .dot{background:var(--green)}.g.blue .dot{background:var(--blue)}.g.red .dot{background:var(--red)}
+.g h3{font-size:clamp(2rem,6vw,2.6rem);margin-bottom:8px}
+.g p{font-size:1.15rem}
+
+/* NUMERI + METODO */
+.metodo{padding:90px 0;background:var(--ink);color:var(--cream)}
+.metodo h2{font-size:clamp(2.3rem,7vw,4.8rem);max-width:15ch;margin:16px 0 40px}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:70px}
+.nums div{border:3px solid var(--cream);border-radius:20px;padding:16px 8px;text-align:center}
+.nums span{display:block;font:800 clamp(2.6rem,10vw,5.2rem)/1 var(--disp);color:var(--honey)}
+.nums p{font-size:.95rem;line-height:1.3;color:var(--vng-muted);margin-top:6px}
+.step{display:grid;gap:22px;margin-bottom:64px;align-items:center}.step:last-child{margin-bottom:0}.step .n{margin-top:6px}
+@media(min-width:900px){.step{grid-template-columns:1fr 1fr;gap:64px}.step:nth-child(even) .ph{order:2}}
+.step .n{font:800 clamp(5rem,16vw,10rem)/.8 var(--disp);color:transparent;-webkit-text-stroke:4px var(--honey);display:block;margin-bottom:10px}
+.step h3{font-size:clamp(1.9rem,5vw,3rem);margin-bottom:10px}
+.step p{max-width:34rem;color:var(--vng-muted);font-size:1.12rem}@media(min-width:900px){body{font-size:1.125rem}.step p{font-size:1.3rem}.card dl,.faq .a{font-size:1.1rem}.gusti .stick p,.dove .sub{font-size:1.25rem}.g p{font-size:1.2rem}.regali p{font-size:1.2rem}}
+.ph{margin:0;overflow:hidden;border-radius:22px;border:4px solid var(--cream)}
+.ph img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:center 30%;transform-origin:center}
+.metodo .note{margin-top:10px;font-size:.98rem;color:var(--vng-muted);max-width:40rem}
+
+/* MOSAICO */
+.dove{padding:90px 0;background:var(--paper)}
+.dove h2{font-size:clamp(2.3rem,7vw,4.6rem);margin:16px 0 14px;max-width:14ch}
+.dove .sub{max-width:34rem;color:var(--ink2);margin-bottom:34px}
+.mos{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.mos figure{margin:0;overflow:hidden;border:3px solid var(--ink);border-radius:18px;position:relative;background:#fff}
+.mos img{width:100%;height:100%;object-fit:cover;min-height:150px}
+.mos figcaption{position:absolute;left:8px;bottom:8px;background:var(--ink);color:var(--cream);font:700 .78rem/1 var(--body);padding:.5em .8em;border-radius:999px}
+.mos .w2{grid-column:span 2}
+@media(min-width:860px){
+ .mos{grid-template-columns:repeat(12,1fr);grid-auto-rows:150px;gap:16px}
+ .mos .m1{grid-column:1/9;grid-row:1/3}.mos .m2{grid-column:9/13;grid-row:1/3}
+ .mos .m3{grid-column:1/13;grid-row:3/5}
+}
+}
+}
+@media(max-width:859px){.mos .w2{grid-column:span 2}}
+
+/* REGALI + PRESS */
+.regali{padding:0;background:var(--honey);border-block:4px solid var(--ink)}
+.regali .wrap{display:grid;gap:30px;padding:70px 0;align-items:center}
+@media(min-width:900px){.regali .wrap{grid-template-columns:1fr 1fr;gap:60px}}
+.regali h2{font-size:clamp(2.2rem,6.5vw,4.2rem);margin:14px 0 14px}
+.regali p{max-width:30rem;font-weight:600}
+.regali img{border:4px solid var(--ink);border-radius:24px;box-shadow:9px 9px 0 var(--ink);aspect-ratio:4/3;object-fit:cover;width:100%}
+.press{margin-top:24px;font-weight:600}.press a{font-weight:800}
+
+/* VISITA */
+.visita{padding:90px 0;background:var(--cream)}
+.visita .wrap{display:grid;gap:36px}.visita .wrap>*{min-width:0}.visita>.wrap:last-child{display:block}.visita>.wrap:last-child .faq{max-width:52rem}.card dd{overflow-wrap:anywhere}
+@media(min-width:900px){.visita .wrap{grid-template-columns:1fr 1fr;gap:64px}}
+.visita h2{font-size:clamp(2.3rem,7vw,4.4rem);margin:16px 0 18px}
+.card{border:4px solid var(--ink);border-radius:24px;background:#fff;padding:22px 18px 24px;box-shadow:8px 8px 0 var(--ink)}
+.card .lab{font:800 .85rem/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:6px}.card .cta{padding-right:6px}.card .big{font:800 clamp(1.9rem,6vw,2.6rem)/1 var(--disp);margin-bottom:16px}.card .big a{text-decoration:none}
+.card dl{overflow-wrap:anywhere}
+.card dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:10px 18px}
+.card dt{font-weight:800;font-family:var(--disp)}.card dd{margin:0}
+.card a{font-weight:700}.card .em{font-size:1rem;overflow-wrap:normal;white-space:nowrap}@media(max-width:380px){.card .em{font-size:.9rem}}
+.map{margin-top:26px;border:3px solid var(--ink);border-radius:18px;overflow:hidden;background:var(--paper)}.map img{width:100%;aspect-ratio:16/8;object-fit:cover;border-bottom:3px solid var(--ink)}.map .mb{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;flex-wrap:wrap}.map .btn{white-space:nowrap;min-height:48px}
+.map iframe{width:100%;height:300px;border:0;display:block}
+.vng-faq{--vng-faq-pad:1.1rem}
+.faq{margin-top:44px}
+.faq details{border-bottom:2px solid var(--ink)}
+.faq summary{font:800 1.15rem/1.3 var(--disp);padding:1rem 0;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:10px;min-height:48px}
+.faq summary::after{content:"+";font-size:1.5rem;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq summary::-webkit-details-marker{display:none}
+.faq .a{padding:0 0 1.1rem;color:var(--ink2)}
+footer{background:var(--ink);color:var(--vng-muted);padding:46px 0 50px;font-size:.95rem}
+footer strong{color:var(--cream)}
+footer a{color:var(--cream)}
+
+@media(max-width:600px){.card dl{grid-template-columns:1fr;gap:2px}.card dd{margin-bottom:12px}.card .cta .btn{flex:1}}
+/* movimento: stato iniziale impostato da JS solo se attivo; senza JS tutto è visibile */
+.collage figure,.badge{will-change:transform}
+@media(prefers-reduced-motion:reduce){.btn,.btn:hover{transition:none}}
+html.vng-static .collage figure,html.vng-static .badge{will-change:auto}
+</style>
+</head>
+<body>
+<div class="draft" role="note">Proposta di restyling – bozza non ufficiale</div>
+<header class="top" id="top">
+  <a href="#home" aria-label="Torronificio Marotto, inizio pagina"><img src="img/logo.png" width="240" height="200" alt="Logo Torronificio Marotto"></a>
+  <nav aria-label="Sezioni">
+    <a href="#gusti">Il torrone</a><a href="#metodo">Come lo facciamo</a><a href="#bottega">La bottega</a><a href="#visita">Dove siamo</a>
+  </nav>
+  <a class="btn tel" href="tel:+39078463824">Chiama 0784 63824</a>
+  <a class="mtel" href="tel:+39078463824" aria-label="Chiama 0784 63824"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></a>
+</header>
+
+<main id="home">
+<div class="rombi" role="presentation"></div>
+<section class="hero">
+  <div class="wrap">
+    <div class="txt">
+      <span class="kick">Tonara · Sardegna</span>
+      <h1>Il torrone di Tonara, <em>fatto a mano.</em></h1>
+      <p class="lead">Miele, mandorle, noci e nocciole. Nessun conservante, nessun processo industriale.<span class="dk"> Un laboratorio di famiglia nato alla fine dell’Ottocento.</span></p>
+      <div class="cta">
+        <a class="btn" href="tel:+39078463824">Chiama 0784 63824</a>
+        <a class="btn alt" href="#gusti">I gusti</a>
+      </div>
+    </div>
+    <div class="collage" aria-hidden="false">
+      <figure class="a"><img src="img/h-ritratto.jpg" width="720" height="480" alt="Una persona del laboratorio con grembiule Marotto, davanti ai blocchi di torrone"></figure>
+      <figure class="b"><img src="img/h-taglio.jpg" width="720" height="480" alt="Mani del laboratorio che tagliano un blocco di torrone alle mandorle"></figure>
+      <figure class="c"><img src="img/h-coppia.jpg" width="600" height="600" alt="Due persone dietro al banco del negozio con un blocco di torrone"></figure>
+      <div class="badge"><div><b>★</b>produzione<br>propria</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="vng-marquee mq" data-vng-marquee aria-label="I gusti: mandorle, noci, nocciole, mirto, limone, arancia">
+  <div class="vng-marquee__track">
+    <span>Mandorle</span><span class="dot">✺</span><span>Noci</span><span class="dot">✺</span><span>Nocciole</span><span class="dot">✺</span><span>Mirto</span><span class="dot">✺</span><span>Limone</span><span class="dot">✺</span><span>Arancia</span><span class="dot">✺</span>
+  </div>
+</div>
+
+<section class="storia">
+  <div class="wrap">
+    <span class="kick honey">La famiglia</span>
+    <p class="big">Nato alla fine dell’Ottocento e rinnovato negli anni Sessanta: le ricette passano <em>di generazione in generazione.</em></p>
+    <p class="sto">L’obiettivo è sempre stato lo stesso: un prodotto genuino e fedele alla tradizione di Tonara, piccolo centro nel cuore della Sardegna, noto da secoli per la sua cultura dolciaria.</p>
+  </div>
+</section>
+
+<section class="gusti" id="gusti">
+  <div class="wrap">
+    <div class="stick"><div class="in">
+      <span class="kick red">Il torrone</span>
+      <h2>Tre classici, una ricetta di miele.</h2>
+      <p>Il torrone è il prodotto simbolo del laboratorio: miele, albumi e frutta secca, lavorati lentamente fino a una consistenza compatta ma morbida al taglio.</p>
+      <p class="aroma">Accanto ai classici, versioni aromatizzate con mirto, limone o arancia.</p>
+      <div class="cta"><a class="btn" href="tel:+39078463824">Ordina per telefono</a></div>
+    </div><img class="side" src="img/barre-nocciole.jpg" width="1300" height="867" alt="Barre di torrone alle nocciole confezionate accanto a un vasetto di miele" loading="lazy">
+    </div>
+    <div class="stack">
+      <article class="g green"><img src="img/box-mandorle.jpg" width="1000" height="667" alt="Torrone alle mandorle nella sua scatola, con mandorle sparse" loading="lazy"><div class="tx"><h3><span class="dot"></span>Alle mandorle</h3><p>Mandorle selezionate: gusto delicato e consistenza equilibrata. Il fiore all’occhiello della casa.</p></div></article>
+      <article class="g blue"><img src="img/box-noci.jpg" width="1000" height="667" alt="Torrone alle noci nella sua scatola, con noci intere" loading="lazy"><div class="tx"><h3><span class="dot"></span>Alle noci</h3><p>Una nota più intensa, struttura marcata e sapore deciso.</p></div></article>
+      <article class="g red"><img src="img/box-nocciole.jpg" width="1000" height="667" alt="Torrone alle nocciole nella sua scatola, con nocciole tostate" loading="lazy"><div class="tx"><h3><span class="dot"></span>Alle nocciole</h3><p>Nocciole e miele, nella stessa lavorazione manuale degli altri gusti.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="metodo" id="metodo">
+  <div class="wrap">
+    <span class="kick honey">Come lo facciamo</span>
+    <h2>Dal miele al taglio, senza fretta.</h2>
+    <div class="nums">
+      <div><span data-vng-count="4">4</span><p>fasi di lavorazione</p></div>
+      <div><span data-vng-count="0">0</span><p>conservanti e additivi artificiali</p></div>
+      <div><span data-vng-count="6">6</span><p>gusti tra classici e aromatizzati</p></div>
+    </div>
+    <div class="step"><div class="ph"><img class="par" src="img/miele-mandorle.jpg" width="1800" height="1200" alt="Torrone alle mandorle a fette accanto a un vasetto di miele" loading="lazy"></div><div><span class="n" aria-hidden="true">01</span><h3>Cottura del miele</h3><p>Il miele è l’ingrediente principale e si cuoce a temperatura controllata: è ciò che distingue il torrone sardo da altri torroni.</p></div></div>
+    <div class="step"><div class="ph"><img class="par" src="img/mandorle-close.jpg" width="1400" height="933" alt="Primo piano di torrone con mandorle intere" loading="lazy"></div><div><span class="n" aria-hidden="true">02</span><h3>Albumi e impasto</h3><p>Gli albumi vengono montati e amalgamati al miele cotto, con lavorazione manuale e i tempi che servono.</p></div></div>
+    <div class="step"><div class="ph"><img class="par" src="img/noci-blocco.jpg" width="1600" height="1067" alt="Blocco di torrone alle noci con vasetto di miele e noci intere" loading="lazy"></div><div><span class="n" aria-hidden="true">03</span><h3>La frutta secca</h3><p>Mandorle, noci o nocciole entrano nell’impasto: la frutta secca è scelta con cura per ogni variante.</p></div></div>
+    <div class="step"><div class="ph"><img class="par" src="img/nocciole-close.jpg" width="1400" height="933" alt="Primo piano di una lastra di torrone con nocciole, dopo il riposo" loading="lazy"></div><div><span class="n" aria-hidden="true">04</span><h3>Colatura, riposo, taglio</h3><p>Il torrone riposa prima di essere tagliato: così mantiene profumo e struttura. Nessuna scorciatoia industriale.</p></div></div>
+  </div>
+</section>
+
+<section class="dove" id="bottega">
+  <div class="wrap">
+    <span class="kick">La bottega</span>
+    <h2>Via Roma 6, dove si assaggia.</h2>
+    <p class="sub">Il laboratorio è anche negozio: si entra, si assaggia, si sceglie il torrone e le altre specialità dolciarie artigianali.</p>
+    <div class="mos">
+      <figure class="m1 w2"><img src="img/negozio.jpg" width="1800" height="1200" alt="Interno del negozio-laboratorio con banco e scaffali in legno" loading="lazy"><figcaption>Il negozio</figcaption></figure>
+      <figure class="m2"><img src="img/sacchetti.jpg" width="1400" height="935" alt="Sacchetti di torrone a pezzi con etichetta Marotto" loading="lazy"></figure>
+      <figure class="m3"><img src="img/vetrina.jpg" width="1400" height="788" alt="Vetrina del negozio con ceste sarde, vasetti e ceramiche" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="regali">
+  <div class="wrap">
+    <div>
+      <span class="kick">Regali e festività</span>
+      <h2>Una confezione regalo, anche a Natale.</h2>
+      <p>Il torrone è disponibile in diversi formati, adatti al consumo familiare e alla confezione regalo. Per cesti natalizi e spedizioni chiama o scrivi su WhatsApp.</p>
+      <div class="cta"><a class="btn alt" href="https://wa.me/393391274998">Scrivi su WhatsApp</a></div>
+      <p class="press">National Geographic ha dedicato un articolo al torrone Marotto: <a href="https://www.nationalgeographic.co.uk/travel/2018/11/sweets-sardinia" rel="noopener">articolo del 2018 →</a></p>
+    </div>
+    <img src="img/barre-mandorle.jpg" width="1200" height="800" alt="Barre di torrone alle mandorle confezionate, con un vasetto di miele" loading="lazy">
+  </div>
+</section>
+
+<section class="visita" id="visita">
+  <div class="wrap">
+    <div>
+      <span class="kick red">Dove siamo</span>
+      <h2>Vieni a Tonara.</h2>
+      <p style="max-width:28rem;color:var(--ink2)">Tonara è in provincia di Nuoro, nel cuore della Sardegna, nota da secoli per la sua cultura dolciaria.</p>
+<div class="map"><img src="img/facciata.jpg" width="1400" height="933" alt="Ingresso del torronificio in Via Roma 6, con il murale colorato" loading="lazy"><div class="mb"><p><strong>Via Roma 6, Tonara</strong></p><a class="btn alt" href="https://www.google.com/maps/search/?api=1&amp;query=Via+Roma+6+08039+Tonara+NU" rel="noopener">Indicazioni</a></div></div>
+    </div>
+    <div>
+      <div class="card">
+        <p class="lab">Telefono fisso</p><p class="big"><a href="tel:+39078463824">+39 0784 63824</a></p>
+        <dl>
+          <dt>Indirizzo</dt><dd>Via Roma 6<br>08039 Tonara (NU)</dd>
+          <dt>Cellulare / WhatsApp</dt><dd><a href="tel:+393391274998">339 127 4998</a><br><a href="tel:+393381511767">338 151 1767</a></dd>
+          <dt>Email</dt><dd><a class="em" href="mailto:torronificiomarotto@tiscali.it">torronificiomarotto<wbr>@tiscali.it</a></dd>
+          <dt>Orari</dt><dd>Lun–Sab 9–13 e 16–19<br>Domenica chiuso</dd>
+        </dl>
+        <div class="cta"><a class="btn" href="tel:+39078463824">Chiama</a><a class="btn green" href="https://wa.me/393391274998">WhatsApp</a></div>
+        
+      </div>
+    </div>
+  </div>
+<div class="wrap">
+      <div class="faq" id="faq">
+        <details open><summary>Ci sono conservanti?</summary><div class="a">No: i prodotti non contengono conservanti o additivi artificiali.</div></details>
+        <details open><summary>Come ordino?</summary><div class="a">Per telefono, su WhatsApp o via email, oppure di persona in negozio. Per spedizioni e cesti natalizi chiedi disponibilità e tempi al laboratorio.</div></details>
+        <details open><summary>Fate spedizioni?</summary><div class="a">Prepariamo cesti natalizi e spedizioni: chiama o scrivi per condizioni e tempi.</div></details>
+      </div>
+</div>
+</section>
+<div class="rombi" role="presentation"></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Torronificio Marotto</strong> · Via Roma 6, 08039 Tonara (NU) · P.I. 00170190912 · Rag. sociale Marotto Antonietta · REA 42942</p>
+    <p style="margin-top:10px">Bozza non ufficiale di restyling: non è il sito pubblicato dall’azienda. Testi e foto: torronificiomarotto.com.</p>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Contatti rapidi">
+  <a class="c" href="tel:+39078463824"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Chiama</a>
+  <a class="w" href="https://wa.me/393391274998"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3h16a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/></svg>WhatsApp</a>
+</nav>
+
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var shot=/[?&]shot=1/.test(location.search);
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(shot) document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager';});
+  if(shot||reduce||!window.gsap) return;
+
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:0.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();lenis.scrollTo(t,{offset:-90});}});});
+
+  document.fonts.ready.then(function(){
+    var st=new SplitText('.hero h1',{type:'words'});
+    gsap.from(st.words,{yPercent:60,rotate:3,duration:.9,ease:'back.out(1.6)',stagger:.08,delay:.05});
+  });
+  gsap.from('.hero .kick,.hero .lead,.hero .cta',{y:18,duration:.7,ease:'power3.out',stagger:.08});
+  gsap.from('.collage figure',{y:50,duration:.8,ease:'back.out(1.4)',stagger:.1});
+  // il collage si apre allo scroll (scrub numerico)
+  gsap.to('.collage .a',{x:-22,y:-30,rotate:-9,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  gsap.to('.collage .b',{x:26,y:-10,rotate:8,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  gsap.to('.collage .c',{x:-8,y:36,rotate:-5,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  gsap.to('.badge',{rotate:90,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6,scale:1.12},{yPercent:6,scale:1.12,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  gsap.utils.toArray('.g,.step .n,.step h3,.step p,.mos figure,.card,.faq details,.regali .wrap > *,.nums div').forEach(function(el){
+    gsap.from(el,{y:40,opacity:0,duration:.8,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 92%'}});
+  });
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+});
+</script>
+</body>
+</html>
