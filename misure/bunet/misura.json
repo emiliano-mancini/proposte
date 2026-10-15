@@ -1,23 +1,23 @@
 {
   "slug": "bunet",
   "url": "https://www.bunetabbigliamento.it/",
-  "misuratoIl": "2026-10-13T21:49:40.461Z",
+  "misuratoIl": "2026-10-15T02:14:49.077Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 6605,
-  "lcpMs": 4947,
+  "caricamentoTotaleMs": 10618,
+  "lcpMs": 8791,
   "lcpElemento": "IMG https://www.bunetabbigliamento.it/wp-content/uploads/2026/09/2533CDC8-BA23-4AFE-8024-6A1159CDB70E-768x960.png",
   "cls": 0,
   "urlFinale": "https://www.bunetabbigliamento.it/",
   "titolo": "Bunet Abbigliamento – Abbigliamento Donna Torino",
   "descrizione": "Scopri i nuovi arrivi di abbigliamento donna a Torino. Acquista direttamente su WhatsApp oppure vieni in negozio. Spedizione in tutta Italia.",
   "h1": [],
-  "ttfb": 2472,
-  "fcp": 3098,
-  "domReady": 4704,
-  "load": 6605,
-  "pesoKB": 18142,
+  "ttfb": 4425,
+  "fcp": 5058,
+  "domReady": 8507,
+  "load": 10616,
+  "pesoKB": 18134,
   "richieste": 99,
   "script": 30,
   "serviziEsterni": [
@@ -82,17 +82,17 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 2103,
+      "ms": 2240,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 1297,
+      "ms": 1260,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 1310,
+      "ms": 1415,
       "status": 200,
       "cache": null
     }

@@ -1,0 +1,196 @@
+{
+  "slug": "giordanoshop-home",
+  "url": "https://www.giordanoshop.com/",
+  "misuratoIl": "2026-10-15T02:15:17.244Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 8457,
+  "lcpMs": 2209,
+  "lcpElemento": "IMG https://www.giordanoshop.com/cdn/shop/files/Gemini_Generated_Image_610das610das610d_800x.jpg?v=1790949996",
+  "cls": 0.001,
+  "urlFinale": "https://www.giordanoshop.com/",
+  "titolo": "Giordano Shop - Prodotti per la Casa, Arredamento, Bricolage",
+  "descrizione": "Migliaia di prodotti per la vostra casa nel catalogo Giordano Shop ✔ Ampio assortimento ✔ Consegna rapida ✔ La perfetta combinazione di prezzo e qualità ⬆ Acquista online\n",
+  "h1": [
+    "Giordano Shop",
+    "Iscriviti e ottieni doppio regalo!"
+  ],
+  "ttfb": 162,
+  "fcp": 362,
+  "domReady": 1308,
+  "load": 8454,
+  "pesoKB": 47845,
+  "richieste": 431,
+  "script": 133,
+  "serviziEsterni": [
+    "ajax.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "cdn.shopify.com",
+    "na.shgcdn3.com",
+    "static.klaviyo.com",
+    "js.klarna.com",
+    "cdn.scalapay.com",
+    "widget.feedaty.com",
+    "www.aicel.org",
+    "apis.google.com",
+    "a.klaviyo.com",
+    "cdn.textyess.com",
+    "cdn.clerk.io",
+    "static.hotjar.com",
+    "script.hotjar.com",
+    "static-tracking.klaviyo.com",
+    "static.growave.io",
+    "fast.a.klaviyo.com",
+    "api.clerk.io",
+    "idb.iubenda.com",
+    "fonts.googleapis.com",
+    "otlp-http-production.shopifysvc.com",
+    "shop.app",
+    "www.google.com",
+    "api-ai.textyess.com",
+    "www.googletagmanager.com",
+    "static-forms.klaviyo.com",
+    "pagead2.googlesyndication.com",
+    "cdn.powl.io",
+    "widget.trustpilot.com",
+    "kit.fontawesome.com",
+    "www.paypal.com",
+    "ecommplugins-scripts.trustpilot.com",
+    "ecommplugins-trustboxsettings.trustpilot.com",
+    "cdn.pushowl.com",
+    "ka-p.fontawesome.com",
+    "invitejs.trustpilot.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/c/5/9/4/7/c5947b36b5ce7f57e63d31222fc39bf2.png?width=240",
+      "kb": 2106
+    },
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/3/0/a/f/f/30aff2e5868dd6ea16836d219aa29051.png?width=240",
+      "kb": 1950
+    },
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/0/7/d/8/6/07d86a93fb5bd1c3cb335f134db1fad7.png?width=240",
+      "kb": 1873
+    },
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/d/d/0/8/b/dd08b7ec2563c0698c9e63142bda27df.png?width=240",
+      "kb": 1859
+    },
+    {
+      "url": "https://new.driver.giordanoshop.com/storage/images/8/9/a/d/8/89ad8068ef411571a0957356949ed3c7.png?width=240",
+      "kb": 1775
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi (www.giordanoshop.com) e terze parti selezionate (53) raccogliamo informazioni personali come specific"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 1579,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.giordanoshop.com/pages/who-we-are"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.giordanoshop.com/pages/contatti"
+    },
+    {
+      "t": "Tempi e spese di spedizione",
+      "h": "https://giordanoshop-prod.myshopify.com/pages/tempi-e-spese-di-spedizione"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.giordanoshop.com/pages/termini-e-condizioni-di-vendita"
+    },
+    {
+      "t": "Klarna FAQ",
+      "h": "https://www.giordanoshop.com/pages/klarna-faq"
+    },
+    {
+      "t": "Recesso dal contratto",
+      "h": "https://www.giordanoshop.com/pages/widerruf-formular"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 176,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 112,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 137,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://gum.eu.criteo.com/fpm/sid?first_party_id=83f34258-3248-42e1-8437-3686809baccf&first_party_domain=www.giordanoshop.com&first_party_name=shopify_client_id"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    }
+  ]
+}
