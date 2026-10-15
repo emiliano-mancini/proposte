@@ -1,0 +1,195 @@
+{
+  "slug": "g-sped",
+  "url": "https://www.giordanoshop.com/pages/tempi-e-spese-di-spedizione#:~:text=giorni",
+  "misuratoIl": "2026-10-15T02:38:46.126Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4936,
+  "lcpMs": 941,
+  "lcpElemento": "P ",
+  "cls": 0.317,
+  "urlFinale": "https://www.giordanoshop.com/pages/tempi-e-spese-di-spedizione",
+  "titolo": "Tempi e Spese di Spedizione",
+  "descrizione": "Per noi è importante che tu sia soddisfatto, per questo cerchiamo di essere più precisi, veloci e affidabili possibile dall’ordine alla consegna. Infatti durante tutte le fasi del processo di acquisto ti vengono fornite tutte le informazioni utili, dalla disponibilità del prodotto alla modalità di consegna, affinchè il\n",
+  "h1": [
+    "Tempi e Spese di Spedizione",
+    "Iscriviti e ottieni doppio regalo!"
+  ],
+  "ttfb": 367,
+  "fcp": 516,
+  "domReady": 1982,
+  "load": 4934,
+  "pesoKB": 3877,
+  "richieste": 255,
+  "script": 127,
+  "serviziEsterni": [
+    "ajax.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "cdn.shopify.com",
+    "na.shgcdn3.com",
+    "static.klaviyo.com",
+    "cdn.scalapay.com",
+    "js.klarna.com",
+    "widget.feedaty.com",
+    "apis.google.com",
+    "www.aicel.org",
+    "a.klaviyo.com",
+    "cdn.textyess.com",
+    "cdn.clerk.io",
+    "static.hotjar.com",
+    "static-tracking.klaviyo.com",
+    "script.hotjar.com",
+    "static.growave.io",
+    "fast.a.klaviyo.com",
+    "fonts.googleapis.com",
+    "api.clerk.io",
+    "idb.iubenda.com",
+    "widget.trustpilot.com",
+    "kit.fontawesome.com",
+    "www.paypal.com",
+    "otlp-http-production.shopifysvc.com",
+    "static-forms.klaviyo.com",
+    "shop.app",
+    "ecommplugins-scripts.trustpilot.com",
+    "ecommplugins-trustboxsettings.trustpilot.com",
+    "cdn.pushowl.com",
+    "ka-p.fontawesome.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "api-ai.textyess.com",
+    "invitejs.trustpilot.com",
+    "pagead2.googlesyndication.com",
+    "cdn.powl.io",
+    "cdn.brevo.com",
+    "api.powl.io",
+    "sibautomation.com",
+    "in-automate.brevo.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.aicel.org/phpimgs/sonosicuro2/1631.png",
+      "kb": 55
+    },
+    {
+      "url": "https://www.giordanoshop.com/cdn/shop/files/logo_1200_shopify_tr_v_300x300@2x.png?v=1655220757",
+      "kb": 7
+    },
+    {
+      "url": "https://www.giordanoshop.com/cdn/shop/files/giochi-e-giocattoli.svg?v=13780563587654691814",
+      "kb": 3
+    },
+    {
+      "url": "https://widget.feedaty.com/3.0.0/public/2021/200x150-1/images/svg/feedaty_logo_h1_plain.svg",
+      "kb": 3
+    },
+    {
+      "url": "https://www.giordanoshop.com/cdn/shop/files/satispay_small.png?v=16459664825332911879",
+      "kb": 3
+    }
+  ],
+  "scorrimentoOrizzontale": true,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi (www.giordanoshop.com) e terze parti selezionate (53) raccogliamo informazioni personali come specific"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.giordanoshop.com/pages/who-we-are"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.giordanoshop.com/pages/contatti"
+    },
+    {
+      "t": "Tempi e spese di spedizione",
+      "h": "https://giordanoshop-prod.myshopify.com/pages/tempi-e-spese-di-spedizione"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.giordanoshop.com/pages/termini-e-condizioni-di-vendita"
+    },
+    {
+      "t": "Klarna FAQ",
+      "h": "https://www.giordanoshop.com/pages/klarna-faq"
+    },
+    {
+      "t": "Recesso dal contratto",
+      "h": "https://www.giordanoshop.com/pages/widerruf-formular"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 326,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 99,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 88,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://gum.eu.criteo.com/fpm/sid?first_party_id=e3ba9278-23fe-40f3-bc39-28a250ba2399&first_party_domain=www.giordanoshop.com&first_party_name=shopify_client_id"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.paypal.com/xoplatform/logger/api/logger?disableSetCookie=true"
+    },
+    {
+      "status": 999,
+      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=WCkg3B"
+    },
+    {
+      "status": 999,
+      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=WCkg3B"
+    }
+  ]
+}

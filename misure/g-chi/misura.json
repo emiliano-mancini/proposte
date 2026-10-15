@@ -1,0 +1,189 @@
+{
+  "slug": "g-chi",
+  "url": "https://www.giordanoshop.com/pages/who-we-are",
+  "misuratoIl": "2026-10-15T02:39:10.523Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3491,
+  "lcpMs": 929,
+  "lcpElemento": "DIV https://www.giordanoshop.com/cdn/shop/files/sf_chisiamo_800x.jpg?v=1650394498",
+  "cls": 0.001,
+  "urlFinale": "https://www.giordanoshop.com/pages/who-we-are",
+  "titolo": "Who We Are",
+  "descrizione": "\n",
+  "h1": [
+    "CHI SIAMO",
+    "DICONO DI NOI",
+    "Iscriviti e ottieni doppio regalo!"
+  ],
+  "ttfb": 138,
+  "fcp": 268,
+  "domReady": 1369,
+  "load": 3488,
+  "pesoKB": 4694,
+  "richieste": 230,
+  "script": 113,
+  "serviziEsterni": [
+    "ajax.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "cdn.shopify.com",
+    "na.shgcdn3.com",
+    "static.klaviyo.com",
+    "js.klarna.com",
+    "cdn.scalapay.com",
+    "widget.feedaty.com",
+    "www.aicel.org",
+    "apis.google.com",
+    "a.klaviyo.com",
+    "cdn.textyess.com",
+    "cdn.clerk.io",
+    "static.hotjar.com",
+    "static-tracking.klaviyo.com",
+    "script.hotjar.com",
+    "www.youtube.com",
+    "dbwx2z9xa7qt9.cloudfront.net",
+    "static.growave.io",
+    "fast.a.klaviyo.com",
+    "fonts.googleapis.com",
+    "idb.iubenda.com",
+    "server.onlinereviews.tech",
+    "api.clerk.io",
+    "static-forms.klaviyo.com",
+    "otlp-http-production.shopifysvc.com",
+    "shop.app",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "api-ai.textyess.com",
+    "pagead2.googlesyndication.com",
+    "recensioni-io-static-folder.s3.eu-central-1.amazonaws.com",
+    "d2ac3gh6wzqv30.cloudfront.net",
+    "cdn.powl.io"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.aicel.org/phpimgs/sonosicuro2/1631.png",
+      "kb": 55
+    },
+    {
+      "url": "https://recensioni-io-static-folder.s3.eu-central-1.amazonaws.com/public_onlinereviews/images/integrations/google.png",
+      "kb": 18
+    },
+    {
+      "url": "https://www.giordanoshop.com/cdn/shop/files/sf_chisiamo_800x.jpg?v=1650394498",
+      "kb": 17
+    },
+    {
+      "url": "https://recensioni-io-static-folder.s3.eu-central-1.amazonaws.com/public_onlinereviews/images/integrations/feedaty.png",
+      "kb": 14
+    },
+    {
+      "url": "https://recensioni-io-static-folder.s3.eu-central-1.amazonaws.com/public_onlinereviews/images/integrations/ebay.png",
+      "kb": 10
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi (www.giordanoshop.com) e terze parti selezionate (53) raccogliamo informazioni personali come specific"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.giordanoshop.com/pages/who-we-are"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.giordanoshop.com/pages/contatti"
+    },
+    {
+      "t": "Tempi e spese di spedizione",
+      "h": "https://giordanoshop-prod.myshopify.com/pages/tempi-e-spese-di-spedizione"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.giordanoshop.com/pages/termini-e-condizioni-di-vendita"
+    },
+    {
+      "t": "Klarna FAQ",
+      "h": "https://www.giordanoshop.com/pages/klarna-faq"
+    },
+    {
+      "t": "Recesso dal contratto",
+      "h": "https://www.giordanoshop.com/pages/widerruf-formular"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 119,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 95,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 161,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://gum.eu.criteo.com/fpm/sid?first_party_id=7bfb8660-f0b8-4bb3-abe8-19d114079c74&first_party_domain=www.giordanoshop.com&first_party_name=shopify_client_id"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.giordanoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://recensioni-io-static-folder.s3.eu-central-1.amazonaws.com/public_onlinereviews/images/no_image.png?bustcache=1792031946176"
+    }
+  ]
+}
