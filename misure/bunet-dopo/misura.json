@@ -1,0 +1,103 @@
+{
+  "slug": "bunet-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/",
+  "misuratoIl": "2026-10-15T03:12:26.869Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 490,
+  "lcpMs": 430,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/bunet-shop/",
+  "titolo": "Bunet – abbigliamento donna a Torino, nuovi arrivi e ordini su WhatsApp",
+  "descrizione": "Nuovi arrivi di abbigliamento donna da Bunet, Vanchiglia (Torino). Ordina su WhatsApp, ritira in negozio o ricevi a casa con spedizione in tutta Italia. Bozza di restyling.",
+  "h1": [
+    "NUOVI ARRIVI DA VANCHIGLIA."
+  ],
+  "ttfb": 148,
+  "fcp": 430,
+  "domReady": 416,
+  "load": 485,
+  "pesoKB": 503,
+  "richieste": 15,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/img/08087d5f1c06.webp",
+      "kb": 62
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/img/22181d90fa49.webp",
+      "kb": 60
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/img/24ef28069b15.webp",
+      "kb": 54
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/img/d660287e897d.webp",
+      "kb": 52
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/img/fe2cdc6b424a.webp",
+      "kb": 45
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "bunet.abbigliamento@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/chi-siamo/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/chi-siamo/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/chi-siamo/"
+    },
+    {
+      "t": "Come ordinare e spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/assistenza/"
+    },
+    {
+      "t": "Cambi e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/assistenza/#resi"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 169,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 10,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

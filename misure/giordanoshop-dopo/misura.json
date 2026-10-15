@@ -1,0 +1,101 @@
+{
+  "slug": "giordanoshop-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/",
+  "misuratoIl": "2026-10-15T03:12:31.065Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 298,
+  "lcpMs": 253,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/",
+  "titolo": "Giordano Shop – casa, giardino, clima e fai da te con spedizione gratuita",
+  "descrizione": "Migliaia di prodotti per casa, giardino, bagno, clima e bricolage. Spedizione gratuita su tutti i prodotti, garanzia 24 mesi, pagamento anche a rate. Bozza di restyling.",
+  "h1": [
+    "Tutto per la casa e il giardino. Spedito gratis."
+  ],
+  "ttfb": 102,
+  "fcp": 253,
+  "domReady": 242,
+  "load": 292,
+  "pesoKB": 346,
+  "richieste": 16,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/img/572d2c61693a.webp",
+      "kb": 74
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/img/4309245e2d68.webp",
+      "kb": 54
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/img/6e22fc17ee17.webp",
+      "kb": 53
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/img/9a7d1cac0129.webp",
+      "kb": 31
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/img/03dbbbcd5e94.webp",
+      "kb": 26
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo →",
+      "h": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizione",
+      "h": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/assistenza/#spedizione"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/assistenza/#resi"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 93,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 10,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

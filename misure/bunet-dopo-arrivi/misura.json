@@ -1,0 +1,103 @@
+{
+  "slug": "bunet-dopo-arrivi",
+  "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/nuovi-arrivi/",
+  "misuratoIl": "2026-10-15T03:12:39.148Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 284,
+  "lcpMs": 251,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/bunet-shop/nuovi-arrivi/img/08087d5f1c06.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/bunet-shop/nuovi-arrivi/",
+  "titolo": "Nuovi arrivi – Bunet abbigliamento donna Torino",
+  "descrizione": "Le novità di Bunet: abbigliamento, scarpe, borse e accessori donna. Chiedi prezzo e taglie su WhatsApp. Bozza di restyling.",
+  "h1": [
+    "NUOVI ARRIVI"
+  ],
+  "ttfb": 101,
+  "fcp": 240,
+  "domReady": 228,
+  "load": 281,
+  "pesoKB": 544,
+  "richieste": 19,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/nuovi-arrivi/img/08087d5f1c06.webp",
+      "kb": 62
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/nuovi-arrivi/img/24ef28069b15.webp",
+      "kb": 54
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/nuovi-arrivi/img/d660287e897d.webp",
+      "kb": 52
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/nuovi-arrivi/img/fe2cdc6b424a.webp",
+      "kb": 44
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/bunet-shop/nuovi-arrivi/img/e9bf179490aa.webp",
+      "kb": 39
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "bunet.abbigliamento@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni, pagamenti e cambi →",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/assistenza/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/chi-siamo/"
+    },
+    {
+      "t": "Come ordinare e spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/assistenza/"
+    },
+    {
+      "t": "Cambi e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/bunet-shop/assistenza/#resi"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 9,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 9,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

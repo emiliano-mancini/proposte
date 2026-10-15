@@ -1,0 +1,101 @@
+{
+  "slug": "giordanoshop-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/lettino-vorghini-sandy/",
+  "misuratoIl": "2026-10-15T03:12:35.110Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 259,
+  "lcpMs": 219,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/giordanoshop-shop/lettino-vorghini-sandy/img/f8ea5294cdf8.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/lettino-vorghini-sandy/",
+  "titolo": "Lettino Vorghini Sandy Ecrù – 214,90 € – Giordano Shop",
+  "descrizione": "Lettino prendisole con ruote in alluminio Vorghini Sandy Ecrù a 214,90 € IVA inclusa, spedizione gratuita, garanzia 24 mesi. Bozza di restyling.",
+  "h1": [
+    "Lettino prendisole con ruote in alluminio Vorghini Sandy Ecrù"
+  ],
+  "ttfb": 99,
+  "fcp": 163,
+  "domReady": 151,
+  "load": 256,
+  "pesoKB": 191,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/lettino-vorghini-sandy/img/572d2c61693a.webp",
+      "kb": 74
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/lettino-vorghini-sandy/img/4309245e2d68.webp",
+      "kb": 54
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/lettino-vorghini-sandy/img/ec36cdf00fdb.webp",
+      "kb": 9
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/lettino-vorghini-sandy/img/ce239a55286b.webp",
+      "kb": 7
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/lettino-vorghini-sandy/img/db9f2a36498e.webp",
+      "kb": 7
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 693,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizione",
+      "h": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/assistenza/#spedizione"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/assistenza/#resi"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/giordanoshop-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 92,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 10,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
