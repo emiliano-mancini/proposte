@@ -1,0 +1,80 @@
+{
+  "slug": "ig-reel-embed",
+  "url": "https://www.instagram.com/reel/Dee1Yg7AnpF/embed/captioned/",
+  "misuratoIl": "2026-10-15T17:29:12.989Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1059,
+  "lcpMs": 602,
+  "lcpElemento": "IMG https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/847802553_2479324955888359_7983705713242984438_n.jpg?stp=dst-jpg",
+  "cls": 0,
+  "urlFinale": "https://www.instagram.com/reel/Dee1Yg7AnpF/embed/captioned/",
+  "titolo": "Instagram",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 347,
+  "fcp": 602,
+  "domReady": 852,
+  "load": 1057,
+  "pesoKB": 1386,
+  "richieste": 54,
+  "script": 1,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/847802553_2479324955888359_7983705713242984438_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=NDAwNz",
+      "kb": 30
+    },
+    {
+      "url": "https://static.cdninstagram.com/rsrc.php/v4/yY/r/9JA5jg47n8b.png",
+      "kb": 16
+    },
+    {
+      "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/843573223_18104696579345676_9090824856728126524_n.jpg?stp=dst-jpg_e15_p240x240_tt6&_nc_cat=107&ig_cache_",
+      "kb": 14
+    },
+    {
+      "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/846348145_1555638859584619_683392259861550736_n.jpg?stp=dst-jpg_e15_p240x240_tt6&_nc_cat=109&ig_cache_ke",
+      "kb": 9
+    },
+    {
+      "url": "https://static.cdninstagram.com/rsrc.php/v4/yA/r/BQ9c7uW3Wxj.png",
+      "kb": 6
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi un commento...",
+    "yPx": 2317,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": 1197,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 150,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 143,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

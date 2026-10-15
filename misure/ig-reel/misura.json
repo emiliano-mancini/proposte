@@ -1,0 +1,77 @@
+{
+  "slug": "ig-reel",
+  "url": "https://www.instagram.com/reel/Dee1Yg7AnpF/",
+  "misuratoIl": "2026-10-15T17:29:07.640Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": "page.goto: Timeout 60000ms exceeded.",
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 60001,
+  "lcpMs": 675,
+  "lcpElemento": "IMG https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/847802553_2479324955888359_7983705713242984438_n.jpg?stp=c0.248.",
+  "cls": 0,
+  "urlFinale": "https://www.instagram.com/reel/Dee1Yg7AnpF/",
+  "titolo": "Instagram",
+  "descrizione": "121 likes, 262 comments - thomaskingston_ su October 14, 2026: \"Commenta APPLE e ti mando il repo e la guida completa 👇\n\napple-design è una skill gratuita che insegna all'AI come Apple progetta le interfacce: le regole dei talk di design della WWDC, tradotte per il web. L'AI impara cosa deve risaltare, cosa va tolto e dove deve portare ogni click.\n\nRisultato: landing page che sembrano fatte su misura, report che il cliente capisce da solo e demo di app curate abbastanza da mostrarle, invece della solita grafica da AI.\n\nSi installa con un comando e funziona su Claude Code, Codex, Cursor e decine di altri agenti. Su skills.sh l'hanno già installata quasi 200.000 volte.\n\nNella guida trovi il comando, i prompt che uso io e le regole che segue.\". ",
+  "h1": [],
+  "ttfb": 244,
+  "fcp": 484,
+  "domReady": 439,
+  "load": 0,
+  "pesoKB": 2287,
+  "richieste": 64,
+  "script": 0,
+  "serviziEsterni": [
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/847802553_2479324955888359_7983705713242984438_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s240x240_tt6&_nc_ca",
+      "kb": 7
+    },
+    {
+      "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/847802553_2479324955888359_7983705713242984438_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s240x240_tt6&_nc_ca",
+      "kb": 6
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "xrvj5dj xyamay9 xv54qhq x1l90r2v xf7dkkf x1ku5rj1 xh8yej3 x1",
+      "copre": "94%",
+      "testo": "Guarda questo reel nell'app Apri Instagram Iscriviti"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 213,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 118,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 118,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "instagram://reels_share/?shortcode=Dee1Yg7AnpF&dl_source=rb&ig_mid=6018011A-C6C3-4FCD-86DD-9655B40AE451"
+    }
+  ]
+}
