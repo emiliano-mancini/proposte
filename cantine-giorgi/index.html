@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Cantine Giorgi – vini dell'Oltrepò Pavese a Canneto Pavese</title>
+<meta name="description" content="Cantine Giorgi, Canneto Pavese: spumanti metodo classico, Buttafuoco, Bonarda e Pinot Nero dell'Oltrepò Pavese. Proposta di restyling – bozza non ufficiale.">
+<meta name="theme-color" content="#120a0c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="data:,">
+<link rel="preload" as="image" href="img/vigneto-hero.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="img/b/1870.webp" fetchpriority="high">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;700&display=swap"></noscript>
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<script>if(/[?&]shot=1/.test(location.search))document.documentElement.classList.add('shot')</script>
+<style>
+:root{
+  /* palette campionata dal logo e dalle bottiglie: oro del logo, nero vino, bordeaux del Buttafuoco, avorio delle etichette */
+  --bg:#120a0c; --bg2:#1b1013; --wine:#6f1d2b; --wine2:#3a1119; --gold:#dfbd6b; --gold-d:#b8964a; --ivory:#f3ead9; --muted:#c3b5a2; --line:rgba(223,189,107,.22);
+  --vng-bg:var(--bg); --vng-fg:var(--ivory); --vng-muted:var(--muted); --vng-accent:var(--gold); --vng-accent-fg:#1a0d10;
+  --vng-surface:rgba(58,17,25,.55); --vng-line:var(--line); --vng-beam-from:var(--gold); --vng-beam-to:#fff6dc;
+  --disp:"Cormorant Garamond","Times New Roman",Georgia,serif; --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(20px,4.5vw,64px); --bar:68px; --head:64px; --draft:26px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:auto}
+body{font-variant-numeric:lining-nums;margin:0;background:var(--bg);color:var(--ivory);font:400 1.0625rem/1.65 var(--body);overflow-x:hidden;padding-top:calc(var(--draft) + var(--head));padding-bottom:var(--bar)}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3,h4{font-family:var(--disp);font-weight:600;line-height:1;letter-spacing:-.01em;margin:0;text-wrap:balance}
+p{margin:0}
+.wrap{width:min(1240px,100% - 2*var(--pad));margin-inline:auto}
+section{position:relative}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.kick{display:inline-flex;align-items:center;gap:.8em;font:700 .8rem/1 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+.kick::before{content:"";width:2.2rem;height:1px;background:var(--gold)}
+.lead{font-size:clamp(1.05rem,1.5vw,1.2rem);color:var(--muted);max-width:34em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:54px;padding:.85em 1.7em;border-radius:2px;border:1px solid var(--gold);background:var(--gold);color:#1a0d10;font:700 .82rem/1 var(--body);letter-spacing:.16em;text-transform:uppercase;text-decoration:none;transition:background .3s,color .3s,transform .3s}
+.btn:hover{background:transparent;color:var(--gold)}
+.btn.ghost{background:transparent;color:var(--ivory);border-color:rgba(243,234,217,.5)}
+.btn.ghost:hover{border-color:var(--gold);color:var(--gold)}
+/* etichetta bozza + testata */
+.draft{position:fixed;z-index:70;top:0;left:0;right:0;height:var(--draft);display:grid;place-items:center;background:var(--gold);color:#1a0d10;font:700 .66rem/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:0 8px;text-align:center}
+.top{position:fixed;z-index:60;top:var(--draft);left:0;right:0;height:var(--head);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 var(--pad);background:rgba(18,10,12,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .logo img{height:50px;width:auto}
+.top nav{display:none;gap:4px}
+.top nav a{font:500 .8rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:.9em 1em;color:var(--ivory)}
+.top nav a:hover{color:var(--gold)}
+.top .tel{display:none}
+.menu{position:relative}
+.menu summary{list-style:none;cursor:pointer;min-height:44px;padding:.8em 1em;border:1px solid var(--line);font:700 .72rem/1 var(--body);letter-spacing:.18em;text-transform:uppercase}
+.menu summary::-webkit-details-marker{display:none}
+.menu .panel{position:absolute;right:0;top:calc(100% + 10px);min-width:220px;background:var(--bg2);border:1px solid var(--line);padding:8px;display:grid}
+.menu .panel a{padding:.95em 1em;text-decoration:none;font:500 .85rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase}
+@media(min-width:960px){.menu{display:none}.top nav{display:flex}.top .tel{display:inline-flex;min-height:44px;padding:.6em 1.3em}}
+/* barra contatti sotto il pollice */
+.bar{position:fixed;z-index:65;left:0;right:0;bottom:0;height:var(--bar);display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px var(--pad);background:rgba(18,10,12,.96);border-top:1px solid var(--gold)}
+.bar a{display:flex;align-items:center;justify-content:center;gap:.6em;min-height:48px;font:700 .8rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid var(--gold)}
+.bar .c{background:var(--gold);color:#1a0d10}.bar .m{color:var(--gold)}
+.bar svg{width:18px;height:18px;flex:none}
+@media(min-width:960px){.bar{display:none}body{padding-bottom:0}}
+
+/* ---------- HERO (H8: prodotto in primo piano) ---------- */
+.hero{min-height:calc(100svh - var(--draft) - var(--head));display:grid;align-items:center;padding:clamp(24px,5vw,56px) 0 0;overflow:hidden;background:radial-gradient(ellipse 60% 70% at 72% 55%,rgba(111,29,43,.45),transparent 70%),linear-gradient(180deg,var(--bg),var(--bg2))}
+.hero .bgph{position:absolute;inset:0;opacity:.62;-webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,.35),#000 70%);mask-image:linear-gradient(90deg,rgba(0,0,0,.35),#000 70%)}
+.hero .bgph img{width:100%;height:100%;object-fit:cover}
+.hero .bgph::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,10,12,.82) 0,rgba(18,10,12,.5) 42%,transparent 72%)}
+@media(max-width:959px){.hero .bgph::after{background:linear-gradient(180deg,rgba(18,10,12,.55),rgba(18,10,12,.1) 45%,rgba(18,10,12,.75))}}
+.hero .wrap{position:relative;display:grid;gap:clamp(8px,3vw,40px);align-items:end}
+.hero h1{font-size:clamp(2.7rem,7.2vw,6.6rem);font-weight:600;margin:1rem 0 1.2rem}
+.hero h1 em{font-style:italic;color:var(--gold);font-weight:500}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:1.8rem}
+.stage{position:relative;height:clamp(330px,46svh,640px);margin-top:.5rem}
+.stage::before{content:"";position:absolute;left:50%;top:50%;width:min(86%,560px);aspect-ratio:1;translate:-50% -52%;border-radius:50%;border:1px solid var(--line);box-shadow:inset 0 0 90px rgba(223,189,107,.07)}
+.stage::after{content:"";position:absolute;left:4%;right:4%;bottom:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.stage img{position:absolute;bottom:2px;width:auto;filter:drop-shadow(0 22px 28px rgba(0,0,0,.6))}
+.stage .b1{left:3%;height:76%}
+.stage .b2{left:24%;height:86%}
+.stage .b3{left:46%;height:98%;z-index:2}
+.stage .b4{left:71%;height:84%}
+.stage .glow{position:absolute;left:50%;bottom:0;width:90%;height:40%;translate:-50% 0;background:radial-gradient(ellipse at 50% 100%,rgba(223,189,107,.28),transparent 65%);pointer-events:none}
+.hero .scroll{display:none}
+@media(max-width:959px){
+  .hero{padding-top:18px}
+  .hero .wrap{display:flex;flex-direction:column;align-items:stretch}
+  .hero .kick{align-self:flex-start}
+  .hero .txt{display:contents}
+  .hero .kick{order:1}.hero h1{order:2;font-size:clamp(2.5rem,12vw,3.6rem);margin:.9rem 0 0}
+  .stage{order:3;height:min(34svh,300px);margin:.4rem 0 1.4rem}
+  .hero .cta{order:4;margin-top:.2rem}.hero .lead{order:5;margin-top:1.4rem}.hero .cta{display:grid;grid-template-columns:1fr 1fr}.hero .cta .btn{padding:.85em .6em;font-size:.72rem}
+  .hero .facts{order:6;margin-top:1.6rem;padding-bottom:calc(var(--bar) + 28px);font-size:.8rem}
+  .hero .kick{letter-spacing:.14em;font-size:.72rem}
+}
+@media(min-width:960px){
+  .hero .wrap{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:center}
+  .stage{height:min(78svh,720px)}
+  .stage .b1{left:0%}.stage .b2{left:19%}.stage .b3{left:43%}.stage .b4{left:70%}
+}
+.hero .facts{display:flex;flex-wrap:wrap;gap:6px 22px;margin-top:2.2rem;font:500 .86rem/1.4 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.hero .facts b{color:var(--gold);font-weight:700}
+
+/* ---------- NUMERI + MARQUEE ---------- */
+.nums{padding:clamp(56px,9vw,120px) 0 clamp(36px,5vw,64px)}
+.nums .row{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(28px,4vw,56px) 24px}
+.nums .n{border-top:1px solid var(--line);padding-top:1rem}
+.nums .n span{display:block;font:500 clamp(3.4rem,9vw,7rem)/.9 var(--disp);color:var(--gold);letter-spacing:-.03em}
+.nums .n p{margin-top:.7rem;color:var(--muted);font-size:.95rem;max-width:16em}
+@media(min-width:900px){.nums .row{grid-template-columns:repeat(4,1fr)}}
+.band{border-block:1px solid var(--line);padding:1.15rem 0;background:var(--wine2)}
+.band .vng-marquee{--vng-marquee-speed:44s}
+.band span.it{font:500 clamp(1.2rem,2.4vw,1.8rem)/1 var(--disp);font-style:italic;padding:0 1.6rem;white-space:nowrap}
+.band span.it::after{content:"✦";color:var(--gold);margin-left:3.2rem;font-style:normal;font-size:.7em}
+
+/* ---------- STORIA ---------- */
+.storia{padding:clamp(72px,11vw,160px) 0}
+.storia .grid{display:grid;gap:clamp(36px,6vw,90px)}
+.storia h2{font-size:clamp(2.4rem,5.4vw,4.8rem);margin:1.1rem 0 1.4rem}
+.storia h2 em{font-style:italic;color:var(--gold);font-weight:500}
+.storia .txt p+p{margin-top:1rem}
+.storia .txt p{color:var(--muted)}
+.tl{list-style:none;margin:2.4rem 0 0;padding:0;border-left:1px solid var(--line)}
+.tl li{position:relative;padding:0 0 1.9rem 1.6rem}
+.tl li::before{content:"";position:absolute;left:-5px;top:.55rem;width:9px;height:9px;border-radius:50%;background:var(--gold)}
+.tl b{display:block;font:500 clamp(1.8rem,3vw,2.4rem)/1 var(--disp);color:var(--gold)}
+.tl span{color:var(--muted);font-size:.98rem}
+.storia figure{margin:0;position:relative;overflow:hidden;border:1px solid var(--line)}
+.storia figure img{width:100%;height:auto}
+.storia .pics{display:grid;gap:18px;align-content:start}
+.storia .pics figcaption{position:absolute;left:0;bottom:0;right:0;padding:2.2rem 1.1rem .9rem;background:linear-gradient(transparent,rgba(18,10,12,.88));font:500 .78rem/1.4 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--ivory)}
+@media(min-width:900px){.storia .grid{grid-template-columns:1fr 1fr;align-items:start}.storia .txt{position:sticky;top:calc(var(--draft) + var(--head) + 28px)}.storia .pics .off{margin-left:12%}}
+
+/* ---------- PINOT NERO ---------- */
+.pn{background:var(--wine2);border-block:1px solid var(--line);padding:clamp(56px,8vw,110px) 0}
+.pn .grid{display:grid;gap:clamp(28px,5vw,70px);align-items:center}
+.pn .big{font:500 clamp(8rem,26vw,22rem)/.8 var(--disp);color:var(--gold);letter-spacing:-.05em}
+.pn .big small{display:block;font:700 .9rem/1 var(--body);letter-spacing:.24em;text-transform:uppercase;color:var(--ivory);margin-top:2.4rem}
+.pn h2{font-size:clamp(1.9rem,3.6vw,3rem);margin:1rem 0 1rem}
+.pn p{color:var(--muted)}
+.pn figure{margin:0;overflow:hidden;border:1px solid var(--line)}
+@media(min-width:900px){.pn .grid{grid-template-columns:.9fr 1.1fr}}
+
+/* ---------- SCAFFALE (elemento firma) ---------- */
+.shelf{padding:clamp(72px,10vw,140px) 0 clamp(40px,6vw,90px)}
+.shelf .head{margin-bottom:clamp(28px,5vw,60px)}
+.shelf h2{font-size:clamp(2.4rem,5.4vw,4.8rem);margin:1.1rem 0 1rem}
+.shelf h2 em{font-style:italic;color:var(--gold);font-weight:500}
+.track{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(44px,6vw,80px)}
+.grp{width:min(1240px,100% - 2*var(--pad));margin-inline:auto;min-width:0}
+.grp .gh{display:flex;flex-wrap:wrap;align-items:baseline;gap:.4rem 1.2rem;border-bottom:1px solid var(--line);padding-bottom:.8rem;margin-bottom:1.6rem}
+.grp h3{font-size:clamp(1.9rem,3.4vw,2.8rem);color:var(--gold)}
+.grp .gh p{color:var(--muted);font-size:.95rem;flex:1 1 18em}
+.grp .gh .cnt{font:700 .8rem/1 var(--body);letter-spacing:.2em;text-transform:uppercase;color:var(--ivory)}
+.row{display:flex;flex-wrap:wrap;gap:clamp(14px,2.4vw,34px) clamp(18px,3vw,40px);align-items:flex-end}
+.btl{margin:0;display:flex;flex-direction:column;align-items:center;text-align:center;width:clamp(96px,22vw,150px)}
+.btl img{width:auto;height:clamp(210px,44vw,300px);filter:drop-shadow(0 16px 18px rgba(0,0,0,.55))}
+.btl figcaption{margin-top:.8rem;font:700 .8rem/1.25 var(--body);letter-spacing:.06em;text-transform:uppercase}
+.btl figcaption small{display:block;margin-top:.3rem;font:400 .9rem/1.35 var(--body);letter-spacing:0;text-transform:none;color:var(--muted)}
+.btl::after{content:"";order:-1}
+.row .sub{flex:1 0 100%;font:700 .8rem/1 var(--body);letter-spacing:.22em;text-transform:uppercase;color:var(--gold-d);margin:.4rem 0 -.4rem}
+.progress{display:none}
+@media(max-width:599px){.row{display:grid;grid-template-columns:repeat(2,1fr);align-items:end}.btl{width:auto}.btl img{height:240px}.row .sub{grid-column:1/-1}.btl figcaption{min-height:4.2em}}
+/* scorrimento orizzontale su telefono (solo con JS) */
+.hs .row{display:flex;flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity;padding:.4rem var(--pad) 1.2rem;margin-inline:calc(-1*var(--pad));-webkit-overflow-scrolling:touch}
+.hs .btl{flex:none;width:clamp(96px,22vw,150px);scroll-snap-align:start}
+.hs .row .sub{flex:none;align-self:center;writing-mode:vertical-rl;rotate:180deg;margin:0 .4rem}
+/* scaffale pinnato su desktop (solo con JS) */
+.pinned .shelf-pin{height:100svh;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding-top:calc(var(--draft) + var(--head))}
+.pinned .head{margin-bottom:2vh}
+.pinned .head h2{font-size:clamp(2rem,3.6vw,3.2rem);margin:.6rem 0 0}
+.pinned .head .lead{display:none}
+.pinned .track{display:flex;gap:0;width:max-content;will-change:transform}
+.pinned .grp{width:max-content;margin:0;padding:0 clamp(40px,6vw,100px);border-right:1px solid var(--line);flex:none}
+.pinned .grp:first-child{padding-left:max(var(--pad),calc((100vw - 1240px)/2))}
+.pinned .row{flex-wrap:nowrap;width:max-content}
+.pinned .btl{flex:none}
+.pinned .row .sub{flex:none;align-self:center;writing-mode:vertical-rl;rotate:180deg;margin:0 .4rem}
+.pinned .btl img{height:min(40svh,340px)}
+.pinned .gh{flex-direction:column;align-items:flex-start}
+.pinned .progress{display:block;margin:2.2vh var(--pad) 0;height:2px;background:var(--line)}
+.pinned .progress i{display:block;height:100%;background:var(--gold);transform-origin:0 50%;transform:scaleX(0)}
+.pinned .gh p{flex:none;max-width:26em}.pinned .gh{max-width:100%}
+
+/* ---------- VIGNETI ---------- */
+.vigne{position:relative;padding:clamp(80px,14vw,220px) 0;overflow:hidden;isolation:isolate}
+.vigne .ph{position:absolute;inset:-8% 0;z-index:-2}
+.vigne .ph img{width:100%;height:100%;object-fit:cover}
+.vigne::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(18,10,12,.92) 0%,rgba(18,10,12,.72) 55%,rgba(18,10,12,.25) 100%)}
+.vigne h2{font-size:clamp(2.6rem,7vw,6.4rem);margin:1.1rem 0 1.4rem}
+.vigne h2 em{font-style:italic;color:var(--gold);font-weight:500}
+.vigne .lead{color:#e2d6c3}
+.vigne .pills{display:grid;gap:14px;margin-top:2.4rem;max-width:56em}
+.vigne .pill{border:1px solid var(--line);background:rgba(18,10,12,.6);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:1.2rem 1.3rem}
+.vigne .pill h3{font-size:1.5rem;color:var(--gold);margin-bottom:.4rem}
+.vigne .pill p{color:var(--muted);font-size:.97rem}
+@media(min-width:800px){.vigne .pills{grid-template-columns:repeat(3,1fr)}}
+.mos{display:grid;gap:14px;margin-top:clamp(28px,4vw,54px)}
+.mos figure{margin:0;position:relative;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3}
+.mos figure img{width:100%;height:100%;object-fit:cover}
+.mos figcaption{position:absolute;left:0;right:0;bottom:0;padding:2.4rem 1rem .8rem;background:linear-gradient(transparent,rgba(18,10,12,.85));font:500 .76rem/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase}
+@media(min-width:800px){.mos{grid-template-columns:1fr 1fr}.mos figure{aspect-ratio:auto;min-height:340px}}
+
+/* ---------- PREMI ---------- */
+.premi{padding:clamp(64px,9vw,130px) 0}
+.premi .grid{display:grid;gap:clamp(26px,4vw,60px);align-items:center}
+.premi h2{font-size:clamp(2.2rem,4.6vw,4rem);margin:1rem 0 1.2rem}
+.premi ul{list-style:none;margin:1.8rem 0 0;padding:0;border-top:1px solid var(--line)}
+.premi li{display:grid;grid-template-columns:auto 1fr;gap:1rem;align-items:baseline;padding:1rem 0;border-bottom:1px solid var(--line)}
+.premi li b{font:500 clamp(2rem,4vw,3rem)/1 var(--disp);color:var(--gold)}
+.premi li span{color:var(--muted)}
+.premi figure{margin:0;display:grid;place-items:center;padding:clamp(18px,3vw,40px);background:radial-gradient(ellipse at 50% 55%,rgba(111,29,43,.5),transparent 70%)}
+.premi figure img{height:min(52svh,470px);width:auto}
+@media(min-width:900px){.premi .grid{grid-template-columns:1.1fr .9fr}}
+
+/* ---------- ENOTECA ---------- */
+.eno{background:var(--bg2);border-top:1px solid var(--line)}
+.eno .ph{position:relative;aspect-ratio:16/9;max-height:50svh;width:100%;overflow:hidden}
+.eno .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.eno .ph::after{content:"";position:absolute;inset:auto 0 0;height:45%;background:linear-gradient(transparent,var(--bg2))}
+.eno .in{display:grid;gap:clamp(28px,5vw,70px);padding:clamp(28px,5vw,64px) 0 clamp(64px,9vw,120px);position:relative;margin-top:-6vw}
+.eno h2{font-size:clamp(2.4rem,5.4vw,4.8rem);margin:1rem 0 1.2rem}
+.eno .txt p{color:var(--muted)}.eno .txt p+p{margin-top:1rem}
+.card{position:relative;border:1px solid var(--line);background:var(--vng-surface);padding:clamp(22px,3vw,40px);align-self:start}
+.card h3{font-size:1.9rem;color:var(--gold);margin-bottom:1rem}
+.card dl{margin:0;display:grid;gap:.9rem}
+.card dt{font:700 .78rem/1 var(--body);letter-spacing:.22em;text-transform:uppercase;color:var(--gold-d)}
+.card dd{margin:.35rem 0 0}
+.card dd a{text-decoration-color:var(--gold)}
+@media(min-width:900px){.eno .in{grid-template-columns:1.1fr .9fr}}
+
+/* ---------- CONTATTI ---------- */
+.cont{padding:clamp(64px,9vw,130px) 0;border-top:1px solid var(--line);background:linear-gradient(180deg,var(--bg),var(--wine2))}
+.cont .grid{display:grid;gap:clamp(28px,4vw,60px)}
+.cont h2{font-size:clamp(2.6rem,6.4vw,5.6rem);margin:1rem 0 1.4rem}
+.cont h2 em{font-style:italic;color:var(--gold);font-weight:500}
+.cont address{font-style:normal;color:var(--muted);line-height:1.8}
+.cont address a{color:var(--ivory);text-decoration-color:var(--gold)}
+.cont .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:1.8rem}
+.cont .big{font:500 clamp(2rem,5vw,3.4rem)/1.1 var(--disp);color:var(--gold);text-decoration:none;display:inline-block;margin-top:.4rem}
+@media(max-width:599px){.cont .cta .btn{flex:1 1 100%}.cont .cta .btn:first-child{order:-1}}
+@media(min-width:900px){.cont .grid{grid-template-columns:1.2fr .8fr;align-items:end}}
+footer{padding:28px 0 36px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between}
+footer a{color:var(--muted)}
+
+/* ---------- modalità foto / reduced motion ---------- */
+.shot .bar{display:none}
+.shot .vng-marquee__track,.shot *{animation:none!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="draft" role="note">Proposta di restyling – bozza non ufficiale</div>
+<header class="top">
+  <a class="logo" href="#top" aria-label="Cantine Giorgi – inizio pagina"><img src="img/logo-oro.png" width="413" height="250" alt="Giorgi, dal 1870"></a>
+  <nav aria-label="Sezioni">
+    <a href="#storia">Storia</a><a href="#vini">I vini</a><a href="#enoteca">Enoteca</a><a href="#vigneti">Vigneti</a><a href="#premi">Premi</a><a href="#contatti">Contatti</a>
+  </nav>
+  <a class="btn tel" href="tel:+390385262151">0385 262151</a>
+  <details class="menu"><summary>Menu</summary><div class="panel">
+    <a href="#storia">Storia</a><a href="#vini">I vini</a><a href="#vigneti">Vigneti</a><a href="#premi">Premi</a><a href="#enoteca">Enoteca</a><a href="#contatti">Contatti</a>
+  </div></details>
+</header>
+
+<main id="top">
+<section class="hero" aria-labelledby="h1">
+  <div class="bgph" aria-hidden="true"><img src="img/vigneto-hero.jpg" width="1100" height="733" alt="" fetchpriority="high"></div>
+  <div class="wrap">
+    <div class="txt">
+      <p class="kick">Canneto Pavese · Oltrepò Pavese</p>
+      <h1 id="h1">Il territorio <em>per vocazione.</em></h1>
+      <p class="lead">Spumanti metodo classico, Buttafuoco, Bonarda e Pinot Nero: i vini della famiglia Giorgi, dalle colline dell'Oltrepò Pavese a 59 Paesi del mondo.</p>
+      <div class="cta"><a class="btn" href="#vini">Scopri i vini</a><a class="btn ghost" href="#enoteca">Vieni in enoteca</a></div>
+      <p class="facts"><span><b>60</b> ettari di proprietà</span><span><b>1875</b> le origini</span><span>Enoteca <b>mer–dom 10–19</b></span></p>
+    </div>
+    <div class="stage" aria-hidden="false">
+      <div class="glow"></div>
+      <img class="b1" src="img/b/crudoo.webp" width="329" height="1000" alt="Bottiglia di Crudoo, spumante Charmat extra dry">
+      <img class="b2" src="img/b/1870-rose.webp" width="308" height="1000" alt="Bottiglia di Giorgi 1870 Rosé, Pinot Nero rosé brut">
+      <img class="b3" src="img/b/1870.webp" width="203" height="640" alt="Bottiglia di Giorgi 1870, Oltrepò Pavese DOCG Pinot Nero Brut" fetchpriority="high">
+      <img class="b4" src="img/b/top-zero.webp" width="320" height="1000" alt="Bottiglia di Top Zero, Pinot Nero metodo classico pas dosé">
+    </div>
+  </div>
+</section>
+
+<section class="nums" aria-label="Giorgi in numeri">
+  <div class="wrap">
+    <div class="row">
+      <div class="n"><span data-vng-count="59">59</span><p>Paesi del mondo in cui sono presenti i vini Giorgi</p></div>
+      <div class="n"><span data-vng-count="160" data-suffix="+">160+</span><p>agenti in Italia</p></div>
+      <div class="n"><span data-vng-count="60">60</span><p>ettari di vigneti di proprietà, in alta collina</p></div>
+      <div class="n"><span data-vng-count="300" data-suffix="+">300+</span><p>conferitori di uve</p></div>
+    </div>
+  </div>
+</section>
+<div class="band" aria-label="Riconoscimenti e denominazioni">
+  <div class="vng-marquee" data-vng-marquee><div class="vng-marquee__track">
+    <span class="it">Tre Bicchieri Gambero Rosso</span><span class="it">Cinque Grappoli</span><span class="it">Pinot Nero dell'Oltrepò</span><span class="it">Buttafuoco</span><span class="it">Metodo Classico</span><span class="it">Bonarda</span>
+  </div></div>
+</div>
+
+<section class="storia" id="storia" aria-labelledby="h-storia">
+  <div class="wrap grid">
+    <div class="txt">
+      <p class="kick">La storia</p>
+      <h2 id="h-storia">Una famiglia <em>di vino.</em></h2>
+      <p>Le origini delle Cantine Giorgi risalgono al 1875: la prima generazione produceva vino per le famiglie dei paesi vicini, ma già guardava oltre i propri confini. Fin dall'inizio i Giorgi hanno puntato sull'intera filiera, dall'uva alla bottiglia.</p>
+      <p>Nel 1970 i fratelli Gianfranco e Antonio costruiscono a Canneto Pavese una seconda cantina, moderna e tecnologicamente avanzata: un enologo e un uomo di marketing, insieme. Negli anni '80 arriva la terza cantina, a Camponoce, e con lei la consacrazione nazionale.</p>
+      <ol class="tl">
+        <li><b>1875</b><span>Le origini: la prima generazione vitivinicola della famiglia.</span></li>
+        <li><b>1970</b><span>Gianfranco e Antonio costruiscono la seconda cantina a Canneto Pavese.</span></li>
+        <li><b>Anni '80</b><span>Terza cantina a Camponoce: 80 rappresentanti e i migliori ristoranti ed enoteche d'Italia.</span></li>
+        <li><b>Oggi</b><span>59 Paesi, oltre 160 agenti in Italia, Tre Bicchieri Gambero Rosso e Cinque Grappoli.</span></li>
+      </ol>
+    </div>
+    <div class="pics">
+      <figure><img src="img/famiglia.jpg" width="1216" height="961" loading="lazy" alt="La famiglia Giorgi: Fabiano, Eleonora, Antonio e Ileana in cantina"><figcaption>La famiglia, vero motore di Giorgi Vini</figcaption></figure>
+      <figure class="off"><img src="img/imbottigliamento.jpg" width="1920" height="1280" loading="lazy" alt="Linea di imbottigliamento Giorgi: file di bottiglie scure"><figcaption>Dall'uva alla bottiglia, tutta la filiera in casa</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="pn" aria-labelledby="h-pn">
+  <div class="wrap grid">
+    <div>
+      <div class="big" aria-hidden="true">30<small>anni di Pinot Nero</small></div>
+    </div>
+    <div>
+      <p class="kick">Il marchio di fabbrica</p>
+      <h2 id="h-pn">Trent'anni di Pinot Nero in bottiglia renana.</h2>
+      <p>Il Pinot Nero è il prodotto che ha permesso all'azienda di evolversi e di spiccare il volo. Giorgi è stata la prima a proporlo su scala nazionale; oggi è il suo segno distintivo, insieme alla bottiglia renana lunga: un azzardo quando fu proposta, un successo dopo trent'anni.</p>
+      
+    </div>
+  </div>
+</section>
+
+<section class="shelf" id="vini" aria-labelledby="h-vini">
+  <div class="shelf-pin">
+    <div class="wrap head">
+      <p class="kick">I vini</p>
+      <h2 id="h-vini">La cantina, <em>in fila.</em></h2>
+      <p class="lead">Trentanove etichette in sei famiglie, dagli spumanti metodo classico ai Grandi Cru. Scorri e guardale una per una.</p>
+    </div>
+    <div class="track">
+<div class="grp"><div class="gh"><h3>Spumanti</h3><span class="cnt">9 etichette</span><p>Metodo classico e Charmat. Pinot Nero e Chardonnay sono la base degli spumanti dell&#x27;Oltrepò.</p></div><div class="row">
+<p class="sub">Metodi classici</p>
+<figure class="btl"><img src="img/b/top-zero.webp" width="320" height="1000" loading="lazy" alt="Bottiglia di Top Zero, Pinot Nero metodo classico «Pas Dosé»"><figcaption>Top Zero<small>Pinot Nero metodo classico «Pas Dosé»</small></figcaption></figure>
+<figure class="btl"><img src="img/b/1870.webp" width="203" height="640" loading="lazy" alt="Bottiglia di Giorgi 1870, Oltrepò Pavese DOCG Pinot Nero Brut"><figcaption>Giorgi 1870<small>Oltrepò Pavese DOCG Pinot Nero Brut</small></figcaption></figure>
+<figure class="btl"><img src="img/b/1870-rose.webp" width="308" height="1000" loading="lazy" alt="Bottiglia di Giorgi 1870 Rosé, Pinot Nero Rosé Brut"><figcaption>Giorgi 1870 Rosé<small>Pinot Nero Rosé Brut</small></figcaption></figure>
+<figure class="btl"><img src="img/b/gianfranco-giorgi.webp" width="204" height="640" loading="lazy" alt="Bottiglia di Gianfranco Giorgi, Pinot Nero metodo classico Brut"><figcaption>Gianfranco Giorgi<small>Pinot Nero metodo classico Brut</small></figcaption></figure>
+<figure class="btl"><img src="img/b/fusion.webp" width="204" height="640" loading="lazy" alt="Bottiglia di Fusion, Metodo classico Brut"><figcaption>Fusion<small>Metodo classico Brut</small></figcaption></figure>
+<p class="sub">Metodi Charmat</p>
+<figure class="btl"><img src="img/b/crudoo.webp" width="329" height="1000" loading="lazy" alt="Bottiglia di Crudoo, Charmat V.S.Q. Extra Dry"><figcaption>Crudoo<small>Charmat V.S.Q. Extra Dry</small></figcaption></figure>
+<figure class="btl"><img src="img/b/crudoo-rose.webp" width="207" height="640" loading="lazy" alt="Bottiglia di Crudoo Rosé, Charmat V.S.Q. Rosé Extra Dry"><figcaption>Crudoo Rosé<small>Charmat V.S.Q. Rosé Extra Dry</small></figcaption></figure>
+<figure class="btl"><img src="img/b/cuvee-eleonora.webp" width="186" height="640" loading="lazy" alt="Bottiglia di Cuvée Eleonora Giorgi, Pinot Nero Charmat V.S.Q. Extra Dry"><figcaption>Cuvée Eleonora Giorgi<small>Pinot Nero Charmat V.S.Q. Extra Dry</small></figcaption></figure>
+<figure class="btl"><img src="img/b/cuvee-eleonora-rose.webp" width="197" height="640" loading="lazy" alt="Bottiglia di Cuvée Eleonora Giorgi Rosé, Pinot Nero Charmat Rosé Extra Dry"><figcaption>Cuvée Eleonora Giorgi Rosé<small>Pinot Nero Charmat Rosé Extra Dry</small></figcaption></figure>
+</div></div>
+<div class="grp"><div class="gh"><h3>Vini bianchi</h3><span class="cnt">6 etichette</span><p>Frizzanti e fermi, dal Pinot Nero vinificato in bianco al Riesling.</p></div><div class="row">
+<p class="sub">Frizzanti</p>
+<figure class="btl"><img src="img/b/pinotnero-frizzante.webp" width="131" height="640" loading="lazy" alt="Bottiglia di PinoTnero Giorgi, Pinot Nero vinificato in bianco, frizzante DOC"><figcaption>PinoTnero Giorgi<small>Pinot Nero vinificato in bianco, frizzante DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/lio.webp" width="129" height="640" loading="lazy" alt="Bottiglia di Lio, Pinot Nero O.P. DOC"><figcaption>Lio<small>Pinot Nero O.P. DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/pinotnero-rose.webp" width="132" height="640" loading="lazy" alt="Bottiglia di PinoTnero Rosé, Pinot Nero Rosé"><figcaption>PinoTnero Rosé<small>Pinot Nero Rosé</small></figcaption></figure>
+<p class="sub">Fermi</p>
+<figure class="btl"><img src="img/b/il-bandito.webp" width="151" height="639" loading="lazy" alt="Bottiglia di Il Bandito, Riesling O.P. DOC"><figcaption>Il Bandito<small>Riesling O.P. DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/lady-ginevra.webp" width="144" height="640" loading="lazy" alt="Bottiglia di Lady Ginevra, Bianco IGT Prov. di Pavia"><figcaption>Lady Ginevra<small>Bianco IGT Prov. di Pavia</small></figcaption></figure>
+<figure class="btl"><img src="img/b/la-diana.webp" width="163" height="640" loading="lazy" alt="Bottiglia di La Diana, Pinot Grigio DOC"><figcaption>La Diana<small>Pinot Grigio DOC</small></figcaption></figure>
+</div></div>
+<div class="grp"><div class="gh"><h3>Vini rossi classici</h3><span class="cnt">4 etichette</span><p>Bonarda e Barbera dell&#x27;Oltrepò Pavese, dal classico alla riserva.</p></div><div class="row">
+<figure class="btl"><img src="img/b/bonarda.webp" width="152" height="576" loading="lazy" alt="Bottiglia di Bonarda, Bonarda DOC"><figcaption>Bonarda<small>Bonarda DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/barbera.webp" width="152" height="576" loading="lazy" alt="Bottiglia di Barbera, Barbera DOC"><figcaption>Barbera<small>Barbera DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/la-brughera.webp" width="201" height="640" loading="lazy" alt="Bottiglia di La Brughera, Bonarda riserva DOC"><figcaption>La Brughera<small>Bonarda riserva DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/la-gallina.webp" width="215" height="640" loading="lazy" alt="Bottiglia di La Gallina, Bonarda O.P. DOC"><figcaption>La Gallina<small>Bonarda O.P. DOC</small></figcaption></figure>
+</div></div>
+<div class="grp"><div class="gh"><h3>Grandi Cru e Barricati</h3><span class="cnt">6 etichette</span><p>Buttafuoco, Barbera fermo, Pinot Nero rosso e rossi IGT della provincia di Pavia.</p></div><div class="row">
+<figure class="btl"><img src="img/b/panau.webp" width="140" height="594" loading="lazy" alt="Bottiglia di Panaù, Barbera fermo O.P. DOC"><figcaption>Panaù<small>Barbera fermo O.P. DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/vigalon.webp" width="165" height="640" loading="lazy" alt="Bottiglia di Vigalòn, Rosso IGT provincia di Pavia"><figcaption>Vigalòn<small>Rosso IGT provincia di Pavia</small></figcaption></figure>
+<figure class="btl"><img src="img/b/oltraja.webp" width="149" height="640" loading="lazy" alt="Bottiglia di Oltraja, Rosso IGT provincia di Pavia"><figcaption>Oltraja<small>Rosso IGT provincia di Pavia</small></figcaption></figure>
+<figure class="btl"><img src="img/b/monteroso.webp" width="144" height="640" loading="lazy" alt="Bottiglia di Monteroso, Pinot Nero rosso DOC"><figcaption>Monteroso<small>Pinot Nero rosso DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/buttafuoco-storico.webp" width="170" height="640" loading="lazy" alt="Bottiglia di Buttafuoco Storico, Buttafuoco dell&#x27;Oltrepò Pavese DOC"><figcaption>Buttafuoco Storico<small>Buttafuoco dell&#x27;Oltrepò Pavese DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/clilele.webp" width="144" height="640" loading="lazy" alt="Bottiglia di Clilele, Buttafuoco dell&#x27;Oltrepò Pavese DOC"><figcaption>Clilele<small>Buttafuoco dell&#x27;Oltrepò Pavese DOC</small></figcaption></figure>
+</div></div>
+<div class="grp"><div class="gh"><h3>Vini dolci</h3><span class="cnt">8 etichette</span><p>Moscato, Malvasia, Sangue di Giuda: i dolci bianchi e rossi.</p></div><div class="row">
+<p class="sub">Bianchi</p>
+<figure class="btl"><img src="img/b/moscato-spumante.webp" width="188" height="640" loading="lazy" alt="Bottiglia di Moscato Spumante"><figcaption>Moscato Spumante</figcaption></figure>
+<figure class="btl"><img src="img/b/malvasia.webp" width="168" height="640" loading="lazy" alt="Bottiglia di Malvasia"><figcaption>Malvasia</figcaption></figure>
+<figure class="btl"><img src="img/b/moscato.webp" width="166" height="640" loading="lazy" alt="Bottiglia di Moscato"><figcaption>Moscato</figcaption></figure>
+<figure class="btl"><img src="img/b/zimolo.webp" width="164" height="640" loading="lazy" alt="Bottiglia di Zimolo"><figcaption>Zimolo</figcaption></figure>
+<p class="sub">Rossi</p>
+<figure class="btl"><img src="img/b/sangue-di-giuda.webp" width="167" height="640" loading="lazy" alt="Bottiglia di Sangue di Giuda, DOC"><figcaption>Sangue di Giuda<small>DOC</small></figcaption></figure>
+<figure class="btl"><img src="img/b/la-badalucca.webp" width="185" height="640" loading="lazy" alt="Bottiglia di La Badalucca"><figcaption>La Badalucca</figcaption></figure>
+<figure class="btl"><img src="img/b/moscarosa.webp" width="166" height="640" loading="lazy" alt="Bottiglia di Moscarosa"><figcaption>Moscarosa</figcaption></figure>
+<figure class="btl"><img src="img/b/sangue-di-giuda-il-toro.webp" width="201" height="640" loading="lazy" alt="Bottiglia di Sangue di Giuda Il Toro, DOC"><figcaption>Sangue di Giuda Il Toro<small>DOC</small></figcaption></figure>
+</div></div>
+<div class="grp"><div class="gh"><h3>Linea Gerry Scotti</h3><span class="cnt">6 etichette</span><p>Sei etichette della Linea Gerry Scotti.</p></div><div class="row">
+<figure class="btl"><img src="img/b/regiu.webp" width="161" height="640" loading="lazy" alt="Bottiglia di Regiù, Barbera"><figcaption>Regiù<small>Barbera</small></figcaption></figure>
+<figure class="btl"><img src="img/b/buttafuoco-56.webp" width="171" height="640" loading="lazy" alt="Bottiglia di Buttafuoco &#x27;56, Buttafuoco"><figcaption>Buttafuoco &#x27;56<small>Buttafuoco</small></figcaption></figure>
+<figure class="btl"><img src="img/b/pumgranin.webp" width="177" height="640" loading="lazy" alt="Bottiglia di Pumgranin, Pinot Nero vinificato rosato"><figcaption>Pumgranin<small>Pinot Nero vinificato rosato</small></figcaption></figure>
+<figure class="btl"><img src="img/b/gs-spumante.webp" width="201" height="640" loading="lazy" alt="Bottiglia di Spumante, Metodo classico DOCG Extra Brut"><figcaption>Spumante<small>Metodo classico DOCG Extra Brut</small></figcaption></figure>
+<figure class="btl"><img src="img/b/mesdi.webp" width="163" height="640" loading="lazy" alt="Bottiglia di Mesdì, Riesling"><figcaption>Mesdì<small>Riesling</small></figcaption></figure>
+<figure class="btl"><img src="img/b/gs-spumante-rose.webp" width="204" height="640" loading="lazy" alt="Bottiglia di Spumante Rosé, Metodo classico DOCG Extra Brut"><figcaption>Spumante Rosé<small>Metodo classico DOCG Extra Brut</small></figcaption></figure>
+</div></div>
+    </div>
+    <div class="progress" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+<section class="eno" id="enoteca" aria-labelledby="h-eno">
+  <div class="ph"><img src="img/enoteca.jpg" width="2200" height="1467" loading="lazy" alt="Scaffali dell'enoteca Solo Giorgi con bottiglie di spumante e vino"></div>
+  <div class="wrap in">
+    <div class="txt">
+      <p class="kick">Enoteca</p>
+      <h2 id="h-eno">Solo Giorgi: <em>vieni a degustare.</em></h2>
+      <p>Una costruzione ottagonale in legno con ampie vetrate, accanto alla sede direzionale e al centro di imbottigliamento: un ambiente accogliente per degustazioni guidate da sommelier, dove la qualità dei vini Giorgi incontra i sapori del territorio.</p>
+      <p>È anche uno spazio aperto a eventi culturali su ambiente, saperi e tradizioni della valle Versa. A novembre e dicembre, nei weekend, si degusta il Crudoo accostato alle novità enogastronomiche dell'enoteca.</p>
+    </div>
+    <aside class="card">
+      <span class="vng-beam"></span>
+      <h3>Orari e contatti</h3>
+      <dl>
+        <div><dt>Quando</dt><dd>Dal mercoledì alla domenica, dalle 10 alle 19</dd></div>
+        <div><dt>Dove</dt><dd>Fraz. Camponoce 39/A, 27044 Canneto Pavese (PV)</dd></div>
+        <div><dt>Info e prenotazioni</dt><dd><a href="tel:+390385262151">0385 262151</a> · <a href="mailto:info@giorgi-wines.it">info@giorgi-wines.it</a></dd></div>
+      </dl>
+      <p style="margin-top:1.4rem"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Giorgi+Vini+Camponoce+39A+Canneto+Pavese" rel="noopener">Indicazioni stradali</a></p>
+    </aside>
+  </div>
+</section>
+
+<section class="vigne" id="vigneti" aria-labelledby="h-vigne">
+  <div class="ph" aria-hidden="true"><img src="img/vigneto.jpg" width="1920" height="1280" loading="lazy" alt=""></div>
+  <div class="wrap">
+    <p class="kick">I vigneti</p>
+    <h2 id="h-vigne">L'alta qualità <em>nasce in vigna.</em></h2>
+    <p class="lead">Giorgi ha valorizzato i vecchi vigneti di famiglia e ne ha selezionati di nuovi, badando che esposizione e composizione del terreno, sempre in alta collina, fossero ideali per ciascun vitigno.</p>
+    <div class="pills">
+      <div class="pill"><h3>Potatura castigata</h3><p>Produzione per ceppo inferiore alla norma, per portare la qualità al massimo livello.</p></div>
+      <div class="pill"><h3>Concimazione naturale</h3><p>Solo prodotti naturali. Le uve sono selezionate e raccolte nel preciso momento della maturazione.</p></div>
+      <div class="pill"><h3>Fermentazione controllata</h3><p>Pigiatura e fermentazione rigorosamente controllate, con tradizione ed enologia innovativa.</p></div>
+    </div>
+    <div class="mos">
+      <figure><img src="img/uva.jpg" width="1920" height="1280" loading="lazy" alt="Grappoli di uva scura tra le foglie in vigna"><figcaption>Oltrepò, terra eletta</figcaption></figure>
+      <figure><img src="img/cassette.jpg" width="1745" height="900" loading="lazy" alt="Bottiglie di Giorgi 1870 e Pinot Nero con cassette di legno tra i rosai"><figcaption>Cassette di legno Giorgi</figcaption></figure>
+      
+    </div>
+  </div>
+</section>
+
+<section class="premi" id="premi" aria-labelledby="h-premi">
+  <div class="wrap grid">
+    <div>
+      <p class="kick">I premi</p>
+      <h2 id="h-premi">Bicchieri, grappoli, <em>medaglie.</em></h2>
+      <p class="lead">Giorgi ha vinto i più importanti premi internazionali e nazionali. Il Giorgi 1870 ha ottenuto i Tre Bicchieri del Gambero Rosso per sette anni consecutivi (notizia del 2015).</p>
+      <ul>
+        <li><b>3</b><span>Tre Bicchieri Gambero Rosso</span></li>
+        <li><b>5</b><span>Cinque Grappoli, Sommelier</span></li>
+        <li><b>7</b><span>anni consecutivi di Tre Bicchieri per Giorgi 1870 (2015)</span></li>
+      </ul>
+    </div>
+    <figure><img src="img/b/1870.webp" width="203" height="640" loading="lazy" alt="Bottiglia di Giorgi 1870, il vino dei Tre Bicchieri"></figure>
+  </div>
+</section>
+
+
+
+<section class="cont" id="contatti" aria-labelledby="h-cont">
+  <div class="wrap grid">
+    <div>
+      <p class="kick">Contatti</p>
+      <h2 id="h-cont">Parliamo <em>di vino.</em></h2>
+      <a class="big" href="tel:+390385262151">0385 262151</a>
+      <div class="cta"><a class="btn" href="tel:+390385262151">Chiama</a><a class="btn ghost" href="mailto:info@giorgi-wines.it">Scrivi a info@giorgi-wines.it</a></div>
+    </div>
+    <address>
+      <strong>Giorgi S.r.l.</strong><br>
+      Fraz. Camponoce 39/A<br>27044 Canneto Pavese (PV) – Italy<br>
+      P. IVA 00501920185<br>
+      Fax 0385 60440
+    </address>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Proposta di restyling – bozza non ufficiale. Contenuti e fotografie dal sito giorgi-wines.it.</span>
+    <span><a href="http://giorgi-wines.it/privacy-policy/" rel="noopener">Privacy policy</a> · <a href="http://giorgi-wines.it/cookie-policy/" rel="noopener">Cookie policy</a></span>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Contatti rapidi">
+  <a class="c" href="tel:+390385262151"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Chiama</a>
+  <a class="m" href="mailto:info@giorgi-wines.it"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 7.2L4.6 7H19.4zM4 9v8h16V9l-8 5.4z"/></svg>Scrivici</a>
+</nav>
+
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var shot=/[?&]shot=1/.test(location.search);
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var menu=document.querySelector('.menu');
+  document.querySelectorAll('.menu a').forEach(function(a){a.addEventListener('click',function(){menu.removeAttribute('open');});});
+  if(shot) document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager';});
+  if(shot||reduce||!window.gsap) return;
+
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:0.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var id=a.getAttribute('href');if(id==='#top'){e.preventDefault();lenis.scrollTo(0);return;}var t=document.querySelector(id);if(t){e.preventDefault();lenis.scrollTo(t,{offset:-90});}});});
+
+  document.fonts.ready.then(function(){
+    var st=new SplitText('.hero h1',{type:'words'});
+    gsap.from(st.words,{yPercent:70,opacity:0,duration:1,ease:'expo.out',stagger:.09,delay:.05});
+  });
+  gsap.from('.hero .kick,.hero .lead,.hero .cta,.hero .facts',{y:20,opacity:0,duration:.8,ease:'power3.out',stagger:.09,delay:.2});
+  gsap.from('.stage img',{y:90,opacity:0,duration:1.2,ease:'expo.out',stagger:.12,delay:.15});
+  // bottiglie: parallax a scrub numerico mentre si esce dall'hero
+  [['.b1',-40],['.b2',-70],['.b3',-110],['.b4',-55]].forEach(function(p){
+    gsap.to('.stage '+p[0],{y:p[1],ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  });
+  gsap.to('.hero .bgph img',{yPercent:12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  // foto dei vigneti: parallax leggero
+  gsap.fromTo('.vigne .ph img',{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:'.vigne',start:'top bottom',end:'bottom top',scrub:1}});
+  gsap.utils.toArray('.storia figure img,.mos figure img').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-5,scale:1.1},{yPercent:5,scale:1.1,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  gsap.utils.toArray('.tl li,.pill,.premi li,.card,.pn .big').forEach(function(el){
+    gsap.from(el,{y:36,opacity:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 92%'}});
+  });
+
+  // scaffale: desktop = orizzontale pinnato con scrub; telefono = righe scorrevoli col dito
+  var mm=gsap.matchMedia();
+  mm.add('(min-width:960px)',function(){
+    var sec=document.querySelector('.shelf'),track=sec.querySelector('.track'),bar=sec.querySelector('.progress i');
+    sec.classList.add('pinned');
+    var dist=function(){return Math.max(0,track.scrollWidth-window.innerWidth);};
+    gsap.to(track,{x:function(){return -dist();},ease:'none',scrollTrigger:{trigger:sec.querySelector('.shelf-pin'),pin:true,start:'top top+='+0,end:function(){return '+='+dist();},scrub:1,invalidateOnRefresh:true,anticipatePin:1,
+      onUpdate:function(s){bar.style.transform='scaleX('+s.progress+')';}}});
+    return function(){sec.classList.remove('pinned');};
+  });
+  mm.add('(max-width:959px)',function(){
+    var sec=document.querySelector('.shelf');sec.classList.add('hs');
+    return function(){sec.classList.remove('hs');};
+  });
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+});
+</script>
+</body>
+</html>
