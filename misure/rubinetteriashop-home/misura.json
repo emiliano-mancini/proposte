@@ -1,0 +1,163 @@
+{
+  "slug": "rubinetteriashop-home",
+  "url": "https://www.rubinetteriashop.com/",
+  "misuratoIl": "2026-10-16T02:15:00.224Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4147,
+  "lcpMs": 2590,
+  "lcpElemento": "IMG https://www.rubinetteriashop.com/themes/seochef/assets/img/modules/appagebuilder/images/SLIDE.jpg",
+  "cls": 0.014,
+  "urlFinale": "https://www.rubinetteriashop.com/it/",
+  "titolo": "Rubinetteria, miscelatori e Accessori Bagno, vendita shop online prezzi",
+  "descrizione": "Acquista rubinetteria e arredo bagno delle migliori marche: spedizione gratuita da 150€, garanzia da 2 a 5 anni e IVA agevolata al 4% o 10%",
+  "h1": [
+    "Rubinetteria Shop\nVendita online di rubinetteria ed accessori per arredo bagno"
+  ],
+  "ttfb": 1428,
+  "fcp": 2149,
+  "domReady": 3215,
+  "load": 4143,
+  "pesoKB": 5309,
+  "richieste": 243,
+  "script": 101,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "cdnjs.cloudflare.com",
+    "cdn.jsdelivr.net",
+    "fonts.googleapis.com",
+    "eu1-config.doofinder.com",
+    "app.mailjet.com",
+    "widgets.rr.skeepers.io",
+    "static.klaviyo.com",
+    "cdn.scalapay.com",
+    "sibautomation.com",
+    "0lspz.mjt.lu",
+    "cdn.doofinder.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "eu1-api.doofinder.com",
+    "eu1-recommendations.doofinder.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "in-automate.brevo.com",
+    "www.google-analytics.com",
+    "cl-pbr.cxr.skeepers.io",
+    "ka-f.fontawesome.com",
+    "static-tracking.klaviyo.com",
+    "connect.facebook.net",
+    "fast.a.klaviyo.com",
+    "www.facebook.com",
+    "static-forms.klaviyo.com",
+    "static-eu.oct8ne.com",
+    "frontal-eu.oct8ne.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.rubinetteriashop.com/themes/seochef/assets/img/modules/appagebuilder/images/box-doccia-1.png",
+      "kb": 306
+    },
+    {
+      "url": "https://www.rubinetteriashop.com/themes/seochef/assets/img/modules/appagebuilder/images/pollini_acquadesign.jpg",
+      "kb": 281
+    },
+    {
+      "url": "https://www.rubinetteriashop.com/themes/seochef/assets/img/modules/appagebuilder/images/SLIDE.jpg",
+      "kb": 277
+    },
+    {
+      "url": "https://www.rubinetteriashop.com/themes/seochef/assets/img/modules/appagebuilder/images/rubinetto%20bagno.png",
+      "kb": 238
+    },
+    {
+      "url": "https://www.rubinetteriashop.com/themes/seochef/assets/img/modules/appagebuilder/images/cucina-rubinetteria-.jpg",
+      "kb": 205
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi (Rubinetteriashop srl) e terze parti selezionate (14) raccogliamo informazioni personali come specific"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [
+    "support@rubinetteriashop.com",
+    "rubinetteriashop@pecdotcom.it"
+  ],
+  "telefono": [
+    "+39 0322 097 686"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Quali sono i box doccia più resistenti? Scelta sic",
+      "h": "https://www.rubinetteriashop.com/it/blog/quali-sono-i-box-doccia-piu-resistenti-scelta-sicura-e-duratura-b509.html"
+    },
+    {
+      "t": "Spedizione resi e rimborsi",
+      "h": "https://www.rubinetteriashop.com/it/content/1-spedizione-resi-e-rimborsi"
+    },
+    {
+      "t": "Termini e condizioni d'uso",
+      "h": "https://www.rubinetteriashop.com/it/content/3-termini-e-condizioni-di-uso"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.rubinetteriashop.com/it/content/10-faq"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.rubinetteriashop.com/it/content/4-chi-siamo"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2084,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 906,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1028,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=769776064.1792116895&gtm=45He6ae1v9113105496za200zd9113105496xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&ae=g&auid=769776064.1792116895&dt=Rubinetteria%2C%20miscelatori%20e%20Accessori%20Bagno%2C%20vendita%20sho"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&apvc=0&ae=g&tid=AW-1020684514&dl=https%3A%2F%2Fwww.rubinetteriashop.com%2Fit%2F&scrsrc=www.googlet"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&apvc=0&tid=AW-1020684514&en=page_view&dl=https%3A%2F%2Fwww.rubinetteriashop.com%2Fit%2F&scrsrc=www"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4PDF23YM37&gtm=45je6ae1v882449770za20ozb9113105496zd9113105496xf1&_p=1792116893756&gcs=G100&gcd=13p3p3p3p5l"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "slug": "rubinetteriashop",
   "url": "https://www.rubinetteriashop.com/it/rubinetti-vasca-a-pavimento/12160-96341-miscelatore-esterno-per-vasca-colore-cromo-con-colonne-a-pavimento-e-doccetta-mamoli-gio-ponti-1040f2140021.html",
-  "misuratoIl": "2026-10-13T21:50:05.377Z",
+  "misuratoIl": "2026-10-16T02:14:44.575Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 5725,
-  "lcpMs": 4025,
+  "caricamentoTotaleMs": 6586,
+  "lcpMs": 3790,
   "lcpElemento": "IMG https://www.rubinetteriashop.com/60376-large_default/miscelatore-esterno-per-vasca-colore-cromo-con-colonne-a-pavimento-",
   "cls": 0,
   "urlFinale": "https://www.rubinetteriashop.com/it/rubinetti-vasca-a-pavimento/12160-96341-miscelatore-esterno-per-vasca-colore-cromo-con-colonne-a-pavimento-e-doccetta-mamoli-gio-ponti-1040f2140021.html",
@@ -15,13 +15,13 @@
   "h1": [
     "Miscelatore esterno per vasca colore cromo con colonne a pavimento e doccetta Mamoli Gio Ponti 1040F"
   ],
-  "ttfb": 3138,
-  "fcp": 4025,
-  "domReady": 4857,
-  "load": 5723,
-  "pesoKB": 3637,
+  "ttfb": 2805,
+  "fcp": 3655,
+  "domReady": 5278,
+  "load": 6582,
+  "pesoKB": 3643,
   "richieste": 250,
-  "script": 112,
+  "script": 113,
   "serviziEsterni": [
     "cs.iubenda.com",
     "cdn.iubenda.com",
@@ -37,22 +37,22 @@
     "cdn.scalapay.com",
     "sibautomation.com",
     "0lspz.mjt.lu",
-    "cdn.doofinder.com",
-    "eu1-search.doofinder.com",
     "www.google.com",
     "ad.doubleclick.net",
+    "cdn.doofinder.com",
+    "eu1-search.doofinder.com",
     "pagead2.googlesyndication.com",
     "www.google-analytics.com",
+    "eu1-recommendations.doofinder.com",
     "idb.iubenda.com",
+    "eu1-api.doofinder.com",
     "ka-f.fontawesome.com",
     "static-tracking.klaviyo.com",
-    "eu1-recommendations.doofinder.com",
     "connect.facebook.net",
-    "eu1-api.doofinder.com",
     "in-automate.brevo.com",
     "fast.a.klaviyo.com",
-    "static-forms.klaviyo.com",
     "www.facebook.com",
+    "static-forms.klaviyo.com",
     "static-eu.oct8ne.com",
     "frontal-eu.oct8ne.com"
   ],
@@ -125,17 +125,17 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 2777,
+      "ms": 2817,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 2207,
+      "ms": 2299,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 2424,
+      "ms": 2117,
       "status": 200,
       "cache": null
     }
@@ -143,23 +143,27 @@
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=625575088.1791928200&gtm=45He6ac0v9113105496za200zd9113105496xeaxf1&fmt=8"
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1469710295.1792116878&gtm=45He6ae1h1v9113105496za200zd9113105496xeaxf1&fmt=8"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&auid=625575088.1791928200&dt=Miscelatore%20esterno%20per%20vasca%20colore%20cromo%20con%20colonne%20a"
+      "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&ae=g&auid=1469710295.1792116878&dt=Miscelatore%20esterno%20per%20vasca%20colore%20cromo%20con%20colonne%20"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=0&ae=g&tid=AW-1020684514&dl=https%3A%2F%2Fwww.rubinetteriashop.com%2Fit%2Frubinetti-vasca-a-p"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=0&ae=g&tid=AW-1020684514&dl=https%3A%2F%2Fwww.rubinetteriashop.com%2Fit%2Frubinetti-vasca-a-"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=0&tid=AW-1020684514&en=page_view&dl=https%3A%2F%2Fwww.rubinetteriashop.com%2Fit%2Frubinetti-v"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=0&tid=AW-1020684514&en=page_view&dl=https%3A%2F%2Fwww.rubinetteriashop.com%2Fit%2Frubinetti-"
     },
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4PDF23YM37&gtm=45je6ac1v882449770za20ozb9113105496zd9113105496xf1&_p=1791928199093&gcs=G100&gcd=13p3p3p3p5l"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4PDF23YM37&gtm=45je6ae1h1v882449770za20ozb9113105496zd9113105496xf1&_p=1792116877063&gcs=G100&gcd=13p3p3p3p"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4PDF23YM37&gtm=45je6ae1h1v882449770z89113105496za20gzb9113105496zd9113105496xf1&_p=1792116877063&gcs=G100&g"
     }
   ]
 }
