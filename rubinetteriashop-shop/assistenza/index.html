@@ -15,7 +15,7 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&display=swap"></noscript>
 <link rel="stylesheet" href="../stile.css">
 <script>
-(function(){var d=document.documentElement;if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');}
+(function(){var d=document.documentElement;if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})});}
 try{if(!localStorage.getItem('ck-ok')&&!d.classList.contains('shot'))d.classList.add('ck');}catch(_){d.classList.add('ck')}
 document.addEventListener('click',function(ev){var b=ev.target.closest('[data-ck]');if(b){d.classList.remove('ck');try{localStorage.setItem('ck-ok','1')}catch(_){}}
 var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gmain');if(m){m.src=t.getAttribute('data-thumb');m.alt=t.querySelector('img').alt;document.querySelectorAll('[data-thumb]').forEach(function(x){x.removeAttribute('aria-current')});t.setAttribute('aria-current','true');}}});
@@ -24,7 +24,7 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 </head>
 <body>
 <div class="draft">Proposta di restyling – bozza non ufficiale</div>
-<div class="topline"><div class="wrap"><span>Ordini anche al telefono, tutti i giorni 9–20: <a href="tel:+390322097686">+39 0322 097 686</a></span><a class="pro" href="https://www.rubinetteriashop.com/it/creazione-utente-b2b">Sei un professionista? Registrati come PRO</a></div></div>
+<div class="topline"><div class="wrap"><span>Ordini al telefono 9–20, 7/7 · <a href="tel:+390322097686">0322 097 686</a></span><a class="pro" href="https://www.rubinetteriashop.com/it/creazione-utente-b2b" rel="noopener">Sei un professionista? Registrati come PRO</a></div></div>
 <header class="top">
  <div class="wrap bar">
   <a class="logo" href="../" aria-label="Rubinetteriashop, home"><span class="lg-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 10h14a6 6 0 0 1 6 6v2h-5v-2a1 1 0 0 0-1-1H6z" fill="currentColor"/><path d="M23.5 21c0 1.8-1.1 3.5-2 4.5-.9-1-2-2.7-2-4.5a2 2 0 0 1 4 0z" fill="#f2a900"/></svg></span><span class="lg-t"><b>Rubinetteria</b><i>shop</i></span></a>
@@ -42,7 +42,7 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 <p class="note-dash">Da allineare prima della pubblicazione: le FAQ dicono gratis sopra 150 € e 7,99 € sotto; la home dice gratis sopra 299 €; le schede dicono “a partire da 6,99 €”.</p>
 <h2 id="resi">Resi e rimborsi</h2>
 <p>Le condizioni complete sono nella pagina <a href="https://www.rubinetteriashop.com/it/content/1-spedizione-resi-e-rimborsi" rel="noopener">Spedizione resi e rimborsi</a> del negozio.</p>
-<p class="note-dash">Qui il riassunto in tre righe (giorni per il reso, chi paga il ritorno, tempi del rimborso): da collegare, la pagina non è stata letta stanotte.</p>
+<p class="note-dash">Qui il riassunto in tre righe (giorni per il reso, chi paga il ritorno, tempi del rimborso), da completare con le condizioni del negozio.</p>
 <h2 id="pagamenti">Pagamenti e IVA agevolata</h2>
 <ul><li>Pagamento a rate con Scalapay.</li><li>Bonifico bancario: necessario per chiedere l'IVA agevolata.</li><li>Gli altri metodi accettati sono mostrati al checkout.</li></ul>
 <p><b>IVA agevolata (4% o 10%)</b>: registrati, ordina con bonifico, scrivi “richiedo iva agevolata” nelle note e manda alla contabilità SCIA, CILA o autodichiarazione.</p>
@@ -70,6 +70,6 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 </div>
 <p class="legal">Rubinetteriashop srl · P.IVA IT02485410035 · REA 239258 · Sede operativa Via Pietro Durio 125, 28010 Alzo di Pella (NO) · Sede legale Via A. Gramsci 4, 28017 San Maurizio d'Opaglio (NO). Bozza di restyling non ufficiale: prezzi e testi presi dal sito rubinetteriashop.com il 16/10/2026; i pulsanti portano al negozio vero.</p>
 </div></footer>
-<div class="ckbar" role="region" aria-label="Cookie"><p>Usiamo solo cookie tecnici in questa bozza. Nel sito vero qui va la barra cookie piccola, senza coprire il prodotto.</p><button type="button" data-ck>Ok</button></div>
+<div class="ckbar" role="region" aria-label="Cookie"><p>Solo cookie tecnici.</p><button type="button" data-ck>Ok</button></div>
 </body>
 </html>

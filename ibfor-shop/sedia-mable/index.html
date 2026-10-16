@@ -10,12 +10,12 @@
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="image" href="img/47839a4537a6.jpg" fetchpriority="high">
+<link rel="preload" as="image" href="img/47839a4537a6.webp" fetchpriority="high">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"></noscript>
 <link rel="stylesheet" href="../stile.css">
 <script>
-(function(){var d=document.documentElement;if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');}
+(function(){var d=document.documentElement;if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})});}
 try{if(!localStorage.getItem('ck-ok')&&!d.classList.contains('shot'))d.classList.add('ck');}catch(_){d.classList.add('ck')}
 document.addEventListener('click',function(ev){var b=ev.target.closest('[data-ck]');if(b){d.classList.remove('ck');try{localStorage.setItem('ck-ok','1')}catch(_){}}
 var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gmain');if(m){m.src=t.getAttribute('data-thumb');m.alt=t.querySelector('img').alt;document.querySelectorAll('[data-thumb]').forEach(function(x){x.removeAttribute('aria-current')});t.setAttribute('aria-current','true');}}});
@@ -28,7 +28,7 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 <header class="top">
  <div class="wrap bar">
   <a class="logo" href="../" aria-label="IBFOR, home"><span class="lg">IBFOR</span><span class="lg-s">Your design shop</span></a>
-  <div class="hact"><a class="hcall" href="tel:+393481483818">Chiama</a><a class="hcart" href="https://www.ibfor.com/it/" rel="noopener">Negozio</a></div>
+  <div class="hact"><a class="hcall" href="tel:+393481483818">Chiama</a><a class="hcart" href="https://www.ibfor.com/it/" rel="noopener">Catalogo</a></div>
  </div>
  <nav class="cats" aria-label="Reparti"><div class="wrap cats-in"><a href="../sedie/" aria-current="page">Sedie</a><a href="../divani-e-poltrone/">Divani e poltrone</a><a href="../tavoli/">Tavoli</a><a href="../credenze-e-librerie/">Credenze e librerie</a><a href="https://www.ibfor.com/it/mobili-su-misura-2/" rel="noopener">Su misura <span aria-hidden="true">↗</span></a><a href="https://www.ibfor.com/it/realizzazioni/" rel="noopener">Realizzazioni <span aria-hidden="true">↗</span></a><a href="https://www.ibfor.com/it/tutti-i-prodotti/noleggio/" rel="noopener">Noleggio <span aria-hidden="true">↗</span></a><a href="https://www.ibfor.com/it/tutti-i-prodotti/promozioni/" rel="noopener">Promozioni <span aria-hidden="true">↗</span></a><a href="../assistenza/">Assistenza</a><a href="../chi-siamo/">Chi siamo</a></div></nav>
 </header>
@@ -36,15 +36,16 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 
 <div class="wrap"><p class="crumbs"><a href="../">Home</a> / <a href="../sedie/">Sedie</a></p>
 <div class="pwrap">
- <div><div class="gal-main"><img id="gmain" src="img/47839a4537a6.jpg" width="600" height="750" alt="Sedia Mable" fetchpriority="high"></div><div class="thumbs"><button type="button" data-thumb="img/47839a4537a6.jpg" aria-current="true" aria-label="Foto 1"><img src="img/47839a4537a6.jpg" width="600" height="750" alt="Sedia Mable, foto 1" loading="lazy"></button><button type="button" data-thumb="img/7888ecf12b02.jpg" aria-label="Foto 2"><img src="img/7888ecf12b02.jpg" width="600" height="750" alt="Sedia Mable, foto 2" loading="lazy"></button><button type="button" data-thumb="img/ea00dc639866.jpg" aria-label="Foto 3"><img src="img/ea00dc639866.jpg" width="600" height="750" alt="Sedia Mable, foto 3" loading="lazy"></button></div></div>
+ <div><div class="gal-main"><img id="gmain" src="img/47839a4537a6.webp" width="1000" height="1000" alt="Sedia Mable" fetchpriority="high"></div></div>
  <div class="pinfo">
   <h1>Sedia Mable</h1><p class="psub">Sedia imbottita da pranzo, gambe in metallo cromato o laccato</p>
   <div class="pprice"><b>144 €</b></div>
   <p class="ptax">IVA inclusa · pronto per la spedizione dal 6 al 13 novembre</p>
-  <a class="btn buy" style="width:100%" href="https://www.ibfor.com/it/sedie-e-tavoli/sedie/sedia-mable-3/" rel="noopener">Scegli tessuto e aggiungi al carrello</a>
+  <a class="btn buy" style="width:100%" href="https://www.ibfor.com/it/sedie-e-tavoli/sedie/sedia-mable-3/" rel="noopener">Scegli tessuto e acquista</a>
   <p class="ship1"><b>Spedizione gratuita</b> in Italia (isole escluse), a bordo strada · <b>Paghi alla consegna</b> o a rate Heylight · <b>Garanzia</b> 2 anni · <a href="../assistenza/#resi">Reso entro 7 giorni</a></p>
+  <ul class="trust"><li>Prodotto nel laboratorio IBFOR di Empoli</li><li>Lo vedi dal vivo a Empoli, San Donato Milanese o Parigi</li><li>Hanno arredato hotel come Hilton Dubrovnik e Shangri-La Dubai</li><li>Garanzia 2 anni, campioni di tessuto gratuiti</li></ul>
   <p style="margin:16px 0 6px"><b>Rivestimenti e finiture</b></p><ul class="opts"><li>Cotone 100% (circa 37 colori)</li><li>Velluto antimacchia (circa 40 colori)</li><li>Pelle anilina</li><li>Pelle smerigliato</li><li>Pelle Boxland</li><li>Gambe cromo, oro lucido o RAL a scelta</li></ul>
-  <p>Sedia da pranzo contemporanea per casa o locali: schienale e seduta imbottiti, gambe in metallo cromato o laccato in qualsiasi RAL. Esiste anche con schienale trapuntato.</p>
+  <p style="margin-top:14px">Sedia da pranzo contemporanea per casa o locali: schienale e seduta imbottiti, gambe in metallo cromato o laccato in qualsiasi RAL. Esiste anche con schienale trapuntato.</p>
   <p><a href="mailto:info@ibfor.com?subject=Sedia Mable">Vuoi un campione gratuito di tessuto o una misura diversa? Scrivici</a></p>
  </div>
 </div>
@@ -54,20 +55,20 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
  <details><summary>Si può fare su misura?</summary><p>Sì: misure, materiali, rivestimenti e colori si personalizzano. Per le misure non selezionabili online si chiede un preventivo.</p></details>
  <details><summary>Quando arriva?</summary><p>Produzione di circa 2–3 settimane dalla conferma; il corriere telefona almeno un giorno prima della consegna.</p></details>
  <details><summary>Me lo montate?</summary><p>Consegna al piano e montaggio sono disponibili su richiesta, con preventivo in base alla città. Nel pacco standard ci sono attrezzi e istruzioni.</p></details>
- </div><div class="rev-ph"><b>Qui le recensioni dei clienti</b> – da collegare: la scheda sul sito non ha recensioni.</div></div>
+ </div></div>
 </div></section>
-<section class="sec" style="padding-top:0"><h2>Abbinalo con</h2><ul class="grid"><li class="card"><a href="../tavolo-calla/">
-<span class="ph"><img src="img/fd4d0e6b385c.jpg" width="600" height="750" loading="lazy" alt="Tavolo Calla"></span>
-<span class="pname">Tavolo Calla</span><span class="pmeta">Piano a botte in ceramica effetto marmo · da 200×100 cm</span>
-<span class="price"><b>2.130 €</b></span></a></li><li class="card"><a href="https://www.ibfor.com/it/sedie-e-tavoli/tavoli/tavolo-rubens/" rel="noopener">
-<span class="ph"><img src="img/e13aa55cde74.jpg" width="600" height="750" loading="lazy" alt="Tavolo Rubens"></span>
+<section class="sec" style="padding-top:0"><h2>Abbinalo con</h2><ul class="grid"><li class="card"><a href="https://www.ibfor.com/it/sedie-e-tavoli/tavoli/tavolo-rubens/" rel="noopener">
+<span class="ph"><img src="img/e13aa55cde74.webp" width="600" height="600" loading="lazy" alt="Tavolo Rubens"></span>
 <span class="pname">Tavolo Rubens</span><span class="pmeta">Piano in ceramica</span>
-<span class="price"><b>1.802 €</b></span></a></li><li class="card"><a href="https://www.ibfor.com/it/sedie-e-tavoli/tavoli/tavolo-sally-in-ceramica/" rel="noopener">
-<span class="ph"><img src="img/7500a911600d.jpg" width="600" height="750" loading="lazy" alt="Tavolo Sally in ceramica"></span>
+<span class="price"><b>1.802 €</b></span></a></li><li class="card"><a href="https://www.ibfor.com/it/sedie-e-tavoli/tavoli/tavolo-loto/" rel="noopener">
+<span class="ph"><img src="img/9dc1ca4fa5f4.webp" width="600" height="600" loading="lazy" alt="Tavolo Loto"></span>
+<span class="pname">Tavolo Loto</span><span class="pmeta">Piano in ceramica, base in legno</span>
+<span class="price"><b>2.130 €</b></span></a></li><li class="card"><a href="https://www.ibfor.com/it/sedie-e-tavoli/tavoli/tavolo-sally-in-ceramica/" rel="noopener">
+<span class="ph"><img src="img/7500a911600d.webp" width="600" height="600" loading="lazy" alt="Tavolo Sally in ceramica"></span>
 <span class="pname">Tavolo Sally in ceramica</span><span class="pmeta">Piano a botte effetto marmo</span>
 <span class="price"><b>1.692 €</b></span></a></li></ul></section>
 </div>
-<div class="stickybuy"><div><b>144 €</b><small>Spedizione gratuita in Italia</small></div><a class="btn buy" href="https://www.ibfor.com/it/sedie-e-tavoli/sedie/sedia-mable-3/" rel="noopener">Configura e acquista</a></div>
+<div class="stickybuy"><div><b>144 €</b><small>Spedizione gratuita in Italia</small></div><a class="btn buy" href="https://www.ibfor.com/it/sedie-e-tavoli/sedie/sedia-mable-3/" rel="noopener">Scegli tessuto e acquista</a></div>
 </main>
 <footer class="foot"><div class="wrap">
 <div class="fgrid">
@@ -78,6 +79,6 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 </div>
 <p class="legal">IBFOR – Your design shop · P.IVA 07228230483 · Via Achille Grandi 3/5, 50053 Empoli (FI). Bozza di restyling non ufficiale: prezzi e testi presi da ibfor.com il 16/10/2026; i pulsanti portano al negozio vero.</p>
 </div></footer>
-<div class="ckbar" role="region" aria-label="Cookie"><p>Questa bozza usa solo cookie tecnici. Nel sito vero: barra piccola qui in basso, mai sopra le foto.</p><button type="button" data-ck>Ok</button></div>
+<div class="ckbar" role="region" aria-label="Cookie"><p>Solo cookie tecnici.</p><button type="button" data-ck>Ok</button></div>
 </body>
 </html>

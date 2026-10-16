@@ -15,7 +15,7 @@
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap"></noscript>
 <link rel="stylesheet" href="../stile.css">
 <script>
-(function(){var d=document.documentElement;if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');}
+(function(){var d=document.documentElement;if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})});}
 try{if(!localStorage.getItem('ck-ok')&&!d.classList.contains('shot'))d.classList.add('ck');}catch(_){d.classList.add('ck')}
 document.addEventListener('click',function(ev){var b=ev.target.closest('[data-ck]');if(b){d.classList.remove('ck');try{localStorage.setItem('ck-ok','1')}catch(_){}}
 var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gmain');if(m){m.src=t.getAttribute('data-thumb');m.alt=t.querySelector('img').alt;document.querySelectorAll('[data-thumb]').forEach(function(x){x.removeAttribute('aria-current')});t.setAttribute('aria-current','true');}}});
@@ -28,7 +28,7 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 <header class="top">
  <div class="wrap bar">
   <a class="logo" href="../" aria-label="IBFOR, home"><span class="lg">IBFOR</span><span class="lg-s">Your design shop</span></a>
-  <div class="hact"><a class="hcall" href="tel:+393481483818">Chiama</a><a class="hcart" href="https://www.ibfor.com/it/" rel="noopener">Negozio</a></div>
+  <div class="hact"><a class="hcall" href="tel:+393481483818">Chiama</a><a class="hcart" href="https://www.ibfor.com/it/" rel="noopener">Catalogo</a></div>
  </div>
  <nav class="cats" aria-label="Reparti"><div class="wrap cats-in"><a href="../sedie/">Sedie</a><a href="../divani-e-poltrone/">Divani e poltrone</a><a href="../tavoli/">Tavoli</a><a href="../credenze-e-librerie/" aria-current="page">Credenze e librerie</a><a href="https://www.ibfor.com/it/mobili-su-misura-2/" rel="noopener">Su misura <span aria-hidden="true">↗</span></a><a href="https://www.ibfor.com/it/realizzazioni/" rel="noopener">Realizzazioni <span aria-hidden="true">↗</span></a><a href="https://www.ibfor.com/it/tutti-i-prodotti/noleggio/" rel="noopener">Noleggio <span aria-hidden="true">↗</span></a><a href="https://www.ibfor.com/it/tutti-i-prodotti/promozioni/" rel="noopener">Promozioni <span aria-hidden="true">↗</span></a><a href="../assistenza/">Assistenza</a><a href="../chi-siamo/">Chi siamo</a></div></nav>
 </header>
@@ -36,23 +36,23 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 
 <div class="wrap"><p class="crumbs"><a href="../">Home</a> / Credenze e librerie</p>
 <div class="chead"><h1>Credenze e librerie</h1><p>Credenze, librerie e scrittoi in legno cannettato o laccato in qualsiasi colore RAL.</p><p class="count">Qui 6 modelli scelti; il catalogo completo conta oltre 1.000 prodotti.</p></div>
-<ul class="grid"><li class="card"><a href="https://www.ibfor.com/it/complementi/librerie/libreria-millerighe-legno/" rel="noopener">
-<span class="ph"><img src="img/a18040cde032.jpg" width="600" height="750" loading="lazy" alt="Libreria Millerighe legno"></span>
+<ul class="grid"><li class="card"><a href="../libreria-millerighe/">
+<span class="ph"><img src="img/a18040cde032.webp" width="600" height="600" loading="lazy" alt="Libreria Millerighe legno"></span>
 <span class="pname">Libreria Millerighe legno</span><span class="pmeta">L 180 × P 47 × H 195 cm · noce canaletto</span>
 <span class="price"><b>5.139 €</b></span></a></li><li class="card"><a href="https://www.ibfor.com/it/complementi/librerie/libreria-cannet%C3%A9-legno/" rel="noopener">
-<span class="ph"><img src="img/7ea8457550cb.webp" width="600" height="750" loading="lazy" alt="Libreria Cannetè legno"></span>
+<span class="ph"><img src="img/7ea8457550cb.webp" width="600" height="600" loading="lazy" alt="Libreria Cannetè legno"></span>
 <span class="pname">Libreria Cannetè legno</span><span class="pmeta">Ante cannettate</span>
 <span class="price"><b>4.925 €</b></span></a></li><li class="card"><a href="https://www.ibfor.com/it/complementi/credenze/credenza-millerighe-legno/" rel="noopener">
-<span class="ph"><img src="img/9cffd9483ece.webp" width="600" height="750" loading="lazy" alt="Credenza Millerighe legno"></span>
+<span class="ph"><img src="img/9cffd9483ece.webp" width="600" height="600" loading="lazy" alt="Credenza Millerighe legno"></span>
 <span class="pname">Credenza Millerighe legno</span><span class="pmeta">Ante millerighe</span>
 <span class="price"><b>2.343 €</b></span></a></li><li class="card"><a href="https://www.ibfor.com/it/complementi/credenze/credenza-ginevra-laccata/" rel="noopener">
-<span class="ph"><img src="img/fc5b928c5102.webp" width="600" height="750" loading="lazy" alt="Credenza Ginevra laccata"></span>
+<span class="ph"><img src="img/fc5b928c5102.webp" width="600" height="600" loading="lazy" alt="Credenza Ginevra laccata"></span>
 <span class="pname">Credenza Ginevra laccata</span><span class="pmeta">Piano in ceramica, piedini in metallo</span>
 <span class="price"><b>2.685 €</b></span></a></li><li class="card"><a href="https://www.ibfor.com/it/complementi/credenze/credenza-alicante-alta-laccata/" rel="noopener">
-<span class="ph"><img src="img/db49e4386aea.jpg" width="600" height="750" loading="lazy" alt="Credenza Alicante alta laccata"></span>
+<span class="ph"><img src="img/db49e4386aea.webp" width="600" height="600" loading="lazy" alt="Credenza Alicante alta laccata"></span>
 <span class="pname">Credenza Alicante alta laccata</span><span class="pmeta">Piano in ceramica, piedini in metallo</span>
 <span class="price"><b>1.885 €</b></span></a></li><li class="card"><a href="https://www.ibfor.com/it/complementi/consolle/scrittoio-calla/" rel="noopener">
-<span class="ph"><img src="img/032b95c7a9fd.jpg" width="600" height="750" loading="lazy" alt="Scrittoio Calla"></span>
+<span class="ph"><img src="img/032b95c7a9fd.webp" width="600" height="600" loading="lazy" alt="Scrittoio Calla"></span>
 <span class="pname">Scrittoio Calla</span><span class="pmeta">Basi a mezzaluna</span>
 <span class="price"><b>1.124 €</b></span></a></li></ul>
 <div class="more"><p><b>Tutti i modelli</b>, con il configuratore di tessuti, pelli e colori, sono sul negozio.</p><a class="btn buy" href="https://www.ibfor.com/it/tutti-i-prodotti/" rel="noopener">Vedi tutti i prodotti</a></div>
@@ -73,6 +73,6 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 </div>
 <p class="legal">IBFOR – Your design shop · P.IVA 07228230483 · Via Achille Grandi 3/5, 50053 Empoli (FI). Bozza di restyling non ufficiale: prezzi e testi presi da ibfor.com il 16/10/2026; i pulsanti portano al negozio vero.</p>
 </div></footer>
-<div class="ckbar" role="region" aria-label="Cookie"><p>Questa bozza usa solo cookie tecnici. Nel sito vero: barra piccola qui in basso, mai sopra le foto.</p><button type="button" data-ck>Ok</button></div>
+<div class="ckbar" role="region" aria-label="Cookie"><p>Solo cookie tecnici.</p><button type="button" data-ck>Ok</button></div>
 </body>
 </html>
