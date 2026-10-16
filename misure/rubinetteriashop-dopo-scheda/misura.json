@@ -1,0 +1,117 @@
+{
+  "slug": "rubinetteriashop-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/miscelatore-vasca-gio-ponti-1040f2140021/",
+  "misuratoIl": "2026-10-16T03:06:02.993Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 255,
+  "lcpMs": 282,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/miscelatore-vasca-gio-ponti-1040f2140021/img/ffe25cee5",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/miscelatore-vasca-gio-ponti-1040f2140021/",
+  "titolo": "Miscelatore esterno per vasca con colonne a pavimento e doccetta, cromo – 1040F2140021 – 1.125,91 € | Rubinetteriashop",
+  "descrizione": "Mamoli · Gio Ponti: Miscelatore esterno per vasca con colonne a pavimento e doccetta, cromo – 1040F2140021 a 1.125,91 € invece di 2.010,56 €. Dati tecnici, garanzia e spedizione in Italia.",
+  "h1": [
+    "Mamoli Gio Ponti – miscelatore vasca a pavimento con doccetta, cromo"
+  ],
+  "ttfb": 84,
+  "fcp": 195,
+  "domReady": 187,
+  "load": 253,
+  "pesoKB": 114,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/miscelatore-vasca-gio-ponti-1040f2140021/img/ffe25cee5954.webp",
+      "kb": 15
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/miscelatore-vasca-gio-ponti-1040f2140021/img/d596a8a4cfbc.webp",
+      "kb": 12
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/miscelatore-vasca-gio-ponti-1040f2140021/img/00041ffe95b1.webp",
+      "kb": 9
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/miscelatore-vasca-gio-ponti-1040f2140021/img/d32526248b71.webp",
+      "kb": 6
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/miscelatore-vasca-gio-ponti-1040f2140021/img/8cd5637eee2a.webp",
+      "kb": 5
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 725,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "support@rubinetteriashop.com"
+  ],
+  "telefono": [
+    "+390322097686"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/chi-siamo/"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/assistenza/#resi"
+    },
+    {
+      "t": "Resi e rimborsi: leggi le condizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/assistenza/#resi"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/assistenza/#resi"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 58,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 18,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 18,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

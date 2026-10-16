@@ -1,0 +1,105 @@
+{
+  "slug": "rubinetteriashop-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/",
+  "misuratoIl": "2026-10-16T03:05:58.948Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 334,
+  "lcpMs": 459,
+  "lcpElemento": "H1 ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/",
+  "titolo": "Rubinetteriashop – rubinetti e arredo bagno dei marchi italiani, prezzi scontati",
+  "descrizione": "Rubinetti, miscelatori, box doccia e arredo bagno di Mamoli, Paffoni, Paini, Pollini e altri marchi italiani. IVA agevolata, ordini anche al telefono. Bozza di restyling.",
+  "h1": [
+    "Rubinetti dei marchi italiani, con lo sconto già nel prezzo."
+  ],
+  "ttfb": 163,
+  "fcp": 292,
+  "domReady": 281,
+  "load": 332,
+  "pesoKB": 158,
+  "richieste": 10,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/img/5b5ef2fab42a.webp",
+      "kb": 18
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/img/ffe25cee5954.webp",
+      "kb": 15
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/img/d596a8a4cfbc.webp",
+      "kb": 13
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/img/4c0c0893e43d.webp",
+      "kb": 12
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/img/694a04141251.webp",
+      "kb": 8
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "support@rubinetteriashop.com"
+  ],
+  "telefono": [
+    "+390322097686"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/assistenza/#resi"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/rubinetteriashop-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 124,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 17,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 21,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

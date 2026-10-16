@@ -1,0 +1,105 @@
+{
+  "slug": "ibfor-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/",
+  "misuratoIl": "2026-10-16T03:06:06.939Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 250,
+  "lcpMs": 413,
+  "lcpElemento": "H1 ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/ibfor-shop/",
+  "titolo": "IBFOR – arredamento di design prodotto in Italia: divani, tavoli, sedie su misura",
+  "descrizione": "Divani, poltrone, tavoli, sedie e librerie di design prodotti a Empoli. Su misura, spedizione gratuita in Italia, paghi alla consegna. Bozza di restyling.",
+  "h1": [
+    "Divani, sedie e tavoli su misura, dal laboratorio di Empoli."
+  ],
+  "ttfb": 79,
+  "fcp": 205,
+  "domReady": 193,
+  "load": 248,
+  "pesoKB": 293,
+  "richieste": 12,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/img/a18040cde032.webp",
+      "kb": 21
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/img/48455200f756.webp",
+      "kb": 19
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/img/8b534e7c8103.webp",
+      "kb": 10
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/img/265eeeb5df5d.webp",
+      "kb": 9
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/img/6083bd89de02.webp",
+      "kb": 9
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@ibfor.com"
+  ],
+  "telefono": [
+    "+393481483818"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizione e consegna",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Reso e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/assistenza/#resi"
+    },
+    {
+      "t": "Contatti e showroom",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 87,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 25,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 19,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

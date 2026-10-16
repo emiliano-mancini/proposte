@@ -1,0 +1,105 @@
+{
+  "slug": "ibfor-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/divano-firenze/",
+  "misuratoIl": "2026-10-16T03:06:10.887Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 206,
+  "lcpMs": 161,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/ibfor-shop/divano-firenze/img/8b534e7c8103.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/ibfor-shop/divano-firenze/",
+  "titolo": "Divano Firenze – 1.163 € | IBFOR",
+  "descrizione": "Divano Firenze IBFOR a 1.163 €: Divano moderno con base in acciaio cromato, anche su misura. Spedizione gratuita in Italia, paghi alla consegna.",
+  "h1": [
+    "Divano Firenze"
+  ],
+  "ttfb": 88,
+  "fcp": 142,
+  "domReady": 135,
+  "load": 204,
+  "pesoKB": 232,
+  "richieste": 6,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/divano-firenze/img/eb9c125dee4a.webp",
+      "kb": 14
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/divano-firenze/img/8b534e7c8103.webp",
+      "kb": 10
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/divano-firenze/img/be7ce701ac9b.webp",
+      "kb": 7
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ibfor-shop/divano-firenze/img/85afc12a72cb.webp",
+      "kb": 6
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@ibfor.com"
+  ],
+  "telefono": [
+    "+393481483818"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/chi-siamo/"
+    },
+    {
+      "t": "Reso entro 7 giorni",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/assistenza/#resi"
+    },
+    {
+      "t": "Spedizione e consegna",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Reso e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/assistenza/#resi"
+    },
+    {
+      "t": "Contatti e showroom",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ibfor-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 69,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 18,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 16,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
