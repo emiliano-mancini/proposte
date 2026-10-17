@@ -18,19 +18,21 @@
 (function(){var d=document.documentElement;if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})});}
 try{if(!localStorage.getItem('ck-ok')&&!d.classList.contains('shot'))d.classList.add('ck');}catch(_){if(!d.classList.contains('shot'))d.classList.add('ck')}
 document.addEventListener('click',function(ev){var b=ev.target.closest('[data-ck]');if(b){d.classList.remove('ck');try{localStorage.setItem('ck-ok','1')}catch(_){}}
-var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gmain');if(m){m.src=t.getAttribute('data-thumb');m.alt=t.querySelector('img').alt;document.querySelectorAll('[data-thumb]').forEach(function(x){x.removeAttribute('aria-current')});t.setAttribute('aria-current','true');}}});
+});
+if('IntersectionObserver' in window){document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('.buy .btn');if(!b)return;new IntersectionObserver(function(e){d.classList.toggle('stk',!e[0].isIntersecting&&e[0].boundingClientRect.top<0)}).observe(b)})}else{d.classList.add('stk')}
 })();
 </script>
 </head>
 <body class="">
 <div class="draft">Proposta di restyling – bozza non ufficiale</div>
-<div class="topline"><div class="wrap"><span>Casse di agrumi: spedizione gratuita</span><span>Consegna in 24/48 ore in Italia</span><span>Ordina anche su WhatsApp</span></div></div>
+<div class="topline"><div class="wrap"><span>Preordine arance BIO: 500 g di limoni in omaggio</span><span>Casse di agrumi: spedizione gratuita</span><span>Consegna in 24/48 ore in Italia</span><span>Ordina anche su WhatsApp</span></div></div>
 <header class="top">
  <div class="wrap bar">
-  <a class="logo" href="../" aria-label="Azienda Agricola Virone, home"><img src="img/798d9fffa0cf.png" alt="Azienda Agricola Virone" width="150" height="63"></a>
+  <a class="logo" href="../" aria-label="Azienda Agricola Virone, home"><img src="img/798d9fffa0cf.webp" alt="Azienda Agricola Virone" width="600" height="225"></a>
   <nav class="tl" aria-label="Informazioni"><a href="../chi-siamo/">Chi siamo</a><a href="../assistenza/">Spedizioni e aiuto</a></nav>
-  <div class="hact"><a class="btn sm wa" href="https://wa.me/393886450716" aria-label="Ordina su WhatsApp">WhatsApp</a><a class="btn sm" href="https://aziendaagricolavirone.it/cart/">Carrello</a></div>
+  <div class="hact"><a class="btn sm wa" href="https://wa.me/393886450716" aria-label="Ordina su WhatsApp"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg><span class="wa-t">WhatsApp</span></a><a class="btn sm" href="https://aziendaagricolavirone.it/cart/">Carrello</a></div>
  </div>
+ <form class="srch wrap" action="https://aziendaagricolavirone.it/" method="get" role="search"><label class="sr" for="q">Cerca nel negozio</label><input id="q" name="s" type="search" placeholder="Cerca tra 127 prodotti…"><input type="hidden" name="post_type" value="product"><button type="submit">Cerca</button></form>
  <nav class="cats" aria-label="Reparti"><div class="wrap cats-in"><a href="../agrumi/">Agrumi di Sicilia</a>
 <a href="../olio/" aria-current="page">Olio extravergine</a>
 <a href="../dolci/">Dolci tipici</a>
@@ -55,11 +57,12 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
  <h1>Olio extravergine BIO</h1><p class="lead">Olio nuovo della campagna 2026/27 da olive biologiche, in latta da 3 e 10 litri o da 5 litri. Fino al −20% sul prezzo pieno.</p>
 </div></section>
 <section style="padding-top:0"><div class="wrap">
- <div class="count"><p class="muted"><b>3 prodotti</b> in questo reparto</p><a class="btn ghost sm" href="https://aziendaagricolavirone.it/categoria-prodotto/olio-extravergine-di-oliva/">Vedi il reparto sul sito</a></div>
- <div class="grid g4"><a class="pc" href="../olio-bio-3l/"><span class="pimg"><img src="img/a345cefd9367.jpg" alt="Olio extravergine BIO – latta 3 L" width="350" height="350" loading="lazy" decoding="async"><span class="badge">−20% olio nuovo 26/27</span></span><span class="pname">Olio extravergine BIO – latta 3 L</span><span class="pprice"><b>47,90 €</b><s>59,90 €</s></span></a><a class="pc" href="https://aziendaagricolavirone.it/prodotto/olio-extravergine-di-oliva-nocellara-bottiglia-da-5-l/"><span class="pimg"><img src="img/c5a29ffff4fd.jpg" alt="Olio extravergine BIO – 5 L" width="350" height="350" loading="lazy" decoding="async"><span class="badge">−20% olio nuovo 26/27</span></span><span class="pname">Olio extravergine BIO – 5 L</span><span class="pprice"><b>79,90 €</b><s>99,94 €</s></span></a><a class="pc" href="https://aziendaagricolavirone.it/prodotto/olio-extravergine-di-oliva-nocellara-latta-da-10-l/"><span class="pimg"><img src="img/a345cefd9367.jpg" alt="Olio extravergine BIO – latta 10 L" width="350" height="350" loading="lazy" decoding="async"><span class="badge">−20% olio nuovo 26/27</span></span><span class="pname">Olio extravergine BIO – latta 10 L</span><span class="pprice"><b>149,90 €</b><s>187,20 €</s></span></a></div>
+ <p class="muted count"><b>3 prodotti</b></p>
  
+ <div class="grid g4"><a class="pc" href="../olio-bio-3l/"><span class="pimg"><img src="img/a345cefd9367.webp" alt="Olio extravergine BIO – latta 3 L" width="350" height="350" loading="lazy" decoding="async"><span class="badge">−20% olio nuovo 26/27</span></span><span class="pname">Olio extravergine BIO – latta 3 L</span><span class="pprice"><b>47,90 €</b><s>59,90 €</s></span></a><a class="pc" href="https://aziendaagricolavirone.it/prodotto/olio-extravergine-di-oliva-nocellara-bottiglia-da-5-l/"><span class="pimg"><img src="img/c5a29ffff4fd.webp" alt="Olio extravergine BIO – 5 L" width="350" height="350" loading="lazy" decoding="async"><span class="badge">−20% olio nuovo 26/27</span></span><span class="pname">Olio extravergine BIO – 5 L</span><span class="pprice"><b>79,90 €</b><s>99,94 €</s></span></a><a class="pc" href="https://aziendaagricolavirone.it/prodotto/olio-extravergine-di-oliva-nocellara-latta-da-10-l/"><span class="pimg"><img src="img/a345cefd9367.webp" alt="Olio extravergine BIO – latta 10 L" width="350" height="350" loading="lazy" decoding="async"><span class="badge">−20% olio nuovo 26/27</span></span><span class="pname">Olio extravergine BIO – latta 10 L</span><span class="pprice"><b>149,90 €</b><s>187,20 €</s></span></a></div>
+ <p class="more"><a class="btn ghost sm" href="https://aziendaagricolavirone.it/categoria-prodotto/olio-extravergine-di-oliva/">Altri prodotti del reparto sul negozio</a></p>
  <div class="more"><div class="perks">
-<div><b>Casse di agrumi gratis</b><span>spedizione inclusa nel prezzo</span></div>
+<div><b>Spedizione gratis sulle casse</b><span>per tutte le casse di agrumi</span></div>
 <div><b>24/48 ore</b><span>agrumi spediti lunedì e martedì</span></div>
 <div><b>Paghi come vuoi</b><span>carta, PayPal, bonifico, Amazon Pay, contrassegno (+5 €)</span></div>
 <div><b>Ordini anche al telefono</b><span>o su WhatsApp, lun–sab 9–18</span></div>
@@ -68,13 +71,13 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 </main>
 <footer class="foot">
  <div class="wrap fgrid">
-  <div><img src="img/798d9fffa0cf.png" alt="Azienda Agricola Virone" width="180" height="76" loading="lazy" class="flogo"><p>Agrumi di Ribera e prodotti tipici siciliani, coltivati e preparati dalla famiglia Virone da oltre tre generazioni.</p><p>Azienda Agricola Virone · P.IVA 02685820843<br>Sede legale: Via Pio la Torre 6, Ribera (AG)<br>Campagna e spedizioni: Contrada Donna Vanna, Ribera (AG)</p></div>
+  <div><img src="img/798d9fffa0cf.webp" alt="Azienda Agricola Virone" width="600" height="225" loading="lazy" class="flogo"><p>Agrumi di Ribera e prodotti tipici siciliani, coltivati e preparati dalla famiglia Virone da oltre tre generazioni.</p><p>Azienda Agricola Virone · P.IVA 02685820843<br>Sede legale: Via Pio la Torre 6, Ribera (AG)<br>Campagna e spedizioni: Contrada Donna Vanna, Ribera (AG)</p></div>
 <div><h3>Negozio</h3><ul><li><a href="../agrumi/">Agrumi di Sicilia</a></li><li><a href="../olio/">Olio extravergine</a></li><li><a href="../dolci/">Dolci tipici</a></li><li><a href="../sughi-e-ragu/">Sughi e ragù</a></li><li><a href="../pate-e-pesti/">Patè e pesti</a></li><li><a href="https://aziendaagricolavirone.it/shop/">Tutti i 127 prodotti</a></li></ul></div>
 <div><h3>Aiuto</h3><ul><li><a href="../assistenza/#spedizioni">Spedizioni</a></li><li><a href="../assistenza/#pagamenti">Pagamenti</a></li><li><a href="../assistenza/#resi">Pacchi danneggiati e resi</a></li><li><a href="../assistenza/#faq">Domande frequenti</a></li><li><a href="../chi-siamo/">Chi siamo</a></li></ul></div>
 <div><h3>Contatti</h3><ul><li>Telefono e WhatsApp<br><a href="tel:+393886450716">+39 388 645 0716</a></li><li><a href="mailto:info@aziendaagricolavirone.it">info@aziendaagricolavirone.it</a></li><li>Lunedì–sabato 9:00–18:00</li><li><a href="https://www.facebook.com/vironesicilia">Facebook</a> · <a href="https://www.instagram.com/azienda_agricola_virone">Instagram</a></li></ul></div>
  </div>
  <div class="wrap fnote">Bozza di restyling non ufficiale preparata a scopo dimostrativo: prezzi, testi e foto sono presi dal sito aziendaagricolavirone.it il 17/10/2026; i pulsanti di acquisto portano al sito vero.</div>
 </footer>
-<div class="ckbar" role="region" aria-label="Cookie"><p>Usiamo solo cookie tecnici in questa bozza.</p><button type="button" data-ck>Ok</button></div>
+<div class="ckbar" role="region" aria-label="Cookie"><p>Bozza senza cookie di profilazione; i caratteri arrivano da Google Fonts.</p><button type="button" data-ck>Ok</button></div>
 </body>
 </html>

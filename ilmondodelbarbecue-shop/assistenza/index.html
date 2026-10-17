@@ -18,7 +18,8 @@
 (function(){var d=document.documentElement;if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})});}
 try{if(!localStorage.getItem('ck-ok')&&!d.classList.contains('shot'))d.classList.add('ck');}catch(_){if(!d.classList.contains('shot'))d.classList.add('ck')}
 document.addEventListener('click',function(ev){var b=ev.target.closest('[data-ck]');if(b){d.classList.remove('ck');try{localStorage.setItem('ck-ok','1')}catch(_){}}
-var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gmain');if(m){m.src=t.getAttribute('data-thumb');m.alt=t.querySelector('img').alt;document.querySelectorAll('[data-thumb]').forEach(function(x){x.removeAttribute('aria-current')});t.setAttribute('aria-current','true');}}});
+});
+if('IntersectionObserver' in window){document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('.buy .btn');if(!b)return;new IntersectionObserver(function(e){d.classList.toggle('stk',!e[0].isIntersecting&&e[0].boundingClientRect.top<0)}).observe(b)})}else{d.classList.add('stk')}
 })();
 </script>
 </head>
@@ -27,10 +28,11 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
 <div class="topline"><div class="wrap"><span>Spedizione gratuita sopra 129 € (isole escluse)</span><span>Pronta consegna: parte entro 2 giorni lavorativi</span><span>Showroom di 900 m² a Padova</span></div></div>
 <header class="top">
  <div class="wrap bar">
-  <a class="logo" href="../" aria-label="Il Mondo del Barbecue, home"><img src="img/fa4ba17a43f1.jpg" alt="Il Mondo del Barbecue" width="120" height="120"><span class="lg-t">Il Mondo<br>del Barbecue</span></a>
+  <a class="logo" href="../" aria-label="Il Mondo del Barbecue, home"><img src="img/fa4ba17a43f1.webp" alt="Il Mondo del Barbecue" width="100" height="124"><span class="lg-t">Il Mondo<br>del Barbecue</span><span class="wcs">Weber<br>Certified Store</span></a>
   <nav class="tl" aria-label="Informazioni"><a href="../chi-siamo/">Chi siamo</a><a href="../assistenza/" aria-current="page">Spedizioni e aiuto</a></nav>
   <div class="hact"><a class="btn sm ghost wa" href="https://wa.me/393486896582" aria-label="Consulenza su WhatsApp">Consulenza</a><a class="btn sm" href="https://www.ilmondodelbarbecue.it/carrello">Carrello</a></div>
  </div>
+ <form class="srch wrap" action="https://www.ilmondodelbarbecue.it/index.php" method="get" role="search"><label class="sr" for="q">Cerca nel negozio</label><input id="q" name="s" type="search" placeholder="Cerca tra 4.000 prodotti…"><input type="hidden" name="controller" value="search"><button type="submit">Cerca</button></form>
  <nav class="cats" aria-label="Reparti"><div class="wrap cats-in"><a href="../barbecue-a-gas/">BBQ a gas</a>
 <a href="../barbecue-a-carbone/">BBQ a carbone</a>
 <a href="../barbecue-a-pellet/">BBQ a pellet</a>
@@ -75,19 +77,19 @@ var t=ev.target.closest('[data-thumb]');if(t){var m=document.getElementById('gma
  <tr><th>Email</th><td><a href="mailto:info@ilmondodelbarbecue.it">info@ilmondodelbarbecue.it</a></td></tr>
  <tr><th>Indirizzo</th><td>Via Santi Fabiano e Sebastiano 3, 35143 Padova (PD)</td></tr>
  <tr><th>Orari</th><td>lun 15–19 · mar–ven 9–13 e 15–19 · sab 9–13 e 14:30–18:30 <span class="mark">nel footer il sabato è 9:30–19:00: da allineare</span></td></tr></table></div>
- <figure class="wide"><img src="img/1780c62fe6f0.jpg" alt="Lo showroom di Padova" width="1200" height="800" loading="lazy"></figure>
+ <figure class="wide"><img src="img/1780c62fe6f0.webp" alt="Lo showroom di Padova" width="800" height="1114" loading="lazy"></figure>
 </div></section>
 
 </main>
 <footer class="foot">
  <div class="wrap fgrid">
-  <div><img src="img/fa4ba17a43f1.jpg" alt="Il Mondo del Barbecue" width="120" height="120" loading="lazy" class="flogo"><p>Showroom di oltre 900 m² a Padova dedicato a barbecue e cucine da esterno. Weber Certified Store.</p><p>FB Service Srl · P.IVA 03644210282 · REA PD32557<br>Via Santi Fabiano e Sebastiano 3, 35143 Padova (PD)</p></div>
+  <div><img src="img/fa4ba17a43f1.webp" alt="Il Mondo del Barbecue" width="100" height="124" loading="lazy" class="flogo"><p>Showroom di oltre 900 m² a Padova dedicato a barbecue e cucine da esterno. Weber Certified Store.</p><p>FB Service Srl · P.IVA 03644210282 · REA PD32557<br>Via Santi Fabiano e Sebastiano 3, 35143 Padova (PD)</p></div>
 <div><h3>Reparti</h3><ul><li><a href="../barbecue-a-gas/">Barbecue a gas</a></li><li><a href="../barbecue-a-carbone/">Barbecue a carbone</a></li><li><a href="../barbecue-a-pellet/">Barbecue a pellet</a></li><li><a href="https://www.ilmondodelbarbecue.it/outdoor-kitchen/">Cucine da esterno</a></li><li><a href="https://www.ilmondodelbarbecue.it/accessori/">Accessori</a></li></ul></div>
 <div><h3>Aiuto</h3><ul><li><a href="../assistenza/#spedizioni">Spedizioni</a></li><li><a href="../assistenza/#pagamenti">Pagamenti e rate</a></li><li><a href="../assistenza/#resi">Resi e garanzia</a></li><li><a href="../assistenza/#faq">Domande frequenti</a></li><li><a href="../chi-siamo/">Chi siamo e showroom</a></li></ul></div>
 <div><h3>Contatti</h3><ul><li>Showroom <a href="tel:+390498803785">049 880 3785</a></li><li>Consulenza WhatsApp <a href="https://wa.me/393486896582">348 689 6582</a></li><li><a href="mailto:info@ilmondodelbarbecue.it">info@ilmondodelbarbecue.it</a></li><li>Lun 15–19 · mar–ven 9–13 e 15–19 · sab 9–13 e 14:30–18:30</li></ul></div>
  </div>
  <div class="wrap fnote">Bozza di restyling non ufficiale preparata a scopo dimostrativo: prezzi, testi e foto sono presi dal sito ilmondodelbarbecue.it il 17/10/2026; i pulsanti di acquisto portano al sito vero.</div>
 </footer>
-<div class="ckbar" role="region" aria-label="Cookie"><p>Usiamo solo cookie tecnici in questa bozza.</p><button type="button" data-ck>Ok</button></div>
+<div class="ckbar" role="region" aria-label="Cookie"><p>Bozza senza cookie di profilazione; i caratteri arrivano da Google Fonts.</p><button type="button" data-ck>Ok</button></div>
 </body>
 </html>
