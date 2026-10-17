@@ -1,0 +1,153 @@
+{
+  "slug": "bbq-regal500x",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-pellet/barbecue-a-pellet-broil-king-regal-500-x",
+  "misuratoIl": "2026-10-17T02:37:08.012Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5010,
+  "lcpMs": 2130,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/26970-pdt_540/barbecue-a-pellet-broil-king-regal-500-x.jpg",
+  "cls": 0.003,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-pellet/barbecue-a-pellet-broil-king-regal-500-x",
+  "titolo": "BARBECUE A PELLET BROIL KING REGAL 500X Broil King Barbecue a pellet | Il Mondo Del Barbecue",
+  "descrizione": "Barbecue a pellet con pannello di controllo digitale illuminato a LED !Temperatura minima costante: 94° C | Temperatura massima: 316° C.Cinque griglie in ghisa pesante trattata.Consumo stimato da 0,3 kg/h a 1,5 kg/h.",
+  "h1": [
+    "BARBECUE A PELLET BROIL KING REGAL 500X"
+  ],
+  "ttfb": 757,
+  "fcp": 1562,
+  "domReady": 2643,
+  "load": 5009,
+  "pesoKB": 7213,
+  "richieste": 180,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "i.ytimg.com",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "cl-pbr.cxr.skeepers.io",
+    "www.paypal.com",
+    "gum.criteo.com",
+    "fast.a.klaviyo.com",
+    "cs.iubenda.com",
+    "www.gstatic.com",
+    "www.paypalobjects.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "static-forms.klaviyo.com",
+    "googleads.g.doubleclick.net",
+    "idb.iubenda.com",
+    "cl-ppr.rr.skeepers.io",
+    "sslwidget.criteo.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/18495-pdt_540/barbecue-a-pellet-broil-king-regal-500-x.jpg",
+      "kb": 76
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/18497-pdt_540/barbecue-a-pellet-broil-king-regal-500-x.jpg",
+      "kb": 73
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/18494-pdt_540/barbecue-a-pellet-broil-king-regal-500-x.jpg",
+      "kb": 67
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/18496-pdt_540/barbecue-a-pellet-broil-king-regal-500-x.jpg",
+      "kb": 51
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 892,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 685,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 403,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 396,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=1090425485&fst=1792204622649&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z991048"
+    },
+    {
+      "status": 999,
+      "url": "https://469594422cdd.w.hcaptcha.com/logo.png"
+    }
+  ]
+}

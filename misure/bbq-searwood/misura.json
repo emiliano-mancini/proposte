@@ -1,0 +1,145 @@
+{
+  "slug": "bbq-searwood",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-pellet/barbecue-a-pellet-weber-searwood",
+  "misuratoIl": "2026-10-17T02:37:18.195Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4202,
+  "lcpMs": 2328,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/26821-pdt_540/barbecue-a-pellet-weber-searwood.jpg",
+  "cls": 0.002,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-pellet/barbecue-a-pellet-weber-searwood",
+  "titolo": "BARBECUE A PELLET WEBER SEARWOOD Barbecue a pellet |Il Mondo Del Barbecue",
+  "descrizione": "Affumica, rosola, arrostisci e molto altro ancora sul barbecue a pellet Searwood® con un intervallo di temperatura completo da 80 a 315 °C e la cottura DirectFlame che crea gustose striature e una deliziosa doratura.",
+  "h1": [
+    "BARBECUE A PELLET WEBER SEARWOOD"
+  ],
+  "ttfb": 773,
+  "fcp": 1574,
+  "domReady": 2531,
+  "load": 4200,
+  "pesoKB": 4535,
+  "richieste": 181,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "i.ytimg.com",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "www.paypal.com",
+    "cl-pbr.cxr.skeepers.io",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "fast.a.klaviyo.com",
+    "www.paypalobjects.com",
+    "www.gstatic.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "gum.criteo.com",
+    "static-forms.klaviyo.com",
+    "cs.iubenda.com",
+    "googleads.g.doubleclick.net",
+    "sslwidget.criteo.com",
+    "cl-ppr.rr.skeepers.io",
+    "idb.iubenda.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/26813-pdt_540/barbecue-a-pellet-weber-searwood.jpg",
+      "kb": 49
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/26829-pdt_540/barbecue-a-pellet-weber-searwood.jpg",
+      "kb": 44
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/26826-pdt_540/barbecue-a-pellet-weber-searwood.jpg",
+      "kb": 34
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1230,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 454,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 448,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=449717800&fst=1792204633350&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z9910484"
+    }
+  ]
+}

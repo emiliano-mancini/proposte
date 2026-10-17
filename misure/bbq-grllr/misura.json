@@ -1,0 +1,148 @@
+{
+  "slug": "bbq-grllr",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/barbecue-da-tavolo-grllr-gourmet-duo-rotondo-l",
+  "misuratoIl": "2026-10-17T02:36:11.960Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4296,
+  "lcpMs": 2301,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/16887-pdt_540/barbecue-da-tavolo-grllr-gourmet-duo-rotondo-l.jpg",
+  "cls": 0.004,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/barbecue-da-tavolo-grllr-gourmet-duo-rotondo-l",
+  "titolo": "BARBECUE DA TAVOLO GRLLR GOURMET DUO ROTONDO L| Il Mondo Del Barbecue",
+  "descrizione": "Migliora la tua esperienza culinaria con il GRLLR Gourmet Duo Rotondo M, la griglia da tavolo perfetta per condividere cibi deliziosi !\nProgettato per una o due persone, questo barbecue leggero e unico ti consente di grigliare le tue carni, frutti di mare e verdure preferiti stando comodamente seduto attorno al tavolo.",
+  "h1": [
+    "GRLLR GOURMET DUO ROTONDO L"
+  ],
+  "ttfb": 754,
+  "fcp": 1563,
+  "domReady": 2598,
+  "load": 4296,
+  "pesoKB": 4129,
+  "richieste": 159,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "upstream.heidipay.com",
+    "static.klaviyo.com",
+    "assets.prestashop3.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "cl-pbr.cxr.skeepers.io",
+    "www.paypal.com",
+    "gum.criteo.com",
+    "cs.iubenda.com",
+    "fast.a.klaviyo.com",
+    "www.gstatic.com",
+    "www.paypalobjects.com",
+    "static-forms.klaviyo.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "googleads.g.doubleclick.net",
+    "idb.iubenda.com",
+    "csp.withgoogle.com",
+    "cl-ppr.rr.skeepers.io",
+    "sslwidget.criteo.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/16887-pdt_540/barbecue-da-tavolo-grllr-gourmet-duo-rotondo-l.jpg",
+      "kb": 28
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/m/6.jpg",
+      "kb": 17
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/16919-home_default/piastra-per-grllr-gourmet-duo-roton-l.jpg",
+      "kb": 14
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 899,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 465,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 411,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=299508407&fst=1792204567089&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1h1v893849886z99104"
+    },
+    {
+      "status": 999,
+      "url": "https://csp.withgoogle.com/csp/frame-ancestors/38fac9d5b82543fc4729580d18ff2d3d"
+    }
+  ]
+}

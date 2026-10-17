@@ -1,0 +1,152 @@
+{
+  "slug": "bbq-pro22ck",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/barbecue-a-carbone-napoleon-pro22ck-c3",
+  "misuratoIl": "2026-10-17T02:36:23.060Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4830,
+  "lcpMs": 2288,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/18862-pdt_540/barbecue-a-carbone-napoleon-pro22ck-c3.jpg",
+  "cls": 0.001,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/barbecue-a-carbone-napoleon-pro22ck-c3",
+  "titolo": "BARBECUE A CARBONE NAPOLEON PRO22CK-C3 Napoleon Barbecue a carbone | Il Mondo Del Barbecue",
+  "descrizione": "La grigliata tradizionale a carbonella è facile con il Napoleon Charcoal kettle PRO22CK-C3 con carrello in dotazione di serie.",
+  "h1": [
+    "BARBECUE A CARBONE NAPOLEON PRO22CK-C3"
+  ],
+  "ttfb": 750,
+  "fcp": 1559,
+  "domReady": 2637,
+  "load": 4829,
+  "pesoKB": 6961,
+  "richieste": 172,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "eu1-layer.doofinder.com",
+    "fonts.googleapis.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "cl-pbr.cxr.skeepers.io",
+    "www.paypal.com",
+    "gum.criteo.com",
+    "cs.iubenda.com",
+    "fast.a.klaviyo.com",
+    "www.gstatic.com",
+    "www.paypalobjects.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "static-forms.klaviyo.com",
+    "googleads.g.doubleclick.net",
+    "idb.iubenda.com",
+    "cl-ppr.rr.skeepers.io",
+    "sslwidget.criteo.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/1251-pdt_540/barbecue-a-carbone-napoleon-pro22ck-c3.jpg",
+      "kb": 46
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/18863-pdt_540/barbecue-a-carbone-napoleon-pro22ck-c3.jpg",
+      "kb": 20
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/18862-pdt_540/barbecue-a-carbone-napoleon-pro22ck-c3.jpg",
+      "kb": 18
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 938,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1251,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 466,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 458,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=927618006&fst=1792204577718&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1h1v893849886z99104"
+    },
+    {
+      "status": 999,
+      "url": "https://33578ced1099.w.hcaptcha.com/logo.png"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "bbq-mastertouch",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/barbecue-a-carbone-weber-master-touch-gbs-premium-e-5770-%C3%B8-57-cm",
+  "misuratoIl": "2026-10-17T02:35:49.688Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4629,
+  "lcpMs": 2370,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/4188-pdt_540/barbecue-a-carbone-weber-master-touch-gbs-premium-e-5770-%C3%B8-57-cm.jpg",
+  "cls": 0.311,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/barbecue-a-carbone-weber-master-touch-gbs-premium-e-5770-%C3%B8-57-cm",
+  "titolo": "BARBECUE A CARBONE WEBER MASTER-TOUCH GBS PREMIUM E-5770 Ø 57 CM Weber Barbecue a carbone | Il Mondo Del Barbecue",
+  "descrizione": "Preparati per la stravaganza di questo barbecue a carbone, un top di gamma da 57 cm. Frutto dell’innovazione, offre possibilità infinite e praticità con il suo coperchio incernierato, la griglia di cottura GBS in acciaio inox e la staffetta di supporto per il termometro iGrill. Dotato di piatto diffusore questo barbecue è predisposto per l’affumicatura.Colore: nero.",
+  "h1": [
+    "BARBECUE A CARBONE WEBER MASTER-TOUCH GBS PREMIUM E-5770 Ø 57 CM"
+  ],
+  "ttfb": 744,
+  "fcp": 1573,
+  "domReady": 2637,
+  "load": 4626,
+  "pesoKB": 7218,
+  "richieste": 179,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "cl-pbr.cxr.skeepers.io",
+    "www.paypal.com",
+    "fast.a.klaviyo.com",
+    "www.gstatic.com",
+    "gum.criteo.com",
+    "www.paypalobjects.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "static-forms.klaviyo.com",
+    "cs.iubenda.com",
+    "googleads.g.doubleclick.net",
+    "cl-ppr.rr.skeepers.io",
+    "idb.iubenda.com",
+    "sslwidget.criteo.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/4184-pdt_540/barbecue-a-carbone-weber-master-touch-gbs-premium-e-5770-%C3%B8-57-cm.jpg",
+      "kb": 95
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/best_in_class.png",
+      "kb": 55
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/10_year.png",
+      "kb": 43
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1012,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 746,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 451,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 418,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=504241114&fst=1792204544772&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1h1v893849886z99104"
+    },
+    {
+      "status": 999,
+      "url": "https://63cabb806d7a.w.hcaptcha.com/logo.png"
+    }
+  ]
+}

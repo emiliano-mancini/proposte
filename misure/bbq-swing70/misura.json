@@ -1,0 +1,153 @@
+{
+  "slug": "bbq-swing70",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-gas/steel-swing-70-barbecue-w7c-3",
+  "misuratoIl": "2026-10-17T02:34:53.318Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5791,
+  "lcpMs": 2375,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/1660-pdt_540/steel-swing-70-barbecue-w7c-3.jpg",
+  "cls": 0.006,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-gas/steel-swing-70-barbecue-w7c-3",
+  "titolo": "SWING W7C-3 Steel Barbecue a gas | Il Mondo Del Barbecue",
+  "descrizione": "Barbecue di altissima qualità completamente MADE IN ITALY  3 bruciatori in fusione di acciaio da 6,2 kW l’uno termocoppie di sicurezza superficie di cottura 27 dm2 potenza totale 19 kW 2 griglie in ghisa smaltata 1 piastra double face (liscia/rigata) in ghisa smaltata 2 deflettori spartifiamma in acciaio inox bacinella per affumicatura/riscaldamento bruciatore rapido laterale coperchio coibentato a doppio strato di acciaio con termometro per cottura a forno",
+  "h1": [
+    "STEEL SWING 70 BARBECUE W7C-3"
+  ],
+  "ttfb": 738,
+  "fcp": 1578,
+  "domReady": 2626,
+  "load": 5790,
+  "pesoKB": 7079,
+  "richieste": 174,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "i.ytimg.com",
+    "upstream.heidipay.com",
+    "static.klaviyo.com",
+    "assets.prestashop3.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "www.paypal.com",
+    "cl-pbr.cxr.skeepers.io",
+    "gum.criteo.com",
+    "fast.a.klaviyo.com",
+    "cs.iubenda.com",
+    "www.gstatic.com",
+    "www.paypalobjects.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "static-forms.klaviyo.com",
+    "idb.iubenda.com",
+    "googleads.g.doubleclick.net",
+    "cl-ppr.rr.skeepers.io",
+    "sslwidget.criteo.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/life-time.jpg",
+      "kb": 52
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/warranty-5.jpg",
+      "kb": 47
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/2167-pdt_540/steel-swing-70-barbecue-w7c-3.jpg",
+      "kb": 44
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 898,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1378,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 445,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 439,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=694383787&fst=1792204487371&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z9910484"
+    },
+    {
+      "status": 999,
+      "url": "https://55184e65d473.w.hcaptcha.com/logo.png"
+    }
+  ]
+}

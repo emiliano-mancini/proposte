@@ -1,0 +1,144 @@
+{
+  "slug": "bbq-regal490",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-gas/broil-king-regal-490-nero",
+  "misuratoIl": "2026-10-17T02:34:29.722Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4471,
+  "lcpMs": 2389,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/29108-pdt_540/broil-king-regal-490-nero.jpg",
+  "cls": 0.003,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-gas/broil-king-regal-490-nero",
+  "titolo": "BROIL KING REGAL 490 NERO Broil King Barbecue a gas | Il Mondo Del Barbecue",
+  "descrizione": "La serie Regal 34",
+  "h1": [
+    "BROIL KING REGAL 490 NERO"
+  ],
+  "ttfb": 788,
+  "fcp": 1620,
+  "domReady": 2707,
+  "load": 4469,
+  "pesoKB": 4473,
+  "richieste": 175,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "cl-pbr.cxr.skeepers.io",
+    "www.paypal.com",
+    "gum.criteo.com",
+    "fast.a.klaviyo.com",
+    "www.gstatic.com",
+    "cs.iubenda.com",
+    "www.paypalobjects.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "static-forms.klaviyo.com",
+    "googleads.g.doubleclick.net",
+    "idb.iubenda.com",
+    "sslwidget.criteo.com",
+    "cl-ppr.rr.skeepers.io",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/1899-pdt_540/broil-king-regal-490-nero.jpg",
+      "kb": 128
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/9825-pdt_540/broil-king-regal-490-nero.jpg",
+      "kb": 74
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/2989-pdt_540/broil-king-regal-490-nero.jpg",
+      "kb": 35
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1302,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 495,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 456,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=1606569073&fst=1792204464829&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z991048"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "bbq-kamado",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/fornetto-kamado-lento-small-nero",
+  "misuratoIl": "2026-10-17T02:36:00.779Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5103,
+  "lcpMs": 2357,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/9436-pdt_540/fornetto-kamado-lento-small-nero.jpg",
+  "cls": 0.383,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/fornetto-kamado-lento-small-nero",
+  "titolo": "FORNETTO KAMADO LENTO SMALL NERO | Il Mondo Del Barbecue",
+  "descrizione": "I barbecue Kamado stanno rapidamente diventando il dispositivo di cottura a carbone per antonomasia, grazie alla loro versatilità e al gusto che solo la cottura a carbone sa dare.I consumatori stanno diventando sempre più esperti, e sempre più ricercano dispositivi di grandi qualità ed affi dabilità. Scopri la serie Lento, i Kamado di Fornetto.",
+  "h1": [
+    "FORNETTO KAMADO LENTO SMALL NERO"
+  ],
+  "ttfb": 730,
+  "fcp": 1565,
+  "domReady": 2626,
+  "load": 5102,
+  "pesoKB": 6940,
+  "richieste": 177,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "i.ytimg.com",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "cl-pbr.cxr.skeepers.io",
+    "www.paypal.com",
+    "fast.a.klaviyo.com",
+    "www.gstatic.com",
+    "www.paypalobjects.com",
+    "gum.criteo.com",
+    "static-forms.klaviyo.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "cs.iubenda.com",
+    "googleads.g.doubleclick.net",
+    "cl-ppr.rr.skeepers.io",
+    "idb.iubenda.com",
+    "sslwidget.criteo.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/9435-pdt_540/fornetto-kamado-lento-small-nero.jpg",
+      "kb": 38
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/9446-pdt_540/fornetto-kamado-lento-small-nero.jpg",
+      "kb": 28
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/9436-pdt_540/fornetto-kamado-lento-small-nero.jpg",
+      "kb": 24
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 931,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1379,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 577,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 497,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 400,
+      "url": "https://sstm.ilmondodelbarbecue.it/a?id=GTM-KWC85BZ&v=3&t=t&pid=2081197094&gtm=45He6ae1v832761239za204zd832761239xf3&cv=39&rv=6ae1&tc=60&tag_exp=115938465~11593"
+    },
+    {
+      "status": 400,
+      "url": "https://sstm.ilmondodelbarbecue.it/a?id=GTM-KWC85BZ&v=3&t=t&pid=2081197094&gtm=45He6ae1v832761239za204zd832761239xf3&cv=39&rv=6ae1&tc=60&tag_exp=115938465~11593"
+    },
+    {
+      "status": 400,
+      "url": "https://sstm.ilmondodelbarbecue.it/a?id=GTM-KWC85BZ&v=3&t=t&pid=2081197094&gtm=45He6ae1v832761239za204zd832761239xf3&cv=39&rv=6ae1&tc=60&tag_exp=115938465~11593"
+    },
+    {
+      "status": 400,
+      "url": "https://sstm.ilmondodelbarbecue.it/a?id=GTM-KWC85BZ&v=3&t=t&pid=2081197094&gtm=45He6ae1v832761239za204zd832761239xf3&cv=39&rv=6ae1&tc=60&tag_exp=115938465~11593"
+    },
+    {
+      "status": 400,
+      "url": "https://sstm.ilmondodelbarbecue.it/a?id=GTM-KWC85BZ&v=3&t=t&pid=2081197094&gtm=45He6ae1v832761239za204zd832761239xf3&cv=39&rv=6ae1&tc=60&tag_exp=115938465~11593"
+    },
+    {
+      "status": 400,
+      "url": "https://sstm.ilmondodelbarbecue.it/a?id=GTM-KWC85BZ&v=3&t=t&pid=2081197094&gtm=45He6ae1v832761239za204zd832761239xf3&cv=39&rv=6ae1&tc=60&tag_exp=115938465~11593"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=1756219282&fst=1792204555229&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1h1v893849886z9910"
+    },
+    {
+      "status": 400,
+      "url": "https://sstm.ilmondodelbarbecue.it/a?id=GTM-KWC85BZ&v=3&t=t&pid=2081197094&gtm=45He6ae1v832761239za204zd832761239xf3&cv=39&rv=6ae1&tc=60&tag_exp=115938465~11593"
+    },
+    {
+      "status": 999,
+      "url": "https://4cdb9c96e39a.w.hcaptcha.com/logo.png"
+    }
+  ]
+}

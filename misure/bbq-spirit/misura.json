@@ -1,0 +1,153 @@
+{
+  "slug": "bbq-spirit",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-gas/barbecue-a-gas-weber-spirit-e-335",
+  "misuratoIl": "2026-10-17T02:34:18.649Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 6131,
+  "lcpMs": 2698,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/27125-pdt_540/barbecue-a-gas-weber-spirit-e-335.jpg",
+  "cls": 0.003,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-gas/barbecue-a-gas-weber-spirit-e-335",
+  "titolo": "BARBECUE A GAS WEBER SPIRIT E-335 Weber Barbecue a gas | Il Mondo Del Barbecue",
+  "descrizione": "Cucina cibi più gustosi che mai con il nuovo barbecue a gas Spirit® E-335 a 3 bruciatori con Sear Zone e fornello laterale.\n",
+  "h1": [
+    "BARBECUE A GAS WEBER SPIRIT E-335"
+  ],
+  "ttfb": 1141,
+  "fcp": 2003,
+  "domReady": 3208,
+  "load": 6128,
+  "pesoKB": 7302,
+  "richieste": 173,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "i.ytimg.com",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "cl-pbr.cxr.skeepers.io",
+    "www.paypal.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "fast.a.klaviyo.com",
+    "www.gstatic.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "gum.criteo.com",
+    "static-forms.klaviyo.com",
+    "www.paypalobjects.com",
+    "cs.iubenda.com",
+    "googleads.g.doubleclick.net",
+    "cl-ppr.rr.skeepers.io",
+    "idb.iubenda.com",
+    "sslwidget.criteo.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/Badge%2010%20anni%20garanzia.jpg",
+      "kb": 408
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/m/6.jpg",
+      "kb": 17
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/27127-pdt_540/barbecue-a-gas-weber-spirit-e-335.jpg",
+      "kb": 14
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 944,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1290,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 460,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 446,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=1129552273&fst=1792204452958&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z991048"
+    },
+    {
+      "status": 999,
+      "url": "https://3f8abcea326c.w.hcaptcha.com/logo.png"
+    }
+  ]
+}

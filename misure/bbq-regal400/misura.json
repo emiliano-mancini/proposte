@@ -1,0 +1,144 @@
+{
+  "slug": "bbq-regal400",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-pellet/barbecue-a-pellet-broil-king-regal-400",
+  "misuratoIl": "2026-10-17T02:36:56.436Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4438,
+  "lcpMs": 2100,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/5619-pdt_540/barbecue-a-pellet-broil-king-regal-400.jpg",
+  "cls": 0.321,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-pellet/barbecue-a-pellet-broil-king-regal-400",
+  "titolo": "BARBECUE A PELLET BROIL KING REGAL 400 Broil King Barbecue a pellet | Il Mondo Del Barbecue",
+  "descrizione": "Nuovissima linea a pellet della Broil King, con pannello di controllo digitale illuminato a LED.",
+  "h1": [
+    "BARBECUE A PELLET BROIL KING REGAL 400"
+  ],
+  "ttfb": 713,
+  "fcp": 1519,
+  "domReady": 2555,
+  "load": 4436,
+  "pesoKB": 4909,
+  "richieste": 180,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "upstream.heidipay.com",
+    "static.klaviyo.com",
+    "assets.prestashop3.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "static.adup.io",
+    "cl-pbr.cxr.skeepers.io",
+    "www.google.com",
+    "www.paypal.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "static-tracking.klaviyo.com",
+    "www.gstatic.com",
+    "www.paypalobjects.com",
+    "fast.a.klaviyo.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "gum.criteo.com",
+    "static-forms.klaviyo.com",
+    "cs.iubenda.com",
+    "googleads.g.doubleclick.net",
+    "sslwidget.criteo.com",
+    "idb.iubenda.com",
+    "cl-ppr.rr.skeepers.io",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/PELLET-REGAL-500-1600B.jpg",
+      "kb": 238
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/5623-pdt_540/barbecue-a-pellet-broil-king-regal-400.jpg",
+      "kb": 109
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/5614-pdt_540/barbecue-a-pellet-broil-king-regal-400.jpg",
+      "kb": 78
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/5616-pdt_540/barbecue-a-pellet-broil-king-regal-400.jpg",
+      "kb": 76
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/5617-pdt_540/barbecue-a-pellet-broil-king-regal-400.jpg",
+      "kb": 60
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1242,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 422,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 477,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=1414113104&fst=1792204611459&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z991048"
+    }
+  ]
+}

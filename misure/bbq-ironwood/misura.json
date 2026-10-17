@@ -1,0 +1,152 @@
+{
+  "slug": "bbq-ironwood",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-pellet/barbecue-a-pellet-traeger-ironwood-new",
+  "misuratoIl": "2026-10-17T02:37:29.037Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4224,
+  "lcpMs": 2397,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/14432-pdt_540/barbecue-a-pellet-traeger-ironwood-new.jpg",
+  "cls": 0.323,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-pellet/barbecue-a-pellet-traeger-ironwood-new",
+  "titolo": "BARBECUE A PELLET TRAEGER IRONWOOD Barbecue a pellet |Il Mondo Del Barbecue",
+  "descrizione": "BARBECUE A PELLET TRAEGER IRONWOOD INT MODELLO 2023",
+  "h1": [
+    "BARBECUE A PELLET TRAEGER IRONWOOD"
+  ],
+  "ttfb": 781,
+  "fcp": 1616,
+  "domReady": 2598,
+  "load": 4221,
+  "pesoKB": 7490,
+  "richieste": 180,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "www.paypal.com",
+    "cl-pbr.cxr.skeepers.io",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "fast.a.klaviyo.com",
+    "www.gstatic.com",
+    "www.paypalobjects.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "gum.criteo.com",
+    "static-forms.klaviyo.com",
+    "cs.iubenda.com",
+    "googleads.g.doubleclick.net",
+    "cl-ppr.rr.skeepers.io",
+    "idb.iubenda.com",
+    "sslwidget.criteo.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/14437-pdt_540/barbecue-a-pellet-traeger-ironwood-new.jpg",
+      "kb": 116
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/14435-pdt_540/barbecue-a-pellet-traeger-ironwood-new.jpg",
+      "kb": 64
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/14434-pdt_540/barbecue-a-pellet-traeger-ironwood-new.jpg",
+      "kb": 52
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/14436-pdt_540/barbecue-a-pellet-traeger-ironwood-new.jpg",
+      "kb": 45
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 906,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1245,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 450,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 438,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=1091155548&fst=1792204644493&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z991048"
+    },
+    {
+      "status": 999,
+      "url": "https://77b56214218a.w.hcaptcha.com/logo.png"
+    }
+  ]
+}

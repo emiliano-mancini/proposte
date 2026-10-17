@@ -1,0 +1,153 @@
+{
+  "slug": "bbq-bge-large",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/big-green-egg-large-%C3%B8-46-cm",
+  "misuratoIl": "2026-10-17T02:37:39.629Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3979,
+  "lcpMs": 2251,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/6491-pdt_540/big-green-egg-large-%C3%B8-46-cm.jpg",
+  "cls": 0.002,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/big-green-egg-large-%C3%B8-46-cm",
+  "titolo": "BIG GREEN EGG BARBECUE LARGE CM 46 Big Green Egg Barbecue a carbone | Il Mondo Del Barbecue",
+  "descrizione": "La misura più famosa e più venduta. Può utilizzare tutti gli accessori disponibili. Cuoce fino a 8 bistecche contemporaneamente.• Griglia: Ø 46 cm...",
+  "h1": [
+    "BIG GREEN EGG LARGE Ø 46 CM"
+  ],
+  "ttfb": 692,
+  "fcp": 1478,
+  "domReady": 2410,
+  "load": 3978,
+  "pesoKB": 7687,
+  "richieste": 183,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "i.ytimg.com",
+    "upstream.heidipay.com",
+    "static.klaviyo.com",
+    "assets.prestashop3.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "www.paypal.com",
+    "cl-pbr.cxr.skeepers.io",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "www.gstatic.com",
+    "fast.a.klaviyo.com",
+    "www.paypalobjects.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "gum.criteo.com",
+    "static-forms.klaviyo.com",
+    "cs.iubenda.com",
+    "googleads.g.doubleclick.net",
+    "cl-ppr.rr.skeepers.io",
+    "idb.iubenda.com",
+    "sslwidget.criteo.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/Senza-titolo-2.jpg",
+      "kb": 225
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/Senza-titolo-1_1.jpg",
+      "kb": 200
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/12459-pdt_540/big-green-egg-large-%C3%B8-46-cm.jpg",
+      "kb": 49
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 888,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 803,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 453,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 443,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=1598731091&fst=1792204655099&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z991048"
+    },
+    {
+      "status": 999,
+      "url": "https://af1f7cb2415a.w.hcaptcha.com/logo.png"
+    }
+  ]
+}

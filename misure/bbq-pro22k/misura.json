@@ -1,0 +1,153 @@
+{
+  "slug": "bbq-pro22k",
+  "url": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/barbecue-a-carbone-napoleon-pro22k-l3",
+  "misuratoIl": "2026-10-17T02:35:27.321Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5315,
+  "lcpMs": 2279,
+  "lcpElemento": "IMG https://www.ilmondodelbarbecue.it/18854-pdt_540/barbecue-a-carbone-napoleon-pro22k-l3.jpg",
+  "cls": 0.001,
+  "urlFinale": "https://www.ilmondodelbarbecue.it/barbecue-a-carbone/barbecue-a-carbone-napoleon-pro22k-l3",
+  "titolo": "BARBECUE A CARBONE NAPOLEON PRO22K-L3 Napoleon Barbecue a carbone | Il Mondo Del Barbecue",
+  "descrizione": "Il barbecue per eccellenza! Il Napoleon PRO22k-L3 a carbone è un primo esempio di BBQ originale e versatile nella cottura.",
+  "h1": [
+    "BARBECUE A CARBONE NAPOLEON PRO22K-L3"
+  ],
+  "ttfb": 725,
+  "fcp": 1525,
+  "domReady": 2960,
+  "load": 5314,
+  "pesoKB": 7217,
+  "richieste": 176,
+  "script": 47,
+  "serviziEsterni": [
+    "js.stripe.com",
+    "ajax.googleapis.com",
+    "widgets.rr.skeepers.io",
+    "i.ytimg.com",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "static.klaviyo.com",
+    "cdn.doofinder.com",
+    "cl.avis-verifies.com",
+    "fonts.googleapis.com",
+    "eu1-layer.doofinder.com",
+    "dynamic.criteo.com",
+    "cdn.iubenda.com",
+    "gum.criteo.com",
+    "cs.iubenda.com",
+    "idb.iubenda.com",
+    "static-tracking.klaviyo.com",
+    "static.adup.io",
+    "www.google.com",
+    "cl-pbr.cxr.skeepers.io",
+    "www.paypal.com",
+    "googleads.g.doubleclick.net",
+    "fast.a.klaviyo.com",
+    "www.gstatic.com",
+    "www.paypalobjects.com",
+    "api-product-reviews.cxr.skeepers.io",
+    "static-forms.klaviyo.com",
+    "sslwidget.criteo.com",
+    "cl-ppr.rr.skeepers.io",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.ilmondodelbarbecue.it/img/cms/napoleon-legend-485er-edelstahl-griller-shop-graz.jpg",
+      "kb": 194
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/accessibilita/Eye-Able-Icon-300x300.png",
+      "kb": 45
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/19975-pdt_540/barbecue-a-carbone-napoleon-pro22k-l3.jpg",
+      "kb": 41
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/themes/ilmondodelbarbecue/assets/img/payments/reassurance/blink.svg",
+      "kb": 38
+    },
+    {
+      "url": "https://www.ilmondodelbarbecue.it/19978-pdt_540/barbecue-a-carbone-napoleon-pro22k-l3.jpg",
+      "kb": 32
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 938,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.ilmondodelbarbecue.it/content/chi-siamo.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.ilmondodelbarbecue.it/contattaci"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.ilmondodelbarbecue.it/content/spedizioni-e-consegne.html"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.ilmondodelbarbecue.it/content/diritto-di-recesso.html"
+    },
+    {
+      "t": "nostre FAQ",
+      "h": "https://www.ilmondodelbarbecue.it/content/faq.html"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 864,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 446,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 430,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=816227256&fst=1792204521157&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z9910484"
+    },
+    {
+      "status": 999,
+      "url": "https://95905cf4391e.w.hcaptcha.com/logo.png"
+    }
+  ]
+}
