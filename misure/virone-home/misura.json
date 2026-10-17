@@ -1,0 +1,159 @@
+{
+  "slug": "virone-home",
+  "url": "https://aziendaagricolavirone.it/",
+  "misuratoIl": "2026-10-17T02:14:37.357Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3176,
+  "lcpMs": 3216,
+  "lcpElemento": "DIV https://aziendaagricolavirone.it/wp-content/uploads/2021/09/arance-siciliane-1-1.jpg.webp",
+  "cls": 0,
+  "urlFinale": "https://aziendaagricolavirone.it/",
+  "titolo": "Azienda Agricola Virone | Vendita di Arance Online | Prodotti Tipici Siciliani - Azienda Agricola Virone",
+  "descrizione": "Azienda Agricola Virone da oltre tre generazioni, è un azienda siciliana specializzata nella coltivazione di Agrumi e nella produzione di prodotti tipici siciliani: Agrumi di Ribera, Olio extravergine di oliva, Confetture e Marmellate, Creme spalmabili, Sughi e Ragù, Vino e Liquori",
+  "h1": [],
+  "ttfb": 1512,
+  "fcp": 2397,
+  "domReady": 2486,
+  "load": 3174,
+  "pesoKB": 2203,
+  "richieste": 152,
+  "script": 102,
+  "serviziEsterni": [
+    "cdn.brevo.com",
+    "secure.gravatar.com",
+    "sibautomation.com",
+    "chimpstatic.com",
+    "www.youtube.com",
+    "www.googletagmanager.com",
+    "mcjs.prd.a.intuit.com",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "in-automate.brevo.com",
+    "analytics.tiktok.com",
+    "connect.facebook.net",
+    "analytics-ipv6.tiktokw.us",
+    "mv-prod-1-1053047382554.us-central1.run.app",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/2021/09/arance-siciliane-1-1.jpg",
+      "kb": 193
+    },
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/2022/08/arance_di_ribera.jpg",
+      "kb": 161
+    },
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/2021/09/WhatsApp-Image-2021-05-02-at-17.28.47-2-1024x682.jpeg.webp",
+      "kb": 144
+    },
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/2021/09/arance-siciliane-1-1.jpg.webp",
+      "kb": 140
+    },
+    {
+      "url": "https://aziendaagricolavirone.it/wp-content/uploads/2020/12/learancediribera.jpeg",
+      "kb": 75
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1247,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "%20(064)%20332-1233"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://aziendaagricolavirone.it/contattaci/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://aziendaagricolavirone.it/chi-siamo/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://aziendaagricolavirone.it/chi-siamo/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://aziendaagricolavirone.it/contattaci/"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://aziendaagricolavirone.it/termini-e-condizioni/"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://aziendaagricolavirone.it/contattaci/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://aziendaagricolavirone.it/chi-siamo/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+  "rispostaServer": [
+    {
+      "ms": 1825,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1891,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1860,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/355030437/?random=1792203273313&cv=11&fst=1792203273313&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6ae1v91067875"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=1&auid=496139945.1792203273&dt=Azienda%20Agricola%20Virone%20%7C%20Vendita%20di%20Arance%20Online%20%7C%20Pr"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-X0FR36WG0F&gtm=45je6ae1v9106787562za208zd9106787562xf1&_p=1792203273119&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=496139945.1792203273&gtm=45je6ae1v9106787562za208zd9106787562xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/measurement/conversion?random=1792203273331&cv=11&tid=G-X0FR36WG0F&fst=1792203273331&fmt=8&en=page_view&gtm=45je6ae1v9106787562za208zd910"
+    },
+    {
+      "status": 999,
+      "url": "https://mv-prod-1-1053047382554.us-central1.run.app/events?cee=no"
+    },
+    {
+      "status": 999,
+      "url": "https://chimpstatic.com/pixel/v1/track"
+    }
+  ]
+}

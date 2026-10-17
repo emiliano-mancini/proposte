@@ -1,27 +1,27 @@
 {
   "slug": "ilmondodelbarbecue",
   "url": "https://www.ilmondodelbarbecue.it/",
-  "misuratoIl": "2026-10-13T21:50:47.276Z",
+  "misuratoIl": "2026-10-17T02:14:51.105Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 4743,
-  "lcpMs": 3299,
+  "caricamentoTotaleMs": 4028,
+  "lcpMs": 2652,
   "lcpElemento": "SECTION https://www.ilmondodelbarbecue.it/img/cms/cucine_da_esterno/5.png",
-  "cls": 0.011,
+  "cls": 0.037,
   "urlFinale": "https://www.ilmondodelbarbecue.it/",
   "titolo": "Barbecue Gas, Carbone, Elettrici e Accessori - Il Mondo del Barbecue",
   "descrizione": "Le migliori griglie per appassionati e professionisti del barbecue. Consegna 24/48h GRATIS da 99€. Assistenza Esperti Qualificati",
   "h1": [
     "Il negozio di barbecue e cucine da esterno n°1 in Italia"
   ],
-  "ttfb": 1321,
-  "fcp": 2189,
-  "domReady": 3294,
-  "load": 4740,
-  "pesoKB": 5106,
-  "richieste": 158,
-  "script": 41,
+  "ttfb": 1128,
+  "fcp": 1821,
+  "domReady": 2666,
+  "load": 4027,
+  "pesoKB": 5116,
+  "richieste": 159,
+  "script": 42,
   "serviziEsterni": [
     "fonts.googleapis.com",
     "ajax.googleapis.com",
@@ -114,17 +114,17 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 1307,
+      "ms": 1130,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 465,
+      "ms": 419,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 475,
+      "ms": 425,
       "status": 200,
       "cache": null
     }
@@ -136,7 +136,7 @@
     },
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/926882853/?random=961810688&fst=1791928243230&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ac0v893849886z9910484"
+      "url": "https://www.google.com/rmkt/collect/926882853/?random=1756220687&fst=1792203287008&cv=10&fmt=8&bg=ffffff&guid=ON&u_w=412&u_h=915&gtm=45j91e6ae1v893849886z991048"
     }
   ]
 }

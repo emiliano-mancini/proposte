@@ -1,42 +1,43 @@
 {
   "slug": "virone",
   "url": "https://aziendaagricolavirone.it/shop/",
-  "misuratoIl": "2026-10-13T21:50:33.023Z",
+  "misuratoIl": "2026-10-17T02:14:24.311Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 4831,
-  "lcpMs": 5035,
+  "caricamentoTotaleMs": 4256,
+  "lcpMs": 4411,
   "lcpElemento": "IMG https://aziendaagricolavirone.it/wp-content/uploads/2026/10/preordine_arance_mobile.jpg",
   "cls": 0.005,
   "urlFinale": "https://aziendaagricolavirone.it/shop/",
   "titolo": "Shop - Azienda Agricola Virone",
   "descrizione": "Prodotti Archive - Azienda Agricola Virone",
   "h1": [],
-  "ttfb": 2358,
-  "fcp": 3317,
-  "domReady": 4009,
-  "load": 4830,
-  "pesoKB": 2468,
-  "richieste": 180,
-  "script": 108,
+  "ttfb": 2232,
+  "fcp": 3089,
+  "domReady": 3532,
+  "load": 4254,
+  "pesoKB": 2420,
+  "richieste": 177,
+  "script": 107,
   "serviziEsterni": [
     "cdn.brevo.com",
     "sibautomation.com",
     "fonts.gstatic.com",
     "chimpstatic.com",
-    "mcjs.prd.a.intuit.com",
-    "in-automate.brevo.com",
     "www.youtube.com",
     "www.googletagmanager.com",
+    "mcjs.prd.a.intuit.com",
     "googleads.g.doubleclick.net",
     "www.google.com",
     "analytics.google.com",
     "stats.g.doubleclick.net",
     "ad.doubleclick.net",
+    "in-automate.brevo.com",
     "analytics.tiktok.com",
     "connect.facebook.net",
     "analytics-ipv6.tiktokw.us",
+    "mv-prod-1-1053047382554.us-central1.run.app",
     "www.facebook.com"
   ],
   "immaginiPiuPesanti": [
@@ -65,7 +66,7 @@
   "sovrapposizioni": [],
   "pulsanteAcquisto": {
     "testo": "AGGIUNGI AL CARRELLO",
-    "yPx": 775,
+    "yPx": 785,
     "visibileSenzaScorrere": true
   },
   "parlaDiSpedizione": false,
@@ -111,17 +112,17 @@
   "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
   "rispostaServer": [
     {
-      "ms": 2185,
+      "ms": 2056,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 1611,
+      "ms": 1760,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 1605,
+      "ms": 1775,
       "status": 200,
       "cache": null
     }
@@ -129,31 +130,35 @@
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/355030437/?random=1791928228915&cv=11&fst=1791928228915&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6ac1v91067875"
+      "url": "https://www.google.com/rmkt/collect/355030437/?random=1792203260303&cv=11&fst=1792203260303&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6ae1h1v910678"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=1&auid=910544802.1791928229&dt=Shop%20-%20Azienda%20Agricola%20Virone&tid=AW-355030437&en=page_view&dl=http"
+      "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&auid=1963300127.1792203260&dt=Shop%20-%20Azienda%20Agricola%20Virone&tid=AW-355030437&en=page_view&dl=http"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=910544802.1791928229&dt=Shop&tid=AW-355030437&en=page_view&dl=https%3A%2F%2Faziendaagricolavirone.it"
+      "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&auid=1963300127.1792203260&dt=Shop&tid=AW-355030437&en=page_view&dl=https%3A%2F%2Faziendaagricolavirone.it"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/355030437/?random=1791928228955&cv=11&fst=1791928228955&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je6ac1v9106787562"
+      "url": "https://www.google.com/rmkt/collect/355030437/?random=1792203260333&cv=11&fst=1792203260333&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je6ae1h1v91067875"
     },
     {
       "status": 999,
-      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=910544802.1791928229&gtm=45je6ac1v9106787562za208zd9106787562xecxf1&fmt=8"
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-X0FR36WG0F&gtm=45je6ae1h1v9106787562za208zd9106787562xf1&_p=1792203260096&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa="
     },
     {
       "status": 999,
-      "url": "https://www.google.com/measurement/conversion?random=1791928228939&cv=11&tid=G-X0FR36WG0F&fst=1791928228939&fmt=8&en=page_view&gtm=45je6ac1v9106787562za208zd910"
+      "url": "https://www.google.com/measurement/conversion?random=1792203260321&cv=11&tid=G-X0FR36WG0F&fst=1792203260321&fmt=8&en=page_view&gtm=45je6ae1h1v9106787562za208zd9"
     },
     {
       "status": 999,
-      "url": "https://analytics.google.com/g/collect?v=2&tid=G-X0FR36WG0F&gtm=45je6ac1v9106787562za208zd9106787562xf1&_p=1791928228680&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&"
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1963300127.1792203260&gtm=45je6ae1h1v9106787562za208zd9106787562xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://mv-prod-1-1053047382554.us-central1.run.app/events?cee=no"
     },
     {
       "status": 999,
