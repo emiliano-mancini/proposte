@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Il sito di Birrificio Castagnero, oggi e domani</title>
+<meta name="description" content="Confronto tra il sito attuale del Birrificio Castagnero e la proposta di restyling. Bozza non ufficiale.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@700&display=swap">
+<style>
+:root{--teal:#00506f;--amber:#f2b134;--paper:#f6f0e1;--ink:#0a1a22;--red:#d92b2b;--disp:"Anton",Impact,sans-serif;--body:"Hanken Grotesk",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace;--pad:clamp(18px,4vw,48px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--body);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--disp);font-weight:400;text-transform:uppercase;line-height:1;margin:0}
+.wrap{width:min(1100px,100% - 2*var(--pad));margin-inline:auto}
+.mono{font:700 .82rem/1.3 var(--mono);letter-spacing:.1em;text-transform:uppercase}
+.bozza{background:var(--ink);color:var(--paper);text-align:center;padding:7px 12px}
+header.h{background:var(--teal);color:var(--paper);padding:clamp(36px,7vw,80px) 0 clamp(30px,5vw,56px);border-bottom:3px solid var(--ink)}
+header.h h1{font-size:clamp(2.6rem,8.5vw,6.2rem);color:var(--amber);line-height:.95;margin-top:12px}
+header.h p{max-width:46ch;margin:18px 0 0;font-size:1.15rem}
+section{padding:clamp(40px,6vw,76px) 0}
+h2{font-size:clamp(1.9rem,5vw,3.2rem);margin-bottom:22px}
+/* cursore */
+.cmp{position:relative;width:min(390px,100%);aspect-ratio:390/844;margin:0 auto;border:3px solid var(--ink);box-shadow:10px 10px 0 var(--teal);overflow:hidden;background:#fff;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.cmp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;pointer-events:none}
+.cmp .new{clip-path:inset(0 0 0 var(--p,50%))}
+.cmp .bar{position:absolute;top:0;bottom:0;left:var(--p,50%);width:4px;margin-left:-2px;background:var(--amber);box-shadow:0 0 0 2px var(--ink);z-index:3;pointer-events:none}
+.cmp .knob{position:absolute;top:50%;left:var(--p,50%);width:52px;height:52px;margin:-26px 0 0 -26px;border-radius:50%;background:var(--amber);border:3px solid var(--ink);z-index:4;display:grid;place-items:center;font:700 1rem/1 var(--mono);pointer-events:none}
+.cmp input{position:absolute;inset:0;width:100%;height:100%;opacity:0;margin:0;z-index:5;cursor:ew-resize;touch-action:pan-y}
+.cmp .lab{position:absolute;top:10px;z-index:3;background:var(--ink);color:var(--paper);padding:5px 9px;pointer-events:none}
+.cmp .l1{left:10px}.cmp .l2{right:10px;background:var(--amber);color:var(--ink)}
+.cap{text-align:center;max-width:46ch;margin:22px auto 0;font-size:.95rem}
+/* problemi */
+.pr{display:grid;gap:clamp(26px,4vw,40px)}
+.pb{display:grid;gap:18px;border:3px solid var(--ink);background:#fff;padding:clamp(14px,2.5vw,24px)}
+.pb figure{margin:0;border:2px solid var(--ink)}
+.pb h3{font-size:1.7rem;margin-bottom:8px;color:var(--teal)}
+.pb p{margin:0}
+.pb .n{display:inline-block;background:var(--red);color:#fff;padding:3px 10px;margin-bottom:8px}
+@media(min-width:800px){.pb{grid-template-columns:minmax(0,320px) 1fr;align-items:center}.pb:nth-child(even){grid-template-columns:1fr minmax(0,320px)}.pb:nth-child(even) figure{order:2}}
+/* numeri */
+.nm{background:var(--teal);color:var(--paper);border-block:3px solid var(--ink)}
+.nm h2{color:var(--amber)}
+.ng{display:grid;gap:16px}
+.nc{background:var(--paper);color:var(--ink);border:3px solid var(--ink);padding:18px 20px}
+.nc .mono{color:var(--teal)}
+.nc .v{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;margin-top:6px;font:400 clamp(2rem,6vw,3rem)/1 var(--disp)}
+.nc .v s{color:#a33;text-decoration-thickness:3px}
+.nc .v i{font-style:normal;color:var(--teal)}
+.nc .v em{font-style:normal;font-family:var(--mono);font-size:.9rem;color:var(--ink)}
+@media(min-width:800px){.ng{grid-template-columns:repeat(3,1fr)}}
+.note{font-size:.88rem;margin-top:18px;max-width:70ch;color:#e6eef2}
+.cta{text-align:center}
+.big{display:inline-block;background:var(--amber);color:var(--ink);border:3px solid var(--ink);box-shadow:7px 7px 0 var(--ink);padding:24px clamp(24px,6vw,64px);font:400 clamp(1.6rem,5vw,2.4rem)/1 var(--disp);text-transform:uppercase;text-decoration:none;transition:transform .15s,box-shadow .15s}
+.big:hover{transform:translate(4px,4px);box-shadow:3px 3px 0 var(--ink)}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+footer{background:var(--ink);color:#d8e4ea;padding:36px 0 44px}
+footer a{color:var(--amber);font-weight:700}
+footer p{margin:6px 0;max-width:64ch}
+</style>
+</head>
+<body>
+<div class="bozza mono">Proposta di restyling – bozza non ufficiale</div>
+<header class="h"><div class="wrap">
+  <p class="mono" style="color:var(--amber)">Birrificio Castagnero · Rosta (TO)</p>
+  <h1>Il sito di Birrificio Castagnero, oggi e domani</h1>
+  <p>Trascina il cursore: a sinistra la prima schermata del sito di oggi sul telefono, a destra la stessa schermata della proposta.</p>
+</div></header>
+
+<section><div class="wrap">
+  <div class="cmp" id="cmp" style="--p:50%">
+    <img src="vecchio-mobile-home.jpg" width="780" height="1688" alt="Il sito attuale sul telefono: titolo «INDIPENDENTI» tagliato, grande spazio vuoto, link «clicca» e banner dei cookie in inglese">
+    <img class="new" src="nuovo-mobile.jpg" width="780" height="1688" alt="La proposta sul telefono: titolo CASTAGNERO, bottiglie, pulsanti per le birre e per prenotare, barra Chiama e WhatsApp">
+    <span class="bar"></span><span class="knob" aria-hidden="true">⇆</span>
+    <span class="lab mono l1">Oggi</span><span class="lab mono l2">Con noi</span>
+    <input type="range" min="0" max="100" value="50" aria-label="Sposta il cursore tra il sito di oggi e la proposta" id="rng">
+  </div>
+  <p class="cap">Il sito di oggi è mostrato dopo il controllo dell'età (un servizio esterno che blocca la pagina finché non si inserisce una data di nascita).</p>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2>Tre problemi del sito di oggi</h2>
+  <div class="pr">
+    <article class="pb">
+      <figure><img src="problema-eta.jpg" width="780" height="868" alt="Controllo età con tre pulsanti GG, M, ANNO cerchiati in rosso e banner cookie in inglese"></figure>
+      <div><span class="n mono">1</span><h3>Prima di vedere una birra, serve una data</h3><p>All'apertura c'è un controllo dell'età con tre pulsanti (GG, M, ANNO) e un avviso cookie in inglese che copre il fondo dello schermo. Su telefono la pagina è bloccata finché non lo si supera.</p></div>
+    </article>
+    <article class="pb">
+      <figure><img src="problema-slider.jpg" width="780" height="540" alt="Titolo «INDIPENDENTI» tagliato a destra, cerchiato in rosso, sopra un grande spazio bianco"></figure>
+      <div><span class="n mono">2</span><h3>La prima schermata è rotta</h3><p>Il titolo del carosello è tagliato («INDIPENDENTI»), sotto c'è mezza schermata bianca e i collegamenti sono solo la parola «clicca». Non si vede né una bottiglia né il logo.</p></div>
+    </article>
+    <article class="pb">
+      <figure><img src="problema-telefono.jpg" width="780" height="480" alt="Pagina Contatti: il numero di telefono, cerchiato in rosso, è testo semplice accanto a un'icona sovrapposta"></figure>
+      <div><span class="n mono">3</span><h3>Il telefono non si tocca</h3><p>Nella pagina Contatti i numeri sono testo semplice, non collegamenti: un tocco non chiama. Le icone si sovrappongono al testo e l'email esce dallo schermo.</p></div>
+    </article>
+  </div>
+</div></section>
+
+<section class="nm"><div class="wrap">
+  <h2>I numeri, prima e dopo</h2>
+  <div class="ng">
+    <div class="nc"><span class="mono">Velocità (punteggio Google)</span><div class="v"><s>10</s><i>→</i><span>85</span><em>su 100</em></div></div>
+    <div class="nc"><span class="mono">Caricamento su telefono</span><div class="v"><s>27,3 s</s><i>→</i><span>4,2 s</span></div></div>
+    <div class="nc"><span class="mono">Accessibilità</span><div class="v"><s>79</s><i>→</i><span>100</span><em>su 100</em></div></div>
+  </div>
+  <p class="note">Misure Lighthouse (strumento di Google), telefono simulato con connessione lenta. «Caricamento» = tempo del contenuto più grande (LCP). Il sito di oggi è stato misurato online; la proposta in locale, quindi online i valori possono variare.</p>
+</div></section>
+
+<section class="cta"><div class="wrap">
+  <h2>Guarda il sito nuovo</h2>
+  <a class="big" href="../">Guarda il sito nuovo →</a>
+</div></section>
+
+<footer><div class="wrap">
+  <p><strong>Una proposta senza impegno.</strong> Per parlarne: <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></p>
+  <p>Bozza non ufficiale, non pubblicata dal birrificio. Testi e foto provengono dal sito attuale del Birrificio Castagnero.</p>
+</div></footer>
+<script>
+(function(){
+  var c=document.getElementById('cmp'),r=document.getElementById('rng');
+  function set(v){c.style.setProperty('--p',v+'%');}
+  r.addEventListener('input',function(){set(r.value);});
+  set(r.value);
+})();
+</script>
+</body>
+</html>

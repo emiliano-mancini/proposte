@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Birrificio Castagnero – birra indipendente a Rosta (TO)</title>
+<meta name="description" content="Birrificio Castagnero, Rosta (TO): birre artigianali, edizioni speciali Old River, taproom all'aperto. Proposta di restyling – bozza non ufficiale.">
+<meta name="theme-color" content="#00506f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@500;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@500;700&display=swap"></noscript>
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  /* palette dal logo e dalle etichette: blu birrificio, giallo luppolo, carta, inchiostro */
+  --teal:#00506f; --teal-d:#00334a; --amber:#f2b134; --paper:#f6f0e1; --ink:#0a1a22; --wine:#8f2336;
+  --vng-bg:var(--teal); --vng-fg:var(--paper); --vng-muted:#cfe0e8; --vng-accent:var(--amber); --vng-accent-fg:var(--ink);
+  --vng-surface:rgba(0,0,0,.2); --vng-line:rgba(246,240,225,.5);
+  --disp:"Anton","Impact","Arial Narrow",sans-serif; --body:"Hanken Grotesk",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+  --pad:clamp(18px,4vw,56px); --bw:3px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:auto;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--body);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:400;text-transform:uppercase;line-height:.92;letter-spacing:.01em;margin:0}
+h2{font-size:clamp(2.3rem,7.5vw,6rem);line-height:1.02}
+.wrap{width:min(1240px,100% - 2*var(--pad));margin-inline:auto}
+.mono{font:700 .86rem/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+section{position:relative}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+
+/* etichetta bozza + barra */
+.bozza{position:fixed;inset:0 0 auto;z-index:60;background:var(--ink);color:var(--paper);text-align:center;padding:6px 12px;font:700 .68rem/1.3 var(--mono);letter-spacing:.1em;text-transform:uppercase}
+.top{position:fixed;inset:29px 0 auto;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px var(--pad);transition:background .3s,border-color .3s;border-bottom:var(--bw) solid transparent}
+.top.solid{background:var(--teal);border-color:var(--ink)}
+.top .logo{display:block;background:var(--paper);border:var(--bw) solid var(--ink);padding:3px 10px;box-shadow:4px 4px 0 var(--ink)}
+.top .logo img{height:40px;width:auto}
+.hr{display:flex;align-items:center;gap:18px}.htel{display:none;font:700 .9rem/1 var(--mono);letter-spacing:.06em;color:var(--paper);text-decoration:none}.top nav{display:none;gap:4px}
+.top nav a{font:700 .8rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:var(--paper);padding:10px 12px;border:2px solid transparent}
+.top nav a:hover{border-color:var(--amber);color:var(--amber)}
+.btn{display:inline-flex;align-items:center;gap:.6em;font:700 .85rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;padding:15px 22px;background:var(--amber);color:var(--ink);border:var(--bw) solid var(--ink);box-shadow:5px 5px 0 var(--ink);transition:transform .15s,box-shadow .15s;min-height:48px}
+.btn:hover{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--ink)}
+.btn.alt{background:var(--paper)}
+.vng-hbtn.hb{--vng-line:var(--paper);border:var(--bw) solid var(--paper);border-radius:0;padding:15px 22px;min-height:48px;font:700 .85rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--paper)}
+.vng-hbtn.hb .vng-hbtn__dot{border-radius:0;background:var(--amber)}
+.vng-hbtn.hb .vng-hbtn__b{color:var(--ink)}
+.btn.dark{background:var(--ink);color:var(--paper);border-color:var(--paper);box-shadow:5px 5px 0 var(--amber)}
+@media(min-width:900px){.top nav{display:flex}.htel{display:block}}
+
+/* HERO tipografico con bottiglie che attraversano il titolo */
+.hero{background:var(--teal);color:var(--paper);min-height:100svh;padding:104px 0 0;display:flex;flex-direction:column;overflow:hidden;border-bottom:var(--bw) solid var(--ink)}
+.hero .eyebrow{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--amber)}
+.hero h1{font-size:clamp(3.3rem,19.6vw,17rem);line-height:.82;color:var(--amber);margin:.18em 0 0;letter-spacing:0;white-space:nowrap}
+.hero h1 .ch{display:inline-block}
+.hero .sub{display:grid;gap:22px;margin-top:20px;max-width:1240px}
+.hero .sub p{font-size:clamp(1.1rem,2.4vw,1.55rem);line-height:1.35;max-width:30ch;margin:0}
+.hero .sub p.hmeta{display:none;color:var(--amber);margin:0;font:700 .8rem/1.6 var(--mono);letter-spacing:.1em;max-width:none}@media(min-width:900px){.hero .sub p.hmeta{display:block;margin-top:18px}}
+.hero .sub p em{font-style:normal;color:var(--amber);font-weight:700}
+.hero .cta{display:flex;flex-wrap:wrap;gap:14px}
+.hero .ln{position:relative;height:clamp(250px,36svh,500px);margin-top:26px}
+.bottles{position:absolute;inset:auto 0 22px;height:auto;top:0;display:flex;justify-content:center;align-items:flex-end;gap:clamp(0px,.8vw,12px);pointer-events:none}
+.bottles img{height:100%;min-height:0;width:auto;max-width:none;margin:0 -4px;filter:drop-shadow(0 18px 22px rgba(0,0,0,.45));will-change:transform}
+.bottles img:nth-child(even){height:90%}
+.bottles img:nth-child(n+6){display:none}
+@media(min-width:760px){.bottles img:nth-child(n+6){display:block}}
+.floor{position:absolute;inset:auto 0 0;height:22px;background:var(--ink)}
+@media(max-width:899px){.hero .cta>*{flex:1 1 100%;justify-content:center;text-align:center}.hero .eyebrow{gap:4px 14px;font-size:.62rem;letter-spacing:.08em}}
+@media(min-width:900px){.hero h1{font-size:clamp(3.3rem,17.4vw,17rem)}.hero{min-height:max(100svh,700px)}.hero .sub{position:relative;z-index:3;max-width:500px;margin-top:34px}.hero .ln{position:absolute;inset:auto 0 0 auto;width:min(60vw,860px);height:min(58svh,540px);margin:0;z-index:2}.hero .floor{left:auto;width:100vw;right:0}.hero .wrap{position:relative}.hero h1{position:relative;z-index:3}.hero .eyebrow{position:relative;z-index:3}.bottles{justify-content:flex-end;padding-right:var(--pad)}}
+
+/* marquee */
+.band{background:var(--amber);border-block:var(--bw) solid var(--ink);padding:14px 0;--vng-marquee-gap:2.2rem;--vng-marquee-speed:34s}
+.band .vng-marquee{-webkit-mask-image:none;mask-image:none}
+.band span{font:400 clamp(1.8rem,4.5vw,3.4rem)/1 var(--disp);text-transform:uppercase;white-space:nowrap;display:inline-flex;align-items:center;gap:2.2rem;color:var(--ink)}
+.band span::after{content:"";width:.5em;height:.5em;background:var(--teal);border:var(--bw) solid var(--ink);transform:rotate(45deg);flex:none}
+
+/* numeri */
+.nums{padding:clamp(44px,6vw,84px) 0}
+.nums h2{max-width:11ch}@media(min-width:900px){.nums .wrap{display:grid;grid-template-columns:1fr 1.15fr;gap:0 clamp(28px,5vw,72px);align-items:center}.nums .num-grid{margin-top:0;grid-template-columns:1fr 1fr}.nums .tt{align-self:center}}
+.num-grid{display:grid;grid-template-columns:1fr 1fr;border:var(--bw) solid var(--ink);margin-top:clamp(28px,5vw,56px);background:var(--paper)}
+.num-grid>div{padding:clamp(18px,3vw,36px);border:calc(var(--bw)/2) solid var(--ink)}
+.num-grid b{display:block;font:400 clamp(3rem,9vw,7.5rem)/.9 var(--disp);color:var(--teal)}
+.num-grid span{display:block;margin-top:10px}
+.num-grid>div:nth-child(2){background:var(--amber)}
+.num-grid>div:nth-child(3){background:var(--teal);color:var(--paper)}
+.num-grid>div:nth-child(3) b{color:var(--amber)}
+@media(min-width:900px){.num-grid{grid-template-columns:repeat(4,1fr)}}
+
+/* gamma */
+.gamma{background:var(--ink);color:var(--paper);padding:clamp(44px,6vw,84px) 0 clamp(70px,10vw,140px);border-top:var(--bw) solid var(--ink)}
+.gamma .head{display:grid;gap:18px;align-items:end;margin-bottom:clamp(50px,7vw,84px)}
+.gamma h2{color:var(--amber)}
+.gamma .head p{max-width:44ch;margin:0;color:#d8e4ea}
+@media(min-width:900px){.gamma .head{grid-template-columns:1.2fr 1fr}}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:clamp(70px,10vw,96px) 14px;padding-top:50px}
+@media(min-width:900px){.cards{grid-template-columns:repeat(4,1fr);gap:clamp(90px,10vw,120px) 22px}.card:nth-child(even){transform:translateY(46px)}}
+.card{position:relative;background:var(--c,#ddd);color:var(--ink);border:var(--bw) solid var(--paper);padding:clamp(14px,2vw,22px);padding-top:clamp(200px,24vw,236px);min-height:310px;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;text-decoration:none;transition:box-shadow .2s,transform .2s}
+.card:hover{box-shadow:7px 7px 0 var(--amber)}
+.card .bt{position:absolute;left:50%;bottom:auto;top:-64px;height:clamp(250px,30vw,296px);width:auto;transform:translateX(-50%);filter:drop-shadow(0 14px 14px rgba(0,0,0,.4));max-width:none;mix-blend-mode:normal}
+.card .no{position:absolute;top:10px;right:12px;font:700 .72rem/1 var(--mono)}
+.card h3{font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:.95}
+.card .st{font:700 .82rem/1.3 var(--mono);letter-spacing:.1em;text-transform:uppercase}
+.card h3{overflow-wrap:anywhere;font-size:clamp(1.55rem,3.4vw,2.6rem)}.card h3 .sm{font-size:.7em}
+.card .go{font:700 .82rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;border-top:2px solid currentColor;padding-top:10px;margin-top:4px}
+.card.dk{color:var(--paper)}
+.card .ph{display:none}
+
+/* storia */
+.storia{background:var(--paper);padding:clamp(44px,6vw,84px) 0;border-bottom:var(--bw) solid var(--ink)}
+.storia .grid{display:grid;gap:clamp(28px,5vw,64px)}@media(max-width:899px){.storia .grid>div{order:-1}}
+@media(min-width:900px){.storia .grid{grid-template-columns:5fr 6fr;align-items:start}.storia .pic{position:sticky;top:120px}}
+.pic{position:relative}
+.pic .fr{border:var(--bw) solid var(--ink);box-shadow:10px 10px 0 var(--teal);background:#fff;overflow:hidden}
+.pic img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.pic .sticker-x{position:absolute;right:-8px;top:-26px;background:var(--amber);border:var(--bw) solid var(--ink);padding:10px 14px;font:400 2.2rem/1 var(--disp);transform:rotate(6deg)}
+.pic figcaption{margin-top:18px}
+.pic .img2{margin-top:26px;border:var(--bw) solid var(--ink);overflow:hidden;box-shadow:10px 10px 0 var(--amber)}
+.storia h2{margin-bottom:.4em}
+.storia p{max-width:56ch}
+.storia .lead{font-size:clamp(1.25rem,2.2vw,1.65rem);line-height:1.35;font-weight:500}
+.facts{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:0;border-top:var(--bw) solid var(--ink)}
+.facts li{display:flex;justify-content:space-between;gap:18px;padding:14px 0;border-bottom:2px solid var(--ink)}
+.facts li span:last-child{font-weight:700;text-align:right}
+
+/* edizioni speciali */
+.old{background:var(--teal-d);color:var(--paper);padding:clamp(44px,6vw,84px) 0;border-bottom:var(--bw) solid var(--ink)}
+.old h2{color:var(--amber);max-width:10ch}
+.old .intro{max-width:50ch;margin:18px 0 0;color:#e6eef2;font-size:1.15rem}@media(min-width:900px){.old .wrap>.intro{margin-top:-4.8rem;margin-left:auto;margin-right:0;max-width:44ch}}
+.or{display:grid;gap:18px 40px;padding:clamp(26px,4vw,48px) 0;border-top:var(--bw) solid var(--paper);align-items:center}
+.or:last-of-type{border-bottom:var(--bw) solid var(--paper)}
+.or:first-of-type{margin-top:clamp(30px,5vw,60px)}
+.or .n{font:400 clamp(5rem,16vw,12rem)/.8 var(--disp);color:transparent;-webkit-text-stroke:3px var(--amber)}
+.or h3{font-size:clamp(1.8rem,3.6vw,3rem);color:var(--paper)}
+.or p{margin:10px 0 0;max-width:52ch;color:#e6eef2;font-size:1.1rem}
+.or .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.or .tags span{border:2px solid var(--amber);color:var(--amber);padding:6px 10px}
+.or .tags .sold{background:var(--amber);color:var(--ink)}
+.or figure{margin:0;border:2px solid var(--paper);max-width:340px;overflow:hidden;background:var(--ink)}
+.or figure img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 40%}@media(min-width:900px){.or figure img{aspect-ratio:4/5}}
+.or .bigpct{display:none}
+@media(min-width:900px){.or{grid-template-columns:200px 1fr 300px}.or.nf{grid-template-columns:200px 1fr}.or .bigpct{display:grid;place-content:center;gap:8px;background:var(--amber);color:var(--ink);border:var(--bw) solid var(--paper);box-shadow:8px 8px 0 var(--ink);min-height:150px;text-align:center;max-width:340px}.or .bigpct b{font:400 4.2rem/.9 var(--disp)}}
+
+/* taproom */
+.tap{background:var(--ink);color:var(--paper);padding:clamp(44px,6vw,84px) 0;border-bottom:var(--bw) solid var(--ink)}
+.tg{display:grid;gap:34px;align-items:center}
+.tap h2{color:var(--amber);margin:.1em 0 .35em}
+.tap .tl{font-size:clamp(1.1rem,2vw,1.3rem);max-width:44ch;margin:0 0 20px}
+.tap ul{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:10px;max-width:520px}
+.tap li{border:2px solid var(--paper);padding:12px 16px;font-weight:700}
+.tap li small{display:block;font:700 .78rem/1.2 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--amber);margin-bottom:4px}
+.tf{margin:0}
+.tf .fr{border:var(--bw) solid var(--paper);box-shadow:10px 10px 0 var(--amber);overflow:hidden}
+.tf img{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media(min-width:900px){.tg{grid-template-columns:1fr 1fr;gap:64px}}
+
+/* contatti */
+.cont{background:var(--amber);padding:clamp(44px,6vw,84px) 0;border-bottom:var(--bw) solid var(--ink)}
+.cont h2{max-width:10ch}.chead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:20px}.chead .cta-row{margin:0}
+.cg{display:grid;gap:0;border:var(--bw) solid var(--ink);margin-top:clamp(26px,4vw,52px);background:var(--paper)}
+.cg>div{padding:clamp(18px,3vw,32px);border-bottom:var(--bw) solid var(--ink)}
+.cg>div:last-child{border-bottom:0}
+.cg h3{font-size:1.9rem;margin-bottom:12px;color:var(--teal)}
+.cg p{margin:.2em 0}
+.cg a{font-weight:700;text-underline-offset:3px}
+.cg .tel{display:inline-block;font:400 clamp(1.7rem,4.2vw,2.5rem)/1.1 var(--disp);letter-spacing:.02em;text-decoration:none;color:var(--ink)}
+.coord{font:700 .8rem/1.4 var(--mono);color:var(--teal)}
+@media(min-width:900px){.cg{grid-template-columns:1.1fr 1fr 1fr}.cg>div{border-bottom:0;border-right:var(--bw) solid var(--ink)}.cg>div:last-child{border-right:0}}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:18px}
+
+footer{background:var(--ink);color:#d8e4ea;padding:44px 0 120px}
+footer .wrap{display:grid;gap:22px}
+footer img{height:64px;width:auto;background:var(--paper);padding:4px 12px;border:var(--bw) solid var(--paper);justify-self:start}
+footer p{margin:0;font-size:.92rem;max-width:70ch}
+footer a{color:var(--amber)}
+
+/* barra contatti sempre a portata di pollice */
+.dock{position:fixed;inset:auto 0 0;z-index:55;display:grid;grid-template-columns:1fr 1fr 1fr;background:var(--ink);border-top:var(--bw) solid var(--amber)}
+.dock a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:58px;padding:8px 4px;text-decoration:none;font:700 .72rem/1.1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--paper);border-right:2px solid #1d3340}
+.dock a:last-child{border-right:0}
+.dock a.p{background:var(--amber);color:var(--ink)}
+.dock svg{width:20px;height:20px}
+@media(min-width:900px){.dock{inset:auto 22px 22px auto;transition:opacity .3s;opacity:0;pointer-events:none}.dock.on{opacity:1;pointer-events:auto}.dock{grid-template-columns:repeat(3,auto);border:var(--bw) solid var(--amber);box-shadow:6px 6px 0 rgba(0,0,0,.5)}.dock a{flex-direction:row;padding:10px 22px;min-height:48px;font-size:.78rem}footer{padding-bottom:110px}}
+
+.reveal{will-change:transform,opacity}
+html.shot .reveal,html.shot *{animation:none!important;transition:none!important}
+@media(prefers-reduced-motion:reduce){.reveal{transform:none!important;opacity:1!important}}
+@media(max-width:380px){.hero h1{font-size:3.2rem}}
+</style>
+</head>
+<body>
+<div class="bozza">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top" id="top">
+  <a class="logo" href="#home" aria-label="Birrificio Castagnero, inizio pagina"><img src="img/logo.webp" width="360" height="225" alt="Birrificio Castagnero – Rosta" fetchpriority="high"></a>
+  <nav aria-label="Sezioni">
+    <a href="#birre">Le birre</a><a href="#storia">Chi siamo</a><a href="#old-river">Old River</a><a href="#taproom">Taproom</a><a href="#contatti">Contatti</a>
+  </nav>
+  <div class="hr"><a class="htel" href="tel:+393298618417">329 861 8417</a><a class="btn" href="https://www.birrificiocastagnero.com/craftbeer/shop/" rel="noopener" style="padding:11px 16px;min-height:44px">Shop online</a></div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow mono"><span>Birrificio indipendente · Rosta (TO) · dal 2014</span></p>
+    <h1 aria-label="Castagnero">Castagnero</h1>
+    <div class="sub">
+      <p class="pp">Piccolo birrificio <em>indipendente</em>: Monica e Mattia, nel lavoro e nella vita. Birra fatta in casa, venduta senza intermediari.</p>
+      <div class="cta">
+        <a class="vng-hbtn hb" href="#birre"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Le nostre birre</span><span class="vng-hbtn__b" aria-hidden="true">Le nostre birre ↓</span></a>
+        <a class="btn alt" href="https://wa.me/393298618417" rel="noopener">Prenota in taproom</a>
+      </div>
+      <p class="hmeta mono">Taproom: 25 aprile – 30 settembre<br>Birrificio: lun–ven 9–12 · 14–17</p>
+    </div>
+  </div>
+  <div class="ln" aria-hidden="false">
+    <div class="bottles" id="bottles">
+      <img src="img/bottiglia-b27.webp" width="203" height="789" alt="Bottiglia B27 La Bionda, Golden Ale" fetchpriority="high">
+      <img src="img/bottiglia-hip.webp" width="199" height="788" alt="Bottiglia Hip Hip Apà, A.P.A.">
+      <img src="img/bottiglia-r52.webp" width="198" height="790" alt="Bottiglia R52 La Ramata, Brown Ale">
+      <img src="img/bottiglia-wey.webp" width="198" height="788" alt="Bottiglia Wey Tipa, Belgian Blond">
+      <img src="img/bottiglia-cst.webp" width="203" height="789" alt="Bottiglia CST Castagnero, Chestnut Ale">
+      <img src="img/bottiglia-r18.webp" width="198" height="788" alt="Bottiglia R18 La Rossa, Strong Ale">
+      <img src="img/bottiglia-eclipse.webp" width="203" height="789" alt="Bottiglia Eclipse, Imperial Stout">
+    </div>
+    <div class="floor"></div>
+  </div>
+</section>
+
+<div class="band" aria-hidden="true">
+  <div class="vng-marquee" data-vng-marquee><div class="vng-marquee__track">
+    <span>B27</span><span>Hip Hip Apà</span><span>R52</span><span>Wey Tipa!</span><span>H-Iga</span><span>CST</span><span>R18</span><span>Eclipse</span>
+  </div></div>
+</div>
+
+<section class="nums" aria-labelledby="t-num">
+  <div class="wrap">
+    <div class="tt"><p class="mono">Il birrificio in quattro numeri</p>
+    <h2 id="t-num">Piccoli, ma si fanno sentire</h2></div>
+    <div class="num-grid">
+      <div><b data-count="450">450</b><span class="mono">ettolitri prodotti all'anno</span></div>
+      <div><b data-count="3">3</b><span class="mono">edizioni speciali Old River</span></div>
+      <div><b data-count="8">8</b><span class="mono">birre nella gamma</span></div>
+      <div><b>2014</b><span class="mono">l'anno in cui è partito tutto</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="gamma" id="birre" aria-labelledby="t-gamma">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="t-gamma">La gamma</h2>
+      <p>Dalla bionda alla stout imperiale: otto birre, una famiglia. Ogni scheda porta alla pagina completa sul sito del birrificio.</p>
+    </div>
+    <div class="cards">
+      <a class="card" style="--c:#f3c64f" href="https://www.birrificiocastagnero.com/prodotto/golden-ale/" rel="noopener"><span class="no">01</span><img class="bt reveal" loading="lazy" src="img/bottiglia-b27.webp" width="203" height="789" alt="Bottiglia B27 La Bionda"><h3>B27<br>La Bionda</h3><span class="st">Golden Ale</span><span class="go">Scheda ↗</span></a>
+      <a class="card" style="--c:#e6e8a6" href="https://www.birrificiocastagnero.com/prodotto/apa/" rel="noopener"><span class="no">02</span><img class="bt reveal" loading="lazy" src="img/bottiglia-hip.webp" width="199" height="788" alt="Bottiglia Hip Hip Apà"><h3>Hip<br>Hip Apà</h3><span class="st">A.P.A.</span><span class="go">Scheda ↗</span></a>
+      <a class="card" style="--c:#dcc7a0" href="https://www.birrificiocastagnero.com/prodotto/brown-ale/" rel="noopener"><span class="no">03</span><img class="bt reveal" loading="lazy" src="img/bottiglia-r52.webp" width="198" height="790" alt="Bottiglia R52 La Ramata"><h3>R52<br>La Ramata</h3><span class="st">Brown Ale</span><span class="go">Scheda ↗</span></a>
+      <a class="card" style="--c:#8fd6cb" href="https://www.birrificiocastagnero.com/prodotto/belgian_blond/" rel="noopener"><span class="no">04</span><img class="bt reveal" loading="lazy" src="img/bottiglia-wey.webp" width="198" height="788" alt="Bottiglia Wey Tipa"><h3>Wey<br>Tipa!</h3><span class="st">Belgian Blond</span><span class="go">Scheda ↗</span></a>
+      <a class="card" style="--c:#ece7f3" href="https://www.birrificiocastagnero.com/prodotto/h-iga-italian-grape-ale" rel="noopener"><span class="no">05</span><img class="bt reveal" loading="lazy" src="img/bottiglia-higa.webp" width="316" height="1221" alt="Bottiglia H-Iga, Italian Grape Ale"><h3>H-Iga</h3><span class="st">Italian Grape Ale</span><span class="go">Scheda ↗</span></a>
+      <a class="card" style="--c:#d6bf97" href="https://www.birrificiocastagnero.com/prodotto/chestnut-ale/" rel="noopener"><span class="no">06</span><img class="bt reveal" loading="lazy" src="img/bottiglia-cst.webp" width="203" height="789" alt="Bottiglia CST Castagnero"><h3>CST<br><span class="sm">Castagnero</span></h3><span class="st">Chestnut Ale</span><span class="go">Scheda ↗</span></a>
+      <a class="card dk" style="--c:#a02a3d" href="https://www.birrificiocastagnero.com/prodotto/strong_ale/" rel="noopener"><span class="no">07</span><img class="bt reveal" loading="lazy" src="img/bottiglia-r18.webp" width="198" height="788" alt="Bottiglia R18 La Rossa"><h3>R18<br>La Rossa</h3><span class="st">Strong Ale</span><span class="go">Scheda ↗</span></a>
+      <a class="card dk" style="--c:#161c20" href="https://www.birrificiocastagnero.com/prodotto/imperial_stout/" rel="noopener"><span class="no">08</span><img class="bt reveal" loading="lazy" src="img/bottiglia-eclipse.webp" width="203" height="789" alt="Bottiglia Eclipse"><h3>Eclipse</h3><span class="st">Imperial Stout</span><span class="go">Scheda ↗</span></a>
+    </div>
+    <p style="margin-top:clamp(70px,9vw,110px);text-align:center"><a class="btn" style="font-size:1rem;padding:20px 40px" href="https://www.birrificiocastagnero.com/craftbeer/shop/" rel="noopener">Vai allo shop online ↗</a></p>
+  </div>
+</section>
+
+<section class="storia" id="storia" aria-labelledby="t-storia">
+  <div class="wrap grid">
+    <figure class="pic" style="margin:0">
+      <div class="fr"><img class="par" loading="lazy" src="img/monica.webp" width="750" height="496" style="object-position:68% 30%" alt="Monica dietro le spine, tra le casse con il nome Castagnero"></div>
+            <figcaption class="mono">Monica Castagnero, titolare</figcaption>
+      <div class="img2"><img loading="lazy" src="img/evento-mattia.webp" width="750" height="496" alt="Servizio della birra alla spina durante un evento"></div>
+    </figure>
+    <div>
+      <p class="mono">Chi siamo</p>
+      <h2 id="t-storia">Due persone, un impianto</h2>
+      <p class="lead">Birrificio Castagnero è un piccolo birrificio indipendente e di famiglia. Monica e Mattia lavorano insieme e vivono insieme; Mattia è il birraio.</p>
+      <p>Si parla direttamente con chi la birra la fa: niente agenti, niente intermediari. Si compra online, oppure si passa in taproom a berla alla spina. Il birrificio collabora con altri birrifici per nuove ricette e organizza eventi con musica e cibo, con i food truck del laboratorio gastronomico Officine Castagnero.</p>
+      <ul class="facts">
+        <li><span>Titolare</span><span>Monica Castagnero</span></li>
+        <li><span>Birraio</span><span>Mattia</span></li>
+        <li><span>Dove</span><span>Rosta (TO), Valsusa</span></li>
+        <li><span>Vendita</span><span>Shop online e taproom</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="old" id="old-river" aria-labelledby="t-old">
+  <div class="wrap">
+    <p class="mono" style="color:var(--amber)">Edizioni speciali</p>
+    <h2 id="t-old">Old River</h2>
+    <p class="intro">Tre birre fuori dalla gamma: acidità, botti, lieviti selvaggi. Fatte in pochi litri, finite presto.</p>
+
+    <article class="or">
+      <div class="n" aria-hidden="true">#1</div>
+      <div>
+        <h3>Old River #1 · Sour Ale</h3>
+        <p>Sour ale all'8%, affinata 18 mesi in botti che hanno contenuto Barbera, con lievito Brettanomyces. Da abbinare a formaggi molto stagionati.</p>
+        <div class="tags mono"><span>8% vol</span><span>18 mesi in botte</span><span class="sold">Esaurita</span></div>
+      </div>
+      <figure><img loading="lazy" src="img/old-river-1.webp" width="720" height="960" alt="Bottiglia di Old River #1 accanto a un bicchiere, nel birrificio"></figure>
+    </article>
+
+    <article class="or">
+      <div class="n" aria-hidden="true">#2</div>
+      <div>
+        <h3>Old River #2 · Old Ale</h3>
+        <p>Parte dalla R18 La Rossa: fermenta in vasca e poi sta sei mesi in botte. Note di ciliegia, caramello di malto che bilancia l'acidità, un finale con sale Maldon. Molto facile da bere.</p>
+        <div class="tags mono"><span>8% vol</span><span>6 mesi in botte</span><span>Bottiglie 0,375 L · fusti 16 L</span><span>Ordini via email</span></div>
+      </div>
+      <figure><img loading="lazy" src="img/old-river-2.webp" width="960" height="960" alt="Bottiglia di Old River #2, Old Ale invecchiata in botte"></figure>
+    </article>
+
+    <article class="or nf">
+      <div class="n" aria-hidden="true">#3</div>
+      <div>
+        <h3>Old River #3 · Farmhouse Ale</h3>
+        <p>Farmhouse ale al 6,5%, sei mesi in acciaio con uva Cortese e un blend di Brettanomyces della casa. Dorata, profumo di uva e lievito belga, agrumi, bollicina vivace e finale secco.</p>
+        <div class="tags mono"><span>6,5% vol</span><span>6 mesi in acciaio</span><span>Uva Cortese</span></div>
+      </div>
+      
+    </article>
+  </div>
+</section>
+
+<section class="tap" id="taproom" aria-labelledby="t-tap">
+  <div class="wrap tg">
+    <div>
+      <p class="mono" style="color:var(--amber)">Taproom all'aperto</p>
+      <h2 id="t-tap">Si beve alla spina</h2>
+      <p class="tl">La taproom è aperta dal 25 aprile al 30 settembre. È all'aperto: se piove resta chiusa. La cucina chiude, possibilmente, alle 22:30.</p>
+      <ul>
+        <li><small>Prenotazioni</small>Chiama o scrivi al 329 861 8417. Meglio un messaggio WhatsApp.</li>
+        <li><small>Cotte pubbliche e serate a tema</small>Le date sono su Facebook e Instagram del birrificio.</li>
+      </ul>
+      <div class="cta-row">
+        <a class="btn" href="https://wa.me/393298618417" rel="noopener">Scrivi su WhatsApp</a>
+        <a class="btn alt" href="https://www.google.com/maps?q=45.08304,7.4724483" rel="noopener">Come arrivare ↗</a>
+      </div>
+    </div>
+    <figure class="tf"><div class="fr"><img class="par" loading="lazy" src="img/spillatura.webp" width="1300" height="800" alt="Una mano regge un bicchiere mentre la birra chiara viene spillata"></div></figure>
+  </div>
+</section>
+
+<section class="cont" id="contatti" aria-labelledby="t-cont">
+  <div class="wrap">
+    <div class="chead"><div><p class="mono">Contatti</p>
+    <h2 id="t-cont">Passa a trovarci</h2></div><div class="cta-row"><a class="btn dark" href="tel:+393298618417">Chiama ora</a><a class="btn alt" href="https://wa.me/393298618417" rel="noopener">WhatsApp</a></div></div>
+    <div class="cg">
+      <div>
+        <h3>Dove</h3>
+        <p><strong>Birrificio Castagnero</strong><br>Strada Antica di Alpignano, 26<br>10090 Rosta (TO)</p>
+        
+        <div class="cta-row"><a class="btn dark" href="https://www.google.com/maps?q=45.08304,7.4724483" rel="noopener">Apri la mappa ↗</a></div>
+      </div>
+      <div>
+        <h3>Telefono</h3>
+        <p class="mono">Telefono e WhatsApp</p><p><a class="tel" href="tel:+393298618417">329 861 8417</a></p><p class="mono">Altro numero</p>
+        <p><a class="tel" href="tel:+393884919063">388 491 9063</a></p>
+        <p>Email: <a href="mailto:info@birrificiocastagnero.com">info@birrificiocastagnero.com</a></p>
+      </div>
+      <div>
+        <h3>Orari</h3>
+        <p class="mono">Birrificio</p><p>Lunedì – venerdì<br><strong>9–12 · 14–17</strong></p>
+        <p class="mono">Taproom</p><p><strong>25 aprile – 30 settembre</strong><br>solo se non piove</p>
+        <div class="cta-row"><a class="btn alt" href="https://www.facebook.com/BirrificioCastagnero/" rel="noopener">Facebook</a><a class="btn alt" href="https://www.instagram.com/birrificiocastagnero/" rel="noopener">Instagram</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="img/logo.webp" width="360" height="225" loading="lazy" alt="Birrificio Castagnero – Rosta">
+    <p>Birrificio Castagnero Savant Ross di Monica Melania Castagnero · P.IVA 11015230011 · Strada Antica di Alpignano 26, Rosta (TO).</p>
+    <p>Vendita e somministrazione di alcolici vietate ai minori di 18 anni. Bevi responsabilmente.</p>
+    
+  </div>
+</footer>
+
+<nav class="dock" aria-label="Contatti rapidi">
+  <a class="p" href="tel:+393298618417"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Chiama</a>
+  <a href="https://wa.me/393298618417" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 20l1.4-4.2A8 8 0 1 1 8.4 18.7z"/></svg>WhatsApp</a>
+  <a href="https://www.birrificiocastagnero.com/craftbeer/shop/" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 5h2l2 11h10l2-8H7"/><circle cx="10" cy="20" r="1.2"/><circle cx="17" cy="20" r="1.2"/></svg>Shop</a>
+</nav>
+
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var top=document.getElementById('top');
+  var dock=document.querySelector('.dock');function sc(){top.classList.toggle('solid',window.scrollY>40);dock.classList.toggle('on',window.scrollY>window.innerHeight*.7);}
+  sc();window.addEventListener('scroll',sc,{passive:true});
+  var shot=/[?&]shot=1/.test(location.search);
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(shot){document.documentElement.classList.add('shot');document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager';});}
+  if(shot||reduce||!window.gsap||!window.ScrollTrigger) return;
+
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:0.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();lenis.scrollTo(t,{offset:-80});}});});
+
+  // titolo diviso in lettere
+  document.fonts.ready.then(function(){
+    var st=new SplitText('.hero h1',{type:'chars'});
+    st.chars.forEach(function(c){c.classList.add('ch');});
+    gsap.from(st.chars,{yPercent:120,opacity:0,duration:.9,ease:'power4.out',stagger:.045,delay:.05});
+  });
+  gsap.from('.hero .eyebrow span,.hero .sub > *',{y:24,opacity:0,duration:.8,ease:'power3.out',stagger:.1,delay:.5});
+  // bottiglie: salgono e poi sfilano a velocità diverse mentre si scorre
+  var bs=gsap.utils.toArray('#bottles img');
+  gsap.from(bs,{yPercent:40,duration:1,ease:'expo.out',stagger:.06});
+  bs.forEach(function(b,i){
+    gsap.to(b,{y:-(40+(i%3)*38),ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  });
+  gsap.to('.hero h1',{xPercent:-4,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+
+  // contatori
+  document.querySelectorAll('[data-count]').forEach(function(el){
+    var to=+el.dataset.count,o={v:0};
+    el.textContent='0';
+    gsap.to(o,{v:to,duration:1.6,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%',once:true},onUpdate:function(){el.textContent=Math.round(o.v).toLocaleString('it-IT');}});
+  });
+
+  // parallax leggero sulle foto
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  // entrate (solo transform/opacità)
+  gsap.utils.toArray('.card,.or,.cg > div,.facts li').forEach(function(el){
+    gsap.from(el,{y:40,opacity:0,duration:.8,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 92%'}});
+  });
+  gsap.utils.toArray('.card .bt').forEach(function(b){
+    gsap.from(b,{yPercent:12,rotate:-4,ease:'none',scrollTrigger:{trigger:b.parentElement,start:'top 95%',end:'top 55%',scrub:1}});
+  });
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+});
+</script>
+<noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+</body>
+</html>
