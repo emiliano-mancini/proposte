@@ -1,0 +1,113 @@
+{
+  "slug": "ilmondodelbarbecue-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/weber-spirit-e-335/",
+  "misuratoIl": "2026-10-17T03:29:19.292Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 189,
+  "lcpMs": 176,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/weber-spirit-e-335/img/e3b8d8cabf07.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/weber-spirit-e-335/",
+  "titolo": "Weber Spirit E-335 a gas GPL – Il Mondo del Barbecue",
+  "descrizione": "3 bruciatori, zona Sear per le grigliate ad alta temperatura e fornello laterale. Per famiglie fino a 6 persone.",
+  "h1": [
+    "WEBER SPIRIT E-335 A GAS GPL"
+  ],
+  "ttfb": 51,
+  "fcp": 116,
+  "domReady": 102,
+  "load": 185,
+  "pesoKB": 166,
+  "richieste": 10,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/weber-spirit-e-335/img/87b56fbb43e7.webp",
+      "kb": 22
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/weber-spirit-e-335/img/72d3f909057d.webp",
+      "kb": 21
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/weber-spirit-e-335/img/e3b8d8cabf07.webp",
+      "kb": 16
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/weber-spirit-e-335/img/14c04699dc82.webp",
+      "kb": 16
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/weber-spirit-e-335/img/8c42d250c8c7.webp",
+      "kb": 13
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 670,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@ilmondodelbarbecue.it"
+  ],
+  "telefono": [
+    "+390498803785"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni, pagamenti e resi →",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e garanzia",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo e showroom",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 7,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

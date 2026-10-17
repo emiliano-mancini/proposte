@@ -1,0 +1,109 @@
+{
+  "slug": "ilmondodelbarbecue-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/",
+  "misuratoIl": "2026-10-17T03:29:15.431Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 184,
+  "lcpMs": 177,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/img/137ed3c9556f.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/",
+  "titolo": "Il Mondo del Barbecue – barbecue a gas, carbone e pellet. Showroom a Padova",
+  "descrizione": "Barbecue a gas, carbone e pellet dei migliori marchi, pronta consegna in 2 giorni lavorativi, spedizione gratuita sopra 129 €. Showroom di 900 m² a Padova. Bozza di restyling.",
+  "h1": [
+    "IL BARBECUE GIUSTO,\nPRONTO DA SPEDIRE."
+  ],
+  "ttfb": 44,
+  "fcp": 177,
+  "domReady": 156,
+  "load": 180,
+  "pesoKB": 267,
+  "richieste": 13,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/img/137ed3c9556f.webp",
+      "kb": 60
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/img/a1dfad50fcec.webp",
+      "kb": 49
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/img/4401bde8554f.webp",
+      "kb": 17
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/img/14c04699dc82.webp",
+      "kb": 16
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/img/e41b476a260e.webp",
+      "kb": 15
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@ilmondodelbarbecue.it"
+  ],
+  "telefono": [
+    "+390498803785"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/assistenza/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e garanzia",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo e showroom",
+      "h": "https://emiliano-mancini.github.io/proposte/ilmondodelbarbecue-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "virone-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/virone-shop/",
+  "misuratoIl": "2026-10-17T03:29:07.586Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 363,
+  "lcpMs": 389,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/virone-shop/img/6a11d37a2361.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/virone-shop/",
+  "titolo": "Azienda Agricola Virone – Arance di Ribera e prodotti siciliani online",
+  "descrizione": "Arance BIO di Ribera in cassa da 10 kg con spedizione gratuita, olio extravergine BIO, dolci, sughi e patè siciliani della famiglia Virone. Bozza di restyling.",
+  "h1": [
+    "Arance BIO di Ribera in preordine: 500 g di limoni in omaggio."
+  ],
+  "ttfb": 126,
+  "fcp": 295,
+  "domReady": 267,
+  "load": 359,
+  "pesoKB": 598,
+  "richieste": 17,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/img/6a11d37a2361.webp",
+      "kb": 140
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/img/1ee45800f55b.webp",
+      "kb": 80
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/img/6f3dceea9fda.webp",
+      "kb": 59
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/img/ae9ecfbb14bc.webp",
+      "kb": 47
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/img/fd8b1e051c78.webp",
+      "kb": 33
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@aziendaagricolavirone.it"
+  ],
+  "telefono": [
+    "+393886450716"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Pacchi danneggiati e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 133,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 22,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

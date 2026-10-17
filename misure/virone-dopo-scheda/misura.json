@@ -1,0 +1,113 @@
+{
+  "slug": "virone-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/virone-shop/arance-navel-spremuta-10kg/",
+  "misuratoIl": "2026-10-17T03:29:11.548Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 111,
+  "lcpMs": 139,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/virone-shop/arance-navel-spremuta-10kg/img/90d7ca9b5297.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/virone-shop/arance-navel-spremuta-10kg/",
+  "titolo": "Arance W. Navel BIO da spremuta – cassa 10 kg – Azienda Agricola Virone",
+  "descrizione": "Arance Washington Navel biologiche di Ribera, dolci e succose, perfette per la spremuta. Buccia non trattata e senza cere: si usa anche in cucina.",
+  "h1": [
+    "Arance W. Navel BIO da spremuta – cassa 10 kg"
+  ],
+  "ttfb": 44,
+  "fcp": 122,
+  "domReady": 103,
+  "load": 106,
+  "pesoKB": 338,
+  "richieste": 10,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/arance-navel-spremuta-10kg/img/bbd14303af92.webp",
+      "kb": 68
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/arance-navel-spremuta-10kg/img/90d7ca9b5297.webp",
+      "kb": 54
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/arance-navel-spremuta-10kg/img/669857713d75.webp",
+      "kb": 33
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/arance-navel-spremuta-10kg/img/798d9fffa0cf.webp",
+      "kb": 26
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/virone-shop/arance-navel-spremuta-10kg/img/6ae3ace3350f.webp",
+      "kb": 26
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 699,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@aziendaagricolavirone.it"
+  ],
+  "telefono": [
+    "+393886450716"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/assistenza/"
+    },
+    {
+      "t": "Tutte le informazioni su spedizioni e pagamenti →",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Pacchi danneggiati e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/virone-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
