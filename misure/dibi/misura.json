@@ -1,12 +1,12 @@
 {
   "slug": "dibi",
   "url": "https://shop.dibigroup.com/porte-blindate/ad-uso-interno.html",
-  "misuratoIl": "2026-10-13T21:51:06.356Z",
+  "misuratoIl": "2026-10-18T02:15:41.853Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 12357,
-  "lcpMs": 4147,
+  "caricamentoTotaleMs": 8883,
+  "lcpMs": 3623,
   "lcpElemento": null,
   "cls": 0.006,
   "urlFinale": "https://shop.dibigroup.com/porte-blindate/ad-uso-interno.html",
@@ -15,11 +15,11 @@
   "h1": [
     "PORTE BLINDATE AD USO INTERNO"
   ],
-  "ttfb": 1303,
-  "fcp": 2980,
-  "domReady": 3025,
-  "load": 12356,
-  "pesoKB": 4427,
+  "ttfb": 1112,
+  "fcp": 2439,
+  "domReady": 2532,
+  "load": 8881,
+  "pesoKB": 4433,
   "richieste": 250,
   "script": 176,
   "serviziEsterni": [
@@ -31,8 +31,8 @@
     "connect.facebook.net",
     "www.googletagmanager.com",
     "ekr.zdassets.com",
-    "www.facebook.com",
     "app.legalblink.it",
+    "www.facebook.com",
     "www.google-analytics.com",
     "pagead2.googlesyndication.com"
   ],
@@ -42,11 +42,11 @@
       "kb": 132
     },
     {
-      "url": "https://shop.dibigroup.com/media/catalog/product/cache/bf8198ce51d8b2fc6b76a84de965e03c/s/e/segreta_1.png",
+      "url": "https://shop.dibigroup.com/media/catalog/product/cache/bf8198ce51d8b2fc6b76a84de965e03c/s/e/segreta_1_2.png",
       "kb": 112
     },
     {
-      "url": "https://shop.dibigroup.com/media/catalog/product/cache/bf8198ce51d8b2fc6b76a84de965e03c/s/e/segreta_1_2.png",
+      "url": "https://shop.dibigroup.com/media/catalog/product/cache/bf8198ce51d8b2fc6b76a84de965e03c/s/e/segreta_1.png",
       "kb": 112
     },
     {
@@ -104,17 +104,17 @@
   "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
   "rispostaServer": [
     {
-      "ms": 1303,
+      "ms": 1111,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 312,
+      "ms": 339,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 322,
+      "ms": 240,
       "status": 200,
       "cache": null
     }
@@ -122,31 +122,31 @@
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KDQ7ZTZLC6&gtm=45je6ac1v889658816za20ozb9123589615zd9123589615xf1&_p=1791928253257&gcs=G100&gcd=13p3p3p3p5l"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ae1h1v889658816z89123589615za20gzb9123589615zd9123589615xf1&_p=1792289731586&gcs=G100&g"
     },
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ac1v889658816z89123589615za20gzb9123589615zd9123589615xf1&_p=1791928253257&gcs=G100&gcd"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KDQ7ZTZLC6&gtm=45je6ae1h1v889658816za20ozb9123589615zd9123589615xf1&_p=1792289731586&gcs=G100&gcd=13p3p3p3p"
     },
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ac1v889658816za20ozb9123589615zd9123589615xf1&_p=1791928253257&em=tv.1~em.0ZBKf87neo75j"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ae1h1v889658816za20ozb9123589615zd9123589615xf1&_p=1792289731586&em=tv.1~em.0ZBKf87neo7"
     },
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ac1v889658816z89123589615za20gzb9123589615zd9123589615xf1&_p=1791928253257&gcs=G100&gcd"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ae1h1v889658816z89123589615za20gzb9123589615zd9123589615xf1&_p=1792289731586&gcs=G100&g"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fad-uso-interno.ht"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&apvc=0&ae=g&tid=AW-831424149&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fad-uso-intern"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=0&frm=0&apvc=0&ae=g&tid=AW-831424149&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fad-uso-interno"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&apvc=0&tid=AW-831424149&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fad-us"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=0&frm=0&apvc=0&tid=AW-831424149&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fad-uso"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=18&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fad-uso-interno.ht"
     }
   ]
 }

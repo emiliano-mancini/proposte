@@ -1,71 +1,71 @@
 {
   "slug": "laurels",
   "url": "https://www.laurelsapron.com/products/jeans-apollo-blu",
-  "misuratoIl": "2026-10-13T21:51:16.836Z",
+  "misuratoIl": "2026-10-18T02:16:03.132Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 4605,
-  "lcpMs": 1936,
+  "caricamentoTotaleMs": 3243,
+  "lcpMs": 2469,
   "lcpElemento": "IMG https://www.laurelsapron.com/cdn/shop/files/Laurels-apron-pantalone-apollo-denim-blu-indaco-8.jpg?v=1789067881&width=108",
-  "cls": 0.025,
+  "cls": 0,
   "urlFinale": "https://www.laurelsapron.com/products/jeans-apollo-blu",
   "titolo": "Pantalone donna in Cotone riciclato con elastico in vita – Blu indaco - XS-XL – Laurels Apron",
   "descrizione": "Pantalone Apollo in 80% cotone e 20% cotone riciclato: gamba morbida, vita elasticizzata e vestibilità comoda per l’uso quotidiano. Disponibile in XS–XL. Versatile, traspirante e pensato per adattarsi a diverse fisicità.",
   "h1": [
     "Jeans Apollo in cotone biologico con elastico in vita - Blu Indaco"
   ],
-  "ttfb": 332,
-  "fcp": 749,
-  "domReady": 2940,
-  "load": 4603,
-  "pesoKB": 6531,
-  "richieste": 460,
+  "ttfb": 346,
+  "fcp": 1210,
+  "domReady": 2229,
+  "load": 3241,
+  "pesoKB": 5860,
+  "richieste": 398,
   "script": 125,
   "serviziEsterni": [
     "cdn.shopify.com",
     "static.klaviyo.com",
-    "cdn.langshop.app",
     "www.clarity.ms",
-    "static-tracking.klaviyo.com",
     "otlp-http-production.shopifysvc.com",
-    "pwzcdn.com",
     "scripts.clarity.ms",
-    "fast.a.klaviyo.com",
-    "connect.facebook.net",
+    "static-tracking.klaviyo.com",
+    "pwzcdn.com",
     "www.googletagmanager.com",
-    "wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws",
-    "laurels-apron.myshopify.com",
-    "skosm.klarna.com",
-    "fonts.googleapis.com",
-    "shop.app",
+    "connect.facebook.net",
+    "fast.a.klaviyo.com",
     "www.googleadservices.com",
     "googleads.g.doubleclick.net",
     "www.google.com",
     "ad.doubleclick.net",
+    "fonts.googleapis.com",
+    "www.merchant-center-analytics.goog",
     "analytics.google.com",
     "stats.g.doubleclick.net",
-    "www.merchant-center-analytics.goog",
-    "j.clarity.ms",
-    "static-forms.klaviyo.com",
-    "app.consentmo.com",
-    "dv-c3e594c6d429469e90b54478358619c3.ecs.us-east-1.on.aws",
-    "www.facebook.com",
+    "wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws",
+    "skosm.klarna.com",
+    "laurels-apron.myshopify.com",
     "whatsapp.carthike.com",
     "rivmorkxomnwzdlytbgv.supabase.co",
+    "a.clarity.ms",
+    "shop.app",
     "app.rivyo.com",
     "essential-apps-analytics.herokuapp.com",
-    "5ma5p56xtyzgg6xqqy2zih7rku0teqkb.lambda-url.eu-central-1.on.aws",
+    "dv-c3e594c6d429469e90b54478358619c3.ecs.us-east-1.on.aws",
+    "www.facebook.com",
+    "static-forms.klaviyo.com",
+    "bded8a3c6ae-1-1053047382554.us-central1.run.app",
+    "app.consentmo.com",
     "rivyo.nyc3.cdn.digitaloceanspaces.com",
     "convoy.usecorner.io",
     "pixel.cornercart.io",
     "rio.pwztag.com",
     "configs.carthike.com",
     "app.kiwisizing.com",
-    "cdn.iubenda.com",
     "c.clarity.ms",
-    "starlink.cornercart.io",
+    "cdn.iubenda.com",
     "accordion.usecorner.io",
+    "starlink.cornercart.io",
+    "5ma5p56xtyzgg6xqqy2zih7rku0teqkb.lambda-url.eu-central-1.on.aws",
     "a.klaviyo.com"
   ],
   "immaginiPiuPesanti": [
@@ -79,7 +79,7 @@
     },
     {
       "url": "https://www.laurelsapron.com/cdn/shop/files/Laurels-apron-pantalone-apollo-denim-blu-indaco-8.jpg?v=1789067881&width=1080",
-      "kb": 99
+      "kb": 103
     },
     {
       "url": "https://rivyo.nyc3.cdn.digitaloceanspaces.com/rivyo-app/laurels-apron.myshopify.com-73045/image_73045_1920850248_1791543606_6ac8c936379d2.jpeg",
@@ -87,7 +87,7 @@
     },
     {
       "url": "https://rivyo.nyc3.cdn.digitaloceanspaces.com/rivyo-app/laurels-apron.myshopify.com-73045/image_73045_573825754_1791543606_6ac8c93685747.jpeg",
-      "kb": 93
+      "kb": 94
     }
   ],
   "scorrimentoOrizzontale": false,
@@ -151,17 +151,17 @@
   "viewport": "width=device-width,initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 600,
+      "ms": 944,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 130,
+      "ms": 226,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 135,
+      "ms": 188,
       "status": 200,
       "cache": "DYNAMIC"
     }
@@ -177,35 +177,35 @@
     },
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/10983247752/?random=1791928270491&cv=11&fst=1791928270491&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6ac1v89645731"
+      "url": "https://www.laurelsapron.com/.well-known/shopify/monorail/unstable/produce_batch"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=124882900.1791928270&dt=Pantalone%20donna%20in%20Cotone%20riciclato%20con%20elastico%20in%20vita%20%"
+      "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&auid=1452613831.1792289758&dt=Pantalone%20donna%20in%20Cotone%20riciclato%20con%20elastico%20in%20vita%20"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=124882900.1791928270&dt=Pantalone%20donna%20in%20Cotone%20riciclato%20con%20elastico%20in%20vita%20%"
+      "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=0&auid=1452613831.1792289758&dt=Pantalone%20donna%20in%20Cotone%20riciclato%20con%20elastico%20in%20vita%20"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&auid=124882900.1791928270&dt=Pantalone%20donna%20in%20Cotone%20riciclato%20con%20elastico%20in%20vita%20%"
+      "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=0&auid=1452613831.1792289758&dt=Pantalone%20donna%20in%20Cotone%20riciclato%20con%20elastico%20in%20vita%20"
     },
     {
       "status": 999,
-      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=124882900.1791928270&gtm=45be6ac1v896457316za208zb884846403zd884846403xecxf1&fmt=8"
+      "url": "https://www.google.com/rmkt/collect/10983247752/?random=1792289757969&cv=11&fst=1792289757969&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6ae1h1v896457"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/10983247752/?random=1791928270503&cv=11&fst=1791928270503&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6ac1v89645731"
+      "url": "https://www.google.com/rmkt/collect/10983247752/?random=1792289757957&cv=11&fst=1792289757957&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6ae1h1v896457"
     },
     {
       "status": 999,
-      "url": "https://www.laurelsapron.com/cdn/shop/videos/c/vp/4cfbcb3e978d497da3a5dfb6fcd40307/4cfbcb3e978d497da3a5dfb6fcd40307.HD-1080p-7.2Mbps-95630792.mp4?v=0"
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1452613831.1792289758&gtm=45be6ae1h1v896457316za208zb9121602855zd9121602855xecxf1&fmt=8"
     },
     {
       "status": 999,
-      "url": "https://analytics.google.com/g/collect?v=2&tid=G-5CJPWSS8DZ&gtm=45je6ac0v884846403za200zd884846403xf1&_p=1791928269825&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dm"
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-7QM47QC5EY&gtm=45Pe6ae1v9121602855za200zd9121602855xf1&_p=1792289757444&gcs=G111&gcd=13t3t3t3t5"
     }
   ]
 }

@@ -1,0 +1,143 @@
+{
+  "slug": "dibi-home",
+  "url": "https://shop.dibigroup.com/",
+  "misuratoIl": "2026-10-18T02:15:54.382Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 7015,
+  "lcpMs": 2738,
+  "lcpElemento": "DIV https://shop.dibigroup.com/media/wysiwyg/home/06.jpg",
+  "cls": 0.804,
+  "urlFinale": "https://shop.dibigroup.com/",
+  "titolo": "Prezzi Porte Blindate Online, Grate Apribili ed Estensibili, Persiane Blindate di Sicurezza - Compra Ora su Di.Bi. Shop",
+  "descrizione": "Scopri i Prezzi delle nostre Porte Blindate, Grate Apribili, Persiane Blindate e Prodotti per la Protezione delle Finestre. Compra online su Di.Bi. Shop e garantisci la massima sicurezza alla tua casa! ",
+  "h1": [
+    "Tecnologia e Affidabilità"
+  ],
+  "ttfb": 547,
+  "fcp": 1739,
+  "domReady": 1731,
+  "load": 7013,
+  "pesoKB": 12435,
+  "richieste": 250,
+  "script": 170,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "integrations.etrusted.com",
+    "widgets.trustedshops.com",
+    "static.zdassets.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "ekr.zdassets.com",
+    "app.legalblink.it",
+    "www.facebook.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://shop.dibigroup.com/media/wysiwyg/home/DiBi_Persiana_Maniglia_Nera2.jpg",
+      "kb": 1348
+    },
+    {
+      "url": "https://shop.dibigroup.com/pub/media/wysiwyg/home/DiBi_Persiana_Maniglia_Nera2.jpg",
+      "kb": 1348
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/wysiwyg/home/Dibi_Cancelletto.jpg",
+      "kb": 1347
+    },
+    {
+      "url": "https://shop.dibigroup.com/pub/media/wysiwyg/home/Dibi_Cancelletto.jpg",
+      "kb": 1347
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/wysiwyg/home/06.jpg",
+      "kb": 763
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "shop@dibigroup.com",
+    "info@dibigroup.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://shop.dibigroup.com/contact"
+    },
+    {
+      "t": "Reso / Recesso",
+      "h": "https://shop.dibigroup.com/diritto-di-recesso"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://shop.dibigroup.com/faq"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://shop.dibigroup.com/contatti"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://shop.dibigroup.com/condizioni-vendita"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://shop.dibigroup.com/spedizioni"
+    },
+    {
+      "t": "Recesso",
+      "h": "https://shop.dibigroup.com/diritto-di-recesso"
+    }
+  ],
+  "piattaforma": "Magento",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
+  "rispostaServer": [
+    {
+      "ms": 1080,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 261,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 261,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com&scrsrc=www.googletagmanager.com&rnd="
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=0&ae=g&tid=AW-831424149&dl=https%3A%2F%2Fshop.dibigroup.com&scrsrc=www.googletagmanager.com&"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=0&tid=AW-831424149&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com&scrsrc=www.googletagmana"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6af0h2v889658816za20ozb9123589615zd9123589615xf1&_p=1792289745414&em=tv.1~em.0ZBKf87neo7"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KDQ7ZTZLC6&gtm=45je6af0h2v889658816za20ozb9123589615zd9123589615xf1&_p=1792289745414&gcs=G100&gcd=13p3p3p3p"
+    }
+  ]
+}

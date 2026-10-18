@@ -1,0 +1,199 @@
+{
+  "slug": "laurels-home",
+  "url": "https://www.laurelsapron.com/",
+  "misuratoIl": "2026-10-18T02:16:11.094Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2561,
+  "lcpMs": 1057,
+  "lcpElemento": "IMG https://www.laurelsapron.com/cdn/shop/files/hero-image-laurels-1-web.jpg?v=1788970616&width=1100",
+  "cls": 0,
+  "urlFinale": "https://www.laurelsapron.com/",
+  "titolo": "Laurels Apron: Grembiuli per Creativi Intraprendenti",
+  "descrizione": "Grembiuli da Lavoro creati da Artigiani. Un capo di stile, da indossare tutti i giorni. Design minimal, materiali sostenibili. Acquista online.",
+  "h1": [
+    ""
+  ],
+  "ttfb": 219,
+  "fcp": 854,
+  "domReady": 1367,
+  "load": 2559,
+  "pesoKB": 5636,
+  "richieste": 378,
+  "script": 114,
+  "serviziEsterni": [
+    "cdn.shopify.com",
+    "static.klaviyo.com",
+    "www.clarity.ms",
+    "otlp-http-production.shopifysvc.com",
+    "static-tracking.klaviyo.com",
+    "scripts.clarity.ms",
+    "fonts.googleapis.com",
+    "wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws",
+    "whatsapp.carthike.com",
+    "www.googletagmanager.com",
+    "shop.app",
+    "connect.facebook.net",
+    "fast.a.klaviyo.com",
+    "static-forms.klaviyo.com",
+    "www.googleadservices.com",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "app.consentmo.com",
+    "www.merchant-center-analytics.goog",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "dv-c3e594c6d429469e90b54478358619c3.ecs.us-east-1.on.aws",
+    "www.facebook.com",
+    "convoy.usecorner.io",
+    "pixel.cornercart.io",
+    "rio.pwztag.com",
+    "configs.carthike.com",
+    "app.kiwisizing.com",
+    "cdn.iubenda.com",
+    "c.clarity.ms",
+    "accordion.usecorner.io",
+    "e.clarity.ms",
+    "starlink.cornercart.io",
+    "5ma5p56xtyzgg6xqqy2zih7rku0teqkb.lambda-url.eu-central-1.on.aws",
+    "a.klaviyo.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0456/1030/3641/files/7.jpg?v=1788973569&width=6000",
+      "kb": 101
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0456/1030/3641/files/1_1.jpg?v=1788970896&width=3000",
+      "kb": 87
+    },
+    {
+      "url": "https://www.laurelsapron.com/cdn/shop/files/Laurels-apron-giacca-denim-blu-indaco-9.jpg?v=1789061719&width=500",
+      "kb": 76
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0456/1030/3641/files/2_1.jpg?v=1788970895&width=3000",
+      "kb": 68
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0456/1030/3641/files/3_1.jpg?v=1788970896&width=3000",
+      "kb": 68
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "needsclick  kl-private-reset-css-Xuajs1",
+      "copre": "100%",
+      "testo": "SCONTO 10% Iscriviti alla newsletter e ricevi uno sconto 10% sul primo acquisto! OTTIENI SCONTO"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.laurelsapron.com/pages/la-nostra-storia"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.laurelsapron.com/pages/contatti"
+    },
+    {
+      "t": "Costi e tempi di spedizione",
+      "h": "https://www.laurelsapron.com/pages/spedizioni-resi"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.laurelsapron.com/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "FAQ - domande frequenti",
+      "h": "https://www.laurelsapron.com/a/help"
+    },
+    {
+      "t": "Costi e tempi di spedizione",
+      "h": "https://www.laurelsapron.com/pages/spedizioni-resi"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.laurelsapron.com/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.laurelsapron.com/pages/contatti"
+    },
+    {
+      "t": "Termini e condizioni del servizio",
+      "h": "https://www.laurelsapron.com/policies/terms-of-service"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 705,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 187,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 164,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.laurelsapron.com/undefined"
+    },
+    {
+      "status": 999,
+      "url": "https://www.laurelsapron.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.laurelsapron.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.laurelsapron.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.laurelsapron.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=0&auid=1422837082.1792289767&dt=Laurels%20Apron%3A%20Grembiuli%20per%20Creativi%20Intraprendenti&tid=AW-109"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&auid=1422837082.1792289767&dt=Laurels%20Apron%3A%20Grembiuli%20per%20Creativi%20Intraprendenti&tid=AW-109"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/10983247752/?random=1792289766971&cv=11&fst=1792289766971&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6ae1v89645731"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1422837082.1792289767&gtm=45be6ae1v896457316za208zb9121602855zd9121602855xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-7QM47QC5EY&gtm=45Pe6ae1v9121602855za200zd9121602855xf1&_p=1792289766377&gcs=G111&gcd=13t3t3t3t5"
+    }
+  ]
+}
