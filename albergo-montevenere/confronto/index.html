@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Il sito di Albergo Ristorante Montevenere, oggi e domani</title>
+<meta name="description" content="Confronto tra il sito attuale dell'Albergo Ristorante Montevenere e la proposta di restyling. Bozza non ufficiale.">
+<link rel="icon" href="data:,">
+<link rel="preload" as="font" type="font/woff2" href="../fonts/DMSerifDisplay-normal-400.woff2" crossorigin>
+<style>
+@font-face{font-family:"DM Serif Display";font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/DMSerifDisplay-normal-400.woff2) format("woff2")}
+@font-face{font-family:"DM Serif Display";font-style:italic;font-weight:400;font-display:swap;src:url(../fonts/DMSerifDisplay-italic-400.woff2) format("woff2")}
+@font-face{font-family:"Karla";font-style:normal;font-weight:400 700;font-display:swap;src:url(../fonts/Karla-var.woff2) format("woff2")}
+:root{--forest:#1d2916;--paper:#f4efe3;--wheat:#e2b45e;--poppy:#b8341f;--red:#d92b2b;--muted:#3a4530;--disp:"DM Serif Display",Georgia,serif;--body:"Karla",system-ui,sans-serif;--pad:clamp(18px,4vw,48px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--forest);font:400 1.125rem/1.6 var(--body);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--disp);font-weight:400;line-height:1.05;margin:0}
+.wrap{width:min(1100px,100% - 2*var(--pad));margin-inline:auto}
+.kick{font:700 .85rem/1.3 var(--body);letter-spacing:.14em;text-transform:uppercase;margin:0}
+.bozza{background:#0f1709;color:var(--paper);text-align:center;padding:7px 12px;font-size:.72rem}
+header.h{background:var(--forest);color:var(--paper);padding:clamp(36px,7vw,80px) 0 clamp(30px,5vw,56px)}
+header.h .kick{color:#efd69b}
+header.h h1{font-size:clamp(2.4rem,7vw,5rem);color:var(--wheat);margin-top:14px;max-width:16ch}
+header.h p{max-width:46ch;margin:18px 0 0;font-size:1.15rem}
+section{padding:clamp(40px,6vw,76px) 0}
+h2{font-size:clamp(1.9rem,5vw,3rem);margin-bottom:22px}
+.cmp{position:relative;width:min(390px,100%);aspect-ratio:390/844;margin:0 auto;border:4px solid var(--forest);border-radius:18px;box-shadow:10px 10px 0 var(--wheat);overflow:hidden;background:#fff;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.cmp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;pointer-events:none}
+.cmp .new{clip-path:inset(0 0 0 var(--p,50%))}
+.cmp .bar{position:absolute;top:0;bottom:0;left:var(--p,50%);width:4px;margin-left:-2px;background:var(--wheat);box-shadow:0 0 0 2px var(--forest);z-index:3;pointer-events:none}
+.cmp .knob{position:absolute;top:50%;left:var(--p,50%);width:52px;height:52px;margin:-26px 0 0 -26px;border-radius:50%;background:var(--wheat);border:3px solid var(--forest);z-index:4;display:grid;place-items:center;font:700 1.1rem/1 var(--body);pointer-events:none}
+.cmp input{position:absolute;inset:0;width:100%;height:100%;opacity:0;margin:0;z-index:5;cursor:ew-resize;touch-action:pan-y}
+.cmp .lab{position:absolute;top:12px;z-index:3;background:var(--forest);color:var(--paper);padding:5px 10px;border-radius:999px;font:700 .8rem/1 var(--body);letter-spacing:.08em;text-transform:uppercase;pointer-events:none}
+.cmp .l1{left:12px}.cmp .l2{right:12px;background:var(--wheat);color:var(--forest)}
+.cap{text-align:center;max-width:48ch;margin:22px auto 0;font-size:.98rem;color:var(--muted)}
+.pr{display:grid;gap:clamp(26px,4vw,40px)}
+.pb{display:grid;gap:18px;border:3px solid var(--forest);background:#fff;padding:clamp(14px,2.5vw,24px);border-radius:6px}
+.pb figure{margin:0;border:2px solid var(--forest);overflow:hidden;max-height:420px}
+.pb figure img{width:100%;object-fit:cover;object-position:top}
+.pb h3{font-size:1.8rem;margin-bottom:8px;color:var(--poppy)}
+.pb p{margin:0}
+.pb .n{display:inline-block;background:var(--red);color:#fff;padding:3px 11px;margin-bottom:10px;border-radius:999px;font:700 .85rem/1.4 var(--body);letter-spacing:.08em}
+@media(min-width:800px){.pb{grid-template-columns:minmax(0,320px) 1fr;align-items:center}.pb:nth-child(even){grid-template-columns:1fr minmax(0,320px)}.pb:nth-child(even) figure{order:2}}
+.nm{background:var(--forest);color:var(--paper)}
+.nm h2{color:var(--wheat)}
+.ng{display:grid;gap:16px}
+.nc{background:var(--paper);color:var(--forest);padding:18px 20px;border-radius:6px}
+.nc .kick{color:var(--poppy)}
+.nc .v{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;margin-top:8px;font:400 clamp(2.2rem,6vw,3.2rem)/1 var(--disp)}
+.nc .v s{color:#9c2b2b;text-decoration-thickness:3px}
+.nc .v i{font-style:normal;color:var(--poppy)}
+.nc .v em{font-style:normal;font:700 .9rem var(--body);color:var(--muted)}
+@media(min-width:800px){.ng{grid-template-columns:repeat(3,1fr)}}
+.note{font-size:.92rem;margin-top:18px;max-width:72ch;color:#dfe5d0}
+.cta{text-align:center}
+.big{display:inline-block;background:var(--wheat);color:var(--forest);border:3px solid var(--forest);box-shadow:7px 7px 0 var(--forest);padding:22px clamp(24px,6vw,64px);font:400 clamp(1.5rem,5vw,2.3rem)/1 var(--disp);text-decoration:none;border-radius:6px}
+.big:hover{transform:translate(4px,4px);box-shadow:3px 3px 0 var(--forest)}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+footer{background:#0f1709;color:#d3dac4;padding:36px 0 44px}
+footer a{color:var(--wheat);font-weight:700}
+footer p{margin:6px 0;max-width:66ch}
+</style>
+</head>
+<body>
+<div class="bozza kick">Proposta di restyling – bozza non ufficiale</div>
+<header class="h"><div class="wrap">
+  <p class="kick">Albergo Ristorante Montevenere · Monzuno (BO)</p>
+  <h1>Il sito di Albergo Ristorante Montevenere, oggi e domani</h1>
+  <p>Trascina il cursore: a sinistra la prima schermata del sito di oggi sul telefono, a destra la stessa schermata della proposta.</p>
+</div></header>
+
+<section><div class="wrap">
+  <div class="cmp" id="cmp" style="--p:50%">
+    <img src="vecchio-mobile-hero.jpg" width="780" height="1688" alt="Il sito attuale sul telefono: bandierine delle lingue, logo, un grande spazio vuoto e il banner dei cookie sul fondo">
+    <img class="new" src="nuovo-mobile.jpg" width="780" height="1688" alt="La proposta sul telefono: panorama dell'Appennino, titolo «Sulla Via degli Dei, a 620 metri, c'è una tavola apparecchiata», numeri chiave e barra fissa Chiama / Email">
+    <span class="bar"></span><span class="knob" aria-hidden="true">⇆</span>
+    <span class="lab l1">Oggi</span><span class="lab l2">Con noi</span>
+    <input type="range" min="0" max="100" value="50" aria-label="Sposta il cursore tra il sito di oggi e la proposta" id="rng">
+  </div>
+  <p class="cap">Il sito di oggi è mostrato come appare all'apertura, con il banner dei cookie. Lo spazio vuoto è il punto in cui dovrebbe partire il video.</p>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2>Tre problemi del sito di oggi</h2>
+  <div class="pr">
+    <article class="pb">
+      <figure><img src="problema-video.jpg" width="780" height="970" alt="Prima schermata del sito attuale sul telefono con la zona vuota cerchiata in rosso e la scritta: qui parte un video da 13,4 MB"></figure>
+      <div><span class="n">1</span><h3>Un video da 13,4 MB in apertura</h3><p>In cima alla home parte un video che pesa 13,4 MB. Sul telefono simulato da Google il contenuto più grande compare dopo 8,2 secondi e, nel nostro test, la prima schermata resta vuota finché non arriva.</p></div>
+    </article>
+    <article class="pb">
+      <figure><img src="problema-form.jpg" width="780" height="1810" alt="Il modulo di prenotazione del sito attuale: otto campi cerchiati in rosso, quasi tutti con asterisco, più il controllo reCAPTCHA"></figure>
+      <div><span class="n">2</span><h3>Per prenotare servono otto campi</h3><p>Dalla home il numero di telefono non si può toccare (compare, cliccabile, solo nella pagina Contatti). Per scrivere c'è un modulo con otto campi, quasi tutti obbligatori, più un controllo reCAPTCHA.</p></div>
+    </article>
+    <article class="pb">
+      <figure><img src="problema-avviso.jpg" width="780" height="730" alt="L'avviso «Siamo chiusi dal 9 al 16 giugno 2026 e dal 1 all'8 settembre 2026», cerchiato in rosso"></figure>
+      <div><span class="n">3</span><h3>Un avviso di chiusura già scaduto</h3><p>Sopra il modulo c'è ancora scritto «Siamo chiusi dal 9 al 16 giugno 2026 e dal 1 all'8 settembre 2026»: sono date passate, e chi legge si chiede se l'albergo sia aperto.</p></div>
+    </article>
+  </div>
+</div></section>
+
+<section class="nm"><div class="wrap">
+  <h2>I numeri, prima e dopo</h2>
+  <div class="ng">
+    <div class="nc"><span class="kick">Velocità (punteggio Google)</span><div class="v"><s>29</s><i>→</i><span>87</span><em>su 100</em></div></div>
+    <div class="nc"><span class="kick">Caricamento su telefono</span><div class="v"><s>8,2 s</s><i>→</i><span>3,6 s</span></div></div>
+    <div class="nc"><span class="kick">Accessibilità</span><div class="v"><s>84</s><i>→</i><span>100</span><em>su 100</em></div></div>
+  </div>
+  <p class="note">Misure Lighthouse (strumento di Google) con telefono simulato e connessione lenta. «Caricamento» = tempo del contenuto più grande (LCP). Il sito di oggi è stato misurato online, la proposta in locale: online i valori possono variare.</p>
+</div></section>
+
+<section class="cta"><div class="wrap">
+  <h2>Guarda il sito nuovo</h2>
+  <a class="big" href="../">Guarda il sito nuovo →</a>
+</div></section>
+
+<footer><div class="wrap">
+  <p><strong>Una proposta senza impegno.</strong> Per parlarne: <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></p>
+  <p>Bozza non ufficiale, non pubblicata dall'albergo. Testi e foto provengono dal sito attuale albergomontevenere.it.</p>
+</div></footer>
+<script>
+(function(){
+  var c=document.getElementById('cmp'),r=document.getElementById('rng');
+  function set(v){c.style.setProperty('--p',v+'%');}
+  r.addEventListener('input',function(){set(r.value);});
+  set(r.value);
+})();
+</script>
+</body>
+</html>

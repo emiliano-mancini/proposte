@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Albergo Ristorante Montevenere – Monzuno, sulla Via degli Dei</title>
+<meta name="description" content="Albergo Ristorante Montevenere, Monzuno (BO): 11 camere con vista, ristorante da 80 coperti, tappa sulla Via degli Dei. Proposta di restyling – bozza non ufficiale.">
+<meta name="theme-color" content="#1d2916">
+<link rel="icon" href="data:,">
+<link rel="preload" as="image" href="img/hero.jpg" imagesrcset="img/hero-800.jpg 800w, img/hero.jpg 1200w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/DMSerifDisplay-normal-400.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/Karla-var.woff2" crossorigin>
+<style>
+@font-face{font-family:"DM Serif Display";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/DMSerifDisplay-normal-400.woff2) format("woff2")}
+@font-face{font-family:"DM Serif Display";font-style:italic;font-weight:400;font-display:swap;src:url(fonts/DMSerifDisplay-italic-400.woff2) format("woff2")}
+@font-face{font-family:"Karla";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/Karla-var.woff2) format("woff2")}
+</style>
+<link rel="stylesheet" href="../vendor/lenis.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="../vendor/vng/vng.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="../vendor/lenis.css"><link rel="stylesheet" href="../vendor/vng/vng.css"></noscript>
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script src="../vendor/vng/vng.js" defer></script>
+<style>
+:root{
+  /* palette campionata dalle foto: grano e papaveri del campo, bosco scuro dell'Appennino, cielo; logo verde */
+  --forest:#1d2916; --forest-2:#27331c; --paper:#f4efe3; --paper-2:#e9e1cd; --ink:#1d2916; --muted:#3a4530;
+  --wheat:#e2b45e; --poppy:#b8341f; --sky:#b1c5dd; --leaf:#4b614a;
+  --vng-bg:var(--forest); --vng-fg:var(--paper); --vng-muted:#cdd3bd; --vng-accent:var(--wheat); --vng-accent-fg:var(--forest);
+  --vng-surface:rgba(244,239,227,.06); --vng-line:rgba(244,239,227,.28);
+  --disp:"DM Serif Display","Georgia",serif; --body:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(18px,4.5vw,64px); --dock:68px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:auto}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.125rem/1.65 var(--body);overflow-x:hidden;padding-bottom:var(--dock)}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:400;margin:0;line-height:1.02;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:clamp(2rem,5vw,3.7rem)}
+h3{font-size:1.5rem;line-height:1.15}
+p{margin:0 0 1em}
+.wrap{width:min(1200px,100% - 2*var(--pad));margin-inline:auto}
+.kick{font:700 .85rem/1.3 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--poppy);margin:0 0 18px}
+.dark .kick{color:#efd69b}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+section{position:relative}
+:focus-visible{outline:3px solid var(--wheat);outline-offset:3px}
+.light :focus-visible{outline-color:var(--poppy)}
+.dark{background:var(--forest);color:var(--paper)}
+.lead{font-size:clamp(1.1rem,2vw,1.3rem);max-width:52ch}
+
+/* etichetta bozza + barra */
+.bozza{position:fixed;inset:0 0 auto;z-index:60;background:#0f1709;color:var(--paper);text-align:center;padding:6px 12px;font:700 .68rem/1.3 var(--body);letter-spacing:.12em;text-transform:uppercase}
+.top{position:fixed;inset:29px 0 auto;z-index:50;background:linear-gradient(180deg,rgba(15,23,9,.6),rgba(15,23,9,0));display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px var(--pad);transition:background .3s}
+.top.solid{background:rgba(29,41,22,.96);backdrop-filter:blur(6px)}
+.logo{display:block;background:var(--paper);padding:6px 12px;border-radius:6px}
+.logo img{height:34px;width:auto}
+.top nav{display:none;gap:2px}
+.top nav a{font:700 .82rem/1 var(--body);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;color:var(--paper);padding:12px 12px;border-bottom:2px solid transparent}
+.top nav a:hover{border-color:var(--wheat)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:48px;font:700 .95rem/1 var(--body);letter-spacing:.04em;text-decoration:none;padding:14px 24px;border-radius:999px;background:var(--wheat);color:var(--forest);border:2px solid var(--wheat);transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:#efc77b}
+.btn.ghost{background:transparent;color:var(--paper);border-color:rgba(244,239,227,.7)}
+.btn.ghost:hover{background:rgba(244,239,227,.14)}
+.btn.red{background:var(--poppy);border-color:var(--poppy);color:#fff}
+.htel{display:none}
+.mnav{position:relative}.mnav summary{list-style:none;cursor:pointer;min-height:44px;display:flex;align-items:center;padding:0 16px;border-radius:999px;background:rgba(15,23,9,.75);color:var(--paper);font:700 .85rem/1 var(--body);letter-spacing:.1em;text-transform:uppercase;border:1px solid rgba(244,239,227,.5)}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav nav{position:absolute;right:0;top:52px;display:grid;min-width:210px;background:var(--forest);border:1px solid rgba(244,239,227,.3);border-radius:10px;padding:6px}
+.mnav nav a{padding:13px 14px;color:var(--paper);text-decoration:none;font-weight:700;border-radius:6px}.mnav nav a:hover{background:rgba(244,239,227,.1)}
+@media(min-width:960px){.mnav{display:none}}
+@media(min-width:960px){.top nav{display:flex}.htel{display:inline-flex;min-height:42px;padding:10px 18px}}
+
+/* dock mobile: telefono e email sempre sotto il pollice */
+.dock{position:fixed;inset:auto 0 0;z-index:55;display:grid;grid-template-columns:1.4fr 1fr;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#0f1709;border-top:2px solid var(--wheat);box-shadow:0 -10px 24px rgba(0,0,0,.35)}
+.dock .btn.ghost{background:var(--paper);color:var(--forest);border-color:var(--paper)}
+.dock .btn{min-height:48px;padding:12px 10px}
+@media(min-width:960px){.dock{display:none}body{padding-bottom:0}}
+
+/* HERO a tutto schermo, titolo in basso a sinistra */
+.hero{min-height:min(76svh,620px);display:flex;align-items:flex-end;overflow:hidden;color:var(--paper);background:var(--forest)}
+.hero .bg{position:absolute;inset:0;overflow:hidden}
+.hero .bg img{position:absolute;left:0;top:-12%;width:100%;height:124%;object-fit:cover;object-position:50% 78%;animation:zoom 22s ease-out both}
+@keyframes zoom{from{transform:scale(1.12)}to{transform:scale(1)}}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,23,9,.38) 0%,rgba(15,23,9,0) 20%,rgba(15,23,9,.35) 58%,rgba(15,23,9,.82) 100%)}
+.hero .in{position:relative;z-index:2;padding:110px 0 calc(var(--dock) + 30px)}
+.hero .bg::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(15,23,9,.45),rgba(15,23,9,0) 55%)}
+.inset{display:none}
+@media(min-width:960px){.hero .in{padding-bottom:64px}}
+.hero h1{font-size:clamp(2.6rem,6vw,5.2rem);line-height:1;max-width:17ch;text-shadow:0 2px 28px rgba(0,0,0,.45)}
+.hero h1 em{font-style:italic;color:var(--wheat)}
+.hero .sub{max-width:46ch;margin:22px 0 28px;font-size:clamp(1.05rem,2vw,1.28rem);color:#f4efe3}
+.hero .cta{display:none;flex-wrap:wrap;gap:12px}
+.hero .kick{color:#f4efe3;text-shadow:0 1px 12px rgba(0,0,0,.6)}
+@media(min-width:960px){.hero{min-height:min(100svh,860px)}.hero .cta{display:flex}
+.inset{display:block;position:absolute;z-index:3;right:var(--pad);bottom:64px;width:min(340px,25vw);margin:0;background:var(--paper);padding:8px 8px 12px;border-radius:4px;box-shadow:0 18px 40px rgba(0,0,0,.4)}
+.inset img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}.inset figcaption{margin-top:8px;font:700 .9rem/1.3 var(--body);color:var(--forest)}}
+
+/* numeri (componente contatori VNG) */
+.facts{background:var(--paper-2);border-bottom:1px solid rgba(29,41,22,.15)}
+.facts ul{list-style:none;margin:0;padding:34px 0;display:grid;grid-template-columns:repeat(2,1fr);gap:26px 18px}
+.facts li{border-left:3px solid var(--poppy);padding-left:14px}
+.facts b{display:block;font:400 clamp(2.6rem,7vw,4.6rem)/1 var(--disp);color:var(--forest)}
+.facts span.t{font-size:.95rem;color:var(--muted)}
+@media(min-width:800px){.facts ul{grid-template-columns:repeat(4,1fr);padding:46px 0}}
+
+/* VIA DEGLI DEI: profilo altimetrico, elemento firma */
+.via{padding:clamp(54px,7vw,100px) 0;overflow:hidden}
+.via .head{display:grid;gap:22px;margin-bottom:clamp(30px,5vw,60px)}
+.via .head p{color:#d9decb;max-width:56ch;margin:.6em 0 0}
+@media(min-width:900px){.via .head{grid-template-columns:1.1fr 1fr;align-items:start;gap:60px}}
+.prof{display:none;width:100%;height:auto;overflow:visible}
+.pline{stroke:var(--wheat);stroke-width:4;stroke-linejoin:round;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:0}
+.pd{fill:var(--forest);stroke:var(--wheat);stroke-width:3}
+.pd.hot{fill:var(--poppy);stroke:var(--paper);stroke-width:4}
+.pn,.pa{paint-order:stroke;stroke:#1d2916;stroke-width:7px;stroke-linejoin:round}
+.pn{font:700 15px var(--body);fill:var(--paper)}
+.pa{font:400 15px var(--body);fill:#cdd3bd}
+.pl.hot .pn{fill:var(--wheat);font-size:19px}.pl.hot .pa{fill:var(--paper);font-size:16px}
+.parea{opacity:1}
+.rows{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.rows li{display:grid;grid-template-columns:minmax(0,9.5rem) 1fr 3.4rem;gap:10px;align-items:center;font-size:.95rem}
+.rn{line-height:1.2}.ra{text-align:right;color:#cdd3bd;font-variant-numeric:tabular-nums}
+.rb{height:10px;background:rgba(244,239,227,.12);border-radius:5px;overflow:hidden}
+.rb i{display:block;height:100%;width:var(--w);background:var(--wheat);border-radius:5px;transform-origin:left}
+.rows li.hot{color:var(--wheat);font-weight:700}.rows li.hot .rb i{background:var(--poppy)}
+.rows li.hot .ra{color:var(--paper)}
+details.more{margin-top:12px}details.more summary{cursor:pointer;font-weight:700;color:var(--wheat);padding:10px 0;min-height:44px}details.more .rows{margin-top:6px}
+@media(min-width:760px){.prof{display:block}.rowswrap{display:none}}
+.via .foot{margin-top:6px;display:flex;flex-wrap:wrap;gap:14px 28px;align-items:center;color:#d9decb;font-size:.95rem}
+
+/* PAESAGGIO: mosaico di foto di altezze diverse */
+.land{padding:clamp(54px,7vw,100px) 0}
+.land .head{display:grid;gap:18px;margin-bottom:34px}
+.land .head p{color:var(--muted);max-width:52ch;margin:.6em 0 0}
+@media(min-width:900px){.land .head{grid-template-columns:1fr 1fr;align-items:start;gap:60px}}
+.land figure{margin:0}
+.land figcaption{margin-top:9px;font-size:.92rem;color:var(--muted)}
+.ph{overflow:hidden;border-radius:4px;background:var(--paper-2)}
+.ph img{width:100%;height:114%;object-fit:cover;will-change:transform}
+.lm{display:grid;gap:22px 16px;grid-template-columns:1fr 1fr}
+.l1{grid-column:1/-1}.l1 .ph{aspect-ratio:4/3}
+.l2 .ph,.l3 .ph{aspect-ratio:1/1}
+@media(min-width:900px){
+  .lm{grid-template-columns:1fr 1fr;gap:26px 22px}
+  .l1 .ph{aspect-ratio:21/9}
+  .l2 .ph,.l3 .ph{aspect-ratio:3/2}
+}
+
+/* CAMERE: mosaico asimmetrico */
+.rooms{padding:clamp(54px,7vw,100px) 0;background:var(--paper-2)}
+.rooms .head{display:grid;gap:18px;margin-bottom:34px}
+.rooms .head p{color:var(--muted);max-width:56ch;margin:.6em 0 0}
+@media(min-width:900px){.rooms .head{grid-template-columns:1fr 1fr;align-items:start;gap:60px}}
+.mos{display:grid;gap:14px;grid-template-columns:1fr}
+.mos figure{margin:0;position:relative;overflow:hidden;border-radius:4px;background:var(--paper);aspect-ratio:4/3}
+.mos img{width:100%;height:100%;object-fit:cover}
+.mos figcaption{position:absolute;left:0;bottom:0;right:0;padding:24px 14px 10px;background:linear-gradient(0deg,rgba(15,23,9,.78),transparent);color:#fff;font:700 .88rem/1.2 var(--body)}
+@media(min-width:900px){
+  .mos{grid-template-columns:5fr 7fr;grid-template-rows:1fr 1fr;gap:16px;height:500px}
+  .mos figure{aspect-ratio:auto}
+  .mos .a{grid-row:1/3}
+}
+.serv{list-style:none;margin:34px 0 0;padding:0;display:grid;grid-template-columns:1fr;gap:10px 18px}
+@media(min-width:520px){.serv{grid-template-columns:repeat(2,1fr)}}
+.serv li{display:flex;gap:10px;align-items:baseline;border-top:1px solid rgba(29,41,22,.2);padding-top:10px}
+.serv li::before{content:"";flex:none;width:9px;height:9px;border-radius:50%;background:var(--poppy);transform:translateY(-1px)}
+@media(min-width:800px){.serv{grid-template-columns:repeat(4,1fr)}}
+.rooms .note{margin-top:26px;max-width:62ch;color:var(--muted);font-size:.98rem}
+
+.book{padding:clamp(34px,5vw,52px) 0;background:var(--poppy);color:#fff;border-top:0}
+.book .wrap{display:grid;gap:26px}
+.book .kick{color:#ffe3b0}
+.book .big{display:block;font:400 clamp(2rem,7vw,3.4rem)/1.1 var(--disp);color:#fff;text-decoration:none}
+.book p{max-width:52ch}.book .btn{background:#fff;border-color:#fff;color:var(--poppy)}.book .btn.ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.8)}
+@media(min-width:900px){.book .wrap{grid-template-columns:1fr 1fr;gap:80px;align-items:center}}
+/* RISTORANTE */
+.eat{padding:clamp(54px,7vw,100px) 0;overflow:hidden}
+.eat .grid{display:grid;gap:34px}
+.eat p{color:#d9decb}
+.eat .pics{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+.eat .pics .ph{aspect-ratio:3/2}
+.eat .pics .wide{grid-column:1/-1;aspect-ratio:3/2}
+.eat .pics img{height:100%}
+.hours{margin:24px 0 0;padding:16px 18px;border-left:4px solid var(--wheat);background:rgba(244,239,227,.07);font-size:.98rem}
+.hours b{color:var(--wheat)}
+.cert{margin:0;position:relative}.cert figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px 10px 8px;background:linear-gradient(0deg,rgba(15,23,9,.88),transparent);color:#fff;font:700 .78rem/1.25 var(--body)}.pics .ph img{width:100%;height:100%;object-fit:cover}
+@media(min-width:900px){.eat .grid{grid-template-columns:1fr 1fr;gap:70px;align-items:center}}
+.eat .mq{margin-top:clamp(44px,6vw,80px);border-block:1px solid rgba(244,239,227,.2);padding:20px 0;--vng-marquee-gap:2.6rem;--vng-marquee-speed:34s}
+.eat .mq span{font:italic 400 clamp(1.8rem,5vw,3.4rem)/1 var(--disp);color:var(--wheat);white-space:nowrap}
+.eat .mq span.s{font-style:normal;color:var(--poppy);font-size:1.2rem}
+
+/* INFO / FAQ */
+.info{padding:clamp(54px,7vw,100px) 0;--vng-fg:var(--ink);--vng-muted:var(--muted);--vng-accent:var(--poppy);--vng-line:rgba(29,41,22,.25);--vng-surface:rgba(29,41,22,.05)}
+.info .grid{display:grid;gap:34px}
+@media(min-width:900px){.info .grid{grid-template-columns:5fr 7fr;gap:80px}}
+.vng-faq summary{font-size:1.08rem}
+.vng-faq__a{font-size:1rem}
+
+/* CONTATTI */
+.contact{padding:clamp(54px,7vw,100px) 0 clamp(40px,6vw,70px)}
+.contact .grid{display:grid;gap:34px}
+.contact h2 em{font-style:italic;color:var(--wheat)}
+.contact address{font-style:normal;font-size:1.15rem;line-height:1.7}
+.contact .big{display:block;font:400 clamp(1.9rem,6vw,3.3rem)/1.1 var(--disp);color:var(--wheat);text-decoration:none;word-break:break-word}
+.contact .big:hover{text-decoration:underline}
+.contact .links{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:20px}
+.contact .links a{color:var(--paper);font-weight:700}
+.contact .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+@media(min-width:900px){.contact .grid{grid-template-columns:1.2fr 1fr;gap:80px;align-items:start}}
+footer{background:#0f1709;color:#c3c9b3;padding:30px 0 40px;font-size:.88rem}
+footer p{margin:6px 0;max-width:80ch}
+footer a{color:var(--wheat)}
+
+/* modalità foto e movimento ridotto */
+html.shot *,html.shot *::before,html.shot *::after{animation:none!important;transition:none!important}
+html.shot .top,html.shot .dock{position:absolute}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="bozza">Proposta di restyling – bozza non ufficiale</div>
+<header class="top" id="top">
+  <a class="logo" href="#" aria-label="Albergo Ristorante Montevenere, inizio pagina"><img src="img/logo.png" width="450" height="89" alt="Albergo Ristorante Montevenere"></a>
+  <nav aria-label="Sezioni">
+    <a href="#via">Via degli Dei</a><a href="#camere">Camere</a><a href="#ristorante">Ristorante</a><a href="#info">Info</a><a href="#contatti">Contatti</a>
+  </nav>
+  <a class="btn htel" href="tel:+390516770548">Chiama 051 677 0548</a>
+  <details class="mnav"><summary>Menu</summary><nav aria-label="Sezioni (telefono)"><a href="#via">Via degli Dei</a><a href="#camere">Camere</a><a href="#ristorante">Ristorante</a><a href="#info">Info utili</a><a href="#contatti">Contatti</a></nav></details>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="bg"><img src="img/hero.jpg" srcset="img/hero-800.jpg 800w, img/hero.jpg 1200w" sizes="100vw" width="1200" height="899" alt="Panorama sulle valli boscose dell'Appennino bolognese sotto un cielo con nuvole, con le montagne all'orizzonte" fetchpriority="high"></div>
+  <div class="wrap in">
+    <p class="kick">Albergo Ristorante · Monzuno (BO)</p>
+    <h1>Sulla Via degli Dei, a 620 metri, c’è una <em>tavola apparecchiata.</em></h1>
+    <p class="sub">Undici camere con vista e un ristorante da 80 coperti. La famiglia Suppini accoglie i viandanti da oltre 50 anni.</p>
+    <div class="cta">
+      <a class="btn" href="tel:+390516770548">Chiama per prenotare</a>
+      <a class="btn ghost" href="#camere">Guarda le camere</a>
+    </div>
+  </div>
+</section>
+
+<section class="facts" aria-label="L'albergo in numeri">
+  <div class="wrap">
+    <ul>
+      <li><b><span data-vng-count="50" data-suffix="+">50+</span></b><span class="t">anni di famiglia Suppini</span></li>
+      <li><b><span data-vng-count="11">11</span></b><span class="t">camere con vista panoramica</span></li>
+      <li><b><span data-vng-count="80">80</span></b><span class="t">coperti al ristorante</span></li>
+      <li><b><span data-vng-count="620" data-suffix=" m">620 m</span></b><span class="t">di quota, a Monzuno</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="via dark" id="via">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="kick">La Via degli Dei</p>
+        <h2>Monzuno è il quarto punto dei diciassette tra Bologna e Firenze.</h2>
+      </div>
+      <p>L’albergo prende il nome da Monte Venere, la tappa che segue a 940 metri. Qui si arriva dopo Bologna, Badolo e Monte Adone: si lascia lo zaino, si cena, si riparte con la colazione già compresa.</p>
+    </div>
+    <div id="profile">
+      <svg class="prof" viewBox="0 0 1000 310" role="img" aria-labelledby="proft"><title id="proft">Profilo altimetrico della Via degli Dei da Bologna a Firenze, con Monzuno a 620 metri</title><defs><linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2b45e" stop-opacity=".35"/><stop offset="1" stop-color="#e2b45e" stop-opacity="0"/></linearGradient></defs><path class="parea" d="M40.0,245.7 C49.6,237.6 78.3,212.6 97.5,197.3 C116.7,181.9 135.8,160.1 155.0,153.7 C174.2,147.3 193.3,166.2 212.5,158.9 C231.7,151.6 250.8,113.7 270.0,109.9 C289.2,106.0 308.3,141.0 327.5,135.9 C346.7,130.8 365.8,89.9 385.0,79.2 C404.2,68.5 423.3,65.4 442.5,71.5 C461.7,77.7 480.8,105.5 500.0,116.0 C519.2,126.5 538.3,140.1 557.5,134.4 C576.7,128.6 595.8,82.5 615.0,81.5 C634.2,80.5 653.3,104.6 672.5,128.3 C691.7,151.9 710.8,223.3 730.0,223.3 C749.2,223.3 768.3,141.0 787.5,128.3 C806.7,115.5 825.8,133.4 845.0,146.7 C864.2,160.0 883.3,191.4 902.5,208.0 C921.7,224.6 950.4,239.9 960.0,246.3 L960.0,254 L40.0,254 Z" fill="url(#pg)"/><path id="pline" class="pline" pathLength="1" d="M40.0,245.7 C49.6,237.6 78.3,212.6 97.5,197.3 C116.7,181.9 135.8,160.1 155.0,153.7 C174.2,147.3 193.3,166.2 212.5,158.9 C231.7,151.6 250.8,113.7 270.0,109.9 C289.2,106.0 308.3,141.0 327.5,135.9 C346.7,130.8 365.8,89.9 385.0,79.2 C404.2,68.5 423.3,65.4 442.5,71.5 C461.7,77.7 480.8,105.5 500.0,116.0 C519.2,126.5 538.3,140.1 557.5,134.4 C576.7,128.6 595.8,82.5 615.0,81.5 C634.2,80.5 653.3,104.6 672.5,128.3 C691.7,151.9 710.8,223.3 730.0,223.3 C749.2,223.3 768.3,141.0 787.5,128.3 C806.7,115.5 825.8,133.4 845.0,146.7 C864.2,160.0 883.3,191.4 902.5,208.0 C921.7,224.6 950.4,239.9 960.0,246.3" fill="none"/><circle class="pd" cx="40.0" cy="245.7" r="5"/><circle class="pd" cx="97.5" cy="197.3" r="5"/><circle class="pd" cx="155.0" cy="153.7" r="5"/><circle class="pd hot" cx="212.5" cy="158.9" r="9"/><circle class="pd" cx="270.0" cy="109.9" r="5"/><circle class="pd" cx="327.5" cy="135.9" r="5"/><circle class="pd" cx="385.0" cy="79.2" r="5"/><circle class="pd" cx="442.5" cy="71.5" r="5"/><circle class="pd" cx="500.0" cy="116.0" r="5"/><circle class="pd" cx="557.5" cy="134.4" r="5"/><circle class="pd" cx="615.0" cy="81.5" r="5"/><circle class="pd" cx="672.5" cy="128.3" r="5"/><circle class="pd" cx="730.0" cy="223.3" r="5"/><circle class="pd" cx="787.5" cy="128.3" r="5"/><circle class="pd" cx="845.0" cy="146.7" r="5"/><circle class="pd" cx="902.5" cy="208.0" r="5"/><circle class="pd" cx="960.0" cy="246.3" r="5"/><g class="pl"><text x="40.0" y="279.7" text-anchor="start" class="pn">Bologna</text><text x="40.0" y="295.7" text-anchor="start" class="pa">54 m</text></g><g class="pl hot"><text x="212.5" y="194.9" text-anchor="middle" class="pn">Monzuno</text><text x="212.5" y="210.9" text-anchor="middle" class="pa">620 m</text></g><g class="pl"><text x="270.0" y="89.9" text-anchor="middle" class="pn">Monte Venere</text><text x="270.0" y="105.9" text-anchor="middle" class="pa">940 m</text></g><g class="pl"><text x="385.0" y="59.2" text-anchor="middle" class="pn">Monte dei Cucchi</text><text x="385.0" y="75.2" text-anchor="middle" class="pa">1140 m</text></g><g class="pl"><text x="500.0" y="96.0" text-anchor="middle" class="pn">Passo della Futa</text><text x="500.0" y="112.0" text-anchor="middle" class="pa">900 m</text></g><g class="pl"><text x="615.0" y="61.5" text-anchor="middle" class="pn">Monte Gazzaro</text><text x="615.0" y="77.5" text-anchor="middle" class="pa">1125 m</text></g><g class="pl"><text x="960.0" y="280.3" text-anchor="end" class="pn">Firenze</text><text x="960.0" y="296.3" text-anchor="end" class="pa">50 m</text></g></svg>
+      <div class="rowswrap"><ul class="rows" aria-label="Quote dei punti di passaggio"><li><span class="rn">Bologna</span><span class="rb"><i style="--w:4.5%"></i></span><span class="ra">54 m</span></li><li><span class="rn">Badolo</span><span class="rb"><i style="--w:31.1%"></i></span><span class="ra">370 m</span></li><li><span class="rn">Monte Adone</span><span class="rb"><i style="--w:55.0%"></i></span><span class="ra">654 m</span></li><li class="hot"><span class="rn">Monzuno</span><span class="rb"><i style="--w:52.1%"></i></span><span class="ra">620 m</span></li><li><span class="rn">Monte Venere</span><span class="rb"><i style="--w:79.0%"></i></span><span class="ra">940 m</span></li><li><span class="rn">Madonna dei Fornelli</span><span class="rb"><i style="--w:64.7%"></i></span><span class="ra">770 m</span></li><li><span class="rn">Monte dei Cucchi</span><span class="rb"><i style="--w:95.8%"></i></span><span class="ra">1140 m</span></li></ul><details class="more"><summary>Mostra le altre 10 tappe fino a Firenze</summary><ul class="rows"><li><span class="rn">Monte Poggiaccio</span><span class="rb"><i style="--w:100.0%"></i></span><span class="ra">1190 m</span></li><li><span class="rn">Passo della Futa</span><span class="rb"><i style="--w:75.6%"></i></span><span class="ra">900 m</span></li><li><span class="rn">Monte di Fò</span><span class="rb"><i style="--w:65.5%"></i></span><span class="ra">780 m</span></li><li><span class="rn">Monte Gazzaro</span><span class="rb"><i style="--w:94.5%"></i></span><span class="ra">1125 m</span></li><li><span class="rn">Passo dell’Osteria Bruciata</span><span class="rb"><i style="--w:68.9%"></i></span><span class="ra">820 m</span></li><li><span class="rn">San Piero a Sieve</span><span class="rb"><i style="--w:16.8%"></i></span><span class="ra">200 m</span></li><li><span class="rn">Monte Senario</span><span class="rb"><i style="--w:68.9%"></i></span><span class="ra">820 m</span></li><li><span class="rn">Poggio il Pratone</span><span class="rb"><i style="--w:58.8%"></i></span><span class="ra">700 m</span></li><li><span class="rn">Fiesole</span><span class="rb"><i style="--w:25.2%"></i></span><span class="ra">300 m</span></li><li><span class="rn">Firenze</span><span class="rb"><i style="--w:4.2%"></i></span><span class="ra">50 m</span></li></ul></details></div>
+    </div>
+    <div class="foot"><a class="btn ghost" href="#info">Come arrivare</a></div>
+  </div>
+</section>
+
+<section class="land light" id="paesaggio">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="kick">Intorno all’albergo</p><h2>Strade bianche, cascate, croci sul crinale.</h2></div>
+      <p>Dall’albergo si raggiungono a piedi o in bici i luoghi che il sito racconta: l’Alpe di Monghidoro, le grotte e la cascata di Labante, il Corno alle Scale, il parco di Montovolo.</p>
+    </div>
+    <div class="lm">
+      <figure class="l1"><div class="ph"><img class="par" src="img/croce.jpg" width="2000" height="1335" loading="lazy" alt="Una croce tra gli alberi sull'Alpe di Monghidoro con la valle e un paese sullo sfondo"></div><figcaption>Alpe di Monghidoro: la croce sul crinale.</figcaption></figure>
+      <figure class="l2"><div class="ph"><img class="par" src="img/labante.jpg" width="1200" height="800" loading="lazy" alt="Il laghetto nella cascata della sorgente di Labante, con un sentiero in legno"></div><figcaption>La cascata della sorgente di Labante.</figcaption></figure>
+      <figure class="l3"><div class="ph"><img class="par" src="img/campo.jpg" width="2000" height="1335" loading="lazy" alt="Un campo di grano con papaveri sulle colline dell'Appennino bolognese"></div><figcaption>Grano e papaveri sulle colline bolognesi.</figcaption></figure>
+  </div>
+  </div>
+</section>
+
+<section class="rooms" id="camere">
+  <div class="wrap">
+    <div class="head">
+      <div><p class="kick">L’albergo</p><h2>Undici camere, tutte con vista.</h2></div>
+      <p>Recentemente riarredate, con vista panoramica, bagno privato e televisione. Singole, doppie o matrimoniali, triple e quadruple: la colazione è compresa nel prezzo.</p>
+    </div>
+    <div class="mos">
+      <figure class="a"><img src="img/camere.jpg" width="1238" height="1291" loading="lazy" alt="Camera con letto matrimoniale, armadio a muro e porta sul bagno"><figcaption>Matrimoniale con bagno privato</figcaption></figure>
+      <figure class="b"><img src="img/camera-matrimoniale.jpg" width="1132" height="691" loading="lazy" alt="Camera doppia con letti singoli uniti, tende alle finestre e luce naturale"><figcaption>Doppia / twin</figcaption></figure>
+      <figure class="c"><img src="img/camera-tripla.jpg" width="1132" height="691" loading="lazy" alt="Camera tripla con letti, sedie in legno e finestre luminose"><figcaption>Tripla e quadrupla</figcaption></figure>
+    </div>
+    <ul class="serv">
+      <li>Colazione inclusa</li><li>Wi-Fi gratuito ovunque</li><li>Parcheggio ampio e gratuito</li><li>Lounge bar</li>
+      <li>Terrazza con veranda</li><li>Giardino</li><li>Bagno privato in camera</li><li>Vista panoramica</li>
+    </ul>
+    <p class="note">Le tariffe sono a persona al giorno, in B&amp;B, mezza pensione o pensione completa. <a href="tel:+390516770548"><b>Chiedi il prezzo al telefono</b></a>.</p>
+  </div>
+</section>
+
+<section class="book dark" aria-labelledby="bk">
+  <div class="wrap">
+    <div>
+      <p class="kick">Come prenotare</p>
+      <h2 id="bk">Camere e tavoli: si prenota per telefono.</h2>
+    </div>
+    <div class="bk">
+      <a class="big" href="tel:+390516770548">+39 051 677 0548</a>
+    </div>
+  </div>
+</section>
+
+<section class="eat dark" id="ristorante">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <p class="kick">Il ristorante</p>
+        <h2>Pasta tirata a mano, per 80 coperti.</h2>
+        <p class="lead" style="margin-top:22px">Tortellini, tagliatelle e lasagne fatte in casa, con i sughi dell’Appennino: funghi, tartufo, ragù. Carne e verdure dei secondi arrivano dal territorio.</p>
+        <p class="hours"><b>Quando.</b> Il ristorante e il bar sono chiusi al pubblico il martedì (gli ospiti dell’albergo possono prenotare la cena); ad agosto sono aperti tutti i giorni.</p>
+        <p style="margin-top:22px"><a class="btn" href="tel:+390516770548">Prenota un tavolo</a></p>
+      </div>
+      <div class="pics">
+        <div class="ph wide"><img src="img/tortellini.jpg" width="490" height="326" loading="lazy" alt="Tortellini appena chiusi a mano su un canovaccio, davanti alla sfoglia con il ripieno"></div>
+        <div class="ph"><img src="img/sala-1.jpg" width="1000" height="665" loading="lazy" alt="La sala del ristorante con tavoli apparecchiati con tovaglie bianche e rosa"></div>
+        <figure class="ph cert"><img src="img/tripadvisor.jpg" width="716" height="565" loading="lazy" alt="Il Certificato di Eccellenza TripAdvisor 2015 appeso in sala"><figcaption>Certificato di Eccellenza TripAdvisor 2015</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="info light" id="info">
+  <div class="wrap grid">
+    <div>
+      <p class="kick">Prima di partire</p>
+      <h2>Le domande che arrivano più spesso.</h2>
+      <p style="margin-top:24px;max-width:36ch;color:var(--muted)">Non trovi la risposta? Chiama, ti rispondiamo a voce: <a href="tel:+390516770548"><b>+39 051 677 0548</b></a>.</p>
+    </div>
+    <div class="vng-faq">
+      <details><summary>Come si prenota?</summary><div class="vng-faq__a">Per telefono al +39 051 677 0548 o per email a info@albergomontevenere.it.</div></details>
+      <details open><summary>Come si arriva senza auto?</summary><div class="vng-faq__a">In treno fino alla stazione di Monzuno-Vado (regionali da Bologna e da Prato Centrale, circa dalle 5:00 alle 22:00), poi la linea TPER 827 da Sasso Marconi. In auto: SS 325, A1 o Fondo Valle Savena, poi la provinciale degli Dei (da 3 a 9 km).</div></details>
+      <details><summary>La colazione è compresa?</summary><div class="vng-faq__a">Sì, è inclusa nel prezzo della camera.</div></details>
+      <details><summary>C’è parcheggio?</summary><div class="vng-faq__a">Sì, un parcheggio privato ampio e gratuito. Il Wi-Fi è gratuito in tutto l’albergo.</div></details>
+      <details><summary>Si possono portare gli animali?</summary><div class="vng-faq__a">No, gli animali non sono ammessi.</div></details>
+      <details><summary>Quando è chiuso?</summary><div class="vng-faq__a">Il bar e il ristorante sono chiusi al pubblico il martedì; ad agosto aprono tutti i giorni. Per le altre chiusure dell’anno, chiedi al telefono.</div></details>
+    </div>
+  </div>
+</section>
+
+<section class="contact dark" id="contatti">
+  <div class="wrap grid">
+    <div>
+      <p class="kick">Contatti</p>
+      <h2>Ti aspettiamo a <em>Monzuno.</em></h2>
+      <p style="margin-top:18px"><a class="btn" href="https://www.openstreetmap.org/search?query=Via%20Luigi%20Casaglia%205%20Monzuno" rel="noopener">Indicazioni stradali</a></p>
+    </div>
+    <div>
+      <a class="big" style="font-size:clamp(1.3rem,4vw,2.1rem)" href="mailto:info@albergomontevenere.it">info@albergomontevenere.it</a>
+      <address style="margin-top:24px">Albergo Ristorante Montevenere<br>Via Luigi Casaglia, 5<br>40036 Monzuno (BO)</address>
+      <div class="links">
+        <a href="https://www.facebook.com/p/Albergo-Ristorante-Montevenere-100057669541105/" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/explore/locations/964544763/albergo-ristorante-montevenere/" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Albergo Ristorante Montevenere snc · P.IVA 00870871209 · CIN IT037044A1LOGF89SN</p>
+    <p>Bozza non ufficiale, non pubblicata dall’albergo. Testi e foto provengono dal sito attuale albergomontevenere.it. <a href="confronto/">Il sito di oggi e quello di domani</a>.</p>
+  </div>
+</footer>
+
+<div class="dock" aria-label="Contatti rapidi">
+  <a class="btn" href="tel:+390516770548">Chiama 051 677 0548</a>
+  <a class="btn ghost" href="mailto:info@albergomontevenere.it">Email</a>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var top=document.getElementById('top');
+  function sc(){top.classList.toggle('solid',window.scrollY>40);}
+  sc();window.addEventListener('scroll',sc,{passive:true});
+  var shot=/[?&]shot=1/.test(location.search);
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(shot){document.documentElement.classList.add('shot');document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager';});}
+  if(shot||reduce||!window.gsap||!window.ScrollTrigger||!window.Lenis) return;
+
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:0.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000);});
+  gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var h=a.getAttribute('href');var t=h.length>1&&document.querySelector(h);if(t){e.preventDefault();lenis.scrollTo(t,{offset:-70});}});});
+
+  // titolo diviso in parole
+  document.fonts.ready.then(function(){
+    var st=new SplitText('.hero h1',{type:'words'});
+    gsap.from(st.words,{yPercent:60,opacity:0,duration:1.1,ease:'expo.out',stagger:.07,delay:.1});
+  });
+  gsap.from('.hero .kick,.hero .sub,.hero .cta',{y:26,opacity:0,duration:.9,ease:'power3.out',stagger:.12,delay:.55});
+  gsap.to('.hero .bg img',{yPercent:9,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+
+  // profilo altimetrico: la linea si disegna con lo scroll, poi punti ed etichette
+  var line=document.getElementById('pline');
+  if(line && getComputedStyle(line.ownerSVGElement).display!=='none'){
+    gsap.fromTo(line,{strokeDashoffset:1},{strokeDashoffset:0,ease:'none',scrollTrigger:{trigger:'#profile',start:'top 80%',end:'bottom 55%',scrub:1}});
+    gsap.from('.parea',{opacity:0,ease:'none',scrollTrigger:{trigger:'#profile',start:'top 70%',end:'bottom 50%',scrub:1}});
+    gsap.from('.pd,.pl',{opacity:0,y:8,stagger:.06,ease:'none',scrollTrigger:{trigger:'#profile',start:'top 75%',end:'bottom 55%',scrub:1}});
+  } else {
+    gsap.utils.toArray('.rb i').forEach(function(b){
+      gsap.from(b,{scaleX:0,ease:'none',scrollTrigger:{trigger:b,start:'top 95%',end:'top 70%',scrub:1}});
+    });
+  }
+
+  // parallax leggero sulle foto
+  gsap.utils.toArray('.par').forEach(function(el){
+    gsap.fromTo(el,{yPercent:-5},{yPercent:5,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  // entrate (solo transform/opacità)
+  gsap.utils.toArray('.land figure,.mos figure,.serv li,.facts li').forEach(function(el){
+    gsap.from(el,{y:36,opacity:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 92%'}});
+  });
+  window.addEventListener('load',function(){ScrollTrigger.refresh();});
+});
+</script>
+</body>
+</html>
