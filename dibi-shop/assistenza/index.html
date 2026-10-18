@@ -11,7 +11,7 @@
 <link rel="preload" as="font" type="font/woff2" href="../fonts/sora-latin-wght-normal.woff2" crossorigin>
 <link rel="stylesheet" href="../stile.css">
 <script>
-(function(){var d=document.documentElement;if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})});}
+(function(){var d=document.documentElement;if('IntersectionObserver' in window)d.classList.add('js');if(/[?&]shot=1/.test(location.search)){d.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})});}
 try{if(!localStorage.getItem('ck-ok')&&!d.classList.contains('shot'))d.classList.add('ck');}catch(_){if(!d.classList.contains('shot'))d.classList.add('ck')}
 document.addEventListener('click',function(ev){var b=ev.target.closest('[data-ck]');if(b){d.classList.remove('ck');try{localStorage.setItem('ck-ok','1')}catch(_){}}});
 if('IntersectionObserver' in window){document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('.buy .btn');if(b){new IntersectionObserver(function(x){d.classList.toggle('stk',!x[0].isIntersecting&&x[0].boundingClientRect.top<0)}).observe(b)}
@@ -24,16 +24,18 @@ var r=document.querySelectorAll('.rv');if(d.classList.contains('shot')){r.forEac
 <div class="topline"><div class="wrap"><span>Prodotto in Italia, a Fano, dal 1976</span><span>Classe antieffrazione 3 e 4</span><span>Spedizione gratuita in Italia sopra 100 €</span></div></div>
 <header class="top">
  <div class="wrap bar">
-  <a class="logo" href="../" aria-label="Di.Bi. Shop, home"><img src="img/4aa9a8d5a25a.jpg" alt="dibi – sicurezza &amp; design" width="132" height="128"><span class="lg-t">Di.Bi.<small>Porte blindate · e-shop</small></span></a>
+  <a class="logo" href="../" aria-label="Di.Bi. Shop, home"><img src="img/4aa9a8d5a25a.webp" alt="dibi – sicurezza &amp; design, e-shop" width="600" height="309"></a>
   <nav class="tl" aria-label="Informazioni"><a href="../chi-siamo/">Azienda</a><a href="../assistenza/">Spedizioni e aiuto</a></nav>
-  <div class="hact"><a class="btn sm ghost" href="tel:+3907218191">0721 8191</a><a class="btn sm" href="https://shop.dibigroup.com/checkout/cart/">Carrello</a></div>
+  <form class="srch" action="https://shop.dibigroup.com/catalogsearch/result/" method="get" role="search"><label class="sr" for="q">Cerca nel negozio</label><input id="q" name="q" type="search" placeholder="Cerca un modello o un ricambio"><button type="submit" aria-label="Cerca">Cerca</button></form>
+  <div class="hact"><a class="btn sm ghost" href="tel:+3907218191">0721 819 1</a><a class="cart" href="https://shop.dibigroup.com/checkout/cart/" aria-label="Carrello"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M5 8h14l-1.2 12H6.2L5 8Zm4 0V6a3 3 0 0 1 6 0v2"/></svg></a>
+  <details class="mnav"><summary aria-label="Apri il menu"><span></span></summary><div class="mnav-p"><form action="https://shop.dibigroup.com/catalogsearch/result/" method="get" role="search"><label class="sr" for="q2">Cerca</label><input id="q2" name="q" type="search" placeholder="Cerca nel negozio"><button type="submit">Cerca</button></form><a href="../porte-interno/">Porte da interno</a><a href="../porte-esterno/">Porte da esterno</a><a href="../grate/">Grate estensibili</a><a href="../persiane/">Persiane di sicurezza</a><a href="../accessori/">Accessori e ricambi</a><a href="../chi-siamo/">Azienda</a><a href="../assistenza/">Spedizioni e aiuto</a><a href="tel:+3907218191">Chiama 0721 819 1</a></div></details></div>
  </div>
  <nav class="cats" aria-label="Reparti"><div class="wrap cats-in"><a href="../porte-interno/">Porte da interno</a><a href="../porte-esterno/">Porte da esterno</a><a href="../grate/">Grate estensibili</a><a href="../persiane/">Persiane di sicurezza</a><a href="../accessori/">Accessori e ricambi</a><a class="ext" href="https://shop.dibigroup.com/porte-blindate/progetti-personalizzati.html">Su misura</a><a class="ext" href="https://shop.dibigroup.com/best-sellers.html">Best seller</a></div></nav>
 </header>
 <main id="main">
 
 <div class="wrap"><p class="crumbs"><a href="../">Home</a> / Spedizioni e aiuto</p></div>
-<section class="cathead wrap"><p class="eyebrow mono">Assistenza clienti</p><h1>Spedizioni, pagamenti, resi e garanzia</h1><p class="lead">Tutto quello che serve sapere prima di ordinare una porta da 80 kg, spiegato in breve.</p>
+<section class="cathead wrap"><p class="eyebrow">Assistenza clienti</p><h1>Spedizioni, pagamenti, resi e garanzia</h1><p class="lead">Tutto quello che serve sapere prima di ordinare una porta da 80 kg, spiegato in breve.</p>
 <nav class="jump mono" aria-label="Sezioni"><a href="#spedizioni">Spedizioni</a><a href="#pagamenti">Pagamenti</a><a href="#recesso">Recesso</a><a href="#garanzia">Garanzia</a><a href="#faq">FAQ</a><a href="#contatti">Contatti</a></nav></section>
 <section class="sec wrap info" id="spedizioni"><h2>Spedizioni e consegna</h2><div class="cards3">
  <div><b>Gratis sopra 100 €</b><p>Spedizione gratuita in tutta Italia per ordini sopra 100 € IVA inclusa (solo Italia).</p></div>
@@ -66,9 +68,9 @@ var r=document.querySelectorAll('.rv');if(d.classList.contains('shot')){r.forEac
   <div><p class="f-h">Aiuto</p><a href="../assistenza/#spedizioni">Spedizioni e consegna</a><a href="../assistenza/#pagamenti">Pagamenti</a><a href="../assistenza/#recesso">Recesso e resi</a><a href="../assistenza/#garanzia">Garanzia</a><a href="../assistenza/#faq">Domande frequenti</a></div>
   <div><p class="f-h">Contatti</p><a href="tel:+3907218191">Tel. +39 0721 819 1</a><a href="mailto:shop@dibigroup.com">shop@dibigroup.com</a><a href="mailto:info@dibigroup.com">info@dibigroup.com</a><a href="../chi-siamo/">L'azienda</a></div>
  </div>
- <div class="wrap fnote"><p>Prezzi, foto e testi presi da shop.dibigroup.com il 18/10/2026. I pulsanti portano al negozio vero.</p></div>
+ <div class="wrap fnote"><p>Bozza: prezzi, foto e testi da shop.dibigroup.com (18/10/2026).</p></div>
 </footer>
 <div class="stickybar"><span class="sb-p"></span><a class="btn" href="#buy">Acquista</a></div>
-<div class="ckbar" role="region" aria-label="Cookie"><p>Usiamo cookie tecnici e, con il tuo consenso, di statistica. <a href="https://shop.dibigroup.com/privacy-policy-cookie-restriction-mode">Dettagli</a></p><button type="button" class="ck-b" data-ck>Rifiuta</button><button type="button" class="ck-b ok" data-ck>Accetta</button></div>
+<div class="ckbar" role="region" aria-label="Cookie"><p>Cookie tecnici e, se accetti, statistici. <a href="https://shop.dibigroup.com/privacy-policy-cookie-restriction-mode">Dettagli</a></p><button type="button" class="ck-b" data-ck>Rifiuta</button><button type="button" class="ck-b ok" data-ck>Accetta</button></div>
 </body>
 </html>
