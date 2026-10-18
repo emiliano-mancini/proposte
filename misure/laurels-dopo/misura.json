@@ -1,0 +1,95 @@
+{
+  "slug": "laurels-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/",
+  "misuratoIl": "2026-10-18T03:17:59.428Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 347,
+  "lcpMs": 360,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/laurels-shop/img/4ee5754eaf5a.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/laurels-shop/",
+  "titolo": "Laurels Apron – Grembiuli e abiti da lavoro per creativi",
+  "descrizione": "Grembiuli e abiti da lavoro in cotone biologico e canapa, per artigiani e creativi. Spedizione gratuita in Italia sopra 99 €.",
+  "h1": [
+    "Abiti da lavoro\nper chi crea con le mani."
+  ],
+  "ttfb": 135,
+  "fcp": 360,
+  "domReady": 220,
+  "load": 342,
+  "pesoKB": 426,
+  "richieste": 17,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/img/7d3cc8d19ce1.webp",
+      "kb": 66
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/img/4ee5754eaf5a.webp",
+      "kb": 41
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/img/d123699d7592.webp",
+      "kb": 30
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/img/b16ce1c8ed3f.webp",
+      "kb": 30
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/img/69d25afa6c4a.webp",
+      "kb": 29
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "paolo@laurelsapron.com"
+  ],
+  "telefono": [
+    "+393491070971"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/laurels-shop/assistenza/"
+    },
+    {
+      "t": "Costi e tempi di spedizione",
+      "h": "https://emiliano-mancini.github.io/proposte/laurels-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e cambi",
+      "h": "https://emiliano-mancini.github.io/proposte/laurels-shop/assistenza/#resi"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 47,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 16,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 15,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

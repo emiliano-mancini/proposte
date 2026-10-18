@@ -1,0 +1,96 @@
+{
+  "slug": "dibi-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/porte-interno/",
+  "misuratoIl": "2026-10-18T03:17:55.412Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 138,
+  "lcpMs": 155,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/dibi-shop/porte-interno/img/4fe91d5637ac.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/dibi-shop/porte-interno/",
+  "titolo": "Porte blindate da interno – Di.Bi. Shop",
+  "descrizione": "Per appartamenti e pianerottoli: Argo, Argo Plus, Poker 2, 883, 884, Vetrata e la nuova SeGreta.",
+  "h1": [
+    "Porte blindate da interno 86 porte · 7 modelli"
+  ],
+  "ttfb": 70,
+  "fcp": 124,
+  "domReady": 92,
+  "load": 137,
+  "pesoKB": 307,
+  "richieste": 22,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/porte-interno/img/64a0b6014217.webp",
+      "kb": 40
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/porte-interno/img/9607ae4c8d99.webp",
+      "kb": 24
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/porte-interno/img/8cf29be12f31.webp",
+      "kb": 23
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/porte-interno/img/6ffbdfc6c5a1.webp",
+      "kb": 21
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/porte-interno/img/a3dac56d6774.webp",
+      "kb": 17
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "shop@dibigroup.com",
+    "info@dibigroup.com"
+  ],
+  "telefono": [
+    "+3907218191"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/dibi-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni e consegna",
+      "h": "https://emiliano-mancini.github.io/proposte/dibi-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Recesso e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/dibi-shop/assistenza/#recesso"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 17,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 15,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 15,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

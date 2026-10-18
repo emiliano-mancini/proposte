@@ -1,0 +1,95 @@
+{
+  "slug": "laurels-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/jeans-apollo-blu/",
+  "misuratoIl": "2026-10-18T03:18:03.294Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 167,
+  "lcpMs": 175,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/laurels-shop/jeans-apollo-blu/img/34852bd086f3.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/laurels-shop/jeans-apollo-blu/",
+  "titolo": "Jeans Apollo in cotone biologico con elastico in vita – Blu Indaco – Laurels Apron",
+  "descrizione": "Il jeans da lavoro che si porta tutti i giorni: vita elastica, gamba ampia che si stringe appena in fondo, tasca utility sul fianco e passante per gli attrezzi.",
+  "h1": [
+    "Jeans Apollo Blu Indaco"
+  ],
+  "ttfb": 87,
+  "fcp": 149,
+  "domReady": 142,
+  "load": 166,
+  "pesoKB": 436,
+  "richieste": 13,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/jeans-apollo-blu/img/c3545a41abd7.webp",
+      "kb": 80
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/jeans-apollo-blu/img/10a29ebf5442.webp",
+      "kb": 54
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/jeans-apollo-blu/img/26ae1e2e0dd9.webp",
+      "kb": 46
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/jeans-apollo-blu/img/34852bd086f3.webp",
+      "kb": 46
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/laurels-shop/jeans-apollo-blu/img/f0dc2d2a7a93.webp",
+      "kb": 39
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "paolo@laurelsapron.com"
+  ],
+  "telefono": [
+    "+393491070971"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/laurels-shop/assistenza/"
+    },
+    {
+      "t": "Costi e tempi di spedizione",
+      "h": "https://emiliano-mancini.github.io/proposte/laurels-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e cambi",
+      "h": "https://emiliano-mancini.github.io/proposte/laurels-shop/assistenza/#resi"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 52,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 22,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 16,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

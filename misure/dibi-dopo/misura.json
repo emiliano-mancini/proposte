@@ -1,0 +1,96 @@
+{
+  "slug": "dibi-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/",
+  "misuratoIl": "2026-10-18T03:17:51.499Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 346,
+  "lcpMs": 288,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/dibi-shop/img/4fe91d5637ac.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/dibi-shop/",
+  "titolo": "Di.Bi. Shop – Porte blindate, grate e persiane di sicurezza dal produttore",
+  "descrizione": "Porte blindate classe 3 e 4, grate estensibili e persiane di sicurezza prodotte a Fano dal 1976. Prezzi online e consegna in 8 giorni sulle porte in pronta consegna.",
+  "h1": [
+    "Porta blindata Argo, pronta in 8 giorni."
+  ],
+  "ttfb": 148,
+  "fcp": 288,
+  "domReady": 273,
+  "load": 343,
+  "pesoKB": 237,
+  "richieste": 14,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/img/64a0b6014217.webp",
+      "kb": 40
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/img/7db5bda1b2c4.webp",
+      "kb": 36
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/img/6a5e4e7f85e0.webp",
+      "kb": 19
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/img/81cf254c18b3.webp",
+      "kb": 19
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dibi-shop/img/a3dac56d6774.webp",
+      "kb": 17
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "shop@dibigroup.com",
+    "info@dibigroup.com"
+  ],
+  "telefono": [
+    "+3907218191"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/dibi-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni e consegna",
+      "h": "https://emiliano-mancini.github.io/proposte/dibi-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Recesso e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/dibi-shop/assistenza/#recesso"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 124,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 15,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 16,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
