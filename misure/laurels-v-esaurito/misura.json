@@ -1,0 +1,211 @@
+{
+  "slug": "laurels-v-esaurito",
+  "url": "https://www.laurelsapron.com/products/jeans-apollo-blu#:~:text=Esaurito",
+  "misuratoIl": "2026-10-18T02:30:44.745Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4772,
+  "lcpMs": 2542,
+  "lcpElemento": "IMG https://www.laurelsapron.com/cdn/shop/files/Laurels-apron-pantalone-apollo-denim-blu-indaco-8.jpg?v=1789067881&width=108",
+  "cls": 0,
+  "urlFinale": "https://www.laurelsapron.com/products/jeans-apollo-blu",
+  "titolo": "Pantalone donna in Cotone riciclato con elastico in vita – Blu indaco - XS-XL – Laurels Apron",
+  "descrizione": "Pantalone Apollo in 80% cotone e 20% cotone riciclato: gamba morbida, vita elasticizzata e vestibilità comoda per l’uso quotidiano. Disponibile in XS–XL. Versatile, traspirante e pensato per adattarsi a diverse fisicità.",
+  "h1": [
+    "Jeans Apollo in cotone biologico con elastico in vita - Blu Indaco"
+  ],
+  "ttfb": 885,
+  "fcp": 1261,
+  "domReady": 2833,
+  "load": 4770,
+  "pesoKB": 6207,
+  "richieste": 420,
+  "script": 125,
+  "serviziEsterni": [
+    "cdn.shopify.com",
+    "static.klaviyo.com",
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "static-tracking.klaviyo.com",
+    "otlp-http-production.shopifysvc.com",
+    "pwzcdn.com",
+    "fast.a.klaviyo.com",
+    "fonts.googleapis.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws",
+    "skosm.klarna.com",
+    "laurels-apron.myshopify.com",
+    "whatsapp.carthike.com",
+    "rivmorkxomnwzdlytbgv.supabase.co",
+    "www.googleadservices.com",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "shop.app",
+    "essential-apps-analytics.herokuapp.com",
+    "app.rivyo.com",
+    "www.merchant-center-analytics.goog",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "static-forms.klaviyo.com",
+    "a.clarity.ms",
+    "dv-c3e594c6d429469e90b54478358619c3.ecs.us-east-1.on.aws",
+    "www.facebook.com",
+    "app.consentmo.com",
+    "bded8a3c6ae-1-1053047382554.us-central1.run.app",
+    "rivyo.nyc3.cdn.digitaloceanspaces.com",
+    "convoy.usecorner.io",
+    "pixel.cornercart.io",
+    "rio.pwztag.com",
+    "configs.carthike.com",
+    "app.kiwisizing.com",
+    "c.clarity.ms",
+    "cdn.iubenda.com",
+    "starlink.cornercart.io",
+    "5ma5p56xtyzgg6xqqy2zih7rku0teqkb.lambda-url.eu-central-1.on.aws",
+    "accordion.usecorner.io",
+    "a.klaviyo.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://rivyo.nyc3.cdn.digitaloceanspaces.com/rivyo-app/laurels-apron.myshopify.com-73045/image_73045_1885394167_1791543605_6ac8c9354b6db.jpeg",
+      "kb": 143
+    },
+    {
+      "url": "https://rivyo.nyc3.cdn.digitaloceanspaces.com/rivyo-app/laurels-apron.myshopify.com-73045/image_73045_1231755637_1791543606_6ac8c936c58b8.jpeg",
+      "kb": 113
+    },
+    {
+      "url": "https://www.laurelsapron.com/cdn/shop/files/Laurels-apron-pantalone-apollo-denim-blu-indaco-8.jpg?v=1789067881&width=1080",
+      "kb": 103
+    },
+    {
+      "url": "https://rivyo.nyc3.cdn.digitaloceanspaces.com/rivyo-app/laurels-apron.myshopify.com-73045/image_73045_1920850248_1791543606_6ac8c936379d2.jpeg",
+      "kb": 97
+    },
+    {
+      "url": "https://rivyo.nyc3.cdn.digitaloceanspaces.com/rivyo-app/laurels-apron.myshopify.com-73045/image_73045_573825754_1791543606_6ac8c93685747.jpeg",
+      "kb": 93
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "needsclick  kl-private-reset-css-Xuajs1",
+      "copre": "100%",
+      "testo": "SCONTO 10% Iscriviti alla newsletter e ricevi uno sconto 10% sul primo acquisto! OTTIENI SCONTO"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1366,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.laurelsapron.com/pages/la-nostra-storia"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.laurelsapron.com/pages/contatti"
+    },
+    {
+      "t": "Costi e tempi di spedizione",
+      "h": "https://www.laurelsapron.com/pages/spedizioni-resi"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.laurelsapron.com/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "FAQ - domande frequenti",
+      "h": "https://www.laurelsapron.com/a/help"
+    },
+    {
+      "t": "Costi e tempi di spedizione",
+      "h": "https://www.laurelsapron.com/pages/spedizioni-resi"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.laurelsapron.com/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.laurelsapron.com/pages/contatti"
+    },
+    {
+      "t": "Termini e condizioni del servizio",
+      "h": "https://www.laurelsapron.com/policies/terms-of-service"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 793,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 856,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 497,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.laurelsapron.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.laurelsapron.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.laurelsapron.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.laurelsapron.com/cdn/shop/videos/c/vp/4cfbcb3e978d497da3a5dfb6fcd40307/4cfbcb3e978d497da3a5dfb6fcd40307.HD-1080p-7.2Mbps-95630792.mp4?v=0"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/10983247752/?random=1792290639569&cv=11&fst=1792290639569&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item&gtm=45be6ae1v89645731"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/10983247752/?random=1792290639549&cv=11&fst=1792290639549&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6ae1v89645731"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=1&auid=928058710.1792290640&dt=Pantalone%20donna%20in%20Cotone%20riciclato%20con%20elastico%20in%20vita%20%"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=928058710.1792290640&dt=Pantalone%20donna%20in%20Cotone%20riciclato%20con%20elastico%20in%20vita%20%"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=928058710.1792290640&dt=Pantalone%20donna%20in%20Cotone%20riciclato%20con%20elastico%20in%20vita%20%"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=928058710.1792290640&gtm=45be6ae1v896457316za208zb9121602855zd9121602855xecxf1&fmt=8"
+    }
+  ]
+}

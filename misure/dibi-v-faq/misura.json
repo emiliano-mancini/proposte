@@ -1,0 +1,164 @@
+{
+  "slug": "dibi-v-faq",
+  "url": "https://shop.dibigroup.com/faq#:~:text=superiori%20a%20100",
+  "misuratoIl": "2026-10-18T02:30:14.733Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 6971,
+  "lcpMs": 2366,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://shop.dibigroup.com/faq",
+  "titolo": "FAQ Domande frequenti - Di.Bi. Shop",
+  "descrizione": "Consulta le risposte alle domande più frequenti e scopri come acquistare le nostre porte blindate e i prodotti per la protezione delle finestre direttamente online su Di.Bi. Shop!",
+  "h1": [
+    "FAQ"
+  ],
+  "ttfb": 433,
+  "fcp": 2366,
+  "domReady": 2361,
+  "load": 6969,
+  "pesoKB": 3374,
+  "richieste": 250,
+  "script": 200,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "integrations.etrusted.com",
+    "widgets.trustedshops.com",
+    "static.zdassets.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "ekr.zdassets.com",
+    "app.legalblink.it",
+    "www.facebook.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://shop.dibigroup.com/media/logo/stores/1/logo_dibi.jpg",
+      "kb": 132
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/logo/stores/1/DIBI_Logo_sicurezza_design.png",
+      "kb": 74
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/wysiwyg/pagamenti-carte-di-credito.jpg",
+      "kb": 17
+    },
+    {
+      "url": "https://widgets.trustedshops.com/assets/images/sprite.6b83167aeea54f81c755d67d609fd23a61b5b620.svg",
+      "kb": 13
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "kb": 2
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "shop@dibigroup.com",
+    "eshop@dibigroup.com",
+    "dibigroup@legalmail.it "
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://shop.dibigroup.com/contact"
+    },
+    {
+      "t": "Reso / Recesso",
+      "h": "https://shop.dibigroup.com/diritto-di-recesso"
+    },
+    {
+      "t": "Recesso",
+      "h": "https://shop.dibigroup.com/faq#recesso"
+    },
+    {
+      "t": "recesso",
+      "h": "https://shop.dibigroup.com/faq"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://shop.dibigroup.com/faq"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://shop.dibigroup.com/contatti"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://shop.dibigroup.com/condizioni-vendita"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://shop.dibigroup.com/spedizioni"
+    },
+    {
+      "t": "Recesso",
+      "h": "https://shop.dibigroup.com/diritto-di-recesso"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://shop.dibigroup.com/faq"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://shop.dibigroup.com/contatti"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://shop.dibigroup.com/condizioni-vendita"
+    }
+  ],
+  "piattaforma": "Magento",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
+  "rispostaServer": [
+    {
+      "ms": 936,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 232,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 241,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KDQ7ZTZLC6&gtm=45je6ae1v889658816za20ozb9123589615zd9123589615xf1&_p=1792290606371&gcs=G100&gcd=13p3p3p3p5l"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ae1v889658816za20ozb9123589615zd9123589615xf1&_p=1792290606371&em=tv.1~em.AymzHhGMbXhYJ"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=18&frm=0&apvc=0&ae=g&tid=AW-831424149&dl=https%3A%2F%2Fshop.dibigroup.com%2Ffaq&scrsrc=www.googletagmanage"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Ffaq&scrsrc=www.googletagmanager.com"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=18&frm=0&apvc=0&tid=AW-831424149&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Ffaq&scrsrc=www.googlet"
+    }
+  ]
+}

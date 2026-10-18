@@ -1,0 +1,166 @@
+{
+  "slug": "dibi-v-rimasto",
+  "url": "https://shop.dibigroup.com/porte-blindate/porta-blindata-argo-80x200-bianco.html#:~:text=rimasto",
+  "misuratoIl": "2026-10-18T02:29:51.831Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5535,
+  "lcpMs": 7759,
+  "lcpElemento": "IMG https://shop.dibigroup.com/media/catalog/product/cache/0343c47f48fe70263fd3c8d15f04fe0c/p/o/porta_blindata_poker2_est_bi",
+  "cls": 0.352,
+  "urlFinale": "https://shop.dibigroup.com/porte-blindate/porta-blindata-argo-80x200-bianco.html",
+  "titolo": "Porta blindata ad uso interno mod.Argo. Dim. 80x200 Col. Bianco 9010",
+  "descrizione": "Porta blindata per interno Argo in classe anti-effrazione 3. Misura: 80x200cm. Rivestimento esterno in Melaminico Bianco 9010. Pomolo Argento",
+  "h1": [
+    "PORTA BLINDATA ARGO 80X200 BIANCO 9010",
+    "",
+    ""
+  ],
+  "ttfb": 969,
+  "fcp": 2094,
+  "domReady": 2149,
+  "load": 5532,
+  "pesoKB": 4317,
+  "richieste": 250,
+  "script": 191,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "integrations.etrusted.com",
+    "widgets.trustedshops.com",
+    "static.zdassets.com",
+    "connect.facebook.net",
+    "www.googletagmanager.com",
+    "ekr.zdassets.com",
+    "app.legalblink.it",
+    "www.facebook.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://shop.dibigroup.com/pub/media/wysiwyg/home/porte-blindate-dibi.jpg",
+      "kb": 206
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/logo/stores/1/logo_dibi.jpg",
+      "kb": 132
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/wysiwyg/foto_soglia_taglio_termico_1.jpg",
+      "kb": 90
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/wysiwyg/soglia_taglio_termico_1.jpg",
+      "kb": 79
+    },
+    {
+      "url": "https://shop.dibigroup.com/media/logo/stores/1/DIBI_Logo_sicurezza_design.png",
+      "kb": 74
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "ACQUISTA ORA",
+    "yPx": 1539,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "shop@dibigroup.com",
+    "",
+    "info@dibigroup.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://shop.dibigroup.com/contact"
+    },
+    {
+      "t": "Reso / Recesso",
+      "h": "https://shop.dibigroup.com/diritto-di-recesso"
+    },
+    {
+      "t": "INFO SULLA SPEDIZIONE",
+      "h": "https://shop.dibigroup.com/porte-blindate/porta-blindata-argo-80x200-bianco.html#custom-1"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://shop.dibigroup.com/contatti/"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://shop.dibigroup.com/faq"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://shop.dibigroup.com/contatti"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://shop.dibigroup.com/condizioni-vendita"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://shop.dibigroup.com/spedizioni"
+    },
+    {
+      "t": "Recesso",
+      "h": "https://shop.dibigroup.com/diritto-di-recesso"
+    }
+  ],
+  "piattaforma": "Magento",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no",
+  "rispostaServer": [
+    {
+      "ms": 934,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 218,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 633,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ae1h1v889658816z89123589615za20gzb9123589615zd9123589615xf1&_p=1792290584578&gcs=G100&g"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KDQ7ZTZLC6&gtm=45je6ae1h1v889658816za20ozb9123589615zd9123589615xf1&_p=1792290584578&gcs=G100&gcd=13p3p3p3p"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ae1h1v889658816za20ozb9123589615zd9123589615xf1&_p=1792290584578&em=tv.1~em.0ZBKf87neo7"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K40XNKG094&gtm=45je6ae1h1v889658816z89123589615za20gzb9123589615zd9123589615xf1&_p=1792290584578&gcs=G100&g"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=0&tid=AW-831424149&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fporta"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=0&ae=g&tid=AW-831424149&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fporta-blindat"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fshop.dibigroup.com%2Fporte-blindate%2Fporta-blindata-arg"
+    }
+  ]
+}
