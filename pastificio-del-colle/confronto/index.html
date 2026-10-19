@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Il sito di Pastificio del Colle, oggi e domani</title>
+<meta name="description" content="Confronto tra il sito attuale del Pastificio del Colle e la proposta di restyling. Bozza non ufficiale.">
+<meta property="og:image" content="confronto.jpg">
+<meta name="theme-color" content="#2b1a10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&family=Young+Serif&display=swap">
+<style>
+:root{--flour:#f6eedd;--paper:#fcf8ee;--ink:#2b1a10;--ink2:#43291b;--orange:#e8640f;--orange-d:#b5470a;--gold:#e9b21b;--red:#d41e1e;--disp:"Young Serif",Georgia,serif;--body:"Work Sans",system-ui,sans-serif;--pad:clamp(20px,4.5vw,64px)}
+*{box-sizing:border-box}
+html,body{overflow-x:clip}
+body{margin:0;background:var(--flour);color:var(--ink);font:400 1.0625rem/1.6 var(--body)}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--disp);font-weight:400;line-height:1.05;margin:0;letter-spacing:-.01em}
+.wrap{max-width:1100px;margin-inline:auto;padding-inline:var(--pad)}
+.draft{background:var(--ink);color:#f6d58a;text-align:center;font:600 .66rem/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:9px 8px}
+.kick{font:600 .8rem/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:var(--orange-d);display:flex;gap:.7em;align-items:center}
+.kick::before{content:"";width:2.2em;height:2px;background:currentColor}
+header.top{padding:clamp(40px,7vw,90px) 0 20px}
+header.top h1{font-size:clamp(2.3rem,7vw,5rem);margin:16px 0 14px;max-width:12em}
+header.top h1 em{font-style:normal;color:var(--orange-d)}
+header.top p{max-width:34em;color:var(--ink2)}
+/* cursore prima/dopo */
+.cmp{position:relative;width:min(100%,390px);margin:30px auto 0;aspect-ratio:390/844;border-radius:34px;overflow:hidden;border:3px solid var(--ink);background:#fff;touch-action:pan-y;user-select:none;-webkit-user-select:none;box-shadow:0 30px 60px -30px rgba(43,26,16,.5)}
+.cmp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;pointer-events:none}
+.cmp .after{clip-path:inset(0 0 0 var(--p,50%))}
+.cmp .lab{position:absolute;top:14px;z-index:3;font:600 .72rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;padding:.6em 1em;border-radius:99px;background:var(--ink);color:var(--flour)}
+.cmp .l1{left:14px}.cmp .l2{right:14px;background:var(--orange);color:var(--ink)}
+.cmp .handle{position:absolute;top:0;bottom:0;left:var(--p,50%);width:44px;margin-left:-22px;z-index:4;cursor:ew-resize;display:grid;place-items:center;touch-action:none}
+.cmp .handle::before{content:"";position:absolute;top:0;bottom:0;width:3px;background:var(--ink);box-shadow:0 0 0 2px var(--flour)}
+.cmp .handle span{position:relative;width:46px;height:46px;border-radius:50%;background:var(--orange);border:3px solid var(--ink);display:grid;place-items:center;font:600 1rem/1 var(--body)}
+.cmp input[type=range]{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;z-index:5;margin:0}
+.hint{text-align:center;color:var(--ink2);font-size:.9rem;margin-top:14px}
+/* problemi */
+section.sec{padding:clamp(60px,9vw,120px) 0}
+h2{font-size:clamp(2rem,5vw,3.6rem);margin:14px 0 clamp(26px,4vw,50px)}
+.probs{display:grid;gap:clamp(26px,4vw,48px)}
+.prob{display:grid;gap:16px;align-items:center}
+.prob figure{margin:0;border-radius:20px;overflow:hidden;border:2px solid var(--ink);background:#fff}
+.prob b{font:400 clamp(3rem,8vw,4.6rem)/.9 var(--disp);color:var(--red)}
+.prob h3{font-size:clamp(1.4rem,3vw,2rem);margin:6px 0 8px}
+.prob p{color:var(--ink2);max-width:32em}
+@media(min-width:860px){.prob{grid-template-columns:1fr 1fr;gap:48px}.prob:nth-child(even) figure{order:2}}
+/* numeri */
+.nums{background:var(--ink);color:var(--flour);border-radius:36px 36px 0 0}
+.nums .kick{color:#f6b36a}
+.nums h2{color:var(--flour)}
+.grid{display:grid;gap:14px}
+@media(min-width:760px){.grid{grid-template-columns:repeat(3,1fr)}}
+.n{background:var(--paper);color:var(--ink);border-radius:24px;padding:24px}
+.n small{font:600 .76rem/1.3 var(--body);letter-spacing:.14em;text-transform:uppercase;display:block;margin-bottom:14px}
+.n .row{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 14px}
+.n .o{font:400 clamp(1.8rem,5vw,2.6rem)/1 var(--disp);color:var(--red);text-decoration:line-through;text-decoration-thickness:2px}
+.n .ar{font:600 1.4rem/1 var(--body)}
+.n .nw{font:400 clamp(2.6rem,8vw,4rem)/1 var(--disp);color:#2f6b12}
+.n p{margin-top:12px;font-size:.95rem;color:var(--ink2)}
+.note{margin-top:22px;font-size:.88rem;color:#e9dcc3;max-width:46em}
+/* cta */
+.cta{background:var(--orange);text-align:center;padding:clamp(60px,9vw,110px) 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:64px;padding:.8em 2.2em;border-radius:99px;background:var(--ink);color:var(--flour);font:600 1.2rem/1 var(--body);text-decoration:none;border:2px solid var(--ink);transition:transform .3s cubic-bezier(.34,1.56,.64,1)}
+.btn:hover{transform:translateY(-3px) rotate(-1deg)}
+.cta h2{margin:0 0 26px}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+footer{background:var(--ink);color:#e9dcc3;padding:36px 0 44px;font-size:.95rem}
+footer a{color:#f6d58a}
+</style>
+</head>
+<body>
+<div class="draft" role="note">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top"><div class="wrap">
+  <p class="kick">Pastificio del Colle · Gioia del Colle (BA)</p>
+  <h1>Il sito di Pastificio del Colle, <em>oggi e domani</em></h1>
+  <p>Trascina il cursore: a sinistra la prima schermata del sito attuale su telefono, a destra quella della proposta.</p>
+  <div class="cmp" id="cmp" style="--p:50%">
+    <img src="vecchio-mobile.jpg" width="780" height="1688" alt="Sito attuale su telefono: logo molto grande, pagina bianca e banner cookie che copre i contenuti">
+    <img class="after" src="nuovo-mobile.jpg" width="780" height="1688" alt="Proposta di restyling su telefono: pasta colorata a tutto schermo, titolo e numero di telefono">
+    <span class="lab l1">Oggi</span><span class="lab l2">Con noi</span>
+    <div class="handle" aria-hidden="true"><span>⇆</span></div>
+    <input type="range" min="0" max="100" value="50" aria-label="Cursore per confrontare il sito attuale e la proposta">
+  </div>
+  <p class="hint">Funziona anche con il dito.</p>
+</div></header>
+
+<section class="sec"><div class="wrap">
+  <p class="kick">Cosa non va oggi</p>
+  <h2>Tre problemi veri del sito attuale</h2>
+  <div class="probs">
+    <div class="prob">
+      <figure><img src="p1-logo.jpg" width="780" height="330" loading="lazy" alt="Logo enorme che occupa tutta la prima schermata su telefono, cerchiato in rosso"></figure>
+      <div><b>1</b><h3>Il logo mangia lo schermo</h3><p>Su telefono il logo occupa quasi un quinto della prima schermata e la pagina è più larga dello schermo (402 px invece di 390): scorre di lato.</p></div>
+    </div>
+    <div class="prob">
+      <figure><img src="p2-cookie.jpg" width="780" height="208" loading="lazy" alt="Banner dei cookie che copre una foto, cerchiato in rosso"></figure>
+      <div><b>2</b><h3>Il banner dei cookie copre i prodotti</h3><p>L’avviso resta sopra le immagini mentre si legge.</p></div>
+    </div>
+    <div class="prob">
+      <figure><img src="p3-telefono.jpg" width="804" height="360" loading="lazy" alt="Numero di telefono scritto come semplice testo, cerchiato in rosso"></figure>
+      <div><b>3</b><h3>Il telefono non si tocca</h3><p>Il numero è solo testo: da telefono non si può chiamare con un tocco. Il sito è fermo al © 2018 e pesa circa 5,7 MB.</p></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec nums"><div class="wrap">
+  <p class="kick">Misurato con Google Lighthouse, telefono</p>
+  <h2>Tre numeri, prima e dopo</h2>
+  <div class="grid">
+    <div class="n"><small>Punteggio velocità</small><div class="row"><span class="o">40</span><span class="ar" aria-hidden="true">→</span><span class="nw">88</span></div><p>su 100: più alto è meglio.</p></div>
+    <div class="n"><small>Caricamento su telefono (LCP)</small><div class="row"><span class="o">24 s</span><span class="ar" aria-hidden="true">→</span><span class="nw">3,8 s</span></div><p>tempo per mostrare l’elemento principale.</p></div>
+    <div class="n"><small>Accessibilità</small><div class="row"><span class="o">72</span><span class="ar" aria-hidden="true">→</span><span class="nw">95</span></div><p>su 100: contrasti, nomi dei link, lettura da screen reader.</p></div>
+  </div>
+  <p class="note">Misure fatte con Lighthouse in simulazione di telefono con rete lenta: il sito attuale su pastificiodelcolle.it, la proposta su una copia locale. Sono indicative; i valori reali dipendono dal server.</p>
+</div></section>
+
+<section class="cta"><div class="wrap">
+  <h2>Vuoi vederlo dal vivo?</h2>
+  <a class="btn" href="../">Guarda il sito nuovo</a>
+</div></section>
+
+<footer><div class="wrap">
+  <p>Proposta di restyling – bozza non ufficiale: non è il sito del Pastificio del Colle. Foto e testi provengono dal loro sito attuale.</p>
+  <p>Contatto dell’agenzia: <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></p>
+</div></footer>
+
+<script>
+(function(){
+  var box=document.getElementById('cmp'),r=box.querySelector('input');
+  function set(v){box.style.setProperty('--p',v+'%');}
+  r.addEventListener('input',function(){set(r.value);});
+  var dragging=false;
+  function fromX(x){var b=box.getBoundingClientRect();var v=Math.max(0,Math.min(100,(x-b.left)/b.width*100));r.value=v;set(v);}
+  var h=box.querySelector('.handle');
+  h.addEventListener('pointerdown',function(e){dragging=true;h.setPointerCapture(e.pointerId);fromX(e.clientX);});
+  h.addEventListener('pointermove',function(e){if(dragging)fromX(e.clientX);});
+  h.addEventListener('pointerup',function(){dragging=false;});
+  // piccolo invito all'avvio (solo senza reduced-motion)
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    var t0=null;(function a(t){if(!t0)t0=t;var k=(t-t0)/1400;if(k<1){var v=50+Math.sin(k*Math.PI*2)*18*(1-k);set(v);r.value=v;requestAnimationFrame(a);}else{set(50);r.value=50;}})(performance.now());
+  }
+})();
+</script>
+</body>
+</html>
