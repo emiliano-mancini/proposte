@@ -1,0 +1,124 @@
+{
+  "slug": "basile",
+  "url": "https://basilecostruzionieristrutturazioni.it/",
+  "misuratoIl": "2026-10-19T16:18:00.819Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2150,
+  "lcpMs": 2152,
+  "lcpElemento": "DIV https://basilecostruzionieristrutturazioni.it/wp-content/uploads/2024/10/engineer-architect-designer-freelance-work-on-s",
+  "cls": 0,
+  "urlFinale": "https://basilecostruzionieristrutturazioni.it/",
+  "titolo": "Costruzioni Torino - Basile Costruzioni e Ristrutturazioni",
+  "descrizione": "Costruzioni Torino - Basile Costruzioni e Ristrutturazioni, con sede a Orbassano, è un’azienda specializzata nella realizzazione",
+  "h1": [
+    "Basile Costruzioni e Ristrutturazioni"
+  ],
+  "ttfb": 932,
+  "fcp": 1684,
+  "domReady": 1733,
+  "load": 2148,
+  "pesoKB": 965,
+  "richieste": 27,
+  "script": 12,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://basilecostruzionieristrutturazioni.it/wp-content/uploads/2024/10/engineer-architect-designer-freelance-work-on-star-MATJ8HV-3.jpg",
+      "kb": 154
+    },
+    {
+      "url": "https://basilecostruzionieristrutturazioni.it/wp-content/uploads/2024/10/new-construction-home-site-LP52APQ-768x512.jpg",
+      "kb": 81
+    },
+    {
+      "url": "https://basilecostruzionieristrutturazioni.it/wp-content/uploads/2024/10/construction-XJV8V7H-3-768x512.jpg",
+      "kb": 72
+    },
+    {
+      "url": "https://basilecostruzionieristrutturazioni.it/wp-content/uploads/2024/10/BASILE-1-233x169.png",
+      "kb": 9
+    },
+    {
+      "url": "https://basilecostruzionieristrutturazioni.it/wp-content/plugins/lw-all-in-one/public/images/close.svg",
+      "kb": 1
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "lwaio-consent-bar",
+      "copre": "50%",
+      "testo": "Questo sito web utilizza i cookie! Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalit"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+393385484596"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://basilecostruzionieristrutturazioni.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://basilecostruzionieristrutturazioni.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://basilecostruzionieristrutturazioni.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://basilecostruzionieristrutturazioni.it/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://basilecostruzionieristrutturazioni.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://basilecostruzionieristrutturazioni.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://basilecostruzionieristrutturazioni.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 970,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 136,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 146,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WTREXMJW40&gtm=45je6af0v9198004926za20ozb9198003004zd9198003004xf1&_p=1792426676613&gcs=G111&gcd=13t3t3t3t5"
+    }
+  ]
+}
