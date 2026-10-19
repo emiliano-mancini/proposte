@@ -1,0 +1,108 @@
+{
+  "slug": "ceresi",
+  "url": "https://www.anticamacelleriaceresi.it/negozio/",
+  "misuratoIl": "2026-10-19T21:25:46.163Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 7453,
+  "lcpMs": 7001,
+  "lcpElemento": "IMG https://www.anticamacelleriaceresi.it/wp-content/uploads/2026/06/macelleria-ceresi-prodotti_alcapone.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.anticamacelleriaceresi.it/negozio/",
+  "titolo": "Shop - Antica Macelleria Ceresi",
+  "descrizione": null,
+  "h1": [
+    "SHOP",
+    "Shop"
+  ],
+  "ttfb": 5821,
+  "fcp": 6399,
+  "domReady": 7239,
+  "load": 7452,
+  "pesoKB": 5428,
+  "richieste": 171,
+  "script": 79,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2024/10/antica-macelleria-ceresi-ragu-carne-bianca-2-1030x1030.jpg",
+      "kb": 641
+    },
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2024/10/antica-macelleria-ceresi-ragu-alla-bolognese-2-1030x1030.jpg",
+      "kb": 638
+    },
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2024/10/antica-macelleria-ceresi-ragu-salsiccia-2-1030x1030.jpg",
+      "kb": 629
+    },
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2026/06/macelleria-ceresi-prodotti_saporelli-1030x1030.jpg",
+      "kb": 606
+    },
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2024/10/antica-macelleria-ceresi-ragu-di-prosciutto-2-1030x1030.jpg",
+      "kb": 595
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "COMPRA ORA",
+    "yPx": 422,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "marcelloceresi@gmail.com"
+  ],
+  "telefono": [
+    "+39051901115"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.anticamacelleriaceresi.it/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.anticamacelleriaceresi.it/#contatti"
+    },
+    {
+      "t": "marcelloceresi@gmail.com",
+      "h": "mailto:marcelloceresi@gmail.com"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://www.anticamacelleriaceresi.it/spedizioni/"
+    },
+    {
+      "t": "Termini e condizioni di vendita",
+      "h": "https://www.anticamacelleriaceresi.it/termini-e-condizioni-di-vendita/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1690,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1634,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1537,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

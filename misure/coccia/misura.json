@@ -1,0 +1,97 @@
+{
+  "slug": "coccia",
+  "url": "https://www.salumificiococcia.it/negozio/",
+  "misuratoIl": "2026-10-19T21:26:04.876Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3686,
+  "lcpMs": 3712,
+  "lcpElemento": "DIV https://www.salumificiococcia.it/wp-content/uploads/2026/05/Coccia-Sesto_banner_0001.webp",
+  "cls": 0,
+  "urlFinale": "https://www.salumificiococcia.it/negozio/",
+  "titolo": "Shop - Salumificio Coccia",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 2573,
+  "fcp": 2983,
+  "domReady": 3422,
+  "load": 3685,
+  "pesoKB": 2229,
+  "richieste": 115,
+  "script": 45,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "stats.wp.com",
+    "connect.facebook.net",
+    "pixel.wp.com",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.salumificiococcia.it/wp-content/uploads/2026/05/cotti.jpg",
+      "kb": 244
+    },
+    {
+      "url": "https://www.salumificiococcia.it/wp-content/uploads/2026/05/norcineria.jpg",
+      "kb": 214
+    },
+    {
+      "url": "https://www.salumificiococcia.it/wp-content/uploads/2026/05/salami.jpg",
+      "kb": 208
+    },
+    {
+      "url": "https://www.salumificiococcia.it/wp-content/uploads/2026/05/Coccia-Sesto_banner_0001.webp",
+      "kb": 206
+    },
+    {
+      "url": "https://www.salumificiococcia.it/wp-content/uploads/2026/05/lonze.jpg",
+      "kb": 183
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cky-consent-container cky-box-bottom-left",
+      "copre": "38%",
+      "testo": "We value your privacy We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 5970,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1353,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 839,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 873,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.salumificiococcia.it/?ob=open-bridge/events"
+    }
+  ]
+}

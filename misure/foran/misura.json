@@ -1,0 +1,127 @@
+{
+  "slug": "foran",
+  "url": "https://www.birrificioforan.it/",
+  "misuratoIl": "2026-10-19T21:27:45.311Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3866,
+  "lcpMs": 3064,
+  "lcpElemento": "DIV https://www.birrificioforan.it/wp-content/themes/yootheme/cache/4c/hero_inner_beer_06-4c958903.webp",
+  "cls": 0,
+  "urlFinale": "https://www.birrificioforan.it/",
+  "titolo": "Birrificio Foran - Birre Artigianali - Made in FVG",
+  "descrizione": "Vieni a trovarci a Castios di Strada o Acquista Online! Pluripremiate Birre Artigianali, Biologiche e Senza Glutine. Produzione a chilometri zero!",
+  "h1": [
+    "BIRRA ARTIGIANALE & SAPORI LOCALI",
+    "BIRRA ARTIGIANALE & SAPORI LOCALI",
+    "NEWS",
+    "NON SOLO BIRRA!"
+  ],
+  "ttfb": 2274,
+  "fcp": 2906,
+  "domReady": 2947,
+  "load": 3865,
+  "pesoKB": 756,
+  "richieste": 45,
+  "script": 22,
+  "serviziEsterni": [
+    "app.legalblink.it",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.birrificioforan.it/wp-content/themes/yootheme/cache/4c/hero_inner_beer_06-4c958903.webp",
+      "kb": 28
+    },
+    {
+      "url": "https://www.birrificioforan.it/wp-content/themes/yootheme/cache/35/logo-foran-w-35ad2df9.webp",
+      "kb": 24
+    },
+    {
+      "url": "https://www.birrificioforan.it/wp-content/themes/yootheme/cache/aa/bollino-best-bio-1-aa718da4.webp",
+      "kb": 15
+    },
+    {
+      "url": "https://www.birrificioforan.it/wp-content/themes/yootheme/cache/9e/logo-foran-9e3e9fb6.webp",
+      "kb": 7
+    },
+    {
+      "url": "https://www.birrificioforan.it/wp-content/themes/yootheme/cache/66/logo-foran-w-660f9b61.webp",
+      "kb": 5
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cm",
+      "copre": "53%",
+      "testo": "x Banner cookie Questo sito utilizza cookie di profilazione, come descritti nel presente banner e nella cookie policy. S"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@birrificioforan.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.birrificioforan.it/chi-siamo/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.birrificioforan.it/contattaci/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.birrificioforan.it/chi-siamo/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.birrificioforan.it/contattaci/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.birrificioforan.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://www.birrificioforan.it/contattaci/"
+    },
+    {
+      "t": "PAGAMENTI E SPEDIZIONI",
+      "h": "https://www.birrificioforan.it/spedizioni-e-pagamenti/"
+    },
+    {
+      "t": "CONDIZIONI DI VENDITA",
+      "h": "https://app.legalblink.it/api/documents/65d460c53be25300233a15c2/termini-per-prodotti-it"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1109,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 660,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 715,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

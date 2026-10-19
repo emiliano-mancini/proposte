@@ -1,0 +1,153 @@
+{
+  "slug": "tenutapadi",
+  "url": "https://tenutapadi.it/negozio/",
+  "misuratoIl": "2026-10-19T21:27:36.699Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2926,
+  "lcpMs": 2251,
+  "lcpElemento": "IMG https://tenutapadi.it/wp-content/uploads/2021/03/CRUSCHI_BUSTA-ALLUMINIO-480x640.png",
+  "cls": 0.021,
+  "urlFinale": "https://tenutapadi.it/negozio/",
+  "titolo": "Shop | Tenuta Padì – Peperone Crusco",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 744,
+  "fcp": 1367,
+  "domReady": 2143,
+  "load": 2923,
+  "pesoKB": 9502,
+  "richieste": 153,
+  "script": 60,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "cdn.jsdelivr.net",
+    "capi-automation.s3.us-east-2.amazonaws.com",
+    "www.google.com",
+    "cdn.trustindex.io",
+    "connect.facebook.net",
+    "googleads.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "www.gstatic.com",
+    "www.paypal.com",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://tenutapadi.it/wp-content/uploads/2020/10/Serte-di-peperoni-di-Senise-IGP-PRECISO.png",
+      "kb": 3419
+    },
+    {
+      "url": "https://tenutapadi.it/wp-content/uploads/2020/10/Peperoni-secchi-di-Senise-IGP-confezione-1-600x800.png",
+      "kb": 488
+    },
+    {
+      "url": "https://tenutapadi.it/wp-content/uploads/2020/10/tenute-padi-003.jpg",
+      "kb": 480
+    },
+    {
+      "url": "https://tenutapadi.it/wp-content/uploads/2020/10/Peperoni-secchi-di-Senise-IGP-confezione-1-480x640.png",
+      "kb": 300
+    },
+    {
+      "url": "https://tenutapadi.it/wp-content/uploads/2020/10/PEPERONI_FRITTI-INTERI-2-480x640.png",
+      "kb": 247
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cc-window cc-floating cc-type-opt-in cc-theme-block cc-cente",
+      "copre": "29%",
+      "testo": "Questo sito utilizza i cookie per migliorare la tua esperienza. NON utilizziamo COOKIE DI TERZE PARTI e non condividiamo"
+    },
+    {
+      "id": "cc_overlay",
+      "copre": "100%",
+      "testo": ""
+    },
+    {
+      "id": "site-navigation",
+      "copre": "100%",
+      "testo": "IL PEPERONE CRUSCO LA NOSTRA STORIA Divider SHOP ONLINE PEPERONI DI SENISE IGP PEPERONI CRUSCHI LE SELEZIONI GOURMET LE "
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 4223,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@tenutapadi.it",
+    "info@tenutapadi.it terget="
+  ],
+  "telefono": [
+    "+393282739699"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://tenutapadi.it/condizioni-di-vendita/"
+    },
+    {
+      "t": "Spedizioni e Resi",
+      "h": "https://tenutapadi.it/spedizioni-e-resi/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://tenutapadi.it/contatti/"
+    },
+    {
+      "t": "Voglio effettuare un reso",
+      "h": "https://tenutapadi.it/diritto-di-recesso-normativa/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, minimum-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 627,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 122,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 122,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/16559700102/?random=1792445251740&cv=11&fst=1792445251740&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6ag1h2v921082"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&auid=927439950.1792445252&dt=Shop%20%7C%20Tenuta%20Pad%C3%AC%20%E2%80%93%20Peperone%20Crusco&tid=AW-165597"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=927439950.1792445252&gtm=45be6ag1h2v9210822260za208zb861132478zd861132478xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KPNX18HE21&gtm=45je6af0v883309208za20ozb861132478zd861132478xf1&_p=1792445251420&gcs=G1--&gcd=13l3l3l3l5l1&"
+    },
+    {
+      "status": 999,
+      "url": "https://www.paypal.com/xoplatform/logger/api/logger?disableSetCookie=true"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "onfuton",
+  "url": "https://shop.onfuton.com/negozio/futon/futon-topper-h4-6-cm/topper-futon-sovra-materasso/",
+  "misuratoIl": "2026-10-19T21:27:26.728Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4070,
+  "lcpMs": 2718,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://shop.onfuton.com/negozio/futon/futon-topper-h4-6-cm/topper-futon-sovra-materasso/",
+  "titolo": "Topper (futon sovra materasso) – ONFUTON Shop Online",
+  "descrizione": null,
+  "h1": [
+    "Back to Category",
+    "Topper (futon sovra materasso)"
+  ],
+  "ttfb": 1607,
+  "fcp": 2694,
+  "domReady": 2954,
+  "load": 4070,
+  "pesoKB": 5054,
+  "richieste": 193,
+  "script": 65,
+  "serviziEsterni": [
+    "cdn.hu-manity.co",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "www.paypal.com",
+    "www.google-analytics.com",
+    "c.paypal.com",
+    "c6.paypal.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-6-Onfuton-produttore-futon-artigianali-ecologici-copertina.jpg",
+      "kb": 201
+    },
+    {
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-6-Onfuton-produttore-futon-artigianali-ecologici-singolo-foto-ambientata-dettaglio-1024x683.",
+      "kb": 137
+    },
+    {
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-6-Onfuton-produttore-futon-artigianali-ecologici-singolo-foto-ambientata-dettaglio-steso-su-",
+      "kb": 112
+    },
+    {
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-6-Onfuton-produttore-futon-artigianali-ecologici-matrimoniale-foto-ambientata-piegato-1024x6",
+      "kb": 88
+    },
+    {
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/topper-futon-ecologico-traspirante-Onfuton-Milano-02-1024x682.jpg",
+      "kb": 87
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 789,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@onfuton.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizione e Resi",
+      "h": "https://shop.onfuton.com/resi-e-rimborsi/"
+    },
+    {
+      "t": "Condizioni di Vendita",
+      "h": "https://shop.onfuton.com/term-conditions/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://shop.onfuton.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://shop.onfuton.com/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1467,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 793,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 808,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-B4WDL2WRVW&gtm=45je6ag1v877597285za208zd877597285xf1&_p=1792445241718&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&ci"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/topper-futon-ecologico-traspirante-Onfuton-Milano-01.jpg"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/topper-futon-ecologico-traspirante-Onfuton-Milano-02.jpg"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-Onfuton-sezione-campioncino-info-materiali-cotone.jpg"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h6-Onfuton-sezione-campioncino-info-materiali-cotone.jpg"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-6-Onfuton-produttore-futon-artigianali-ecologici-singolo-foto-ambientata-frontale.jpg"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-6-Onfuton-produttore-futon-artigianali-ecologici-singolo-foto-ambientata-frontale-steso-su-f"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-6-Onfuton-produttore-futon-artigianali-ecologici-singolo-foto-ambientata-diagonale.jpg"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-6-Onfuton-produttore-futon-artigianali-ecologici-singolo-foto-ambientata-diagonale-steso-su-"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.onfuton.com/wp-content/uploads/2023/01/FUTON-Topper-h4-6-Onfuton-produttore-futon-artigianali-ecologici-singolo-foto-ambientata-piegato.jpg"
+    }
+  ]
+}

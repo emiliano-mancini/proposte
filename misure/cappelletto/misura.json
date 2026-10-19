@@ -1,0 +1,213 @@
+{
+  "slug": "cappelletto",
+  "url": "https://www.cappellettoshop.com/collections/berwick-1707",
+  "misuratoIl": "2026-10-19T21:24:36.855Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2469,
+  "lcpMs": 1933,
+  "lcpElemento": "P ",
+  "cls": 0.124,
+  "urlFinale": "https://www.cappellettoshop.com/collections/berwick-1707?filter.v.availability=1",
+  "titolo": "BERWICK 1707 - Collezione Uomo",
+  "descrizione": "Brand spagnolo di calzature che utilizza solo i migliori pellami  con lavorazione Goodyear. Ogni paio di calzature Berwick è unico: il taglio, la colorazione e gli effetti sul pellame, sono realizzati a mano. Berwick 1707 è classicità unita ad eleganza.",
+  "h1": [
+    "BERWICK 1707 - COLLEZIONE UOMO"
+  ],
+  "ttfb": 384,
+  "fcp": 967,
+  "domReady": 1435,
+  "load": 2468,
+  "pesoKB": 4622,
+  "richieste": 275,
+  "script": 85,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "cdn.iubenda.com",
+    "cdn.shopify.com",
+    "static.klaviyo.com",
+    "cs.iubenda.com",
+    "apps.elfsight.com",
+    "otlp-http-production.shopifysvc.com",
+    "shop.app",
+    "static-tracking.klaviyo.com",
+    "connect.facebook.net",
+    "core.service.elfsight.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.googleadservices.com",
+    "fast.a.klaviyo.com",
+    "idb.iubenda.com",
+    "www.merchant-center-analytics.goog",
+    "universe-static.elfsightcdn.com",
+    "fonts.googleapis.com",
+    "static-forms.klaviyo.com",
+    "www.facebook.com",
+    "static.elfsight.com",
+    "service-reviews-ultimate.elfsight.com",
+    "code.tidio.co",
+    "ecommplugins-scripts.trustpilot.com",
+    "ecommplugins-trustboxsettings.trustpilot.com",
+    "widget.trustpilot.com",
+    "s3.eu-west-1.amazonaws.com",
+    "invitejs.trustpilot.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.cappellettoshop.com/cdn/shop/files/CappellettoShop-345_7e1ef4d6-1d12-4104-b87a-11dced340be8.jpg?v=1772066044&width=500",
+      "kb": 25
+    },
+    {
+      "url": "https://www.cappellettoshop.com/cdn/shop/files/CappellettoShop-521_0a2a3a94-47ed-426f-9d8f-6971847c688b.jpg?v=1757929603&width=500",
+      "kb": 23
+    },
+    {
+      "url": "https://www.cappellettoshop.com/cdn/shop/files/DSC_2346.jpg?v=1790194292&width=500",
+      "kb": 22
+    },
+    {
+      "url": "https://www.cappellettoshop.com/cdn/shop/files/DSC_2358.jpg?v=1790194268&width=500",
+      "kb": 20
+    },
+    {
+      "url": "https://www.cappellettoshop.com/cdn/shop/files/DSC_2370.jpg?v=1790193898&width=500",
+      "kb": 20
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 7101,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [
+    "+39 392 435 8704"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.cappellettoshop.com/pages/contatti"
+    },
+    {
+      "t": "RESI E RIMBORSI",
+      "h": "https://www.cappellettoshop.com/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.cappellettoshop.com/pages/contatti"
+    },
+    {
+      "t": "RESI E RIMBORSI",
+      "h": "https://www.cappellettoshop.com/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.cappellettoshop.com/pages/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.cappellettoshop.com/pages/contatti"
+    },
+    {
+      "t": "Procedura di Reso",
+      "h": "https://www.cappellettoshop.com/pages/procedura-di-reso"
+    },
+    {
+      "t": "Traccia Spedizione",
+      "h": "https://www.cappellettoshop.com/pages/traccia-spedizione"
+    },
+    {
+      "t": "Consegna e Spedizione",
+      "h": "https://www.cappellettoshop.com/pages/consegna-e-spedizione"
+    },
+    {
+      "t": "Policy Resi e Rimborsi",
+      "h": "https://www.cappellettoshop.com/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.cappellettoshop.com/pages/termini-e-condizioni"
+    },
+    {
+      "t": "Contattaci su WhatsApp ➚",
+      "h": "https://wa.me/3925672064"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0",
+  "rispostaServer": [
+    {
+      "ms": 457,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 436,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 175,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=133090838.1792445071&gtm=45be6af0v9179098571za208zd9179098571xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=1&auid=133090838.1792445071&dt=BERWICK%201707%20-%20Collezione%20Uomo&tid=AW-824085694&en=page_view&dl=http"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/824085694/?random=1792445071386&cv=11&fst=1792445071386&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6af0v91790985"
+    },
+    {
+      "status": 999,
+      "url": "https://www.cappellettoshop.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=0&auid=133090838.1792445071&dt=BERWICK%201707%20-%20Collezione%20Uomo&tid=AW-824085694&en=page_view&dl=http"
+    },
+    {
+      "status": 999,
+      "url": "https://www.cappellettoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/824085694/?random=1792445071437&cv=11&fst=1792445071437&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6af0v9179098571z8811079712za"
+    },
+    {
+      "status": 999,
+      "url": "https://www.cappellettoshop.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&ae=g&auid=133090838.1792445071&dt=BERWICK%201707%20-%20Collezione%20Uomo&en=page_view&dl=https%3A%2F%2Fwww"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=0&ae=g&auid=133090838.1792445071&dt=BERWICK%201707%20-%20Collezione%20Uomo&tid=AW-824085694&dl=https%3A%2F%"
+    }
+  ]
+}

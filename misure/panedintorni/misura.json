@@ -1,0 +1,170 @@
+{
+  "slug": "panedintorni",
+  "url": "https://panedintornishop.it/products/focaccia-alla-pala",
+  "misuratoIl": "2026-10-19T21:24:54.047Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3971,
+  "lcpMs": 1801,
+  "lcpElemento": "IMG https://panedintornishop.it/cdn/shop/files/focaccia-alla-pala-pane-e-dintorni-shop-bresaola-mozzarella-rucola.jpg?v=1788",
+  "cls": 0,
+  "urlFinale": "https://panedintornishop.it/products/focaccia-alla-pala?variant=53260326371659",
+  "titolo": "Focaccia alla pala – Pane e Dintorni",
+  "descrizione": "La Focaccia alla pala è una focaccia ideale per essere farcita, anche in modo molto abbondante, è realizzata con farina di tipo 1, metodo della Biga  ed olio extra vergine di oliva. L’impasto stirato a mano è leggero e croccante e la cottura direttamente sulla pietra del forno rende la base croccante e compatta per ogn",
+  "h1": [
+    "Focaccia alla pala"
+  ],
+  "ttfb": 739,
+  "fcp": 1433,
+  "domReady": 1965,
+  "load": 3970,
+  "pesoKB": 7742,
+  "richieste": 428,
+  "script": 145,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "cdnjs.cloudflare.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "shop.app",
+    "cdn.shopify.com",
+    "fonts.googleapis.com",
+    "reorder-master.hulkapps.com",
+    "static.klaviyo.com",
+    "widget.spoki.com",
+    "subscription-admin.appstle.com",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "static-tracking.klaviyo.com",
+    "firebasestorage.googleapis.com",
+    "freeshipping-essential-apps.uk",
+    "ajax.googleapis.com",
+    "cdn.jsdelivr.net",
+    "fast.a.klaviyo.com",
+    "connect.facebook.net",
+    "znixu3-m4.myshopify.com",
+    "static-forms.klaviyo.com",
+    "public-images.judge.me",
+    "www.facebook.com",
+    "tracking.aws.judge.me"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://panedintornishop.it/cdn/shop/files/logo-pane-e-dintorni-shop.svg?v=1776073665&width=140",
+      "kb": 2644
+    },
+    {
+      "url": "https://panedintornishop.it/cdn/shop/files/focaccia-ligure-classica-confezione-atm-pane-dintorni-shop_99611f45-0713-485d-96da-43b075f35f48.jpg?v=1778860521",
+      "kb": 523
+    },
+    {
+      "url": "https://panedintornishop.it/cdn/shop/files/focaccia-alla-pala-pane-e-dintorni-shop-coppa-e-stracciatella.jpg?v=1788169440&width=990",
+      "kb": 251
+    },
+    {
+      "url": "https://panedintornishop.it/cdn/shop/files/focaccia-alle-olive-pane-dintorni-shop.webp?v=1777970210",
+      "kb": 239
+    },
+    {
+      "url": "https://panedintornishop.it/cdn/shop/files/focaccia-alla-pala-pane-e-dintorni-shop-vari-condimenti.jpg?v=1788169440&width=990",
+      "kb": 217
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 1537,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "termini e condizioni",
+      "h": "https://judge.me/terms"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://panedintornishop.it/pages/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://panedintornishop.it/pages/contact"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://panedintornishop.it/pages/chi-siamo"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://panedintornishop.it/policies/shipping-policy"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1109,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 174,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 163,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-4CZHTGBTLH&gtm=45je6ag1v890585266za208zd890585266xf1&_p=1792445087184&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=A"
+    },
+    {
+      "status": 999,
+      "url": "https://panedintornishop.it/cdn/shop/videos/c/vp/2ba7e0bddf46440da7a041dd3dd6609f/2ba7e0bddf46440da7a041dd3dd6609f.HD-1080p-4.8Mbps-55954876.mp4?v=0"
+    },
+    {
+      "status": 999,
+      "url": "https://panedintornishop.it/cdn/shop/videos/c/vp/972043998f7041798adaf281355b9188/972043998f7041798adaf281355b9188.HD-1080p-4.8Mbps-55954875.mp4?v=0"
+    },
+    {
+      "status": 999,
+      "url": "https://panedintornishop.it/cdn/shop/videos/c/vp/676d4eee8a8b4583af22956764d55889/676d4eee8a8b4583af22956764d55889.HD-1080p-4.8Mbps-55954874.mp4?v=0"
+    },
+    {
+      "status": 999,
+      "url": "https://panedintornishop.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://panedintornishop.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://panedintornishop.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://panedintornishop.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://panedintornishop.it/shopify_pay/accelerated_checkout"
+    },
+    {
+      "status": 999,
+      "url": "https://panedintornishop.it/.well-known/shopify/monorail/unstable/produce_batch"
+    }
+  ]
+}

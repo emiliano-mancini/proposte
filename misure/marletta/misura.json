@@ -1,0 +1,127 @@
+{
+  "slug": "marletta",
+  "url": "https://aziendaagricolamarletta.it/",
+  "misuratoIl": "2026-10-19T21:27:54.788Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3346,
+  "lcpMs": 2338,
+  "lcpElemento": "SECTION https://aziendaagricolamarletta.it/wp-content/uploads/2024/09/bottiglie-cesanese-hero-home.webp",
+  "cls": 0.002,
+  "urlFinale": "https://aziendaagricolamarletta.it/",
+  "titolo": "Cesanese del Piglio DOCG | Azienda Agricola Marletta",
+  "descrizione": "Acquista online il Cesanese del Piglio DOCG direttamente dal produttore. Vino rosso Lazio di qualità artigianale, spedizione gratuita in tutta Italia da €69,90.",
+  "h1": [
+    "Il Cesanese del Piglio DOCG\ndalla nostra vigna alla tua tavola"
+  ],
+  "ttfb": 1380,
+  "fcp": 2297,
+  "domReady": 3163,
+  "load": 3345,
+  "pesoKB": 2298,
+  "richieste": 82,
+  "script": 36,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com",
+    "assets.mailerlite.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://aziendaagricolamarletta.it/wp-content/uploads/2024/09/vigneto-azienda-agricola-marletta.webp",
+      "kb": 400
+    },
+    {
+      "url": "https://aziendaagricolamarletta.it/wp-content/uploads/2024/09/azienda-agricola-marletta-campi-drone-1024x768.webp",
+      "kb": 356
+    },
+    {
+      "url": "https://aziendaagricolamarletta.it/wp-content/uploads/2024/11/logo-marletta-newsletter.webp",
+      "kb": 103
+    },
+    {
+      "url": "https://aziendaagricolamarletta.it/wp-content/uploads/2024/09/bottiglie-cesanese-hero-home.webp",
+      "kb": 59
+    },
+    {
+      "url": "https://aziendaagricolamarletta.it/wp-content/uploads/2024/09/olio-di-qualita-azienda-agricola-marletta.webp",
+      "kb": 36
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "50%",
+      "testo": "Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni "
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi Al Carrello",
+    "yPx": 1776,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://aziendaagricolamarletta.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://aziendaagricolamarletta.it/contatti/"
+    },
+    {
+      "t": "Resi",
+      "h": "https://aziendaagricolamarletta.it/withdrawal-request/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://aziendaagricolamarletta.it/contatti/"
+    },
+    {
+      "t": "Termini E Condizioni",
+      "h": "https://aziendaagricolamarletta.it/termini-e-condizioni/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1244,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 994,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1251,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XVV9XZ87G9&gtm=45Pe6af0h1v9198512262za208zb9198504584zd9198504584xf1&_p=1792445270068&gcs=G100&gcd=13p3p3p3"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&apvc=1&tid=AW-16752369685&en=page_view&dl=https%3A%2F%2Faziendaagricolamarletta.it%2F&scrsrc=www.g"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=6&frm=0&apvc=0&tid=AW-16752369685&en=page_view&dl=https%3A%2F%2Faziendaagricolamarletta.it%2F&scrsrc=www.g"
+    }
+  ]
+}

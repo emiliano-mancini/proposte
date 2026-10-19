@@ -1,0 +1,145 @@
+{
+  "slug": "delucafood",
+  "url": "https://shop.delucafamilyfood.com/it/prodotti",
+  "misuratoIl": "2026-10-19T21:25:32.800Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3718,
+  "lcpMs": 3253,
+  "lcpElemento": "IMG https://shop.delucafamilyfood.com/221-large_default/zucchini-e-fusilli-artigianali.jpg",
+  "cls": 0.004,
+  "urlFinale": "https://shop.delucafamilyfood.com/it/prodotti",
+  "titolo": "Prodotti",
+  "descrizione": null,
+  "h1": [
+    "Prodotti"
+  ],
+  "ttfb": 1084,
+  "fcp": 2130,
+  "domReady": 3186,
+  "load": 3717,
+  "pesoKB": 10504,
+  "richieste": 121,
+  "script": 58,
+  "serviziEsterni": [
+    "consent.cookiebot.com",
+    "www.googletagmanager.com",
+    "static.klaviyo.com",
+    "consentcdn.cookiebot.com",
+    "connect.facebook.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "www.googleadservices.com",
+    "mpc2-prod-24-is5qnl632q-uw.a.run.app",
+    "www.facebook.com",
+    "static-tracking.klaviyo.com",
+    "fast.a.klaviyo.com",
+    "fonts.googleapis.com",
+    "static-forms.klaviyo.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://shop.delucafamilyfood.com/216-large_default/kit-degustazione-spicial-sauces.jpg",
+      "kb": 1025
+    },
+    {
+      "url": "https://shop.delucafamilyfood.com/206-large_default/mushrooms-e-pappardelle.jpg",
+      "kb": 966
+    },
+    {
+      "url": "https://shop.delucafamilyfood.com/221-large_default/zucchini-e-fusilli-artigianali.jpg",
+      "kb": 799
+    },
+    {
+      "url": "https://shop.delucafamilyfood.com/98-large_default/tomato.jpg",
+      "kb": 794
+    },
+    {
+      "url": "https://shop.delucafamilyfood.com/116-large_default/olives-tomato.jpg",
+      "kb": 784
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 652,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@delucafamilyfood.com"
+  ],
+  "telefono": [
+    "+39 049 7439920"
+  ],
+  "whatsapp": true,
+  "linkUtili": [],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1020,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 620,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 622,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1946985675.1792445128&gtm=45He6ag1h2v9202660477za200zd9202660477xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-4BNF54YK8N&gtm=45je6af0v9187306833z89202660477za20gzb9202660477zd9202660477xf1&_p=1792445126584&gcs=G111&gcd=13"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-4BNF54YK8N&gtm=45je6af0v9187306833za20ozb9202660477zd9202660477xf1&_p=1792445126584&em=tv.1~em.aHijUvhymxzhQu2a"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&ae=g&auid=1946985675.1792445128&dt=Prodotti&en=page_view&dl=https%3A%2F%2Fshop.delucafamilyfood.com%2Fit%2"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/16628595249/?random=1792445128046&cv=11&fst=1792445128046&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ag1h2v9206"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/16628595249/?random=1792445128090&cv=11&fst=1792445128090&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6ag1h2v9206685112z89202660"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/16628595249/?random=1792445128095&cv=11&fst=1792445128095&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6ag1h2v9206685112z89202660"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=1946985675.1792445128&dt=Prodotti&tid=AW-16628595249&en=page_view&dl=https%3A%2F%2Fshop.delucafamily"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&ae=g&auid=1946985675.1792445128&dt=Prodotti&tid=AW-16628595249&dl=https%3A%2F%2Fshop.delucafamilyfood.com"
+    },
+    {
+      "status": 999,
+      "url": "https://mpc2-prod-24-is5qnl632q-uw.a.run.app/events?cee=no"
+    }
+  ]
+}

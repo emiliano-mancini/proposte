@@ -1,0 +1,81 @@
+{
+  "slug": "elrana",
+  "url": "https://el-rana.com/anelli-argento/78518-anello-san-giorgio-bicolor.html",
+  "misuratoIl": "2026-10-19T21:25:56.685Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": true,
+  "caricamentoTotaleMs": 1627,
+  "lcpMs": 384,
+  "lcpElemento": "P ",
+  "cls": 0.003,
+  "urlFinale": "https://el-rana.com/anelli-argento/78518-anello-san-giorgio-bicolor.html",
+  "titolo": "Ci siamo quasi…",
+  "descrizione": null,
+  "h1": [
+    "el-rana.com"
+  ],
+  "ttfb": 207,
+  "fcp": 384,
+  "domReady": 235,
+  "load": 1624,
+  "pesoKB": 1009,
+  "richieste": 6,
+  "script": 2,
+  "serviziEsterni": [
+    "challenges.cloudflare.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/ci/a4d2db99f9fba940/1792445152665/joePa9njfnKzPdVHkEgUwY9PA24B8JFifYi6V6W32u0-1792445152-1.3.1.",
+      "kb": 1
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 159,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 355,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 348,
+      "status": 403,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://el-rana.com/cdn-cgi/speculation"
+    },
+    {
+      "status": 403,
+      "url": "https://el-rana.com/anelli-argento/78518-anello-san-giorgio-bicolor.html"
+    },
+    {
+      "status": 401,
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a4d2db99f9fba940/1792445152663/182bca3ba2e750449321a7d441e421da9c817c81d64a62d70d3ae2ee6b67"
+    },
+    {
+      "status": 999,
+      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a4d2db99f9fba940/DcooDdymEXQonGVmRCo92QiDSyfQIQ8ovYyX7No1IVk-1792445152-1.2.1.1-56km"
+    }
+  ]
+}

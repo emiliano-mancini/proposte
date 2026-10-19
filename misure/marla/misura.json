@@ -1,0 +1,108 @@
+{
+  "slug": "marla",
+  "url": "https://marlapasticceria.it/",
+  "misuratoIl": "2026-10-19T21:24:22.143Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2298,
+  "lcpMs": 2755,
+  "lcpElemento": "IMG https://marlapasticceria.it/wp-content/uploads/2024/11/marla-pasticceria-milano-1024x549.jpg",
+  "cls": 0,
+  "urlFinale": "https://marlapasticceria.it/",
+  "titolo": "Marlà – Marlà Pasticceria",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 742,
+  "fcp": 1197,
+  "domReady": 2090,
+  "load": 2294,
+  "pesoKB": 9391,
+  "richieste": 162,
+  "script": 47,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "www.google.com",
+    "idb.iubenda.com",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://marlapasticceria.it/wp-content/uploads/2024/08/03_M_Chi_e%E2%95%A0C_Marla%E2%95%A0C.jpg",
+      "kb": 1371
+    },
+    {
+      "url": "https://marlapasticceria.it/wp-content/uploads/2024/08/04_M_Chi_e%E2%95%A0C_Marla%E2%95%A0C.jpg",
+      "kb": 1276
+    },
+    {
+      "url": "https://marlapasticceria.it/wp-content/uploads/2024/08/01_M_SpecialEvent.jpg",
+      "kb": 1042
+    },
+    {
+      "url": "https://marlapasticceria.it/wp-content/uploads/2024/08/02_M_Birthday.jpg",
+      "kb": 824
+    },
+    {
+      "url": "https://marlapasticceria.it/wp-content/uploads/2024/05/Risorsa-12.png",
+      "kb": 618
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Noi (www.marlapasticceria.it) e terze parti selezionate (3) raccogliamo informazioni personali come specificato nella pr"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@marlapasticceria.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CONTATTI",
+      "h": "https://marlapasticceria.it/contatti/"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.marlapasticceria.it/faq/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 694,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 111,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 110,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://marlapasticceria.it/wp-content/uploads/2024/09/Marl%C3%A0-AMPI-orizzontale.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LeZprUtAAAAAPxWj5zDo5oOlh2bc3_jm0yJB4bi"
+    }
+  ]
+}

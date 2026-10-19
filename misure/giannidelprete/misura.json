@@ -1,0 +1,200 @@
+{
+  "slug": "giannidelprete",
+  "url": "https://giannidelprete.it/products/gemma-mocassino-in-camoscio-noce-con-accessorio-platino-opaco",
+  "misuratoIl": "2026-10-19T21:24:29.358Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2483,
+  "lcpMs": 1338,
+  "lcpElemento": "IMG https://giannidelprete.it/cdn/shop/files/IMG-1902.webp?v=1788425583&width=932",
+  "cls": 0,
+  "urlFinale": "https://giannidelprete.it/products/gemma-mocassino-in-camoscio-noce-con-accessorio-platino-opaco",
+  "titolo": "Mocassino in camoscio noce con accessorio platino - Gemma – Gianni Del Prete",
+  "descrizione": "Pensato per una donna dinamica che non rinuncia all'eleganza, Gemma combina la raffinatezza della manifattura italiana con un design essenziale e contemporaneo. La tomaia in morbido camoscio color noce dona profondità e calore al modello, mentre l'accessorio in finitura platino opaco impreziosisce la silhouette con un ",
+  "h1": [
+    "MOCASSINO IN CAMOSCIO NOCE CON ACCESSORIO PLATINO - GEMMA"
+  ],
+  "ttfb": 512,
+  "fcp": 776,
+  "domReady": 1306,
+  "load": 2481,
+  "pesoKB": 5081,
+  "richieste": 323,
+  "script": 91,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "shop.app",
+    "cdn.shopify.com",
+    "conf.config-security.com",
+    "api.config-security.com",
+    "adsagentclientafd-b7hqhjdrf3fpeqh2.b01.azurefd.net",
+    "www.clarity.ms",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "scripts.clarity.ms",
+    "error-analytics-sessions-production.shopifysvc.com",
+    "skosm.klarna.com",
+    "omnisnippet1.com",
+    "bisapi.sealapps.com",
+    "connect.facebook.net",
+    "static.devit.software",
+    "wt.omnisendlink.com",
+    "www.googleadservices.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "p.clarity.ms",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.merchant-center-analytics.goog",
+    "o511301.ingest.us.sentry.io",
+    "googleads.g.doubleclick.net",
+    "estimated-delivery-days.setubridgeapps.com",
+    "www.facebook.com",
+    "cloudsearch-1f874.kxcdn.com",
+    "app.layouthub.com",
+    "ecommplugins-scripts.trustpilot.com",
+    "ecommplugins-trustboxsettings.trustpilot.com",
+    "widget.trustpilot.com",
+    "s3.eu-west-1.amazonaws.com",
+    "app.kiwisizing.com",
+    "c.clarity.ms",
+    "ajax.googleapis.com",
+    "invitejs.trustpilot.com",
+    "api.country.is",
+    "api.superlemon.xyz"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://giannidelprete.it/cdn/shop/files/IMG-1903.webp?v=1788425584&width=932",
+      "kb": 145
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0520/1009/0683/files/BANNERDESKTOP_1_GDP.jpg?v=1769069715",
+      "kb": 121
+    },
+    {
+      "url": "https://giannidelprete.it/cdn/shop/files/IMG-1904.webp?v=1788425584&width=932",
+      "kb": 100
+    },
+    {
+      "url": "https://giannidelprete.it/cdn/shop/files/GDP_bannerfooter_mobile.jpg?v=1770116856&width=1080",
+      "kb": 98
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0520/1009/0683/files/BANNERDESKTOP_2_GDP_c3e943fd-b5b2-4e7c-be1d-0042eee2588b.jpg?v=1769589749",
+      "kb": 76
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "product__inner is-sticky",
+      "copre": "29%",
+      "testo": "MOCASSINO IN CAMOSCIO NOCE CON ACCESSORIO PLATINO - GEMMA $182.00 SOLO 1 PEZZI DISPONIBILI SPEDIZIONE IN 24/48H GRATUITA"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO\n•\n182 USD",
+    "yPx": 1366,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Faq's",
+      "h": "https://giannidelprete.it/pages/faqs"
+    },
+    {
+      "t": "Klarna FAQ",
+      "h": "https://www.klarna.com/it/servizio-clienti/"
+    },
+    {
+      "t": "Politica di Reso",
+      "h": "https://giannidelprete.it/policies/refund-policy"
+    },
+    {
+      "t": "Politica sulle Spedizioni",
+      "h": "https://giannidelprete.it/policies/shipping-policy"
+    },
+    {
+      "t": "Termini & Condizioni",
+      "h": "https://giannidelprete.it/policies/terms-of-service"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://giannidelprete.it/policies/contact-information"
+    },
+    {
+      "t": "Modulo di recesso",
+      "h": "https://giannidelprete.it/products/gemma-mocassino-in-camoscio-noce-con-accessorio-platino-opaco#revoq-widerruf"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 715,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 169,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 223,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://giannidelprete.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://giannidelprete.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://error-analytics-sessions-production.shopifysvc.com/observeonly"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://giannidelprete.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://wt.omnisendlink.com/REST/inShop/v1/getSettings?shopHostname=giannidelprete.it&shopType=shopify&shopID=52010090683&responseType=json"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "slug": "zetaidraulica",
+  "url": "https://www.zetaidraulica.it/condizionatori/condizionatore-mitsubishi-trial-split-msz-bt-9000900012000-btu-wifi-inverter-mxz-3f68vf.html",
+  "misuratoIl": "2026-10-19T21:23:31.937Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 9260,
+  "lcpMs": 2712,
+  "lcpElemento": "IMG https://zetaidraulica.gumlet.io/22977-zoom_default/condizionatore-mitsubishi-trial-split-msz-bt-9000900012000-btu-wifi-i",
+  "cls": 0.003,
+  "urlFinale": "https://www.zetaidraulica.it/condizionatori/condizionatore-mitsubishi-trial-split-msz-bt-9000900012000-btu-wifi-inverter-mxz-3f68vf.html",
+  "titolo": "CONDIZIONATORE MITSUBISHI TRIAL SPLIT MSZ-BT 9000+9000+12000 BTU WIFI INVERTER MXZ-3F68VF5 A++ | Zeta Idraulica",
+  "descrizione": "CONDIZIONATORE MITSUBISHI TRIAL SPLIT MSZ-BT 9000+9000+12000 BTU WIFI INVERTER MXZ-3F68VF5 A++ al miglior prezzo su Zeta Idraulica. Acquista ora!",
+  "h1": [
+    "CONDIZIONATORE MITSUBISHI TRIAL SPLIT MSZ-BT 9000+9000+12000 BTU WIFI INVERTER MXZ-3F68VF5 A++"
+  ],
+  "ttfb": 2254,
+  "fcp": 2745,
+  "domReady": 3683,
+  "load": 9259,
+  "pesoKB": 2805,
+  "richieste": 98,
+  "script": 30,
+  "serviziEsterni": [
+    "zetaidraulica.gumlet.io",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "tps.trovaprezzi.it",
+    "eu1-config.doofinder.com",
+    "s7.addthis.com",
+    "widget.feedaty.com",
+    "upstream.heidipay.com",
+    "assets.prestashop3.com",
+    "www.smartsuppchat.com",
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "cdn.doofinder.com",
+    "consent.cookiebot.com",
+    "bat.bing.com",
+    "cdn.mouseflow.com",
+    "pagead2.googlesyndication.com",
+    "eu1-search.doofinder.com",
+    "consentcdn.cookiebot.com",
+    "eu1-api.doofinder.com",
+    "cdn.scalapay.com",
+    "bootstrap.smartsuppchat.com",
+    "www.paypal.com",
+    "bat.bing.net",
+    "www.paypalobjects.com",
+    "widget-v3.smartsuppcdn.com",
+    "widget.scalapay.com",
+    "storage.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://zetaidraulica.gumlet.io/img/ecommerce-quality.png",
+      "kb": 11
+    },
+    {
+      "url": "https://zetaidraulica.gumlet.io/22977-zoom_default/condizionatore-mitsubishi-trial-split-msz-bt-9000900012000-btu-wifi-inverter-mxz-3f68vf.jpg",
+      "kb": 11
+    },
+    {
+      "url": "https://zetaidraulica.gumlet.io/img/installatore.png",
+      "kb": 9
+    },
+    {
+      "url": "https://www.zetaidraulica.it/img/cms/postpay.svg",
+      "kb": 4
+    },
+    {
+      "url": "https://zetaidraulica.gumlet.io/4144-listing_image/tubo-rame-per-condizionamento-da-14-635-mm.jpg",
+      "kb": 4
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "94%",
+      "testo": "Consenso Dettagli Informazioni sui cookie Questo sito web utilizza i cookie Utilizziamo i cookie per personalizzare cont"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 753,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@zetaidraulica.it"
+  ],
+  "telefono": [
+    "096655761",
+    "3889844508",
+    "+39096655761"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://www.zetaidraulica.it/contatti"
+    },
+    {
+      "t": "Spedizione gratuita",
+      "h": "https://www.zetaidraulica.it/spedizioni-resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.zetaidraulica.it/chi-siamo"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://www.zetaidraulica.it/spedizioni-resi"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.zetaidraulica.it/contatti"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.zetaidraulica.it/condizioni-di-vendita"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2523,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1460,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1593,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://s7.addthis.com/js/300/addthis_widget.js"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.zetaidraulica.it%2Fcondizionatori%2Fcondizionatore-"
+    },
+    {
+      "status": 999,
+      "url": "https://cdn.mouseflow.com/projects/92fa8705-3fe4-4de2-8bda-1fde42724f0e.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVDJXZ2K4V&gtm=45je6ag1v9127306813z89103510538za20gzb9103510538zd9103510538xf1&_p=1792445001286&gcs=G100&gc"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=0&tid=AW-855933012&en=page_view&dl=https%3A%2F%2Fwww.zetaidraulica.it%2Fcondizionatori%2Fcon"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=0&ae=g&tid=AW-855933012&en=view_item&dl=https%3A%2F%2Fwww.zetaidraulica.it%2Fcondizionatori%"
+    },
+    {
+      "status": 999,
+      "url": "https://widget.scalapay.com/v1/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FVDJXZ2K4V&gtm=45je6ag1v9127306813z89103510538za20gzb9103510538zd9103510538xf1&_p=1792445001286&gcs=G100&gc"
+    }
+  ]
+}

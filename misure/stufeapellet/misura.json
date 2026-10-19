@@ -1,0 +1,164 @@
+{
+  "slug": "stufeapellet",
+  "url": "https://www.stufeapelletitalia.com/",
+  "misuratoIl": "2026-10-19T21:21:36.571Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3947,
+  "lcpMs": 1856,
+  "lcpElemento": "DIV https://www.stufeapelletitalia.com/wp-content/uploads/2018/09/Stufe-A-Pellet-Italia-Vendita-Online-2.jpg",
+  "cls": 0.042,
+  "urlFinale": "https://www.stufeapelletitalia.com/",
+  "titolo": "Stufa A Pellet Aria o Idro | Acquista Dalla Fabbrica | Stufe A Pellet Italia",
+  "descrizione": "Acquista Online stufe a pellet ad Aria o Idro al miglior prezzo, direttamente dalla fabbrica. Spedizione Gratuita. 100% Made in Italy. Scopri le offerte!",
+  "h1": [
+    "STUFE A PELLET ITALIA"
+  ],
+  "ttfb": 522,
+  "fcp": 1065,
+  "domReady": 1702,
+  "load": 3945,
+  "pesoKB": 4303,
+  "richieste": 250,
+  "script": 142,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "widget.trustpilot.com",
+    "cdn.scalapay.com",
+    "invitejs.trustpilot.com",
+    "fonts.gstatic.com",
+    "bzrcdn.openai.com",
+    "www.googletagmanager.com",
+    "bat.bing.com",
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "o.clarity.ms",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "connect.facebook.net",
+    "static-eu.oct8ne.com",
+    "frontal-eu.oct8ne.com",
+    "custom.oct8ne.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.stufeapelletitalia.com/wp-content/uploads/2025/06/Stufa-a-Pellet-Piccola-9-Kw-Alaska.jpg",
+      "kb": 259
+    },
+    {
+      "url": "https://www.stufeapelletitalia.com/wp-content/uploads/2018/09/Idrostufa-a-Pellet-Asia.jpg",
+      "kb": 237
+    },
+    {
+      "url": "https://www.stufeapelletitalia.com/wp-content/uploads/2025/06/Stufa-a-Pellet-Piccole-Dimensioni-9-Kw-California.jpg",
+      "kb": 181
+    },
+    {
+      "url": "https://www.stufeapelletitalia.com/wp-content/uploads/2018/09/Stufa-a-Pellet-Idro-New-York-20-24-Kw-1.jpg",
+      "kb": 165
+    },
+    {
+      "url": "https://www.stufeapelletitalia.com/wp-content/uploads/2023/02/Caldaia-A-Pellet-30-kW-Vulkano.jpg",
+      "kb": 151
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [
+    "info@stufeapelletitalia.com",
+    "assistenzaspi@stufeapelletitalia.com"
+  ],
+  "telefono": [
+    "+390415195557",
+    "+39041469863",
+    "+390415195258"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.stufeapelletitalia.com/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.stufeapelletitalia.com/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.stufeapelletitalia.com/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.stufeapelletitalia.com/contatti/"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.stufeapelletitalia.com/termini-e-condizioni/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 644,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 121,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 120,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-B7R102DGH3&gtm=45je6af0h1v9101299041za208zd9101299041xf1&_p=1792444890783&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa="
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=1&auid=92416997.1792444891&dt=Stufa%20A%20Pellet%20Aria%20o%20Idro%20%7C%20Acquista%20Dalla%20Fabbrica%20%7C"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/10989946393/?random=1792444891306&cv=11&fst=1792444891306&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6af0h1v8955"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/724660146/?random=1792444891366&cv=11&fst=1792444891366&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6af0h1z8d_AW-"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=92416997.1792444891&dt=Stufa%20A%20Pellet%20Aria%20o%20Idro%20%7C%20Acquista%20Dalla%20Fabbrica%20%7"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/724660146/?random=1792444891396&cv=11&fst=1792444891396&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6af0h1z8d_AW-"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=92416997.1792444891&gtm=45be6af0h1v895516401za208zb9101299041zd9101299041xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://bzr.openai.com/v1/sdk/events?pid=WREmXEsQWd4ewMRNfDUY9g&st=oaiq-web&sv=0.1.41&t=1792444892149&ec=3"
+    },
+    {
+      "status": 999,
+      "url": "https://mv-prod-1-1053047382554.us-central1.run.app/events?cee=no"
+    }
+  ]
+}

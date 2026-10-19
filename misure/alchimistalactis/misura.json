@@ -1,0 +1,114 @@
+{
+  "slug": "alchimistalactis",
+  "url": "https://alchimistalactis.it/",
+  "misuratoIl": "2026-10-19T21:25:24.272Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2368,
+  "lcpMs": 2083,
+  "lcpElemento": "SECTION https://alchimistalactis.it/wp-content/uploads/2022/10/alchimista_mobile.png",
+  "cls": 0.202,
+  "urlFinale": "https://alchimistalactis.it/",
+  "titolo": "Home - Alchimista Lactis",
+  "descrizione": null,
+  "h1": [
+    "ALCHIMISTA LACTIS",
+    "ALCHIMISTA LACTIS"
+  ],
+  "ttfb": 590,
+  "fcp": 1112,
+  "domReady": 1719,
+  "load": 2367,
+  "pesoKB": 13645,
+  "richieste": 154,
+  "script": 50,
+  "serviziEsterni": [
+    "cdn.elementor.com",
+    "cdn.trustindex.io",
+    "cdn.jsdelivr.net",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "fonts.gstatic.com",
+    "www.google-analytics.com",
+    "www.facebook.com",
+    "www.youtube.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://alchimistalactis.it/wp-content/uploads/2024/12/Titolo-6-1024x1024.png",
+      "kb": 1141
+    },
+    {
+      "url": "https://alchimistalactis.it/wp-content/uploads/2024/12/Titolo-4-1024x1024.png",
+      "kb": 1013
+    },
+    {
+      "url": "https://alchimistalactis.it/wp-content/uploads/2024/12/Titolo-7-1024x1024.png",
+      "kb": 970
+    },
+    {
+      "url": "https://alchimistalactis.it/wp-content/uploads/2024/12/1-1024x1024.png",
+      "kb": 918
+    },
+    {
+      "url": "https://alchimistalactis.it/wp-content/uploads/2024/12/Titolo-3-1024x1024.png",
+      "kb": 884
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [
+    "3384678439",
+    "388%20467%208439"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://alchimistalactis.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://alchimistalactis.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://alchimistalactis.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://alchimistalactis.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 783,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 132,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 132,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-BDVG9K875Q&gtm=45je6af0v875269483za20ozb866339630zd866339630xf1&_p=1792445119294&gcs=G100&gcd=13p3p3p3p5l1&"
+    }
+  ]
+}

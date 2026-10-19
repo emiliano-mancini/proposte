@@ -1,0 +1,184 @@
+{
+  "slug": "titospeck",
+  "url": "https://www.titospeck.it/",
+  "misuratoIl": "2026-10-19T21:26:13.784Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2176,
+  "lcpMs": 1285,
+  "lcpElemento": "H3 ",
+  "cls": 0.172,
+  "urlFinale": "https://www.titospeck.it/",
+  "titolo": "Tito Speck: specialità del Maso dello Speck in Val di Fiemme – Titospeck",
+  "descrizione": "Speck, salami, specialità di salsicce e carne di Tito Speck del Maso dello Speck in Val di Fiemme – scopriteli ora!",
+  "h1": [],
+  "ttfb": 681,
+  "fcp": 983,
+  "domReady": 1569,
+  "load": 2174,
+  "pesoKB": 4251,
+  "richieste": 309,
+  "script": 124,
+  "serviziEsterni": [
+    "shop.app",
+    "cdn.shopify.com",
+    "static.klaviyo.com",
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "f.clarity.ms",
+    "static-tracking.klaviyo.com",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "fast.a.klaviyo.com",
+    "www.googleadservices.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.merchant-center-analytics.goog",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "fonts.googleapis.com",
+    "use.typekit.net",
+    "static-forms.klaviyo.com",
+    "mpc-prod-23-s6uit34pua-ue.a.run.app",
+    "www.facebook.com",
+    "googleads.g.doubleclick.net",
+    "loox.io",
+    "c.clarity.ms",
+    "fonts.loox.io"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.titospeck.it/cdn/shop/files/Still_life_formaggi_ret.jpg?crop=center&height=1080&v=1751956313&width=1080",
+      "kb": 199
+    },
+    {
+      "url": "https://www.titospeck.it/cdn/shop/files/tito-speck-maso-dello-speck-galleria-immagini-12.jpg?crop=center&height=1080&v=1751956048&width=1080",
+      "kb": 168
+    },
+    {
+      "url": "https://www.titospeck.it/cdn/shop/files/1uyl2pcc00xmbysiiah_1.svg?v=1750060069",
+      "kb": 75
+    },
+    {
+      "url": "https://www.titospeck.it/cdn/shop/files/1uyl2pcc00xmbysiiah.svg?v=1750059967",
+      "kb": 75
+    },
+    {
+      "url": "https://www.titospeck.it/cdn/shop/files/Tito-Speck-shop-online-specialita-Guanciale-meta-pezzo_ac3bf26d-fa04-40ce-abbd-45c360f07a9d.jpg?v=1749014300&width=1080",
+      "kb": 66
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "",
+      "copre": "100%",
+      "testo": ""
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Acquista ora",
+    "yPx": 413,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "shop@titospeck.it"
+  ],
+  "telefono": [
+    "00390462342244"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.titospeck.it/pages/contact"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.titospeck.it/pages/contact"
+    },
+    {
+      "t": "Domande frequenti (FAQ)",
+      "h": "https://www.titospeck.it/pages/domande-frequenti"
+    },
+    {
+      "t": "Spedizione e Pagamenti",
+      "h": "https://www.titospeck.it/policies/shipping-policy"
+    },
+    {
+      "t": "Contatto",
+      "h": "https://www.titospeck.it/policies/contact-information"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.titospeck.it/pages/contact"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 353,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 189,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 177,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.titospeck.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.titospeck.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.titospeck.it/cdn/shop/videos/c/vp/2999505a807c4d8393761e817bc778f6/2999505a807c4d8393761e817bc778f6.HD-1080p-7.2Mbps-51811653.mp4?v=0"
+    },
+    {
+      "status": 999,
+      "url": "https://www.titospeck.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.titospeck.it/cdn/shop/videos/c/vp/ed8494166c05447caf23a6728b87f5e1/ed8494166c05447caf23a6728b87f5e1.HD-1080p-7.2Mbps-58234775.mp4?v=0"
+    },
+    {
+      "status": 999,
+      "url": "https://www.titospeck.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.titospeck.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&auid=1667141603.1792445170&dt=Tito%20Speck%3A%20specialit%C3%A0%20del%20Maso%20dello%20Speck%20in%20Val%20"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=XN6HkNDC7fA8eP6wMZkYrYVHuSogtn7NEg&auid=1667141603.1792445170&gtm=45je6af0h1v887724453za208zb9230765539zd92307655"
+    },
+    {
+      "status": 999,
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-D67XYDZRZL&gtm=45Pe6af0h1v9230765539za200zd9230765539xf1&_p=1792445169455&gcs=G111&gcd=13t3t3t3"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "slug": "dallan",
+  "url": "https://calzaturedallan.it/collections/homepage",
+  "misuratoIl": "2026-10-19T21:28:11.350Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1868,
+  "lcpMs": 852,
+  "lcpElemento": "IMG https://calzaturedallan.it/cdn/shop/files/ChatGPT_Image_22_lug_2026_14_49_57.png?v=1784731607&width=200",
+  "cls": 0,
+  "urlFinale": "https://calzaturedallan.it/collections/homepage",
+  "titolo": "Errore 404 Not Found – Calzature Dallan",
+  "descrizione": null,
+  "h1": [
+    "Pagina non trovata"
+  ],
+  "ttfb": 501,
+  "fcp": 756,
+  "domReady": 902,
+  "load": 1867,
+  "pesoKB": 2063,
+  "richieste": 297,
+  "script": 101,
+  "serviziEsterni": [
+    "cdn.shopify.com",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "whatsapp.carthike.com",
+    "shop.app",
+    "connect.facebook.net",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://shop.app/pay/assets/sprite.svg",
+      "kb": 9
+    },
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/ChatGPT_Image_22_lug_2026_14_49_57.png?v=1784731607&width=200",
+      "kb": 8
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "",
+      "copre": "100%",
+      "testo": ""
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://calzaturedallan.it/pages/contattaci"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://calzaturedallan.it/pages/chi-siamo"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://calzaturedallan.it/pages/termini-e-condizioni"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://calzaturedallan.it/pages/contattaci"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://calzaturedallan.it/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "Modulo di recesso",
+      "h": "https://calzaturedallan.it/pages/modulo-di-recesso"
+    },
+    {
+      "t": "Spedizioni e consegna",
+      "h": "https://calzaturedallan.it/pages/spedizioni-e-consegna"
+    },
+    {
+      "t": "Termini e condizioni del servizio",
+      "h": "https://calzaturedallan.it/policies/terms-of-service"
+    },
+    {
+      "t": "Informativa sulle spedizioni",
+      "h": "https://calzaturedallan.it/policies/shipping-policy"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 570,
+      "status": 404,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 220,
+      "status": 404,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 195,
+      "status": 404,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 404,
+      "url": "https://calzaturedallan.it/collections/homepage"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/services/login_with_shop/authorize?analytics_context=loginWithShopEmbed&analytics_trace_id=b781f6e9-d7c7-4614-a81c-34530a7860aa&compa"
+    },
+    {
+      "status": 999,
+      "url": "https://error-analytics-sessions-production.shopifysvc.com/"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    }
+  ]
+}

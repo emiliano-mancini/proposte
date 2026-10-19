@@ -1,0 +1,112 @@
+{
+  "slug": "dolceconfetto",
+  "url": "https://shop.dolceconfetto.com/",
+  "misuratoIl": "2026-10-19T21:27:04.063Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 908,
+  "lcpMs": 439,
+  "lcpElemento": "PICTURE https://d2gt4h1eeousrn.cloudfront.net/92589256/cover-pGtgcV/TQwIoWi-1200x1200.webp",
+  "cls": 0,
+  "urlFinale": "https://shop.dolceconfetto.com/",
+  "titolo": "Dolce Confetto",
+  "descrizione": null,
+  "h1": [
+    "Dolce Confetto"
+  ],
+  "ttfb": 279,
+  "fcp": 445,
+  "domReady": 831,
+  "load": 907,
+  "pesoKB": 2244,
+  "richieste": 92,
+  "script": 40,
+  "serviziEsterni": [
+    "d34ikvsdm2rlij.cloudfront.net",
+    "d2gt4h1eeousrn.cloudfront.net",
+    "d2j6dbq0eux0bg.cloudfront.net",
+    "assets.calendly.com",
+    "app.ecwid.com",
+    "eu-fra3-storefront-api.ecwid.com",
+    "d201eyh6wia12q.cloudfront.net",
+    "d1oxsl77a1kjht.cloudfront.net",
+    "d1tqsoh7s4xjz9.cloudfront.net",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "ecomm.events",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://d2gt4h1eeousrn.cloudfront.net/92589256/cover-pGtgcV/TQwIoWi-1200x1200.webp",
+      "kb": 87
+    },
+    {
+      "url": "https://d2gt4h1eeousrn.cloudfront.net/92589256/cover-N5nDT2/igyRO7n-1200x1200.webp",
+      "kb": 83
+    },
+    {
+      "url": "https://d2j6dbq0eux0bg.cloudfront.net/images/92589256/categories/161522065/5594548167.jpg",
+      "kb": 49
+    },
+    {
+      "url": "https://d2j6dbq0eux0bg.cloudfront.net/images/92589256/categories/196390027/5596448445.jpg",
+      "kb": 48
+    },
+    {
+      "url": "https://d2j6dbq0eux0bg.cloudfront.net/images/92589256/categories/161519075/5594632304.jpg",
+      "kb": 46
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "ins-notices ins-notices--fixed ins-notices--bottom ins-notic",
+      "copre": "49%",
+      "testo": "Informativa sulla Privacy Utilizziamo cookie e tecnologie simili per memorizzare le preferenze dell'utente, misurare l'e"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@dolceconfetto.com"
+  ],
+  "telefono": [
+    "+390396850929"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CONDIZIONI GENERALI DI VENDITA ONLINE",
+      "h": "https://shop.dolceconfetto.com/products/pages/terms"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "height=device-height, width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 227,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 68,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 62,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-VFMVPL7HCW&gtm=45je6ag1v9218064465za208zd9218064465xf1&_p=1792445223401&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma"
+    }
+  ]
+}

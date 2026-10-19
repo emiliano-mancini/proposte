@@ -1,0 +1,211 @@
+{
+  "slug": "keyhomestore",
+  "url": "https://keyhomestore.it/products/ciotola-in-ceramica-verde",
+  "misuratoIl": "2026-10-19T21:28:04.403Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2403,
+  "lcpMs": 1192,
+  "lcpElemento": "IMG https://keyhomestore.it/cdn/shop/files/INSALATIERA_MEDIA.jpg?v=1791019697&width=1100",
+  "cls": 0.158,
+  "urlFinale": "https://keyhomestore.it/products/ciotola-in-ceramica-verde",
+  "titolo": "Insalatiera Verza Media in Ceramica Verde Smeraldo Ø.21 cm – KeyHome Store",
+  "descrizione": "L'Insalatiera Verza in ceramica verde smeraldo è un originale complemento per la tavola, ispirato alla forma naturale della foglia di verza. Realizzata in ceramica italiana, si distingue per il caratteristico colore verdme smeraldo e per il design decorativo, ideale per portare un tocco di originalità sulla tavola. Gra",
+  "h1": [
+    "Insalatiera Verza Media in Ceramica Verde Smeraldo Ø.21 cm"
+  ],
+  "ttfb": 535,
+  "fcp": 1103,
+  "domReady": 1589,
+  "load": 2402,
+  "pesoKB": 4821,
+  "richieste": 343,
+  "script": 96,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "cdn.shopify.com",
+    "shop.app",
+    "cdn.langshop.app",
+    "cdn.nfcube.com",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "static.klaviyo.com",
+    "raw.githubusercontent.com",
+    "otlp-http-production.shopifysvc.com",
+    "connect.facebook.net",
+    "static-tracking.klaviyo.com",
+    "fonts.bunny.net",
+    "app.consentmo.com",
+    "wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws",
+    "widget-view.dondy.net",
+    "fast.a.klaviyo.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.merchant-center-analytics.goog",
+    "idb.iubenda.com",
+    "www.googleadservices.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "static-forms.klaviyo.com",
+    "googleads.g.doubleclick.net",
+    "www.facebook.com",
+    "packlink-spf-pro.appspot.com",
+    "loox.io",
+    "fonts.loox.io",
+    "images.loox.io"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://keyhomestore.it/cdn/shop/files/preview_images/5311425fb8c64d8dbb957fbc9c6360d6.thumbnail.0000000000.jpg?v=1788874738&width=1100",
+      "kb": 148
+    },
+    {
+      "url": "https://keyhomestore.it/cdn/shop/files/INSALATIERA_MEDIA.jpg?v=1791019697&width=1100",
+      "kb": 129
+    },
+    {
+      "url": "https://keyhomestore.it/cdn/shop/files/preview_images/389346af8f8e42ee9fb4f7089240b4a5.thumbnail.0000000000.jpg?v=1788874665&width=1100",
+      "kb": 113
+    },
+    {
+      "url": "https://keyhomestore.it/cdn/shop/files/ChatGPTImage24ago2025_12_49_59.png?v=1773173431&width=990",
+      "kb": 84
+    },
+    {
+      "url": "https://keyhomestore.it/cdn/shop/files/VERZE_IN_CERAMICA.jpg?v=1791010193&width=823",
+      "kb": 59
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Noi (keyhomestore.it) e terze parti selezionate (9) raccogliamo informazioni personali come specificato nella privacy po"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1180,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Bianconiglio con Orologio in Resina Bianco e Verde",
+      "h": "https://keyhomestore.it/products/bianconiglio-con-orologio-in-resina"
+    },
+    {
+      "t": "Cofanetto Cuore Sacro in Resina Oro 18x10 cm",
+      "h": "https://keyhomestore.it/products/cofanetto-cuore-sacro-in-resina-oro-h-18x10x6-cm"
+    },
+    {
+      "t": "Cuore Sacro Croce in Resina Oro 24x20 cm",
+      "h": "https://keyhomestore.it/products/cuore-sacro-decorativo-in-resina-oro-h-24x20x3-cm"
+    },
+    {
+      "t": "Specchio a Cuore con Corona in Resina Oro H.30x27 ",
+      "h": "https://keyhomestore.it/products/porta-foto-cornice-decorativa-a-cuore-colore-oro-30x27cm"
+    },
+    {
+      "t": "Spedizioni e Consegne",
+      "h": "https://keyhomestore.it/policies/shipping-policy"
+    },
+    {
+      "t": "Resi e Rimborsi",
+      "h": "https://keyhomestore.it/policies/refund-policy"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://keyhomestore.it/pages/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://keyhomestore.it/pages/contact"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://keyhomestore.it/pages/termini-e-condizioni"
+    },
+    {
+      "t": "Bianconiglio con Orologio in Resina Bianco e Verde",
+      "h": "https://keyhomestore.it/products/bianconiglio-con-orologio-in-resina"
+    },
+    {
+      "t": "Cofanetto Cuore Sacro in Resina Oro 18x10 cm",
+      "h": "https://keyhomestore.it/products/cofanetto-cuore-sacro-in-resina-oro-h-18x10x6-cm"
+    },
+    {
+      "t": "Cuore Sacro Croce in Resina Oro 24x20 cm",
+      "h": "https://keyhomestore.it/products/cuore-sacro-decorativo-in-resina-oro-h-24x20x3-cm"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 884,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 186,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 199,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://keyhomestore.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://keyhomestore.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://keyhomestore.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://keyhomestore.it/shopify_pay/accelerated_checkout"
+    },
+    {
+      "status": 999,
+      "url": "https://keyhomestore.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://keyhomestore.it/products/ciotola-in-ceramica-verde"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-JL0BP1VHZ9&gtm=45je6af0v897307466za200zb9253136688zd9253136688xf1&_p=1792445278880&_gaz=1&gcs=G111&gcd=13t3t3t3"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-JL0BP1VHZ9&gtm=45je6af0v897307466za200zb9253136688zd9253136688xf1&_p=1792445278880&gcs=G111&gcd=13t3t3t3t5l1&np"
+    },
+    {
+      "status": 999,
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-S8DJL4HXFT&gtm=45Pe6ag1v9225807214za200zb9253136688zd9253136688xf1&_p=1792445278880&gcs=G111&gc"
+    },
+    {
+      "status": 999,
+      "url": "https://keyhomestore.it/.well-known/shopify/monorail/unstable/produce_batch"
+    }
+  ]
+}

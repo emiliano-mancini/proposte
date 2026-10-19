@@ -1,0 +1,77 @@
+{
+  "slug": "cmdparts",
+  "url": "https://cmdparts.com/",
+  "misuratoIl": "2026-10-19T21:23:42.426Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": true,
+  "caricamentoTotaleMs": 821,
+  "lcpMs": 421,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://cmdparts.com/",
+  "titolo": "Ci siamo quasi…",
+  "descrizione": null,
+  "h1": [
+    "cmdparts.com"
+  ],
+  "ttfb": 233,
+  "fcp": 421,
+  "domReady": 259,
+  "load": 820,
+  "pesoKB": 1017,
+  "richieste": 5,
+  "script": 2,
+  "serviziEsterni": [
+    "challenges.cloudflare.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/ci/a4d2d856dd0a6c2a/1792445018977/SsicSMHqIMRIpO06qhcn7JXCDhQ.wPWBV8dlXgKqErM-1792445018-1.3.1.",
+      "kb": 5
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 404,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 124,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 116,
+      "status": 403,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 403,
+      "url": "https://cmdparts.com/"
+    },
+    {
+      "status": 999,
+      "url": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/i/a4d2d856dd0a6c2a/cSB34_q4EFAwOsyH0ofiN819eWl9PhwqZPJzxHd6.wU-1792445018-1.2.1.1-KyqI"
+    },
+    {
+      "status": 401,
+      "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/pat/a4d2d856dd0a6c2a/1792445018968/aeb4634384700b4ad53b55eab7e0c45df8a17a6c873bf8f56e062d71fd9e"
+    }
+  ]
+}

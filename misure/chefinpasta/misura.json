@@ -1,0 +1,115 @@
+{
+  "slug": "chefinpasta",
+  "url": "https://chefinpasta.org/shop",
+  "misuratoIl": "2026-10-19T21:28:17.230Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1144,
+  "lcpMs": 3514,
+  "lcpElemento": "IMG https://chefinpasta.org/assets/shop-CCGtigrN.webp",
+  "cls": 0,
+  "urlFinale": "https://chefinpasta.org/shop",
+  "titolo": "Chef in Pasta - Pasta Fresca Artigianale Milano",
+  "descrizione": "Pasta fresca artigianale a Milano. Ravioli, tortelli e specialità fatte a mano da Marcello e Mariangela. Shop online con spedizioni in 24-48h e prenotazione tavoli.",
+  "h1": [
+    "Ravioli Freschi a Casa Tua"
+  ],
+  "ttfb": 306,
+  "fcp": 596,
+  "domReady": 542,
+  "load": 1143,
+  "pesoKB": 2044,
+  "richieste": 42,
+  "script": 6,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "embeds.iubenda.com",
+    "apis.google.com",
+    "cdn.iubenda.com",
+    "chefinpasta.firebaseapp.com",
+    "idb.iubenda.com",
+    "firestore.googleapis.com",
+    "www.paypal.com",
+    "api-l4gkbj4moa-ey.a.run.app",
+    "firebasestorage.googleapis.com",
+    "lh3.googleusercontent.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/chefinpasta.firebasestorage.app/o/products%2FuKPmPkbXlcM63UN5cso9%2Fmain_1789810543828.webp?alt=media&token=9b1f1236",
+      "kb": 201
+    },
+    {
+      "url": "https://chefinpasta.org/assets/shop-CCGtigrN.webp",
+      "kb": 128
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/chefinpasta.firebasestorage.app/o/products%2Fqe2QK6uWRbtyKXs3s9Ua%2Fmain_1787813740597.webp?alt=media&token=cfc74eb6",
+      "kb": 96
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/chefinpasta.firebasestorage.app/o/products%2Fa2CXpY6tZtQnFMgLmu7l%2Fmain_1788332333071.webp?alt=media&token=f3d5569e",
+      "kb": 61
+    },
+    {
+      "url": "https://firebasestorage.googleapis.com/v0/b/chefinpasta.firebasestorage.app/o/products%2Fmaglietta-pasta-lover%2Fmain.webp?alt=media&token=01c5f170-3c9f-444b-a2",
+      "kb": 61
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo consenso, anc"
+    },
+    {
+      "id": "fixed inset-0 z-50 bg-black/80 data-[state=open]:animate-in ",
+      "copre": "100%",
+      "testo": ""
+    },
+    {
+      "id": "radix-:r0:",
+      "copre": "50%",
+      "testo": "5% di sconto sul primo ordine Iscriviti alla newsletter: ti regaliamo subito il 5% sul tuo ordine, e resti aggiornato su"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi",
+    "yPx": 961,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://chefinpasta.org/terms"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 307,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 54,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 122,
+      "status": 200,
+      "cache": "MISS"
+    }
+  ],
+  "risorseRotte": []
+}

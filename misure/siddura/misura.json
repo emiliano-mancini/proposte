@@ -1,0 +1,173 @@
+{
+  "slug": "siddura",
+  "url": "https://siddura.com/products/maia",
+  "misuratoIl": "2026-10-19T21:21:18.379Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2407,
+  "lcpMs": 1280,
+  "lcpElemento": "IMG https://siddura.com/cdn/shop/files/maia-3_trasp_upscale.png?v=1774262786&width=1000",
+  "cls": 0,
+  "urlFinale": "https://siddura.com/products/maia",
+  "titolo": "MAÌA - Vermentino di Gallura DOCG | 121 premi internazionali | Siddura",
+  "descrizione": "MAÌA, Vermentino di Gallura DOCG Superiore. Tre Bicchieri Gambero Rosso, 5 Grappoli Bibenda. 121 premi internazionali. Acquista online su Siddura. Spedizione 24/48h.",
+  "h1": [
+    "MAÌA",
+    "maìa"
+  ],
+  "ttfb": 326,
+  "fcp": 499,
+  "domReady": 657,
+  "load": 2407,
+  "pesoKB": 4396,
+  "richieste": 292,
+  "script": 77,
+  "serviziEsterni": [
+    "shop.app",
+    "cdn.shopify.com",
+    "static.klaviyo.com",
+    "www.clarity.ms",
+    "ajax.googleapis.com",
+    "otlp-http-production.shopifysvc.com",
+    "scripts.clarity.ms",
+    "assets.appherolab.com",
+    "static-tracking.klaviyo.com",
+    "app.rapibundle.com",
+    "fast.a.klaviyo.com",
+    "a.klaviyo.com",
+    "g.clarity.ms",
+    "fonts.googleapis.com",
+    "static-forms.klaviyo.com",
+    "freegift.appherolab.com",
+    "connect.facebook.net",
+    "www.facebook.com",
+    "cdn-app.cart-bot.net",
+    "c.clarity.ms",
+    "app.cart-bot.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://siddura.com/cdn/shop/files/maia-3_trasp_upscale.png?v=1774262786&width=1200",
+      "kb": 141
+    },
+    {
+      "url": "https://siddura.com/cdn/shop/files/maia-3_trasp_upscale.png?v=1774262786&width=1000",
+      "kb": 122
+    },
+    {
+      "url": "https://siddura.com/cdn/shop/files/spera_verticale_trasp_Upscale.png?v=1774432680&width=1000",
+      "kb": 122
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0929/2863/9320/files/iwc-2026-gold.png",
+      "kb": 102
+    },
+    {
+      "url": "https://siddura.com/cdn/shop/files/beru_verticale_trasp_upscale.png?v=1774262745&width=1000",
+      "kb": 98
+    }
+  ],
+  "scorrimentoOrizzontale": true,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1539,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+390796573027"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://siddura.com/pages/contatti"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://siddura.com/pages/contatti"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://siddura.com/pages/contatti"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://siddura.com/policies/terms-of-service"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://siddura.com/policies/refund-policy"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://siddura.com/policies/shipping-policy"
+    },
+    {
+      "t": "Richiesta Recesso",
+      "h": "https://siddura.com/pages/richiesta-recesso"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0",
+  "rispostaServer": [
+    {
+      "ms": 352,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 165,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 186,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "blob:https://siddura.com/a9079209-0d90-4ffc-8af6-896f4cd3d483"
+    },
+    {
+      "status": 999,
+      "url": "https://siddura.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://siddura.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://cdn.shopify.com/videos/c/o/v/06e27f100a0b4d83b0d14551d3b34e8d.mov"
+    },
+    {
+      "status": 999,
+      "url": "https://siddura.com/shopify_pay/accelerated_checkout"
+    },
+    {
+      "status": 999,
+      "url": "https://siddura.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://siddura.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://a.klaviyo.com/client/sessions/?company_id=QW8K43"
+    },
+    {
+      "status": 999,
+      "url": "https://siddura.com/.well-known/shopify/monorail/unstable/produce_batch"
+    }
+  ]
+}

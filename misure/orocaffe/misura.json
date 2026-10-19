@@ -1,0 +1,178 @@
+{
+  "slug": "orocaffe",
+  "url": "https://shoporocaffe.com/products/promo-allegra-15-capsule",
+  "misuratoIl": "2026-10-19T21:23:50.104Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3321,
+  "lcpMs": 2224,
+  "lcpElemento": "IMG https://orocaffe.com/cdn/shop/files/macchina-a-capsule-allegra-oro-caffe.png?v=1774266749&width=1200",
+  "cls": 0,
+  "urlFinale": "https://orocaffe.com/products/promo-allegra-15-capsule",
+  "titolo": "Promo Allegra con 15 capsule Omaggio | Oro Caffè",
+  "descrizione": "ALLEGRA, la nuova Macchina a capsule Oro Caffè, più funzionale e performante, dal design pulito e sinuoso.",
+  "h1": [
+    "PROMO ALLEGRA CON 15 CAPSULE OMAGGIO"
+  ],
+  "ttfb": 622,
+  "fcp": 1999,
+  "domReady": 2386,
+  "load": 3319,
+  "pesoKB": 7403,
+  "richieste": 407,
+  "script": 159,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "cdn.shopify.com",
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "error-analytics-sessions-production.shopifysvc.com",
+    "www.paypal.com",
+    "otlp-http-production.shopifysvc.com",
+    "shop.app",
+    "cdn.judge.me",
+    "connect.facebook.net",
+    "public-images.judge.me",
+    "monorail-edge.shopifysvc.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "idb.iubenda.com",
+    "api.omegatheme.com",
+    "gdprcdn.b-cdn.net",
+    "d23dclunsivw3h.cloudfront.net",
+    "ajax.googleapis.com",
+    "wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws",
+    "way2enjoy.com",
+    "fonts.googleapis.com",
+    "jsfiddle.xyz",
+    "app.consentmo.com",
+    "maxcdn.bootstrapcdn.com",
+    "tracking.aws.judge.me"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://orocaffe.com/cdn/shop/files/preview_images/1c8ca67e861a4cb7bb4222e04a0bffac.thumbnail.0000000000_2500x.jpg?v=1769600034",
+      "kb": 152
+    },
+    {
+      "url": "https://orocaffe.com/cdn/shop/files/preview_images/1c8ca67e861a4cb7bb4222e04a0bffac.thumbnail.0000000000.jpg?v=1769600034&width=1200",
+      "kb": 102
+    },
+    {
+      "url": "https://orocaffe.com/cdn/shop/products/caffe-prezioso-15-capsule-promo-allegra-oro-caffe.jpg?v=1774266749&width=1200",
+      "kb": 50
+    },
+    {
+      "url": "https://orocaffe.com/cdn/shop/files/1d48be56def9a2359e1899cbaa06bd605789fd3f.png?v=1771329849&width=1200",
+      "kb": 49
+    },
+    {
+      "url": "https://orocaffe.com/cdn/shop/files/61c0f0d4afbecd4c4084c9b6b3caa4ef8abbb5f6.jpg?v=1770290413&width=240",
+      "kb": 36
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi (shoporocaffe.com) e terze parti selezionate (11) raccogliamo informazioni personali come specificato ne"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1646,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "digital@orocaffé.com"
+  ],
+  "telefono": [
+    "+393420953489"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://orocaffe.com/pages/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://orocaffe.com/pages/contatti"
+    },
+    {
+      "t": "TERMINI E CONDIZIONI",
+      "h": "https://orocaffe.com/pages/termini-e-condizioni"
+    },
+    {
+      "t": "MODULO DI RECESSO",
+      "h": "https://orocaffe.com/pages/eu-modulo-recesso"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 687,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 311,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 314,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-3DL50WT571&gtm=45je6af0v9249344845za208zd9249344845xf1&_p=1792445023781&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&"
+    },
+    {
+      "status": 999,
+      "url": "https://orocaffe.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://error-analytics-sessions-production.shopifysvc.com/observeonly"
+    },
+    {
+      "status": 999,
+      "url": "https://orocaffe.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://orocaffe.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://orocaffe.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-SSGEDJL724&gtm=45je6ag1v867850777za200zb9249344845zd9249344845xf1&_p=1792445023781&_gaz=1&gcs=G111&gcd=13t3t3t3"
+    }
+  ]
+}

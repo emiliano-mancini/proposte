@@ -1,0 +1,152 @@
+{
+  "slug": "lesacoutlet",
+  "url": "http://www.lesacoutlet.it/",
+  "misuratoIl": "2026-10-19T21:21:10.224Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5946,
+  "lcpMs": 2128,
+  "lcpElemento": "IMG https://www.lesacoutlet.it/dimgs/HBA_3606_2_L_12549/guess-generico-settembre-26.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.lesacoutlet.it/",
+  "titolo": "Le Sac: Outlet Online Valigie, Trolley, Borse & Accessori Da Viaggio",
+  "descrizione": "Outlet Online di Valigie, Trolley, Borse Donna e Accessori. Reso Facile e Veloce | Acquista Online a Prezzi Outlet su Lesacoutlet.it!",
+  "h1": [
+    "LE SAC OUTLET: LO SHOP ONLINE DAI PREZZI IMBATTIBILI"
+  ],
+  "ttfb": 1109,
+  "fcp": 2030,
+  "domReady": 5369,
+  "load": 5945,
+  "pesoKB": 2935,
+  "richieste": 176,
+  "script": 37,
+  "serviziEsterni": [
+    "kit.fontawesome.com",
+    "widget.trustpilot.com",
+    "cdn.iubenda.com",
+    "widget.feedaty.com",
+    "cdn.logwork.com",
+    "www.googletagmanager.com",
+    "cdn.clerk.io",
+    "ka-p.fontawesome.com",
+    "cs.iubenda.com",
+    "app.zipchat.ai",
+    "pagead2.googlesyndication.com",
+    "idb.iubenda.com",
+    "api.clerk.io",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.lesacoutlet.it/dimgs/HMS_846_6_M_70388/trolley.png",
+      "kb": 131
+    },
+    {
+      "url": "https://www.lesacoutlet.it/dimgs/HBA_3689_2_L_60455/american-tourister-generico-settmbre-26.jpg",
+      "kb": 121
+    },
+    {
+      "url": "https://www.lesacoutlet.it/dimgs/HMS_846_5_M_70376/accessori.png",
+      "kb": 100
+    },
+    {
+      "url": "https://www.lesacoutlet.it/dimgs/HMS_846_1_M_70270/borse.png",
+      "kb": 91
+    },
+    {
+      "url": "https://www.lesacoutlet.it/dimgs/HBA_3086_2_L_04259/migliori-ecommerce.jpg",
+      "kb": 80
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "banner-bottom",
+      "copre": "31%",
+      "testo": "Solo fino al 19 Ottobre! EXTRA 10% su Calvin Klein e Tommy Hilfiger! Codice sconto sconto10"
+    },
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo consenso, anc"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "clienti@le-sac.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizioni",
+      "h": "https://www.lesacoutlet.it/spedizioni/spedizioni.php"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.lesacoutlet.it/contatti/contatti.php"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.lesacoutlet.it/chi-siamo/siamo.php"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://www.lesacoutlet.it/spedizioni/spedizioni.php"
+    },
+    {
+      "t": "Diritto di Recesso",
+      "h": "https://www.lesacoutlet.it/diritto-di-recesso/diritto_recesso.php"
+    },
+    {
+      "t": "Resi",
+      "h": "https://www.lesacoutlet.it/resi/resi.php"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.lesacoutlet.it/termini-condizioni/condizioni.php"
+    }
+  ],
+  "piattaforma": "Squarespace",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1034,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 411,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 446,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.lesacoutlet.it%2F&scrsrc=www.googletagmanager.com&r"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=14&frm=0&apvc=0&ae=g&tid=AW-1068532252&dl=https%3A%2F%2Fwww.lesacoutlet.it%2F&scrsrc=www.googletagmanager."
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9HBF25HE11&gtm=45je6ag1v875430910za20ozb6475447zd6475447xf1&_p=1792444862590&gcs=G100&gcd=13p3p3p3p5l1&npa="
+    },
+    {
+      "status": 999,
+      "url": "https://widget.trustpilot.com/trustboxes/5419b732fbfb950b10de65e5/index.html?templateId=5419b732fbfb950b10de65e5&businessunitId=585b9c060000ff0005998a7b"
+    }
+  ]
+}

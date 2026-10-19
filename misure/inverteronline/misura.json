@@ -1,0 +1,130 @@
+{
+  "slug": "inverteronline",
+  "url": "https://inverteronline.it/",
+  "misuratoIl": "2026-10-19T21:21:25.198Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2388,
+  "lcpMs": 1824,
+  "lcpElemento": "IMG https://inverteronline.it/wp-content/uploads/2026/07/bannerinverteronile-.jpg",
+  "cls": 0,
+  "urlFinale": "https://inverteronline.it/",
+  "titolo": "Libertà Energetica Totale | Sistemi Fotovoltaici",
+  "descrizione": "Libera la tua energia con i sistemi fotovoltaici off-grid di InverterOnline.it. Soluzioni autonome per casa e azienda, calcola il tuo risparmio e scopri i nostri kit essenziali.",
+  "h1": [
+    "",
+    ""
+  ],
+  "ttfb": 1155,
+  "fcp": 1679,
+  "domReady": 1712,
+  "load": 2387,
+  "pesoKB": 4003,
+  "richieste": 40,
+  "script": 9,
+  "serviziEsterni": [
+    "cdn.tailwindcss.com",
+    "fonts.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "www.googletagmanager.com",
+    "placehold.co",
+    "static.cloudflareinsights.com",
+    "cdn-cookieyes.com",
+    "log.cookieyes.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://inverteronline.it/wp-content/uploads/2026/02/inverteronline-2.png",
+      "kb": 830
+    },
+    {
+      "url": "https://inverteronline.it/wp-content/uploads/2025/09/pompa-di-calore.png",
+      "kb": 772
+    },
+    {
+      "url": "https://inverteronline.it/wp-content/uploads/2026/07/bannerinverteronile-.jpg",
+      "kb": 356
+    },
+    {
+      "url": "https://inverteronline.it/wp-content/uploads/2023/07/Kit-Fotovoltaico-da-11kW-con-accumulo-da-1433kWh.jpg",
+      "kb": 192
+    },
+    {
+      "url": "https://inverteronline.it/wp-content/uploads/2025/09/ricaricare-lauto-elettrica-a-casa.jpg",
+      "kb": 167
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cky-consent-container cky-classic-bottom",
+      "copre": "35%",
+      "testo": "Apprezziamo la tua privacy Utilizziamo i cookie per migliorare la tua esperienza di navigazione, pubblicare annunci o co"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@inverteronline.it"
+  ],
+  "telefono": [
+    "+3908331808056"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://inverteronline.it/contattaci/"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://inverteronline.it/diritto-di-recesso/"
+    },
+    {
+      "t": "Modalita di spedizione",
+      "h": "https://inverteronline.it/modalita-di-spedizione/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 1447,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 875,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 1449,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XN3C001D65&gtm=45be6af0v896853991za20ozb9115848987zd9115848987xf1&_p=1792444880377&gcs=G100&gcd=13q3q3q3q5l"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Finverteronline.it%2F&scrsrc=www.googletagmanager.com&rn"
+    },
+    {
+      "status": 999,
+      "url": "https://inverteronline.it/analytics/gs/ccm/collect?rcb=2&frm=0&apvc=0&tid=AW-923440465&en=page_view&dl=https%3A%2F%2Finverteronline.it%2F&scrsrc=inverteronline."
+    },
+    {
+      "status": 999,
+      "url": "https://inverteronline.it/analytics/ga/g/c?v=2&tid=G-67Z94VSR68&gtm=45g92e6af0v9115855150za20czd9115855150xf4&_p=1792444880377&gcs=G100&gcd=13q3q3q3q5l1&npa=1&d"
+    }
+  ]
+}

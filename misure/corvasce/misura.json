@@ -1,0 +1,169 @@
+{
+  "slug": "corvasce",
+  "url": "https://shop.corvasce.it/collections/packaging",
+  "misuratoIl": "2026-10-19T21:26:49.094Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4251,
+  "lcpMs": 2963,
+  "lcpElemento": "IMG https://shop.corvasce.it/cdn/shop/files/Packaging_natale_2025.jpg?height=3720&v=1758193120",
+  "cls": 0.004,
+  "urlFinale": "https://shop.corvasce.it/collections/packaging",
+  "titolo": "PACKAGING – Corvasce Design",
+  "descrizione": "La collezione Packaging di Corvasce Design unisce protezione strutturale, estetica raffinata e sostenibilità. Realizzate in cartone ondulato doppia onda ad alta resistenza, le nostre confezioni sono progettate per valorizzare i tuoi prodotti e regalare un’esperienza di unboxing memorabile. Perché scegliere il nostro pa",
+  "h1": [],
+  "ttfb": 749,
+  "fcp": 2812,
+  "domReady": 3576,
+  "load": 4250,
+  "pesoKB": 5856,
+  "richieste": 510,
+  "script": 145,
+  "serviziEsterni": [
+    "cdn.shopify.com",
+    "shop.app",
+    "cdn.nfcube.com",
+    "www.modules4u.biz",
+    "whatsapp-button.eazeapps.io",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "form-builder-cdn.pifyapp.com",
+    "sdk.pop-convert.com",
+    "www.googletagmanager.com",
+    "forms.shopifyapps.com",
+    "connect.facebook.net",
+    "essential-icon-badge.uk",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.merchant-center-analytics.goog",
+    "www.googleadservices.com",
+    "www.google-analytics.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "cdn.micro.pop-convert.com",
+    "micro.pop-convert.com",
+    "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws",
+    "www.facebook.com",
+    "googleads.g.doubleclick.net",
+    "form-builder-en.pifyapp.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://shop.corvasce.it/cdn/shop/files/PackagingDesign-Pod_04_AV.webp?height=5760&v=1784547118",
+      "kb": 250
+    },
+    {
+      "url": "https://shop.corvasce.it/cdn/shop/files/Packaging_natale_2025.jpg?height=3720&v=1758193120",
+      "kb": 238
+    },
+    {
+      "url": "https://shop.corvasce.it/cdn/shop/files/Packaging_Design_-_Bauletto_02_AV.webp?height=5760&v=1783680924",
+      "kb": 202
+    },
+    {
+      "url": "https://shop.corvasce.it/cdn/shop/files/Packaging_Design_-_Borsa_Brigitte_04_AV.webp?height=5760&v=1783683803",
+      "kb": 169
+    },
+    {
+      "url": "https://shop.corvasce.it/cdn/shop/files/PackagingDesign-BorsaSofia_04_AV.webp?height=5760&v=1784545793",
+      "kb": 100
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Acquista ora",
+    "yPx": 5308,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Scatole spedizione",
+      "h": "https://shop.corvasce.it/collections/robubox"
+    },
+    {
+      "t": "Scatole Spedizione",
+      "h": "https://shop.corvasce.it/collections/robubox"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://shop.corvasce.it/pages/codizioni-di-vendita"
+    },
+    {
+      "t": "Spedizione",
+      "h": "https://shop.corvasce.it/policies/shipping-policy"
+    },
+    {
+      "t": "Resi",
+      "h": "https://shop.corvasce.it/policies/refund-policy"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1,viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 844,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 663,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 156,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "blob:https://shop.corvasce.it/e4730133-4b3d-4f99-a1aa-160e8f65298c"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.corvasce.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.corvasce.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-R0FGG165QN"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.corvasce.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.corvasce.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.corvasce.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.corvasce.it/shopify_pay/accelerated_checkout"
+    },
+    {
+      "status": 999,
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-R0FGG165QN&cx=c&gtm=4e6ag1"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-R0FGG165QN&gtm=45Pe6ag1v9191534385za200zd9191534385xf1&_p=1792445204565&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&g"
+    }
+  ]
+}

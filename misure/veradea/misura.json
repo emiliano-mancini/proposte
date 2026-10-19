@@ -1,0 +1,144 @@
+{
+  "slug": "veradea",
+  "url": "https://www.veradea-materasso.com/it",
+  "misuratoIl": "2026-10-19T21:22:24.904Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4164,
+  "lcpMs": 4312,
+  "lcpElemento": "IMG https://www.veradea-materasso.com/sites/default/files/slider/Promo%20a%20Scaglioni%20-%20Veradea%20Materasso%20MB.jpg",
+  "cls": 0.013,
+  "urlFinale": "https://www.veradea-materasso.com/it",
+  "titolo": "Veradea Materasso | Materassi e cuscini Made in Italy in promozione",
+  "descrizione": "Scopri i migliori materassi in memory foam e a molle insacchettate! Spedizione gratuita, 100 notti di prova, 10 anni di garanzia, misure personalizzabili.",
+  "h1": [],
+  "ttfb": 999,
+  "fcp": 2244,
+  "domReady": 2233,
+  "load": 4163,
+  "pesoKB": 9390,
+  "richieste": 98,
+  "script": 18,
+  "serviziEsterni": [
+    "static.cloudflareinsights.com",
+    "cdn.scalapay.com",
+    "js.stripe.com",
+    "widget.trustpilot.com",
+    "dynamic.criteo.com",
+    "www.dwin1.com",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "connect.facebook.net",
+    "static.getbutton.io",
+    "www.googletagmanager.com",
+    "lantern.roeyecdn.com",
+    "cdn.connectif.cloud",
+    "cdn.livechatinc.com",
+    "lantern.roeye.com",
+    "tracker.connectif.cloud",
+    "eu6-api.connectif.cloud",
+    "api.livechatinc.com",
+    "www.facebook.com",
+    "idb.iubenda.com",
+    "pagead2.googlesyndication.com",
+    "www.google-analytics.com",
+    "secure.livechatinc.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/2025-07/4.png",
+      "kb": 2316
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/2025-07/5.png",
+      "kb": 2069
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/banner/letti%20veradea%20.png",
+      "kb": 696
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/2026-01/smaltimento%20rete.jpg",
+      "kb": 201
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/slider/Promo%20a%20Scaglioni%20-%20Veradea%20Materasso%20MB.jpg",
+      "kb": 190
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate raccogliamo informazioni personali come specificato nella privacy policy e uti"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 3569,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.veradea-materasso.com/it/resi-e-rimborsi"
+    },
+    {
+      "t": "Spedizione",
+      "h": "https://www.veradea-materasso.com/it/spedizione"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.veradea-materasso.com/it/termini-e-condizioni"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.veradea-materasso.com/node/308"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.veradea-materasso.com/node/302"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 993,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 553,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 354,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4F1JD9JK16&gtm=45je6af0v870634819za20ozb852718539zd852718539xf1&_p=1792444941330&gcs=G100&gcd=13p3p3p3p5l1&"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=1&tid=AW-666553804&en=page_view&dl=https%3A%2F%2Fwww.veradea-materasso.com%2Fit&scrsrc=www.g"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1792444941771&cv=11&tid=G-4F1JD9JK16&fst=1792444941771&fmt=8&en=page_view&gtm=45je6af0v87063"
+    }
+  ]
+}

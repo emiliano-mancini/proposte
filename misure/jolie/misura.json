@@ -1,0 +1,153 @@
+{
+  "slug": "jolie",
+  "url": "https://jolieprofumerie.com/",
+  "misuratoIl": "2026-10-19T21:21:43.458Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2297,
+  "lcpMs": 991,
+  "lcpElemento": "IMG https://jolieprofumerie.com/cdn/shop/files/G_collection_slide_Fatal_bloom_1080x1080_2026-jolie_38e95a24-f095-4629-9464-f",
+  "cls": 0.053,
+  "urlFinale": "https://jolieprofumerie.com/",
+  "titolo": "Jolie Profumerie | Vendita Online Profumi di Nicchia",
+  "descrizione": "Jolie Profumerie, il punto di riferimento per i profumi di nicchia e di lusso. Acquista online le fragranze più ricercate e vivi un'esperienza olfattiva unica.",
+  "h1": [
+    ""
+  ],
+  "ttfb": 409,
+  "fcp": 782,
+  "domReady": 1499,
+  "load": 2296,
+  "pesoKB": 3470,
+  "richieste": 277,
+  "script": 72,
+  "serviziEsterni": [
+    "embeds.iubenda.com",
+    "cdn.shopify.com",
+    "shop.app",
+    "cdn.506.io",
+    "eu1-config.doofinder.com",
+    "static.klaviyo.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "otlp-http-production.shopifysvc.com",
+    "cdn.doofinder.com",
+    "pagead2.googlesyndication.com",
+    "cdn.scalapay.com",
+    "idb.iubenda.com",
+    "eu1-api.doofinder.com",
+    "instareel.neomega.tools",
+    "tikfeed-cdn.neomega.tools",
+    "jolie-profumerie-srl.myshopify.com",
+    "fonts.googleapis.com",
+    "widget.trustpilot.com",
+    "ecommplugins-scripts.trustpilot.com",
+    "ecommplugins-trustboxsettings.trustpilot.com",
+    "s3.eu-west-1.amazonaws.com",
+    "invitejs.trustpilot.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0646/2118/3226/t/6/assets/country-flags-2x.png?v=119388446682176363021671675075",
+      "kb": 152
+    },
+    {
+      "url": "https://jolieprofumerie.com/cdn/shop/files/Slide-promo-kit10-mobile_jpg.jpg?v=1774375528&width=1000",
+      "kb": 100
+    },
+    {
+      "url": "https://jolieprofumerie.com/cdn/shop/files/Promo-kit-12_1-travel_shower-gel-mobile_jpg.jpg?v=1774375528&width=1000",
+      "kb": 72
+    },
+    {
+      "url": "https://jolieprofumerie.com/cdn/shop/files/Promo-kit-12_3-travel_car-parfum-mobile_jpg.jpg?v=1774375528&width=1000",
+      "kb": 65
+    },
+    {
+      "url": "https://jolieprofumerie.com/cdn/shop/files/G_collection_slide_Fatal_bloom_1080x1080_2026-jolie_38e95a24-f095-4629-9464-f1e65d44ef1d.jpg?v=1791361911&width=1000",
+      "kb": 41
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Noi (Jolie IT) e terze parti selezionate (18) raccogliamo informazioni personali come specificato nella privacy policy"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@jolieprofumerie.com"
+  ],
+  "telefono": [
+    "+39 081 869 4940"
+  ],
+  "whatsapp": true,
+  "linkUtili": [],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 701,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 172,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 195,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://jolieprofumerie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=4&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fjolieprofumerie.com&scrsrc=www.googletagmanager.com&rnd="
+    },
+    {
+      "status": 999,
+      "url": "https://jolieprofumerie.com/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=11&frm=0&apvc=0&tid=AW-923373391&en=page_view&dl=https%3A%2F%2Fjolieprofumerie.com&scrsrc=www.googletagman"
+    },
+    {
+      "status": 999,
+      "url": "https://jolieprofumerie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1579582856.1792444899&gtm=45He6af0v9247251007za200zd9247251007xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=1&ae=g&auid=1579582856.1792444899&dt=Jolie%20Profumerie%20%7C%20Vendita%20Online%20Profumi%20di%20Nicchia&en"
+    },
+    {
+      "status": 999,
+      "url": "https://jolieprofumerie.com/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/923373391/?random=1792444899400&cv=11&fst=1792444899400&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6af0v87425013"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=3&frm=2&apvc=0&auid=1579582856.1792444899&dt=Jolie%20Profumerie%20%7C%20Vendita%20Online%20Profumi%20di%20Nicchia&tid=AW-"
+    }
+  ]
+}

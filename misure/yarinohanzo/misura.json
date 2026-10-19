@@ -1,0 +1,64 @@
+{
+  "slug": "yarinohanzo",
+  "url": "https://www.yarinohanzo.it/",
+  "misuratoIl": "2026-10-19T21:23:56.823Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1646,
+  "lcpMs": 880,
+  "lcpElemento": "P ",
+  "cls": 0.015,
+  "urlFinale": "https://www.yarinohanzo.it/",
+  "titolo": "Yarino Hanzo",
+  "descrizione": null,
+  "h1": [
+    "STIAMO MIGLIORANDO IL NOSTRO SITO!"
+  ],
+  "ttfb": 855,
+  "fcp": 880,
+  "domReady": 864,
+  "load": 1646,
+  "pesoKB": 7,
+  "richieste": 1,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://yarinohanzo.it/logo.jpg",
+      "kb": 5
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "customercare@yarinohanzo.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": 851,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 812,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 839,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

@@ -1,0 +1,161 @@
+{
+  "slug": "risomelotti",
+  "url": "https://shop.risomelotti.com/it/risi/22-riso-vialone-nano-semilavorato-1-kg-8020177000070.html",
+  "misuratoIl": "2026-10-19T21:24:44.428Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2784,
+  "lcpMs": 2193,
+  "lcpElemento": "IMG https://shop.risomelotti.com/1592-large_default/riso-vialone-nano-semilavorato-1-kg.jpg",
+  "cls": 0.143,
+  "urlFinale": "https://shop.risomelotti.com/it/risi/22-riso-vialone-nano-semilavorato-1-kg-8020177000070.html",
+  "titolo": "Riso Vialone Nano Semilavorato 1 Kg",
+  "descrizione": "Riso Vialone Nano Semilavorato 1 Kg | Riso online Melotti",
+  "h1": [
+    "Riso Vialone Nano Semilavorato 1 Kg"
+  ],
+  "ttfb": 753,
+  "fcp": 1301,
+  "domReady": 2101,
+  "load": 2781,
+  "pesoKB": 2207,
+  "richieste": 157,
+  "script": 60,
+  "serviziEsterni": [
+    "cdn.brevo.com",
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "assets.prestashop3.com",
+    "www.googletagmanager.com",
+    "www.clarity.ms",
+    "pagead2.googlesyndication.com",
+    "scripts.clarity.ms",
+    "sibautomation.com",
+    "idb.iubenda.com",
+    "www.google-analytics.com",
+    "q.clarity.ms",
+    "connect.facebook.net",
+    "www.paypal.com",
+    "in-automate.brevo.com",
+    "www.paypalobjects.com",
+    "www.facebook.com",
+    "c.clarity.ms"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://shop.risomelotti.com/img/logo-1745920735.jpg",
+      "kb": 135
+    },
+    {
+      "url": "https://shop.risomelotti.com/1592-product_zoom/riso-vialone-nano-semilavorato-1-kg.jpg",
+      "kb": 104
+    },
+    {
+      "url": "https://shop.risomelotti.com/1804-large_default/riso-vialone-nano-semilavorato-1-kg.jpg",
+      "kb": 92
+    },
+    {
+      "url": "https://shop.risomelotti.com/1592-large_default/riso-vialone-nano-semilavorato-1-kg.jpg",
+      "kb": 29
+    },
+    {
+      "url": "https://shop.risomelotti.com/1804-catalog_small/riso-vialone-nano-semilavorato-1-kg.jpg",
+      "kb": 15
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 1105,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://shop.risomelotti.com/it/contattaci"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://shop.risomelotti.com/it/faqs"
+    },
+    {
+      "t": "Spedizioni e Resi",
+      "h": "https://shop.risomelotti.com/it/content/1-spedizioni-e-resi"
+    },
+    {
+      "t": "Termini e condizioni d'uso",
+      "h": "https://shop.risomelotti.com/it/content/3-termini-e-condizioni-di-uso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://shop.risomelotti.com/it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://shop.risomelotti.com/it/contattaci"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 813,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 419,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 395,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fshop.risomelotti.com%2Fit%2Frisi%2F22-riso-vialone-nano"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&apvc=0&tid=AW-982430715&en=page_view&dl=https%3A%2F%2Fshop.risomelotti.com%2Fit%2Frisi%2F22-riso-v"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4WEDJ45LBR&gtm=45je6af0v895826028za20ozb895812509zd895812509xf1&_p=1792445079301&gcs=G100&gcd=13p3p3p3p5l1&"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4WEDJ45LBR&gtm=45je6af0v895826028z8895812509za20gzb895812509zd895812509xf1&_p=1792445079301&gcs=G100&gcd=13"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&apvc=0&ae=g&tid=AW-982430715&en=view_item&dl=https%3A%2F%2Fshop.risomelotti.com%2Fit%2Frisi%2F22-r"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1792445080811&cv=11&tid=G-4WEDJ45LBR&fst=1792445080811&fmt=8&en=view_item&gtm=45je6af0v89582"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/pagead/conversion/982430715/?random=1792445080804&cv=11&fst=1792445080804&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gt"
+    }
+  ]
+}

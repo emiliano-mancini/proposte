@@ -1,0 +1,128 @@
+{
+  "slug": "fraccaro",
+  "url": "https://www.pasticceriafraccaro.it/prodotto/panettone-zucca-e-farina-di-mandorle-incarto-artigianale/",
+  "misuratoIl": "2026-10-19T21:26:58.653Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3959,
+  "lcpMs": 3233,
+  "lcpElemento": "IMG https://www.pasticceriafraccaro.shop/wp-content/uploads-shop/2025/08/panettone-zucca-farina-mandorle-incarto-1024x1024.p",
+  "cls": 0,
+  "urlFinale": "https://www.pasticceriafraccaro.it/prodotto/panettone-zucca-e-farina-di-mandorle-incarto-artigianale/",
+  "titolo": "Panettone Zucca e Farina di Mandorle - Incarto Artigianale - Pasticceria Fraccaro",
+  "descrizione": "Panettone Zucca e Farina di Mandorle – Incarto Artigianale: 3 giorni di lavorazione – 48 ore di lievitazione – Lievito madre impastato a mano. Farcito con…",
+  "h1": [
+    "Panettone Zucca e Farina di Mandorle"
+  ],
+  "ttfb": 1237,
+  "fcp": 1806,
+  "domReady": 2702,
+  "load": 3958,
+  "pesoKB": 11496,
+  "richieste": 85,
+  "script": 29,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "static.cloudflareinsights.com",
+    "fonts.googleapis.com",
+    "www.pasticceriafraccaro.shop",
+    "www.google-analytics.com",
+    "idb.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.pasticceriafraccaro.shop/wp-content/uploads-shop/2025/08/panettone-zucca-farina-mandorle-incarto-1100x1100.png",
+      "kb": 840
+    },
+    {
+      "url": "https://www.pasticceriafraccaro.shop/wp-content/uploads-shop/2025/08/panettone-zucca-farina-mandorle-nudo-1100x1100.png",
+      "kb": 827
+    },
+    {
+      "url": "https://www.pasticceriafraccaro.shop/wp-content/uploads-shop/2025/08/panettone-zucca-intero-1024x655.png",
+      "kb": 789
+    },
+    {
+      "url": "https://www.pasticceriafraccaro.shop/wp-content/uploads-shop/2025/08/panettone-zucca-farina-mandorle-incarto-1024x1024.png",
+      "kb": 731
+    },
+    {
+      "url": "https://www.pasticceriafraccaro.shop/wp-content/uploads-shop/2025/08/panettone-zucca-farina-mandorle-nudo-1024x1024.png",
+      "kb": 722
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "summary entry-summary sticky",
+      "copre": "34%",
+      "testo": "PANETTONI Panettone Zucca e Farina di Mandorle 3 giorni di lavorazione – 48 ore di lievitazione – Lievito madre impastat"
+    },
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Noi (www.pasticceriafraccaro.it) e terze parti selezionate (8) raccogliamo informazioni personali come specificato nella"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.pasticceriafraccaro.it/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pasticceriafraccaro.it/contatti/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.pasticceriafraccaro.it/chi-siamo/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.pasticceriafraccaro.it/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pasticceriafraccaro.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pasticceriafraccaro.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 552,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 139,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 157,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-B76XYXN5CQ&gtm=45je6af0v9198618448za208zd9198618448xf1&_p=1792445212840&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma"
+    }
+  ]
+}
