@@ -1,0 +1,176 @@
+{
+  "slug": "dallan-stonefly",
+  "url": "https://calzaturedallan.it/products/stonefly-224146-cioccolato-animalier",
+  "misuratoIl": "2026-10-20T02:37:04.675Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2695,
+  "lcpMs": 1652,
+  "lcpElemento": "IMG https://calzaturedallan.it/cdn/shop/files/FOTO1_c7b03205-c6f6-44dc-90d0-a9269526aca9.png?v=1790929963&width=990",
+  "cls": 0,
+  "urlFinale": "https://calzaturedallan.it/products/stonefly-224146-cioccolato-animalier",
+  "titolo": "STONEFLY 224146 CIOCCOLATO-ANIMALIER – Calzature Dallan",
+  "descrizione": "Una sneaker dal carattere deciso, pensata per chi cerca una calzatura originale senza rinunciare alla comodità. Questo modello STONEFLY combina diversi materiali e tonalità in un design moderno, arricchito da dettagli animalier che rendono ogni look più particolare. La tomaia è realizzata in pelle, con un raffinato ins",
+  "h1": [
+    "STONEFLY 224146 CIOCCOLATO-ANIMALIER"
+  ],
+  "ttfb": 600,
+  "fcp": 1244,
+  "domReady": 1565,
+  "load": 2693,
+  "pesoKB": 2738,
+  "richieste": 314,
+  "script": 108,
+  "serviziEsterni": [
+    "cdn.shopify.com",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "error-analytics-sessions-production.shopifysvc.com",
+    "www.paypal.com",
+    "whatsapp.carthike.com",
+    "shop.app",
+    "connect.facebook.net",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/FOTOINDOSSATA_554535d2-aceb-4f58-b427-5a2a257b2189.png?v=1790929963&width=990",
+      "kb": 107
+    },
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/FOTO1_c7b03205-c6f6-44dc-90d0-a9269526aca9.png?v=1790929963&width=990",
+      "kb": 80
+    },
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/FOTO2_2652295d-2e04-45ef-a180-dba5f20b1301.png?v=1790929963&width=990",
+      "kb": 74
+    },
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/FOTO4_04c3fc07-5ac6-44af-94bf-f470ab8aa66c.png?v=1790929962&width=990",
+      "kb": 68
+    },
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/FOTO3_7987b46b-bcf4-449a-8077-667fa179a8a9.png?v=1790929963&width=990",
+      "kb": 65
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "",
+      "copre": "100%",
+      "testo": ""
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1091,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://calzaturedallan.it/pages/contattaci"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://calzaturedallan.it/pages/chi-siamo"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://calzaturedallan.it/pages/termini-e-condizioni"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://calzaturedallan.it/pages/contattaci"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://calzaturedallan.it/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "Modulo di recesso",
+      "h": "https://calzaturedallan.it/pages/modulo-di-recesso"
+    },
+    {
+      "t": "Spedizioni e consegna",
+      "h": "https://calzaturedallan.it/pages/spedizioni-e-consegna"
+    },
+    {
+      "t": "Termini e condizioni del servizio",
+      "h": "https://calzaturedallan.it/policies/terms-of-service"
+    },
+    {
+      "t": "Informativa sulle spedizioni",
+      "h": "https://calzaturedallan.it/policies/shipping-policy"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 764,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 147,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 165,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/api/event/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/api/event/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://error-analytics-sessions-production.shopifysvc.com/observeonly"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    }
+  ]
+}

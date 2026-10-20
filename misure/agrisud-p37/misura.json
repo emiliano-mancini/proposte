@@ -1,0 +1,182 @@
+{
+  "slug": "agrisud-p37",
+  "url": "https://agrisudsrl.it/acaricidi-insetticidi/37-affirm-kg-1.html",
+  "misuratoIl": "2026-10-20T02:35:20.658Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 17013,
+  "lcpMs": 15635,
+  "lcpElemento": "IMG https://agrisudsrl.it/3043-large_default/affirm-kg-1.jpg",
+  "cls": 0.322,
+  "urlFinale": "https://agrisudsrl.it/acaricidi-insetticidi/37-affirm-kg-1.html",
+  "titolo": "AFFIRM KG.1",
+  "descrizione": "AFFIRM     KG.1",
+  "h1": [
+    "SYNGENTA AFFIRM KG. 1"
+  ],
+  "ttfb": 14063,
+  "fcp": 14278,
+  "domReady": 15518,
+  "load": 17012,
+  "pesoKB": 2108,
+  "richieste": 108,
+  "script": 41,
+  "serviziEsterni": [
+    "integrations.etrusted.com",
+    "www.googletagmanager.com",
+    "iqit-commerce.com",
+    "assets.prestashop3.com",
+    "fonts.googleapis.com",
+    "widgets.trustedshops.com",
+    "static.cloudflareinsights.com",
+    "cdn-cookieyes.com",
+    "log.cookieyes.com",
+    "www.google-analytics.com",
+    "www.paypal.com",
+    "www.paypalobjects.com",
+    "pagead2.googlesyndication.com",
+    "customer-data-api.trstd-login.trustedshops.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://agrisudsrl.it/3043-medium_default/affirm-kg-1.jpg",
+      "kb": 283
+    },
+    {
+      "url": "https://agrisudsrl.it/3043-large_default/affirm-kg-1.jpg",
+      "kb": 209
+    },
+    {
+      "url": "https://agrisudsrl.it/img/logo-1649859030.jpg",
+      "kb": 36
+    },
+    {
+      "url": "https://widgets.trustedshops.com/assets/images/sprite.6b83167aeea54f81c755d67d609fd23a61b5b620.svg",
+      "kb": 13
+    },
+    {
+      "url": "https://iqit-commerce.com/ps17/demo1/img/cms/lgpng.png",
+      "kb": 7
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cky-consent-container cky-banner-bottom",
+      "copre": "44%",
+      "testo": "Diamo valore alla tua privacy Utilizziamo i cookie per migliorare la tua esperienza di navigazione, offrirti pubblicità "
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 707,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@agrisudsrl.it"
+  ],
+  "telefono": [
+    "393511019951",
+    "+39 0881 633423"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://agrisudsrl.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://agrisudsrl.it/contattaci"
+    },
+    {
+      "t": "Metodi di spedizione",
+      "h": "https://agrisudsrl.it/content/1-metodi-di-spedizione"
+    },
+    {
+      "t": "Termini e condizioni d'uso",
+      "h": "https://agrisudsrl.it/content/3-termini-e-condizioni-di-uso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://agrisudsrl.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://agrisudsrl.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://agrisudsrl.it/contattaci"
+    },
+    {
+      "t": "Contattaci su Whatsapp",
+      "h": "https://wa.me/393511019951"
+    },
+    {
+      "t": "Termini e condizioni d'uso",
+      "h": "https://agrisudsrl.it/content/3-termini-e-condizioni-di-uso"
+    },
+    {
+      "t": "Metodi di spedizione",
+      "h": "https://agrisudsrl.it/content/1-metodi-di-spedizione"
+    },
+    {
+      "t": "Richiedi recesso qui",
+      "h": "https://agrisudsrl.it/diritto-di-recesso"
+    },
+    {
+      "t": "Richiedi un reso o assistenza",
+      "h": "https://agrisudsrl.it/i-miei-resi"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width",
+  "rispostaServer": [
+    {
+      "ms": 5711,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 1482,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 1344,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WQ5F99X0SW&gtm=45be6aj0h2v9115708350za20ozb9166353323zd9166353323xf1&_p=1792463714077&gcs=G100&gcd=13p3p3V3"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2Facaricidi-insetticidi%2F37-affirm-kg-1."
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&tid=AW-11459589994&dl=https%3A%2F%2Fagrisudsrl.it%2Facaricidi-insetticidi%2F37-affirm"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&tid=AW-11459589994&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2Facaricidi-insetticidi%2F3"
+    },
+    {
+      "status": 999,
+      "url": "https://www.paypal.com/xoplatform/logger/api/logger?disableSetCookie=true"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WQ5F99X0SW&gtm=45be6aj0h2v9115708350z89166353323za20gzb9166353323zd9166353323xf1&_p=1792463714077&gcs=G100&"
+    }
+  ]
+}

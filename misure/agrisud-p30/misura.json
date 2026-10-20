@@ -1,0 +1,174 @@
+{
+  "slug": "agrisud-p30",
+  "url": "https://agrisudsrl.it/nutrizione-feromoni/30-nutrileaf-20-20-20-lb-5.html",
+  "misuratoIl": "2026-10-20T02:35:51.711Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4251,
+  "lcpMs": 3367,
+  "lcpElemento": "IMG https://agrisudsrl.it/3223-large_default/nutrileaf-20-20-20-lb-5.jpg",
+  "cls": 0.064,
+  "urlFinale": "https://agrisudsrl.it/nutrizione-feromoni/30-nutrileaf-20-20-20-lb-5.html",
+  "titolo": "NUTRILEAF 20.20.20 LB.5",
+  "descrizione": "NUTRILEAF 20.20.20   LB.5",
+  "h1": [
+    "BIOGARD NUTRI LEAF 20.20.20 LB. 5"
+  ],
+  "ttfb": 1839,
+  "fcp": 2051,
+  "domReady": 3214,
+  "load": 4249,
+  "pesoKB": 1691,
+  "richieste": 108,
+  "script": 41,
+  "serviziEsterni": [
+    "integrations.etrusted.com",
+    "iqit-commerce.com",
+    "assets.prestashop3.com",
+    "widgets.trustedshops.com",
+    "fonts.googleapis.com",
+    "static.cloudflareinsights.com",
+    "www.googletagmanager.com",
+    "cdn-cookieyes.com",
+    "log.cookieyes.com",
+    "www.paypal.com",
+    "www.google-analytics.com",
+    "www.paypalobjects.com",
+    "pagead2.googlesyndication.com",
+    "customer-data-api.trstd-login.trustedshops.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://agrisudsrl.it/3223-medium_default/nutrileaf-20-20-20-lb-5.jpg",
+      "kb": 42
+    },
+    {
+      "url": "https://agrisudsrl.it/img/logo-1649859030.jpg",
+      "kb": 36
+    },
+    {
+      "url": "https://agrisudsrl.it/3223-large_default/nutrileaf-20-20-20-lb-5.jpg",
+      "kb": 33
+    },
+    {
+      "url": "https://widgets.trustedshops.com/assets/images/sprite.6b83167aeea54f81c755d67d609fd23a61b5b620.svg",
+      "kb": 13
+    },
+    {
+      "url": "https://iqit-commerce.com/ps17/demo1/img/cms/lgpng.png",
+      "kb": 7
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cky-consent-container cky-banner-bottom",
+      "copre": "44%",
+      "testo": "Diamo valore alla tua privacy Utilizziamo i cookie per migliorare la tua esperienza di navigazione, offrirti pubblicità "
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 707,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@agrisudsrl.it"
+  ],
+  "telefono": [
+    "393511019951",
+    "+39 0881 633423"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://agrisudsrl.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://agrisudsrl.it/contattaci"
+    },
+    {
+      "t": "Metodi di spedizione",
+      "h": "https://agrisudsrl.it/content/1-metodi-di-spedizione"
+    },
+    {
+      "t": "Termini e condizioni d'uso",
+      "h": "https://agrisudsrl.it/content/3-termini-e-condizioni-di-uso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://agrisudsrl.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://agrisudsrl.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://agrisudsrl.it/contattaci"
+    },
+    {
+      "t": "Contattaci su Whatsapp",
+      "h": "https://wa.me/393511019951"
+    },
+    {
+      "t": "Termini e condizioni d'uso",
+      "h": "https://agrisudsrl.it/content/3-termini-e-condizioni-di-uso"
+    },
+    {
+      "t": "Metodi di spedizione",
+      "h": "https://agrisudsrl.it/content/1-metodi-di-spedizione"
+    },
+    {
+      "t": "Richiedi recesso qui",
+      "h": "https://agrisudsrl.it/diritto-di-recesso"
+    },
+    {
+      "t": "Richiedi un reso o assistenza",
+      "h": "https://agrisudsrl.it/i-miei-resi"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width",
+  "rispostaServer": [
+    {
+      "ms": 1444,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 1320,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 1260,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WQ5F99X0SW&gtm=45je6ag1v9115708350za20ozb9166353323zd9166353323xf1&_p=1792463745689&gcs=G100&gcd=13p3p3V3p5"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2Fnutrizione-feromoni%2F30-nutrileaf-20-2"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=0&ae=g&tid=AW-11459589994&dl=https%3A%2F%2Fagrisudsrl.it%2Fnutrizione-feromoni%2F30-nutrileaf"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=0&tid=AW-11459589994&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2Fnutrizione-feromoni%2F30-n"
+    }
+  ]
+}

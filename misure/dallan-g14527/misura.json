@@ -1,0 +1,176 @@
+{
+  "slug": "dallan-g14527",
+  "url": "https://calzaturedallan.it/products/grisport-nabuk-grigio",
+  "misuratoIl": "2026-10-20T02:37:23.924Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1455,
+  "lcpMs": 985,
+  "lcpElemento": "IMG https://calzaturedallan.it/cdn/shop/files/b60-grisport-1_6d0e30b0-1f90-4bf5-8e8e-fbff8ca78287.png?v=1790283371&width=990",
+  "cls": 0,
+  "urlFinale": "https://calzaturedallan.it/products/grisport-nabuk-grigio",
+  "titolo": "Grisport 14527 Nabuk Grigio – Trekking Uomo | Dallan – Calzature Dallan",
+  "descrizione": "Scarpa trekking Grisport 14527 grigia in pelle scamosciata e tessuto tecnico. Ideale per sentieri e terreni misti.",
+  "h1": [
+    "GRISPORT SCARPA TREKKING NABUK GRIGIO ART. 14527"
+  ],
+  "ttfb": 273,
+  "fcp": 477,
+  "domReady": 692,
+  "load": 1455,
+  "pesoKB": 2684,
+  "richieste": 302,
+  "script": 107,
+  "serviziEsterni": [
+    "cdn.shopify.com",
+    "monorail-edge.shopifysvc.com",
+    "error-analytics-sessions-production.shopifysvc.com",
+    "www.paypal.com",
+    "whatsapp.carthike.com",
+    "otlp-http-production.shopifysvc.com",
+    "shop.app",
+    "connect.facebook.net",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/FOTO_INDOSSATA_ef1efc20-afb4-43ac-af78-d89e0cdbaa90.png?v=1785924437&width=990",
+      "kb": 173
+    },
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/b60-grisport-1_6d0e30b0-1f90-4bf5-8e8e-fbff8ca78287.png?v=1790283371&width=990",
+      "kb": 62
+    },
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/b61-g14527-2_bbcb5f03-4147-41bd-a4ee-3f8dac75c3f1.png?v=1790317914&width=990",
+      "kb": 60
+    },
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/b61-g14527-3_ec9ed7c1-9791-4bc8-910a-d288b10014d1.png?v=1790317914&width=990",
+      "kb": 48
+    },
+    {
+      "url": "https://calzaturedallan.it/cdn/shop/files/b61-g14527-4_21ff67f6-a552-44cd-a42a-003cb53e3471.png?v=1790317914&width=990",
+      "kb": 30
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "",
+      "copre": "100%",
+      "testo": ""
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "AGGIUNGI AL CARRELLO",
+    "yPx": 1152,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://calzaturedallan.it/pages/contattaci"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://calzaturedallan.it/pages/chi-siamo"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://calzaturedallan.it/pages/termini-e-condizioni"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://calzaturedallan.it/pages/contattaci"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://calzaturedallan.it/pages/resi-e-rimborsi"
+    },
+    {
+      "t": "Modulo di recesso",
+      "h": "https://calzaturedallan.it/pages/modulo-di-recesso"
+    },
+    {
+      "t": "Spedizioni e consegna",
+      "h": "https://calzaturedallan.it/pages/spedizioni-e-consegna"
+    },
+    {
+      "t": "Termini e condizioni del servizio",
+      "h": "https://calzaturedallan.it/policies/terms-of-service"
+    },
+    {
+      "t": "Informativa sulle spedizioni",
+      "h": "https://calzaturedallan.it/policies/shipping-policy"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 644,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 178,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 134,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://error-analytics-sessions-production.shopifysvc.com/observeonly"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    }
+  ]
+}
