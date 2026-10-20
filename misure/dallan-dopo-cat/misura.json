@@ -1,0 +1,105 @@
+{
+  "slug": "dallan-dopo-cat",
+  "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/uomo/",
+  "misuratoIl": "2026-10-20T03:14:55.269Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 472,
+  "lcpMs": 360,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/dallan-shop/uomo/img/ff8e9346c135.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/dallan-shop/uomo/",
+  "titolo": "Trekking uomo – Calzature Dallan",
+  "descrizione": "Trekking uomo: Scarponcini e scarpe da trekking Grisport. Spedizione gratuita in Italia da 99 €. Bozza di restyling.",
+  "h1": [
+    "Trekking uomo"
+  ],
+  "ttfb": 141,
+  "fcp": 360,
+  "domReady": 346,
+  "load": 469,
+  "pesoKB": 448,
+  "richieste": 14,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/uomo/img/6bfc4c50bf36.png",
+      "kb": 45
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/uomo/img/929cddb7fe73.webp",
+      "kb": 29
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/uomo/img/ff8e9346c135.webp",
+      "kb": 29
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/uomo/img/42f72111f622.webp",
+      "kb": 19
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/uomo/img/1beccf0b6ad8.webp",
+      "kb": 19
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@calzaturedallan.it"
+  ],
+  "telefono": [
+    "+393495242991"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 117,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

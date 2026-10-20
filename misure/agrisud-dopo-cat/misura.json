@@ -1,0 +1,114 @@
+{
+  "slug": "agrisud-dopo-cat",
+  "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/agricoltura-professionale/",
+  "misuratoIl": "2026-10-20T03:14:59.651Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 566,
+  "lcpMs": 511,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/agrisud-shop/agricoltura-professionale/",
+  "titolo": "Agricoltura professionale – Agrisud Farmacia Agricola",
+  "descrizione": "Agricoltura professionale: Fungicidi, diserbanti, insetticidi e confusione sessuale. Spedizione gratuita da 99 €. Bozza di restyling.",
+  "h1": [
+    "Agricoltura professionale"
+  ],
+  "ttfb": 240,
+  "fcp": 461,
+  "domReady": 448,
+  "load": 560,
+  "pesoKB": 191,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/agricoltura-professionale/img/9f162aa277c2.webp",
+      "kb": 33
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/agricoltura-professionale/img/a96dd5376b60.webp",
+      "kb": 29
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/agricoltura-professionale/img/408c6dc89043.webp",
+      "kb": 21
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/agricoltura-professionale/img/406044194cc0.webp",
+      "kb": 14
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/agricoltura-professionale/img/a40c7a3ec2f3.webp",
+      "kb": 11
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@agrisudsrl.it"
+  ],
+  "telefono": [
+    "+390881633423",
+    "+393511019951"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/"
+    },
+    {
+      "t": "1\nKG\nSYNGENTA\nSYNGENTA GEOXE KG. 1\nContattaci per ",
+      "h": "https://agrisudsrl.it/fungicidi/51-syngenta-geoxe-kg-1-clp.html"
+    },
+    {
+      "t": "500\nML\nBAYER\nBAYER ADENGO XTRA ML. 500\nContattaci ",
+      "h": "https://agrisudsrl.it/diserbanti/273-bayer-adengo-xtra-ml-500-clp.html"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Recesso e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#recesso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 115,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

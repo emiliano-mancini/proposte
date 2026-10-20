@@ -1,0 +1,89 @@
+{
+  "slug": "dallan-dopo-chi",
+  "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/",
+  "misuratoIl": "2026-10-20T03:15:03.732Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 312,
+  "lcpMs": 249,
+  "lcpElemento": "H1 ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/",
+  "titolo": "Spedizioni, resi e assistenza – Calzature Dallan",
+  "descrizione": "Spedizione 6,99 €, gratis da 99 €; reso entro 30 giorni; pagamenti con carta, PayPal e Klarna. Bozza di restyling.",
+  "h1": [
+    "Spedizioni, resi e pagamenti"
+  ],
+  "ttfb": 128,
+  "fcp": 184,
+  "domReady": 176,
+  "load": 308,
+  "pesoKB": 240,
+  "richieste": 3,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/img/6bfc4c50bf36.png",
+      "kb": 45
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@calzaturedallan.it"
+  ],
+  "telefono": [
+    "+393495242991"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 84,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 10,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
