@@ -1,32 +1,32 @@
 {
   "slug": "agrisud-home",
   "url": "https://agrisudsrl.it/",
-  "misuratoIl": "2026-10-20T02:16:51.555Z",
+  "misuratoIl": "2026-10-20T03:03:57.635Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 41138,
-  "lcpMs": 22479,
+  "caricamentoTotaleMs": 3360,
+  "lcpMs": 2536,
   "lcpElemento": "IMG https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-OTTOBRE2026-agrisud.jpg",
   "cls": 0.038,
   "urlFinale": "https://agrisudsrl.it/",
   "titolo": "Agrisud Srl - Farmacia Agricola",
   "descrizione": "Negozio creato usando PrestaShop",
   "h1": [],
-  "ttfb": 1455,
-  "fcp": 21355,
-  "domReady": 41130,
-  "load": 41137,
-  "pesoKB": 4641,
-  "richieste": 102,
+  "ttfb": 1159,
+  "fcp": 1756,
+  "domReady": 2389,
+  "load": 3359,
+  "pesoKB": 4696,
+  "richieste": 103,
   "script": 41,
   "serviziEsterni": [
     "integrations.etrusted.com",
-    "www.googletagmanager.com",
     "iqit-commerce.com",
-    "fonts.googleapis.com",
     "widgets.trustedshops.com",
+    "fonts.googleapis.com",
     "static.cloudflareinsights.com",
+    "www.googletagmanager.com",
     "cdn-cookieyes.com",
     "log.cookieyes.com",
     "www.google-analytics.com",
@@ -43,19 +43,19 @@
       "kb": 483
     },
     {
-      "url": "https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-NATALE-spedizione-gratuita-450-dicembre25-agrisud.jpg",
-      "kb": 361
-    },
-    {
-      "url": "https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-INVERNALE-gennaio26-agrisud.jpg",
-      "kb": 247
+      "url": "https://agrisudsrl.it/img/creativepopup/Popup-coupon/PopUp-Benvenuto5-agrisud.jpg",
+      "kb": 300
     },
     {
       "url": "https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-OTTOBRE2026-agrisud.jpg",
       "kb": 110
+    },
+    {
+      "url": "https://agrisudsrl.it/img/cms/img-syngenta/syngenta_logo.png",
+      "kb": 64
     }
   ],
-  "scorrimentoOrizzontale": true,
+  "scorrimentoOrizzontale": false,
   "sovrapposizioni": [
     {
       "id": "cky-consent-container cky-banner-bottom",
@@ -65,7 +65,7 @@
   ],
   "pulsanteAcquisto": {
     "testo": "Aggiungi al carrello",
-    "yPx": 9171,
+    "yPx": 2202,
     "visibileSenzaScorrere": false
   },
   "parlaDiSpedizione": true,
@@ -133,61 +133,41 @@
   "viewport": "initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width",
   "rispostaServer": [
     {
-      "ms": 1471,
+      "ms": 1156,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 1000,
+      "ms": 844,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 999,
+      "ms": 828,
       "status": 200,
       "cache": "DYNAMIC"
     }
   ],
   "risorseRotte": [
     {
-      "status": 999,
-      "url": "https://agrisudsrl.it/modules/iqitelementor/views/css/frontend.min.css"
+      "status": 404,
+      "url": "https://agrisudsrl.it/img/cms/img-syngenta/syngenta_logo.png"
     },
     {
       "status": 999,
-      "url": "https://agrisudsrl.it/modules/customfields/views/css/customfields_common.css"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WQ5F99X0SW&gtm=45je6ag1h1v9115708350za20ozb9166353323zd9166353323xf1&_p=1792465431807&gcs=G100&gcd=13q3q3W3"
     },
     {
       "status": 999,
-      "url": "https://agrisudsrl.it/modules/iqitsociallogin/views/css/front.css"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2F&scrsrc=www.googletagmanager.com&rnd=818"
     },
     {
       "status": 999,
-      "url": "https://agrisudsrl.it/modules/iqitsizecharts/views/css/front.css"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&tid=AW-11459589994&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2F&scrsrc=www.googletagmana"
     },
     {
       "status": 999,
-      "url": "https://agrisudsrl.it/modules/iqitmegamenu/views/css/iqitmegamenu_s_1.css"
-    },
-    {
-      "status": 999,
-      "url": "https://agrisudsrl.it/themes/agrisud/assets/css/custom.css"
-    },
-    {
-      "status": 999,
-      "url": "https://agrisudsrl.it/modules/iqitextendedproduct/views/css/front.css"
-    },
-    {
-      "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WQ5F99X0SW&gtm=45be6ag1v9115708350za20ozb9166353323zd9166353323xf1&_p=1792462568210&gcs=G100&gcd=13p3p3V3p5"
-    },
-    {
-      "status": 522,
-      "url": "https://agrisudsrl.it/img/cms/img-syngenta/logo-green-agrisud-2026.png"
-    },
-    {
-      "status": 522,
-      "url": "https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-Roundup-giuigno26-agrisud.jpg"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&tid=AW-11459589994&dl=https%3A%2F%2Fagrisudsrl.it%2F&scrsrc=www.googletagmanager.com&"
     }
   ]
 }

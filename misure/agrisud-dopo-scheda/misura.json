@@ -1,0 +1,110 @@
+{
+  "slug": "agrisud-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/isomate-ofm-rosso-flex/",
+  "misuratoIl": "2026-10-20T03:04:16.612Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 261,
+  "lcpMs": 224,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/agrisud-shop/isomate-ofm-rosso-flex/img/408c6dc89043.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/agrisud-shop/isomate-ofm-rosso-flex/",
+  "titolo": "BIOGARD ISOMATE OFM ROSSO FLEX – 200 diffusori – 68,50 € | Agrisud",
+  "descrizione": "BIOGARD ISOMATE OFM ROSSO FLEX – 200 diffusori a 68,50 € IVA inclusa. Spedizione gratuita da 99 €, consulenza agronomica su WhatsApp. Bozza di restyling.",
+  "h1": [
+    "BIOGARD ISOMATE OFM ROSSO FLEX – 200 diffusori"
+  ],
+  "ttfb": 96,
+  "fcp": 207,
+  "domReady": 168,
+  "load": 260,
+  "pesoKB": 226,
+  "richieste": 9,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/isomate-ofm-rosso-flex/img/9f162aa277c2.webp",
+      "kb": 34
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/isomate-ofm-rosso-flex/img/a96dd5376b60.webp",
+      "kb": 29
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/isomate-ofm-rosso-flex/img/f2b40634cbf6.webp",
+      "kb": 25
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/isomate-ofm-rosso-flex/img/408c6dc89043.webp",
+      "kb": 21
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/isomate-ofm-rosso-flex/img/406044194cc0.webp",
+      "kb": 14
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 613,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@agrisudsrl.it"
+  ],
+  "telefono": [
+    "+390881633423",
+    "+393511019951"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Recesso e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#recesso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 51,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 14,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

@@ -1,12 +1,12 @@
 {
   "slug": "dallan-home",
   "url": "https://calzaturedallan.it/",
-  "misuratoIl": "2026-10-20T02:15:35.766Z",
+  "misuratoIl": "2026-10-20T03:03:29.616Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 2122,
-  "lcpMs": 1364,
+  "caricamentoTotaleMs": 1224,
+  "lcpMs": 502,
   "lcpElemento": "IMG https://calzaturedallan.it/cdn/shop/files/collezione-donna-mobile-2026.png?v=1786614961&width=1100",
   "cls": 0,
   "urlFinale": "https://calzaturedallan.it/",
@@ -15,19 +15,19 @@
   "h1": [
     ""
   ],
-  "ttfb": 454,
-  "fcp": 814,
-  "domReady": 1278,
-  "load": 2121,
-  "pesoKB": 3231,
-  "richieste": 299,
+  "ttfb": 225,
+  "fcp": 502,
+  "domReady": 786,
+  "load": 1223,
+  "pesoKB": 3411,
+  "richieste": 370,
   "script": 140,
   "serviziEsterni": [
     "cdn.shopify.com",
     "monorail-edge.shopifysvc.com",
     "otlp-http-production.shopifysvc.com",
-    "whatsapp.carthike.com",
     "connect.facebook.net",
+    "whatsapp.carthike.com",
     "shop.app",
     "www.facebook.com"
   ],
@@ -110,17 +110,17 @@
   "viewport": "width=device-width,initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 693,
+      "ms": 461,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 502,
+      "ms": 186,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 417,
+      "ms": 175,
       "status": 200,
       "cache": "DYNAMIC"
     }
@@ -156,15 +156,15 @@
     },
     {
       "status": 999,
-      "url": "https://calzaturedallan.it/services/login_with_shop/authorize?analytics_context=loginWithShopEmbed&analytics_trace_id=6e30b450-3d26-4357-9586-36b87f4ea073&compa"
-    },
-    {
-      "status": 999,
-      "url": "https://cdn.shopify.com/shopifycloud/arrive-server/pay/vite-pay/assets/RumMetrics-CImA9thh.js"
+      "url": "https://calzaturedallan.it/services/login_with_shop/authorize?analytics_context=loginWithShopEmbed&analytics_trace_id=28ae84b9-0542-4a2f-92bf-f4802cb52557&compa"
     },
     {
       "status": 999,
       "url": "https://error-analytics-sessions-production.shopifysvc.com/"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
     }
   ]
 }

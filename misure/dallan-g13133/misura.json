@@ -1,12 +1,12 @@
 {
   "slug": "dallan-g13133",
   "url": "https://calzaturedallan.it/products/grisport-13133-verde",
-  "misuratoIl": "2026-10-20T02:37:18.072Z",
+  "misuratoIl": "2026-10-20T03:03:36.046Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 1601,
-  "lcpMs": 908,
+  "caricamentoTotaleMs": 1727,
+  "lcpMs": 549,
   "lcpElemento": "IMG https://calzaturedallan.it/cdn/shop/files/b61-g13133v-1_52934bc8-0284-4627-b2b3-32d1d819bfc1.png?v=1790317922&width=990",
   "cls": 0,
   "urlFinale": "https://calzaturedallan.it/products/grisport-13133-verde",
@@ -15,19 +15,19 @@
   "h1": [
     "GRISPORT SCARPA TREKKING VERDE ART. 13133"
   ],
-  "ttfb": 212,
-  "fcp": 773,
-  "domReady": 886,
-  "load": 1599,
-  "pesoKB": 2809,
-  "richieste": 328,
+  "ttfb": 228,
+  "fcp": 370,
+  "domReady": 618,
+  "load": 1726,
+  "pesoKB": 2794,
+  "richieste": 323,
   "script": 108,
   "serviziEsterni": [
     "cdn.shopify.com",
+    "monorail-edge.shopifysvc.com",
     "error-analytics-sessions-production.shopifysvc.com",
     "www.paypal.com",
     "whatsapp.carthike.com",
-    "monorail-edge.shopifysvc.com",
     "otlp-http-production.shopifysvc.com",
     "shop.app",
     "connect.facebook.net",
@@ -116,17 +116,17 @@
   "viewport": "width=device-width,initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 475,
+      "ms": 605,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 113,
+      "ms": 160,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 125,
+      "ms": 173,
       "status": 200,
       "cache": "DYNAMIC"
     }
@@ -142,6 +142,22 @@
     },
     {
       "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
       "url": "https://monorail-edge.shopifysvc.com/v1/produce"
     },
     {
@@ -155,22 +171,6 @@
     {
       "status": 999,
       "url": "https://monorail-edge.shopifysvc.com/v1/produce"
-    },
-    {
-      "status": 999,
-      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
-    },
-    {
-      "status": 999,
-      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
-    },
-    {
-      "status": 999,
-      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
-    },
-    {
-      "status": 999,
-      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
     }
   ]
 }

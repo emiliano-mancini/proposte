@@ -1,0 +1,105 @@
+{
+  "slug": "dallan-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/",
+  "misuratoIl": "2026-10-20T03:04:04.616Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 507,
+  "lcpMs": 358,
+  "lcpElemento": "H1 ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/dallan-shop/",
+  "titolo": "Calzature Dallan – scarpe, scarponcini, sneakers e ciabatte online dal 1986",
+  "descrizione": "Scarpe da trekking Grisport, sneakers Stonefly, Lumberjack, Caprice e ciabatte invernali. Spedizione gratuita in Italia da 99 €, reso entro 30 giorni. Bozza di restyling.",
+  "h1": [
+    "Le scarpe dei marchi che conosci, scelte da chi le vende da 40 anni."
+  ],
+  "ttfb": 121,
+  "fcp": 275,
+  "domReady": 265,
+  "load": 504,
+  "pesoKB": 590,
+  "richieste": 14,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/img/bebd07044a3a.webp",
+      "kb": 97
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/img/6bfc4c50bf36.png",
+      "kb": 45
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/img/6854c34217f0.webp",
+      "kb": 39
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/img/f4d8bdab7e61.webp",
+      "kb": 26
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/img/22e365636fd9.webp",
+      "kb": 24
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@calzaturedallan.it"
+  ],
+  "telefono": [
+    "+393495242991"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 94,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 15,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

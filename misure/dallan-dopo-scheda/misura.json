@@ -1,0 +1,110 @@
+{
+  "slug": "dallan-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/grisport-13133-verde/",
+  "misuratoIl": "2026-10-20T03:04:08.681Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 296,
+  "lcpMs": 216,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/dallan-shop/grisport-13133-verde/img/c2fbc12b7b8f.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/dallan-shop/grisport-13133-verde/",
+  "titolo": "Grisport scarpa trekking verde art. 13133 – 99,90 € | Calzature Dallan",
+  "descrizione": "Grisport scarpa trekking verde art. 13133 a 99,90 €. Spedizione gratuita in Italia da 99 €, reso entro 30 giorni. Bozza di restyling.",
+  "h1": [
+    "Grisport scarpa trekking verde art. 13133"
+  ],
+  "ttfb": 80,
+  "fcp": 176,
+  "domReady": 167,
+  "load": 295,
+  "pesoKB": 577,
+  "richieste": 12,
+  "script": 0,
+  "serviziEsterni": [
+    "calzaturedallan.it",
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/grisport-13133-verde/img/75b6d0a07cf0.webp",
+      "kb": 111
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/grisport-13133-verde/img/c2fbc12b7b8f.webp",
+      "kb": 44
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/grisport-13133-verde/img/c437d11898f0.webp",
+      "kb": 44
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/grisport-13133-verde/img/95b071c3830e.webp",
+      "kb": 43
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/grisport-13133-verde/img/cc196bda1ae7.webp",
+      "kb": 42
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Scegli la taglia e aggiungi al carrello",
+    "yPx": 796,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@calzaturedallan.it"
+  ],
+  "telefono": [
+    "+393495242991"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 14,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 13,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 13,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

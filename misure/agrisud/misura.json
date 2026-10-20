@@ -1,12 +1,12 @@
 {
   "slug": "agrisud",
   "url": "https://agrisudsrl.it/confusione-sessuale/137-biogard-isomate-ofm-rosso-flex-200-c-moles-fune.html",
-  "misuratoIl": "2026-10-20T02:34:30.347Z",
+  "misuratoIl": "2026-10-20T03:03:45.350Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 5101,
-  "lcpMs": 3952,
+  "caricamentoTotaleMs": 4540,
+  "lcpMs": 3345,
   "lcpElemento": "IMG https://agrisudsrl.it/3285-large_default/biogard-isomate-ofm-rosso-flex-200-c-moles-fune.jpg",
   "cls": 0.097,
   "urlFinale": "https://agrisudsrl.it/confusione-sessuale/137-biogard-isomate-ofm-rosso-flex-200-c-moles-fune.html",
@@ -15,19 +15,19 @@
   "h1": [
     "BIOGARD ISOMATE OFM ROSSO FLEX DA 200 DIFFUSORI GRAPHOLITA MOLESTA GRAPHOLITA FUNEBRANA"
   ],
-  "ttfb": 1913,
-  "fcp": 2726,
-  "domReady": 3814,
-  "load": 5099,
-  "pesoKB": 2102,
+  "ttfb": 1680,
+  "fcp": 2444,
+  "domReady": 3255,
+  "load": 4538,
+  "pesoKB": 2100,
   "richieste": 104,
   "script": 41,
   "serviziEsterni": [
     "integrations.etrusted.com",
     "iqit-commerce.com",
-    "assets.prestashop3.com",
     "fonts.googleapis.com",
     "widgets.trustedshops.com",
+    "assets.prestashop3.com",
     "static.cloudflareinsights.com",
     "www.googletagmanager.com",
     "cdn-cookieyes.com",
@@ -138,17 +138,17 @@
   "viewport": "initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width",
   "rispostaServer": [
     {
-      "ms": 2111,
+      "ms": 2746,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 1304,
+      "ms": 1206,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 1247,
+      "ms": 1289,
       "status": 200,
       "cache": "DYNAMIC"
     }
@@ -156,19 +156,23 @@
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WQ5F99X0SW&gtm=45je6ag1v9115708350za20ozb9166353323zd9166353323xf1&_p=1792463663536&gcs=G100&gcd=13p3p3V3p5"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WQ5F99X0SW&gtm=45be6ag1v9115708350za20ozb9166353323zd9166353323xf1&_p=1792465418887&gcs=G100&gcd=13q3q3W3q5"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&apvc=0&ae=g&tid=AW-11459589994&dl=https%3A%2F%2Fagrisudsrl.it%2Fconfusione-sessuale%2F137-biogard-"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=15&frm=0&apvc=0&tid=AW-11459589994&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2Fconfusione-sessuale%2F137"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2Fconfusione-sessuale%2F137-biogard-isoma"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&tid=AW-11459589994&dl=https%3A%2F%2Fagrisudsrl.it%2Fconfusione-sessuale%2F137-biogard"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&apvc=0&tid=AW-11459589994&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2Fconfusione-sessuale%2F137-"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fagrisudsrl.it%2Fconfusione-sessuale%2F137-biogard-isomat"
+    },
+    {
+      "status": 999,
+      "url": "https://www.paypal.com/xoplatform/logger/api/logger?disableSetCookie=true"
     }
   ]
 }

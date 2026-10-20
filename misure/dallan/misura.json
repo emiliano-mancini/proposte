@@ -1,12 +1,12 @@
 {
   "slug": "dallan",
   "url": "https://calzaturedallan.it/collections/homepage",
-  "misuratoIl": "2026-10-20T02:15:27.763Z",
+  "misuratoIl": "2026-10-20T03:03:23.638Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 4131,
-  "lcpMs": 2478,
+  "caricamentoTotaleMs": 2132,
+  "lcpMs": 935,
   "lcpElemento": "IMG https://calzaturedallan.it/cdn/shop/files/ChatGPT_Image_22_lug_2026_14_49_57.png?v=1784731607&width=200",
   "cls": 0,
   "urlFinale": "https://calzaturedallan.it/collections/homepage",
@@ -15,18 +15,18 @@
   "h1": [
     "Pagina non trovata"
   ],
-  "ttfb": 1237,
-  "fcp": 2222,
-  "domReady": 2589,
-  "load": 4128,
-  "pesoKB": 1747,
-  "richieste": 212,
+  "ttfb": 741,
+  "fcp": 900,
+  "domReady": 1027,
+  "load": 2130,
+  "pesoKB": 2054,
+  "richieste": 290,
   "script": 100,
   "serviziEsterni": [
     "cdn.shopify.com",
     "monorail-edge.shopifysvc.com",
-    "otlp-http-production.shopifysvc.com",
     "whatsapp.carthike.com",
+    "otlp-http-production.shopifysvc.com",
     "shop.app",
     "connect.facebook.net",
     "www.facebook.com"
@@ -98,17 +98,17 @@
   "viewport": "width=device-width,initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 1317,
+      "ms": 505,
       "status": 404,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 396,
+      "ms": 203,
       "status": 404,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 376,
+      "ms": 192,
       "status": 404,
       "cache": "DYNAMIC"
     }
@@ -136,23 +136,15 @@
     },
     {
       "status": 999,
-      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
-    },
-    {
-      "status": 999,
-      "url": "https://calzaturedallan.it/services/login_with_shop/authorize?analytics_context=loginWithShopEmbed&analytics_trace_id=799dc40e-488c-47aa-84ea-fd074584a437&compa"
-    },
-    {
-      "status": 999,
-      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
-    },
-    {
-      "status": 999,
-      "url": "https://calzaturedallan.it/.well-known/shopify/monorail/unstable/produce_batch"
+      "url": "https://calzaturedallan.it/services/login_with_shop/authorize?analytics_context=loginWithShopEmbed&analytics_trace_id=9e01a4a5-d023-45ba-8cf6-ec87ce509123&compa"
     },
     {
       "status": 999,
       "url": "https://error-analytics-sessions-production.shopifysvc.com/"
+    },
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
     }
   ]
 }
