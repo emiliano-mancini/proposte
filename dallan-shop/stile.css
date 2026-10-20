@@ -178,3 +178,4 @@ html.shot .ckbar{display:none}
 .gal img{padding:0}
 @media (max-width:719px){.hm{display:none}.logo small{letter-spacing:.12em}}
 .mq:hover .mq-t,.mq:focus-within .mq-t{animation-play-state:paused}
+@media (max-width:719px){.gal img{aspect-ratio:16/10}}
