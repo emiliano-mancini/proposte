@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-pop",
+  "url": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_POP101-2.jpg",
+  "misuratoIl": "2026-10-20T02:10:41.780Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 694,
+  "lcpMs": 715,
+  "lcpElemento": "IMG https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_POP101-2.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_POP101-2.jpg",
+  "titolo": "BARETTONI_POP101-2.jpg (1100×618)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 570,
+  "fcp": 603,
+  "domReady": 691,
+  "load": 691,
+  "pesoKB": 67,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 463,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 565,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 111,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

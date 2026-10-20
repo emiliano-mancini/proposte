@@ -1,22 +1,22 @@
 {
   "slug": "bfoto-fab3",
   "url": "https://barettoni.com/images/fabbrica/3.jpg",
-  "misuratoIl": "2026-10-20T01:59:54.728Z",
+  "misuratoIl": "2026-10-20T02:11:11.528Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 1298,
-  "lcpMs": 1300,
+  "caricamentoTotaleMs": 868,
+  "lcpMs": 878,
   "lcpElemento": "IMG https://barettoni.com/images/fabbrica/3.jpg",
   "cls": 0,
   "urlFinale": "https://barettoni.com/images/fabbrica/3.jpg",
   "titolo": "3.jpg (960×720)",
   "descrizione": null,
   "h1": [],
-  "ttfb": 648,
-  "fcp": 670,
-  "domReady": 1293,
-  "load": 1294,
+  "ttfb": 432,
+  "fcp": 444,
+  "domReady": 866,
+  "load": 866,
   "pesoKB": 327,
   "richieste": 0,
   "script": 0,
@@ -36,17 +36,17 @@
   "viewport": "width=device-width, minimum-scale=0.1",
   "rispostaServer": [
     {
-      "ms": 679,
+      "ms": 327,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 712,
+      "ms": 446,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 171,
+      "ms": 110,
       "status": 200,
       "cache": null
     }
