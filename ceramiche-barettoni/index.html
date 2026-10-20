@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Ceramiche Barettoni – Manifattura di Nove dal 1685 (proposta)</title>
+<meta name="description" content="Ceramiche Barettoni già Antonibon, Nove (Vicenza): ceramiche fatte e decorate a mano con gli stampi originali del 1700. Fabbrica e museo, visite su prenotazione.">
+<meta name="theme-color" content="#f5f2ec">
+<link rel="icon" href="data:,">
+<script>document.documentElement.classList.add('js');if(/[?&]shot=1/.test(location.search))document.documentElement.classList.add('shot');</script>
+<link rel="preload" as="font" type="font/woff2" href="fonts/instrument-serif-latin-400-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/instrument-sans-latin-500-normal.woff2" crossorigin>
+<link rel="preload" as="image" href="https://barettoni.com/images/s4.jpg" fetchpriority="high">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<style>
+@font-face{font-family:"Instrument Sans";src:url(fonts/instrument-sans-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url(fonts/instrument-sans-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url(fonts/instrument-sans-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Instrument Serif";src:url(fonts/instrument-serif-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Instrument Serif";src:url(fonts/instrument-serif-latin-400-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+
+:root{
+  --paper:#f5f2ec; --paper-2:#ebe6dd; --ink:#1d1a17; --ink-2:#4a443d; --mute:#6b645b; --line:#d8d1c5;
+  --red:#9b1b1e; --red-ink:#7d1417; --plate:#d6d6d0;
+  --sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"Instrument Serif",Georgia,"Times New Roman",serif;
+  --g:clamp(16px,2.4vw,32px); --max:1360px;
+  --vng-fg:var(--ink); --vng-muted:var(--ink-2); --vng-bg:var(--paper); --vng-surface:#fff;
+  --vng-line:var(--line); --vng-accent:var(--red); --vng-accent-fg:#fff; --vng-ease-out:cubic-bezier(.22,1,.36,1);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans);overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--g)}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--g)}
+.label{font:600 .74rem/1.2 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.label b{color:var(--red);font-weight:600}
+.serif{font-family:var(--serif);font-weight:400}
+h1,h2{font-family:var(--serif);font-weight:400;letter-spacing:-.015em;margin:0}
+h3{font-weight:600;margin:0}
+h2{font-size:clamp(2rem,4.6vw,4rem);line-height:1.02}
+h2 em,h1 em{font-style:italic;color:var(--red)}
+p{margin:0}
+.rule{border-top:1px solid var(--ink)}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;z-index:99;background:#fff;padding:.5em 1em}
+
+/* etichetta bozza */
+.draft{position:fixed;z-index:60;left:0;right:0;top:0;height:24px;display:flex;align-items:center;justify-content:center;background:var(--red);color:#fff;font:600 .72rem/1 var(--sans);letter-spacing:.06em;pointer-events:none}
+body{padding-top:24px}
+
+/* header */
+.top{position:sticky;top:24px;z-index:40;background:rgba(245,242,236,.94);backdrop-filter:saturate(1.2) blur(8px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:1.5rem;height:64px}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;margin-right:auto}
+.stemma{height:36px;width:auto;mix-blend-mode:multiply}
+.brand b{font:400 1.7rem/1 var(--serif);letter-spacing:-.01em}
+.brand span{font:600 .66rem/1.2 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.nav{display:flex;gap:1.6rem}
+.nav a{font-weight:500;font-size:.95rem;text-decoration:none;position:relative}
+.nav a::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s var(--vng-ease-out)}
+.nav a:hover::after{transform:none}
+.top .call{font-weight:600;font-size:.92rem;text-decoration:none;background:var(--ink);color:#fff;padding:.6em 1.1em;border-radius:999px;white-space:nowrap}
+@media (max-width:899px){.top .wrap{flex-wrap:wrap;height:auto;padding-top:8px;padding-bottom:0;row-gap:0}.brand{height:44px}.brand span{display:none}.nav{order:3;width:100%;gap:0;justify-content:space-between;border-top:1px solid var(--line);margin-top:6px}.nav a{font-size:.88rem;padding:.6rem 0}.nav a::after{display:none}}
+@media (max-width:899px){.top .call{background:transparent;color:var(--ink);border:1px solid var(--ink)}}
+@media (max-width:420px){.top .call{padding:.5em .9em;font-size:.85rem}}
+
+/* hero H8 */
+.hero{padding:clamp(20px,4vw,56px) 0 0}
+.hero .meta{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;padding-bottom:clamp(14px,2vw,22px)}
+.hero h1{grid-column:1/8;font-size:clamp(2.9rem,7.4vw,7rem);line-height:.95;margin-top:clamp(14px,2.4vw,36px)}
+.hero .intro{grid-column:1/7;margin-top:clamp(16px,2vw,28px);font-size:clamp(1.02rem,1.3vw,1.18rem);color:var(--ink-2);max-width:34em}
+.cta{grid-column:1/8;display:flex;flex-wrap:wrap;gap:.75rem;margin-top:clamp(18px,2.4vw,32px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:50px;padding:.8em 1.4em;border-radius:999px;font-weight:600;text-decoration:none;font-size:1rem}
+.btn.solid{background:var(--red);color:#fff}
+.btn.solid:hover{background:var(--red-ink)}
+.vng-hbtn{position:relative;display:inline-flex;align-items:center;gap:.55em;overflow:hidden;min-height:50px;padding:.75em 1.5em;border:1px solid var(--ink);border-radius:999px;background:transparent;color:var(--ink);font-weight:600;text-decoration:none}
+.vng-hbtn__dot{position:absolute;left:50%;top:50%;width:.5em;height:.5em;margin:-.25em;border-radius:50%;background:var(--vng-accent);opacity:0;transition:transform .45s var(--vng-ease-out),opacity .2s}
+.vng-hbtn:hover .vng-hbtn__dot,.vng-hbtn:focus-visible .vng-hbtn__dot{opacity:1}
+.vng-hbtn__a{display:inline-block;position:relative;z-index:1;transition:transform .35s var(--vng-ease-out),opacity .35s}
+.vng-hbtn__b{position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;color:#fff;opacity:0;transform:translateX(3em);transition:transform .35s var(--vng-ease-out),opacity .35s}
+.vng-hbtn:hover .vng-hbtn__dot,.vng-hbtn:focus-visible .vng-hbtn__dot{transform:scale(60)}
+.vng-hbtn:hover .vng-hbtn__a,.vng-hbtn:focus-visible .vng-hbtn__a{transform:translateX(3em);opacity:0}
+.vng-hbtn:hover .vng-hbtn__b,.vng-hbtn:focus-visible .vng-hbtn__b{transform:none;opacity:1}
+.hero .piece{grid-column:8/13;grid-row:1/span 4;align-self:end;position:relative;margin:0}
+.plate{background:#3a2c22;border-radius:2px;overflow:hidden;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center}
+.plate img{width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.piece figcaption{display:grid;grid-template-columns:auto 1fr;gap:.2rem 1rem;padding-top:.8rem;font-size:.86rem;color:var(--ink-2)}
+.piece figcaption b{font-weight:600;color:var(--ink)}
+.facts{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);margin-top:clamp(28px,4vw,64px);border-top:1px solid var(--ink)}
+.facts div{padding:1rem 1rem 1.2rem 0;border-right:1px solid var(--line)}
+.facts div:last-child{border-right:0}
+.facts div+div{padding-left:1rem}
+.facts strong{display:block;font:400 clamp(1.6rem,2.6vw,2.4rem)/1.05 var(--serif)}
+.facts span{display:block;font-size:.88rem;color:var(--ink-2);margin-top:.4rem}
+@media (max-width:899px){
+  .hero h1,.hero .intro,.cta{grid-column:1/-1}
+  .hero .piece{grid-column:1/-1;grid-row:auto;margin-top:28px}
+  .plate{aspect-ratio:4/3}
+  .facts{grid-template-columns:1fr}
+  .facts div{border-right:0;padding:1rem 0!important}
+  .facts div+div{border-top:1px solid var(--line)}
+}
+@media (max-width:480px){.hero .meta .label:nth-child(3){display:none}.cta{flex-wrap:nowrap;gap:.5rem}.cta .btn,.cta .vng-hbtn{flex:1 1 0;padding:.8em .5em;justify-content:center;font-size:.95rem}.cta .btn{flex-grow:1.4}}
+
+/* dichiarazione */
+.claim{padding:clamp(56px,7vw,110px) 0 clamp(72px,9vw,140px)}
+.claim p{grid-column:3/12;font:400 clamp(1.8rem,3.9vw,3.6rem)/1.08 var(--serif);letter-spacing:-.01em}
+.claim p em{color:var(--red)}
+.claim .label{grid-column:1/3;padding-top:.8em}
+@media (max-width:899px){.claim p,.claim .label{grid-column:1/-1}.claim .label{margin-bottom:1rem}}
+
+/* timeline firma */
+.storia{background:var(--ink);color:var(--paper)}
+.storia .head{padding-top:clamp(64px,8vw,120px);padding-bottom:clamp(28px,3vw,48px)}
+.storia .head h2{grid-column:1/8}
+.storia .head p{grid-column:9/13;color:#cfc6b8;align-self:end}
+.storia .label{color:#b9ae9e}
+.tl-viewport{overflow:hidden}
+.tl{display:flex;gap:var(--g);padding:0 var(--g) clamp(64px,8vw,120px) max(var(--g),calc((100vw - var(--max))/2 + var(--g)));width:max-content}
+.step{width:min(420px,78vw);flex:0 0 auto;border-top:1px solid #6d655b;padding-top:1.1rem}
+.step .yr{font:400 clamp(4.2rem,8vw,7.5rem)/.9 var(--serif);letter-spacing:-.03em;color:var(--paper)}
+.step .yr.red{color:#e9a3a0}
+.step h3{font-size:1.15rem;margin:.9rem 0 .4rem;font-weight:600}
+.step p{color:#d3cabc;font-size:.98rem}
+.step figure{margin:1.2rem 0 0}
+.step img{width:100%;aspect-ratio:4/3;object-fit:cover;filter:saturate(.9)}
+.step figcaption{font-size:.78rem;color:#a99f90;margin-top:.5rem}
+.step.doc img{object-fit:cover;object-position:50% 20%}
+@media (max-width:899px){
+  .storia .head h2,.storia .head p{grid-column:1/-1}.storia .head p{margin-top:1rem}
+  .tl{display:block;width:auto;padding:0 var(--g) 72px}
+  .step{width:auto;display:grid;grid-template-columns:5.6rem 1fr;column-gap:1rem;padding:1.1rem 0 1.6rem}
+  .step .yr{font-size:2.6rem;grid-row:1/span 3}
+  .step h3{margin-top:.2rem}
+  .step figure{grid-column:2}
+  .step img{aspect-ratio:16/10}
+  .step:nth-child(3) figure,.step:nth-child(5) figure,.step:nth-child(6) figure{display:none}
+}
+.swipe{display:none;padding:0 var(--g) 1rem;color:#b9ae9e;font-size:.85rem}
+
+/* fabbrica */
+.fabbrica{padding:clamp(72px,10vw,150px) 0}
+.fabbrica .big{grid-column:1/8;margin:0;overflow:hidden}
+.fabbrica .big img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.fabbrica .txt{grid-column:9/13;align-self:end}
+.fabbrica .txt h2{font-size:clamp(2rem,3.6vw,3.2rem)}
+.fabbrica .txt p{margin-top:1.1rem;color:var(--ink-2)}
+.see{list-style:none;padding:0;margin:1.6rem 0 0;border-top:1px solid var(--ink)}
+.see li{display:grid;grid-template-columns:2.2rem 1fr;padding:.8rem 0;border-bottom:1px solid var(--line);font-size:.98rem}
+.see li span{font:400 1.1rem/1.4 var(--serif);color:var(--red)}
+.fai{margin-top:1.4rem;font-size:.92rem;color:var(--ink-2)}
+.fai b{color:var(--ink)}
+.trio{grid-column:1/-1;display:grid;grid-template-columns:2fr 1fr 1fr;gap:var(--g);margin-top:clamp(28px,4vw,64px);align-items:start}
+.trio figure{margin:0}
+.trio img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.trio figure:nth-child(n+2) img{aspect-ratio:2/3}
+.trio figcaption,.big figcaption{font-size:.8rem;color:var(--mute);margin-top:.5rem}
+@media (max-width:899px){
+  .fabbrica .big,.fabbrica .txt{grid-column:1/-1}.fabbrica .txt{margin-top:28px}
+  .trio{grid-template-columns:1fr 1fr}.trio figure:nth-child(1){grid-column:1/-1}
+}
+
+/* collezioni: indice svizzero */
+.coll{padding:0 0 clamp(72px,10vw,140px)}
+.coll .head{align-items:end;padding-bottom:clamp(24px,3vw,40px)}
+.coll .head h2{grid-column:1/8}
+.coll .head p{grid-column:9/13;color:var(--ink-2)}
+.idx{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.idx li{border-bottom:1px solid var(--line)}
+.idx a{padding:.9rem 0!important;display:grid;grid-template-columns:3rem 10rem 1.2fr 2fr 2rem;gap:var(--g);align-items:center;padding:1.3rem 0;text-decoration:none;transition:background .25s,padding .3s var(--vng-ease-out)}
+.idx a:hover{background:#fff;padding-left:1rem}
+.idx .n{font:400 1.2rem/1 var(--serif);color:var(--red)}
+.idx .t{font:400 clamp(1.6rem,2.6vw,2.4rem)/1.05 var(--serif)}
+.idx .d{color:var(--ink-2);font-size:.97rem}
+.idx .ar{justify-self:end;font-size:1.2rem}
+.idx .th{width:10rem;height:7.5rem;object-fit:cover;background:var(--paper-2)}
+@media (max-width:899px){
+  .coll .head h2,.coll .head p{grid-column:1/-1}.coll .head p{margin-top:1rem}
+  .idx a{grid-template-columns:6rem 1fr 1.4rem;row-gap:.3rem;column-gap:1rem;align-items:start}
+  .idx .n{display:none}
+  .idx .th{grid-row:1/span 2;width:6rem;height:4.5rem}
+  .idx .t{grid-column:2}.idx .d{grid-column:2/4;font-size:.92rem}.idx .ar{grid-row:1;grid-column:3}
+}
+
+/* pezzi */
+.pzh{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:1rem;border-top:1px solid var(--ink);padding-top:1.2rem;margin-bottom:clamp(24px,3vw,40px)}.pzh h2{font-size:clamp(1.8rem,3vw,2.6rem)}.pzh a{color:var(--red);font-weight:600}
+.pezzi{padding-bottom:clamp(72px,10vw,150px)}
+.pz{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:clamp(28px,4vw,56px) var(--g)}
+.pz figure{margin:0}
+.pz img{width:100%;object-fit:cover;background:var(--paper-2)}
+.pz figcaption{display:flex;justify-content:space-between;gap:1rem;border-top:1px solid var(--ink);margin-top:.8rem;padding-top:.6rem;font-size:.9rem}
+.pz figcaption b{font-weight:600}
+.pz figcaption span{color:var(--mute);text-align:right;white-space:nowrap}
+.pz figure{align-self:start}
+.pz .a,.pz .e{grid-column:1/8}.pz .a img,.pz .e img{aspect-ratio:4/3}
+.pz .b,.pz .f{grid-column:8/13}.pz .b img,.pz .f img{aspect-ratio:.92}
+.pz .c{grid-column:1/6}.pz .c img{aspect-ratio:.92}
+.pz .d{grid-column:6/13}.pz .d img{aspect-ratio:4/3}
+@media (max-width:899px){
+  .pz{grid-template-columns:1fr 1fr}
+  .pz .a,.pz .d{grid-column:1/-1}
+  .pz .b,.pz .c,.pz .e,.pz .f{grid-column:auto;margin-top:0}
+  .pz .b img,.pz .c img,.pz .e img,.pz .f img{aspect-ratio:4/5}
+  .pz figcaption{flex-direction:column;gap:.1rem;font-size:.84rem}.pz figcaption span{text-align:left;white-space:normal}
+}
+
+/* pausa a tutta larghezza */
+@media (max-width:899px){.tavola{height:clamp(320px,62vh,520px)}}
+.tavola{position:relative;height:clamp(380px,70vh,760px);overflow:hidden;background:#3a2c22}
+.tavola img{filter:saturate(.8) contrast(.95) sepia(.08);position:absolute;inset:-8% 0;width:100%;height:116%;object-fit:cover;object-position:50% 50%}
+.tavola .cap{position:absolute;left:0;right:0;bottom:0;padding:clamp(20px,4vw,48px) 0;background:linear-gradient(rgba(16,14,10,0),rgba(16,14,10,.7) 40%,rgba(16,14,10,.9));color:#fff;padding-top:140px}
+.tavola .cap p{font:400 clamp(1.8rem,4vw,3.4rem)/1.05 var(--serif);max-width:16em}
+.tavola .cap .label{color:#e7dfd2}
+
+/* visita */
+.visita{padding:clamp(72px,10vw,150px) 0}
+.visita .txt{grid-column:1/6}
+.visita .txt h2{font-size:clamp(2rem,4vw,3.6rem)}
+.visita dl{margin:1.8rem 0 0;border-top:1px solid var(--ink)}
+.visita dl div{display:grid;grid-template-columns:7.5rem 1fr;gap:1rem;padding:.85rem 0;border-bottom:1px solid var(--line)}
+.visita dt{color:var(--mute);font-size:.9rem}
+.visita dd{margin:0;font-weight:500}
+.visita dd a{text-decoration-color:var(--line);text-underline-offset:3px}
+.visita .acts{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.6rem}
+@media (max-width:899px){.visita .acts{display:grid;grid-template-columns:repeat(3,1fr)}.visita .acts>*{padding:.7em .4em;justify-content:center}}
+.shoplink{margin-top:1.2rem;color:var(--ink-2)}.shoplink a{color:var(--red);font-weight:600}
+.visita .map{grid-column:7/13;margin:0;position:relative}
+.visita .map img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.pin{position:absolute;left:31%;top:52%;transform:translate(-50%,-100%);background:var(--red);color:#fff;font:600 .8rem/1 var(--sans);padding:.55em .8em;border-radius:3px;white-space:nowrap}
+.pin::after{content:"";position:absolute;left:50%;bottom:-6px;margin-left:-6px;border:6px solid transparent;border-bottom:0;border-top-color:var(--red)}
+.visita .map figcaption{font-size:.8rem;color:var(--mute);margin-top:.5rem}
+@media (max-width:899px){.visita .txt,.visita .map{grid-column:1/-1}.visita .map{margin-top:32px}.visita dl div{grid-template-columns:6.2rem 1fr}}
+
+/* faq vng */
+.faq{padding:0 0 clamp(72px,10vw,140px)}
+.faq .fq-l{grid-column:1/5}.faq h2{font-size:clamp(1.8rem,3vw,2.6rem)}.fq-l p{margin-top:1rem;color:var(--ink-2)}.fq-l a{color:var(--red);font-weight:600}
+.faq .vng-faq{grid-column:6/13}
+.vng-faq{display:grid;border-top:1px solid var(--ink)}
+.vng-faq details{border-bottom:1px solid var(--line);border-left:4px solid transparent;transition:border-color .2s,background .2s}
+.vng-faq details[open]{border-left-color:var(--red);background:#fff}
+.vng-faq summary{list-style:none;cursor:pointer;position:relative;padding:1.1rem 1rem 1.1rem 2.8rem;font-weight:600}
+.vng-faq summary::-webkit-details-marker{display:none}
+.vng-faq summary::before{content:"+";position:absolute;left:.9rem;top:50%;transform:translateY(-50%);font-size:1.5rem;font-weight:400;color:var(--mute)}
+.vng-faq details[open] summary::before{content:"−";color:var(--red)}
+.vng-faq__a{padding:0 1.4rem 1.3rem 2.8rem;color:var(--ink-2)}
+@media (max-width:899px){.faq .fq-l,.faq .vng-faq{grid-column:1/-1}.faq .vng-faq{margin-top:1.4rem}}
+
+/* footer */
+footer{background:var(--ink);color:#d6cdbf;padding:56px 0 64px;font-size:.92rem}
+footer .grid>div{grid-column:span 4}
+footer b{display:block;font:400 2rem/1 var(--serif);color:var(--paper);margin-bottom:.8rem}
+footer a{color:#fff}
+.motto{display:block;font:italic 400 1.1rem/1.3 var(--serif);color:#e9a3a0;margin-bottom:.8rem}
+footer .legal{grid-column:1/-1;border-top:1px solid #4a443d;margin-top:2.4rem;padding-top:1.2rem;color:#b3a998;font-size:.82rem}
+@media (max-width:899px){footer .grid>div{grid-column:1/-1;margin-bottom:1.6rem}}
+
+/* barra pollice mobile */
+.thumb{position:fixed;z-index:50;left:10px;right:10px;bottom:10px;display:none;grid-template-columns:1.2fr 1fr 1fr;gap:6px;padding:6px;background:var(--ink);border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.thumb a{display:flex;align-items:center;justify-content:center;min-height:48px;border-radius:9px;color:#fff;font-weight:600;font-size:.95rem;text-decoration:none}
+.thumb a:first-child{background:var(--red)}
+@media (max-width:899px){.thumb{display:grid;transition:transform .35s var(--vng-ease-out)}footer{padding-bottom:110px}
+.js .thumb.off{transform:translateY(130%)}}
+
+/* movimento */
+.js:not(.shot) .rv{opacity:0;transform:translateY(28px)}
+.js:not(.shot) .rv.in{opacity:1;transform:none;transition:opacity .9s var(--vng-ease-out),transform .9s var(--vng-ease-out)}
+.shot .rv{opacity:1!important;transform:none!important}
+@media (prefers-reduced-motion:reduce){.js .rv{opacity:1!important;transform:none!important}.vng-hbtn *{transition:none!important}}
+.shot .tl-viewport{overflow:hidden}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<div class="draft" aria-hidden="true">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Ceramiche Barettoni, torna su"><img class="stemma" src="https://barettoni.com/images/stemma-rosso.png" alt="" width="54" height="36"><b>Barettoni</b><span>già Antonibon · Nove</span></a>
+    <nav class="nav" aria-label="Sezioni">
+      <a href="#storia">Storia</a><a href="#fabbrica">La fabbrica</a><a href="#collezioni">Collezioni</a><a href="#visita">Visita</a><a href="https://shop.barettoni.com/it/" rel="noopener">Shop</a>
+    </nav>
+    <a class="call" href="tel:+390424590013">Chiama</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="meta"><span class="label"><b>Dal 1685</b></span><span class="label">Nove · Vicenza</span><span class="label">Visite su prenotazione</span></div>
+    <div class="grid rule" style="border-color:var(--line)">
+      <h1 id="h1">Ceramiche di Nove dagli <em>stampi originali</em> del 1700.</h1>
+      <p class="intro">Eredi della Manifattura Antonibon: servizi da tavola, oggetti e pezzi unici fatti e decorati a mano, nella fabbrica storica che si visita come un museo.</p>
+      <div class="cta">
+        <a class="btn solid" href="tel:+390424590013">Prenota per telefono</a>
+        <a class="vng-hbtn" href="#collezioni"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Le collezioni</span><span class="vng-hbtn__b" aria-hidden="true">Le collezioni →</span></a>
+      </div>
+      <figure class="piece">
+        <div class="plate"><img src="https://barettoni.com/images/s4.jpg" alt="Servizio da tavola decorato a mano: zuppiera, caffettiera, tazze e piatti su un tavolo in legno scuro" width="1082" height="609" fetchpriority="high"></div>
+        <figcaption><b>Servizio da tavola</b><span>fatto e decorato a mano a Nove</span></figcaption>
+      </figure>
+      <div class="facts">
+        <div><strong>Stampi del Settecento</strong><span>gli originali, ancora usati per le forme classiche</span></div>
+        <div><strong>Casa Antonibon</strong><span>la fabbrica è nella casa paterna di Giovanni Battista Antonibon</span></div>
+        <div><strong>Fornace del 1800</strong><span>a legna, su due piani, visitabile su appuntamento</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="claim" aria-label="Le ceramiche Barettoni nel mondo">
+  <div class="wrap grid">
+    <span class="label rv">Tavole e palazzi</span>
+    <p class="rv">Servizi da tavola e oggetti che hanno arredato le tavole e i palazzi di <em>famiglie nobiliari e regali d’Europa</em> e le ambasciate, e che oggi sono in molti musei del mondo.</p>
+  </div>
+</section>
+
+<section class="storia" id="storia" aria-labelledby="st-h">
+  <div class="wrap grid head">
+    <h2 id="st-h" class="rv">Oltre tre secoli, <em>una sola fabbrica</em>.</h2>
+    <p class="rv">Dalla famiglia Antonibon ai Barettoni: la manifattura di Nove non ha mai smesso di lavorare, e la sede è ancora la casa paterna di Giovanni Battista Antonibon.</p>
+  </div>
+  <p class="swipe" aria-hidden="true">Scorri di lato →</p>
+  <div class="tl-viewport" tabindex="0" aria-label="Cronologia, scorribile">
+    <ol class="tl" style="list-style:none;margin:0">
+      <li class="step"><div class="yr red">1685</div><h3>3 settembre 1685</h3><p>È la data del primo documento conosciuto che parla di un Antonibon in veste di ceramista: comincia una dinastia di ceramisti a Nove.</p></li>
+      <li class="step doc"><div class="yr">1732</div><h3>I privilegi della Serenissima</h3><p>La manifattura diventa la più importante fabbrica di ceramiche della Repubblica Veneta, che le concede diversi privilegi.</p>
+        <figure><img src="https://barettoni.com/images/storia/1732.jpg" alt="Decreto a stampa del 18 aprile 1732 con il leone di San Marco" width="1082" height="1462" loading="lazy"><figcaption>Il decreto del 18 aprile 1732</figcaption></figure></li>
+      <li class="step"><div class="yr">1907</div><h3>Arrivano i Barettoni</h3><p>La fabbrica diventa di proprietà dell’avvocato Lodovico Barettoni, che la guida fino alla morte, nel dicembre 1933.</p>
+        <figure><img src="https://barettoni.com/images/storia/1.jpg" alt="L’avvocato Lodovico Barettoni con gli operai del caolino del Tretto, fine Ottocento" width="1082" height="813" loading="lazy"><figcaption>Lodovico Barettoni con gli operai del caolino del Tretto</figcaption></figure></li>
+      <li class="step"><div class="yr">1924</div><h3>Padre e figlio</h3><p>Lodovico associa a sé il figlio Guglielmo, laureato in ingegneria chimica, che sarà anche sindaco di Nove dal 1946 al 1951.</p>
+        <figure><img src="https://barettoni.com/images/storia/2.jpg" alt="Lodovico Barettoni con gli operai della fabbrica, 1920 circa" width="1082" height="813" loading="lazy"><figcaption>Gli operai della fabbrica, 1920 circa</figcaption></figure></li>
+      <li class="step"><div class="yr">1970</div><h3>Lodovico Barettoni</h3><p>Nato a Nove nel 1936, nel palazzo storico degli Antonibon, prende in mano la conduzione della fabbrica e crea sempre nuovi modelli. Riceve numerosi riconoscimenti e premi.</p>
+        <figure><img src="https://barettoni.com/images/s3.jpg" alt="Sala del museo con piattaie, centrotavola e ceramiche decorate" width="1082" height="616" loading="lazy"><figcaption>Le sale della fabbrica-museo</figcaption></figure></li>
+      <li class="step"><div class="yr red">Oggi</div><h3>Gli stampi del Settecento</h3><p>Con la partecipazione delle figlie nella conduzione, la fabbrica produce ancora le forme classiche con gli stampi originali del 1700.</p>
+        <figure><img src="https://barettoni.com/pics/news/thumb/BARETTONI_VETRINA2_Copy.jpg" alt="Stampo in gesso aperto accanto a due vasi bianchi appena foggiati" width="1081" height="811" loading="lazy"><figcaption>La foggiatura a colaggio, dallo stampo al pezzo</figcaption></figure></li>
+    </ol>
+  </div>
+</section>
+
+<section class="fabbrica" id="fabbrica" aria-labelledby="fb-h">
+  <div class="wrap grid">
+    <figure class="big rv"><img class="px" src="https://barettoni.com/images/fabbrica/3.jpg" alt="Sala del museo, lato ovest, con mobili antichi e ceramiche decorate esposte" width="1082" height="813" loading="lazy"><figcaption>Il museo, lato ovest</figcaption></figure>
+    <div class="txt">
+      <span class="label rv">Visite guidate</span>
+      <h2 id="fb-h" class="rv" style="margin-top:.8rem">Una fabbrica che è <em>anche un museo</em>.</h2>
+      <p class="rv">Prenotate la visita per telefono: vi saranno illustrate le fasi della lavorazione delle ceramiche, tra servizi di piatti riccamente decorati a mano e vasi imponenti con decori di vedute.</p>
+      <ol class="see rv">
+        <li><span>01</span>Le fasi della lavorazione, spiegate in fabbrica</li>
+        <li><span>02</span>Le sale espositive nella casa degli Antonibon</li>
+        <li><span>03</span>La fornace a legna a due piani del 1800, su appuntamento</li>
+        <li><span>04</span>Il punto vendita con ceramiche a prezzi di fabbrica</li>
+      </ol>
+      <p class="fai rv"><b>Prescelta anche dal FAI</b> per le Giornate FAI di primavera 2018.</p>
+    </div>
+    <div class="trio">
+      <figure class="rv"><img src="https://barettoni.com/images/fabbrica/5.jpg" alt="Museo, sala da pranzo con piattaie e centrotavola in ceramica" width="1082" height="813" loading="lazy"><figcaption>Museo, sala da pranzo</figcaption></figure>
+      <figure class="rv"><img src="https://barettoni.com/images/fabbrica/9.jpg" alt="Piattaia con piatti che riproducono quadri del Guardi" width="1082" height="812" loading="lazy"><figcaption>Piatti con i quadri del Guardi</figcaption></figure>
+      <figure class="rv"><img src="https://barettoni.com/images/fabbrica/1.jpg" alt="Giardino interno della fabbrica con scala esterna e rampicanti" width="1082" height="813" loading="lazy"><figcaption>Il giardino interno</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="coll" id="collezioni" aria-labelledby="co-h">
+  <div class="wrap">
+    <div class="grid head">
+      <h2 id="co-h" class="rv">Cinque collezioni, un’unica mano.</h2>
+      <p class="rv">Forme classiche intramontabili, serie limitatissime e pezzi unici. Ogni collezione apre l’elenco completo dei pezzi con misure e codici.</p>
+    </div>
+    <ol class="idx">
+      <li class="rv"><a href="https://barettoni.com/prodotti/classico-contemporaneo-29"><span class="n">01</span><img class="th" src="https://barettoni.com/pics/news/thumb/BARETTONI_VETRINA2_Copy.jpg" alt="Vasi bianchi appena foggiati accanto allo stampo" width="160" height="120" loading="lazy"><span class="t">Classico contemporaneo</span><span class="d">Zuppiere, vasi medicei, alzate traforate e centrotavola “giardino all’italiana” in ceramica bianca.</span><span class="ar" aria-hidden="true">↗</span></a></li>
+      <li class="rv"><a href="https://barettoni.com/prodotti/ceramiche-tradizionali-40"><span class="n">02</span><img class="th" src="https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_5441_LIMONI_2_Copy.jpg" alt="Ceramica decorata a mano con limoni" width="160" height="120" loading="lazy"><span class="t">Ceramiche tradizionali</span><span class="d">Decorate a mano: fiori Nove, limoni, blu Delft. Molti sono pezzi unici.</span><span class="ar" aria-hidden="true">↗</span></a></li>
+      <li class="rv"><a href="https://barettoni.com/prodotti/natura-design-41"><span class="n">03</span><img class="th" src="https://barettoni.com/images/piatto-home-2.png" alt="Ceramiche a forma di fiore, lumaca e tartaruga" width="160" height="120" loading="lazy"><span class="t">Natura design</span><span class="d">Zuppiere ad anatra, a gallo e gallina, gufi, foglie e servizi da tè con rose in rilievo.</span><span class="ar" aria-hidden="true">↗</span></a></li>
+      <li class="rv"><a href="https://barettoni.com/prodotti/arte-pop-42"><span class="n">04</span><img class="th" src="https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_POP101-2.jpg" alt="Piatto da parete decorato a mano con volto di donna" width="160" height="120" loading="lazy"><span class="t">Arte pop</span><span class="d">Lampade, vasi e piatti con volti di donna, decolleté e sandali in ceramica.</span><span class="ar" aria-hidden="true">↗</span></a></li>
+      <li class="rv"><a href="https://barettoni.com/prodotti/vintage-43"><span class="n">05</span><img class="th" src="https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_20180208_144028_Copy.jpg" alt="Scrigno antico in ceramica traforata con rose, primi del Novecento" width="160" height="120" loading="lazy"><span class="t">Vintage</span><span class="d">Ceramiche e maioliche antiche del Novecento: zuppiere, coppe, vasi, antipastiere.</span><span class="ar" aria-hidden="true">↗</span></a></li>
+    </ol>
+  </div>
+</section>
+
+<section class="pezzi" aria-labelledby="pz-h">
+  <div class="wrap pzh"><h2 id="pz-h" class="rv">Alcuni pezzi, con misure e codici</h2><a class="rv" href="https://shop.barettoni.com/it/" rel="noopener">Tutti i pezzi nello shop online →</a></div>
+  <div class="wrap pz">
+    <figure class="a rv"><img src="https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_An681329_Copy-2.jpg" alt="Due zuppiere a forma di anatra decorate a mano" width="1082" height="813" loading="lazy"><figcaption><b>Zuppiera ad anatra</b><span>Art. 682229 · cm 33×14×27 h</span></figcaption></figure>
+    <figure class="b rv"><img src="https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_20180416_144857_Copy-1.jpg" alt="Alzata centrotavola traforata a mano con tre putti e fiori" width="1082" height="608" loading="lazy" style="object-position:50% 40%"><figcaption><b>Alzata con tre putti</b><span>Art. 673299 · cm 43 Ø × 39 h</span></figcaption></figure>
+    <figure class="c rv"><img src="https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_DSCF1913-2.jpg" alt="Gufo in ceramica decorato a mano su un muretto in giardino" width="1082" height="812" loading="lazy"><figcaption><b>Gufo, pezzo unico</b><span>Art. 686229 · cm 16×15×38 h</span></figcaption></figure>
+    <figure class="d rv"><img src="https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_DSCF1855_Copy-2.jpg" alt="Zuppiere a forma di gallo e gallina su un tavolo in giardino" width="1082" height="812" loading="lazy"><figcaption><b>Zuppiere a gallo e gallina</b><span>Art. 682029 · cm 31×14×33 h</span></figcaption></figure>
+  </div>
+</section>
+
+<section class="tavola" aria-label="La vetrata dell’androne">
+  <img class="px2" src="https://barettoni.com/images/fabbrica/2.jpg" alt="La vetrata dell’androne con tavoli apparecchiati e ceramiche decorate a mano" width="1082" height="812" loading="lazy">
+  <div class="cap"><div class="wrap"><span class="label">La vetrata dell’androne</span><p>Le ceramiche si vedono come sulla tavola di casa.</p></div></div>
+</section>
+
+<section class="visita" id="visita" aria-labelledby="vi-h">
+  <div class="wrap grid">
+    <div class="txt">
+      <span class="label rv">Come arrivare e prenotare</span>
+      <h2 id="vi-h" class="rv" style="margin-top:.8rem">Vi aspettiamo a Nove.</h2>
+      <dl class="rv">
+        <div><dt>Indirizzo</dt><dd>Via Molini, 3 · 36055 Nove (VI)</dd></div>
+        <div><dt>Telefono</dt><dd><a href="tel:+390424590013">+39 0424 590013</a></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:barettoni@barettoni.com">barettoni@barettoni.com</a></dd></div>
+        <div><dt>Visite</dt><dd>Su prenotazione telefonica</dd></div>
+        <div><dt>Fornace</dt><dd>Visitabile previo appuntamento</dd></div>
+      </dl>
+      <div class="acts rv">
+        <a class="btn solid" href="tel:+390424590013">Chiama</a>
+        <a class="vng-hbtn" href="mailto:barettoni@barettoni.com?subject=Visita%20alla%20fabbrica"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Scrivi</span><span class="vng-hbtn__b" aria-hidden="true">Email →</span></a>
+        <a class="vng-hbtn" href="https://www.google.com/maps/search/?api=1&amp;query=Ceramiche+Barettoni+Via+Molini+3+Nove+VI" rel="noopener"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Indicazioni</span><span class="vng-hbtn__b" aria-hidden="true">Mappa →</span></a>
+      </div>
+      <p class="shoplink rv">Non potete venire? Le ceramiche sono anche nello <a href="https://shop.barettoni.com/it/" rel="noopener">shop online</a>.</p>
+    </div>
+    <figure class="map rv"><img src="https://barettoni.com/images/s1.jpg" alt="La fabbrica Barettoni vista dall’alto, con le scritte Fabbrica e Ceramiche artistiche sulla facciata" width="1082" height="616" loading="lazy"><span class="pin">Via Molini, 3</span><figcaption>La fabbrica vista dall’alto, nel centro di Nove</figcaption></figure>
+  </div>
+</section>
+
+<section class="faq" aria-labelledby="fq-h">
+  <div class="wrap grid">
+    <div class="fq-l"><h2 id="fq-h" class="rv">Prima di venire</h2><p class="rv">Per ogni altra domanda sulla visita, sui pezzi o sulle misure, la cosa più rapida è una telefonata al <a href="tel:+390424590013">+39 0424 590013</a>.</p></div>
+    <div class="vng-faq">
+      <details open><summary>Come si prenota la visita?</summary><div class="vng-faq__a">Per telefono, al <a href="tel:+390424590013">+39 0424 590013</a>. Durante la visita vi saranno illustrate le fasi della lavorazione delle ceramiche.</div></details>
+      <details><summary>Si può vedere l’antica fornace?</summary><div class="vng-faq__a">Sì, previo appuntamento: è la fornace a legna a due piani del 1800.</div></details>
+      <details><summary>Si possono acquistare le ceramiche in fabbrica?</summary><div class="vng-faq__a">Sì. All’interno c’è un punto vendita con un vasto assortimento di ceramiche per la tavola e complementi d’arredo, a prezzi di fabbrica.</div></details>
+      <details><summary>Si può comprare online?</summary><div class="vng-faq__a">Sì, dallo <a href="https://shop.barettoni.com/it/" rel="noopener">shop online</a>. Per misure e disponibilità di un pezzo potete scrivere a <a href="mailto:barettoni@barettoni.com">barettoni@barettoni.com</a>.</div></details>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap grid">
+    <div><b>Barettoni</b><span class="motto">Il prestigio della tradizione dal 1685</span>Ceramiche artistiche fatte e decorate a mano. Eredi e continuatori della Manifattura Antonibon di Nove.</div>
+    <div>Via Molini, 3 · 36055 Nove (VI)<br><a href="tel:+390424590013">+39 0424 590013</a><br><a href="mailto:barettoni@barettoni.com">barettoni@barettoni.com</a></div>
+    <div><a href="https://www.instagram.com/ceramichebarettoni/" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/Barettoni-Già-Antonibon-1637039836371956/" rel="noopener">Facebook</a><br><a href="https://shop.barettoni.com/it/" rel="noopener">Shop online</a></div>
+    <p class="legal">Barettoni Già Antonibon sas di Barettoni Lodovico &amp; C. · P. IVA 03659400240 · Proposta di restyling non ufficiale, testi e foto dal sito barettoni.com.</p>
+  </div>
+</footer>
+
+<nav class="thumb" aria-label="Contatti rapidi">
+  <a href="tel:+390424590013">Chiama</a>
+  <a href="mailto:barettoni@barettoni.com">Email</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Ceramiche+Barettoni+Via+Molini+3+Nove+VI" rel="noopener">Mappa</a>
+</nav>
+
+<script>if(document.documentElement.classList.contains('shot'))document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'});</script>
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  var root=document.documentElement, shot=root.classList.contains('shot');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bar=document.querySelector('.thumb'),hero=document.querySelector('.hero');
+  if(bar&&hero&&!shot&&'IntersectionObserver' in window){new IntersectionObserver(function(es){var off=es[0].isIntersecting;bar.classList.toggle('off',off);document.body.classList.toggle('baroff',off)},{threshold:.35}).observe(hero)}
+  var rv=[].slice.call(document.querySelectorAll('.rv'));
+  if(shot||reduce||!('IntersectionObserver' in window)||!window.gsap){rv.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px'});
+  rv.forEach(function(e){io.observe(e)});
+  gsap.registerPlugin(ScrollTrigger);
+  var lenis=new Lenis({lerp:.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000)});gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(ev){var id=a.getAttribute('href');if(id.length>1&&document.querySelector(id)){ev.preventDefault();lenis.scrollTo(id,{offset:-64})}})});
+  if(window.SplitText){
+    document.fonts.ready.then(function(){
+      var s=new SplitText('#h1',{type:'lines',linesClass:'ln'});
+      gsap.from(s.lines,{yPercent:60,opacity:0,duration:1.1,ease:'expo.out',stagger:.09});
+    });
+  }
+  gsap.from('.hero .piece',{y:40,opacity:0,duration:1.2,ease:'expo.out',delay:.15});
+  gsap.to('.hero .plate img',{yPercent:-6,scale:1.06,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  gsap.utils.toArray('.px').forEach(function(img){gsap.fromTo(img,{yPercent:-5,scale:1.1},{yPercent:5,scale:1.1,ease:'none',scrollTrigger:{trigger:img.parentNode,start:'top bottom',end:'bottom top',scrub:1}})});
+  gsap.fromTo('.px2',{yPercent:-6},{yPercent:6,ease:'none',scrollTrigger:{trigger:'.tavola',start:'top bottom',end:'bottom top',scrub:1}});
+  ScrollTrigger.matchMedia({
+    '(min-width:900px)':function(){
+      var tl=document.querySelector('.tl'),vp=document.querySelector('.tl-viewport');
+      var dist=function(){return Math.max(0,tl.scrollWidth-vp.clientWidth)};
+      gsap.to(tl,{x:function(){return -dist()},ease:'none',scrollTrigger:{trigger:'.storia',start:'bottom bottom',end:function(){return '+='+dist()},pin:'.storia',pinSpacing:true,scrub:1,invalidateOnRefresh:true,anticipatePin:1}});
+    }
+  });
+  window.addEventListener('load',function(){ScrollTrigger.refresh()});
+});
+</script>
+</body>
+</html>

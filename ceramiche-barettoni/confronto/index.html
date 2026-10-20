@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Il sito di Ceramiche Barettoni, oggi e domani</title>
+<meta property="og:image" content="confronto.jpg">
+<link rel="icon" href="data:,">
+<style>
+@font-face{font-family:"Instrument Sans";src:url(../fonts/instrument-sans-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Instrument Sans";src:url(../fonts/instrument-sans-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Instrument Serif";src:url(../fonts/instrument-serif-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Instrument Serif";src:url(../fonts/instrument-serif-latin-400-italic.woff2) format("woff2");font-style:italic;font-display:swap}
+:root{--paper:#f5f2ec;--ink:#1d1a17;--ink-2:#4a443d;--mute:#6b645b;--line:#d8d1c5;--red:#9b1b1e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Instrument Sans",system-ui,sans-serif}
+img{display:block;max-width:100%;height:auto}
+.wrap{max-width:1100px;margin:0 auto;padding:0 clamp(16px,3vw,32px)}
+.draft{background:var(--red);color:#fff;text-align:center;font:600 .74rem/1 "Instrument Sans",sans-serif;letter-spacing:.06em;padding:.55em}
+.label{font-weight:600;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+h1,h2{font-family:"Instrument Serif",Georgia,serif;font-weight:400;letter-spacing:-.015em;margin:0}
+h1{font-size:clamp(2.6rem,7vw,5.4rem);line-height:.98;margin-top:.6rem}
+h1 em{color:var(--red)}
+h2{font-size:clamp(1.9rem,4vw,3rem);line-height:1.05}
+header{padding:clamp(36px,6vw,72px) 0 clamp(24px,4vw,40px)}
+header p{max-width:36em;color:var(--ink-2);margin:1rem 0 0}
+.ba{position:relative;max-width:390px;margin:0 auto;aspect-ratio:780/1587;border:8px solid var(--ink);border-radius:28px;overflow:hidden;background:#fff;touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:ew-resize}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top}
+.ba .old{clip-path:inset(0 calc(100% - var(--x,50%)) 0 0)}
+.ba .bar{position:absolute;top:0;bottom:0;left:var(--x,50%);width:3px;margin-left:-1.5px;background:var(--red)}
+.ba .knob{position:absolute;top:50%;left:var(--x,50%);width:48px;height:48px;margin:-24px 0 0 -24px;border-radius:50%;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;box-shadow:0 4px 14px rgba(0,0,0,.3)}
+.tags{display:flex;justify-content:space-between;max-width:390px;margin:.8rem auto 0;font-weight:600}
+.tags span:last-child{color:var(--red)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.hint{text-align:center;color:var(--mute);font-size:.9rem;margin-top:.4rem}
+section{padding:clamp(56px,8vw,100px) 0 0}
+.prob{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,48px);align-items:center;border-top:1px solid var(--ink);padding:clamp(24px,3vw,36px) 0}
+.prob .n{font:400 2.6rem/1 "Instrument Serif",serif;color:var(--red)}
+.prob h3{font-size:1.25rem;margin:.4rem 0 .5rem}
+.prob p{margin:0;color:var(--ink-2)}
+.prob img{border:1px solid var(--line)}
+@media (max-width:760px){.prob{grid-template-columns:1fr}}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink);margin-top:1.4rem}
+.nums div{padding:1.2rem 1rem 1.4rem 0;border-right:1px solid var(--line)}
+.nums div+div{padding-left:1rem}.nums div:last-child{border-right:0}
+.nums strong{display:block;font:400 clamp(2rem,4.4vw,3.2rem)/1 "Instrument Serif",serif}
+.nums strong s{color:var(--mute);text-decoration-thickness:2px}
+.nums strong b{font-weight:400;color:var(--red)}
+.nums span{display:block;margin-top:.5rem;font-size:.92rem;color:var(--ink-2)}
+@media (max-width:760px){.nums{grid-template-columns:1fr}.nums div{border-right:0;padding:1rem 0!important;border-bottom:1px solid var(--line)}}
+.note{font-size:.84rem;color:var(--mute);margin-top:1rem}
+.go{display:flex;justify-content:center;padding:clamp(48px,7vw,90px) 0}
+.go a{display:inline-flex;align-items:center;justify-content:center;min-height:60px;padding:1em 2em;border-radius:999px;background:var(--red);color:#fff;font-weight:600;font-size:1.15rem;text-decoration:none}
+.go a:hover{background:#7d1417}
+footer{background:var(--ink);color:#d6cdbf;padding:40px 0;font-size:.95rem}
+footer a{color:#fff}
+</style>
+</head>
+<body>
+<div class="draft">Proposta di restyling – bozza non ufficiale</div>
+<header class="wrap">
+  <span class="label">Ceramiche Barettoni · Nove (VI)</span>
+  <h1>Il sito di Ceramiche Barettoni, <em>oggi e domani</em></h1>
+  <p>La prima schermata che vede chi apre barettoni.com dal telefono, prima e dopo. Trascinate il cursore.</p>
+</header>
+
+<div class="wrap">
+  <div class="ba" id="ba" style="--x:50%">
+    <img src="nuovo-mobile.jpg" alt="Nuova homepage su telefono: titolo, pulsante per prenotare la visita e foto di un servizio da tavola" width="780" height="1587">
+    <img class="old" src="vecchio-mobile.jpg" alt="Homepage attuale su telefono: foto aerea senza titolo e banner dei cookie" width="780" height="1587">
+    <div class="bar"></div><div class="knob" aria-hidden="true">⟷</div>
+    <input type="range" min="0" max="100" value="50" aria-label="Sposta il confronto tra sito attuale e proposta">
+  </div>
+  <div class="tags"><span>← Oggi</span><span>Con la proposta →</span></div>
+  <p class="hint">Misurato su un telefono Pixel 7, prima schermata senza scorrere.</p>
+</div>
+
+<section class="wrap" aria-labelledby="p-h">
+  <h2 id="p-h">Tre cose che oggi non funzionano</h2>
+  <div class="prob" style="margin-top:1.4rem">
+    <div><span class="n">1</span><h3>Il banner dei cookie copre lo schermo</h3><p>Su telefono il banner “Questo sito web utilizza cookie” copre circa un quarto della prima schermata (26% misurato), con due grandi pulsanti prima ancora di sapere cosa fate.</p></div>
+    <img src="p1-cookie.jpg" alt="Banner dei cookie che copre la parte bassa dello schermo, cerchiato in rosso" width="900" height="534" loading="lazy">
+  </div>
+  <div class="prob">
+    <div><span class="n">2</span><h3>Nessun messaggio e nessun pulsante</h3><p>La prima schermata è solo una foto aerea che scorre, con le frecce del carosello: non c’è un titolo che dica chi siete, né un modo per prenotare la visita. Il numero di telefono, nel codice della pagina, non è un link: dal telefono non si può toccare per chiamare.</p></div>
+    <img src="p3-primo-schermo.jpg" alt="Foto aerea della fabbrica con le frecce del carosello cerchiate in rosso" width="839" height="900" loading="lazy">
+  </div>
+  <div class="prob">
+    <div><span class="n">3</span><h3>Il logo si legge male da telefono</h3><p>In alto, “Barettoni” è sovrapposto a una grande scritta “Antonibon” sbiadita e il motto “Il prestigio della tradizione dal 1685” diventa minuscolo: su schermo piccolo il marchio storico perde forza.</p></div>
+    <img src="p2-logo.jpg" alt="Logo Barettoni sovrapposto alla scritta Antonibon sbiadita, cerchiato in rosso" width="900" height="349" loading="lazy">
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="n-h">
+  <h2 id="n-h">Tre numeri, prima e dopo</h2>
+  <div class="nums">
+    <div><strong><s>0,83</s> → <b>0</b></strong><span>quanto “salta” la pagina mentre si carica (CLS, ideale sotto 0,1)</span></div>
+    <div><strong><s>9</s> → <b>0</b></strong><span>servizi esterni caricati all’apertura (font, mappe, statistiche, cookie)</span></div>
+    <div><strong><s>0</s> → <b>8</b></strong><span>punti in cui il telefono si tocca per chiamare</span></div>
+  </div>
+  <p class="note">Sito attuale: misurato il 20 ottobre 2026 da telefono (Chrome, Pixel 7, cache vuota). Proposta: misurata in locale con le stesse foto.</p>
+</section>
+
+<div class="wrap go"><a href="../">Guarda il sito nuovo</a></div>
+
+<footer><div class="wrap">Proposta preparata da LMSoftique · <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></div></footer>
+
+<script>
+(function(){var ba=document.getElementById('ba'),r=ba.querySelector('input');
+function set(v){ba.style.setProperty('--x',v+'%')}
+r.addEventListener('input',function(){set(r.value)});
+function pt(e){var b=ba.getBoundingClientRect(),x=(e.touches?e.touches[0].clientX:e.clientX)-b.left;var v=Math.max(0,Math.min(100,x/b.width*100));r.value=v;set(v)}
+ba.addEventListener('pointerdown',function(e){pt(e);ba.setPointerCapture&&ba.setPointerCapture(e.pointerId)});
+ba.addEventListener('pointermove',function(e){if(e.buttons||e.pointerType==='touch')pt(e)});
+})();
+</script>
+</body>
+</html>
