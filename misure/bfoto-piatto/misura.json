@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-piatto",
+  "url": "https://barettoni.com/images/piatto-home-2.png",
+  "misuratoIl": "2026-10-20T01:58:46.478Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1304,
+  "lcpMs": 1318,
+  "lcpElemento": "IMG https://barettoni.com/images/piatto-home-2.png",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/images/piatto-home-2.png",
+  "titolo": "piatto-home-2.png (600×590)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 648,
+  "fcp": 671,
+  "domReady": 1301,
+  "load": 1302,
+  "pesoKB": 435,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 501,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 504,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 171,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

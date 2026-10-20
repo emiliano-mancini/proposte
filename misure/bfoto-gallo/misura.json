@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-gallo",
+  "url": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_DSCF1855_Copy-2.jpg",
+  "misuratoIl": "2026-10-20T02:01:18.673Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1135,
+  "lcpMs": 1140,
+  "lcpElemento": "IMG https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_DSCF1855_Copy-2.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_DSCF1855_Copy-2.jpg",
+  "titolo": "BARETTONI_DSCF1855_Copy-2.jpg (1067×800)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 649,
+  "fcp": 677,
+  "domReady": 1131,
+  "load": 1132,
+  "pesoKB": 183,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 502,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 519,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 173,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

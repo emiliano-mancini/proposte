@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-s2",
+  "url": "https://barettoni.com/images/s2.jpg",
+  "misuratoIl": "2026-10-20T01:58:17.513Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1622,
+  "lcpMs": 1631,
+  "lcpElemento": "IMG https://barettoni.com/images/s2.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/images/s2.jpg",
+  "titolo": "s2.jpg (1920×1080)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 647,
+  "fcp": 667,
+  "domReady": 1620,
+  "load": 1620,
+  "pesoKB": 719,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 669,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 692,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 168,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

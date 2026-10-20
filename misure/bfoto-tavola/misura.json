@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-tavola",
+  "url": "https://barettoni.com/pics/news/thumb/BARETTONI_Tavola_che_rimane.jpg",
+  "misuratoIl": "2026-10-20T02:01:33.159Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1294,
+  "lcpMs": 1297,
+  "lcpElemento": "IMG https://barettoni.com/pics/news/thumb/BARETTONI_Tavola_che_rimane.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/pics/news/thumb/BARETTONI_Tavola_che_rimane.jpg",
+  "titolo": "BARETTONI_Tavola_che_rimane.jpg (570×569)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 648,
+  "fcp": 678,
+  "domReady": 1292,
+  "load": 1293,
+  "pesoKB": 295,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 500,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 519,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 173,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

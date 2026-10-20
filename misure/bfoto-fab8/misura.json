@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-fab8",
+  "url": "https://barettoni.com/images/fabbrica/8.jpg",
+  "misuratoIl": "2026-10-20T02:00:27.826Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1288,
+  "lcpMs": 1290,
+  "lcpElemento": "IMG https://barettoni.com/images/fabbrica/8.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/images/fabbrica/8.jpg",
+  "titolo": "8.jpg (960×720)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 644,
+  "fcp": 665,
+  "domReady": 1286,
+  "load": 1286,
+  "pesoKB": 379,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 498,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 488,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 171,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

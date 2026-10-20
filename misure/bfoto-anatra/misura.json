@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-anatra",
+  "url": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_An681329_Copy-2.jpg",
+  "misuratoIl": "2026-10-20T02:01:11.803Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 844,
+  "lcpMs": 855,
+  "lcpElemento": "IMG https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_An681329_Copy-2.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_An681329_Copy-2.jpg",
+  "titolo": "BARETTONI_An681329_Copy-2.jpg (1067×800)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 646,
+  "fcp": 682,
+  "domReady": 841,
+  "load": 842,
+  "pesoKB": 71,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 496,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 485,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 169,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-fab5",
+  "url": "https://barettoni.com/images/fabbrica/5.jpg",
+  "misuratoIl": "2026-10-20T02:00:03.294Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1264,
+  "lcpMs": 1266,
+  "lcpElemento": "IMG https://barettoni.com/images/fabbrica/5.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/images/fabbrica/5.jpg",
+  "titolo": "5.jpg (960×720)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 633,
+  "fcp": 649,
+  "domReady": 1262,
+  "load": 1263,
+  "pesoKB": 313,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 685,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 497,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 176,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

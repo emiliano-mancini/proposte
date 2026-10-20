@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-vetrina",
+  "url": "https://barettoni.com/pics/news/thumb/BARETTONI_VETRINA2_Copy.jpg",
+  "misuratoIl": "2026-10-20T02:01:41.104Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 999,
+  "lcpMs": 1004,
+  "lcpElemento": "IMG https://barettoni.com/pics/news/thumb/BARETTONI_VETRINA2_Copy.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/pics/news/thumb/BARETTONI_VETRINA2_Copy.jpg",
+  "titolo": "BARETTONI_VETRINA2_Copy.jpg (570×427)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 645,
+  "fcp": 673,
+  "domReady": 996,
+  "load": 997,
+  "pesoKB": 165,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 497,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 484,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 171,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

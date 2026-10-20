@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-banner",
+  "url": "https://barettoni.com/images/contact-banner.jpg",
+  "misuratoIl": "2026-10-20T01:58:54.960Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1431,
+  "lcpMs": 1438,
+  "lcpElemento": "IMG https://barettoni.com/images/contact-banner.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/images/contact-banner.jpg",
+  "titolo": "contact-banner.jpg (1920×650)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 633,
+  "fcp": 666,
+  "domReady": 1429,
+  "load": 1429,
+  "pesoKB": 550,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 522,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 495,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 178,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

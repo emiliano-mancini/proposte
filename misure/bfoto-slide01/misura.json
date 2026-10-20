@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-slide01",
+  "url": "https://barettoni.com/images/slide_01.jpg",
+  "misuratoIl": "2026-10-20T01:57:57.701Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1671,
+  "lcpMs": 1671,
+  "lcpElemento": "IMG https://barettoni.com/images/slide_01.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/images/slide_01.jpg",
+  "titolo": "slide_01.jpg (1920×1080)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 858,
+  "fcp": 885,
+  "domReady": 1667,
+  "load": 1668,
+  "pesoKB": 509,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 721,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 701,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 170,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

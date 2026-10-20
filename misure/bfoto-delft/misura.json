@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-delft",
+  "url": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_20180129_151801_Copy-2.jpg",
+  "misuratoIl": "2026-10-20T02:00:50.160Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 975,
+  "lcpMs": 987,
+  "lcpElemento": "IMG https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_20180129_151801_Copy-2.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_20180129_151801_Copy-2.jpg",
+  "titolo": "BARETTONI_20180129_151801_Copy-2.jpg (1100×986)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 649,
+  "fcp": 682,
+  "domReady": 972,
+  "load": 972,
+  "pesoKB": 130,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 500,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 522,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 171,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

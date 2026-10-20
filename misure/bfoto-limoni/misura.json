@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-limoni",
+  "url": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_5441_LIMONI_2_Copy.jpg",
+  "misuratoIl": "2026-10-20T02:00:57.241Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 969,
+  "lcpMs": 980,
+  "lcpElemento": "IMG https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_5441_LIMONI_2_Copy.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_5441_LIMONI_2_Copy.jpg",
+  "titolo": "BARETTONI_5441_LIMONI_2_Copy.jpg (1100×618)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 645,
+  "fcp": 671,
+  "domReady": 967,
+  "load": 967,
+  "pesoKB": 127,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 496,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 485,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 171,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "bfoto-gufo",
+  "url": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_DSCF1913-2.jpg",
+  "misuratoIl": "2026-10-20T02:01:04.258Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 973,
+  "lcpMs": 983,
+  "lcpElemento": "IMG https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_DSCF1913-2.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/pics/prodotti/thumb_zoom/BARETTONI_DSCF1913-2.jpg",
+  "titolo": "BARETTONI_DSCF1913-2.jpg (1100×825)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 648,
+  "fcp": 681,
+  "domReady": 970,
+  "load": 971,
+  "pesoKB": 122,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 503,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 932,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 172,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}
