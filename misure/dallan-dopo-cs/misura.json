@@ -1,0 +1,89 @@
+{
+  "slug": "dallan-dopo-cs",
+  "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/",
+  "misuratoIl": "2026-10-20T03:25:18.347Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 230,
+  "lcpMs": 147,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/",
+  "titolo": "Chi siamo – Calzature Dallan",
+  "descrizione": "Calzature Dallan: dal 1986 a contatto con i clienti nei mercati, oggi anche online. Massanzago (PD). Bozza di restyling.",
+  "h1": [
+    "Calzature Dallan, dal 1986"
+  ],
+  "ttfb": 104,
+  "fcp": 147,
+  "domReady": 141,
+  "load": 229,
+  "pesoKB": 239,
+  "richieste": 3,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/img/6bfc4c50bf36.png",
+      "kb": 45
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@calzaturedallan.it"
+  ],
+  "telefono": [
+    "+393495242991"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 25,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 16,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 18,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

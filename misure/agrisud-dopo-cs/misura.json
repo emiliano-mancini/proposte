@@ -1,0 +1,88 @@
+{
+  "slug": "agrisud-dopo-cs",
+  "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/",
+  "misuratoIl": "2026-10-20T03:25:43.261Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 183,
+  "lcpMs": 121,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/",
+  "titolo": "Chi siamo – Agrisud Farmacia Agricola",
+  "descrizione": "Agrisud Farmacia Agricola: dal 1967 a Foggia, fondata dall’agronomo dott. Carlo Sebastio. Bozza di restyling.",
+  "h1": [],
+  "ttfb": 76,
+  "fcp": 121,
+  "domReady": 115,
+  "load": 182,
+  "pesoKB": 81,
+  "richieste": 3,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/img/72a6ee8669ab.webp",
+      "kb": 10
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@agrisudsrl.it"
+  ],
+  "telefono": [
+    "+390881633423",
+    "+393511019951"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Recesso e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#recesso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 13,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 14,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

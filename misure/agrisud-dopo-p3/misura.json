@@ -1,0 +1,110 @@
+{
+  "slug": "agrisud-dopo-p3",
+  "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/syngenta-affirm-kg-1/",
+  "misuratoIl": "2026-10-20T03:25:39.437Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 197,
+  "lcpMs": 175,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/agrisud-shop/syngenta-affirm-kg-1/img/ff281a118ff6.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/agrisud-shop/syngenta-affirm-kg-1/",
+  "titolo": "SYNGENTA AFFIRM – 1 kg – 38,00 € | Agrisud",
+  "descrizione": "SYNGENTA AFFIRM – 1 kg a 38,00 € IVA inclusa. Spedizione gratuita da 99 €, consulenza agronomica su WhatsApp. Bozza di restyling.",
+  "h1": [
+    "SYNGENTA AFFIRM – 1 kg"
+  ],
+  "ttfb": 76,
+  "fcp": 127,
+  "domReady": 102,
+  "load": 196,
+  "pesoKB": 194,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/syngenta-affirm-kg-1/img/9f162aa277c2.webp",
+      "kb": 33
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/syngenta-affirm-kg-1/img/ff281a118ff6.webp",
+      "kb": 22
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/syngenta-affirm-kg-1/img/408c6dc89043.webp",
+      "kb": 21
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/syngenta-affirm-kg-1/img/406044194cc0.webp",
+      "kb": 14
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/syngenta-affirm-kg-1/img/a40c7a3ec2f3.webp",
+      "kb": 11
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 590,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@agrisudsrl.it"
+  ],
+  "telefono": [
+    "+390881633423",
+    "+393511019951"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Recesso e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#recesso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 14,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

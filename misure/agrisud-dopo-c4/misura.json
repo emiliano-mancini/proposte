@@ -1,0 +1,98 @@
+{
+  "slug": "agrisud-dopo-c4",
+  "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/disinfestazione/",
+  "misuratoIl": "2026-10-20T03:25:30.096Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 202,
+  "lcpMs": 220,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/agrisud-shop/disinfestazione/",
+  "titolo": "Disinfestazione e derattizzazione – Agrisud Farmacia Agricola",
+  "descrizione": "Disinfestazione e derattizzazione: Esche, erogatori e insetticidi, uso professionale e domestico. Spedizione gratuita da 99 €. Bozza di restyling.",
+  "h1": [
+    "Disinfestazione e derattizzazione"
+  ],
+  "ttfb": 102,
+  "fcp": 149,
+  "domReady": 143,
+  "load": 201,
+  "pesoKB": 102,
+  "richieste": 4,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/disinfestazione/img/f11f410e9693.webp",
+      "kb": 20
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/disinfestazione/img/72a6ee8669ab.webp",
+      "kb": 10
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@agrisudsrl.it"
+  ],
+  "telefono": [
+    "+390881633423",
+    "+393511019951"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/"
+    },
+    {
+      "t": "500\nML\nBASF\nBASF MYTHIC 10 SC ML 500\nContattaci pe",
+      "h": "https://agrisudsrl.it/insetticidi-uso-professionale/605-copyr-mythic-10-sc-ml-500.html"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Recesso e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#recesso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 19,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 17,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 16,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

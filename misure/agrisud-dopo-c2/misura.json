@@ -1,0 +1,98 @@
+{
+  "slug": "agrisud-dopo-c2",
+  "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/nutrizione-fertilizzanti/",
+  "misuratoIl": "2026-10-20T03:25:22.296Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 290,
+  "lcpMs": 253,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/agrisud-shop/nutrizione-fertilizzanti/img/f2a869227723.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/agrisud-shop/nutrizione-fertilizzanti/",
+  "titolo": "Nutrizione e fertilizzanti – Agrisud Farmacia Agricola",
+  "descrizione": "Nutrizione e fertilizzanti: Fogliari, fertirriganti, concimi di fondo, stimolanti. Spedizione gratuita da 99 €. Bozza di restyling.",
+  "h1": [
+    "Nutrizione e fertilizzanti"
+  ],
+  "ttfb": 120,
+  "fcp": 225,
+  "domReady": 195,
+  "load": 288,
+  "pesoKB": 100,
+  "richieste": 4,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/nutrizione-fertilizzanti/img/f2a869227723.webp",
+      "kb": 19
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/agrisud-shop/nutrizione-fertilizzanti/img/72a6ee8669ab.webp",
+      "kb": 10
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@agrisudsrl.it"
+  ],
+  "telefono": [
+    "+390881633423",
+    "+393511019951"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/"
+    },
+    {
+      "t": "25\nKG\nBIOGARD\nBIOGARD PRODIGY PLUS KG. 25\nContatta",
+      "h": "https://agrisudsrl.it/nutrizione-feromoni/411-biogard-prodigy-plus-kg-25.html"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Recesso e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/assistenza/#recesso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/agrisud-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 17,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 15,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 15,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

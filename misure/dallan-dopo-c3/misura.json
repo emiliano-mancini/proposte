@@ -1,0 +1,105 @@
+{
+  "slug": "dallan-dopo-c3",
+  "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/ciabatte/",
+  "misuratoIl": "2026-10-20T03:25:14.379Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 278,
+  "lcpMs": 185,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/dallan-shop/ciabatte/img/042b6986317a.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/dallan-shop/ciabatte/",
+  "titolo": "Ciabatte e pantofole – Calzature Dallan",
+  "descrizione": "Ciabatte e pantofole: Lana cotta, panno caldo e fibbie per la casa. Spedizione gratuita in Italia da 99 €. Bozza di restyling.",
+  "h1": [
+    "Ciabatte e pantofole"
+  ],
+  "ttfb": 88,
+  "fcp": 185,
+  "domReady": 163,
+  "load": 276,
+  "pesoKB": 476,
+  "richieste": 15,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/ciabatte/img/6bfc4c50bf36.png",
+      "kb": 45
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/ciabatte/img/f4d8bdab7e61.webp",
+      "kb": 26
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/ciabatte/img/5bb197e32ab9.webp",
+      "kb": 26
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/ciabatte/img/59b8bb77f4bc.webp",
+      "kb": 22
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/dallan-shop/ciabatte/img/1090e6f6bb2b.webp",
+      "kb": 21
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@calzaturedallan.it"
+  ],
+  "telefono": [
+    "+393495242991"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/dallan-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 97,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 18,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 17,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
