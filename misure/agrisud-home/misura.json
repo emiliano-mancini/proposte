@@ -1,0 +1,193 @@
+{
+  "slug": "agrisud-home",
+  "url": "https://agrisudsrl.it/",
+  "misuratoIl": "2026-10-20T02:16:51.555Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 41138,
+  "lcpMs": 22479,
+  "lcpElemento": "IMG https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-OTTOBRE2026-agrisud.jpg",
+  "cls": 0.038,
+  "urlFinale": "https://agrisudsrl.it/",
+  "titolo": "Agrisud Srl - Farmacia Agricola",
+  "descrizione": "Negozio creato usando PrestaShop",
+  "h1": [],
+  "ttfb": 1455,
+  "fcp": 21355,
+  "domReady": 41130,
+  "load": 41137,
+  "pesoKB": 4641,
+  "richieste": 102,
+  "script": 41,
+  "serviziEsterni": [
+    "integrations.etrusted.com",
+    "www.googletagmanager.com",
+    "iqit-commerce.com",
+    "fonts.googleapis.com",
+    "widgets.trustedshops.com",
+    "static.cloudflareinsights.com",
+    "cdn-cookieyes.com",
+    "log.cookieyes.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com",
+    "customer-data-api.trstd-login.trustedshops.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://agrisudsrl.it/img/cms/img-syngenta/img-agronomo-banner-syngenta-agrisud.png",
+      "kb": 2098
+    },
+    {
+      "url": "https://agrisudsrl.it/img/cms/img-syngenta/syngenta_logo-2026.png",
+      "kb": 483
+    },
+    {
+      "url": "https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-NATALE-spedizione-gratuita-450-dicembre25-agrisud.jpg",
+      "kb": 361
+    },
+    {
+      "url": "https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-INVERNALE-gennaio26-agrisud.jpg",
+      "kb": 247
+    },
+    {
+      "url": "https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-OTTOBRE2026-agrisud.jpg",
+      "kb": 110
+    }
+  ],
+  "scorrimentoOrizzontale": true,
+  "sovrapposizioni": [
+    {
+      "id": "cky-consent-container cky-banner-bottom",
+      "copre": "44%",
+      "testo": "Diamo valore alla tua privacy Utilizziamo i cookie per migliorare la tua esperienza di navigazione, offrirti pubblicità "
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 9171,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@agrisudsrl.it"
+  ],
+  "telefono": [
+    "393511019951",
+    "+39 0881 633423"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://agrisudsrl.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://agrisudsrl.it/contattaci"
+    },
+    {
+      "t": "Metodi di spedizione",
+      "h": "https://agrisudsrl.it/content/1-metodi-di-spedizione"
+    },
+    {
+      "t": "Termini e condizioni d'uso",
+      "h": "https://agrisudsrl.it/content/3-termini-e-condizioni-di-uso"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://agrisudsrl.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://agrisudsrl.it/content/4-chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://agrisudsrl.it/contattaci"
+    },
+    {
+      "t": "PRATO-VERDE MISC.SPORT RESISTENTE KG.10",
+      "h": "https://agrisudsrl.it/miscugli-per-tappeti-erbosi/381-prato-verde-misc-sport-resistente-kg-10.html"
+    },
+    {
+      "t": "Termini e condizioni d'uso",
+      "h": "https://agrisudsrl.it/content/3-termini-e-condizioni-di-uso"
+    },
+    {
+      "t": "Metodi di spedizione",
+      "h": "https://agrisudsrl.it/content/1-metodi-di-spedizione"
+    },
+    {
+      "t": "Richiedi recesso qui",
+      "h": "https://agrisudsrl.it/diritto-di-recesso"
+    },
+    {
+      "t": "Richiedi un reso o assistenza",
+      "h": "https://agrisudsrl.it/i-miei-resi"
+    }
+  ],
+  "piattaforma": "PrestaShop",
+  "viewport": "initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width",
+  "rispostaServer": [
+    {
+      "ms": 1471,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 1000,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 999,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://agrisudsrl.it/modules/iqitelementor/views/css/frontend.min.css"
+    },
+    {
+      "status": 999,
+      "url": "https://agrisudsrl.it/modules/customfields/views/css/customfields_common.css"
+    },
+    {
+      "status": 999,
+      "url": "https://agrisudsrl.it/modules/iqitsociallogin/views/css/front.css"
+    },
+    {
+      "status": 999,
+      "url": "https://agrisudsrl.it/modules/iqitsizecharts/views/css/front.css"
+    },
+    {
+      "status": 999,
+      "url": "https://agrisudsrl.it/modules/iqitmegamenu/views/css/iqitmegamenu_s_1.css"
+    },
+    {
+      "status": 999,
+      "url": "https://agrisudsrl.it/themes/agrisud/assets/css/custom.css"
+    },
+    {
+      "status": 999,
+      "url": "https://agrisudsrl.it/modules/iqitextendedproduct/views/css/front.css"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-WQ5F99X0SW&gtm=45be6ag1v9115708350za20ozb9166353323zd9166353323xf1&_p=1792462568210&gcs=G100&gcd=13p3p3V3p5"
+    },
+    {
+      "status": 522,
+      "url": "https://agrisudsrl.it/img/cms/img-syngenta/logo-green-agrisud-2026.png"
+    },
+    {
+      "status": 522,
+      "url": "https://agrisudsrl.it/img/cms/img-banner-promo-agrisud/banner-PROMO-Roundup-giuigno26-agrisud.jpg"
+    }
+  ]
+}
