@@ -1,0 +1,114 @@
+{
+  "slug": "barettoni-home",
+  "url": "https://barettoni.com/",
+  "misuratoIl": "2026-10-20T01:56:39.165Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2569,
+  "lcpMs": 2889,
+  "lcpElemento": "DIV https://barettoni.com/images/s1.jpg",
+  "cls": 0.831,
+  "urlFinale": "https://barettoni.com/",
+  "titolo": "Ceramiche Barettoni Nove | Manifattura ceramiche artistiche decorate a mano",
+  "descrizione": "Ceramiche Barettoni a Nove (VI): manifattura di ceramiche artistiche. Eredi e continuatori della celebre MANIFATTURA ANTONIBON di Nove, siamo gli unici a poter usare per la produzione classica e tradizionale gli stampi originali del 1700.",
+  "h1": [
+    "Manifattura Ceramiche Artistiche"
+  ],
+  "ttfb": 799,
+  "fcp": 1555,
+  "domReady": 2415,
+  "load": 2566,
+  "pesoKB": 6723,
+  "richieste": 70,
+  "script": 31,
+  "serviziEsterni": [
+    "cdnjs.cloudflare.com",
+    "fonts.googleapis.com",
+    "cdn.cookie-script.com",
+    "www.googletagmanager.com",
+    "www.google.com",
+    "maps.googleapis.com",
+    "unpkg.com",
+    "www.gstatic.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://barettoni.com/images/s1.jpg",
+      "kb": 1142
+    },
+    {
+      "url": "https://barettoni.com/images/s3.jpg",
+      "kb": 849
+    },
+    {
+      "url": "https://barettoni.com/images/s2.jpg",
+      "kb": 719
+    },
+    {
+      "url": "https://barettoni.com/images/s4.jpg",
+      "kb": 560
+    },
+    {
+      "url": "https://barettoni.com/images/specialties-parra-img.jpg",
+      "kb": 517
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cookiescript_injected",
+      "copre": "26%",
+      "testo": "× Questo sito web utilizza cookie Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione. Uti"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "barettoni@barettoni.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://barettoni.com/contatti"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://barettoni.com/contatti"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://barettoni.com/contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 598,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 155,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 153,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KY2RF3Q2VS&gtm=45je6ag1v9124679357za20oxf1&_p=1792461394302&gcs=G100&gcd=13p3p3l3l5l1&npa=0&dma=0&_eu=EAAI&"
+    }
+  ]
+}

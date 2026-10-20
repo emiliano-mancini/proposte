@@ -1,0 +1,114 @@
+{
+  "slug": "barettoni-fabbrica",
+  "url": "https://barettoni.com/visita-fabbrica",
+  "misuratoIl": "2026-10-20T01:56:52.641Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2193,
+  "lcpMs": 2210,
+  "lcpElemento": "DIV https://barettoni.com/images/contact-banner.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/visita-fabbrica",
+  "titolo": "Ceramiche artistiche Nove - Visita alla fabbrica | Ceramiche Barettoni",
+  "descrizione": "Ceramiche Barettoni Già Antonibon: prenotate telefonicamente la vostra visita alla fabbrica. Vi saranno illustrate le fasi della lavorazione delle ceramiche, l' antica fornace a legna. Potrete vedere servizi di piatti riccamente decorati a mano, vasi imponenti con decori di vedute, accessori per la tavola e complementi d'arredo unici e irripetibili.",
+  "h1": [
+    "Visita alla fabbrica"
+  ],
+  "ttfb": 427,
+  "fcp": 935,
+  "domReady": 1697,
+  "load": 2190,
+  "pesoKB": 5128,
+  "richieste": 71,
+  "script": 31,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "cdn.cookie-script.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "unpkg.com",
+    "maps.googleapis.com",
+    "www.gstatic.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://barettoni.com/images/contact-banner.jpg",
+      "kb": 550
+    },
+    {
+      "url": "https://barettoni.com/images/fabbrica/2.jpg",
+      "kb": 503
+    },
+    {
+      "url": "https://barettoni.com/images/fabbrica/1.jpg",
+      "kb": 423
+    },
+    {
+      "url": "https://barettoni.com/images/fabbrica/8.jpg",
+      "kb": 379
+    },
+    {
+      "url": "https://barettoni.com/images/fabbrica/3.jpg",
+      "kb": 327
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cookiescript_injected",
+      "copre": "26%",
+      "testo": "× Questo sito web utilizza cookie Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione. Uti"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "barettoni@barettoni.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://barettoni.com/contatti"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://barettoni.com/contatti"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://barettoni.com/contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 551,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 156,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 159,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KY2RF3Q2VS&gtm=45je6ag1v9124679357za20oxf1&_p=1792461407743&gcs=G100&gcd=13p3p3l3l5l1&npa=0&dma=0&_eu=EAAI&"
+    }
+  ]
+}

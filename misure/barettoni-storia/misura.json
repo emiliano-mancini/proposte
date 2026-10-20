@@ -1,0 +1,115 @@
+{
+  "slug": "barettoni-storia",
+  "url": "https://barettoni.com/storia",
+  "misuratoIl": "2026-10-20T01:56:45.811Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2083,
+  "lcpMs": 2087,
+  "lcpElemento": "DIV https://barettoni.com/images/contact-banner.jpg",
+  "cls": 0,
+  "urlFinale": "https://barettoni.com/storia",
+  "titolo": "Ceramiche per la tavola decorate a mano | Ceramiche Barettoni Antonibon",
+  "descrizione": "Ceramiche Barettoni a Nove (VI): manifattura di ceramiche decorate a mano. Ceramiche per la tavola e complementi d'arredeo. Eredi e continuatori della celebre MANIFATTURA ANTONIBON di Nove, siamo gli unici a poter usare per la produzione classica e tradizionale gli stampi originali del 1700.",
+  "h1": [
+    "Storia",
+    "LODOVICO BARETTONI"
+  ],
+  "ttfb": 492,
+  "fcp": 1018,
+  "domReady": 1413,
+  "load": 2081,
+  "pesoKB": 4811,
+  "richieste": 73,
+  "script": 32,
+  "serviziEsterni": [
+    "cdnjs.cloudflare.com",
+    "fonts.googleapis.com",
+    "cdn.cookie-script.com",
+    "www.googletagmanager.com",
+    "www.google.com",
+    "unpkg.com",
+    "maps.googleapis.com",
+    "www.gstatic.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://barettoni.com/images/storia.jpg",
+      "kb": 775
+    },
+    {
+      "url": "https://barettoni.com/images/contact-banner.jpg",
+      "kb": 550
+    },
+    {
+      "url": "https://barettoni.com/images/storia/2.jpg",
+      "kb": 311
+    },
+    {
+      "url": "https://barettoni.com/images/lodovico-barettoni.jpg",
+      "kb": 299
+    },
+    {
+      "url": "https://barettoni.com/images/storia/1732.jpg",
+      "kb": 294
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cookiescript_injected",
+      "copre": "26%",
+      "testo": "× Questo sito web utilizza cookie Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione. Uti"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "barettoni@barettoni.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://barettoni.com/contatti"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://barettoni.com/contatti"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://barettoni.com/contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 687,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 154,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 154,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KY2RF3Q2VS&gtm=45je6ag1v9124679357za20oxf1&_p=1792461401076&gcs=G100&gcd=13p3p3l3l5l1&npa=0&dma=0&_eu=EAAI&"
+    }
+  ]
+}
