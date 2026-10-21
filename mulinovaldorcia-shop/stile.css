@@ -140,8 +140,10 @@ html.shot *{transition:none!important}
 .plist li.out{opacity:.6}
 .badge.out{background:var(--fg);color:var(--bg)}
 @media (min-width:720px){.plist{columns:2}}
-.btn.tel{white-space:nowrap}
-@media (max-width:719px){.btn.tel{display:none}}
+.btn.tel{white-space:nowrap}.tl-m{display:none}
+.hact{margin-left:auto!important}
+@media (max-width:999px){.tl-d{display:none}.tl-m{display:inline}}
+@media (max-width:719px){.btn.sm{min-height:40px;padding:0 13px}.ctas .btn{min-height:46px;padding:0 18px;font-size:15px}}
 
 :root{--bg:#f7f2e8;--fg:#2a1a15;--muted:#5f4c42;--card:#fffdf8;--line:#e3d7c4;--line-strong:#b9a487;--img-bg:#fff;
 --accent:#6e2a20;--accent-fg:#fff;--accent-ink:#9a4a1c;--price:#2a1a15;--badge-bg:#c9671f;--badge-fg:#fff;--mark:#f3dfb6;
