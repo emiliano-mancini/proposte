@@ -1,0 +1,146 @@
+{
+  "slug": "lucanella-home",
+  "url": "https://www.lucanellapasta.com/",
+  "misuratoIl": "2026-10-21T02:15:07.876Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5110,
+  "lcpMs": 4384,
+  "lcpElemento": "IMG https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_852,h_400/https://www.lucanellapasta.com/wp-content/uploads",
+  "cls": 0,
+  "urlFinale": "https://www.lucanellapasta.com/",
+  "titolo": "Pastificio Lucanella. Pasta artigianale tipica lucana 100% italiana",
+  "descrizione": "Pasta artigianale in formati tipici regionali e trafilati al bronzo. Siamo in Basilicata, nel Parco Nazionale del Pollino.",
+  "h1": [
+    "HOME",
+    "",
+    "Pasta artigianale\ntipica lucana da grano 100% italiano"
+  ],
+  "ttfb": 2917,
+  "fcp": 3736,
+  "domReady": 4824,
+  "load": 5107,
+  "pesoKB": 3931,
+  "richieste": 115,
+  "script": 9,
+  "serviziEsterni": [
+    "cdn-cookieyes.com",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "sp-ao.shortpixel.ai",
+    "log.cookieyes.com",
+    "cdn.jsdelivr.net",
+    "cdn.trustindex.io",
+    "cdn.gtranslate.net",
+    "lh3.googleusercontent.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2018/05/LOGO-def.jpg",
+      "kb": 2058
+    },
+    {
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2020/04/PopUp-Spedizione-Gratuita-E-Shop.png",
+      "kb": 185
+    },
+    {
+      "url": "https://www.lucanellapasta.com/",
+      "kb": 64
+    },
+    {
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2017/12/header-1.jpg",
+      "kb": 58
+    },
+    {
+      "url": "https://www.lucanellapasta.com/wp-content/plugins/google-language-translator/images/flags.png",
+      "kb": 54
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cky-consent-container cky-banner-bottom",
+      "copre": "50%",
+      "testo": "INFORMATIVA COOKIE Questo sito utilizza cookie tecnici, anche di terze parti, per offrire una migliore esperienza di nav"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [
+    "lucanella@lucanellapasta.it"
+  ],
+  "telefono": [
+    "+390973644073"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.lucanellapasta.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.lucanellapasta.com/contatti/"
+    },
+    {
+      "t": "Info, Pagamenti e Spedizioni",
+      "h": "https://www.lucanellapasta.com/info-pagamenti-e-spedizioni/"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.lucanellapasta.com/termini-e-condizioni/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.lucanellapasta.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.lucanellapasta.com/contatti/"
+    },
+    {
+      "t": "Info, Pagamenti e Spedizioni",
+      "h": "https://www.lucanellapasta.com/info-pagamenti-e-spedizioni/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+  "rispostaServer": [
+    {
+      "ms": 593,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 148,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 148,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-presentazione-video-4.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-video-Eshop-1-3.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-video-Eshop-1-3.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-presentazione-video-4.mp4"
+    }
+  ]
+}

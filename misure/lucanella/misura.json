@@ -1,12 +1,12 @@
 {
   "slug": "lucanella",
   "url": "https://www.lucanellapasta.com/shop",
-  "misuratoIl": "2026-10-19T21:25:11.825Z",
+  "misuratoIl": "2026-10-21T02:14:53.022Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 12378,
-  "lcpMs": 7327,
+  "caricamentoTotaleMs": 11357,
+  "lcpMs": 4961,
   "lcpElemento": "IMG https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_750,h_500/https://www.lucanellapasta.com/wp-content/uploads",
   "cls": 0.025,
   "urlFinale": "https://www.lucanellapasta.com/shop/",
@@ -15,22 +15,22 @@
   "h1": [
     "SHOP"
   ],
-  "ttfb": 5890,
-  "fcp": 6614,
-  "domReady": 7145,
-  "load": 12378,
-  "pesoKB": 25077,
-  "richieste": 169,
+  "ttfb": 2862,
+  "fcp": 3985,
+  "domReady": 4652,
+  "load": 11355,
+  "pesoKB": 25391,
+  "richieste": 171,
   "script": 10,
   "serviziEsterni": [
     "cdn-cookieyes.com",
     "fonts.googleapis.com",
     "www.googletagmanager.com",
     "sp-ao.shortpixel.ai",
-    "log.cookieyes.com",
-    "cdn.trustindex.io",
     "cdn.jsdelivr.net",
+    "cdn.trustindex.io",
     "cdn.gtranslate.net",
+    "log.cookieyes.com",
     "lh3.googleusercontent.com"
   ],
   "immaginiPiuPesanti": [
@@ -118,17 +118,17 @@
   "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
   "rispostaServer": [
     {
-      "ms": 2624,
+      "ms": 2674,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 1908,
+      "ms": 1618,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 1859,
+      "ms": 1734,
       "status": 200,
       "cache": null
     }
@@ -136,19 +136,19 @@
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-presentazione-video-4.mp4"
-    },
-    {
-      "status": 999,
-      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-video-Eshop-1-3.mp4"
-    },
-    {
-      "status": 999,
       "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-video-Eshop-1-3.mp4"
     },
     {
       "status": 999,
       "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-presentazione-video-4.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-presentazione-video-4.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-video-Eshop-1-3.mp4"
     }
   ]
 }
