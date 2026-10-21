@@ -1,0 +1,105 @@
+{
+  "slug": "lucanella-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/pasta-fresca/",
+  "misuratoIl": "2026-10-21T02:58:10.809Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 302,
+  "lcpMs": 232,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/lucanella-shop/pasta-fresca/",
+  "titolo": "Pasta fresca artigianale lucana – Pastificio Lucanella",
+  "descrizione": "Pasta fresca Lucanella: 18 formati tipici lucani da 500 g a 1,80 €. Spedizione gratuita sopra 39,90 €. Bozza di restyling.",
+  "h1": [
+    "Pasta fresca"
+  ],
+  "ttfb": 89,
+  "fcp": 232,
+  "domReady": 222,
+  "load": 298,
+  "pesoKB": 373,
+  "richieste": 21,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/pasta-fresca/img/37bc688cdb93.webp",
+      "kb": 26
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/pasta-fresca/img/b4cc672c3809.webp",
+      "kb": 26
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/pasta-fresca/img/537f666dda89.webp",
+      "kb": 23
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/pasta-fresca/img/80a6950ec549.webp",
+      "kb": 23
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/pasta-fresca/img/eb15ecb220c9.webp",
+      "kb": 21
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "lucanella@lucanellapasta.it"
+  ],
+  "telefono": [
+    "+390973644073"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 8,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

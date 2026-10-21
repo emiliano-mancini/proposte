@@ -1,0 +1,110 @@
+{
+  "slug": "mulinovaldorcia-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/pici-senatore-cappelli/",
+  "misuratoIl": "2026-10-21T02:58:18.763Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 233,
+  "lcpMs": 198,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/pici-senatore-cappelli/img/8e2017cc7e9b.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/pici-senatore-cappelli/",
+  "titolo": "Pici di grano duro Senatore Cappelli – Mulino Val d’Orcia",
+  "descrizione": "Pici di grano duro Senatore Cappelli biologica del Mulino Val d’Orcia, Pienza. Spedizione gratuita da 60 €. Bozza di restyling.",
+  "h1": [
+    "Pici di grano duro Senatore Cappelli"
+  ],
+  "ttfb": 89,
+  "fcp": 154,
+  "domReady": 116,
+  "load": 230,
+  "pesoKB": 212,
+  "richieste": 9,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/pici-senatore-cappelli/img/a774b385d3eb.webp",
+      "kb": 56
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/pici-senatore-cappelli/img/3bd9890f9b5d.webp",
+      "kb": 36
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/pici-senatore-cappelli/img/f94547079769.webp",
+      "kb": 18
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/pici-senatore-cappelli/img/8e2017cc7e9b.webp",
+      "kb": 18
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/pici-senatore-cappelli/img/f57da60c2676.webp",
+      "kb": 15
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 605,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@mulinovaldorcia.it"
+  ],
+  "telefono": [
+    "+3905781965619",
+    "+393668155437"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni, pagamenti e resi →",
+      "h": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

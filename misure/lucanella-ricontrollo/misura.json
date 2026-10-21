@@ -1,0 +1,154 @@
+{
+  "slug": "lucanella-ricontrollo",
+  "url": "https://www.lucanellapasta.com/shop/",
+  "misuratoIl": "2026-10-21T02:58:33.757Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 11230,
+  "lcpMs": 4278,
+  "lcpElemento": "IMG https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_750,h_500/https://www.lucanellapasta.com/wp-content/uploads",
+  "cls": 0.025,
+  "urlFinale": "https://www.lucanellapasta.com/shop/",
+  "titolo": "Shop - Pastificio Lucanella. Il sapore che cercavi.",
+  "descrizione": "Acquista Pasta Lucanella dal nostro Shop online. Scopri i formati di Pasta Fresca e Pasta Secca disponibili. Spedizioni con Corriere al tuo indirizzo.",
+  "h1": [
+    "SHOP"
+  ],
+  "ttfb": 853,
+  "fcp": 3255,
+  "domReady": 3915,
+  "load": 11228,
+  "pesoKB": 25392,
+  "richieste": 171,
+  "script": 10,
+  "serviziEsterni": [
+    "cdn-cookieyes.com",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "sp-ao.shortpixel.ai",
+    "cdn.trustindex.io",
+    "cdn.jsdelivr.net",
+    "cdn.gtranslate.net",
+    "log.cookieyes.com",
+    "lh3.googleusercontent.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2018/06/Pasta-fresca-ok.png",
+      "kb": 2845
+    },
+    {
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2018/06/CAVATELLI-MISTI-ok.png",
+      "kb": 2256
+    },
+    {
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2018/05/LOGO-def.jpg",
+      "kb": 2056
+    },
+    {
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2018/06/Foglie-dulvo-formato-pasta-secca-ok.png",
+      "kb": 1888
+    },
+    {
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2018/06/ORECCHIETTE-MISTE-ok.png",
+      "kb": 1776
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cky-consent-container cky-banner-bottom",
+      "copre": "50%",
+      "testo": "INFORMATIVA COOKIE Questo sito utilizza cookie tecnici, anche di terze parti, per offrire una migliore esperienza di nav"
+    },
+    {
+      "id": "sgpb-popup-dialog-main-div-theme-wrapper-1 sg-animated sgpb-",
+      "copre": "43%",
+      "testo": "Spedizione Gratuita in Italia per ordini di importo superiore a € 39,90. Approfittane subito. Ordina nel nostro Shop!"
+    },
+    {
+      "id": "sgpb-theme-1-overlay sgpb-popup-overlay-3853 sgpb-popup-over",
+      "copre": "100%",
+      "testo": ""
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lucanella@lucanellapasta.it"
+  ],
+  "telefono": [
+    "+390973644073"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.lucanellapasta.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.lucanellapasta.com/contatti/"
+    },
+    {
+      "t": "Info, Pagamenti e Spedizioni",
+      "h": "https://www.lucanellapasta.com/info-pagamenti-e-spedizioni/"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.lucanellapasta.com/termini-e-condizioni/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.lucanellapasta.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.lucanellapasta.com/contatti/"
+    },
+    {
+      "t": "Info, Pagamenti e Spedizioni",
+      "h": "https://www.lucanellapasta.com/info-pagamenti-e-spedizioni/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+  "rispostaServer": [
+    {
+      "ms": 826,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 162,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 162,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-presentazione-video-4.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-video-Eshop-1-3.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-video-Eshop-1-3.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.lucanellapasta.com/wp-content/uploads/2025/09/Lucanella-presentazione-video-4.mp4"
+    }
+  ]
+}

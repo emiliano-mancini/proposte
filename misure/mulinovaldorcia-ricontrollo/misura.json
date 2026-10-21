@@ -1,0 +1,172 @@
+{
+  "slug": "mulinovaldorcia-ricontrollo",
+  "url": "https://www.mulinovaldorcia.it/",
+  "misuratoIl": "2026-10-21T02:59:02.708Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 23973,
+  "lcpMs": 9052,
+  "lcpElemento": "DIV https://www.mulinovaldorcia.it/wp-content/uploads/2020/03/slider.jpg",
+  "cls": 0.256,
+  "urlFinale": "https://www.mulinovaldorcia.it/",
+  "titolo": "Mulino Val d'Orcia – Prodotti biologici partendo dal chicco di grano fino ad arrivare sulla tua tavola",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 4620,
+  "fcp": 5502,
+  "domReady": 7754,
+  "load": 23971,
+  "pesoKB": 13263,
+  "richieste": 177,
+  "script": 74,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "cdn.jsdelivr.net",
+    "invitejs.trustpilot.com",
+    "www.google-analytics.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "connect.facebook.net",
+    "sendcloud-checkout-static-data.sendcloud.sc"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.mulinovaldorcia.it/wp-content/uploads/2026/01/FARINA-GT-INTEGRALE-copia.png",
+      "kb": 5358
+    },
+    {
+      "url": "https://www.mulinovaldorcia.it/wp-content/uploads/2025/02/offerte-cat.png",
+      "kb": 885
+    },
+    {
+      "url": "https://www.mulinovaldorcia.it/wp-content/uploads/2024/02/categoria-experience-768x768.png",
+      "kb": 617
+    },
+    {
+      "url": "https://www.mulinovaldorcia.it/wp-content/uploads/2020/03/IMG_3355.jpg",
+      "kb": 460
+    },
+    {
+      "url": "https://www.mulinovaldorcia.it/wp-content/uploads/2020/03/IMG_2625.jpg",
+      "kb": 325
+    }
+  ],
+  "scorrimentoOrizzontale": true,
+  "sovrapposizioni": [
+    {
+      "id": "pum-11013",
+      "copre": "100%",
+      "testo": "Avviso sulle consegne A causa delle proteste degli autotrasportatori, le consegne potrebbero subire ritardi rispetto ai "
+    },
+    {
+      "id": "cookieChoiceInfo",
+      "copre": "28%",
+      "testo": "Questo sito usa cookies tecniche, di analisi e di terze parti per agevolare e rendere più efficace l'esperienza dell'ute"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "ACQUISTA ORA",
+    "yPx": 519,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [
+    "info@mulinovaldorcia.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.mulinovaldorcia.it/contatti/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.mulinovaldorcia.it/terms-and-conditons/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.mulinovaldorcia.it/contatti/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.mulinovaldorcia.it/terms-and-conditons/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.mulinovaldorcia.it/terms-and-conditons/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.mulinovaldorcia.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
+  "rispostaServer": [
+    {
+      "ms": 2913,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2057,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1944,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=221744635.1792551521&gtm=45He6aj1v834596332za200zd834596332xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&ae=g&auid=221744635.1792551521&dt=Mulino%20Val%20d%27Orcia%20%E2%80%93%20Prodotti%20biologici%20partendo%2"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-8GJL7Y44NC&gtm=45je6aj1v9126722887z8835360214za20gxf1&_p=1792551520343&_gaz=1&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&d"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/960823087/?random=1792551521096&cv=11&fst=1792551521096&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6aj1z8834596332za20gzb834596"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=221744635.1792551521&dt=Mulino%20Val%20d%27Orcia%20%E2%80%93%20Prodotti%20biologici%20partendo%"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-7TMP3WFDJF&gtm=45je6aj1v9134479619za20gxf1&_p=1792551520343&_gaz=1&gcs=G1--&gcd=13l3l3l3l6l1&npa=0&dma=0&gdid=d"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/960823087/?random=1792551522427&cv=11&fst=1792551522427&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6aj1z8d_AW-96"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&auid=221744635.1792551521&dt=Mulino%20Val%20d%27Orcia%20%E2%80%93%20Prodotti%20biologici%20partendo%20dal"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-8GJL7Y44NC&gtm=45je6aj1v9126722887za20oxf1&_p=1792551520343&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&gdid=dOGY3NW&"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/960823087/?random=1792551522671&cv=11&fst=1792551522671&fmt=8&bg=ffffff&guid=ON&async=1&en=view_item_list&gtm=45be6aj1za20gz"
+    }
+  ]
+}

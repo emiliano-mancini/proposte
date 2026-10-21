@@ -1,0 +1,109 @@
+{
+  "slug": "lucanella-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/",
+  "misuratoIl": "2026-10-21T02:58:06.618Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 343,
+  "lcpMs": 449,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/lucanella-shop/img/c70c7f9ff8ad.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/lucanella-shop/",
+  "titolo": "Pastificio Lucanella – pasta fresca e secca artigianale lucana, shop online",
+  "descrizione": "Pasta fresca e secca artigianale lucana da grano 100% italiano: 36 formati a 1,80 €, spedizione gratuita in Italia sopra 39,90 €. Bozza di restyling.",
+  "h1": [
+    "La pasta della Basilicata, a casa tua."
+  ],
+  "ttfb": 125,
+  "fcp": 337,
+  "domReady": 312,
+  "load": 340,
+  "pesoKB": 390,
+  "richieste": 14,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/img/0a543ff0b2d5.webp",
+      "kb": 91
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/img/c70c7f9ff8ad.webp",
+      "kb": 58
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/img/37bc688cdb93.webp",
+      "kb": 25
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/img/79ee0cac3e19.webp",
+      "kb": 24
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/lucanella-shop/img/537f666dda89.webp",
+      "kb": 23
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "lucanella@lucanellapasta.it"
+  ],
+  "telefono": [
+    "+390973644073"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni, pagamenti e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/lucanella-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 175,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

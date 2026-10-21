@@ -1,0 +1,102 @@
+{
+  "slug": "mulinovaldorcia-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/",
+  "misuratoIl": "2026-10-21T02:58:14.832Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 302,
+  "lcpMs": 299,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/img/27a935db41f0.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/",
+  "titolo": "Mulino Val d’Orcia – pasta di grani antichi, farine macinate a pietra, bio dal 1992",
+  "descrizione": "Pasta di grano duro Senatore Cappelli, farine macinate a pietra, farro, cereali e legumi biologici coltivati a Pienza dal 1992. Spedizione gratuita da 60 €. Bozza di restyling.",
+  "h1": [
+    "Dal nostro grano alla tua tavola."
+  ],
+  "ttfb": 84,
+  "fcp": 299,
+  "domReady": 279,
+  "load": 298,
+  "pesoKB": 311,
+  "richieste": 15,
+  "script": 0,
+  "serviziEsterni": [
+    "fonts.googleapis.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/img/27a935db41f0.webp",
+      "kb": 87
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/img/29769aede763.webp",
+      "kb": 36
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/img/f94547079769.webp",
+      "kb": 18
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/img/47078c96a558.webp",
+      "kb": 18
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/img/504836e55f50.webp",
+      "kb": 15
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@mulinovaldorcia.it"
+  ],
+  "telefono": [
+    "+3905781965619",
+    "+393668155437"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e aiuto",
+      "h": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/assistenza/#resi"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/mulinovaldorcia-shop/chi-siamo/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 7,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
