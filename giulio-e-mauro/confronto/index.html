@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Il sito di Giulio &amp; Mauro, oggi e domani</title>
+<link rel="preload" href="../fonts/fraunces-latin-full-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Fraunces";src:url(../fonts/fraunces-latin-full-normal.woff2) format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Fraunces";src:url(../fonts/fraunces-latin-full-italic.woff2) format("woff2");font-weight:100 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(../fonts/source-serif-4-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(../fonts/source-serif-4-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+:root{--paper:#ece6dc;--paper-2:#e3dbcd;--ink:#211a15;--ink-2:#3e342d;--line:rgba(33,26,21,.18);--wine:#8a2a3a;--wine-dark:#6d1f2d;--copper:#a35a30;--red:#c4161c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.06rem/1.6 "Source Serif 4",Georgia,serif}
+img{display:block;max-width:100%;height:auto}
+.draft{background:var(--ink);color:#f3eee6;font:600 .72rem/1 "Source Serif 4",serif;letter-spacing:.08em;text-transform:uppercase;text-align:center;padding:.5rem}
+.wrap{max-width:1100px;margin:0 auto;padding:0 clamp(1rem,4vw,2.5rem)}
+h1,h2{font-family:"Fraunces",Georgia,serif;font-weight:400;line-height:1.05;letter-spacing:-.015em;margin:0}
+h1{font-size:clamp(2.3rem,6vw,4.4rem);margin:2.6rem 0 1rem;text-wrap:balance}
+h1 em{font-style:italic;color:var(--wine)}
+h2{font-size:clamp(1.8rem,3.6vw,2.8rem);margin-bottom:1.4rem}
+.eyebrow{font:600 .78rem/1.3 "Source Serif 4",serif;letter-spacing:.16em;text-transform:uppercase;color:var(--copper);margin:0}
+.intro{color:var(--ink-2);max-width:40rem}
+section{padding:3rem 0}
+/* cursore prima/dopo */
+.ba{position:relative;width:min(100%,390px);margin:0 auto;aspect-ratio:780/1587;overflow:hidden;border:10px solid #1c1612;border-radius:28px;background:#1c1612;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .after{clip-path:inset(0 0 0 var(--p,50%))}
+.ba .handle{position:absolute;top:0;bottom:0;left:var(--p,50%);width:0;border-left:3px solid #fff;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
+.ba .knob{position:absolute;top:50%;left:0;transform:translate(-50%,-50%);width:52px;height:52px;border-radius:50%;background:#fff;color:var(--ink);display:grid;place-items:center;font:600 1.1rem/1 sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35)}
+.ba .lab{position:absolute;top:.8rem;padding:.3rem .7rem;border-radius:999px;font:600 .8rem/1 "Source Serif 4",serif;background:rgba(28,22,18,.85);color:#fff}
+.ba .lab.l{left:.8rem}.ba .lab.r{right:.8rem;background:var(--wine)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.hint{text-align:center;color:var(--ink-2);font-style:italic;margin-top:.8rem}
+/* problemi */
+.probs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.6rem}
+.prob{background:rgba(255,255,255,.45);border:1px solid var(--line);padding:1rem}
+.prob img{border:1px solid var(--line)}
+.prob h3{font:400 1.35rem/1.2 "Fraunces",serif;margin:1rem 0 .4rem}
+.prob p{margin:0;color:var(--ink-2);font-size:.98rem}
+.prob .src{font-size:.85rem;margin-top:.6rem;word-break:break-word}
+.quote{background:#fff;border:3px solid var(--red);border-radius:18px;padding:1rem;font:400 .95rem/1.5 "Source Serif 4",serif}
+.quote b{display:block;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2);margin-bottom:.4rem}
+/* numeri */
+.nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:2px solid var(--ink)}
+.nums div{padding:1.4rem 1rem 1.4rem 0}
+.nums b{display:block;font:300 clamp(1.8rem,4vw,2.8rem)/1.1 "Fraunces",serif}
+.nums b s{color:#8b7f74;text-decoration-thickness:2px}
+.nums b span{color:var(--wine)}
+.nums p{margin:.4rem 0 0;color:var(--ink-2);font-size:.95rem}
+.note{font-size:.88rem;color:var(--ink-2);margin-top:1rem}
+.cta{display:flex;justify-content:center;padding:1rem 0 3rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:60px;padding:1rem 2.2rem;border-radius:999px;background:var(--wine);color:#fff;text-decoration:none;font:600 1.2rem/1 "Source Serif 4",serif}
+.btn:hover{background:var(--wine-dark)}
+footer{background:#1c1612;color:#e6ddd1;padding:2.4rem 0;font-size:.95rem}
+footer a{color:#fff}
+@media (max-width:820px){.probs{grid-template-columns:1fr}.nums{grid-template-columns:1fr}.nums div{border-bottom:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<div class="draft">Proposta di restyling – bozza non ufficiale</div>
+<main class="wrap">
+  <p class="eyebrow" style="margin-top:2.4rem">Giulio &amp; Mauro · Santa Massenza</p>
+  <h1>Il sito di Giulio &amp; Mauro, <em>oggi e domani</em></h1>
+  <p class="intro">Come appare oggi la prima schermata da telefono di giulioemauro.it, e come potrebbe apparire. Trascinate il cursore.</p>
+
+  <section aria-label="Prima e dopo">
+    <div class="ba" id="ba" style="--p:50%">
+      <img src="vecchio-mobile.jpg" width="780" height="1587" alt="Oggi: la prima schermata da telefono del sito attuale, con il banner dei cookie che copre metà schermo">
+      <img class="after" src="nuovo-mobile.jpg" width="780" height="1587" alt="Con noi: la prima schermata da telefono della bozza, con foto, titolo e pulsante Chiama">
+      <span class="lab l">Oggi</span><span class="lab r">Con noi</span>
+      <div class="handle"><span class="knob" aria-hidden="true">↔</span></div>
+      <input type="range" min="0" max="100" value="50" aria-label="Sposta il confronto tra prima e dopo">
+    </div>
+    <p class="hint">Schermate da telefono, primo schermo.</p>
+  </section>
+
+  <section aria-labelledby="pb">
+    <h2 id="pb">Tre cose che oggi non funzionano</h2>
+    <div class="probs">
+      <article class="prob">
+        <img src="problema-cookie.jpg" width="700" height="778" alt="Il banner dei cookie, cerchiato in rosso, copre la metà inferiore della home da telefono" loading="lazy">
+        <h3>Il banner copre metà schermo</h3>
+        <p>Da telefono, in home, il banner dei cookie occupa il 42% dello schermo: il titolo e i contatti non si vedono.</p>
+      </article>
+      <article class="prob">
+        <img src="problema-contatti.jpg" width="700" height="841" alt="La pagina Contatti da telefono: il primo schermo, cerchiato in rosso, mostra solo una foto, senza indirizzo né telefono" loading="lazy">
+        <h3>Contatti senza contatti</h3>
+        <p>Aprendo la pagina Contatti da telefono, il primo schermo è una foto di un tralcio: indirizzo e telefono arrivano solo scorrendo.</p>
+      </article>
+      <article class="prob">
+        <div class="quote"><b>Testo presente nella pagina Contatti</b>«Ctra. de Sant Sadurni a Ordal, Km.4 Els Casots – 08739 Subirats – Barcelona»<br>«Tel. +45 145 66 37»</div>
+        <h3>Indirizzo e telefono del modello</h3>
+        <p>Accanto all'indirizzo vero compaiono un indirizzo di Barcellona e un numero di prova, rimasti dal modello grafico del sito.</p>
+        <p class="src">Pagina: giulioemauro.it/contatti/</p>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="nm">
+    <h2 id="nm">Tre numeri, prima e dopo</h2>
+    <div class="nums">
+      <div><b><s>5,1 MB</s> → <span>1,4 MB</span></b><p>Peso della home caricata da telefono</p></div>
+      <div><b><s>105</s> → <span>21</span></b><p>File scaricati per aprire la home</p></div>
+      <div><b><s>42%</s> → <span>0%</span></b><p>Schermo coperto da banner al primo accesso</p></div>
+    </div>
+    <p class="note">Misure da telefono (Chrome, cache vuota). Sito attuale misurato il 22 ottobre 2026; la bozza non ha ancora banner dei cookie perché non usa servizi esterni.</p>
+  </section>
+
+  <div class="cta"><a class="btn" href="../">Guarda il sito nuovo</a></div>
+</main>
+<footer>
+  <div class="wrap">
+    <p style="margin:0 0 .4rem">Bozza preparata da Emiliano e Loris – LMSoftique</p>
+    <p style="margin:0"><a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></p>
+  </div>
+</footer>
+<script>
+(function () {
+  var ba = document.getElementById('ba'), r = ba.querySelector('input');
+  function set(v) { ba.style.setProperty('--p', v + '%'); }
+  r.addEventListener('input', function () { set(r.value); });
+  function fromX(x) { var b = ba.getBoundingClientRect(); var v = Math.max(0, Math.min(100, (x - b.left) / b.width * 100)); r.value = v; set(v); }
+  var drag = false;
+  ba.addEventListener('pointerdown', function (e) { drag = true; fromX(e.clientX); });
+  window.addEventListener('pointermove', function (e) { if (drag) fromX(e.clientX); });
+  window.addEventListener('pointerup', function () { drag = false; });
+  ba.addEventListener('touchmove', function (e) { if (e.touches[0]) fromX(e.touches[0].clientX); }, { passive: true });
+})();
+</script>
+</body>
+</html>

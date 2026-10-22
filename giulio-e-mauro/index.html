@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Giulio &amp; Mauro – Cantina e distilleria a Santa Massenza (proposta di restyling)</title>
+<meta name="description" content="Cantina e distilleria artigiana di famiglia a Santa Massenza, in Trentino: vini, grappe, liquori, olio e aceto. Bozza non ufficiale di restyling.">
+<meta name="theme-color" content="#ece6dc">
+<link rel="preload" href="fonts/fraunces-latin-full-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/source-serif-4-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/lago-calice.jpg" as="image" fetchpriority="high" media="(max-width: 899px)">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<style>
+@font-face{font-family:"Fraunces";src:url(fonts/fraunces-latin-full-normal.woff2) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Fraunces";src:url(fonts/fraunces-latin-full-italic.woff2) format("woff2");font-weight:100 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-latin-400-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+
+:root{
+  --paper:#ece6dc; --paper-2:#e3dbcd; --ink:#211a15; --ink-2:#3e342d; --line:rgba(33,26,21,.18);
+  --wine:#8a2a3a; --wine-dark:#6d1f2d; --copper:#a35a30; --copper-light:#d99a68; --lake:#24656d;
+  --night:#1c1612; --night-2:#2a211b; --cream:#f3eee6;
+  --vng-fg:var(--ink); --vng-muted:var(--ink-2); --vng-bg:var(--paper); --vng-surface:rgba(255,255,255,.35);
+  --vng-line:var(--line); --vng-accent:var(--wine); --vng-accent-fg:#fff;
+  --serif-d:"Fraunces",Georgia,"Times New Roman",serif; --serif:"Source Serif 4",Georgia,serif;
+  --pad:clamp(1.1rem,4vw,3.5rem); --max:1320px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.65 var(--serif);text-rendering:optimizeLegibility}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif-d);font-weight:400;line-height:1.02;letter-spacing:-.015em;margin:0;font-optical-sizing:auto}
+p{margin:0 0 1em}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.eyebrow{font:600 .78rem/1.3 var(--serif);letter-spacing:.16em;text-transform:uppercase;color:var(--copper);margin:0 0 1rem}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:0}.skip:focus{left:1rem;top:2.6rem;z-index:99;background:#fff;padding:.5rem 1rem}
+
+/* bozza */
+.draft{position:fixed;top:0;left:0;right:0;z-index:60;background:var(--ink);color:var(--cream);font:600 .72rem/1 var(--serif);letter-spacing:.08em;text-transform:uppercase;text-align:center;padding:.5rem .8rem}
+
+/* header */
+.top{position:fixed;top:1.72rem;left:0;right:0;z-index:50;transition:background .3s,box-shadow .3s}
+.top.is-solid{background:rgba(236,230,220,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:4rem}
+.brand img{height:52px;width:auto}
+.mnav{display:none}
+.brand{font:400 1.45rem/1 var(--serif-d);text-decoration:none;letter-spacing:-.01em;white-space:nowrap}
+.brand i{color:var(--wine);font-style:italic;padding:0 .08em}
+.brand small{display:block;font:600 .62rem/1.2 var(--serif);letter-spacing:.18em;text-transform:uppercase;color:var(--ink-2);margin-top:.25rem}
+.nav{display:flex;gap:1.6rem;align-items:center}
+.nav a{text-decoration:none;font-size:.95rem;color:var(--ink-2)}
+.nav a:hover{color:var(--wine)}
+.nav a.btn{color:#fff}.nav a.btn:hover{color:#fff}
+.btn{display:inline-flex;align-items:center;gap:.55rem;min-height:48px;padding:.7rem 1.35rem;border-radius:999px;background:var(--wine);color:#fff;text-decoration:none;font:600 1rem/1 var(--serif);border:0;transition:background .2s,transform .2s}
+.btn:hover{background:var(--wine-dark)}
+.btn svg{width:1.05em;height:1.05em;flex:none}
+.btn--ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn--ghost:hover{background:var(--ink);color:#fff}
+.btn--sm{min-height:44px;padding:.55rem 1.1rem;font-size:.95rem}
+.link{display:inline-flex;align-items:center;gap:.4rem;min-height:48px;font-weight:600;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.3em}
+.link:hover{color:var(--wine)}
+
+/* hero (collage) */
+.hero{position:relative;padding:calc(6rem + 1.72rem) 0 3rem;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:3rem;align-items:center;min-height:min(84vh,820px)}
+.hero h1{text-wrap:balance;font-size:clamp(2.6rem,5.2vw,4.6rem);font-weight:380;font-variation-settings:"SOFT" 50,"WONK" 0}
+.hero h1 em{font-style:italic;color:var(--wine);font-weight:340}
+.hero .lead{font-size:clamp(1.05rem,1.35vw,1.22rem);max-width:34rem;color:var(--ink-2);margin:1.6rem 0 2rem}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;align-items:center}
+.collage{position:relative;aspect-ratio:1/0.9;min-height:0}
+.collage figure{position:absolute;margin:0;overflow:hidden;box-shadow:0 30px 60px -25px rgba(33,26,21,.45);background:var(--paper-2)}
+.collage img,.collage picture{width:100%;height:100%;object-fit:cover;display:block}
+.c1{right:0;top:0;width:82%;aspect-ratio:4/5;z-index:2}.c1 img{object-position:58% 50%}
+.c4{left:0;bottom:0;width:30%;aspect-ratio:450/726;z-index:5;outline:10px solid var(--paper)}
+.collage figcaption{position:absolute;left:.6rem;bottom:.5rem;font:italic .78rem/1.2 var(--serif);color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.6)}
+
+/* cifre */
+.figures{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.figures ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr)}
+.figures li{padding:2rem 1.2rem 2.2rem;border-left:1px solid var(--line)}
+.figures li:first-child{border-left:0;padding-left:0}
+.figures b{display:block;font:300 clamp(2.4rem,4.6vw,4rem)/1 var(--serif-d);color:var(--ink);letter-spacing:-.03em}
+.figures b sup{font-size:.45em;vertical-align:top;position:relative;top:.35em}
+.figures span{display:block;margin-top:.6rem;color:var(--ink-2);font-size:.98rem;line-height:1.4}
+
+/* la casa */
+.casa{padding:clamp(4rem,9vw,8rem) 0}
+.casa .wrap{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:1.5rem}
+.casa h2{grid-column:1/7;font-size:clamp(2.1rem,4.4vw,3.9rem)}
+.casa h2 em{font-style:italic;color:var(--wine)}
+.casa .txt{grid-column:1/6;columns:1;margin-top:2rem;font-size:1.12rem}
+.casa .txt p:first-child::first-letter{float:left;font:400 4.6rem/.82 var(--serif-d);color:var(--wine);padding:.32rem .55rem 0 0}
+.casa .ph1{grid-column:7/13;grid-row:1/4;align-self:start}
+.casa .ph1 img{width:100%;height:100%;object-fit:cover}
+.casa .ph1{aspect-ratio:3/4;overflow:hidden}
+.cap{font:italic .88rem/1.4 var(--serif);color:var(--ink-2);margin-top:.6rem}
+.grapes{grid-column:1/6;align-self:start;margin-top:1.5rem;border-top:2px solid var(--ink);padding-top:1rem}
+.grapes h3{font:600 .78rem/1.3 var(--serif);letter-spacing:.16em;text-transform:uppercase;color:var(--copper);margin-bottom:.6rem}
+.grapes ul{list-style:none;margin:0;padding:0;font:400 1.35rem/1.35 var(--serif-d)}
+
+/* distilleria (capitolo scuro) */
+.distilleria{background:var(--night);color:var(--cream);padding:clamp(4rem,9vw,8rem) 0;position:relative}
+.distilleria .eyebrow{color:var(--copper-light)}
+.distilleria h2{font-size:clamp(2.3rem,5vw,4.6rem);max-width:15ch}
+.distilleria h2 em{font-style:italic;color:var(--copper-light)}
+.cotta{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(2rem,5vw,5rem);margin-top:3.5rem;align-items:start}
+.cotta__left{display:grid;gap:1.4rem}
+.cotta__photo{position:relative;aspect-ratio:3/4;overflow:hidden}
+.cotta__photo--fam{aspect-ratio:16/10}
+.cotta__photo img{width:100%;height:100%;object-fit:cover}
+.cotta__photo figcaption{position:absolute;left:0;right:0;bottom:0;padding:2.5rem 1rem 1rem;background:linear-gradient(transparent,rgba(0,0,0,.7));font:italic .9rem/1.4 var(--serif)}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s}
+.steps>li{padding:0 0 3.2rem 4.2rem;position:relative;counter-increment:s}
+.steps>li::before{content:counter(s,decimal-leading-zero);position:absolute;left:0;top:.2rem;font:300 1.6rem/1 var(--serif-d);color:var(--copper-light)}
+.steps h3{font-size:clamp(1.6rem,2.4vw,2.2rem);margin-bottom:.8rem}
+.steps p{color:#d9d0c4;max-width:36rem;font-size:1.08rem}
+.steps img{margin-top:1.2rem;width:100%;aspect-ratio:16/9;object-fit:cover}
+/* firma: teste / cuore / code */
+.taglio{margin-top:1.4rem;max-width:30rem}
+.taglio__bar{display:grid;grid-template-columns:1fr 2.2fr 1fr;height:4.2rem;border:1px solid rgba(243,238,230,.35);position:relative;overflow:hidden}
+.taglio__bar span{display:flex;align-items:flex-end;padding:.45rem .6rem;font:600 .78rem/1 var(--serif);letter-spacing:.12em;text-transform:uppercase;color:#cfc5b8;border-left:1px solid rgba(243,238,230,.25);position:relative;z-index:2}
+.taglio__bar span:first-child{border-left:0}
+.taglio__bar .cuore{color:#fff}
+.taglio__fill{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(163,90,48,.35) 0 21.5%,var(--copper) 21.5% 78.5%,rgba(163,90,48,.35) 78.5%);transform-origin:left center}
+.taglio__legend{display:flex;justify-content:space-between;font:italic .9rem/1.4 var(--serif);color:#cfc5b8;margin-top:.6rem;gap:1rem}
+.quote{font:italic 300 clamp(1.5rem,2.6vw,2.2rem)/1.25 var(--serif-d);color:var(--cream);border-left:2px solid var(--copper);padding-left:1.2rem;margin:0 0 1rem;max-width:30ch}
+
+/* prodotti */
+.prodotti{padding:clamp(4rem,9vw,8rem) 0 clamp(3rem,6vw,5rem)}
+.prodotti__head{display:flex;justify-content:space-between;align-items:end;gap:2rem;flex-wrap:wrap;margin-bottom:2.6rem}
+.prodotti h2{font-size:clamp(2.3rem,5vw,4.6rem)}
+.prodotti h2 em{font-style:italic;color:var(--wine)}
+.prodotti__head p{max-width:30rem;color:var(--ink-2);margin:0}
+.shelf{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2.4rem 1.6rem}
+.bottle{margin:0}
+.bottle__img{aspect-ratio:4/5;overflow:hidden;background:var(--paper-2)}
+.bottle__img img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.22,1,.36,1)}
+.bottle:hover .bottle__img img{transform:scale(1.04)}
+.bottle h3{font-size:1.55rem;margin:.9rem 0 .25rem}
+.bottle p{margin:0;font-size:1rem;line-height:1.5;color:var(--ink-2)}
+.bottle .kind{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:.8rem!important;font:600 .75rem/1.3 var(--serif);letter-spacing:.14em;text-transform:uppercase;color:var(--copper);margin-bottom:.35rem}
+.index{margin-top:clamp(4rem,7vw,6rem);display:grid;grid-template-columns:minmax(0,3fr) repeat(3,minmax(0,3fr));gap:2rem;border-top:2px solid var(--ink);padding-top:1.6rem}
+.index h3{font-size:1.8rem}
+.index h4{font:600 .78rem/1.3 var(--serif);letter-spacing:.16em;text-transform:uppercase;color:var(--copper);margin:0 0 .8rem}
+.index ul{list-style:none;margin:0;padding:0;font-size:1.02rem;line-height:1.75}
+.index ul a{text-decoration:none;display:inline-block;padding:.12rem 0}.index ul a:hover{color:var(--wine);text-decoration:underline}
+.index summary{list-style:none;cursor:default}.index summary::-webkit-details-marker{display:none}
+.index h4 span{color:var(--ink-2);font-weight:400;letter-spacing:0;margin-left:.3rem}
+.index li small{color:var(--ink-2);font-style:italic}
+.index .shop{grid-column:1;align-self:start}
+.index .shop p{color:var(--ink-2);margin:.8rem 0 1rem}
+.index .vng-hbtn{background:var(--ink);color:#fff;border-color:var(--ink);min-height:48px}
+
+/* vendemmia */
+.vendemmia{padding:0 0 clamp(4rem,8vw,7rem)}
+.vend{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;align-items:start}
+.vend figure{margin:0;overflow:hidden}
+.vend img{width:100%;height:100%;object-fit:cover}
+.v1,.v2,.v3{grid-row:2;aspect-ratio:4/5}
+.vend .vtxt{grid-column:1/3;grid-row:1;padding:0 0 1.5rem;max-width:44rem}
+.vend .vtxt h2{font-size:clamp(1.9rem,3.4vw,3rem)}
+.vend .vtxt p{color:var(--ink-2);margin-top:1rem}
+
+/* territorio */
+.territorio{position:relative;min-height:92vh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#3b5560}
+.territorio picture,.territorio .bg{position:absolute;inset:-8% 0;}
+.territorio .bg img,.territorio picture img{width:100%;height:100%;object-fit:cover}
+.territorio::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 25%,rgba(10,18,20,.55) 55%,rgba(10,18,20,.9));pointer-events:none}
+.territorio .bg img,.territorio picture img{object-position:50% 78%}
+.territorio .wrap{position:relative;z-index:2;padding-bottom:clamp(2.5rem,6vw,5rem);width:100%}
+.territorio h2{font-size:clamp(2.4rem,6vw,5.4rem);max-width:13ch}
+.territorio h2 em{font-style:italic}
+.territorio .cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem;margin-top:2rem;max-width:62rem}
+.territorio .cols p{margin:0;font-size:1rem;color:#eef2f1;border-top:1px solid rgba(255,255,255,.45);padding-top:.8rem}
+.territorio .cols b{display:block;font:400 1.5rem/1.2 var(--serif-d);margin-bottom:.3rem;color:#fff}
+.photo-credit{position:absolute;right:var(--pad);top:1.2rem;z-index:2;font:italic .8rem/1 var(--serif);color:rgba(255,255,255,.85)}
+
+/* storia */
+.storia{padding:clamp(4rem,9vw,8rem) 0}
+.storia .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(2rem,6vw,6rem)}
+.storia h2{font-size:clamp(2.2rem,4.4vw,3.9rem)}
+.storia .intro p{color:var(--ink-2);margin-top:1.2rem;max-width:26rem}
+.storia .intro img{margin-top:2rem;aspect-ratio:4/5;object-fit:cover;width:100%;max-width:22rem}
+.vng-reveal{background:transparent;border:0;padding:0}
+.more{margin-top:1rem;min-height:48px;padding:.6rem 1.2rem;border:1px solid var(--ink);border-radius:999px;background:transparent;font:600 1rem/1 var(--serif);color:var(--ink);cursor:pointer}
+.is-short li:nth-child(n+5){display:none}
+.vng-reveal li{border-top:1px solid var(--line)}
+.vng-reveal li:last-child{border-bottom:1px solid var(--line)}
+.vng-reveal a{padding:1.25rem .4rem;align-items:baseline;gap:1.4rem;font:400 clamp(1.25rem,2vw,1.6rem)/1.25 var(--serif-d)}
+.vng-reveal a:hover,.vng-reveal a:focus-visible{background:rgba(255,255,255,.4)}
+.vng-reveal b{font:600 .8rem/1 var(--serif);letter-spacing:.06em;color:var(--copper);min-width:5.6rem}
+.vng-reveal small{font:italic 1rem/1.4 var(--serif);color:var(--ink-2);max-width:19rem;text-align:left}
+.vng-reveal img{width:7rem;height:9rem;left:-8.5rem}
+
+
+/* visita / contatti */
+.visita{background:var(--night);color:var(--cream);padding:clamp(4rem,9vw,8rem) 0 3rem}
+.visita .wrap{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:clamp(2rem,6vw,6rem);align-items:start}
+.visita .eyebrow{color:var(--copper-light)}
+.visita h2{font-size:clamp(2.4rem,5vw,4.8rem)}
+.visita h2 em{font-style:italic;color:var(--copper-light)}
+.visita dl{margin:2.2rem 0 0;display:grid;grid-template-columns:auto 1fr;gap:1rem 1.6rem}
+.visita dt{font:600 .74rem/1.9 var(--serif);letter-spacing:.16em;text-transform:uppercase;color:#bfb3a5}
+.visita dd{margin:0;font-size:1.12rem}
+.visita dd:first-of-type{font:400 1.45rem/1.3 var(--serif-d);color:#fff}
+.visita dd a{color:#fff;text-underline-offset:.25em}
+.visita .ctas{display:flex;flex-wrap:wrap;gap:.8rem 1.4rem;margin-top:2.4rem;align-items:center}
+.visita .link{color:#fff}
+.visita .btn--ghost{background:transparent;border:1px solid rgba(243,238,230,.5);color:#fff}
+.visita figure{margin:0}
+.visita figure img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.visita figcaption{font:italic .88rem/1.4 var(--serif);color:#bfb3a5;margin-top:.6rem}
+.foot{border-top:1px solid rgba(243,238,230,.18);margin-top:4rem;padding-top:1.6rem;font-size:.88rem;color:#bfb3a5;display:flex;flex-wrap:wrap;gap:.4rem 2rem;justify-content:space-between}
+.foot a{color:#e6ddd1}
+
+/* barra pollice (mobile) */
+.thumb{display:none}
+.thumb.is-off{opacity:0;transform:translateY(120%);pointer-events:none}
+.thumb{transition:opacity .3s,transform .4s cubic-bezier(.22,1,.36,1)}
+.shot .thumb{display:none!important}
+
+@media (max-width:1100px){
+  .nav a:not(.btn){display:none}
+}
+@media (max-width:900px){
+  body{font-size:1.03rem}
+  .hero{padding-top:calc(5.2rem + 1.72rem);padding-bottom:1.5rem}
+  .hero .wrap{grid-template-columns:1fr;gap:1.6rem;min-height:0}
+  .hero h1{font-size:clamp(2.35rem,10.6vw,3.6rem)}
+  .hero .lead{margin:1.1rem 0 1.4rem}
+  .collage{order:-1;align-self:stretch;width:auto;margin:0 calc(-1 * var(--pad));aspect-ratio:auto;height:38vh;max-height:360px}
+  .collage figure{box-shadow:none}
+  .hero{padding-top:calc(6.5rem + 1.72rem)!important}
+  .hero .wrap{display:flex;flex-direction:column}
+  .c1{left:0;right:auto;top:0;width:100%;height:100%;aspect-ratio:auto}.c1 img{object-position:50% 88%}.c4{left:auto;right:5%;bottom:-6%;width:24%;outline-width:6px}
+  .hero .ctas{gap:.5rem;flex-wrap:nowrap}
+  .hero .ctas .btn{padding:.7rem 1rem;font-size:.95rem}
+  .hero .lx{display:none}
+  .figures ul{grid-template-columns:1fr 1fr}
+  .figures li{padding:1.4rem 1rem 1.5rem}
+  .figures li:nth-child(odd){border-left:0;padding-left:0}
+  .figures li:nth-child(n+3){border-top:1px solid var(--line)}
+  .casa .wrap{display:block}
+  .casa .ph1{margin-top:2rem}
+  .grapes{margin-top:2rem}
+  .grapes ul{display:flex;flex-wrap:wrap;gap:.1rem .9rem;font-size:1.2rem}
+  .cotta{grid-template-columns:1fr}
+  .cotta__left{grid-template-columns:1fr 1fr;gap:.6rem}
+  .cotta__photo,.cotta__photo--fam{aspect-ratio:2/3}
+  .cotta__photo figcaption{font-size:.78rem;padding:2rem .6rem .6rem}
+  .steps img{display:none}
+  .steps>li{padding-bottom:2.2rem}
+  .steps>li{padding-left:3.2rem}
+  .shelf{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:1rem;margin:0 calc(-1 * var(--pad));padding:0 var(--pad) 1rem;scroll-padding-left:var(--pad);scrollbar-width:none}
+  .shelf::-webkit-scrollbar{display:none}
+  .shelf li{flex:0 0 80%;scroll-snap-align:start}
+  .bottle h3{font-size:1.3rem}
+  .bottle p{font-size:.92rem}
+  .index{grid-template-columns:1fr;gap:0}
+  .index .col{border-bottom:1px solid var(--line)}
+  .index summary{cursor:pointer;padding:1rem 0;min-height:48px;display:flex;align-items:center;justify-content:space-between}
+  .index summary::after{content:'+';font:300 1.6rem/1 var(--serif-d);color:var(--wine)}
+  .index details[open] summary::after{content:'−'}
+  .index h4{margin:0}
+  .index ul{padding-bottom:1rem}
+  .index .shop{padding-bottom:1.2rem}
+  .index .shop{grid-column:1/-1}
+  .vend{display:flex;flex-direction:column;gap:1rem}
+  .vend .vtxt{order:-1}
+  .vend{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+  .vend .vtxt{grid-column:1/-1;grid-row:1}
+  .vend .v1{grid-column:1/-1;grid-row:2;aspect-ratio:4/3}
+  .vend .v2,.vend .v3{grid-row:3;aspect-ratio:1/1}
+  .territorio{min-height:auto;display:block;background:var(--paper-2);color:var(--ink)}
+  .territorio .cols p{color:var(--ink-2);border-top-color:var(--line)}
+  .territorio .cols b{color:var(--ink)}
+  .territorio .eyebrow{color:var(--copper)!important}
+  .territorio .bg{position:relative;inset:auto;aspect-ratio:4/3}
+  .territorio::after{display:none}
+  .territorio .wrap{padding-top:1.8rem}
+  .territorio .cols{grid-template-columns:1fr;gap:1rem}
+  .storia .wrap,.visita .wrap{grid-template-columns:1fr}
+  .storia .intro img{display:none}
+  .vng-reveal a{flex-wrap:wrap;gap:.4rem 1rem}
+  .vng-reveal b{min-width:0;width:100%}
+  .vng-reveal small{text-align:left;margin-left:0;max-width:none}
+  .vng-reveal img{display:none}
+  .thumb{display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:.45rem;position:fixed;left:.6rem;right:.6rem;bottom:calc(.6rem + env(safe-area-inset-bottom));z-index:55;padding:.45rem;background:rgba(28,22,18,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:999px;box-shadow:0 12px 30px -10px rgba(0,0,0,.5)}
+  .thumb a{display:flex;align-items:center;justify-content:center;gap:.45rem;min-height:48px;border-radius:999px;text-decoration:none;color:#fff;font:600 .95rem/1 var(--serif)}
+  .thumb a:first-child{background:var(--wine)}
+  .thumb svg{width:1.05em;height:1.05em}
+  .foot{padding-bottom:4.8rem;margin-top:2.5rem}
+  .top .btn--ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.btn--ghost:hover{background:var(--ink);color:#fff}
+.btn--sm{display:none}
+  .brand img{height:40px}
+  .top .wrap{height:3.3rem}
+  .mnav{display:flex;gap:.3rem;overflow-x:auto;padding:0 var(--pad) .5rem;scrollbar-width:none;background:inherit}
+  .mnav::-webkit-scrollbar{display:none}
+  .mnav a{flex:none;display:flex;align-items:center;min-height:38px;padding:0 .8rem;font-size:.88rem!important;border:1px solid var(--line);border-radius:999px;font-size:.92rem;text-decoration:none;color:var(--ink);background:rgba(255,255,255,.35)}
+  .top{background:rgba(236,230,220,.96)}
+  .hero{padding-top:calc(8.4rem + 1.72rem)}
+  .hero .collage .c4{display:none}
+  .hero .lead{font-size:.98rem;line-height:1.5;margin:.8rem 0 1.1rem}
+  .hero .eyebrow{margin-bottom:.6rem;font-size:.72rem}
+  .hero h1{font-size:clamp(2rem,9vw,3.2rem)}
+  .brand{font-size:1.3rem}
+}
+@media (max-width:420px){
+  .index{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+.shot .top{position:absolute}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<div class="draft" role="note">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="brand" href="#main"><img src="img/logo-giulio-e-mauro.png" width="553" height="170" alt="Giulio &amp; Mauro, torna all'inizio"></a>
+    <nav class="nav" aria-label="Sezioni">
+      <a href="#prodotti">Vini e grappe</a>
+      <a href="#casa">La casa</a>
+      <a href="#distilleria">Distilleria</a>
+      <a href="#territorio">Santa Massenza</a>
+      <a href="#visita">Contatti</a>
+      <a class="btn btn--sm" href="tel:+390461864149" aria-label="Chiama 0461 864149"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg><span>0461 864149</span></a>
+    </nav>
+  </div>
+  <nav class="mnav" aria-label="Sezioni (telefono)"><a href="#prodotti">Vini e grappe</a><a href="#distilleria">Distilleria</a><a href="#visita">Contatti</a></nav>
+</header>
+
+<main id="main">
+
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap">
+    <div class="hero__text">
+      <p class="eyebrow">Cantina · Distilleria · Santa Massenza</p>
+      <h1 id="h1" data-split>Vino e grappa di famiglia, <em>sul&nbsp;lago di Santa&nbsp;Massenza.</em></h1>
+      <p class="lead">Azienda agricola fondata agli inizi del 1900, oggi alla quinta generazione<span class="lx">: quattro ettari di vigneto, circa 25.000 bottiglie l'anno e un'antica distilleria artigianale in rame che lavora ancora</span>.</p>
+      <div class="ctas">
+        <a class="btn" href="tel:+390461864149"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Chiama 0461 864149</a>
+        <a class="btn btn--ghost" href="https://www.giulioemauro.it/shop/">Vai allo shop</a>
+      </div>
+    </div>
+    <div class="collage" aria-label="Foto dell'azienda">
+      <figure class="c1" data-depth="-0.4"><picture><source media="(min-width: 900px)" srcset="https://www.giulioemauro.it/wp-content/uploads/2022/06/IMG_0220-copia.jpg"><img src="img/lago-calice.jpg" width="1078" height="719" alt="Un calice di vino rosato alzato davanti al lago e alle montagne" fetchpriority="high"></picture></figure>
+      <figure class="c4" data-depth="1.2"><img src="img/b-nosiola.jpg" width="450" height="719" alt="Bottiglia di Nosiola Giulio e Mauro con il calice"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="figures" aria-label="L'azienda in cifre">
+  <div class="wrap">
+    <ul>
+      <li><b>5<sup>a</sup></b><span>generazione di famiglia in cantina e in distilleria</span></li>
+      <li><b>4</b><span>ettari di vigneto tra il lago di Santa Massenza e il lago di Toblino</span></li>
+      <li><b>25.000</b><span>bottiglie l'anno, circa: meno quantità, più qualità</span></li>
+      <li><b>29</b><span>prodotti tra vini, grappe, liquori, olio e aceto</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="prodotti" id="prodotti" aria-labelledby="prod-h">
+  <div class="wrap">
+    <div class="prodotti__head">
+      <div>
+        <p class="eyebrow">Vini, grappe, liquori, olio e aceto</p>
+        <h2 id="prod-h" class="rv">La cantina, bottiglia per bottiglia.</h2>
+      </div>
+      <p>Ventinove prodotti tra vini, grappe, liquori, olio e aceto. Qui sotto alcuni, fotografati contro il muro di pietra della cantina; l'elenco completo è più in basso.</p>
+    </div>
+    <ul class="shelf">
+      <li><figure class="bottle"><div class="bottle__img"><img src="img/b-nosiola.jpg" width="450" height="719" alt="Bottiglia di Nosiola con il calice di vino bianco" loading="lazy"></div><figcaption><p class="kind">Vino</p><h3>Nosiola</h3><p>Dal vitigno bianco autoctono del Trentino. Delicato e fresco.</p></figcaption></figure></li>
+      <li><figure class="bottle"><div class="bottle__img"><img src="img/b-schiava.jpg" width="450" height="719" alt="Bottiglia di Schiava con il calice" loading="lazy"></div><figcaption><p class="kind">Vino</p><h3>Schiava</h3><p>Da uve Schiava, uno dei vitigni di casa.</p></figcaption></figure></li>
+      <li><figure class="bottle"><div class="bottle__img"><img src="img/b-saros.jpg" width="450" height="719" alt="Bottiglia di Saros con la sua scatola blu e il calice" loading="lazy"></div><figcaption><p class="kind">Vino dolce</p><h3>Saros</h3><p>Da uve Sauvignon attaccate dalla muffa nobile. Vino da meditazione.</p></figcaption></figure></li>
+      <li><figure class="bottle"><div class="bottle__img"><img src="img/b-grappa-santa-massenza.jpg" width="450" height="718" alt="Grappa Santa Massenza con la scatola dipinta e il bicchiere" loading="lazy"></div><figcaption><p class="kind">Grappa</p><h3>Santa Massenza</h3><p>Plurivitigno da vinacce di Schiava e Nosiola, a bagnomaria. 0,50 l, 41% vol.</p></figcaption></figure></li>
+      <li><figure class="bottle"><div class="bottle__img"><img src="img/b-grappa-1928.jpg" width="451" height="722" alt="Bottiglia della grappa 1928 con il suo cartellino" loading="lazy"></div><figcaption><p class="kind">Grappa</p><h3>1928</h3><p>Doppia distillazione di Schiava e Nosiola. 804 bottiglie, 0,50 l.</p></figcaption></figure></li>
+      <li><figure class="bottle"><div class="bottle__img"><img src="img/b-grappa-nosiola.jpg" width="450" height="719" alt="Bottiglia di grappa di Nosiola con il bicchiere a tulipano" loading="lazy"></div><figcaption><p class="kind">Grappa</p><h3>Nosiola</h3><p>Monovitigno, dalle vinacce del bianco di casa.</p></figcaption></figure></li>
+      <li><figure class="bottle"><div class="bottle__img"><img src="img/b-grappa-barrique.jpg" width="450" height="719" alt="Grappa Barrique con l'astuccio nero e il bicchiere" loading="lazy"></div><figcaption><p class="kind">Grappa</p><h3>Barrique</h3><p>Invecchiata in botti di legno piccole.</p></figcaption></figure></li>
+      <li><figure class="bottle"><div class="bottle__img"><img src="img/b-mugogin.jpg" width="448" height="721" alt="Bottiglia di Mugogin con il bicchiere" loading="lazy"></div><figcaption><p class="kind">Liquore</p><h3>Mugogin</h3><p>Alle gemme di pino mugo e ginepro. Fresco, balsamico e resinoso.</p></figcaption></figure></li>
+    </ul>
+
+    <div class="index">
+      <div class="shop">
+        <h3>Tutti i prodotti</h3>
+        <p>Si acquistano direttamente dallo shop online dell'azienda.</p>
+        <a class="vng-hbtn" href="https://www.giulioemauro.it/shop/"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Vai allo shop</span><span class="vng-hbtn__b" aria-hidden="true">Vai allo shop →</span></a>
+      </div>
+      <details class="col" open><summary><h4>Vini e spumanti <span>9</span></h4></summary><ul><li><a href="https://www.giulioemauro.it/product/nosiola-3/">Nosiola</a></li><li><a href="https://www.giulioemauro.it/product/giulio/">Giulio <small>Nosiola e Moscato giallo</small></a></li><li><a href="https://www.giulioemauro.it/product/schiava-3/">Schiava</a></li><li><a href="https://www.giulioemauro.it/product/schiava-santo-poli/">Schiava Santo Poli</a></li><li><a href="https://www.giulioemauro.it/product/cabernet/">Cabernet Sauvignon</a></li><li><a href="https://www.giulioemauro.it/product/negrara/">Negrara</a></li><li><a href="https://www.giulioemauro.it/product/saros/">Saros</a></li><li><a href="https://www.giulioemauro.it/product/extra-brut/">Extra Brut</a></li><li><a href="https://www.giulioemauro.it/product/rose-brut/">Rosè Brut</a></li></ul></details><details class="col" open><summary><h4>Grappe e distillati <span>14</span></h4></summary><ul><li><a href="https://www.giulioemauro.it/product/schiava-4/">Schiava</a></li><li><a href="https://www.giulioemauro.it/product/nosiola-4/">Nosiola</a></li><li><a href="https://www.giulioemauro.it/product/cabernet-2/">Cabernet</a></li><li><a href="https://www.giulioemauro.it/product/moscato-2/">Moscato</a></li><li><a href="https://www.giulioemauro.it/product/trentina-2-formati/">Trentina</a></li><li><a href="https://www.giulioemauro.it/product/santa-massenza/">Santa Massenza</a></li><li><a href="https://www.giulioemauro.it/product/1928/">1928</a></li><li><a href="https://www.giulioemauro.it/product/acqua-arzente/">Acqua Arzente</a></li><li><a href="https://www.giulioemauro.it/product/barrique/">Barrique</a></li><li><a href="https://www.giulioemauro.it/product/cabernet-barrique/">Cabernet Barrique</a></li><li><a href="https://www.giulioemauro.it/product/grappa-stravecchia/">Stravecchia</a></li><li><a href="https://www.giulioemauro.it/product/asperula-2/">Asperula</a></li><li><a href="https://www.giulioemauro.it/product/amara-2/">Amara</a></li><li><a href="https://www.giulioemauro.it/product/fiaschetta-2/">Fiaschetta <small>0,10 l</small></a></li></ul></details><details class="col" open><summary><h4>Liquori, olio e aceto <span>6</span></h4></summary><ul><li><a href="https://www.giulioemauro.it/product/mela-verde/">Mela Verde</a></li><li><a href="https://www.giulioemauro.it/product/mirtillo/">Mirtillo</a></li><li><a href="https://www.giulioemauro.it/product/aliz/">Aliz</a></li><li><a href="https://www.giulioemauro.it/product/mugogin/">Mugogin</a></li><li><a href="https://www.giulioemauro.it/product/olio/">Olio extravergine</a></li><li><a href="https://www.giulioemauro.it/product/aceto/">Aceto di mosto cotto</a></li></ul></details>
+    </div>
+  </div>
+</section>
+
+<section class="casa" id="casa" aria-labelledby="casa-h">
+  <div class="wrap">
+    <h2 id="casa-h" class="rv">Una piccola cantina di famiglia, tra due laghi.</h2>
+    <div class="txt rv">
+      <p>Giulio &amp; Mauro è un'azienda agricola, cantina e distilleria di Santa Massenza, nel comune di Vallelaghi. Si lavora in piccolo: tecniche enologiche aggiornate e un naturale rispetto della tradizione.</p>
+      <p>Le vigne, circa quattro ettari, guardano il lago di Santa Massenza e il lago di Toblino. Dalle uve nascono vini bianchi e rossi, spumanti, e le vinacce passano nell'alambicco di casa per diventare grappa.</p>
+    </div>
+    <figure class="ph1" style="margin:0"><img src="img/casa.jpg" width="900" height="1197" alt="La casa dell'azienda a Santa Massenza, con il balcone in legno fiorito e il portone ad arco" loading="lazy"></figure>
+    <div class="grapes rv">
+      <h3>Le uve</h3>
+      <ul><li>Schiava</li><li>Nosiola</li><li>Moscato</li><li>Cabernet Sauvignon</li><li>Negrara</li></ul>
+    </div>
+  </div>
+</section>
+
+<section class="distilleria" id="distilleria" aria-labelledby="dist-h">
+  <div class="wrap">
+    <p class="eyebrow">La distilleria artigiana</p>
+    <h2 id="dist-h" class="rv">Un alambicco in rame del primo Novecento, <em>che lavora ancora.</em></h2>
+    <div class="cotta">
+      <div class="cotta__left">
+      <figure class="cotta__photo" style="margin:0">
+        <img src="img/alambicco-bagnomaria.jpg" width="900" height="1198" alt="L'alambicco discontinuo in rame su base in mattoni, con la scala in legno per caricare le vinacce" loading="lazy">
+        <figcaption>L'alambicco discontinuo a bagnomaria.</figcaption>
+      </figure>
+      <figure class="cotta__photo cotta__photo--fam" style="margin:0">
+        <img src="img/famiglia-alambicco.jpg" width="1080" height="615" alt="Una famiglia in posa in distilleria, accanto all'alambicco in rame" loading="lazy">
+        <figcaption>In distilleria, accanto all'alambicco.</figcaption>
+      </figure>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Le vinacce</h3>
+          <p>Nella caldaia entrano circa 200 kg di vinacce selezionate, scaldate lentamente con legna di pino e di larice.</p>
+          <img src="img/vinacce.jpg" width="886" height="950" alt="Vinacce pronte per la distillazione in una vasca" loading="lazy">
+        </li>
+        <li>
+          <h3>Il bagnomaria</h3>
+          <p>Negli anni Settanta Tullio Zadra introduce la distillazione a bagnomaria: tra la fiamma e la caldaia c'è una camicia d'acqua, che scalda in modo dolce e uniforme.</p>
+        </li>
+        <li>
+          <h3>Teste, cuore e code</h3>
+          <p>Una cotta dura da una a due ore. Il distillatore separa le teste e le code e tiene solo il cuore: la parte migliore, che diventa grappa.</p>
+          <div class="taglio" aria-hidden="true">
+            <div class="taglio__bar"><i class="taglio__fill"></i><span>Teste</span><span class="cuore">Cuore</span><span>Code</span></div>
+            <div class="taglio__legend"><span>scartate</span><span>la grappa</span><span>scartate</span></div>
+          </div>
+          <p class="sr">Schema: teste e code si scartano, il cuore diventa grappa.</p>
+        </li>
+        <li>
+          <h3>Nel bicchiere</h3>
+          <p class="quote">«La sapienza antica della distillazione si basa sulla lentezza del procedimento.»</p>
+          <p>Dalle vinacce di Schiava, Nosiola, Cabernet e Moscato nascono grappe monovitigno, plurivitigno e invecchiate.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+
+<section class="vendemmia" aria-labelledby="vend-h">
+  <div class="wrap vend">
+    <figure class="v1"><img src="img/vendemmia-camion.jpg" width="900" height="1193" alt="Il furgoncino verde carico di cassette rosse di uva nera tra le vigne a pergola" loading="lazy"></figure>
+    <div class="vtxt">
+      <p class="eyebrow">Vendemmia</p>
+      <h2 id="vend-h" class="rv">Uva scelta prima della raccolta.</h2>
+      <p>In vigna si seleziona l'uva prima della vendemmia, diminuendo la quantità ma favorendo la qualità. Dalle uve nasce il vino; le vinacce passano in distilleria.</p>
+    </div>
+    <figure class="v2"><img src="img/uva-bianca.jpg" width="1078" height="375" alt="Grappoli di uva bianca appena raccolti nella cassetta" loading="lazy"></figure>
+    <figure class="v3"><img src="img/cassetta-schiava.jpg" width="900" height="1196" alt="Una cassetta rossa piena di grappoli di uva nera" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="territorio" id="territorio" aria-labelledby="terr-h">
+  <div class="bg" data-parallax><picture><source media="(min-width: 1100px)" srcset="https://www.giulioemauro.it/wp-content/uploads/2022/06/santa_massenza.jpg"><img src="img/panorama-santa-massenza.jpg" width="1073" height="718" alt="Panorama della valle con il lago di Santa Massenza, il paese e le montagne" loading="lazy"></picture></div>
+  <div class="wrap">
+    <p class="eyebrow" style="color:#ffd9b8">Il territorio</p>
+    <h2 id="terr-h">Santa Massenza, tra due laghi.</h2>
+    <div class="cols">
+      <p><b>Le vigne</b>Circa quattro ettari vicino ai due laghi, su terreni calcarei, con forti differenze di temperatura tra il giorno e la notte.</p>
+      <p><b>Gli olivi</b>Santa Massenza è il limite più a nord della coltivazione mediterranea dell'olivo: qui cresce la Casaliva, da cui nasce l'olio extravergine.</p>
+      <p><b>Il paese delle grappe</b>A inizio Novecento ogni famiglia di Santa Massenza aveva il suo alambicco. Quello di casa funziona ancora.</p>
+    </div>
+  </div>
+</section>
+
+<section class="storia" aria-labelledby="storia-h">
+  <div class="wrap">
+    <div class="intro">
+      <p class="eyebrow">La storia</p>
+      <h2 id="storia-h" class="rv">Cent'anni di cotte, vendemmie e idee nuove.</h2>
+      <p>Dalla distilleria di inizio secolo al primo vino dolce, all'olio e all'aceto: ogni prodotto ha una data.</p>
+      <img src="img/cantina-botti.jpg" width="900" height="1197" alt="La cantina con il soffitto a volta in pietra e le botti di legno" loading="lazy">
+    </div>
+    <ul class="vng-reveal" id="tl">
+      <li><a href="#distilleria"><img src="img/alambicco-cotta.jpg" alt="" loading="lazy" width="900" height="1193"><b>Inizio '900</b>La distilleria in rame<small>A Santa Massenza ogni famiglia aveva il suo alambicco: questo funziona ancora.</small></a></li>
+      <li><a href="#distilleria"><img src="img/alambicco-bagnomaria.jpg" alt="" loading="lazy" width="900" height="1198"><b>Anni '70</b>Il bagnomaria<small>Tullio Zadra introduce la distillazione a bagnomaria.</small></a></li>
+      <li><a href="#prodotti"><img src="img/vigne-autunno-lago.jpg" alt="" loading="lazy" width="1078" height="620"><b>1995</b>L'Agricola Saros<small>Tre amici avviano un nuovo progetto sulle vigne e gli olivi della valle.</small></a></li>
+      <li><a href="#prodotti"><img src="img/b-saros.jpg" alt="" loading="lazy" width="450" height="719"><b>1998</b>Nasce il Saros<small>Un vino dolce da uve botritizzate.</small></a></li>
+      <li><a href="#territorio"><img src="img/olivi.jpg" alt="" loading="lazy" width="1080" height="605"><b>2006</b>L'olio extravergine<small>Dagli olivi di Casaliva di Santa Massenza.</small></a></li>
+      <li><a href="#prodotti"><img src="img/cantina-botti.jpg" alt="" loading="lazy" width="900" height="1197"><b>2007</b>L'acetaia<small>Il balsamico di Santa Massenza, da mosto cotto di Schiava e Cabernet Sauvignon.</small></a></li>
+      <li><a href="#prodotti"><img src="img/b-mugogin.jpg" alt="" loading="lazy" width="448" height="721"><b>2023</b>Mugogin<small>Il liquore alle gemme di pino mugo e ginepro.</small></a></li>
+    </ul>
+    <button class="more" type="button" hidden>Mostra tutta la storia</button>
+  </div>
+</section>
+
+
+<section class="visita" id="visita" aria-labelledby="vis-h">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Contatti</p>
+      <h2 id="vis-h">Giulio &amp; Mauro, a Santa Massenza.</h2>
+      <dl>
+        <dt>Indirizzo</dt><dd>Piazza di S. Vigilio, 4<br>38096 Santa Massenza, Vallelaghi (TN)</dd>
+        <dt>Telefono</dt><dd><a href="tel:+390461864149">0461 864149</a></dd>
+        <dt>Email</dt><dd><a href="mailto:info@giulioemauro.it">info@giulioemauro.it</a></dd>
+        <dt>Social</dt><dd><a href="https://www.instagram.com/giulioemauro/">Instagram</a> · <a href="https://www.facebook.com/pages/Cantina-Giulio-e-Mauro-Poli/495899540764327">Facebook</a></dd>
+      </dl>
+      <div class="ctas">
+        <a class="btn" href="tel:+390461864149"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Chiama la cantina</a>
+        <a class="btn btn--ghost" href="mailto:info@giulioemauro.it">Scrivi una email</a>
+        <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Piazza+di+S.+Vigilio+4+Santa+Massenza+Vallelaghi">Indicazioni stradali</a>
+      </div>
+    </div>
+    <figure><img src="img/portone.jpg" width="1078" height="717" alt="Il portone ad arco in legno della cantina, sotto la pergola di vite" loading="lazy"><figcaption>Il portone della cantina.</figcaption></figure>
+  </div>
+  <div class="wrap foot">
+    <span>Giulio &amp; Mauro – Azienda agricola, cantina e distilleria · P.IVA 01241020229 · REA TN-29637</span>
+    <span>Bozza di restyling non ufficiale, non pubblicata dall'azienda.</span>
+  </div>
+</section>
+</main>
+
+<nav class="thumb is-off" aria-label="Contatto rapido">
+  <a href="tel:+390461864149"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Chiama</a>
+  <a href="mailto:info@giulioemauro.it">Scrivi</a>
+  <a href="https://www.giulioemauro.it/shop/">Shop</a>
+</nav>
+
+<script src="../vendor/vng/vng.js" defer></script>
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var shot = /[?&]shot=1/.test(location.search);
+  if (window.matchMedia('(max-width: 900px)').matches) {
+    document.querySelectorAll('.index details').forEach(function (d) { d.open = false; });
+    var tl = document.getElementById('tl'), more = document.querySelector('.more');
+    if (tl && more && !/[?&]shot=1/.test(location.search)) { tl.classList.add('is-short'); more.hidden = false; more.addEventListener('click', function () { tl.classList.remove('is-short'); more.hidden = true; if (window.ScrollTrigger) ScrollTrigger.refresh(); }); }
+  }
+  document.querySelectorAll('.index summary').forEach(function (sm) { sm.addEventListener('click', function (e) { if (!window.matchMedia('(max-width: 900px)').matches) e.preventDefault(); }); });
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var top = document.getElementById('top');
+  var thumb = document.querySelector('.thumb'), hero = document.querySelector('.hero');
+  function solid(){ top.classList.toggle('is-solid', window.scrollY > 40); if (thumb && hero) thumb.classList.toggle('is-off', window.scrollY < 160); }
+  solid(); window.addEventListener('scroll', solid, { passive: true });
+  if (shot) { document.documentElement.classList.add('shot'); document.querySelectorAll('img[loading=lazy]').forEach(function (i) { i.loading = 'eager'; }); return; }
+  if (reduce || !window.gsap || !window.ScrollTrigger) return;
+  gsap.registerPlugin(ScrollTrigger);
+  var lenis = null;
+  if (window.Lenis) {
+    lenis = new Lenis({ lerp: 0.11 });
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add(function (t) { lenis.raf(t * 1000); });
+    gsap.ticker.lagSmoothing(0);
+    document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+      a.addEventListener('click', function (e) { var id = a.getAttribute('href'); if (id.length > 1 && document.querySelector(id)) { e.preventDefault(); lenis.scrollTo(id, { offset: -80 }); } });
+    });
+  }
+  // titolo: parole che salgono
+  var h1 = document.querySelector('[data-split]');
+  if (window.SplitText && h1) {
+    document.fonts.ready.then(function () {
+      var s = new SplitText(h1, { type: 'lines,words', linesClass: 'ln' });
+      gsap.set(s.lines, { overflow: 'hidden', paddingBottom: '.22em', marginBottom: '-.22em' });
+      gsap.from(s.words, { yPercent: 110, duration: 1.1, ease: 'expo.out', stagger: 0.045, delay: 0.1 });
+    });
+  }
+  gsap.from('.hero .lead, .hero .ctas, .hero .eyebrow', { y: 24, opacity: 0, duration: 1, ease: 'power3.out', stagger: 0.08, delay: 0.35 });
+  gsap.from('.collage figure', { y: 40, opacity: 0, duration: 1.2, ease: 'expo.out', stagger: 0.09, delay: 0.2 });
+  // collage che si apre allo scroll
+  document.querySelectorAll('.collage [data-depth]').forEach(function (f) {
+    var d = parseFloat(f.dataset.depth);
+    gsap.to(f, { yPercent: -18 * d, xPercent: (f.classList.contains('c1') ? -4 : 6) * Math.sign(d), ease: 'none',
+      scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: 1 } });
+  });
+  // titoli e blocchi che entrano
+  gsap.utils.toArray('.rv').forEach(function (el) {
+    gsap.from(el, { y: 36, opacity: 0, duration: 1, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 86%' } });
+  });
+  gsap.utils.toArray('.shelf li, .figures li').forEach(function (el, i) {
+    gsap.from(el, { y: 40, opacity: 0, duration: .9, ease: 'power3.out', delay: (i % 4) * 0.06, scrollTrigger: { trigger: el, start: 'top 90%' } });
+  });
+  // foto a tendina
+  gsap.utils.toArray('.casa .ph1, .vend figure, .visita figure').forEach(function (el) {
+    gsap.from(el, { clipPath: 'inset(100% 0 0 0)', duration: 1.3, ease: 'expo.out', scrollTrigger: { trigger: el, start: 'top 85%' } });
+  });
+  // parallax leggero
+  var bg = document.querySelector('[data-parallax]');
+  if (bg && window.innerWidth > 900) gsap.fromTo(bg, { yPercent: -6 }, { yPercent: 6, ease: 'none', scrollTrigger: { trigger: '.territorio', start: 'top bottom', end: 'bottom top', scrub: 1 } });
+  // firma: il taglio di teste, cuore e code segue lo scroll
+  var fill = document.querySelector('.taglio__fill');
+  if (fill) gsap.fromTo(fill, { scaleX: 0 }, { scaleX: 1, ease: 'none', scrollTrigger: { trigger: '.taglio', start: 'top 85%', end: 'top 40%', scrub: 1 } });
+  window.addEventListener('load', function () { ScrollTrigger.refresh(); });
+});
+</script>
+</body>
+</html>
