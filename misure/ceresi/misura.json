@@ -1,12 +1,12 @@
 {
   "slug": "ceresi",
   "url": "https://www.anticamacelleriaceresi.it/negozio/",
-  "misuratoIl": "2026-10-19T21:25:46.163Z",
+  "misuratoIl": "2026-10-22T02:16:12.758Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 7453,
-  "lcpMs": 7001,
+  "caricamentoTotaleMs": 8156,
+  "lcpMs": 8125,
   "lcpElemento": "IMG https://www.anticamacelleriaceresi.it/wp-content/uploads/2026/06/macelleria-ceresi-prodotti_alcapone.jpg",
   "cls": 0,
   "urlFinale": "https://www.anticamacelleriaceresi.it/negozio/",
@@ -16,11 +16,11 @@
     "SHOP",
     "Shop"
   ],
-  "ttfb": 5821,
-  "fcp": 6399,
-  "domReady": 7239,
-  "load": 7452,
-  "pesoKB": 5428,
+  "ttfb": 6514,
+  "fcp": 7136,
+  "domReady": 7935,
+  "load": 8154,
+  "pesoKB": 5431,
   "richieste": 171,
   "script": 79,
   "serviziEsterni": [],
@@ -89,17 +89,17 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 1690,
+      "ms": 1404,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 1634,
+      "ms": 1710,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 1537,
+      "ms": 1624,
       "status": 200,
       "cache": null
     }

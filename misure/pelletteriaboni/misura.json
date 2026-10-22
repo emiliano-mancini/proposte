@@ -1,14 +1,14 @@
 {
   "slug": "pelletteriaboni",
   "url": "https://pelletteriaboni.com/borse-donna/",
-  "misuratoIl": "2026-10-19T21:26:25.183Z",
+  "misuratoIl": "2026-10-22T02:15:06.683Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 6873,
-  "lcpMs": 6041,
+  "caricamentoTotaleMs": 14220,
+  "lcpMs": 10830,
   "lcpElemento": "P ",
-  "cls": 0,
+  "cls": 0.235,
   "urlFinale": "https://pelletteriaboni.com/borse-donna/",
   "titolo": "Borse donna – Pelletteria Boni",
   "descrizione": "Pelletteria Boni offre un’ampia alternativa di borse in pelle e cuoio da donna, adatte a rispondere a ogni tipo di esigenza di look femminile. Dallo stile",
@@ -16,22 +16,21 @@
     "BORSE DA DONNA",
     "PELLETTERIA BONI"
   ],
-  "ttfb": 5450,
-  "fcp": 6020,
-  "domReady": 6628,
-  "load": 6872,
-  "pesoKB": 2732,
+  "ttfb": 7989,
+  "fcp": 10830,
+  "domReady": 13622,
+  "load": 14217,
+  "pesoKB": 2734,
   "richieste": 147,
   "script": 60,
   "serviziEsterni": [
     "use.typekit.net",
     "cdn.jsdelivr.net",
     "www.googletagmanager.com",
-    "unpkg.com",
     "connect.facebook.net",
+    "www.google-analytics.com",
     "www.google.com",
     "ad.doubleclick.net",
-    "www.google-analytics.com",
     "googleads.g.doubleclick.net",
     "mpc2-prod-27-is5qnl632q-uk.a.run.app",
     "www.facebook.com"
@@ -129,17 +128,17 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 5095,
+      "ms": 9113,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 5199,
+      "ms": 6740,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 5184,
+      "ms": 5833,
       "status": 200,
       "cache": null
     }
@@ -147,27 +146,27 @@
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://www.googletagmanager.com/gtag/js?id=G-RFVVZ2KS4Y&cx=c&gtm=4e6af0"
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-RFVVZ2KS4Y&cx=c&gtm=4e6ak1"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&ae=g&auid=240778334.1792445181&dt=Borse%20donna%20%E2%80%93%20Pelletteria%20Boni&en=page_view&dl=https%3A%"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LL2RFSJTE0&gtm=45Pe6ak1v9266145538za208zd9266145538xf1&_p=1792635299514&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=d"
     },
     {
       "status": 999,
-      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=240778334.1792445181&gtm=45He6af0v9231467304za200zd9231467304xeaxf1&fmt=8"
+      "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=1&ae=g&auid=2048385335.1792635300&dt=Borse%20donna%20%E2%80%93%20Pelletteria%20Boni&en=page_view&dl=https%3A"
     },
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LL2RFSJTE0&gtm=45Pe6af0v9266145538za208zd9266145538xf1&_p=1792445180670&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=d"
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2048385335.1792635300&gtm=45He6ak1v9231467304za200zd9231467304xeaxf1&fmt=8"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/rmkt/collect/18484648377/?random=1792445181187&cv=11&fst=1792445181187&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6af0v926567"
+      "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=0&auid=2048385335.1792635300&dt=Borse%20donna%20%E2%80%93%20Pelletteria%20Boni&tid=AW-18484648377&en=page_v"
     },
     {
       "status": 999,
-      "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=240778334.1792445181&dt=Borse%20donna%20%E2%80%93%20Pelletteria%20Boni&tid=AW-18484648377&en=page_vie"
+      "url": "https://www.google.com/rmkt/collect/18484648377/?random=1792635300079&cv=11&fst=1792635300079&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ak1v926567"
     },
     {
       "status": 999,

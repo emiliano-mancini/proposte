@@ -1,0 +1,187 @@
+{
+  "slug": "pelletteriaboni-home",
+  "url": "https://pelletteriaboni.com/",
+  "misuratoIl": "2026-10-22T02:15:43.082Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 10654,
+  "lcpMs": 7567,
+  "lcpElemento": "IMG https://pelletteriaboni.com/wp-content/uploads/2026/01/business-683x1024-1.jpg",
+  "cls": 0,
+  "urlFinale": "https://pelletteriaboni.com/",
+  "titolo": "Home – Pelletteria Boni",
+  "descrizione": "https://pelletteriaboni.com/wp-content/uploads/2025/08/Header-Video-Vert.mp4https://pelletteriaboni.com/wp-content/uploads/2025/08/Header-Video-Orizz.mp4 –",
+  "h1": [
+    "PELLETTERIA BONI"
+  ],
+  "ttfb": 5689,
+  "fcp": 6501,
+  "domReady": 7135,
+  "load": 10652,
+  "pesoKB": 3094,
+  "richieste": 152,
+  "script": 56,
+  "serviziEsterni": [
+    "use.typekit.net",
+    "cdn.jsdelivr.net",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "googleads.g.doubleclick.net",
+    "mpc2-prod-27-is5qnl632q-uk.a.run.app",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://pelletteriaboni.com/wp-content/uploads/2025/07/uomo-1024x1536.jpg",
+      "kb": 324
+    },
+    {
+      "url": "https://pelletteriaboni.com/wp-content/uploads/2025/07/zaino-1024x1536.jpg",
+      "kb": 227
+    },
+    {
+      "url": "https://pelletteriaboni.com/wp-content/uploads/2025/07/P1466698-1024x1536.jpg",
+      "kb": 139
+    },
+    {
+      "url": "https://pelletteriaboni.com/wp-content/uploads/2025/07/livorno.png",
+      "kb": 101
+    },
+    {
+      "url": "https://pelletteriaboni.com/wp-content/uploads/2025/07/viareggio.png",
+      "kb": 90
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cky-consent-container cky-box-bottom-left",
+      "copre": "36%",
+      "testo": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    " +393356810572"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi Siamo",
+      "h": "https://pelletteriaboni.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://pelletteriaboni.com/contact-us/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://pelletteriaboni.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://pelletteriaboni.com/contact-us/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://pelletteriaboni.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://pelletteriaboni.com/contact-us/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://pelletteriaboni.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://pelletteriaboni.com/contact-us/"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://pelletteriaboni.com/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://pelletteriaboni.com/contact-us/"
+    },
+    {
+      "t": "chi siamo",
+      "h": "https://pelletteriaboni.com/chi-siamo/"
+    },
+    {
+      "t": "contatti",
+      "h": "https://pelletteriaboni.com/contact-us/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 5445,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 5738,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 6255,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-RFVVZ2KS4Y&cx=c&gtm=4e6ak1"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=1&ae=g&auid=411913496.1792635335&dt=Home%20%E2%80%93%20Pelletteria%20Boni&en=page_view&dl=https%3A%2F%2Fpel"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=411913496.1792635335&gtm=45He6ak1v9231467304za200zd9231467304xeaxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LL2RFSJTE0&gtm=45Pe6ak1v9266145538za208zd9266145538xf1&_p=1792635335202&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=d"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/18484648377/?random=1792635335644&cv=11&fst=1792635335644&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ak1v926567"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=0&auid=411913496.1792635335&dt=Home%20%E2%80%93%20Pelletteria%20Boni&tid=AW-18484648377&en=page_view&dl=htt"
+    },
+    {
+      "status": 999,
+      "url": "https://mpc2-prod-27-is5qnl632q-uk.a.run.app/events?cee=no"
+    },
+    {
+      "status": 999,
+      "url": "https://mpc2-prod-27-is5qnl632q-uk.a.run.app/events?cee=no"
+    },
+    {
+      "status": 999,
+      "url": "https://pelletteriaboni.com/wp-content/uploads/2025/07/Boni-Viareggio.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://pelletteriaboni.com/wp-content/uploads/2025/08/Header-Video-Orizz.mp4"
+    }
+  ]
+}

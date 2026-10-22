@@ -1,0 +1,120 @@
+{
+  "slug": "ceresi-home",
+  "url": "https://www.anticamacelleriaceresi.it/",
+  "misuratoIl": "2026-10-22T02:16:24.631Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3012,
+  "lcpMs": 2483,
+  "lcpElemento": "P ",
+  "cls": 0.239,
+  "urlFinale": "https://www.anticamacelleriaceresi.it/",
+  "titolo": "Antica Macelleria Ceresi > Dal 1852 il sapere e la tradizione della lavorazione della carne",
+  "descrizione": "5ª Generazione di Tradizione e InnovazioneLa nostra macelleria, gestita dalla famiglia Marcello da cinque generazioni, è sinonimo di eccellenza e passione per la carne. Nata nel cuore del nostro territorio nel 1800, tramandiamo da padre in figlio l’arte della macelleria, con lo stesso amore e rispetto per la qualità che i nostri antenati hanno coltivato. Oggi, Marcello e i suoi fratelli continuano questa preziosa tradizione, portando innovazione e nuovi servizi per i clienti di oggi.",
+  "h1": [
+    "Benvenuti nella Macelleria Storica Ceresi",
+    "Scegli la Qualità della Macelleria Ceresi",
+    "Shop",
+    "Dicono di noi",
+    "I nostri contatti",
+    "Richiedi informazioni"
+  ],
+  "ttfb": 1394,
+  "fcp": 2483,
+  "domReady": 2919,
+  "load": 3009,
+  "pesoKB": 3518,
+  "richieste": 176,
+  "script": 79,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2024/10/antica-macelleria-ceresi-slide-3-1030x446.jpg",
+      "kb": 580
+    },
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2024/10/antica-macelleria-ceresi-slide-2-1030x446.jpg",
+      "kb": 488
+    },
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2024/10/antica-macelleria-ceresi-slide-1-2-1030x446.jpg",
+      "kb": 430
+    },
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2024/10/antica-macelleria-ceresi-bg-2.jpg",
+      "kb": 414
+    },
+    {
+      "url": "https://www.anticamacelleriaceresi.it/wp-content/uploads/2024/10/antica-macelleria-ceresi-IMG-CHI-SIAMO-1.jpg",
+      "kb": 162
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "COMPRA ORA",
+    "yPx": 422,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "marcelloceresi@gmail.com"
+  ],
+  "telefono": [
+    "+39051901115"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.anticamacelleriaceresi.it/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.anticamacelleriaceresi.it/#contatti"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://www.anticamacelleriaceresi.it/#contatti"
+    },
+    {
+      "t": "marcelloceresi@gmail.com",
+      "h": "mailto:marcelloceresi@gmail.com"
+    },
+    {
+      "t": "marcelloceresi@gmail.com",
+      "h": "mailto:marcelloceresi@gmail.com"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://www.anticamacelleriaceresi.it/spedizioni/"
+    },
+    {
+      "t": "Termini e condizioni di vendita",
+      "h": "https://www.anticamacelleriaceresi.it/termini-e-condizioni-di-vendita/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1373,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1694,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1696,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}
