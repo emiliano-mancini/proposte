@@ -1,0 +1,125 @@
+{
+  "slug": "giulioemauro-home",
+  "url": "https://www.giulioemauro.it/",
+  "misuratoIl": "2026-10-22T01:48:56.081Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4472,
+  "lcpMs": 3873,
+  "lcpElemento": "RS-MODULE-WRAP https://www.giulioemauro.it/wp-content/uploads/2022/06/Dettaglio_vite.jpg",
+  "cls": 0.221,
+  "urlFinale": "https://www.giulioemauro.it/",
+  "titolo": "Azienda Agricola Giulio e Mauro Santa Massenza - Giulio e Mauro",
+  "descrizione": "Produzioni di vini, spumanti, grappe, liquori e distillati da diverse generazioni a Santa Massenza.",
+  "h1": [
+    "Acquista i nostri prodotti\ndirettamente online sul sito"
+  ],
+  "ttfb": 2342,
+  "fcp": 3093,
+  "domReady": 3842,
+  "load": 4471,
+  "pesoKB": 5149,
+  "richieste": 105,
+  "script": 51,
+  "serviziEsterni": [
+    "cdn.cookie-script.com",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "www.youtube.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/santa_massenza_olivi-1.jpg",
+      "kb": 457
+    },
+    {
+      "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/Vigneti_santa_massenza-1.jpg",
+      "kb": 406
+    },
+    {
+      "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/santa_massenza_vigneti.jpg",
+      "kb": 294
+    },
+    {
+      "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/santa_massenza.jpg",
+      "kb": 228
+    },
+    {
+      "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/IMG_0220-copia.jpg",
+      "kb": 200
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cookiescript_injected",
+      "copre": "42%",
+      "testo": "× Questo sito web utilizza cookie Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione. Uti"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@giulioemauro.it"
+  ],
+  "telefono": [
+    "+123467897",
+    "0461864149"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.giulioemauro.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.giulioemauro.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.giulioemauro.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width,initial-scale=1,user-scalable=yes",
+  "rispostaServer": [
+    {
+      "ms": 2132,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1465,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1426,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/atr?ns=yt&el=embedded&cpn=MEEMdfRXQU43G52O&ver=2&cmt=0&fs=0&rt=0.353&euri=https%3A%2F%2Fwww.giulioemauro.it%2F&lact=370&cl=100"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-3HHMH73LB7&gtm=45je6ak1v9122936115za208zd9122936115xf1&_p=1792633730983&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EA"
+    }
+  ]
+}

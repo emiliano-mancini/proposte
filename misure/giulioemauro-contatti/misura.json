@@ -1,0 +1,116 @@
+{
+  "slug": "giulioemauro-contatti",
+  "url": "https://www.giulioemauro.it/contatti/",
+  "misuratoIl": "2026-10-22T01:49:07.777Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3032,
+  "lcpMs": 3209,
+  "lcpElemento": "DIV https://www.giulioemauro.it/wp-content/uploads/2022/06/Dettaglio_vite.jpg",
+  "cls": 0.083,
+  "urlFinale": "https://www.giulioemauro.it/contatti/",
+  "titolo": "Contatti - Giulio e Mauro",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 1462,
+  "fcp": 2198,
+  "domReady": 2680,
+  "load": 3030,
+  "pesoKB": 3206,
+  "richieste": 130,
+  "script": 70,
+  "serviziEsterni": [
+    "cdn.cookie-script.com",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "www.google.com",
+    "maps.google.com",
+    "www.google-analytics.com",
+    "www.gstatic.com",
+    "maps.googleapis.com",
+    "maps.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.giulioemauro.it/wp-content/uploads/2022/03/logo-Copia.png",
+      "kb": 159
+    },
+    {
+      "url": "https://www.giulioemauro.it/wp-content/uploads/2022/03/logo-Copia-_-white.png",
+      "kb": 131
+    },
+    {
+      "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/Dettaglio_vite.jpg",
+      "kb": 111
+    },
+    {
+      "url": "https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5_hdpi.png",
+      "kb": 102
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i556095&2i372535&2e1&3u12&4m2&1u382&2u500&5m6&1e0&5sit&6sus&10b1&12b1&14i47083502&8e1&",
+      "kb": 44
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cookiescript_injected",
+      "copre": "42%",
+      "testo": "× Questo sito web utilizza cookie Questo sito web utilizza i cookie per migliorare la tua esperienza di navigazione. Uti"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@giulioemauro.it"
+  ],
+  "telefono": [
+    "+123467897",
+    "+390461864149",
+    "0461864149"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.giulioemauro.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.giulioemauro.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.giulioemauro.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width,initial-scale=1,user-scalable=yes",
+  "rispostaServer": [
+    {
+      "ms": 1711,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1255,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1234,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-3HHMH73LB7&gtm=45je6ak1v9122936115za208zd9122936115xf1&_p=1792633743309&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EA"
+    }
+  ]
+}
