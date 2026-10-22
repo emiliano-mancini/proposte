@@ -1,0 +1,76 @@
+{
+  "slug": "giulioemauro-confronto",
+  "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/confronto/",
+  "misuratoIl": "2026-10-22T02:25:32.648Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 256,
+  "lcpMs": 268,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/giulio-e-mauro/confronto/vecchio-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/confronto/",
+  "titolo": "Il sito di Giulio & Mauro, oggi e domani",
+  "descrizione": null,
+  "h1": [
+    "Il sito di Giulio & Mauro, oggi e domani"
+  ],
+  "ttfb": 110,
+  "fcp": 245,
+  "domReady": 121,
+  "load": 253,
+  "pesoKB": 743,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/confronto/nuovo-mobile.jpg",
+      "kb": 152
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/confronto/vecchio-mobile.jpg",
+      "kb": 135
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/confronto/problema-cookie.jpg",
+      "kb": 86
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/confronto/problema-contatti.jpg",
+      "kb": 60
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lmsoftique@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 226,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 10,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

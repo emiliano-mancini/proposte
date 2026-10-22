@@ -1,0 +1,91 @@
+{
+  "slug": "giulioemauro-nuovo",
+  "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/",
+  "misuratoIl": "2026-10-22T02:25:28.609Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1385,
+  "lcpMs": 760,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/giulio-e-mauro/img/lago-calice.jpg",
+  "cls": 0.001,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/",
+  "titolo": "Giulio & Mauro – Cantina e distilleria a Santa Massenza (proposta di restyling)",
+  "descrizione": "Cantina e distilleria artigiana di famiglia a Santa Massenza, in Trentino: vini, grappe, liquori, olio e aceto. Bozza non ufficiale di restyling.",
+  "h1": [
+    "Vino e grappa di\nfamiglia, sul lago di\nSanta Massenza."
+  ],
+  "ttfb": 312,
+  "fcp": 760,
+  "domReady": 785,
+  "load": 1382,
+  "pesoKB": 1476,
+  "richieste": 23,
+  "script": 5,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/img/casa.jpg",
+      "kb": 216
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/img/alambicco-bagnomaria.jpg",
+      "kb": 163
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/img/lago-calice.jpg",
+      "kb": 129
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/img/famiglia-alambicco.jpg",
+      "kb": 97
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/img/b-grappa-nosiola.jpg",
+      "kb": 72
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@giulioemauro.it"
+  ],
+  "telefono": [
+    "+390461864149"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/#visita"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/giulio-e-mauro/#visita"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 105,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
