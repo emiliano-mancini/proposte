@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f10",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/03/azienda.jpg",
+  "misuratoIl": "2026-10-22T01:53:27.877Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 693,
+  "lcpMs": 697,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/03/azienda.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/03/azienda.jpg",
+  "titolo": "azienda.jpg (614×410)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 449,
+  "fcp": 482,
+  "domReady": 691,
+  "load": 692,
+  "pesoKB": 158,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 427,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 544,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 116,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

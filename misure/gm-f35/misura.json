@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f35",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/03/vini-schiava.jpg",
+  "misuratoIl": "2026-10-22T01:56:25.709Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 895,
+  "lcpMs": 917,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/03/vini-schiava.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/03/vini-schiava.jpg",
+  "titolo": "vini-schiava.jpg (1620×1080)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 441,
+  "fcp": 486,
+  "domReady": 893,
+  "load": 894,
+  "pesoKB": 463,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 466,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 454,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 122,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

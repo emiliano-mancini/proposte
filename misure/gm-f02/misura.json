@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f02",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/Vigneti_santa_massenza-1.jpg",
+  "misuratoIl": "2026-10-22T01:52:37.128Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 909,
+  "lcpMs": 924,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/06/Vigneti_santa_massenza-1.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/06/Vigneti_santa_massenza-1.jpg",
+  "titolo": "Vigneti_santa_massenza-1.jpg (1920×1080)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 449,
+  "fcp": 461,
+  "domReady": 908,
+  "load": 908,
+  "pesoKB": 406,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 667,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 625,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 122,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f31",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/Santa_massenza_territorio.jpg",
+  "misuratoIl": "2026-10-22T01:55:58.318Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 796,
+  "lcpMs": 797,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/06/Santa_massenza_territorio.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/06/Santa_massenza_territorio.jpg",
+  "titolo": "Santa_massenza_territorio.jpg (1920×1280)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 447,
+  "fcp": 467,
+  "domReady": 794,
+  "load": 794,
+  "pesoKB": 235,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 455,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 456,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 122,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

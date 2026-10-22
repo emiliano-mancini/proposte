@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f20",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/03/distilleria.jpg",
+  "misuratoIl": "2026-10-22T01:54:38.305Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 573,
+  "lcpMs": 579,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/03/distilleria.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/03/distilleria.jpg",
+  "titolo": "distilleria.jpg (614×410)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 447,
+  "fcp": 466,
+  "domReady": 572,
+  "load": 572,
+  "pesoKB": 55,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 547,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 430,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 116,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

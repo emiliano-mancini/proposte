@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f33",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2023/08/mugogin-1.jpg",
+  "misuratoIl": "2026-10-22T01:56:11.502Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1115,
+  "lcpMs": 1151,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2023/08/mugogin-1.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2023/08/mugogin-1.jpg",
+  "titolo": "mugogin-1.jpg (2560×1707)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 447,
+  "fcp": 484,
+  "domReady": 1113,
+  "load": 1113,
+  "pesoKB": 882,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 573,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 455,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 130,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

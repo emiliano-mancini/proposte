@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f18",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/Distilleria_Santa_Massenza.jpg",
+  "misuratoIl": "2026-10-22T01:54:24.072Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 791,
+  "lcpMs": 807,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/06/Distilleria_Santa_Massenza.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/06/Distilleria_Santa_Massenza.jpg",
+  "titolo": "Distilleria_Santa_Massenza.jpg (1920×1280)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 443,
+  "fcp": 456,
+  "domReady": 790,
+  "load": 790,
+  "pesoKB": 265,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 542,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 619,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 116,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

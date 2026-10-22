@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f37",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/03/grappa-santa-massenza-1.jpg",
+  "misuratoIl": "2026-10-22T01:56:39.577Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 988,
+  "lcpMs": 1011,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/03/grappa-santa-massenza-1.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/03/grappa-santa-massenza-1.jpg",
+  "titolo": "grappa-santa-massenza-1.jpg (1620×1080)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 440,
+  "fcp": 482,
+  "domReady": 987,
+  "load": 987,
+  "pesoKB": 527,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 571,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 555,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 123,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

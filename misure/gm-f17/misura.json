@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f17",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/03/grappa_massenza_img.jpg",
+  "misuratoIl": "2026-10-22T01:54:17.419Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 892,
+  "lcpMs": 903,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/03/grappa_massenza_img.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/03/grappa_massenza_img.jpg",
+  "titolo": "grappa_massenza_img.jpg (2000×700)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 447,
+  "fcp": 482,
+  "domReady": 891,
+  "load": 891,
+  "pesoKB": 332,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 471,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 458,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 122,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

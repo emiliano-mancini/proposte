@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f00",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/IMG_0184.jpg",
+  "misuratoIl": "2026-10-22T01:52:24.097Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1042,
+  "lcpMs": 1049,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/06/IMG_0184.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/06/IMG_0184.jpg",
+  "titolo": "IMG_0184.jpg (1920×1080)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 649,
+  "fcp": 669,
+  "domReady": 1039,
+  "load": 1039,
+  "pesoKB": 287,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 693,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 684,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 123,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

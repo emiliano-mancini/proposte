@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f36",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/03/vino-grappa-saros-1.jpg",
+  "misuratoIl": "2026-10-22T01:56:32.577Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 979,
+  "lcpMs": 1034,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/03/vino-grappa-saros-1.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/03/vino-grappa-saros-1.jpg",
+  "titolo": "vino-grappa-saros-1.jpg (1620×1080)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 438,
+  "fcp": 475,
+  "domReady": 977,
+  "load": 977,
+  "pesoKB": 591,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 518,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 428,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 113,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

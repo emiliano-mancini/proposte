@@ -1,0 +1,55 @@
+{
+  "slug": "gm-f28",
+  "url": "https://www.giulioemauro.it/wp-content/uploads/2022/06/santa_massenza.jpg",
+  "misuratoIl": "2026-10-22T01:55:37.903Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 779,
+  "lcpMs": 779,
+  "lcpElemento": "IMG https://www.giulioemauro.it/wp-content/uploads/2022/06/santa_massenza.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.giulioemauro.it/wp-content/uploads/2022/06/santa_massenza.jpg",
+  "titolo": "santa_massenza.jpg (1920×1280)",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 445,
+  "fcp": 462,
+  "domReady": 776,
+  "load": 776,
+  "pesoKB": 228,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, minimum-scale=0.1",
+  "rispostaServer": [
+    {
+      "ms": 416,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 542,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 117,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}
