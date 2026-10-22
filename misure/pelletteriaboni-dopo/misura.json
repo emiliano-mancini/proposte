@@ -1,0 +1,107 @@
+{
+  "slug": "pelletteriaboni-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/",
+  "misuratoIl": "2026-10-22T03:24:23.460Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 502,
+  "lcpMs": 391,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/img/ef060d42138a.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/",
+  "titolo": "Pelletteria Boni – borse in pelle artigianali da Pisa, dal 1992",
+  "descrizione": "Borse in pelle e cuoio artigianali Made in Italy: donna, uomo, viaggio, lavoro e zaini da 69 €. Spedizione gratuita in Italia. Bozza di restyling.",
+  "h1": [
+    "Borse in pelle artigianali, da Pisa."
+  ],
+  "ttfb": 172,
+  "fcp": 376,
+  "domReady": 362,
+  "load": 499,
+  "pesoKB": 384,
+  "richieste": 18,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/img/7222398cb14c.webp",
+      "kb": 67
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/img/ef060d42138a.webp",
+      "kb": 65
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/img/7797d1875ec0.webp",
+      "kb": 32
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/img/18f279b60d49.webp",
+      "kb": 26
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/img/8c1987519e6c.webp",
+      "kb": 24
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pelletteriaboni.com"
+  ],
+  "telefono": [
+    "+393356810572"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/assistenza/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/chi-siamo/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni, resi e domande",
+      "h": "https://emiliano-mancini.github.io/proposte/pelletteriaboni-shop/assistenza/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 156,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 20,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 21,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

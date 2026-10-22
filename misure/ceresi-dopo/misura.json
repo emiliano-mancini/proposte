@@ -1,0 +1,115 @@
+{
+  "slug": "ceresi-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/ceresi-shop/",
+  "misuratoIl": "2026-10-22T03:24:32.418Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 606,
+  "lcpMs": 571,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/ceresi-shop/img/288e5a8533db.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/ceresi-shop/",
+  "titolo": "Antica Macelleria Ceresi – ragù e spiedini della bottega, spedizione in Italia",
+  "descrizione": "Ragù fatti in bottega da 9,90 €, spiedini e sushi di carpaccio pronti da cuocere. Spedizione express in Italia, gratis sopra 199 €. Bozza di restyling.",
+  "h1": [
+    "La bottega di famiglia, a casa vostra."
+  ],
+  "ttfb": 121,
+  "fcp": 468,
+  "domReady": 454,
+  "load": 602,
+  "pesoKB": 414,
+  "richieste": 16,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ceresi-shop/img/5b472bc8025f.webp",
+      "kb": 50
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ceresi-shop/img/288e5a8533db.webp",
+      "kb": 45
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ceresi-shop/img/e7d2784d1593.webp",
+      "kb": 36
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ceresi-shop/img/e67a61ba5cd4.webp",
+      "kb": 35
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/ceresi-shop/img/03650f06473c.webp",
+      "kb": 34
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "marcelloceresi@gmail.com"
+  ],
+  "telefono": [
+    "+39051901115"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ceresi-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/ceresi-shop/assistenza/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/ceresi-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ceresi-shop/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/ceresi-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/ceresi-shop/chi-siamo/"
+    },
+    {
+      "t": "marcelloceresi@gmail.com",
+      "h": "mailto:marcelloceresi@gmail.com"
+    },
+    {
+      "t": "Spedizioni, resi e domande",
+      "h": "https://emiliano-mancini.github.io/proposte/ceresi-shop/assistenza/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 61,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 20,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 20,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
