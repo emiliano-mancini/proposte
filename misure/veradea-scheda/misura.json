@@ -1,0 +1,166 @@
+{
+  "slug": "veradea-scheda",
+  "url": "https://www.veradea-materasso.com/it/materassi/materasso-meraviglioso",
+  "misuratoIl": "2026-10-23T02:24:02.478Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1259,
+  "lcpMs": 1160,
+  "lcpElemento": "IMG https://www.veradea-materasso.com/sites/default/files/products/materasso_veradea_meraviglioso_02.jpg",
+  "cls": 0.002,
+  "urlFinale": "https://www.veradea-materasso.com/it/materassi/materasso-meraviglioso",
+  "titolo": "Materasso Meraviglioso 100% Made in Italy | Veradea Materasso",
+  "descrizione": "Il materasso Meraviglioso Veradea è ideale per chi preferisce un supporto rigido, abbinato a una superficie accogliente. Dispositivo Medico di Classe 1.",
+  "h1": [
+    "Materasso Meraviglioso"
+  ],
+  "ttfb": 765,
+  "fcp": 991,
+  "domReady": 1014,
+  "load": 1256,
+  "pesoKB": 3723,
+  "richieste": 102,
+  "script": 17,
+  "serviziEsterni": [
+    "static.cloudflareinsights.com",
+    "cdn.scalapay.com",
+    "js.stripe.com",
+    "widget.trustpilot.com",
+    "dynamic.criteo.com",
+    "www.dwin1.com",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "connect.facebook.net",
+    "static.getbutton.io",
+    "www.googletagmanager.com",
+    "lantern.roeyecdn.com",
+    "cdn.connectif.cloud",
+    "cdn.livechatinc.com",
+    "lantern.roeye.com",
+    "fonts.googleapis.com",
+    "pagead2.googlesyndication.com",
+    "www.google-analytics.com",
+    "idb.iubenda.com",
+    "api.livechatinc.com",
+    "www.facebook.com",
+    "tracker.connectif.cloud",
+    "eu6-api.connectif.cloud",
+    "secure.livechatinc.com",
+    "widget.scalapay.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/2024-11/veradea%20meraviglioso%20%281%29_0.png",
+      "kb": 319
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/products/materasso_veradea_meraviglioso_06.jpg",
+      "kb": 95
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/products/materasso_veradea_meraviglioso_05.jpg",
+      "kb": 94
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/products/materasso_veradea_meraviglioso_01.jpg",
+      "kb": 83
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/products/materasso_veradea_meraviglioso_03.jpg",
+      "kb": 68
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate raccogliamo informazioni personali come specificato nella privacy policy e uti"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 1100,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+390694500051"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.veradea-materasso.com/it/resi-e-rimborsi"
+    },
+    {
+      "t": "Spedizione",
+      "h": "https://www.veradea-materasso.com/it/spedizione"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.veradea-materasso.com/it/termini-e-condizioni"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.veradea-materasso.com/node/308"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.veradea-materasso.com/node/302"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 338,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 286,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 273,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&apvc=1&tid=AW-666553804&en=page_view&dl=https%3A%2F%2Fwww.veradea-materasso.com%2Fit%2Fmaterassi%"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&apvc=0&tid=AW-666553804&en=view_item&dl=https%3A%2F%2Fwww.veradea-materasso.com%2Fit%2Fmaterassi%"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4F1JD9JK16&gtm=45je6al1v870634819za208zd870634819xf1&_p=1792722238911&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_c"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4F1JD9JK16&gtm=45je6al1v870634819za200zd870634819xf1&_p=1792722238911&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_c"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1792722239393&cv=11&tid=G-4F1JD9JK16&fst=1792722239393&fmt=8&en=page_view&gtm=45je6al1v87063"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1792722239448&cv=11&tid=G-4F1JD9JK16&fst=1792722239448&fmt=8&en=view_item&gtm=45je6al1v87063"
+    },
+    {
+      "status": 999,
+      "url": "https://widget.scalapay.com/v1/collect"
+    }
+  ]
+}

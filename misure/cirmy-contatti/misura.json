@@ -1,0 +1,121 @@
+{
+  "slug": "cirmy-contatti",
+  "url": "https://cirmy.eu/contatti/",
+  "misuratoIl": "2026-10-23T02:24:37.399Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 9311,
+  "lcpMs": 8966,
+  "lcpElemento": "DIV https://cirmy.eu/wp-content/uploads/2022/03/contatti-cirmy.jpg",
+  "cls": 0,
+  "urlFinale": "https://cirmy.eu/contatti/",
+  "titolo": "Contatti | Cirmy | Prodotti Naturali per il tuo Benessere",
+  "descrizione": "Contatti: per maggiori informazioni o richieste scrivici a info@cirmy.eu, chiamaci al numero 0434/1831880. Ti aspettiamo!",
+  "h1": [
+    "Contatti"
+  ],
+  "ttfb": 7521,
+  "fcp": 8485,
+  "domReady": 9050,
+  "load": 9309,
+  "pesoKB": 3312,
+  "richieste": 154,
+  "script": 62,
+  "serviziEsterni": [
+    "cdn.jsdelivr.net",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "diffuser-cdn.app-us1.com",
+    "prism.app-us1.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "trackcmp.net",
+    "www.gstatic.com",
+    "sendcloud-checkout-static-data.sendcloud.sc"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/contatti-cirmy.jpg",
+      "kb": 213
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/paypal-rate1.png",
+      "kb": 191
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/paypal-rate3.png",
+      "kb": 173
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/paypal-rate2.png",
+      "kb": 172
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/benefici-del-cirmolo-1024x683.jpg",
+      "kb": 154
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "47%",
+      "testo": "Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni "
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@cirmy.eu"
+  ],
+  "telefono": [
+    "+390462%20239610"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci\nContattaci",
+      "h": "https://cirmy.eu/contatti-partner"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://cirmy.eu/termini-e-condizioni-di-vendita/"
+    },
+    {
+      "t": "Modulo per il recesso",
+      "h": "https://cirmy.eu/wp-content/uploads/2024/03/Modulo-di-Recesso-Cirmy-Magnifica-Essenza.odt"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://cirmy.eu/faq/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 659,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 171,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 169,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-RNQH5D5GSD&gtm=45je6am0h2v873710150za20ozb854880127zd854880127xf1&_p=1792722272821&_gaz=1&gcd=13l3l3l3l1l1&npa="
+    }
+  ]
+}
