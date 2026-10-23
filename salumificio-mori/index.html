@@ -1,32 +1,544 @@
-<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Salumificio Mori – bozza in preparazione</title></head><body><p>Proposta di restyling – bozza non ufficiale, in preparazione.</p>
-<img src="img/1d344cf9854e.jpg" alt="" width="200" height="150">
-<img src="img/caed302a3de3.jpg" alt="" width="200" height="150">
-<img src="img/7325e0f36191.jpg" alt="" width="200" height="150">
-<img src="img/48bb01a3e2e9.jpg" alt="" width="200" height="150">
-<img src="img/c3ebe31fa6f7.jpg" alt="" width="200" height="150">
-<img src="img/76232793c907.jpg" alt="" width="200" height="150">
-<img src="img/6ea1a25384fc.jpg" alt="" width="200" height="150">
-<img src="img/e18965fa1a92.jpg" alt="" width="200" height="150">
-<img src="img/e30cdd46d2b2.jpg" alt="" width="200" height="150">
-<img src="img/672fd9ffdd0a.jpg" alt="" width="200" height="150">
-<img src="img/18eea501d468.jpg" alt="" width="200" height="150">
-<img src="img/28688ba9cec0.jpg" alt="" width="200" height="150">
-<img src="img/04edb973437e.png" alt="" width="200" height="150">
-<img src="img/248901b5335c.png" alt="" width="200" height="150">
-<img src="img/c0f417a491c4.jpg" alt="" width="200" height="150">
-<img src="img/0489bf9d877f.jpg" alt="" width="200" height="150">
-<img src="img/94a8c9089429.jpg" alt="" width="200" height="150">
-<img src="img/c079f8d64a08.jpg" alt="" width="200" height="150">
-<img src="img/d0d7107fa6d7.jpg" alt="" width="200" height="150">
-<img src="img/da8ad0116b53.png" alt="" width="200" height="150">
-<img src="img/2a9df7318a5d.png" alt="" width="200" height="150">
-<img src="img/6ebecab5e525.jpg" alt="" width="200" height="150">
-<img src="img/4b000a307fef.jpg" alt="" width="200" height="150">
-<img src="img/76a059f0adc8.jpg" alt="" width="200" height="150">
-<img src="img/646cbd4c5908.jpg" alt="" width="200" height="150">
-<img src="img/59dd732c2bff.jpg" alt="" width="200" height="150">
-<img src="img/ff5379db135e.jpg" alt="" width="200" height="150">
-<img src="img/4c112a9109e5.jpg" alt="" width="200" height="150">
-<img src="img/789c298c6f02.jpg" alt="" width="200" height="150">
-<img src="img/8948aeb5b633.jpg" alt="" width="200" height="150">
-</body></html>
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Salumificio Silvano Mori – Salumi tipici della Maremma Toscana, dal 1880</title>
+<meta name="description" content="Salumificio artigianale a Torniella, nell'alta Maremma Toscana, dal 1880: prosciutto, capocollo, lardo, salame toscano. Proposta di restyling, bozza non ufficiale.">
+<meta name="theme-color" content="#f3ece0">
+<link rel="preload" href="img/tagliere.jpg" as="image" fetchpriority="high">
+<link rel="preload" href="fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/karla-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<style>
+@font-face{font-family:"DM Serif Display";src:url(fonts/dm-serif-display-latin-400-normal.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"DM Serif Display";src:url(fonts/dm-serif-display-latin-400-italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:Karla;src:url(fonts/karla-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Karla;src:url(fonts/karla-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:Karla;src:url(fonts/karla-latin-700-normal.woff2) format("woff2");font-weight:700;font-display:swap}
+:root{
+  --carta:#f3ece0; --carta-2:#ebe1d0; --inchiostro:#2b1f19; --inchiostro-2:#3d2e26;
+  --salame:#8f2d24; --salame-chiaro:#b5493c; --macchia:#4f5a2e; --oro:#a87a22; --linea:rgba(43,31,25,.16);
+  --serif:"DM Serif Display",Georgia,"Times New Roman",serif; --sans:Karla,"Helvetica Neue",Arial,sans-serif;
+  --vng-bg:var(--inchiostro); --vng-fg:#f3ece0; --vng-muted:#cbbca7; --vng-accent:#d9a441; --vng-accent-fg:#2b1f19;
+  --vng-surface:rgba(43,31,25,.6); --vng-line:rgba(243,236,224,.18);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--carta);color:var(--inchiostro);font:400 1.0625rem/1.65 var(--sans);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--salame);outline-offset:3px}
+.wrap{width:min(1240px,100% - 32px);margin-inline:auto}
+.kicker{font:700 .82rem/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--salame)}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.02;margin:0;letter-spacing:-.01em;text-wrap:balance}
+h2{font-size:clamp(2.3rem,5.6vw,4.6rem)}
+h2 em,h1 em{font-style:italic;color:var(--salame)}
+p{margin:0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* etichetta bozza */
+.bozza{position:fixed;inset:0 0 auto;height:28px;z-index:60;background:var(--inchiostro);color:#f3ece0;font:700 .74rem/28px var(--sans);letter-spacing:.08em;text-align:center;pointer-events:none}
+
+/* testata */
+.top{position:fixed;inset:28px 0 auto;z-index:50;background:rgba(243,236,224,.96);box-shadow:0 1px 0 var(--linea)}
+.top.is-solid{background:rgba(243,236,224,.94);box-shadow:0 1px 0 var(--linea);backdrop-filter:blur(8px)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;height:76px}
+.marchio img{height:64px;width:auto}
+.marchio{display:flex;flex-direction:column;text-decoration:none;color:var(--inchiostro);line-height:1}
+.top.is-solid .marchio{color:var(--inchiostro)}
+.marchio{align-items:center}
+.marchio b{font:400 2.1rem/1 var(--serif);letter-spacing:.16em;margin-right:-.16em;color:var(--oro)}
+.marchio small{font:700 .58rem/1 var(--sans);letter-spacing:.26em;text-transform:uppercase;opacity:.9;margin-bottom:.2rem}
+.marchio i{font:italic 400 1.05rem/1 var(--serif);margin-top:-.15rem;opacity:.95}
+.top.is-solid .marchio b{color:var(--oro)}
+.menu{display:none;gap:1.6rem;list-style:none;margin:0;padding:0}
+.menu a{text-decoration:none;font-weight:500;font-size:1rem;color:var(--inchiostro)}
+.top.is-solid .menu a{color:var(--inchiostro)}
+.menu a:hover{text-decoration:underline;text-underline-offset:4px}
+.btn{display:inline-flex;align-items:center;gap:.55rem;min-height:48px;padding:.8rem 1.35rem;border-radius:99px;font:700 .98rem/1 var(--sans);text-decoration:none;border:0;cursor:pointer;transition:transform .3s var(--vng-ease-out),background .3s}
+.btn:hover{transform:translateY(-2px)}
+.btn--rosso{background:var(--salame);color:#fff}
+.btn--rosso:hover{background:#7a241c}
+.btn--chiaro{background:#f3ece0;color:var(--inchiostro)}
+.btn--linea{background:transparent;color:inherit;box-shadow:inset 0 0 0 1.5px currentColor}
+.btn svg{width:18px;height:18px;flex:none}
+.top .btn{display:none}
+.burger{display:flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:50%;border:1.5px solid var(--linea);background:transparent;color:var(--inchiostro);cursor:pointer}
+.burger svg{width:22px;height:22px}
+.top.is-open .menu{display:flex;position:fixed;inset:104px 0 auto;flex-direction:column;gap:0;background:var(--carta);padding:.5rem 16px 1.5rem;box-shadow:0 20px 40px rgba(0,0,0,.2)}
+.top.is-open .menu a{color:var(--inchiostro);display:block;padding:1rem 0;border-bottom:1px solid var(--linea);font:400 1.6rem/1.1 var(--serif)}
+@media(min-width:960px){.menu{display:flex}.top .btn{display:inline-flex}.burger{display:none}}
+@media(max-width:959px){.top nav{position:absolute}}
+
+/* hero H2 divisa: testo su fondo pieno, foto a risoluzione quasi nativa */
+.hero{position:relative;background:var(--inchiostro);color:#fff;padding-top:104px;overflow:hidden}
+.hero__grid{display:grid}
+.hero__foto{position:relative;margin:0;overflow:hidden;aspect-ratio:4/3}
+.hero__img{position:absolute;inset:-8% 0;width:100%;height:116%;object-fit:cover;object-position:62% 55%}
+.hero__txt{padding:2rem 16px 3.2rem}
+.hero .kicker{color:#f1c87a}
+.hero h1{font-size:clamp(3rem,11vw,7.4rem);margin:.8rem 0 1.2rem;line-height:.95}
+.hero h1 em{color:#f1c87a}
+.hero p.lead{max-width:34rem;font-size:clamp(1.08rem,1.5vw,1.25rem);color:#efe4d4}
+.hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:.75rem 1rem;margin-top:1.8rem}
+.hero__grana{position:absolute;inset:0;z-index:2;opacity:.22;mix-blend-mode:overlay;pointer-events:none;background:radial-gradient(ellipse at 60% 50%,transparent 55%,rgba(30,15,8,.55) 100%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.londra{margin-top:2rem;padding-top:1.2rem;border-top:1px solid rgba(243,236,224,.2);font:700 .85rem/1.4 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:#f1c87a}
+.link-freccia{display:inline-flex;align-items:center;min-height:48px;padding:0 .4rem;color:#fff;font-weight:700;text-underline-offset:5px}
+@media(max-width:899px){.hero__foto{order:-1;aspect-ratio:16/10}.hero__grid{display:flex;flex-direction:column}.hero__txt{padding-top:1.6rem}.hero h1{font-size:clamp(2.8rem,12vw,4rem)}}
+@media(min-width:900px){
+  .hero{padding-top:100px}
+  .hero__grid{grid-template-columns:minmax(0,44fr) minmax(0,56fr);min-height:min(calc(100svh - 104px),640px);align-items:stretch}
+  .hero__txt{display:flex;flex-direction:column;justify-content:center;padding:3rem clamp(2rem,4vw,4rem) 4rem max(16px,calc((100vw - 1240px)/2))}
+  .hero__foto{aspect-ratio:auto;min-height:520px}
+  .hero h1{font-size:clamp(3.4rem,6.2vw,6.6rem)}
+}
+
+/* prove */
+.prove{background:var(--carta-2);border-bottom:1px solid var(--linea)}
+.prove ul{list-style:none;margin:0;padding:0;display:grid}
+.prove li{padding:1.5rem 0;border-bottom:1px solid var(--linea);display:grid;gap:.35rem;align-content:start}
+.prove li:last-child{border-bottom:0}
+.prove strong{font:400 clamp(1.45rem,2.3vw,1.9rem)/1.15 var(--serif);color:var(--inchiostro)}
+.prove span{font-size:1.02rem;color:var(--inchiostro-2)}
+.prove [data-vng-count]{font:inherit}
+@media(min-width:860px){.prove ul{grid-template-columns:1.3fr 1fr 1fr}.prove li{border-bottom:0;padding:2.2rem 2rem}.prove li:first-child{padding-left:0}.prove li+li{border-left:1px solid var(--linea)}}
+
+/* numeri */
+.numeri{padding:clamp(4.5rem,9vw,7.5rem) 0 clamp(3rem,6vw,5rem)}
+.numeri__intro{display:grid;gap:1.4rem;margin-bottom:3.2rem}
+.numeri__intro p{font-size:clamp(1.25rem,2.4vw,1.75rem);font-family:var(--serif);line-height:1.3;max-width:34ch}
+.numeri__grid{display:grid;grid-template-columns:1fr;border-top:1px solid var(--linea)}
+.numeri__grid>div{padding:1.6rem 0;border-bottom:1px solid var(--linea);display:flex;align-items:baseline;gap:1rem}
+.numeri__grid span[data-vng-count],.numeri__grid .n{font:400 clamp(3.4rem,8vw,6.2rem)/.9 var(--serif);color:var(--salame);min-width:4.2ch;font-variant-numeric:lining-nums tabular-nums}
+.numeri__grid p{font-size:1.05rem;color:var(--inchiostro-2);max-width:24ch}
+.numeri__grid p b{color:var(--inchiostro);display:block;font-size:1.1rem}
+@media(min-width:800px){
+  .numeri__intro{grid-template-columns:1fr 1.3fr;align-items:end}
+  .numeri__grid{grid-template-columns:repeat(3,1fr)}
+  .numeri__grid>div{flex-direction:column;gap:.6rem;padding:2rem 2rem 2rem 0;border-bottom:0}
+  .numeri__grid>div+div{padding-left:2rem;border-left:1px solid var(--linea)}
+}
+
+/* salumi */
+.salumi{padding:clamp(3rem,7vw,6rem) 0 clamp(4rem,9vw,8rem)}
+.salumi__head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:1.5rem;margin-bottom:clamp(2.5rem,5vw,4rem)}
+.salumi__head p{max-width:30rem;color:var(--inchiostro-2)}
+.lista{display:grid;gap:.9rem;grid-template-columns:1fr}
+@media(max-width:799px){.salume{display:grid;grid-template-columns:128px 1fr;gap:0 1rem;padding:0 1rem 0 0;align-items:center}.salume figure{grid-row:1/span 3;width:128px;height:128px;aspect-ratio:auto;min-width:0}.salume figure img{width:128px;height:128px}.salume>*:not(figure){padding-inline:0}.salume p{margin-bottom:.9rem}}
+.salume{background:#fff;border-radius:8px;padding:0 0 1.1rem;box-shadow:0 1px 0 rgba(43,31,25,.06),0 20px 40px -28px rgba(43,31,25,.5);overflow:hidden}
+.salume>*:not(figure){padding-inline:.9rem}
+.salume{position:relative}
+.salume figure{margin:0;position:relative;aspect-ratio:1/1;background:#fff;overflow:hidden}
+.salume img{width:100%;height:100%;object-fit:contain;transition:transform .8s var(--vng-ease-out)}
+.salume:hover img{transform:scale(1.04)}
+.salume .num{display:block;margin-top:.2rem;font:400 1.1rem/1 var(--serif);color:var(--salame)}
+.salume h3{font-size:clamp(1.45rem,2.6vw,2.1rem);margin-top:.35rem}
+.salume p{color:var(--inchiostro-2);margin-top:.5rem;font-size:1.02rem;line-height:1.5}
+.salume .note{display:block;margin-top:.9rem;font:700 .72rem/1.3 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--macchia)}
+.altri{margin-top:clamp(2rem,4vw,3rem);display:grid;gap:1.5rem;align-items:center;padding:1.4rem 0;border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)}
+.altri p{font:400 clamp(1.25rem,2.3vw,1.7rem)/1.35 var(--serif)}
+.altri img{width:140px;mix-blend-mode:multiply;border-radius:6px}
+@media(min-width:800px){
+  .lista{grid-template-columns:repeat(4,1fr);gap:2rem}
+  .lista{gap:1.4rem}
+  .salume>*:not(figure){padding-inline:1.3rem}
+}
+
+/* terra */
+.terra{position:relative;background:var(--carta-2);padding:clamp(4.5rem,9vw,8rem) 0;overflow:hidden}
+.terra__grid{display:grid;gap:2.5rem}
+.terra figure{margin:0;overflow:hidden;border-radius:4px}
+.terra figure img{width:100%;aspect-ratio:3/2;object-fit:cover;transform:scale(1.08)}
+.terra blockquote{margin:0;font:400 clamp(1.7rem,3.6vw,3rem)/1.15 var(--serif)}
+.terra blockquote em{color:var(--macchia)}
+.terra .fonte{display:block;margin-top:1rem;font-size:1rem;color:var(--inchiostro-2)}
+.terra p.testo{margin-top:1.6rem;color:var(--inchiostro-2);max-width:34rem;font-size:1.08rem}
+@media(min-width:900px){.terra__grid{grid-template-columns:1.15fr 1fr;align-items:center;gap:5rem}}
+
+/* famiglia: impaginazione a mosaico */
+.famiglia{padding:clamp(4.5rem,9vw,8rem) 0}
+.mosaico{display:grid;gap:1rem;grid-template-columns:1fr 1fr;margin-top:2.6rem}
+.mosaico figure{margin:0;overflow:hidden;border-radius:4px;position:relative}
+.mosaico img{width:100%;height:100%;object-fit:cover}
+.mosaico figcaption{position:absolute;left:.9rem;bottom:.8rem;font:700 .85rem/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.m-fam{grid-column:1/-1}
+.m-fam img{aspect-ratio:3/2}
+.m-a img,.m-b img{aspect-ratio:4/5}
+.famiglia__txt{display:grid;gap:1.4rem;margin-top:2.5rem}
+.famiglia__txt p{color:var(--inchiostro-2);font-size:1.08rem}
+.famiglia__txt p.grande{font:400 clamp(1.4rem,2.6vw,2rem)/1.3 var(--serif);color:var(--inchiostro)}
+.naturello{border-left:3px solid var(--macchia);padding-left:1.2rem}
+.naturello b{display:block;font:400 1.6rem/1.1 var(--serif);color:var(--macchia);margin-bottom:.3rem}
+@media(min-width:900px){
+  .famiglia__layout{display:grid;grid-template-columns:5fr 6fr;gap:5rem;align-items:start}
+  .famiglia__txt{position:sticky;top:110px;margin-top:0}
+  .mosaico{margin-top:0;grid-template-columns:1.1fr .9fr;grid-template-rows:auto auto}
+  .m-b{margin-top:5rem}
+}
+
+/* mondo: elemento firma */
+.mondo{background:var(--inchiostro);color:#f3ece0;padding:clamp(4.5rem,9vw,8rem) 0;overflow:hidden}
+.mondo .kicker{color:#e3b45c}
+.mondo h2 em{color:#e3b45c}
+.mondo__intro{display:grid;gap:1.4rem;margin-bottom:2.5rem}
+.mondo__intro p{color:#e2d6c4;max-width:34rem;font-size:1.1rem}
+.mappa{position:relative;width:100%;margin-inline:auto}
+.mappa svg{width:100%;height:auto;display:block;overflow:visible}
+.mappa .dot{fill:rgba(243,236,224,.14)}
+.mappa .rotta{fill:none;stroke:#e3b45c;stroke-width:2;stroke-linecap:round}
+.mappa .citta{fill:#f3ece0}
+.mappa .casa{fill:#e05a48}
+.mappa .alone{fill:none;stroke:#e05a48;stroke-width:1.5;opacity:.6}
+.mappa text{font:700 15px/1 var(--sans);fill:#f3ece0;letter-spacing:.04em}
+.mappa text.sub{font:400 13px/1 var(--sans);fill:#cbbca7}
+.mappa text.big{font:400 26px/1 var(--serif);fill:#fff}
+.mondo__lista{display:grid;gap:0;margin-top:2.4rem;list-style:none;padding:0;border-top:1px solid rgba(243,236,224,.18)}
+.mondo__lista li{display:flex;justify-content:space-between;gap:1rem;padding:1rem 0;border-bottom:1px solid rgba(243,236,224,.18);font-size:1.08rem}
+.mondo__lista li span:last-child{color:#cbbca7;text-align:right}
+.consegna{margin-top:2.4rem;display:flex;flex-wrap:wrap;gap:1rem 2rem;align-items:baseline;font:400 clamp(1.4rem,2.6vw,2rem)/1.25 var(--serif)}
+.consegna small{font:400 1.05rem/1.4 var(--sans);color:#dccfbd}
+@media(min-width:900px){.mondo__intro{grid-template-columns:1fr 1fr;align-items:end}.mondo__lista{grid-template-columns:1fr 1fr;column-gap:3rem}}
+@media(max-width:640px){.mappa{display:none}}
+
+/* premi */
+.premi{padding:clamp(4.5rem,9vw,8rem) 0 clamp(3rem,6vw,5rem)}
+.tutti{margin-top:2rem}
+.tutti summary{cursor:pointer;min-height:48px;display:flex;align-items:center;font-weight:700;font-size:1.05rem;color:var(--salame);text-underline-offset:4px;text-decoration:underline}
+.albo{list-style:none;margin:2.4rem 0 0;padding:0;border-top:1px solid var(--linea)}
+.albo li{display:grid;grid-template-columns:4rem 1fr;gap:.1rem 1rem;padding:1.1rem 0;font-size:1.05rem;border-bottom:1px solid var(--linea)}
+.albo b{font:400 1.5rem/1.2 var(--serif);color:var(--salame);grid-row:1/span 2}
+.albo span:first-of-type{font-weight:700}
+.albo span:last-child{color:var(--inchiostro-2)}
+@media(min-width:800px){.albo li{grid-template-columns:5rem 18rem 1fr;align-items:baseline}.albo b{grid-row:auto}}
+
+/* stampa */
+.stampa{padding:0 0 clamp(4.5rem,9vw,7rem)}
+.titoli{list-style:none;margin:2.2rem 0 0;padding:0}
+.titoli li{display:grid;gap:.4rem;padding:1.6rem 0;border-top:1px solid var(--linea)}
+.titoli li:last-child{border-bottom:1px solid var(--linea)}
+.titoli q{font:400 clamp(1.5rem,3.4vw,2.6rem)/1.1 var(--serif)}
+.titoli q::before,.titoli q::after{color:var(--salame)}
+.titoli span{font:700 .85rem/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--inchiostro-2)}
+@media(min-width:800px){.titoli li{grid-template-columns:1fr 14rem;align-items:baseline}.titoli span{text-align:right}}
+
+/* contatti */
+.contatti{background:var(--salame);color:#fff;padding:clamp(4.5rem,9vw,8rem) 0}
+.contatti .kicker{color:#f6d9a6}
+.contatti h2 em{color:#f6d9a6}
+.passi{list-style:none;margin:1.8rem 0 0;padding:0;display:grid;gap:.8rem}
+.passi li{display:flex;gap:.9rem;align-items:center;font-size:1.08rem}
+.passi b{flex:none;display:grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:50%;background:#f6d9a6;color:var(--salame);font:400 1.2rem/1 var(--serif)}
+@media(min-width:900px){.passi{grid-template-columns:repeat(3,1fr)}}
+.contatti__grid{display:grid;gap:2.5rem;margin-top:2.5rem}
+.scheda{position:relative;border-radius:14px;padding:clamp(1.4rem,3vw,2.2rem);background:rgba(43,15,10,.28);border:1px solid rgba(255,255,255,.2)}
+.scheda dl{margin:0;display:grid;gap:1.1rem}
+.scheda dt{font:700 .72rem/1.2 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:#f6d9a6}
+.scheda dd{margin:.25rem 0 0;font-size:1.12rem}
+.scheda dd a{font-weight:700;text-underline-offset:4px}
+.strada h3{font-size:1.6rem;margin-bottom:1rem}
+.strada ol{margin:0;padding:0;list-style:none;display:grid;gap:1rem}
+.strada li{padding-left:1rem;border-left:2px solid rgba(255,255,255,.35)}
+.strada li b{display:block}
+.contatti .cta{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.8rem}
+@media(min-width:900px){.contatti__grid{grid-template-columns:1fr 1fr;gap:4rem}}
+
+footer{background:var(--inchiostro);color:#d8cbb8;padding:3rem 0 calc(7rem + env(safe-area-inset-bottom));font-size:.92rem}
+footer .wrap{display:grid;gap:1.2rem}
+footer b{color:#f3ece0;font:400 1.5rem/1 var(--serif)}
+footer a{color:#f3ece0}
+@media(min-width:900px){footer{padding-bottom:3rem}footer .wrap{grid-template-columns:1.2fr 1fr 1fr}}
+
+/* barra contatti a portata di pollice */
+.pollice{position:fixed;left:0;right:0;bottom:0;z-index:55;display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:rgba(43,31,25,.2);padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -8px 24px rgba(0,0,0,.12)}
+.pollice a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.2rem;min-height:62px;background:var(--carta);text-decoration:none;font:700 .8rem/1 var(--sans);color:var(--inchiostro)}
+.pollice a:first-child{background:var(--salame);color:#fff}
+.pollice svg{width:20px;height:20px}
+@media(min-width:900px){.pollice{display:none}}
+
+/* movimento (solo con JS) */
+.js .rv{opacity:0;transform:translateY(34px)}
+.js.is-static .rv,.is-static .rv{opacity:1!important;transform:none!important}
+@media(prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none}.btn{transition:none}}
+</style>
+<script>document.documentElement.classList.add('js');if(/[?&]shot=1\b/.test(location.search)){document.documentElement.classList.add('is-static');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})})}</script>
+</head>
+<body>
+<div class="bozza" role="note">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="marchio" href="#inizio"><img src="img/logo-mori.png" width="192" height="121" alt="Salumificio artigianale Mori – Silvano Mori, salumi tipici della Maremma Toscana"></a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Apri il menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav aria-label="Sezioni"><ul class="menu" id="menu">
+      <li><a href="#salumi">I salumi</a></li>
+      <li><a href="#terra">Torniella</a></li>
+      <li><a href="#famiglia">La famiglia</a></li>
+      <li><a href="#mondo">Nel mondo</a></li>
+      <li><a href="#premi">Premi</a></li>
+      <li><a href="#contatti">Contatti</a></li>
+    </ul></nav>
+    <a class="btn btn--rosso" href="tel:+390564575436"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>0564 575436</a>
+  </div>
+</header>
+
+<main id="inizio">
+<section class="hero" aria-labelledby="titolo">
+  <div class="hero__grid">
+    <div class="hero__txt">
+      <p class="kicker">Torniella · Alta Maremma Toscana</p>
+      <h1 id="titolo">Salumi di Maremma, <em>dal 1880.</em></h1>
+      <p class="lead">Prosciutto, capocollo, lardo e salame toscano lavorati a mano a Torniella, antico borgo medievale dell'alta Maremma Toscana. Una famiglia, un'aria fresca e asciutta, le ricette di una volta.</p>
+      <div class="cta">
+        <a class="btn btn--rosso" href="tel:+390564575436"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Chiama il salumificio</a>
+        <a class="link-freccia" href="#salumi">Scopri i salumi →</a>
+      </div>
+      <p class="londra">Anche da Harrods e Fortnum &amp; Mason, a Londra</p>
+    </div>
+    <figure class="hero__foto"><span class="hero__grana" aria-hidden="true"></span><img class="hero__img" src="img/tagliere.jpg" width="1400" height="656" alt="Tagliere di salumi del Salumificio Mori: capocollo, salame e prosciutto affettati con rosmarino" fetchpriority="high" decoding="async"></figure>
+  </div>
+</section>
+
+<section class="prove" aria-label="In breve">
+  <div class="wrap"><ul>
+    <li class="rv"><strong>Da Torniella all'Europa</strong><span>Londra, Olanda, Svezia, Danimarca, Russia e fino alla Cina</span></li>
+    <li class="rv"><strong>20 quintali a settimana</strong><span>La produzione media di un salumificio di famiglia</span></li>
+    <li class="rv"><strong>Premiati dal 2021 al 2025</strong><span>Italy Food Awards e Tuscany Food Awards</span></li>
+  </ul></div>
+</section>
+
+<section class="salumi" id="salumi" aria-labelledby="t-salumi">
+  <div class="wrap">
+    <div class="salumi__head rv">
+      <div><p class="kicker">I salumi</p><h2 id="t-salumi">Quattro classici della casa.</h2></div>
+      <p>Carni selezionate con rigore e stagionate nell'aria di collina. Accanto ai classici, finocchiona, prosciutto di cinghiale, pancette e salumi aromatizzati con erbe, pistacchi, vino, funghi o tartufo d'Alba.</p>
+    </div>
+    <div class="lista">
+      <article class="salume rv">
+        <figure><img src="img/prosciutto.jpg" width="400" height="400" loading="lazy" decoding="async" alt="Prosciutto crudo stagionato del Salumificio Mori sul suo supporto in legno"></figure>
+        <span class="num" aria-hidden="true">01</span>
+        <h3>Prosciutto crudo</h3>
+        <p>Sapore delicato, con giusta sapidità e aroma fragrante: il carattere viene dai metodi di lavorazione e stagionatura di una volta.</p>
+      </article>
+      <article class="salume rv">
+        <figure><img src="img/capocollo.jpg" width="400" height="400" loading="lazy" decoding="async" alt="Capocollo legato a mano e fette con semi di finocchio"></figure>
+        <span class="num" aria-hidden="true">02</span>
+        <h3>Capocollo o coppa</h3>
+        <p>Salume squisito e molto ricercato, dall'aroma caratteristico. Perfetto con le verdure in pinzimonio e nei piatti d'estate.</p>
+      </article>
+      <article class="salume rv">
+        <figure><img src="img/lardo.jpg" width="400" height="400" loading="lazy" decoding="async" alt="Lardo con pepe e rosmarino, tagliato a fette sottili"></figure>
+        <span class="num" aria-hidden="true">03</span>
+        <h3>Lardo</h3>
+        <p>Dal gusto fine e delicato: si serve tagliato sottilissimo su fette di pane caldo, anche come piatto unico.</p>
+      </article>
+      <article class="salume rv">
+        <figure><img src="img/salame-toscano.jpg" width="400" height="400" loading="lazy" decoding="async" alt="Salame toscano affettato con grani di pepe"></figure>
+        <span class="num" aria-hidden="true">04</span>
+        <h3>Salame Toscano</h3>
+        <p>Compatto, con la classica occhiatura di grasso e un sapore intenso e deciso.</p>
+      </article>
+    </div>
+    <div class="altri rv">
+      <p>E poi la salsiccia fresca, la finocchiona, il prosciutto di cinghiale e la linea <em>Naturello</em>, senza conservanti né coloranti.</p>
+    </div>
+  </div>
+</section>
+
+<section class="stampa" aria-labelledby="t-stampa">
+  <div class="wrap">
+    <div class="rv"><p class="kicker">Dicono di noi</p><h2 id="t-stampa">Dalla bottega ai giornali.</h2></div>
+    <ul class="titoli">
+      <li class="rv"><q>Il salumiere di Sua Maestà</q><span>Il Tirreno</span></li>
+      <li class="rv"><q>Affettati maremmani dopo la prima della Scala</q><span>Il Tirreno</span></li>
+      <li class="rv"><q>Salumificio Mori, da Torniella fino al successo mondiale</q><span>Maremma Magazine · dicembre 2023</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="terra" id="terra" aria-labelledby="t-terra">
+  <div class="wrap terra__grid">
+    <figure class="rv"><img data-parallax src="img/maremma.jpg" width="600" height="400" loading="lazy" decoding="async" alt="Colline e campi dell'alta Maremma Toscana"></figure>
+    <div class="rv">
+      <p class="kicker">La nostra terra</p>
+      <h2 id="t-terra" class="sr">La nostra terra: Torniella</h2>
+      <blockquote><p>«L'aria fresca e asciutta, la lavorazione artigianale» fanno la differenza.</p></blockquote>
+      <span class="fonte">Dalla presentazione del salumificio</span>
+      <p class="testo">Il salumificio ha sede a Torniella, antico borgo medievale dell'alta Maremma Toscana. Qui l'aria fresca e asciutta di collina è una componente fondamentale per avere prodotti eccellenti: insieme alla cura di ogni lavorazione, è il segreto della stagionatura.</p>
+    </div>
+  </div>
+</section>
+
+<section class="famiglia" id="famiglia" aria-labelledby="t-famiglia">
+  <div class="wrap famiglia__layout">
+    <div class="famiglia__txt rv">
+      <p class="kicker">Una storia di famiglia</p>
+      <h2 id="t-famiglia">Dalla macelleria del paese al salumificio.</h2>
+      <p class="grande">Silvano Mori ha cominciato con la tradizionale macelleria di Torniella. Poi la scelta: pochi prodotti, altamente specializzati, e le ricette antiche riportate in vita.</p>
+      <p>Oggi il salumificio lo portano avanti Silvano con la moglie Doretta, la figlia Valentina e il genero Armando Giusti. Tecniche artigianali e macchinari moderni, con un controllo rigoroso nella selezione delle carni.</p>
+      <div class="naturello"><b>Naturello</b><p>La linea di prodotti realizzati senza conservanti o coloranti.</p></div>
+    </div>
+    <div class="mosaico">
+      <figure class="m-fam rv"><img data-parallax src="img/famiglia.jpg" width="600" height="400" loading="lazy" decoding="async" alt="La famiglia Mori in laboratorio, in camice bianco"><figcaption>La famiglia Mori</figcaption></figure>
+      <figure class="m-a rv"><img src="img/lavorazione.jpg" width="600" height="400" loading="lazy" decoding="async" alt="Mani che legano i salami in laboratorio"><figcaption>Lavorazione a mano</figcaption></figure>
+      <figure class="m-b rv"><img src="img/stagionatura.jpg" width="600" height="400" loading="lazy" decoding="async" alt="Salumi appesi nella stanza di stagionatura"><figcaption>Stagionatura</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="mondo" id="mondo" aria-labelledby="t-mondo">
+  <div class="wrap">
+    <div class="mondo__intro rv">
+      <div><p class="kicker">Da Torniella al mondo</p><h2 id="t-mondo">Un borgo di Maremma, <em>sugli scaffali di Londra.</em></h2></div>
+      <p>I salumi Mori sono venduti in Italia e in Europa: dai magazzini Harrods ai negozi Fortnum &amp; Mason, dalla Svezia e la Danimarca fino alla Russia, agli Urali e alla Cina.</p>
+    </div>
+    <div class="mappa rv" role="img" aria-label="Mappa stilizzata: da Torniella partono rotte verso Londra, Olanda, Danimarca, Svezia, Russia, Urali e Cina">
+      <svg viewBox="0 90 1000 400" aria-hidden="true" focusable="false">
+        <defs><pattern id="pt" width="20" height="20" patternUnits="userSpaceOnUse"><circle class="dot" cx="10" cy="10" r="1.6"/></pattern></defs>
+        <rect y="90" width="1000" height="400" fill="url(#pt)"/>
+        <g class="rotte">
+          <path class="rotta" pathLength="1" d="M304 414 Q 200 300 156 263"/>
+          <path class="rotta" pathLength="1" d="M304 414 Q 240 310 222 247"/>
+          <path class="rotta" pathLength="1" d="M304 414 Q 330 290 323 186"/>
+          <path class="rotta" pathLength="1" d="M304 414 Q 380 240 396 121"/>
+          <path class="rotta" pathLength="1" d="M304 414 Q 500 230 653 185"/>
+          <path class="rotta" pathLength="1" d="M304 414 Q 640 220 955 166"/>
+          <path class="rotta" pathLength="1" d="M304 414 Q 640 420 985 360"/>
+        </g>
+        <g class="punti">
+          <circle class="citta" cx="156" cy="263" r="6"/><text x="140" y="268" text-anchor="end">Londra</text><text class="sub" x="140" y="288" text-anchor="end">Harrods</text><text class="sub" x="140" y="305" text-anchor="end">Fortnum &amp; Mason</text>
+          <circle class="citta" cx="222" cy="247" r="5"/><text x="222" y="226" text-anchor="middle">Olanda</text>
+          <circle class="citta" cx="323" cy="186" r="5"/><text x="337" y="181">Danimarca</text>
+          <circle class="citta" cx="396" cy="121" r="5"/><text x="410" y="116">Svezia</text>
+          <circle class="citta" cx="653" cy="185" r="5"/><text x="653" y="164" text-anchor="middle">Russia</text>
+          <circle class="citta" cx="955" cy="166" r="5"/><text x="955" y="145" text-anchor="end">Urali</text>
+          <circle class="citta" cx="980" cy="360" r="5"/><text x="975" y="392" text-anchor="end">Cina</text>
+          <circle class="alone" cx="304" cy="414" r="22"/>
+          <circle class="casa" cx="304" cy="414" r="9"/>
+          <text class="big" x="304" y="468" text-anchor="middle">Torniella</text>
+        </g>
+      </svg>
+    </div>
+    <ul class="mondo__lista">
+      <li><span>Regno Unito</span><span>Harrods, Fortnum &amp; Mason</span></li>
+      <li><span>Scandinavia</span><span>Svezia, Danimarca</span></li>
+      <li><span>Europa</span><span>Olanda, Russia, Urali</span></li>
+      <li><span>Asia</span><span>Cina</span></li>
+    </ul>
+    <p class="consegna rv">In Italia in 24 ore. <small>36 ore per le isole: il Salumificio Mori arriva direttamente a casa vostra.</small></p>
+  </div>
+</section>
+
+<section class="premi" id="premi" aria-labelledby="t-premi">
+  <div class="wrap">
+    <div class="rv"><p class="kicker">Riconoscimenti</p><h2 id="t-premi">Premiati, anno dopo anno.</h2><p style="margin-top:1rem;font-size:1.1rem;color:var(--inchiostro-2)">Riconoscimenti ogni anno, per <span data-vng-count="5">5</span> anni di fila: dal 2021 al 2025.</p></div>
+  </div>
+  <div class="wrap"><ul class="albo rv" aria-label="Tutti i riconoscimenti">
+    <li><b>2025</b><span>Italy Food Awards</span><span>Vincitore categoria Salumifici</span></li>
+    <li><b>2024</b><span>Tuscany Food Awards</span><span>Vincitore categoria Salumifici · Menzione speciale Valorizzazione del territorio</span></li>
+    <li><b>2024</b><span>Concorso nazionale «La Regina della Testa»</span><span>Menzione speciale</span></li>
+    <li><b>2024</b><span>Italy Food Awards</span><span>Vincitore – Premio alla carriera</span></li>
+    <li><b>2023</b><span>Tuscany Food Awards</span><span>Vincitore categoria Salumi</span></li>
+    <li><b>2023</b><span>Italy Food Awards</span><span>Menzione speciale categoria Salumi</span></li>
+    <li><b>2022</b><span>Tuscany Food Awards</span><span>Vincitore categoria Salumi</span></li>
+    <li><b>2021</b><span>Tuscany Food Awards</span><span>Vincitore categoria Salumi</span></li>
+  </ul></div>
+</section>
+
+
+
+<section class="contatti" id="contatti" aria-labelledby="t-contatti">
+  <div class="wrap">
+    <div class="rv"><p class="kicker">Contatti e ordini</p><h2 id="t-contatti">Chiamateci, vi rispondiamo noi.</h2><p style="margin-top:1rem;font-size:1.15rem;max-width:36rem;color:#fbe9cf">Per ordini e informazioni telefonate o scrivete: la consegna in Italia arriva in 24 ore (36 ore per le isole).</p></div>
+    <div class="contatti__grid">
+      <div class="scheda rv">
+        <span class="vng-beam" aria-hidden="true"></span>
+        <dl>
+          <div><dt>Telefono</dt><dd><a href="tel:+390564575436">+39 0564 575436</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:info@salumificiomori.com">info@salumificiomori.com</a></dd></div>
+          <div><dt>Orari</dt><dd>Da lunedì a venerdì, 8–13 e 14.30–17.30</dd></div>
+          <div><dt>Indirizzo</dt><dd>Via della Pace, 2 – 58036 Torniella (GR)</dd></div>
+        </dl>
+        <div class="cta">
+          <a class="btn btn--chiaro" href="tel:+390564575436">Chiama ora</a>
+          <a class="btn btn--linea" href="mailto:info@salumificiomori.com">Scrivi una email</a>
+        </div>
+      </div>
+      <div class="strada rv">
+        <h3>Come arrivare a Torniella</h3>
+        <ol>
+          <li><b>Da Livorno</b>Variante Aurelia, uscita Gavorrano Scalo; direzione Ribolla fino a Roccastrada, poi Torniella.</li>
+          <li><b>Da Siena</b>Strada statale Senese verso sud, uscita Civitella Marittima; seguire Roccastrada / Torniella.</li>
+          <li><b>Da Grosseto</b>Strada statale Senese verso nord, uscita Civitella Marittima; seguire Roccastrada / Torniella.</li>
+        </ol>
+        <div class="cta"><a class="btn btn--chiaro" href="https://www.google.com/maps/search/?api=1&amp;query=Via+della+Pace+2+58036+Torniella+GR" target="_blank" rel="noopener">Apri in Google Maps</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>Salumificio Silvano Mori</b><p style="margin-top:.6rem">Salumi tipici della Maremma Toscana<br>Via della Pace, 2 – 58036 Torniella (GR)<br>P. IVA 01485690539</p></div>
+    <div><p>Telefono <a href="tel:+390564575436">+39 0564 575436</a><br>Email <a href="mailto:info@salumificiomori.com">info@salumificiomori.com</a><br><a href="https://www.facebook.com/profile.php?id=100063472813486" rel="noopener" target="_blank">Facebook</a></p></div>
+    <div><p>Foto e testi: Salumificio Silvano Mori (salumificiomori.com).<br>Proposta di restyling – bozza non ufficiale, non pubblicata dal salumificio.</p></div>
+  </div>
+</footer>
+
+<nav class="pollice" aria-label="Contatti rapidi">
+  <a href="tel:+390564575436"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Chiama</a>
+  <a href="mailto:info@salumificiomori.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Email</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Via+della+Pace+2+58036+Torniella+GR" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Mappa</a>
+</nav>
+
+<script src="../vendor/vng/vng.js" defer></script>
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script>
+window.addEventListener('DOMContentLoaded',function(){
+  var top=document.getElementById('top');
+  var bg=top.querySelector('.burger');bg.addEventListener('click',function(){var o=top.classList.toggle('is-open');bg.setAttribute('aria-expanded',o);bg.setAttribute('aria-label',o?'Chiudi il menu':'Apri il menu')});
+  top.querySelectorAll('.menu a').forEach(function(a){a.addEventListener('click',function(){top.classList.remove('is-open');bg.setAttribute('aria-expanded','false')})});
+  function solid(){top.classList.toggle('is-solid',window.scrollY>window.innerHeight*0.7)}
+  solid();window.addEventListener('scroll',solid,{passive:true});
+  var STATIC=document.documentElement.classList.contains('is-static');
+  var REDUCED=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(STATIC||REDUCED||!window.gsap||!window.ScrollTrigger){document.documentElement.classList.add('is-static');return}
+  gsap.registerPlugin(ScrollTrigger,SplitText);
+  var lenis=new Lenis({lerp:0.1});
+  lenis.on('scroll',ScrollTrigger.update);
+  gsap.ticker.add(function(t){lenis.raf(t*1000)});gsap.ticker.lagSmoothing(0);
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var id=a.getAttribute('href');if(id.length>1&&document.querySelector(id)){e.preventDefault();lenis.scrollTo(id,{offset:-100})}})});
+  // titolo
+  document.fonts.ready.then(function(){
+    var st=new SplitText('#titolo',{type:'lines,words',linesClass:'riga'});
+    gsap.from(st.words,{yPercent:110,opacity:0,duration:1.1,ease:'expo.out',stagger:0.06,delay:0.1});
+    gsap.from('.hero .kicker, .hero .lead, .hero .cta',{y:24,opacity:0,duration:1,ease:'power3.out',stagger:0.12,delay:0.45});
+    ScrollTrigger.refresh();
+  });
+  gsap.to('.hero__img',{yPercent:6,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  gsap.utils.toArray('.rv').forEach(function(el){
+    gsap.to(el,{opacity:1,y:0,duration:1.1,ease:'expo.out',scrollTrigger:{trigger:el,start:'top 88%',once:true}});
+  });
+  gsap.utils.toArray('[data-parallax]').forEach(function(img){
+    gsap.fromTo(img,{yPercent:-5},{yPercent:5,ease:'none',scrollTrigger:{trigger:img.parentNode,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  // elemento firma: le rotte si disegnano con lo scorrimento
+  var rotte=gsap.utils.toArray('.rotta');
+  gsap.set(rotte,{strokeDasharray:1,strokeDashoffset:1});
+  gsap.set('.punti text, .punti .citta',{opacity:0});
+  var tl=gsap.timeline({scrollTrigger:{trigger:'.mappa',start:'top 75%',end:'bottom 45%',scrub:1}});
+  rotte.forEach(function(r,i){tl.to(r,{strokeDashoffset:0,duration:1,ease:'none'},i*0.35)});
+  tl.to('.punti text, .punti .citta',{opacity:1,duration:0.6,stagger:0.08},0.2);
+  gsap.to('.alone',{attr:{r:34},opacity:0,duration:1.8,repeat:-1,ease:'power1.out',transformOrigin:'center'});
+  window.addEventListener('load',function(){ScrollTrigger.refresh()});
+});
+</script>
+</body>
+</html>
