@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Il sito di Salumificio Silvano Mori, oggi e domani</title>
+<meta property="og:image" content="confronto.jpg">
+<style>
+@font-face{font-family:"DM Serif Display";src:url(../fonts/dm-serif-display-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"DM Serif Display";src:url(../fonts/dm-serif-display-latin-400-italic.woff2) format("woff2");font-style:italic;font-display:swap}
+@font-face{font-family:Karla;src:url(../fonts/karla-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Karla;src:url(../fonts/karla-latin-700-normal.woff2) format("woff2");font-weight:700;font-display:swap}
+:root{--carta:#f3ece0;--carta-2:#ebe1d0;--inchiostro:#2b1f19;--testo:#3d2e26;--salame:#8f2d24;--oro:#a87a22;--linea:rgba(43,31,25,.16)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--carta);color:var(--inchiostro);font:400 1.0625rem/1.6 Karla,Arial,sans-serif}
+img{max-width:100%;height:auto;display:block}
+.bozza{background:var(--inchiostro);color:var(--carta);text-align:center;font:700 .74rem/28px Karla,sans-serif;letter-spacing:.08em}
+.wrap{width:min(1100px,100% - 32px);margin-inline:auto}
+h1,h2{font-family:"DM Serif Display",Georgia,serif;font-weight:400;line-height:1.05;margin:0}
+h1{font-size:clamp(2.4rem,7vw,4.6rem)}
+h1 em{color:var(--salame)}
+h2{font-size:clamp(1.8rem,4vw,2.8rem)}
+.kicker{font:700 .82rem/1.2 Karla,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--salame);margin:0 0 .8rem}
+header{padding:3rem 0 2rem}
+header p.lead{max-width:40rem;margin-top:1rem;color:var(--testo);font-size:1.12rem}
+/* cursore prima/dopo */
+.ba{position:relative;width:min(390px,100%);aspect-ratio:780/1587;margin:1rem auto 0;border-radius:28px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(43,31,25,.6),0 0 0 10px var(--inchiostro);touch-action:pan-y;user-select:none;-webkit-user-select:none;background:#fff}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;pointer-events:none}
+.ba .dopo{clip-path:inset(0 0 0 var(--x,50%))}
+.ba .maniglia{position:absolute;top:0;bottom:0;left:var(--x,50%);width:3px;margin-left:-1.5px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.2)}
+.ba .maniglia::after{content:"‹ ›";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;background:var(--salame);color:#fff;display:grid;place-items:center;font:700 1.1rem/1 Karla,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+.ba .et{position:absolute;top:12px;padding:.3rem .7rem;border-radius:99px;font:700 .75rem/1 Karla,sans-serif;letter-spacing:.08em;text-transform:uppercase;background:rgba(43,31,25,.85);color:#fff}
+.ba .et.v{left:12px}.ba .et.n{right:12px;background:var(--salame)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.nota{text-align:center;color:var(--testo);font-size:.95rem;margin-top:1.4rem}
+section{padding:3.5rem 0}
+.problemi{display:grid;gap:2.5rem;margin-top:2rem}
+.problema{display:grid;gap:1.2rem;align-items:center}
+.problema figure{margin:0;border-radius:10px;overflow:hidden;box-shadow:0 18px 40px -26px rgba(43,31,25,.6);background:#fff}
+.problema h3{font:400 1.6rem/1.15 "DM Serif Display",Georgia,serif;margin:0 0 .5rem}
+.problema p{margin:0;color:var(--testo)}
+.problema .n{font:400 2.4rem/1 "DM Serif Display",serif;color:var(--salame)}
+.citazione{padding:2rem;background:#fff;font:400 1.05rem/1.5 ui-monospace,Menlo,monospace;color:#222;border:3px solid #d62020;border-radius:10px}
+@media(min-width:800px){.problema{grid-template-columns:1fr 1.1fr;gap:3rem}.problema:nth-child(even) figure,.problema:nth-child(even) .citazione{order:2}}
+.numeri{background:var(--carta-2)}
+.numeri ul{list-style:none;margin:2rem 0 0;padding:0;display:grid;gap:1rem}
+.numeri li{background:#fff;border-radius:10px;padding:1.4rem 1.5rem}
+.numeri b{display:block;font:700 .82rem/1.2 Karla,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--testo)}
+.numeri .val{font:400 clamp(1.8rem,4vw,2.4rem)/1.1 "DM Serif Display",serif;margin-top:.5rem}
+.numeri .val s{color:#8a7b70;text-decoration-thickness:2px}
+.numeri .val span{color:var(--salame)}
+.numeri small{display:block;margin-top:.4rem;color:var(--testo);font-size:.92rem}
+@media(min-width:800px){.numeri ul{grid-template-columns:repeat(3,1fr)}}
+.cta{text-align:center}
+.grande{display:inline-flex;align-items:center;justify-content:center;min-height:64px;padding:1rem 2.2rem;border-radius:99px;background:var(--salame);color:#fff;font:700 1.25rem/1 Karla,sans-serif;text-decoration:none;box-shadow:0 18px 36px -18px rgba(143,45,36,.8)}
+.grande:hover{background:#7a241c}
+footer{background:var(--inchiostro);color:#e2d6c4;padding:2.5rem 0 3rem;text-align:center}
+footer a{color:#fff;font-weight:700}
+:focus-visible{outline:3px solid var(--salame);outline-offset:3px}
+</style>
+</head>
+<body>
+<div class="bozza" role="note">Proposta di restyling – bozza non ufficiale</div>
+<header class="wrap">
+  <p class="kicker">Salumificio Silvano Mori · Torniella (GR)</p>
+  <h1>Il sito di Salumificio Silvano Mori, <em>oggi e domani</em></h1>
+  <p class="lead">La prima schermata vista da un telefono, come la trova chi arriva per la prima volta. Trascinate il cursore: a sinistra il sito di oggi, a destra la bozza della nuova homepage.</p>
+</header>
+
+<div class="wrap">
+  <div class="ba" id="ba" style="--x:50%">
+    <img src="vecchio-mobile.jpg" width="780" height="1587" alt="Sito attuale da telefono: bandiere, logo e un banner dei cookie che copre lo schermo">
+    <img class="dopo" src="nuovo-mobile.jpg" width="780" height="1587" alt="Nuova homepage da telefono: foto dei salumi, titolo Salumi di Maremma dal 1880 e pulsante Chiama">
+    <span class="et v">Oggi</span><span class="et n">Domani</span>
+    <span class="maniglia" aria-hidden="true"></span>
+    <input type="range" min="0" max="100" value="50" aria-label="Sposta il confronto tra sito di oggi e nuova bozza">
+  </div>
+  <p class="nota">Schermate da telefono (390 px di larghezza), 23 ottobre 2026.</p>
+</div>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Cosa non funziona oggi</p>
+    <h2>Tre problemi del sito attuale</h2>
+    <div class="problemi">
+      <div class="problema">
+        <figure><img src="problema-cookie.jpg" width="1082" height="1502" loading="lazy" alt="Il banner dei cookie copre lo schermo del telefono, cerchiato in rosso"></figure>
+        <div><span class="n">1</span><h3>Il banner dei cookie copre lo schermo</h3><p>Da telefono, appena si apre il sito, l'informativa sui cookie occupa quasi tutto lo schermo: chi arriva vede un testo legale prima di vedere un solo salume.</p></div>
+      </div>
+      <div class="problema">
+        <figure><img src="problema-bandiere.jpg" width="1082" height="760" loading="lazy" alt="Parte alta del sito attuale con bandiere e logo, cerchiate in rosso"></figure>
+        <div><span class="n">2</span><h3>Nella prima schermata non c'è niente da comprare</h3><p>In alto ci sono le bandiere delle lingue, l'icona di Facebook e il logo. Nessun titolo, nessun prodotto, nessun numero di telefono da toccare.</p></div>
+      </div>
+      <div class="problema">
+        <div class="citazione" role="figure" aria-label="Testo che compare nella pagina Prodotti">I nostri prodotti<br><br>… <strong style="color:#d62020">Errore di connessione DB</strong></div>
+        <div><span class="n">3</span><h3>La pagina «Prodotti» è vuota</h3><p>Al posto dell'elenco dei salumi, la pagina «I prodotti» (salumificiomori.com/prodotti.php) mostra un messaggio di errore tecnico. Chi cerca un prodotto non trova nulla.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="numeri">
+  <div class="wrap">
+    <p class="kicker">Misurato da telefono</p>
+    <h2>Tre numeri, oggi e domani</h2>
+    <ul>
+      <li><b>Tempo per vedere il contenuto principale</b><div class="val"><s>3,7 s</s> → <span>0,3 s</span></div><small>LCP, telefono con cache vuota</small></li>
+      <li><b>Peso della homepage</b><div class="val"><s>2,3 MB</s> → <span>0,55 MB</span></div><small>dati scaricati alla prima visita</small></li>
+      <li><b>Schermo coperto da finestre</b><div class="val"><s>100%</s> → <span>0%</span></div><small>banner o popup nella prima schermata</small></li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <a class="grande" href="../">Guarda il sito nuovo</a>
+    <p class="nota">Meglio dal telefono. È una bozza non ufficiale, non pubblicata su Google.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Proposta preparata da LMSoftique – <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></p>
+  </div>
+</footer>
+<script>
+(function(){var ba=document.getElementById('ba'),r=ba.querySelector('input');function set(v){ba.style.setProperty('--x',v+'%')}r.addEventListener('input',function(){set(r.value)});set(r.value)})();
+</script>
+</body>
+</html>
