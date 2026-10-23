@@ -1,0 +1,109 @@
+{
+  "slug": "veradea-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/materasso-meraviglioso/",
+  "misuratoIl": "2026-10-23T03:17:13.503Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 129,
+  "lcpMs": 115,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/veradea-shop/img/5fa2ea1a8952.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/veradea-shop/materasso-meraviglioso/",
+  "titolo": "Materasso Meraviglioso – 580,80 € | Veradea",
+  "descrizione": "Materasso Meraviglioso: 30 cm, rigidità 8/10. Spedizione gratuita, 100 notti di prova, 10 anni di garanzia. Bozza di restyling.",
+  "h1": [
+    "Materasso Meraviglioso"
+  ],
+  "ttfb": 39,
+  "fcp": 115,
+  "domReady": 95,
+  "load": 116,
+  "pesoKB": 448,
+  "richieste": 14,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/5d37c9c34e94.webp",
+      "kb": 61
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/4a904c828528.webp",
+      "kb": 55
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/5fa2ea1a8952.webp",
+      "kb": 51
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/a00cccc5bb66.webp",
+      "kb": 41
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/logo-veradea.png",
+      "kb": 39
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 714,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [
+    "+390694500051"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/assistenza/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Tutte le condizioni di reso",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/assistenza/#resi"
+    },
+    {
+      "t": "Spedizione",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/assistenza/#spedizione"
+    },
+    {
+      "t": "Resi e 100 notti",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/assistenza/#resi"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

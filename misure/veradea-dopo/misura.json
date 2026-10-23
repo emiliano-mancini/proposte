@@ -1,0 +1,101 @@
+{
+  "slug": "veradea-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/",
+  "misuratoIl": "2026-10-23T03:17:09.600Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 260,
+  "lcpMs": 287,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/veradea-shop/",
+  "titolo": "Veradea – Materassi made in Italy, 100 notti di prova e spedizione gratuita",
+  "descrizione": "Materassi in foam, memory gel e molle prodotti in Italia. Spedizione gratuita al piano strada, 100 notti di prova, 10 anni di garanzia. Bozza di restyling.",
+  "h1": [
+    "Sconti fino al 50%\ne 100 notti per provarlo."
+  ],
+  "ttfb": 108,
+  "fcp": 287,
+  "domReady": 156,
+  "load": 253,
+  "pesoKB": 327,
+  "richieste": 12,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/5fa2ea1a8952.webp",
+      "kb": 51
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/a00cccc5bb66.webp",
+      "kb": 41
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/logo-veradea.png",
+      "kb": 39
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/add75b737de8.webp",
+      "kb": 37
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/veradea-shop/img/18a68e2a0693.webp",
+      "kb": 34
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [
+    "+390694500051"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/assistenza/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Spedizione",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/assistenza/#spedizione"
+    },
+    {
+      "t": "Resi e 100 notti",
+      "h": "https://emiliano-mancini.github.io/proposte/veradea-shop/assistenza/#resi"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 100,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 7,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

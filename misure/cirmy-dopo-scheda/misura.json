@@ -1,0 +1,103 @@
+{
+  "slug": "cirmy-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/cirmy-shop/negozio/",
+  "misuratoIl": "2026-10-23T03:17:21.130Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 87,
+  "lcpMs": 116,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/cirmy-shop/img/2f80b83a2f7f.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/cirmy-shop/negozio/",
+  "titolo": "Shop Cirmy – Prodotti in cirmolo e oli essenziali",
+  "descrizione": "Tutti i 76 prodotti Cirmy: diffusori, oli essenziali, cosmetici, lampade. Spedizione gratuita sopra 60 €. Bozza.",
+  "h1": [
+    "Shop"
+  ],
+  "ttfb": 22,
+  "fcp": 91,
+  "domReady": 46,
+  "load": 78,
+  "pesoKB": 199,
+  "richieste": 23,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/cirmy-shop/img/cf06a005e579.webp",
+      "kb": 53
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/cirmy-shop/img/logo-cirmy.png",
+      "kb": 11
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/cirmy-shop/img/5e29e17bbbf8.webp",
+      "kb": 6
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/cirmy-shop/img/e6c62a4d27b1.webp",
+      "kb": 4
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/cirmy-shop/img/a2092a35947b.webp",
+      "kb": 3
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@cirmy.eu"
+  ],
+  "telefono": [
+    "+390462239610"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/cirmy-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/cirmy-shop/assistenza/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/cirmy-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/cirmy-shop/assistenza/#spedizione"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/cirmy-shop/assistenza/#resi"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

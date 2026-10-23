@@ -1,0 +1,57 @@
+{
+  "slug": "cirmy-esauriti-ricontrollo",
+  "url": "https://cirmy.eu/shop/#:~:text=Esaurito",
+  "misuratoIl": "2026-10-23T03:17:33.388Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://cirmy.eu/shop/#:~:text=Esaurito",
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4856,
+  "lcpMs": null,
+  "lcpElemento": null,
+  "cls": 0,
+  "urlFinale": "chrome-error://chromewebdata/",
+  "titolo": "",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 0,
+  "fcp": null,
+  "domReady": 4880,
+  "load": 4881,
+  "pesoKB": 0,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": null,
+      "error": "fetch failed"
+    },
+    {
+      "ms": null,
+      "error": "fetch failed"
+    },
+    {
+      "ms": null,
+      "error": "fetch failed"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://cirmy.eu/shop/"
+    }
+  ]
+}
