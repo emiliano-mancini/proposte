@@ -1,0 +1,173 @@
+{
+  "slug": "cand-carpentieri",
+  "url": "https://www.carpentieriliquori.com/",
+  "misuratoIl": "2026-10-23T01:42:07.736Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3623,
+  "lcpMs": 2475,
+  "lcpElemento": "H2 ",
+  "cls": 0.007,
+  "urlFinale": "https://www.carpentieriliquori.com/",
+  "titolo": "Verifica Età - Carpentieri Liquori",
+  "descrizione": "I liquori Carpentieri nascono in Calabria dall’amore per la propria terra e dal rispetto per le tradizioni. Scopri i nostri amari calabresi",
+  "h1": [
+    "LIQUORIFICIO ARTIGIANALE CARPENTIERI",
+    "LA NOSTRA SELEZIONE",
+    "LIQUORI TIPICI"
+  ],
+  "ttfb": 1989,
+  "fcp": 2475,
+  "domReady": 3120,
+  "load": 3622,
+  "pesoKB": 3761,
+  "richieste": 137,
+  "script": 41,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "cdn.jsdelivr.net",
+    "connect.facebook.net",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "tw-0fde0867b14c4d8e9131519b5349f6f2.ecs.us-west-2.on.aws",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.carpentieriliquori.com/wp-content/uploads/2022/07/slide2.jpg",
+      "kb": 243
+    },
+    {
+      "url": "https://www.carpentieriliquori.com/wp-content/uploads/2022/02/sad.jpg",
+      "kb": 169
+    },
+    {
+      "url": "https://www.carpentieriliquori.com/wp-content/uploads/2022/02/prohibition-hiding-alcohol-getty-514877106.jpeg",
+      "kb": 142
+    },
+    {
+      "url": "https://www.carpentieriliquori.com/wp-content/uploads/2024/09/Carpentieri-Liquori-partecipa-a-Terra-Madre.png",
+      "kb": 123
+    },
+    {
+      "url": "https://www.carpentieriliquori.com/wp-content/uploads/2022/02/h1-item-showcase-background-img-1.png",
+      "kb": 116
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "53%",
+      "testo": "Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni "
+    },
+    {
+      "id": "age-gate-wrapper",
+      "copre": "100%",
+      "testo": "Ho l'età richiesta nel mio paese per il consumo legale di Alcol Verifica la tua età Se hai 18 anni di età? Si No Ricorda"
+    },
+    {
+      "id": "age-gate-background-color",
+      "copre": "100%",
+      "testo": ""
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 6397,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "Info@carpentieriliquori.com"
+  ],
+  "telefono": [
+    "+39%200966946436",
+    "+390966%20946436"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Spedizione Gratuita superate le 99,90€",
+      "h": "tel:+39%200966946436"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.carpentieriliquori.com/chi-siamo"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.carpentieriliquori.com/condizioni-di-vendita/"
+    },
+    {
+      "t": "Politica dei Resi",
+      "h": "https://www.carpentieriliquori.com/condizioni-di-vendita/#resi"
+    },
+    {
+      "t": "Costi e Tempi di spedizione",
+      "h": "https://www.carpentieriliquori.com/condizioni-di-vendita/#spedizione"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.carpentieriliquori.com/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, minimum-scale=1, maximum-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1930,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1604,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1629,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=1846872860.1792719723&dt=Liquorificio%20Artigianale%20Calabrese%20%7C%20Carpentieri%20Liquori&tid=AW-"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&auid=1846872860.1792719723&dt=Liquorificio%20Artigianale%20Calabrese%20%7C%20Carpentieri%20Liquori&tid=AW-"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/17434414187/?random=1792719723070&cv=11&fst=1792719723070&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be6al1za200xecx"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1846872860.1792719723&gtm=45be6al1z8f_AW-17434414187za208xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FRJJ0X3RWY&gtm=45Pe6al1v9118273999za208zb9113099848zd9113099848xf1&_p=1792719722811&gcs=G1--&gcd=13l3l3l3l5"
+    },
+    {
+      "status": 999,
+      "url": "https://tw-0fde0867b14c4d8e9131519b5349f6f2.ecs.us-west-2.on.aws/events?cee=no"
+    },
+    {
+      "status": 999,
+      "url": "https://www.carpentieriliquori.com/wp-content/uploads/2022/07/Untitled-1.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.carpentieriliquori.com/wp-content/uploads/2022/07/Untitled-1.mp4"
+    }
+  ]
+}

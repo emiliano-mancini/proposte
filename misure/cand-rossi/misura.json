@@ -1,0 +1,106 @@
+{
+  "slug": "cand-rossi",
+  "url": "https://www.rossidanaunia.it/",
+  "misuratoIl": "2026-10-23T01:42:18.438Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1636,
+  "lcpMs": 1389,
+  "lcpElemento": "DIV https://www.rossidanaunia.it/images/homenew/armonia_avvolgente_tgl.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.rossidanaunia.it/",
+  "titolo": "Distilleria Rossi d'Anaunia | Grappa in Valle di Non, Trentino",
+  "descrizione": "La distilleria Rossi d'Anaunia offre una selezione di grappe e distillati Trentini prodotti artigianalmente. Grappe, liquori e creme di qualità fatte col cuore.",
+  "h1": [
+    "ARMONIA\nAVVOLGENTE"
+  ],
+  "ttfb": 661,
+  "fcp": 1130,
+  "domReady": 1441,
+  "load": 1633,
+  "pesoKB": 1360,
+  "richieste": 45,
+  "script": 12,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.rossidanaunia.it/images/homenew/famiglia.jpg",
+      "kb": 277
+    },
+    {
+      "url": "https://www.rossidanaunia.it/images/homenew/armonia_avvolgente_tgl.jpg",
+      "kb": 143
+    },
+    {
+      "url": "https://www.rossidanaunia.it/images/homenew/justvisual-93973-low.jpg",
+      "kb": 85
+    },
+    {
+      "url": "https://www.rossidanaunia.it/prodotti.html",
+      "kb": 80
+    },
+    {
+      "url": "https://www.rossidanaunia.it/images/homenew/casa_dolce_casa_03-lr.jpg",
+      "kb": 69
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "agePolicy",
+      "copre": "100%",
+      "testo": "Hai l'età per bere legalmente bevande alcoliche? Sì No BEVI RESPONSABILMENTE Il presente Sito Web utilizza cookie di tip"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@rossidanaunia.it"
+  ],
+  "telefono": [
+    "+39 0463 432684"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CONTATTI",
+      "h": "https://www.rossidanaunia.it/contatti.html"
+    },
+    {
+      "t": "condizioni",
+      "h": "https://www.rossidanaunia.it/condizioni.html"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 547,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 132,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 131,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-36ZR554DWY&gtm=45je6al1v9110295724za20oxf1&_p=1792719734301&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAI&are=1&cid"
+    }
+  ]
+}

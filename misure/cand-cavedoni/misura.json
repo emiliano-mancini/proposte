@@ -1,0 +1,117 @@
+{
+  "slug": "cand-cavedoni",
+  "url": "https://www.acetaiacavedoni.it/",
+  "misuratoIl": "2026-10-23T01:41:55.339Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4211,
+  "lcpMs": 2879,
+  "lcpElemento": "P ",
+  "cls": 0.013,
+  "urlFinale": "https://www.acetaiacavedoni.it/",
+  "titolo": "Acetaia Cavedoni dal 1860 - Azienda agricola",
+  "descrizione": "Acetaia Cavedoni: da una antica tradizione familiare risalente al 1860 giunge a noi una delle acetaie più vecchie del territorio modenese.",
+  "h1": [
+    "Azienda Agricola Antica\nAcetaia Cavedoni dal 1860"
+  ],
+  "ttfb": 2297,
+  "fcp": 2802,
+  "domReady": 3290,
+  "load": 4209,
+  "pesoKB": 5444,
+  "richieste": 125,
+  "script": 36,
+  "serviziEsterni": [
+    "ajax.googleapis.com",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.acetaiacavedoni.it/wp-content/uploads/2023/06/vendemmia-cavedoni-016.jpg",
+      "kb": 310
+    },
+    {
+      "url": "https://www.acetaiacavedoni.it/wp-content/uploads/2023/07/viator-experience-award.png",
+      "kb": 308
+    },
+    {
+      "url": "https://www.acetaiacavedoni.it/wp-content/uploads/2023/05/DSC_5414.jpg",
+      "kb": 251
+    },
+    {
+      "url": "https://www.acetaiacavedoni.it/wp-content/uploads/2023/05/DSC_5422-scaled.jpg",
+      "kb": 195
+    },
+    {
+      "url": "https://www.acetaiacavedoni.it/wp-content/uploads/revslider/o/3/d8deb3790d793608545b66a7bf4aeed5.webp",
+      "kb": 192
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "aitec-privacy-notice",
+      "copre": "100%",
+      "testo": "Consenso Cookie Questo sito utilizza cookie, anche di terze parti, per migliorare l'esperienza di navigazione. Se vuoi s"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [
+    "info@acetaiacavedoni.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.acetaiacavedoni.it/contatti/"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.acetaiacavedoni.it/condizioni-di-vendita/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+  "rispostaServer": [
+    {
+      "ms": 2065,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1476,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1492,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2N5QQFY8N2&gtm=45je6al1v9122951122za20ozb9174006050zd9174006050xf1&_p=1792719710038&gcs=G100&gcd=13p3p3p3p5"
+    },
+    {
+      "status": 999,
+      "url": "https://www.acetaiacavedoni.it/wp-content/uploads/2023/06/acetaia-cavedoni-sub-fr.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.acetaiacavedoni.it/wp-content/uploads/2023/05/video_presentazione_compresso.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.acetaiacavedoni.it/wp-content/uploads/2023/06/acetaia-cavedoni-long.mp4"
+    }
+  ]
+}

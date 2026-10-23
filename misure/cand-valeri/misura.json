@@ -1,0 +1,152 @@
+{
+  "slug": "cand-valeri",
+  "url": "https://acetaiavaleri.it/",
+  "misuratoIl": "2026-10-23T01:41:47.115Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2634,
+  "lcpMs": 2940,
+  "lcpElemento": "IMG https://acetaiavaleri.it/wp-content/uploads/revslider/Wine/wine-sleder-1-bg-1.jpg",
+  "cls": 0.022,
+  "urlFinale": "https://acetaiavaleri.it/",
+  "titolo": "Aceto Balsamico tradizionale di Modena DOP - Acetaia Valeri",
+  "descrizione": "Aceto Balsamico tradizionale di Modena DOP dal 1930 - Visita il nostro shop online o prenota la tua visita presso l'Acetaia di famiglia.",
+  "h1": [
+    "Aceto Balsamico D.O.P.",
+    "Aceto Balsamico I.G.P.",
+    "Aceto BalsamicoTradizionale"
+  ],
+  "ttfb": 293,
+  "fcp": 895,
+  "domReady": 1972,
+  "load": 2624,
+  "pesoKB": 3377,
+  "richieste": 250,
+  "script": 123,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.iubenda.com",
+    "fonts.gstatic.com",
+    "cdn.by.wonderpush.com",
+    "cdn.brevo.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "cs.iubenda.com",
+    "sibautomation.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "l.clarity.ms",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://acetaiavaleri.it/wp-content/uploads/Valeri-Pieg2019-abtm-pdf.jpg",
+      "kb": 87
+    },
+    {
+      "url": "https://acetaiavaleri.it/wp-content/uploads/2023/04/sfondo-sezione-aceto.jpg",
+      "kb": 41
+    },
+    {
+      "url": "https://acetaiavaleri.it/wp-content/uploads/2021/10/5F6A0954-e1550576439897.jpg",
+      "kb": 37
+    },
+    {
+      "url": "https://acetaiavaleri.it/wp-content/uploads/2023/04/immagine-home-azienda-V2.jpg",
+      "kb": 27
+    },
+    {
+      "url": "https://acetaiavaleri.it/wp-content/uploads/2023/04/balsamico-igp-botte-grande-V2.png",
+      "kb": 26
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate raccogliamo informazioni personali come specificato nella privacy policy e uti"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@acetaiavaleri.it"
+  ],
+  "telefono": [
+    "+393332320194"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi Siamo",
+      "h": "https://acetaiavaleri.it/chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://acetaiavaleri.it/contatti-e-ordini-del-nostro-aceto-balsamico/"
+    },
+    {
+      "t": "Condizioni di Vendita",
+      "h": "https://acetaiavaleri.it/contatti-e-ordini-del-nostro-aceto-balsamico/condizioni-di-vendita/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://acetaiavaleri.it/chi-siamo/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.iubenda.com/privacy-policy/58515379/legal?from_cookie_policy=true&no_markup=false&an=no"
+    },
+    {
+      "t": "Condizioni di Vendita",
+      "h": "https://acetaiavaleri.it/contatti-e-ordini-del-nostro-aceto-balsamico/condizioni-di-vendita/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://acetaiavaleri.it/chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://acetaiavaleri.it/contatti-e-ordini-del-nostro-aceto-balsamico/"
+    },
+    {
+      "t": "Condizioni di Vendita",
+      "h": "https://acetaiavaleri.it/contatti-e-ordini-del-nostro-aceto-balsamico/condizioni-di-vendita/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 201,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 22,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 21,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-8QRNMH1CH6&gtm=45Pe6al1v9104315410z89255987344za200zb9255987344zd9255987344xf1&_p=1792719701258&_gaz=1&gcs=G1--"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LehpeMkAAAAAKWDBt-cc29sD5GPyG0nDcYuNrrK"
+    }
+  ]
+}
