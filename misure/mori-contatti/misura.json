@@ -1,0 +1,104 @@
+{
+  "slug": "mori-contatti",
+  "url": "https://salumificiomori.com/contatti.php?Lingua=it",
+  "misuratoIl": "2026-10-23T01:48:48.789Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1906,
+  "lcpMs": 1356,
+  "lcpElemento": "DIV https://salumificiomori.com/img/contatti/contatti-bk.jpg",
+  "cls": 0,
+  "urlFinale": "https://salumificiomori.com/contatti.php?Lingua=it",
+  "titolo": "Salumificio Silvano Mori Srl - contatti",
+  "descrizione": "Il salumificio Silvano Mori Srl ha sede a Torniella, antico borgo medievale sulle colline dell’alta Maremma Toscana",
+  "h1": [],
+  "ttfb": 504,
+  "fcp": 1032,
+  "domReady": 1512,
+  "load": 1905,
+  "pesoKB": 967,
+  "richieste": 42,
+  "script": 13,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "acconsento.click",
+    "accesso.acconsento.click"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://salumificiomori.com/img/contatti/contatti-bk.jpg",
+      "kb": 111
+    },
+    {
+      "url": "https://salumificiomori.com/img/crossword.png",
+      "kb": 32
+    },
+    {
+      "url": "https://accesso.acconsento.click/storage/1425/2I82Ck8FkEOPTm52uXHom4bF5ouQHOCth3n5Pq45.png",
+      "kb": 16
+    },
+    {
+      "url": "https://salumificiomori.com/img/salumificio-silvano-mori-logo.png",
+      "kb": 15
+    },
+    {
+      "url": "https://salumificiomori.com/img/nav-menu/prodotti.jpg",
+      "kb": 15
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "el-acconsento-overlay is-drawer acconsento-click-overlay-dra",
+      "copre": "100%",
+      "testo": "Informativa Utilizziamo cookie o tecnologie simili, come specificato nella cookie policy per dare una risposta più moder"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@salumificiomori.com"
+  ],
+  "telefono": [
+    "+390564575436"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 719,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 175,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 176,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

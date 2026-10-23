@@ -1,0 +1,104 @@
+{
+  "slug": "mori-azienda",
+  "url": "https://salumificiomori.com/azienda.php?Lingua=it",
+  "misuratoIl": "2026-10-23T01:48:55.572Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2038,
+  "lcpMs": 1882,
+  "lcpElemento": "DIV https://salumificiomori.com/img/azienda/azienda-bk.jpg",
+  "cls": 0,
+  "urlFinale": "https://salumificiomori.com/azienda.php?Lingua=it",
+  "titolo": "Salumificio Silvano Mori: azienda artigianale d’antica tradizione",
+  "descrizione": "L’azienda artigianale Silvano Mori nasce nel 1880 seguendo un’antica tradizione tramandata di generazione in generazione.",
+  "h1": [],
+  "ttfb": 673,
+  "fcp": 1214,
+  "domReady": 1854,
+  "load": 2036,
+  "pesoKB": 1535,
+  "richieste": 48,
+  "script": 13,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "acconsento.click",
+    "accesso.acconsento.click"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://salumificiomori.com/img/azienda/azienda-bk.jpg",
+      "kb": 184
+    },
+    {
+      "url": "https://salumificiomori.com/img/azienda/La-nostra-terra-antica.jpg",
+      "kb": 126
+    },
+    {
+      "url": "https://salumificiomori.com/img/azienda/Siamo-conosciuti-in-tutto-il-mondo.jpg",
+      "kb": 111
+    },
+    {
+      "url": "https://salumificiomori.com/img/azienda/Linea-naturello-tutto-naturale.jpg",
+      "kb": 111
+    },
+    {
+      "url": "https://salumificiomori.com/img/azienda/Tradizione-e-professionalita.jpg",
+      "kb": 77
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "el-acconsento-overlay is-drawer acconsento-click-overlay-dra",
+      "copre": "100%",
+      "testo": "Informativa Utilizziamo cookie o tecnologie simili, come specificato nella cookie policy per dare una risposta più moder"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@salumificiomori.com"
+  ],
+  "telefono": [
+    "+390564575436"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 699,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 183,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 176,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}
