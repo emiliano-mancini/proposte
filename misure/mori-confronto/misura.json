@@ -1,0 +1,76 @@
+{
+  "slug": "mori-confronto",
+  "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/confronto/",
+  "misuratoIl": "2026-10-23T02:16:09.566Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 487,
+  "lcpMs": 397,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/salumificio-mori/confronto/vecchio-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/salumificio-mori/confronto/",
+  "titolo": "Il sito di Salumificio Silvano Mori, oggi e domani",
+  "descrizione": null,
+  "h1": [
+    "Il sito di Salumificio Silvano Mori, oggi e domani"
+  ],
+  "ttfb": 157,
+  "fcp": 383,
+  "domReady": 371,
+  "load": 483,
+  "pesoKB": 650,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/confronto/problema-cookie.jpg",
+      "kb": 241
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/confronto/nuovo-mobile.jpg",
+      "kb": 157
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/confronto/vecchio-mobile.jpg",
+      "kb": 138
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/confronto/problema-bandiere.jpg",
+      "kb": 36
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lmsoftique@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 148,
+      "status": 503,
+      "cache": "MISS"
+    },
+    {
+      "ms": 12,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 85,
+      "status": 200,
+      "cache": "MISS"
+    }
+  ],
+  "risorseRotte": []
+}
