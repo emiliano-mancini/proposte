@@ -1,0 +1,87 @@
+{
+  "slug": "mori-nuovo",
+  "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/",
+  "misuratoIl": "2026-10-23T02:12:20.091Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 413,
+  "lcpMs": 323,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/salumificio-mori/img/tagliere.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/salumificio-mori/",
+  "titolo": "Salumificio Silvano Mori – Salumi tipici della Maremma Toscana, dal 1880",
+  "descrizione": "Salumificio artigianale a Torniella, nell'alta Maremma Toscana, dal 1880: prosciutto, capocollo, lardo, salame toscano. Proposta di restyling, bozza non ufficiale.",
+  "h1": [
+    "Salumi di\nMaremma,\ndal 1880."
+  ],
+  "ttfb": 126,
+  "fcp": 307,
+  "domReady": 404,
+  "load": 411,
+  "pesoKB": 547,
+  "richieste": 18,
+  "script": 5,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/img/tagliere.jpg",
+      "kb": 178
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/img/maremma.jpg",
+      "kb": 75
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/img/capocollo.jpg",
+      "kb": 37
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/img/salame-toscano.jpg",
+      "kb": 32
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/salumificio-mori/img/lardo.jpg",
+      "kb": 32
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@salumificiomori.com"
+  ],
+  "telefono": [
+    "+390564575436"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/salumificio-mori/#contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 162,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 41,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 25,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
