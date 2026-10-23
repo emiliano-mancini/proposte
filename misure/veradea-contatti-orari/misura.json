@@ -1,0 +1,144 @@
+{
+  "slug": "veradea-contatti-orari",
+  "url": "https://www.veradea-materasso.com/it/contattaci#:~:text=Sabato",
+  "misuratoIl": "2026-10-23T03:15:13.463Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1391,
+  "lcpMs": 1407,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://www.veradea-materasso.com/it/contattaci",
+  "titolo": "Contattaci, Veradea è a tua disposizione",
+  "descrizione": "Il nostro Servizio Clienti è sempre pronto a offrirti tutto il supporto necessario in fase di navigazione, acquisto o post acquisto.",
+  "h1": [
+    "Contattaci"
+  ],
+  "ttfb": 1098,
+  "fcp": 1255,
+  "domReady": 1265,
+  "load": 1386,
+  "pesoKB": 2791,
+  "richieste": 76,
+  "script": 17,
+  "serviziEsterni": [
+    "static.cloudflareinsights.com",
+    "cdn.scalapay.com",
+    "js.stripe.com",
+    "widget.trustpilot.com",
+    "dynamic.criteo.com",
+    "www.dwin1.com",
+    "cdn.iubenda.com",
+    "cs.iubenda.com",
+    "connect.facebook.net",
+    "static.getbutton.io",
+    "www.googletagmanager.com",
+    "lantern.roeyecdn.com",
+    "cdn.connectif.cloud",
+    "cdn.livechatinc.com",
+    "lantern.roeye.com",
+    "tracker.connectif.cloud",
+    "pagead2.googlesyndication.com",
+    "www.google-analytics.com",
+    "api.livechatinc.com",
+    "idb.iubenda.com",
+    "eu6-api.connectif.cloud",
+    "www.facebook.com",
+    "secure.livechatinc.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/inline-images/veradea-newsletter_0.jpeg",
+      "kb": 50
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/2024-07/Certipur-new.png",
+      "kb": 35
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/logo.svg",
+      "kb": 20
+    },
+    {
+      "url": "https://www.veradea-materasso.com/themes/martis/assets/images/social/wa.png",
+      "kb": 8
+    },
+    {
+      "url": "https://www.veradea-materasso.com/sites/default/files/2023-06/dispositivo-medico.svg",
+      "kb": 5
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate raccogliamo informazioni personali come specificato nella privacy policy e uti"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+390694500051"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.veradea-materasso.com/it/resi-e-rimborsi"
+    },
+    {
+      "t": "Spedizione",
+      "h": "https://www.veradea-materasso.com/it/spedizione"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.veradea-materasso.com/it/termini-e-condizioni"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.veradea-materasso.com/node/308"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.veradea-materasso.com/node/302"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 733,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 256,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 266,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=13&frm=0&apvc=1&tid=AW-666553804&en=page_view&dl=https%3A%2F%2Fwww.veradea-materasso.com%2Fit%2Fcontattaci"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4F1JD9JK16&gtm=45je6al1v870634819za208zd870634819xf1&_p=1792725310064&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_c"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1792725310311&cv=11&tid=G-4F1JD9JK16&fst=1792725310311&fmt=8&en=page_view&gtm=45je6al1v87063"
+    }
+  ]
+}

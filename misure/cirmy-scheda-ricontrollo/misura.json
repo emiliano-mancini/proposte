@@ -1,0 +1,124 @@
+{
+  "slug": "cirmy-scheda-ricontrollo",
+  "url": "https://cirmy.eu/prodotto/fogo/",
+  "misuratoIl": "2026-10-23T03:14:47.192Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4112,
+  "lcpMs": 3097,
+  "lcpElemento": "IMG https://cirmy.eu/wp-content/uploads/2022/12/cirmy-fogo-e-commerce-1024x1024.jpg",
+  "cls": 0.53,
+  "urlFinale": "https://cirmy.eu/prodotto/fogo/",
+  "titolo": "Fogo | Cirmy | Prodotti Naturali per il tuo Benessere",
+  "descrizione": "Fogo: diffusore per ambienti in legno di cirmolo. Semplice ed elegante è programmato per adattarsi a tutti gli ambienti, per un'atmosfera profumata.",
+  "h1": [
+    "Fogo"
+  ],
+  "ttfb": 518,
+  "fcp": 1647,
+  "domReady": 2423,
+  "load": 4111,
+  "pesoKB": 9246,
+  "richieste": 222,
+  "script": 91,
+  "serviziEsterni": [
+    "cdn.jsdelivr.net",
+    "js.stripe.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "diffuser-cdn.app-us1.com",
+    "prism.app-us1.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "trackcmp.net",
+    "www.gstatic.com",
+    "sendcloud-checkout-static-data.sendcloud.sc",
+    "connect.facebook.net",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/09/cirmy-fogo-e-commerce-detail5-1024x768.jpg",
+      "kb": 342
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/09/cirmy-fogo-e-commerce-detail4-1024x768.jpg",
+      "kb": 272
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2024/08/fogo-packaging2-1024x1024.jpg",
+      "kb": 267
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/alessai-g.png",
+      "kb": 249
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/09/cirmy-fogo-e-commerce-1024x1024.jpg",
+      "kb": 212
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "47%",
+      "testo": "Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni "
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 1181,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Termini e condizioni",
+      "h": "https://cirmy.eu/termini-e-condizioni-di-vendita/"
+    },
+    {
+      "t": "Modulo per il recesso",
+      "h": "https://cirmy.eu/wp-content/uploads/2024/03/Modulo-di-Recesso-Cirmy-Magnifica-Essenza.odt"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://cirmy.eu/faq/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 502,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 172,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 158,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-RNQH5D5GSD&gtm=45je6al1v873710150za20ozb854880127zd854880127xf1&_p=1792725280861&_gaz=1&gcd=13l3l3l3l1l1&npa=0&"
+    },
+    {
+      "status": 999,
+      "url": "https://28980b0efdf2.w.hcaptcha.com/logo.png"
+    }
+  ]
+}

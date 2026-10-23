@@ -1,0 +1,114 @@
+{
+  "slug": "cirmy-ricontrollo",
+  "url": "https://cirmy.eu/shop/",
+  "misuratoIl": "2026-10-23T03:14:37.728Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3664,
+  "lcpMs": 1831,
+  "lcpElemento": "DIV https://cirmy.eu/wp-content/uploads/2022/03/shop-fogo-cirmy-mobile.jpg",
+  "cls": 0.002,
+  "urlFinale": "https://cirmy.eu/shop/",
+  "titolo": "Shop | Cirmy | Prodotti Naturali per il tuo Benessere",
+  "descrizione": "Shop: scopri i nostri prodotti in legno di cirmolo. Illuminazione, sanificazione, aromaterapia per la tua casa e i tuoi spazi.",
+  "h1": [
+    "Shop",
+    "IN EVIDENZA"
+  ],
+  "ttfb": 565,
+  "fcp": 1325,
+  "domReady": 2709,
+  "load": 3662,
+  "pesoKB": 3663,
+  "richieste": 155,
+  "script": 60,
+  "serviziEsterni": [
+    "cdn.jsdelivr.net",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "diffuser-cdn.app-us1.com",
+    "www.gstatic.com",
+    "sendcloud-checkout-static-data.sendcloud.sc",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "prism.app-us1.com",
+    "trackcmp.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/cirmy-nido-e-commerce-e-olio-cirmolo-768x768.jpg",
+      "kb": 160
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2026/05/CirmyMagnificaEssenza_ShootingMaggio2026_YETIstudio_1-768x768.jpg",
+      "kb": 158
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/shop-fogo-cirmy-mobile.jpg",
+      "kb": 138
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2025/11/pisol-e-commerce-cirmy-mangifica-essenza-768x768.jpg",
+      "kb": 134
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2023/04/cirmy-coccolo-e-commerce1-768x768.jpg",
+      "kb": 134
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "47%",
+      "testo": "Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni "
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Termini e condizioni",
+      "h": "https://cirmy.eu/termini-e-condizioni-di-vendita/"
+    },
+    {
+      "t": "Modulo per il recesso",
+      "h": "https://cirmy.eu/wp-content/uploads/2024/03/Modulo-di-Recesso-Cirmy-Magnifica-Essenza.odt"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://cirmy.eu/faq/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 579,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 171,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 155,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-RNQH5D5GSD&gtm=45je6am0h2v873710150za20ozb854880127zd854880127xf1&_p=1792725271633&_gaz=1&gcd=13l3l3l3l1l1&npa="
+    }
+  ]
+}

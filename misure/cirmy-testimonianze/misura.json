@@ -1,0 +1,116 @@
+{
+  "slug": "cirmy-testimonianze",
+  "url": "https://cirmy.eu/en/product/nido/#:~:text=Only%20positive%20words",
+  "misuratoIl": "2026-10-23T03:14:58.642Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 6143,
+  "lcpMs": 4413,
+  "lcpElemento": "IMG https://cirmy.eu/wp-content/uploads/2022/03/cirmy_logo_N_1.svg",
+  "cls": 1.612,
+  "urlFinale": "https://cirmy.eu/en/product/nido/?doing_wp_cron=1792725289.9661910533905029296875",
+  "titolo": "Nidò | Cirmy | Prodotti Naturali per il tuo Benessere",
+  "descrizione": "Profumatore ambientale in legno di cirmolo. Lavorato interamente a mano, comprende un olio essenziale biologico di Pino Cembro. Scoprilo!",
+  "h1": [
+    "Nidò"
+  ],
+  "ttfb": 3393,
+  "fcp": 4413,
+  "domReady": 5354,
+  "load": 6139,
+  "pesoKB": 8361,
+  "richieste": 222,
+  "script": 88,
+  "serviziEsterni": [
+    "cdn.jsdelivr.net",
+    "js.stripe.com",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "diffuser-cdn.app-us1.com",
+    "connect.facebook.net",
+    "prism.app-us1.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "trackcmp.net",
+    "www.gstatic.com",
+    "sendcloud-checkout-static-data.sendcloud.sc",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/10/profumatore-packaging-1024x1024.jpg",
+      "kb": 316
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/cirmy-nido-e-commerce-e-olio-cirmolo-1024x1024.jpg",
+      "kb": 258
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/alessai-g.png",
+      "kb": 249
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/cirmy-nido-e-commerce-final-05-1024x682.jpg",
+      "kb": 186
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/cirmy-nido-e-commerce-e-olio-cirmolo.jpg",
+      "kb": 180
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "45%",
+      "testo": "To provide the best experience, we use technologies such as cookies to store and/or access device information. Consent t"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Add to cart",
+    "yPx": 903,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "FAQ",
+      "h": "https://cirmy.eu/en/faq/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2454,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 173,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 159,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-RNQH5D5GSD&gtm=45je6al1h1v873710150za20ozb854880127zd854880127xf1&_p=1792725293117&_gaz=1&gcd=13l3l3l3l1l1&npa="
+    },
+    {
+      "status": 999,
+      "url": "https://48d81865fb7e.w.hcaptcha.com/logo.png"
+    }
+  ]
+}
