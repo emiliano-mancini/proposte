@@ -1,0 +1,104 @@
+{
+  "slug": "mori-refuso",
+  "url": "https://salumificiomori.com/index.php?Lingua=it#:~:text=eccelenti",
+  "misuratoIl": "2026-10-23T02:01:31.742Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2402,
+  "lcpMs": 1451,
+  "lcpElemento": "IMG https://salumificiomori.com/img/prodotti/Prosciutto.jpg",
+  "cls": 0.218,
+  "urlFinale": "https://salumificiomori.com/index.php?Lingua=it",
+  "titolo": "Salumificio Silvano Mori - salumi tipici della Maremma Toscana",
+  "descrizione": "Il salumificio Silvano Mori, specializzato nella lavorazione di carne di suino e cinghiale, sceglie solo carni selezionate di prima qualità.",
+  "h1": [],
+  "ttfb": 626,
+  "fcp": 1074,
+  "domReady": 2231,
+  "load": 2400,
+  "pesoKB": 2334,
+  "richieste": 62,
+  "script": 13,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "acconsento.click",
+    "accesso.acconsento.click"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://salumificiomori.com/img/slider/slide1.jpg",
+      "kb": 435
+    },
+    {
+      "url": "https://salumificiomori.com/img/slider/slide2.jpg",
+      "kb": 293
+    },
+    {
+      "url": "https://salumificiomori.com/img/prodotti/Capocollo.png",
+      "kb": 142
+    },
+    {
+      "url": "https://salumificiomori.com/img/prodotti/Salame.png",
+      "kb": 137
+    },
+    {
+      "url": "https://salumificiomori.com/img/slider/slide3.jpg",
+      "kb": 76
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "el-acconsento-overlay is-drawer acconsento-click-overlay-dra",
+      "copre": "100%",
+      "testo": "Informativa Utilizziamo cookie o tecnologie simili, come specificato nella cookie policy per dare una risposta più moder"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@salumificiomori.com"
+  ],
+  "telefono": [
+    "+390564575436"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 639,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 166,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 166,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

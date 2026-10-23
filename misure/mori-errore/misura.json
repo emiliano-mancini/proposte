@@ -1,0 +1,92 @@
+{
+  "slug": "mori-errore",
+  "url": "https://salumificiomori.com/prodotti.php?Lingua=it#:~:text=Errore%20di%20connessione",
+  "misuratoIl": "2026-10-23T02:01:24.574Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2008,
+  "lcpMs": 1739,
+  "lcpElemento": "DIV https://salumificiomori.com/img/Prodotti-bk.jpg",
+  "cls": 0,
+  "urlFinale": "https://salumificiomori.com/prodotti.php?Lingua=it",
+  "titolo": "La genuinità dei prodotti del Salumifico Silvano Mori",
+  "descrizione": "I prodotti del Salumifico Mori sono sinonimo di tradizione e professionalità; nel rispetto delle norme sanitarie della Comunità Europea.",
+  "h1": [],
+  "ttfb": 761,
+  "fcp": 1241,
+  "domReady": 1237,
+  "load": 2006,
+  "pesoKB": 883,
+  "richieste": 33,
+  "script": 4,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "acconsento.click",
+    "accesso.acconsento.click"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://salumificiomori.com/img/Prodotti-bk.jpg",
+      "kb": 163
+    },
+    {
+      "url": "https://salumificiomori.com/img/crossword.png",
+      "kb": 32
+    },
+    {
+      "url": "https://accesso.acconsento.click/storage/1425/2I82Ck8FkEOPTm52uXHom4bF5ouQHOCth3n5Pq45.png",
+      "kb": 16
+    },
+    {
+      "url": "https://salumificiomori.com/img/salumificio-silvano-mori-logo.png",
+      "kb": 15
+    },
+    {
+      "url": "https://salumificiomori.com/img/nav-menu/prodotti.jpg",
+      "kb": 15
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "el-acconsento-overlay is-drawer acconsento-click-overlay-dra",
+      "copre": "100%",
+      "testo": "Informativa Utilizziamo cookie o tecnologie simili, come specificato nella cookie policy per dare una risposta più moder"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://salumificiomori.com/contatti.php?Lingua=it"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 753,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 160,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 163,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}
