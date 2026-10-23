@@ -1,25 +1,25 @@
 {
   "slug": "veradea",
   "url": "https://www.veradea-materasso.com/it",
-  "misuratoIl": "2026-10-19T21:22:24.904Z",
+  "misuratoIl": "2026-10-23T02:14:40.480Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 4164,
-  "lcpMs": 4312,
+  "caricamentoTotaleMs": 2910,
+  "lcpMs": 3147,
   "lcpElemento": "IMG https://www.veradea-materasso.com/sites/default/files/slider/Promo%20a%20Scaglioni%20-%20Veradea%20Materasso%20MB.jpg",
   "cls": 0.013,
   "urlFinale": "https://www.veradea-materasso.com/it",
   "titolo": "Veradea Materasso | Materassi e cuscini Made in Italy in promozione",
   "descrizione": "Scopri i migliori materassi in memory foam e a molle insacchettate! Spedizione gratuita, 100 notti di prova, 10 anni di garanzia, misure personalizzabili.",
   "h1": [],
-  "ttfb": 999,
-  "fcp": 2244,
-  "domReady": 2233,
-  "load": 4163,
-  "pesoKB": 9390,
-  "richieste": 98,
-  "script": 18,
+  "ttfb": 377,
+  "fcp": 1425,
+  "domReady": 1419,
+  "load": 2907,
+  "pesoKB": 9232,
+  "richieste": 103,
+  "script": 17,
   "serviziEsterni": [
     "static.cloudflareinsights.com",
     "cdn.scalapay.com",
@@ -36,13 +36,13 @@
     "cdn.connectif.cloud",
     "cdn.livechatinc.com",
     "lantern.roeye.com",
-    "tracker.connectif.cloud",
-    "eu6-api.connectif.cloud",
     "api.livechatinc.com",
-    "www.facebook.com",
-    "idb.iubenda.com",
     "pagead2.googlesyndication.com",
     "www.google-analytics.com",
+    "idb.iubenda.com",
+    "tracker.connectif.cloud",
+    "www.facebook.com",
+    "eu6-api.connectif.cloud",
     "secure.livechatinc.com"
   ],
   "immaginiPiuPesanti": [
@@ -56,11 +56,11 @@
     },
     {
       "url": "https://www.veradea-materasso.com/sites/default/files/banner/letti%20veradea%20.png",
-      "kb": 696
+      "kb": 697
     },
     {
       "url": "https://www.veradea-materasso.com/sites/default/files/2026-01/smaltimento%20rete.jpg",
-      "kb": 201
+      "kb": 202
     },
     {
       "url": "https://www.veradea-materasso.com/sites/default/files/slider/Promo%20a%20Scaglioni%20-%20Veradea%20Materasso%20MB.jpg",
@@ -112,17 +112,17 @@
   "viewport": "width=device-width, initial-scale=1.0",
   "rispostaServer": [
     {
-      "ms": 993,
+      "ms": 828,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 553,
+      "ms": 260,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 354,
+      "ms": 253,
       "status": 200,
       "cache": "DYNAMIC"
     }
@@ -130,15 +130,15 @@
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4F1JD9JK16&gtm=45je6af0v870634819za20ozb852718539zd852718539xf1&_p=1792444941330&gcs=G100&gcd=13p3p3p3p5l1&"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=10&frm=0&apvc=1&tid=AW-666553804&en=page_view&dl=https%3A%2F%2Fwww.veradea-materasso.com%2Fit&scrsrc=www.g"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=1&tid=AW-666553804&en=page_view&dl=https%3A%2F%2Fwww.veradea-materasso.com%2Fit&scrsrc=www.g"
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-4F1JD9JK16&gtm=45je6al1v870634819za208zd870634819xf1&_p=1792721676890&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_c"
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1792444941771&cv=11&tid=G-4F1JD9JK16&fst=1792444941771&fmt=8&en=page_view&gtm=45je6af0v87063"
+      "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1792721677260&cv=11&tid=G-4F1JD9JK16&fst=1792721677260&fmt=8&en=page_view&gtm=45je6al1v87063"
     }
   ]
 }

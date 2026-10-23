@@ -1,0 +1,113 @@
+{
+  "slug": "cirmy-home",
+  "url": "https://cirmy.eu/",
+  "misuratoIl": "2026-10-23T02:15:09.381Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4561,
+  "lcpMs": 3992,
+  "lcpElemento": "DIV https://cirmy.eu/wp-content/uploads/2025/09/hero-home-cirmy-la-magnifica-essenza-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://cirmy.eu/",
+  "titolo": "Cirmy | Prodotti Naturali per il tuo Benessere",
+  "descrizione": "Cirmy nasce dall’idea di creare prodotti innovativi in legno di Cirmolo, sviluppati per il benessere della persona.",
+  "h1": [
+    "Cirmy"
+  ],
+  "ttfb": 1920,
+  "fcp": 3330,
+  "domReady": 3946,
+  "load": 4557,
+  "pesoKB": 5644,
+  "richieste": 175,
+  "script": 61,
+  "serviziEsterni": [
+    "cdn.jsdelivr.net",
+    "www.google.com",
+    "www.googletagmanager.com",
+    "diffuser-cdn.app-us1.com",
+    "prism.app-us1.com",
+    "www.gstatic.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "sendcloud-checkout-static-data.sendcloud.sc",
+    "trackcmp.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/emotional-freedom-cirmy.jpg",
+      "kb": 365
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2025/09/hero-home-cirmy-la-magnifica-essenza-mobile.jpg",
+      "kb": 293
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/ambient-freedom-cirmy.jpg",
+      "kb": 256
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2022/03/alessai-g.png",
+      "kb": 249
+    },
+    {
+      "url": "https://cirmy.eu/wp-content/uploads/2024/11/cirmy-magnifica-essenza-fonte-e-commerce-09.jpg",
+      "kb": 240
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "47%",
+      "testo": "Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni "
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Termini e condizioni",
+      "h": "https://cirmy.eu/termini-e-condizioni-di-vendita/"
+    },
+    {
+      "t": "Modulo per il recesso",
+      "h": "https://cirmy.eu/wp-content/uploads/2024/03/Modulo-di-Recesso-Cirmy-Magnifica-Essenza.odt"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://cirmy.eu/faq/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 426,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 132,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 130,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-RNQH5D5GSD&gtm=45je6al1v873710150za20ozb854880127zd854880127xf1&_p=1792721704428&_gaz=1&gcd=13l3l3l3l1l1&npa=0&"
+    }
+  ]
+}

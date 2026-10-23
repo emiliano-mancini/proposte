@@ -1,39 +1,39 @@
 {
   "slug": "cirmy",
   "url": "https://cirmy.eu/shop/",
-  "misuratoIl": "2026-10-19T21:24:07.546Z",
+  "misuratoIl": "2026-10-23T02:14:57.606Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 4580,
-  "lcpMs": 4391,
+  "caricamentoTotaleMs": 5229,
+  "lcpMs": 4680,
   "lcpElemento": "DIV https://cirmy.eu/wp-content/uploads/2022/03/shop-fogo-cirmy-mobile.jpg",
   "cls": 0.002,
-  "urlFinale": "https://cirmy.eu/shop/",
+  "urlFinale": "https://cirmy.eu/shop/?doing_wp_cron=1792721689.8759810924530029296875",
   "titolo": "Shop | Cirmy | Prodotti Naturali per il tuo Benessere",
   "descrizione": "Shop: scopri i nostri prodotti in legno di cirmolo. Illuminazione, sanificazione, aromaterapia per la tua casa e i tuoi spazi.",
   "h1": [
     "Shop",
     "IN EVIDENZA"
   ],
-  "ttfb": 3204,
-  "fcp": 3792,
-  "domReady": 4209,
-  "load": 4578,
-  "pesoKB": 3663,
-  "richieste": 155,
-  "script": 60,
+  "ttfb": 3664,
+  "fcp": 4259,
+  "domReady": 4935,
+  "load": 5227,
+  "pesoKB": 3661,
+  "richieste": 156,
+  "script": 61,
   "serviziEsterni": [
     "cdn.jsdelivr.net",
     "www.google.com",
     "www.googletagmanager.com",
     "diffuser-cdn.app-us1.com",
     "prism.app-us1.com",
-    "www.gstatic.com",
-    "sendcloud-checkout-static-data.sendcloud.sc",
-    "trackcmp.net",
     "analytics.google.com",
-    "stats.g.doubleclick.net"
+    "stats.g.doubleclick.net",
+    "trackcmp.net",
+    "www.gstatic.com",
+    "sendcloud-checkout-static-data.sendcloud.sc"
   ],
   "immaginiPiuPesanti": [
     {
@@ -90,17 +90,17 @@
   "viewport": "width=device-width, initial-scale=1",
   "rispostaServer": [
     {
-      "ms": 3165,
+      "ms": 2819,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 2456,
+      "ms": 128,
       "status": 200,
       "cache": null
     },
     {
-      "ms": 2563,
+      "ms": 128,
       "status": 200,
       "cache": null
     }
@@ -108,7 +108,7 @@
   "risorseRotte": [
     {
       "status": 999,
-      "url": "https://analytics.google.com/g/collect?v=2&tid=G-RNQH5D5GSD&gtm=45je6af0v873710150za20ozb854880127zd854880127xf1&_p=1792445043065&_gaz=1&gcd=13l3l3l3l1l1&npa=0&"
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-RNQH5D5GSD&gtm=45je6al1v873710150za20ozb854880127zd854880127xf1&_p=1792721692903&_gaz=1&gcd=13l3l3l3l1l1&npa=0&"
     }
   ]
 }
