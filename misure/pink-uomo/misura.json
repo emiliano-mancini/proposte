@@ -1,0 +1,152 @@
+{
+  "slug": "pink-uomo",
+  "url": "https://www.pinkpelletteria.it/product-category/per-lui",
+  "misuratoIl": "2026-10-24T02:36:13.977Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2976,
+  "lcpMs": 2881,
+  "lcpElemento": "DIV ",
+  "cls": 0.001,
+  "urlFinale": "https://www.pinkpelletteria.it/product-category/per-lui",
+  "titolo": "PER LUI – Pink Pelletteria",
+  "descrizione": null,
+  "h1": [
+    "La nostra collezione\nPER LUI"
+  ],
+  "ttfb": 561,
+  "fcp": 1145,
+  "domReady": 1567,
+  "load": 2973,
+  "pesoKB": 3635,
+  "richieste": 204,
+  "script": 99,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.scalapay.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/HAPPY-SOCKS-Stripe-Wool-4146-87US0001919-P007044-Grey-600x750.jpeg",
+      "kb": 34
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/HAPPY-SOCKS-Suv-4146-87US0001843-P006393-Dark-Green-600x750.jpeg",
+      "kb": 31
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2025/05/pinkpelletteria-logo-1.png",
+      "kb": 21
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/AMERICAN-TOURISTER-Fastforward-Spinner-5520-Tsa-Exp-MI001001-155259-Steel-600x750.jpeg",
+      "kb": 14
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/AMERICAN-TOURISTER-Urban-Groove-Ug27-Washbag-Pop-24GC2066-155518-Iced-Berry-600x750.jpeg",
+      "kb": 8
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "68%",
+      "testo": "Questo sito web utilizza i cookie Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalità"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pinkpelletteria.it"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    },
+    {
+      "t": "Traccia la spedizione",
+      "h": "https://www.pinkpelletteria.it/tracciamento/"
+    },
+    {
+      "t": "FAQ / Domande frequenti",
+      "h": "https://www.pinkpelletteria.it/faqs/"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.pinkpelletteria.it/spedizioni-e-consegne/"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.pinkpelletteria.it/resi-e-rimborsi/"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.pinkpelletteria.it/termini-e-condizioni/"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-recesso-2/"
+    },
+    {
+      "t": "Richiedi il reso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-reso"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 351,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 242,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 136,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LfcM7oaAAAAABBTdL-xld1xdE2EMkwS0kdaZRk0"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=1&tid=AW-11148616615&en=page_view&dl=https%3A%2F%2Fwww.pinkpelletteria.it%2Fproduct-category%"
+    }
+  ]
+}

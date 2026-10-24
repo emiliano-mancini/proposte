@@ -1,0 +1,152 @@
+{
+  "slug": "pink-viaggio",
+  "url": "https://www.pinkpelletteria.it/product-category/valigeria",
+  "misuratoIl": "2026-10-24T02:36:21.866Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3082,
+  "lcpMs": 3037,
+  "lcpElemento": "DIV ",
+  "cls": 0,
+  "urlFinale": "https://www.pinkpelletteria.it/product-category/valigeria",
+  "titolo": "VALIGERIA – Pink Pelletteria",
+  "descrizione": null,
+  "h1": [
+    "La nostra collezione\nVALIGERIA"
+  ],
+  "ttfb": 418,
+  "fcp": 971,
+  "domReady": 1494,
+  "load": 3080,
+  "pesoKB": 3804,
+  "richieste": 220,
+  "script": 99,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.scalapay.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2024/09/AMERICAN-TOURISTER-Take2cabin-Casual-Backpack-S-91G01004-149174-Harbor-Blue.jpeg",
+      "kb": 48
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2024/05/AMERICAN-TOURISTER-Soudbox-Spinner-6724-tsa-exp-32G09002-88473-Bass-Black.jpeg",
+      "kb": 39
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2023/11/AMERICAN-TOURISTER-Soundbox-Spinner-5520-tsa-exp-32G09001-Bass-Black.jpeg",
+      "kb": 35
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/09/ALVIERO-MARTINI-PRIMA-CLASSE-Borsone-viaggio-doppia-portabilita-S024-6900-0001-Nero-600x750.jpeg",
+      "kb": 28
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2025/05/pinkpelletteria-logo-1.png",
+      "kb": 21
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "68%",
+      "testo": "Questo sito web utilizza i cookie Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalità"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pinkpelletteria.it"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    },
+    {
+      "t": "Traccia la spedizione",
+      "h": "https://www.pinkpelletteria.it/tracciamento/"
+    },
+    {
+      "t": "FAQ / Domande frequenti",
+      "h": "https://www.pinkpelletteria.it/faqs/"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.pinkpelletteria.it/spedizioni-e-consegne/"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.pinkpelletteria.it/resi-e-rimborsi/"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.pinkpelletteria.it/termini-e-condizioni/"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-recesso-2/"
+    },
+    {
+      "t": "Richiedi il reso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-reso"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 820,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 160,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 166,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LfcM7oaAAAAABBTdL-xld1xdE2EMkwS0kdaZRk0"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=1&tid=AW-11148616615&en=page_view&dl=https%3A%2F%2Fwww.pinkpelletteria.it%2Fproduct-category"
+    }
+  ]
+}

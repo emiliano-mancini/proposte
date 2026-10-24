@@ -1,0 +1,152 @@
+{
+  "slug": "pink-sneakers",
+  "url": "https://www.pinkpelletteria.it/product-category/per-lei/scarpe-per-lei/sneakers",
+  "misuratoIl": "2026-10-24T02:36:37.036Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2578,
+  "lcpMs": 2392,
+  "lcpElemento": "DIV ",
+  "cls": 0,
+  "urlFinale": "https://www.pinkpelletteria.it/product-category/per-lei/scarpe-per-lei/sneakers",
+  "titolo": "Sneakers – Pink Pelletteria",
+  "descrizione": null,
+  "h1": [
+    "La nostra collezione\nSneakers"
+  ],
+  "ttfb": 177,
+  "fcp": 658,
+  "domReady": 1023,
+  "load": 2576,
+  "pesoKB": 3655,
+  "richieste": 216,
+  "script": 99,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.scalapay.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2025/05/pinkpelletteria-logo-1.png",
+      "kb": 21
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/VOILE-BLANCHE-Woman-Club105-Sneaker-0012017475-27-1B96-Dark-Grey-Still-600x750.jpeg",
+      "kb": 14
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/08/VOILE-BLANCHE-Woman-Club105-Sneaker-0012017475-39-4D71-BrownDark-Brown-600x750.jpeg",
+      "kb": 13
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/VOILE-BLANCHE-Woman-Club105-Sneaker-0012017475-06-1A03-Black-Silver-600x750.jpeg",
+      "kb": 12
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/08/VOILE-BLANCHE-Woman-Club105-Sneaker-0012017475-40-3N23-Off-White-Champagne-600x750.jpeg",
+      "kb": 11
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "68%",
+      "testo": "Questo sito web utilizza i cookie Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalità"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pinkpelletteria.it"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    },
+    {
+      "t": "Traccia la spedizione",
+      "h": "https://www.pinkpelletteria.it/tracciamento/"
+    },
+    {
+      "t": "FAQ / Domande frequenti",
+      "h": "https://www.pinkpelletteria.it/faqs/"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.pinkpelletteria.it/spedizioni-e-consegne/"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.pinkpelletteria.it/resi-e-rimborsi/"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.pinkpelletteria.it/termini-e-condizioni/"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-recesso-2/"
+    },
+    {
+      "t": "Richiedi il reso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-reso"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 547,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 145,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 159,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LfcM7oaAAAAABBTdL-xld1xdE2EMkwS0kdaZRk0"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=15&frm=0&apvc=1&tid=AW-11148616615&en=page_view&dl=https%3A%2F%2Fwww.pinkpelletteria.it%2Fproduct-category"
+    }
+  ]
+}

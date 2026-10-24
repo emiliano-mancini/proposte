@@ -1,0 +1,134 @@
+{
+  "slug": "pink-condizioni",
+  "url": "https://www.pinkpelletteria.it/condizioni-di-vendita#:~:text=Ultimo%20aggiornamento",
+  "misuratoIl": "2026-10-24T02:36:52.600Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3285,
+  "lcpMs": 1927,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://www.pinkpelletteria.it/condizioni-di-vendita-2",
+  "titolo": "Condizioni di Vendita – Pink Pelletteria",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 1437,
+  "fcp": 1927,
+  "domReady": 2143,
+  "load": 3282,
+  "pesoKB": 3492,
+  "richieste": 196,
+  "script": 99,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.scalapay.com",
+    "www.google.com",
+    "www.gstatic.com",
+    "consent.cookiebot.com",
+    "consentcdn.cookiebot.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2025/05/pinkpelletteria-logo-1.png",
+      "kb": 21
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "68%",
+      "testo": "Questo sito web utilizza i cookie Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalità"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pinkpelletteria.it"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e Consegne",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2#"
+    },
+    {
+      "t": "Resi e Rimborsi",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2#"
+    },
+    {
+      "t": "Diritto di Recesso",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2#"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    },
+    {
+      "t": "Traccia la spedizione",
+      "h": "https://www.pinkpelletteria.it/tracciamento/"
+    },
+    {
+      "t": "FAQ / Domande frequenti",
+      "h": "https://www.pinkpelletteria.it/faqs/"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.pinkpelletteria.it/spedizioni-e-consegne/"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.pinkpelletteria.it/resi-e-rimborsi/"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.pinkpelletteria.it/termini-e-condizioni/"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-recesso-2/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 2381,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 1295,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 1388,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LfcM7oaAAAAABBTdL-xld1xdE2EMkwS0kdaZRk0"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=0&frm=0&apvc=1&tid=AW-11148616615&en=page_view&dl=https%3A%2F%2Fwww.pinkpelletteria.it%2Fcondizioni-di-ven"
+    }
+  ]
+}
