@@ -1,0 +1,112 @@
+{
+  "slug": "magnoberta-storia",
+  "url": "https://www.magnoberta.com/azienda.php",
+  "misuratoIl": "2026-10-24T01:54:41.488Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1945,
+  "lcpMs": 1925,
+  "lcpElemento": "DIV https://www.magnoberta.com/images/storia_mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.magnoberta.com/azienda.php",
+  "titolo": "Storia - Magnoberta - Distilleria in Casale Monferrato",
+  "descrizione": null,
+  "h1": [
+    "",
+    "Storia"
+  ],
+  "ttfb": 384,
+  "fcp": 1236,
+  "domReady": 1619,
+  "load": 1943,
+  "pesoKB": 2643,
+  "richieste": 79,
+  "script": 23,
+  "serviziEsterni": [
+    "privacy.ene.si",
+    "ajax.googleapis.com",
+    "fonts.googleapis.com",
+    "connect.facebook.net",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.magnoberta.com/images/storia/par-13.jpg",
+      "kb": 202
+    },
+    {
+      "url": "https://www.magnoberta.com/images/storia/par-1.jpg",
+      "kb": 157
+    },
+    {
+      "url": "https://www.magnoberta.com/images/storia/par-4.jpg",
+      "kb": 139
+    },
+    {
+      "url": "https://www.magnoberta.com/images/storia/par-7.jpg",
+      "kb": 132
+    },
+    {
+      "url": "https://www.magnoberta.com/images/storia/par-6.jpg",
+      "kb": 126
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "age_check_overlay",
+      "copre": "100%",
+      "testo": "Hai l'età legale per consumare bevande alcoliche nel tuo paese? Per favore inserisci la tua data di nascita. Ricordami s"
+    },
+    {
+      "id": "epp epp-lb epp-cb epp-lb-tx epp-cbp-bottom epp-cbp-center ep",
+      "copre": "100%",
+      "testo": "Informativa sui cookie Continua senza accettare In questo sito utilizziamo cookie o tecnologie simili come specificato n"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@magnoberta.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.magnoberta.com/ita/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.magnoberta.com/ita/contatti/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 861,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 134,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 133,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://m.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpage.php%3Fadapt_container_width%3Dtrue%26app_id%3D215731708485886%26channel%3Dhtt"
+    }
+  ]
+}

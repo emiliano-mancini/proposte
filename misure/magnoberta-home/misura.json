@@ -1,0 +1,111 @@
+{
+  "slug": "magnoberta-home",
+  "url": "https://www.magnoberta.com/ita/",
+  "misuratoIl": "2026-10-24T01:54:34.874Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2739,
+  "lcpMs": 2577,
+  "lcpElemento": "IMG https://www.magnoberta.com/admin/public/banner_home/11d7ede9a7a21ccc1759e9268f48b160/20151112113413/1447324453_30712_ban",
+  "cls": 0,
+  "urlFinale": "https://www.magnoberta.com/ita/",
+  "titolo": "La Grappa dal 1918 - Magnoberta - Distilleria in Casale Monferrato",
+  "descrizione": "Magnoberta è l&#039;azienda storica Monferrina che dal 1918 produce e commercializza distillati vigorosi ed aromatici, ricchi di carattere e sfumature che racchiudono il fascino di una tradizione antica.",
+  "h1": [
+    ""
+  ],
+  "ttfb": 667,
+  "fcp": 2117,
+  "domReady": 2432,
+  "load": 2736,
+  "pesoKB": 2311,
+  "richieste": 74,
+  "script": 23,
+  "serviziEsterni": [
+    "privacy.ene.si",
+    "ajax.googleapis.com",
+    "fonts.googleapis.com",
+    "connect.facebook.net",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.magnoberta.com/images/banners/foto-slidona-home.jpg",
+      "kb": 619
+    },
+    {
+      "url": "https://www.magnoberta.com/admin/public/banner_home/11d7ede9a7a21ccc1759e9268f48b160/20151223022409/1450877049_44728_Le%20Grappe.jpg",
+      "kb": 137
+    },
+    {
+      "url": "https://www.magnoberta.com/images/mask.png",
+      "kb": 123
+    },
+    {
+      "url": "https://www.magnoberta.com/admin/public/blog/1650b3b60ed3d4e05765f2613618b860/20230929051742/1696000662_87880_Piemonte%20Grappa_2023.jpg",
+      "kb": 92
+    },
+    {
+      "url": "https://www.magnoberta.com/admin/public/slideshow/a3d5a79185699eeeffac2f3e06f43204/thumb_918_1571674995.jpg",
+      "kb": 84
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "age_check_overlay",
+      "copre": "100%",
+      "testo": "Hai l'età legale per consumare bevande alcoliche nel tuo paese? Per favore inserisci la tua data di nascita. Ricordami s"
+    },
+    {
+      "id": "epp epp-lb epp-cb epp-lb-tx epp-cbp-bottom epp-cbp-center ep",
+      "copre": "100%",
+      "testo": "Informativa sui cookie Continua senza accettare In questo sito utilizziamo cookie o tecnologie simili come specificato n"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@magnoberta.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.magnoberta.com/ita/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.magnoberta.com/ita/contatti/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 698,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 129,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 128,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://m.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpage.php%3Fadapt_container_width%3Dtrue%26app_id%3D215731708485886%26channel%3Dhtt"
+    }
+  ]
+}
