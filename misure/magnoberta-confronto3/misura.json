@@ -1,0 +1,80 @@
+{
+  "slug": "magnoberta-confronto3",
+  "url": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/",
+  "misuratoIl": "2026-10-24T02:25:55.022Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 551,
+  "lcpMs": 426,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/magnoberta/confronto/nuovo-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/",
+  "titolo": "Il sito di Magnoberta, oggi e domani – confronto",
+  "descrizione": null,
+  "h1": [
+    "Il sito di Magnoberta, oggi e domani"
+  ],
+  "ttfb": 177,
+  "fcp": 389,
+  "domReady": 377,
+  "load": 549,
+  "pesoKB": 599,
+  "richieste": 9,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/nuovo-mobile.jpg",
+      "kb": 157
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/problema-cookie.jpg",
+      "kb": 140
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/vecchio-mobile.jpg",
+      "kb": 125
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/problema-vuoto.jpg",
+      "kb": 57
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/problema-data.jpg",
+      "kb": 43
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lmsoftique@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 99,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 27,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 28,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
