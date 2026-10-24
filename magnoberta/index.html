@@ -7,16 +7,19 @@
 <title>Magnoberta – Distilleria in Casale Monferrato dal 1918</title>
 <meta name="description" content="Distilleria Magnoberta, Casale Monferrato, dal 1918: grappe, Amaro Casale, GIN.IT e la Grapperia 918. Proposta di restyling, bozza non ufficiale.">
 <meta name="theme-color" content="#120e0b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%23120e0b%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-family=%22Georgia%22 font-size=%2219%22 text-anchor=%22middle%22 fill=%22%23d1ad6a%22%3EM%3C/text%3E%3C/svg%3E">
 <link rel="preload" href="fonts/cormorant-garamond-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/cormorant-garamond-latin-500-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="img/facciata-sera-m.jpg" as="image" media="(max-width: 700px)" fetchpriority="high">
 <link rel="preload" href="img/facciata-sera.jpg" as="image" media="(min-width: 701px)" fetchpriority="high">
-<link rel="stylesheet" href="../vendor/vng/vng.css">
-<link rel="stylesheet" href="../vendor/lenis.css">
+<link rel="stylesheet" href="../vendor/vng/vng.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="../vendor/lenis.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="../vendor/vng/vng.css"></noscript>
 <style>
-@font-face{font-family:"Cormorant Garamond";src:url(fonts/cormorant-garamond-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url(fonts/cormorant-garamond-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:optional}
 @font-face{font-family:"Cormorant Garamond";src:url(fonts/cormorant-garamond-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
-@font-face{font-family:"Cormorant Garamond";src:url(fonts/cormorant-garamond-latin-500-italic.woff2) format("woff2");font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url(fonts/cormorant-garamond-latin-500-italic.woff2) format("woff2");font-weight:500;font-style:italic;font-display:optional}
 @font-face{font-family:Manrope;src:url(fonts/manrope-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
 @font-face{font-family:Manrope;src:url(fonts/manrope-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
 @font-face{font-family:Manrope;src:url(fonts/manrope-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
@@ -239,7 +242,7 @@ p{margin:0 0 1em}
 .foot{background:#0b0907;padding:clamp(70px,9vw,110px) 0 130px;border-top:1px solid var(--line)}
 .foot .grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px}
 .foot h2{font-size:clamp(34px,4.4vw,60px);margin-bottom:22px}
-.foot h4{font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);margin:0 0 14px;font-weight:600}
+.foot .fh{font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);margin:0 0 14px;font-weight:600}
 .foot p,.foot a{font-size:15.5px;color:#d7cbb9}
 .foot a{text-decoration:none;border-bottom:1px solid rgba(215,203,185,.3)}
 .foot a:hover{color:var(--ivory);border-color:var(--ivory)}
@@ -297,7 +300,7 @@ if(/[?&]shot=1\b/.test(location.search)){document.documentElement.classList.add(
   </picture>
   <div class="hero-inner">
     <p class="kicker">Distilleria Magnoberta · Grapperia 918</p>
-    <h1 id="h-hero" class="split">Distillatori a Casale Monferrato <em>dal 1918.</em></h1>
+    <h1 id="h-hero">Distillatori a Casale Monferrato <em>dal 1918.</em></h1>
     <p class="lead"><i>Passione e arte di distillare</i>: grappe del Monferrato, l'Amaro Casale e i distillati della famiglia Luparia, da scoprire alla Grapperia 918.</p>
     <div class="ctas">
       <a class="btn btn-gold" href="#grapperia">Visita la Grapperia 918</a>
@@ -312,7 +315,7 @@ if(/[?&]shot=1\b/.test(location.search)){document.documentElement.classList.add(
     <div class="grid">
       <div class="rv">
         <p class="kicker">La distilleria</p>
-        <h2 id="h-man">Dal laboratorio di Via Lanza agli <em>alambicchi in rame</em> di Strada Asti.</h2>
+        <h2 id="h-man" class="split">Dal laboratorio di Via Lanza agli <em>alambicchi in rame</em> di Strada Asti.</h2>
         <div class="txt">
           <p>Nel 1918 Paolo Berta e Domenico Magno aprono a Casale Monferrato un laboratorio di liquori e vermouth. Dal 1937 la famiglia Luparia ne fa una distilleria di grappa, che nel 1949 prende il nome Magnoberta.</p>
           <p>Nel 1962 arrivano gli alambicchi in rame a ciclo discontinuo; nel 1964 la prima grappa di un solo vitigno, la Malvasia.</p>
@@ -338,7 +341,7 @@ if(/[?&]shot=1\b/.test(location.search)){document.documentElement.classList.add(
 <section class="storia" id="storia" aria-labelledby="h-storia">
   <div class="wrap storia-head">
     <div class="row rv">
-      <div><p class="kicker">Cento anni distillati</p><h2 id="h-storia">Una storia di famiglia,<br>anno per anno.</h2></div>
+      <div><p class="kicker">Cento anni distillati</p><h2 id="h-storia" class="split">Una storia di famiglia,<br>anno per anno.</h2></div>
       <p>Dall'Amaro Casale del laboratorio di Via Lanza alla Grapperia aperta per il centenario.</p>
     </div>
   </div>
@@ -354,12 +357,12 @@ if(/[?&]shot=1\b/.test(location.search)){document.documentElement.classList.add(
           <figure><img src="img/insegna-distillerie.jpg" width="800" height="379" loading="lazy" alt="Insegna storica Distillerie Magnoberta in bianco e nero"></figure>
           <span class="y">1949</span><h3>Nasce Magnoberta</h3><p>Il nuovo nome e il trasferimento sulla strada tra Casale e Asti.</p></article>
         <article><div class="rule"></div><div class="dot"></div>
-          <figure><img src="img/botti-ritratto.jpg" width="1154" height="1600" loading="lazy" alt="Ritratto in bianco e nero tra le botti della distilleria" style="object-position:50% 25%"></figure>
+          <figure><img src="img/botti-ritratto.jpg" width="548" height="760" loading="lazy" alt="Ritratto in bianco e nero tra le botti della distilleria" style="object-position:50% 25%"></figure>
           <span class="y">1962</span><h3>Il rame</h3><p>Entra Alberto Luparia e vengono installati sei alambicchi in rame a ciclo discontinuo.</p></article>
         <article><div class="rule"></div><div class="dot"></div>
           <span class="y">1964</span><h3>La Malvasia</h3><p>Nasce la grappa di Malvasia, il primo monovitigno della distilleria.</p></article>
         <article><div class="rule"></div><div class="dot"></div>
-          <figure><img src="img/rinaldo-alberto.jpg" width="1029" height="1398" loading="lazy" alt="Due generazioni della famiglia Luparia in distilleria, tra le botti" style="object-position:50% 30%"></figure>
+          <figure><img src="img/rinaldo-alberto.jpg" width="559" height="760" loading="lazy" alt="Due generazioni della famiglia Luparia in distilleria, tra le botti" style="object-position:50% 30%"></figure>
           <span class="y">1974</span><h3>Mambo</h3><p>Il lancio di Mambo, la prima vodka lemon italiana.</p></article>
         <article><div class="rule"></div><div class="dot"></div>
           <span class="y">2000</span><h3>Casa Luparia</h3><p>Nascono i Distillati di Casa Luparia e le Nobili di Casa Luparia: Marquise, Princesse e Baronne.</p></article>
@@ -377,7 +380,7 @@ if(/[?&]shot=1\b/.test(location.search)){document.documentElement.classList.add(
 <section class="cantina" id="distillati" aria-labelledby="h-dist">
   <div class="wrap">
     <div class="intro rv">
-      <div><p class="kicker">I distillati</p><h2 id="h-dist">Grappe, amari e gin <em>del Monferrato.</em></h2></div>
+      <div><p class="kicker">I distillati</p><h2 id="h-dist" class="split">Grappe, amari e gin <em>del Monferrato.</em></h2></div>
       <p>Grappe giovani, invecchiate e di un solo vitigno, l'Amaro Casale, il GIN.IT e le linee per l'alta pasticceria.</p>
     </div>
     <div class="bento">
@@ -470,10 +473,10 @@ if(/[?&]shot=1\b/.test(location.search)){document.documentElement.classList.add(
   <div class="wrap">
     <div class="grid">
       <div><h2>Magnoberta,<br>Casale Monferrato.</h2><p>Distilleria Magnoberta di Luparia Alberto &amp; Figli sas</p></div>
-      <div><h4>Contatti</h4>
+      <div><p class="fh">Contatti</p>
         <p>Strada Asti, 6<br>15033 Casale Monferrato (AL)</p>
         <p><a href="tel:+390142452022">+39 0142 452022</a><br><a href="mailto:info@magnoberta.com">info@magnoberta.com</a></p></div>
-      <div><h4>Esplora</h4>
+      <div><p class="fh">Esplora</p>
         <p><a href="#storia">Storia</a><br><a href="#distillati">Distillati</a><br><a href="#professionisti">Professionisti</a><br><a href="#grapperia">Grapperia 918</a></p></div>
     </div>
     <div class="small"><p>P.IVA 00452380066 · Bevi responsabilmente.</p><p>Bozza di restyling non ufficiale, non pubblicata su Google · testi e foto da magnoberta.com</p></div>
@@ -507,11 +510,14 @@ window.addEventListener('DOMContentLoaded',function(){
   if(window.Lenis){lenis=new Lenis({lerp:.1});lenis.on('scroll',ScrollTrigger.update);gsap.ticker.add(function(t){lenis.raf(t*1000)});gsap.ticker.lagSmoothing(0);
     document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var id=a.getAttribute('href');if(id.length>1){var el=document.querySelector(id);if(el){e.preventDefault();lenis.scrollTo(el,{offset:-60});}}})});}
   // titolo
+  // titoli di sezione rivelati parola per parola (il titolo dell'hero resta fermo: è l'elemento LCP)
   if(window.SplitText){gsap.registerPlugin(SplitText);
-    var st=new SplitText('.hero h1',{type:'lines,words',linesClass:'ln'});
-    gsap.set('.hero h1 .ln',{overflow:'hidden',paddingBottom:'.06em'});
-    gsap.from(st.words,{yPercent:110,duration:1.1,ease:'expo.out',stagger:.06,delay:.15});}
-  gsap.from('.hero .kicker,.hero .lead,.hero .ctas,.hero .meta',{opacity:0,y:20,duration:1,ease:'power3.out',stagger:.1,delay:.5});
+    gsap.utils.toArray('h2.split').forEach(function(h){
+      var st=new SplitText(h,{type:'lines,words',linesClass:'ln'});
+      gsap.set(h.querySelectorAll('.ln'),{overflow:'hidden',paddingBottom:'.08em'});
+      gsap.from(st.words,{yPercent:110,duration:1.1,ease:'expo.out',stagger:.05,scrollTrigger:{trigger:h,start:'top 85%',once:true}});
+    });}
+  gsap.from('.hero .ctas,.hero .meta',{opacity:0,y:16,duration:.9,ease:'power3.out',stagger:.1,delay:.2});
   gsap.fromTo('.hero-img',{scale:1.12},{scale:1,duration:2.4,ease:'power2.out'});
   gsap.to('.hero-img',{yPercent:8,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
   // entrate

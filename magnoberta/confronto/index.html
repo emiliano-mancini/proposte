@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Il sito di Magnoberta, oggi e domani – confronto</title>
+<meta name="theme-color" content="#120e0b">
+<meta property="og:image" content="confronto.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%23120e0b%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-family=%22Georgia%22 font-size=%2219%22 text-anchor=%22middle%22 fill=%22%23d1ad6a%22%3EM%3C/text%3E%3C/svg%3E">
+<style>
+@font-face{font-family:"Cormorant Garamond";src:url(../fonts/cormorant-garamond-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url(../fonts/cormorant-garamond-latin-500-italic.woff2) format("woff2");font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:Manrope;src:url(../fonts/manrope-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Manrope;src:url(../fonts/manrope-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+:root{--ink:#120e0b;--ink2:#1c1612;--ink3:#271e18;--ivory:#f3ece0;--muted:#d2c5b2;--brass:#d1ad6a;--red:#e04545;--line:rgba(243,236,224,.14)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:var(--ivory);font-family:Manrope,system-ui,sans-serif;font-size:17px;line-height:1.6;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;line-height:1.05;margin:0;font-variant-numeric:lining-nums}
+.kicker{font-size:12.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin:0 0 14px}
+.bozza{position:fixed;right:10px;bottom:10px;z-index:9;background:rgba(18,14,11,.9);border:1px solid var(--line);border-radius:999px;font-size:11.5px;padding:6px 10px}
+header{padding:64px 0 30px;text-align:center}
+header h1{font-size:clamp(40px,7vw,76px)}
+header h1 em{color:var(--brass)}
+header p{color:var(--muted);max-width:560px;margin:18px auto 0}
+/* cursore */
+.ba{position:relative;width:min(390px,100%);margin:34px auto 0;aspect-ratio:780/1640;border-radius:30px;overflow:hidden;border:8px solid #2b2b2b;background:#000;touch-action:pan-y;user-select:none;-webkit-user-select:none;box-shadow:0 30px 70px rgba(0,0,0,.5)}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .old{clip-path:inset(0 calc(100% - var(--x,50%)) 0 0)}
+.ba .handle{position:absolute;top:0;bottom:0;left:var(--x,50%);width:2px;background:var(--brass);transform:translateX(-1px)}
+.ba .handle::after{content:"⟷";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:46px;height:46px;border-radius:50%;background:var(--brass);color:var(--ink);display:grid;place-items:center;font-size:20px;font-weight:700}
+.ba .t{position:absolute;top:12px;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;background:rgba(18,14,11,.85)}
+.ba .t.a{left:12px}.ba .t.b{right:12px;color:var(--brass)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.hint{text-align:center;color:var(--muted);font-size:14px;margin-top:12px}
+section{padding:80px 0 0}
+section h2{font-size:clamp(34px,5vw,56px);margin-bottom:26px}
+.probs{display:grid;gap:26px}
+.prob{display:grid;grid-template-columns:1fr 1.1fr;gap:28px;align-items:center;background:var(--ink2);border-radius:10px;padding:22px}
+.prob img{border-radius:6px;background:#fff}
+.prob .n{font-family:"Cormorant Garamond",serif;font-size:46px;color:var(--red);line-height:1}
+.prob h3{font-size:28px;margin:6px 0 8px}
+.prob p{margin:0;color:#e3d8c6}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.num{background:var(--ink2);border-radius:10px;padding:24px}
+.num .lab{font-size:14px;color:var(--muted);margin:0 0 10px}
+.num .v{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;font-family:"Cormorant Garamond",serif;font-size:40px;line-height:1}
+.num .v s{color:#a8998a;text-decoration-thickness:2px;font-size:30px}
+.num .v b{color:var(--brass);font-weight:500}
+.note{font-size:13.5px;color:var(--muted);margin-top:14px}
+.cta{text-align:center;padding:80px 0 30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:60px;padding:0 34px;border-radius:999px;background:var(--brass);color:var(--ink);font-weight:600;font-size:18px;text-decoration:none}
+.btn:hover{background:#e2c287}
+footer{border-top:1px solid var(--line);margin-top:70px;padding:40px 0 90px;text-align:center;color:var(--muted);font-size:15px}
+footer a{color:var(--ivory)}
+@media (max-width:760px){.prob{grid-template-columns:1fr}.nums{grid-template-columns:1fr}header{padding-top:44px}}
+</style>
+</head>
+<body>
+<div class="bozza" aria-hidden="true">Proposta di restyling – bozza non ufficiale</div>
+<header class="wrap">
+  <p class="kicker">Distilleria Magnoberta · Casale Monferrato</p>
+  <h1>Il sito di Magnoberta, <em>oggi e domani</em></h1>
+  <p>La prima schermata di magnoberta.com vista da un telefono, oggi e con la nuova homepage che abbiamo preparato.</p>
+  <div class="ba" id="ba" style="--x:50%">
+    <img src="nuovo-mobile.jpg" width="780" height="1640" alt="Prima schermata della nuova homepage da telefono: facciata della Grapperia 918, titolo e pulsanti di contatto">
+    <img class="old" src="vecchio-mobile.jpg" width="780" height="1640" alt="Prima schermata del sito attuale da telefono: richiesta della data di nascita e banner dei cookie">
+    <div class="handle" aria-hidden="true"></div>
+    <span class="t a">Oggi</span><span class="t b">Con noi</span>
+    <input type="range" min="0" max="100" value="50" aria-label="Trascina per confrontare il sito di oggi e quello nuovo">
+  </div>
+  <p class="hint">Trascina il cursore, anche con il dito.</p>
+</header>
+
+<section class="wrap" aria-labelledby="h-p">
+  <h2 id="h-p">Tre cose che oggi vede chi arriva dal telefono</h2>
+  <div class="probs">
+    <article class="prob"><img src="problema-data.jpg" width="1002" height="500" loading="lazy" alt="Dettaglio del sito attuale: tre caselle GG, MM, AAAA per la data di nascita, cerchiate in rosso">
+      <div><span class="n">1</span><h3>Bisogna scrivere la data di nascita</h3><p>Prima di vedere qualsiasi contenuto il sito chiede giorno, mese e anno in tre caselle da compilare.</p></div></article>
+    <article class="prob"><img src="problema-cookie.jpg" width="1082" height="1102" loading="lazy" alt="Dettaglio del sito attuale: il banner dei cookie copre la parte bassa dello schermo e la richiesta della data di nascita">
+      <div><span class="n">2</span><h3>Il banner dei cookie copre la richiesta</h3><p>Sopra la richiesta dell'età si apre anche l'informativa sui cookie, che occupa metà dello schermo subito sotto le caselle della data.</p></div></article>
+    <article class="prob"><img src="problema-vuoto.jpg" width="1002" height="620" loading="lazy" alt="Dettaglio del sito attuale: nella prima schermata c'è solo il logo">
+      <div><span class="n">3</span><h3>Nessuna informazione nella prima schermata</h3><p>Nella prima schermata si vedono il logo e le due finestre: nessun prodotto, nessun numero di telefono, nessun indirizzo della Grapperia 918.</p></div></article>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="h-n">
+  <h2 id="h-n">Tre numeri, prima e dopo</h2>
+  <div class="nums">
+    <div class="num"><p class="lab">Tempo per vedere il contenuto principale (LCP)</p><p class="v"><s>2,6 s</s><b>0,7 s</b></p></div>
+    <div class="num"><p class="lab">Peso della homepage</p><p class="v"><s>2,3 MB</s><b>1,4 MB</b></p></div>
+    <div class="num"><p class="lab">Richieste al server</p><p class="v"><s>74</s><b>26</b></p></div>
+  </div>
+  <p class="note">Misure del 24 ottobre 2026 con lo stesso strumento (Chrome su telefono Pixel 7, cache vuota) sulla homepage attuale e sulla bozza pubblicata.</p>
+</section>
+
+<div class="cta wrap"><a class="btn" href="../">Guarda il sito nuovo</a></div>
+
+<footer class="wrap">
+  <p>Bozza preparata da Emiliano e Loris – LMSoftique · <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></p>
+  <p>Bozza non ufficiale, non pubblicata su Google. Testi e foto da magnoberta.com.</p>
+</footer>
+<script>
+(function(){var ba=document.getElementById('ba');var r=ba.querySelector('input');
+function set(v){ba.style.setProperty('--x',v+'%')}
+r.addEventListener('input',function(){set(r.value)});
+function fromPoint(x){var b=ba.getBoundingClientRect();var v=Math.max(0,Math.min(100,(x-b.left)/b.width*100));r.value=v;set(v)}
+ba.addEventListener('pointerdown',function(e){fromPoint(e.clientX);ba.setPointerCapture(e.pointerId)});
+ba.addEventListener('pointermove',function(e){if(e.buttons||e.pointerType==='touch'&&e.pressure>0)fromPoint(e.clientX)});
+})();
+</script>
+</body>
+</html>
