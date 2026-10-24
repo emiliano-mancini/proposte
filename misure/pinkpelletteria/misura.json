@@ -1,14 +1,14 @@
 {
   "slug": "pinkpelletteria",
   "url": "https://www.pinkpelletteria.it/joia-paris",
-  "misuratoIl": "2026-10-19T21:23:13.493Z",
+  "misuratoIl": "2026-10-24T02:15:23.878Z",
   "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
   "erroreCaricamento": null,
   "bloccatoDaProtezione": false,
-  "caricamentoTotaleMs": 3932,
-  "lcpMs": 3735,
+  "caricamentoTotaleMs": 4148,
+  "lcpMs": 3485,
   "lcpElemento": "IMG https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Clash-Woman-Sneaker-202602W126-Wine-1.jpeg",
-  "cls": 0.066,
+  "cls": 0.079,
   "urlFinale": "https://www.pinkpelletteria.it/product/joia-paris-clash-woman-sneaker-202602w126-wine",
   "titolo": "JOIA PARIS Clash Woman Sneaker 202602W126 Wine – Pink Pelletteria",
   "descrizione": null,
@@ -16,13 +16,13 @@
     "JOIA PARIS Clash Woman Sneaker 202602W126 Wine",
     "JOIA PARIS Clash Woman Sneaker 202602W126 Wine"
   ],
-  "ttfb": 1758,
-  "fcp": 2174,
-  "domReady": 2468,
-  "load": 3931,
-  "pesoKB": 5388,
+  "ttfb": 1893,
+  "fcp": 2423,
+  "domReady": 2747,
+  "load": 4146,
+  "pesoKB": 5436,
   "richieste": 250,
-  "script": 104,
+  "script": 105,
   "serviziEsterni": [
     "fonts.googleapis.com",
     "cdn.scalapay.com",
@@ -35,19 +35,19 @@
   "immaginiPiuPesanti": [
     {
       "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Clash-Woman-Sneaker-202602W126-Wine-3.jpeg",
-      "kb": 374
+      "kb": 373
     },
     {
       "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Clash-Woman-Sneaker-202602W126-Wine-2.jpeg",
-      "kb": 244
+      "kb": 269
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Clash-Woman-Sneaker-202602W126-Wine-5.jpeg",
+      "kb": 228
     },
     {
       "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Clash-Woman-Sneaker-202602W126-Wine-4.jpeg",
       "kb": 221
-    },
-    {
-      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Clash-Woman-Sneaker-202602W126-Wine-5.jpeg",
-      "kb": 211
     },
     {
       "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Clash-Woman-Sneaker-202602W126-Wine-6.jpeg",
@@ -129,17 +129,17 @@
   "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
   "rispostaServer": [
     {
-      "ms": 2786,
+      "ms": 2459,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 1345,
+      "ms": 1456,
       "status": 200,
       "cache": "DYNAMIC"
     },
     {
-      "ms": 1279,
+      "ms": 1518,
       "status": 200,
       "cache": "DYNAMIC"
     }
@@ -155,7 +155,7 @@
     },
     {
       "status": 999,
-      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=1&tid=AW-11148616615&en=page_view&dl=https%3A%2F%2Fwww.pinkpelletteria.it%2Fproduct%2Fjoia-p"
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=18&frm=0&apvc=1&tid=AW-11148616615&en=page_view&dl=https%3A%2F%2Fwww.pinkpelletteria.it%2Fproduct%2Fjoia-p"
     }
   ]
 }
