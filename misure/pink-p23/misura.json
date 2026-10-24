@@ -1,0 +1,161 @@
+{
+  "slug": "pink-p23",
+  "url": "https://www.pinkpelletteria.it/product/alviero-martini-prima-classe-tracolla-c-nastro-g311-6000-0010-naturale",
+  "misuratoIl": "2026-10-24T02:42:28.317Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4938,
+  "lcpMs": 4208,
+  "lcpElemento": "IMG https://www.pinkpelletteria.it/wp-content/uploads/2026/09/ALVIERO-MARTINI-PRIMA-CLASSE-Tracolla-cNastro-G311-6000-0010-N",
+  "cls": 0.33,
+  "urlFinale": "https://www.pinkpelletteria.it/product/alviero-martini-prima-classe-tracolla-c-nastro-g311-6000-0010-naturale",
+  "titolo": "ALVIERO MARTINI PRIMA CLASSE Tracolla c/Nastro G311 6000 0010 Naturale – Pink Pelletteria",
+  "descrizione": null,
+  "h1": [
+    "ALVIERO MARTINI PRIMA CLASSE Tracolla c/Nastro G311 6000 0010 Naturale",
+    "ALVIERO MARTINI PRIMA CLASSE Tracolla c/Nastro G311 6000 0010 Naturale"
+  ],
+  "ttfb": 1935,
+  "fcp": 2438,
+  "domReady": 3058,
+  "load": 4936,
+  "pesoKB": 5028,
+  "richieste": 250,
+  "script": 109,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.scalapay.com",
+    "cdn.trustindex.io",
+    "lh3.googleusercontent.com",
+    "js.klarna.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/09/ALVIERO-MARTINI-PRIMA-CLASSE-Tracolla-cNastro-G311-6000-0010-Naturale-4.jpeg",
+      "kb": 318
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/09/ALVIERO-MARTINI-PRIMA-CLASSE-Tracolla-cNastro-G311-6000-0010-Naturale-3.jpeg",
+      "kb": 287
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/09/ALVIERO-MARTINI-PRIMA-CLASSE-Tracolla-cNastro-G311-6000-0010-Naturale-2.jpeg",
+      "kb": 264
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/09/ALVIERO-MARTINI-PRIMA-CLASSE-Tracolla-cNastro-G311-6000-0010-Naturale.jpeg",
+      "kb": 228
+    },
+    {
+      "url": "https://cdn.trustindex.io/assets/platform/Google/icon.svg",
+      "kb": 37
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "68%",
+      "testo": "Questo sito web utilizza i cookie Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalità"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Acquista ora",
+    "yPx": 1619,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pinkpelletteria.it"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "INFORMAZIONI DI SPEDIZIONE",
+      "h": "https://www.pinkpelletteria.it/product/alviero-martini-prima-classe-tracolla-c-nastro-g311-6000-0010-naturale#tab-informazioni-di-spedizione"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    },
+    {
+      "t": "Traccia la spedizione",
+      "h": "https://www.pinkpelletteria.it/tracciamento/"
+    },
+    {
+      "t": "FAQ / Domande frequenti",
+      "h": "https://www.pinkpelletteria.it/faqs/"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.pinkpelletteria.it/spedizioni-e-consegne/"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.pinkpelletteria.it/resi-e-rimborsi/"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.pinkpelletteria.it/termini-e-condizioni/"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-recesso-2/"
+    },
+    {
+      "t": "Richiedi il reso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-reso"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 184,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 141,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 157,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LfcM7oaAAAAABBTdL-xld1xdE2EMkwS0kdaZRk0"
+    },
+    {
+      "status": 999,
+      "url": "https://widget.scalapay.com/v1/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&apvc=1&tid=AW-11148616615&en=page_view&dl=https%3A%2F%2Fwww.pinkpelletteria.it%2Fproduct%2Falviero"
+    }
+  ]
+}
