@@ -1,0 +1,161 @@
+{
+  "slug": "pink-p1",
+  "url": "https://www.pinkpelletteria.it/product/joia-paris-label-woman-sneaker-202602w116-black-white",
+  "misuratoIl": "2026-10-24T02:28:19.763Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 6077,
+  "lcpMs": 6202,
+  "lcpElemento": "IMG https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Label-Woman-Sneaker-202602W116-BlackWhite.jpeg",
+  "cls": 0.079,
+  "urlFinale": "https://www.pinkpelletteria.it/product/joia-paris-label-woman-sneaker-202602w116-black-white",
+  "titolo": "JOIA PARIS Label Woman Sneaker 202602W116 Black/White – Pink Pelletteria",
+  "descrizione": null,
+  "h1": [
+    "JOIA PARIS Label Woman Sneaker 202602W116 Black/White",
+    "JOIA PARIS Label Woman Sneaker 202602W116 Black/White"
+  ],
+  "ttfb": 2612,
+  "fcp": 3174,
+  "domReady": 3772,
+  "load": 6074,
+  "pesoKB": 5388,
+  "richieste": 250,
+  "script": 103,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.scalapay.com",
+    "cdn.trustindex.io",
+    "lh3.googleusercontent.com",
+    "js.klarna.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Label-Woman-Sneaker-202602W116-BlackWhite-4.jpeg",
+      "kb": 336
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Label-Woman-Sneaker-202602W116-BlackWhite-6.jpeg",
+      "kb": 254
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Label-Woman-Sneaker-202602W116-BlackWhite-3.jpeg",
+      "kb": 238
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Label-Woman-Sneaker-202602W116-BlackWhite-5.jpeg",
+      "kb": 215
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/04/JOIA-PARIS-Label-Woman-Sneaker-202602W116-BlackWhite-2.jpeg",
+      "kb": 204
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "68%",
+      "testo": "Questo sito web utilizza i cookie Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalità"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Acquista ora",
+    "yPx": 1712,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pinkpelletteria.it"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "INFORMAZIONI DI SPEDIZIONE",
+      "h": "https://www.pinkpelletteria.it/product/joia-paris-label-woman-sneaker-202602w116-black-white#tab-informazioni-di-spedizione"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    },
+    {
+      "t": "Traccia la spedizione",
+      "h": "https://www.pinkpelletteria.it/tracciamento/"
+    },
+    {
+      "t": "FAQ / Domande frequenti",
+      "h": "https://www.pinkpelletteria.it/faqs/"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.pinkpelletteria.it/spedizioni-e-consegne/"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.pinkpelletteria.it/resi-e-rimborsi/"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.pinkpelletteria.it/termini-e-condizioni/"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-recesso-2/"
+    },
+    {
+      "t": "Richiedi il reso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-reso"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 678,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 128,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 139,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LfcM7oaAAAAABBTdL-xld1xdE2EMkwS0kdaZRk0"
+    },
+    {
+      "status": 999,
+      "url": "https://widget.scalapay.com/v1/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=1&tid=AW-11148616615&en=page_view&dl=https%3A%2F%2Fwww.pinkpelletteria.it%2Fproduct%2Fjoia-p"
+    }
+  ]
+}

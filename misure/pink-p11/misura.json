@@ -1,0 +1,161 @@
+{
+  "slug": "pink-p11",
+  "url": "https://www.pinkpelletteria.it/product/coccinelle-thess-hobo-media-e1vcc130201-w25-fango-fango",
+  "misuratoIl": "2026-10-24T02:29:52.100Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 6380,
+  "lcpMs": 5984,
+  "lcpElemento": "IMG https://www.pinkpelletteria.it/wp-content/uploads/2026/10/COCCINELLE-Thess-Hobo-Media-E1VCC130201-W25-FangoFango.jpeg",
+  "cls": 0.33,
+  "urlFinale": "https://www.pinkpelletteria.it/product/coccinelle-thess-hobo-media-e1vcc130201-w25-fango-fango",
+  "titolo": "COCCINELLE Thess Hobo Media E1VCC130201 W25 Fango/Fango – Pink Pelletteria",
+  "descrizione": null,
+  "h1": [
+    "COCCINELLE Thess Hobo Media E1VCC130201 W25 Fango/Fango",
+    "COCCINELLE Thess Hobo Media E1VCC130201 W25 Fango/Fango"
+  ],
+  "ttfb": 3599,
+  "fcp": 4148,
+  "domReady": 4624,
+  "load": 6379,
+  "pesoKB": 4936,
+  "richieste": 250,
+  "script": 106,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.scalapay.com",
+    "cdn.trustindex.io",
+    "lh3.googleusercontent.com",
+    "js.klarna.com",
+    "www.google.com",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/COCCINELLE-Thess-Hobo-Media-E1VCC130201-W25-FangoFango-3.jpeg",
+      "kb": 320
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/COCCINELLE-Thess-Hobo-Media-E1VCC130201-W25-FangoFango-4.jpeg",
+      "kb": 314
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/COCCINELLE-Thess-Hobo-Media-E1VCC130201-W25-FangoFango-2.jpeg",
+      "kb": 205
+    },
+    {
+      "url": "https://www.pinkpelletteria.it/wp-content/uploads/2026/10/COCCINELLE-Thess-Hobo-Media-E1VCC130201-W25-FangoFango.jpeg",
+      "kb": 151
+    },
+    {
+      "url": "https://cdn.trustindex.io/assets/platform/Google/icon.svg",
+      "kb": 37
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "68%",
+      "testo": "Questo sito web utilizza i cookie Utilizziamo i cookie per personalizzare contenuti ed annunci, per fornire funzionalità"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Acquista ora",
+    "yPx": 1555,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pinkpelletteria.it"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "INFORMAZIONI DI SPEDIZIONE",
+      "h": "https://www.pinkpelletteria.it/product/coccinelle-thess-hobo-media-e1vcc130201-w25-fango-fango#tab-informazioni-di-spedizione"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.pinkpelletteria.it/contatti/"
+    },
+    {
+      "t": "Traccia la spedizione",
+      "h": "https://www.pinkpelletteria.it/tracciamento/"
+    },
+    {
+      "t": "FAQ / Domande frequenti",
+      "h": "https://www.pinkpelletteria.it/faqs/"
+    },
+    {
+      "t": "Spedizioni e consegne",
+      "h": "https://www.pinkpelletteria.it/spedizioni-e-consegne/"
+    },
+    {
+      "t": "Resi e rimborsi",
+      "h": "https://www.pinkpelletteria.it/resi-e-rimborsi/"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.pinkpelletteria.it/condizioni-di-vendita-2/"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.pinkpelletteria.it/termini-e-condizioni/"
+    },
+    {
+      "t": "Diritto di recesso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-recesso-2/"
+    },
+    {
+      "t": "Richiedi il reso",
+      "h": "https://www.pinkpelletteria.it/diritto-di-reso"
+    },
+    {
+      "t": "Chi Siamo",
+      "h": "https://www.pinkpelletteria.it/chi-siamo"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 143,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 218,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 121,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://widget.scalapay.com/v1/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LfcM7oaAAAAABBTdL-xld1xdE2EMkwS0kdaZRk0"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=12&frm=0&apvc=1&tid=AW-11148616615&en=page_view&dl=https%3A%2F%2Fwww.pinkpelletteria.it%2Fproduct%2Fcoccin"
+    }
+  ]
+}
