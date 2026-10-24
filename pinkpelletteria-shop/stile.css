@@ -128,7 +128,7 @@ html.shot .mq-t{animation:none}
 .sizes a:hover{background:var(--pink2)}
 .mini{font-size:.8rem;color:var(--mute);margin:4px 0 12px}
 .buy .ship-line{display:block;margin:12px 0}
-@media(max-width:820px){.pp{padding:6px 0 20px}.pp-in{grid-template-columns:1fr;gap:10px}.gal-track img{aspect-ratio:1/1}.buy h1{font-size:1.45rem}.buy h1 span{display:inline}.price{margin:2px 0 6px}.price b{font-size:1.7rem}.pp .crumb{display:none}.sizes a{min-width:38px;min-height:38px}.buy .lead{font-size:.98rem}}
+@media(max-width:820px){.pp{padding:6px 0 20px}.pp-in{grid-template-columns:1fr;gap:10px}.gal-track img{aspect-ratio:4/3}.buy h1{font-size:1.45rem}.buy h1 span{display:inline}.price{margin:2px 0 6px}.price b{font-size:1.7rem}.pp .crumb{display:none}.sizes a{min-width:38px;min-height:38px}.buy .lead{font-size:.98rem}}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
 @media(max-width:800px){.two{grid-template-columns:1fr;gap:0}}
 .spec{width:100%;border-collapse:collapse;font-size:.93rem}
@@ -167,3 +167,22 @@ html.shot .rise{animation:none}
 html.shot .top{position:static}
 html.shot .sbar{display:none}
 :focus-visible{outline:3px solid var(--wine);outline-offset:2px}
+/* giro 2 */
+.hero-p::before{background:var(--pink2);border-radius:50%}
+.tag{transform:none}
+.f-logo img{height:56px;width:auto;filter:invert(1)}
+.stars{font-size:1rem;letter-spacing:2px;background:linear-gradient(90deg,var(--pink) 94%,#555 94%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cats{position:relative}
+.cats::after{content:"";position:absolute;right:0;top:0;bottom:0;width:36px;background:linear-gradient(90deg,rgba(255,255,255,0),#fff);pointer-events:none}
+.ckbar{padding:6px 8px 6px 14px;font-size:.8rem;max-width:300px;left:auto;right:12px}
+.ckbar button{min-height:34px;padding:6px 14px}
+/* giro 3: cookie, etichetta e barra fissa non si coprono */
+.ckbar{bottom:40px}
+html.stk .ckbar{bottom:118px}
+html.shot .draft{bottom:8px}
+.gal-dots button{width:24px;height:24px;background:transparent;position:relative}
+.gal-dots button::after{content:"";position:absolute;inset:7px;border-radius:50%;background:var(--line)}
+.gal-dots button[aria-current=true]{background:transparent}
+.gal-dots button[aria-current=true]::after{background:var(--wine)}
+.mq-t{gap:0}.mq-g{display:flex;gap:42px;padding-right:42px}
+.sizes span{min-width:38px;min-height:36px;display:inline-flex;align-items:center;justify-content:center;border:1.5px solid var(--line);border-radius:10px;font-weight:700;font-size:.9rem}

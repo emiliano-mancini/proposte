@@ -11,7 +11,7 @@
 <link rel="preload" as="font" type="font/woff2" href="../fonts/bricolage-grotesque-latin-800-normal.woff2" crossorigin>
 <link rel="stylesheet" href="../stile.css">
 <script>
-(function(){var d=document.documentElement;if(/[?&]shot=1(&|$)/.test(location.search)){d.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})});}
+(function(){var d=document.documentElement;if(/[?&]shot=1(&|$)/.test(location.search)){d.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img').forEach(function(i){i.loading='eager';i.decoding='sync'})});}
 try{if(!localStorage.getItem('ck-ok')&&!d.classList.contains('shot'))d.classList.add('ck');}catch(_){if(!d.classList.contains('shot'))d.classList.add('ck')}
 document.addEventListener('DOMContentLoaded',function(){var b=document.querySelector('.buy .btn');if(b&&'IntersectionObserver' in window){new IntersectionObserver(function(x){d.classList.toggle('stk',!x[0].isIntersecting&&x[0].boundingClientRect.top<0)}).observe(b)}
 var g=document.querySelector('.gal-track');if(g){var dots=document.querySelectorAll('.gal-dots button');g.addEventListener('scroll',function(){var i=Math.round(g.scrollLeft/g.clientWidth);dots.forEach(function(o,k){o.setAttribute('aria-current',k===i?'true':'false')})},{passive:true});dots.forEach(function(o,k){o.addEventListener('click',function(){g.scrollTo({left:k*g.clientWidth,behavior:'smooth'})})})}});
@@ -25,7 +25,7 @@ document.addEventListener('click',function(ev){var b=ev.target.closest('[data-ck
 <div class="topline"><div class="wrap"><span>Spedizione gratuita sopra 59&nbsp;€</span><span>Paga in 3 rate con Klarna, Scalapay o PayPal</span><span>Ritiro in negozio a Bastia Umbra</span></div></div>
 <header class="top">
  <div class="wrap bar">
-  <a class="logo" href=".././" aria-label="Pink Pelletteria, home"><img src="img/fda3fba88b72.png" alt="Pink Pelletteria" width="200" height="80"></a>
+  <a class="logo" href="../" aria-label="Pink Pelletteria, home"><img src="../img/fda3fba88b72.webp" alt="Pink Pelletteria" width="500" height="274"></a>
   <nav class="tl" aria-label="Informazioni"><a href="../chi-siamo/">Il negozio</a><a href="../assistenza/">Spedizioni e resi</a><a href="../assistenza/#contatti">Contatti</a></nav>
   <div class="hact"><a class="btn sm ghost hide-m" href="https://wa.me/393385410516">WhatsApp</a><a class="btn sm" href="https://www.pinkpelletteria.it/cart/">Carrello</a></div>
  </div>
@@ -42,11 +42,11 @@ document.addEventListener('click',function(ev){var b=ev.target.closest('[data-ck
 <section class="alt" id="faq"><div class="wrap narrow"><h2>Domande frequenti</h2><details><summary>Quanto costa la spedizione?</summary><p>In Italia è gratuita per ordini sopra 59 €; sotto questa soglia costa 7 €. Per l’estero si chiede un preventivo via e-mail o WhatsApp.</p></details><details><summary>In quanto tempo arriva?</summary><p>L’ordine viene preparato di norma entro 1 giorno lavorativo; GLS e BRT consegnano in 24/48 ore (fino a 72 ore per Calabria, Sicilia, Sardegna e isole).</p></details><details><summary>Posso ritirare in negozio?</summary><p>Sì, a Bastia Umbra: l’ordine è di solito pronto entro 24 ore.</p></details><details><summary>Come faccio un reso?</summary><p>Avete 14 giorni dal ricevimento per esercitare il recesso con la procedura online del sito. Le spese di rientro per ripensamento sono a carico del cliente; per difetti o errori sono a carico del negozio.</p></details><details><summary>Posso pagare a rate?</summary><p>Sì, con Klarna, Scalapay o PayPal in 3 rate.</p></details><details><summary>Il codice FW26 vale su tutto?</summary><p>Dà il 10% di sconto sui prodotti aderenti e non è cumulabile con altre offerte.</p></details></div></section>
 </main>
 <footer class="foot"><div class="wrap foot-in">
- <div><p class="f-big">pink<span>.</span></p><p>Pelletteria, borse, scarpe e valigie dei grandi marchi. Negozio a Bastia Umbra e shop online.</p></div>
+ <div><p class="f-logo"><img src="../img/fda3fba88b72.webp" alt="Pink Pelletteria" width="500" height="274" loading="lazy"></p><p>Pelletteria, borse, scarpe e valigie dei grandi marchi. Negozio a Bastia Umbra e shop online.</p></div>
  <div><h3>Negozio</h3><a href="../sneakers-donna/">Sneakers donna</a><a href="../borse-donna/">Borse donna</a><a href="../uomo/">Uomo</a><a href="https://www.pinkpelletteria.it/product/buono-regalo">Gift card</a></div>
  <div><h3>Assistenza</h3><a href="../assistenza/#spedizioni">Spedizioni</a><a href="../assistenza/#resi">Resi e recesso</a><a href="../assistenza/#pagamenti">Pagamenti</a><a href="../assistenza/#faq">Domande frequenti</a></div>
  <div><h3>Contatti</h3><a href="mailto:info@pinkpelletteria.it">info@pinkpelletteria.it</a><a href="https://wa.me/393385410516">WhatsApp 338 5410516</a><a href="tel:+390758012467">Tel. 075 8012467</a><p>Via F. Petrarca 81/83/85<br>06083 Bastia Umbra (PG)</p></div>
 </div><div class="wrap legal">Pink Pelletteria di Montanucci Marina · P.IVA 02966090546 · REA PG-254959</div></footer>
-<div class="ckbar" role="region" aria-label="Cookie"><p>Usiamo solo cookie tecnici per far funzionare il negozio. <a href="https://www.pinkpelletteria.it/cookie-policy">Dettagli</a></p><button type="button" data-ck>Ok</button></div>
+<div class="ckbar" role="region" aria-label="Cookie"><p>Solo cookie tecnici. <a href="https://www.pinkpelletteria.it/cookie-policy">Info</a></p><button type="button" data-ck>Ok</button></div>
 </body>
 </html>
