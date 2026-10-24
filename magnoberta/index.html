@@ -1,33 +1,540 @@
-<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Magnoberta – raccolta foto (bozza)</title></head><body><p>Proposta di restyling – bozza non ufficiale (in preparazione)</p>
-<img src="img/6589fa530c9a.jpg" alt="">
-<img src="img/46b7f6a6cd89.jpg" alt="">
-<img src="img/24eb72e05094.jpg" alt="">
-<img src="img/9ab23572ca15.jpg" alt="">
-<img src="img/4f64aaf690bd.jpg" alt="">
-<img src="img/bc4d594fa3c8.jpg" alt="">
-<img src="img/c8831a97d566.jpg" alt="">
-<img src="img/8708bb95cf69.jpg" alt="">
-<img src="img/9a6b2430b3f6.jpg" alt="">
-<img src="img/505716818f31.jpg" alt="">
-<img src="img/4f9e3601c6a8.jpg" alt="">
-<img src="img/5dd4d0a72cee.jpg" alt="">
-<img src="img/878ff92f57fc.jpg" alt="">
-<img src="img/aeb06ca9d4fd.jpg" alt="">
-<img src="img/f63d77d77cfc.jpg" alt="">
-<img src="img/37ad168155ab.jpg" alt="">
-<img src="img/b5c101144511.jpg" alt="">
-<img src="img/52b8e66ae718.jpg" alt="">
-<img src="img/a3e492445fd3.jpg" alt="">
-<img src="img/edb399d2cf2c.jpg" alt="">
-<img src="img/2aa3b07d874b.png" alt="">
-<img src="img/599d58fcadbc.jpg" alt="">
-<img src="img/c01e791e27d8.jpg" alt="">
-<img src="img/46ebfe2903ad.jpg" alt="">
-<img src="img/47b93b50bdd8.jpg" alt="">
-<img src="img/cd803f26746b.jpg" alt="">
-<img src="img/36c590228cd2.jpg" alt="">
-<img src="img/7e73e6adaf6f.png" alt="">
-<img src="img/58822ecdec6a.png" alt="">
-<img src="img/4b67c2b49c95.png" alt="">
-<img src="img/8755e2e5a3ad.png" alt="">
-</body></html>
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Magnoberta – Distilleria in Casale Monferrato dal 1918</title>
+<meta name="description" content="Distilleria Magnoberta, Casale Monferrato, dal 1918: grappe, Amaro Casale, GIN.IT e la Grapperia 918. Proposta di restyling, bozza non ufficiale.">
+<meta name="theme-color" content="#120e0b">
+<link rel="preload" href="fonts/cormorant-garamond-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/facciata-sera-m.jpg" as="image" media="(max-width: 700px)" fetchpriority="high">
+<link rel="preload" href="img/facciata-sera.jpg" as="image" media="(min-width: 701px)" fetchpriority="high">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<link rel="stylesheet" href="../vendor/lenis.css">
+<style>
+@font-face{font-family:"Cormorant Garamond";src:url(fonts/cormorant-garamond-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url(fonts/cormorant-garamond-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url(fonts/cormorant-garamond-latin-500-italic.woff2) format("woff2");font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-700-normal.woff2) format("woff2");font-weight:700;font-display:swap}
+
+:root{
+  --ink:#120e0b; --ink2:#1c1612; --ink3:#271e18;
+  --ivory:#f3ece0; --paper:#faf6ef; --muted:#d2c5b2; --muted-dark:#6b5d4f;
+  --copper:#c98552; --brass:#d1ad6a; --wine:#7d2a33; --wine2:#5e1f27;
+  --line:rgba(243,236,224,.14);
+  --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif;
+  --sans:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(20px,5vw,72px);
+  --vng-fg:#f3ece0; --vng-muted:#bfb19d; --vng-bg:#120e0b; --vng-accent:#d1ad6a; --vng-accent-fg:#120e0b; --vng-line:rgba(243,236,224,.14);
+  --vng-beam-from:#d1ad6a; --vng-beam-to:#c98552;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ink);color:var(--ivory);font-family:var(--sans);font-size:17px;line-height:1.65;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3,.y{font-variant-numeric:lining-nums}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.02;margin:0;letter-spacing:-.01em}
+p{margin:0 0 1em}
+.wrap{max-width:1280px;margin:0 auto;padding:0 var(--pad)}
+.kicker{font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin:0 0 18px}
+.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;z-index:100;background:var(--ivory);color:var(--ink);padding:8px 12px}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+
+/* etichetta bozza */
+.bozza{position:fixed;right:12px;bottom:12px;z-index:60;background:rgba(18,14,11,.88);color:var(--ivory);border:1px solid var(--line);font-size:11.5px;letter-spacing:.04em;padding:6px 10px;border-radius:999px;backdrop-filter:blur(6px)}
+
+/* header */
+.top{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px max(var(--pad),calc((100vw - 1280px)/2 + var(--pad)));transition:background .4s,padding .4s}
+.top.solid{background:rgba(18,14,11,.92);backdrop-filter:blur(10px);padding-top:8px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+.top .logo img{width:172px;height:auto}
+.top nav{display:flex;gap:28px;font-size:13.5px;font-weight:500;letter-spacing:.06em;text-transform:uppercase}
+.top nav a{text-decoration:none;opacity:.88}.top nav a:hover{opacity:1;color:var(--brass)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 24px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;letter-spacing:.01em;transition:transform .3s var(--vng-ease-out),background .3s,color .3s}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:var(--brass);color:var(--ink)}
+.btn-gold:hover{background:#e2c287}
+.btn-ghost{border:1px solid rgba(243,236,224,.45);color:var(--ivory)}
+.btn-ghost:hover{border-color:var(--ivory)}
+.top .btn{min-height:42px;padding:0 18px;font-size:14px}
+@media (max-width:900px){.top nav{display:none}.top .logo img{width:112px}}
+
+.menu-btn{display:none;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(243,236,224,.5);background:rgba(18,14,11,.4);color:var(--ivory);font:600 14px var(--sans);letter-spacing:.06em;text-transform:uppercase}
+.mnav{position:absolute;top:100%;left:10px;right:10px;background:rgba(18,14,11,.97);border:1px solid var(--line);border-radius:14px;padding:8px;display:flex;flex-direction:column}
+.mnav[hidden]{display:none}
+.mnav a{padding:14px 16px;font-family:var(--serif);font-size:26px;text-decoration:none;border-bottom:1px solid var(--line)}.mnav a:last-child{border:0}
+@media (max-width:900px){.menu-btn{display:inline-flex;align-items:center}.top::before{content:"";position:absolute;inset:-20px 0 -30px 0;z-index:-1;background:linear-gradient(180deg,rgba(18,14,11,.85),rgba(18,14,11,0));pointer-events:none}.top.solid::before{display:none}.top .logo img{width:132px}.pro-ctas .btn{width:100%}}
+@media (min-width:901px){.mnav{display:none!important}}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
+.hero picture,.hero .hero-img{position:absolute;inset:0;z-index:-2}
+.hero .hero-img{width:100%;height:100%;object-fit:cover;object-position:60% 50%;transform-origin:60% 60%}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(18,14,11,.95) 0%,rgba(18,14,11,.85) 45%,rgba(18,14,11,.25) 75%),linear-gradient(0deg,rgba(18,14,11,.95) 0%,rgba(18,14,11,0) 45%)}
+.hero-inner{padding:150px var(--pad) clamp(40px,9vh,96px);max-width:1280px;width:100%;margin:0 auto}
+.hero h1{font-size:clamp(52px,8vw,118px);max-width:7.2em;font-weight:500}
+.hero h1 em{font-style:italic;color:var(--brass)}
+.hero .lead{max-width:520px;font-size:clamp(17px,1.4vw,19px);color:#e6dccb;margin:26px 0 30px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero .meta{display:flex;gap:28px;flex-wrap:nowrap;white-space:nowrap;margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);max-width:640px}
+.hero .meta b{color:var(--ivory);font-weight:600}
+@media (max-width:700px){
+  .hero{align-items:flex-end}
+  .hero .hero-img{object-position:50% 0%}
+  .hero::after{background:linear-gradient(0deg,rgba(18,14,11,.98) 0%,rgba(18,14,11,.92) 46%,rgba(18,14,11,.55) 62%,rgba(18,14,11,.12) 80%,rgba(18,14,11,.5) 100%)}
+  .hero h1{font-size:clamp(40px,11.4vw,50px)}
+  .hero .lead{margin:18px 0 22px}
+  .hero .meta{display:none}
+  .hero .kicker{font-size:11px;letter-spacing:.16em;margin-bottom:12px}
+  .hero .lead{font-size:16px;line-height:1.55}
+  .hero .ctas .btn{flex:1 1 auto}
+  .hero-inner{padding-bottom:118px}
+}
+
+/* manifesto */
+.manifesto{padding:clamp(80px,9vw,120px) 0 clamp(70px,10vw,130px);position:relative}
+.manifesto .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(36px,6vw,96px);align-items:center}
+.manifesto h2{font-size:clamp(38px,5.2vw,74px)}
+.manifesto h2 em{color:var(--brass);font-style:italic}
+.manifesto .txt{color:#ddd2c1;max-width:560px;margin-top:28px}
+.manifesto figure{margin:0;position:relative}
+.manifesto figure .frame{overflow:hidden;border-radius:4px}
+.manifesto figure img{width:100%;aspect-ratio:1024/713;object-fit:cover;transform:scale(1.08)}
+.manifesto figcaption{font-size:14px;color:#cdbfaa;margin-top:12px;letter-spacing:.02em}
+.manifesto .beam-frame{position:relative;padding:10px;border-radius:8px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:clamp(70px,9vw,120px);border-top:1px solid var(--line)}
+.stats div{padding:28px 20px 6px 0;border-right:1px solid var(--line);padding-left:20px}
+.stats div:first-child{padding-left:0}.stats div:last-child{border-right:0}
+.stats .n{font-variant-numeric:lining-nums;font-family:var(--serif);font-size:clamp(46px,5.4vw,78px);line-height:1;color:var(--ivory);display:block}
+.stats p{font-size:15px;color:#d9cdbb;margin:10px 0 0;max-width:220px}
+@media (max-width:900px){.manifesto .grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.stats div{padding:22px 14px 16px 0;border-right:0;border-bottom:1px solid var(--line)}.stats div:nth-child(odd){padding-left:0}.stats div:nth-child(even){padding-left:14px;border-left:1px solid var(--line)}}
+
+/* timeline */
+.storia{position:relative;background:var(--ink2);overflow:hidden}
+.storia-head{padding-top:clamp(80px,11vw,140px);padding-bottom:40px}
+@media (min-width:900px){.storia-head{padding-top:124px;padding-bottom:0}.storia-head h2{font-size:clamp(40px,4.2vw,62px)}.tl{padding-top:24px;padding-bottom:80px}.tl figure img{height:190px}.tl .y{font-size:clamp(56px,5.4vw,84px)}}
+.storia-head .row{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap}
+.storia-head h2{font-size:clamp(40px,6vw,88px)}
+.storia-head p{max-width:420px;color:var(--muted);margin:0}
+.tl-pin{position:relative}
+.tl{display:flex;gap:clamp(18px,2.4vw,34px);padding:30px var(--pad) clamp(80px,10vw,120px) max(var(--pad),calc((100vw - 1280px)/2 + var(--pad)));width:max-content}
+.tl article{display:flex;flex-direction:column}.tl .y{order:-2}.tl h3{order:-1}.tl figure{order:1;margin:24px 0 0}
+
+.tl article{flex:0 0 auto;width:clamp(270px,26vw,360px);position:relative}
+.tl article.wide{width:clamp(300px,34vw,480px)}
+.tl .y{font-family:var(--serif);font-size:clamp(64px,7vw,104px);line-height:.9;color:var(--brass);display:block;margin-bottom:16px;font-weight:500}
+.tl .y small{font-size:.42em;font-style:italic;color:var(--muted)}
+.tl h3{font-size:28px;margin:0 0 10px;font-weight:600}
+.tl p{font-size:16px;color:#e3d8c6;margin:0}
+.tl figure img[src*="casa-luparia"],.tl figure img[src*="historia"]{background:#f4eee4;object-fit:contain;filter:none}.tl figure:has(img[src*="casa-luparia"]),.tl figure:has(img[src*="historia"]){background:#f4eee4}
+.tl figure{margin:0 0 20px;overflow:hidden;border-radius:3px;background:#0d0a08}
+.tl figure img{width:100%;height:240px;object-fit:cover;filter:sepia(.18) contrast(1.02)}
+.tl .rule{position:absolute;left:0;right:calc(-1 * clamp(18px,2.4vw,34px));top:0;border-top:1px solid var(--line)}
+.tl article:last-child .rule{right:0}
+.tl article{padding-top:22px}
+.tl .dot{position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%;background:var(--copper)}
+.tl-progress{position:absolute;left:var(--pad);right:var(--pad);bottom:46px;height:2px;background:var(--line)}
+.tl-progress i{display:block;height:100%;width:100%;background:var(--brass);transform-origin:0 50%;transform:scaleX(0)}
+@media (max-width:899px){
+  .tl-wrap{overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .tl-wrap::-webkit-scrollbar{display:none}
+  .tl article{scroll-snap-align:start;width:78vw}
+  .tl article.wide{width:84vw}
+  .tl figure img{height:210px}
+  .tl-progress{display:none}
+  .swipe{display:flex!important}
+}
+.swipe{display:none;align-items:center;gap:10px;font-size:13px;color:var(--muted);padding:0 var(--pad);margin-top:-8px}
+.swipe span{display:inline-block;width:38px;height:1px;background:var(--muted)}
+
+/* bottiglie (sezione chiara intera) */
+.cantina{background:var(--paper);color:var(--ink);padding:clamp(90px,12vw,160px) 0}
+.cantina .kicker{color:var(--wine)}
+.cantina h2{font-size:clamp(40px,6vw,86px);max-width:12em}
+.cantina h2 em{color:var(--wine);font-style:italic}
+.cantina .intro{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-bottom:clamp(40px,6vw,80px)}
+.cantina .intro p{max-width:400px;color:#4a3f35;margin:0}
+.bento{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(14px,1.6vw,22px)}
+.card{position:relative;background:#fffdf9;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;border:1px solid #ece3d4}
+.card .ph{display:flex;align-items:center;justify-content:center;background:#f4eee4;padding:14px}
+.card .ph img{mix-blend-mode:multiply}
+.card .ph img{max-height:290px;max-width:88%;width:auto;object-fit:contain}
+.card .tx{padding:20px 24px 26px;border-top:1px solid #f0e8db;margin-top:auto}
+.card h3{font-size:30px;font-weight:600;margin-bottom:6px}
+.card p{font-size:15px;color:#4d4238;margin:0}
+.card .tag{display:block;min-height:2.6em;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--wine);margin-bottom:8px}
+.c-morbida,.c-baronne,.c-amaro,.c-gin,.c-historia,.c-luparia{grid-column:span 4}
+.card .ph{height:340px}
+.c-amaro .ph{padding:0;overflow:hidden}
+.c-amaro .ph img{mix-blend-mode:normal;width:100%;height:100%;max-height:none;object-fit:cover;object-position:50% 40%}
+.c-text{grid-column:span 12;display:grid!important;grid-template-columns:1fr 1.3fr;gap:10px 60px;align-items:center;background:var(--wine2);color:var(--ivory);border:0;padding:clamp(28px,4vw,52px);justify-content:center}
+.c-text h3{font-size:clamp(34px,4vw,54px);margin-bottom:16px}
+.c-text p{color:#ead9cb;font-size:16px}
+.c-text ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:14px 26px;grid-row:span 2;grid-column:2}
+.c-text h3,.c-text p{grid-column:1}
+.c-text li{border-top:1px solid rgba(243,236,224,.22);padding-top:12px;font-size:15px}
+.c-text li b{display:block;font-family:var(--serif);font-size:24px;font-weight:600}
+.pro{grid-column:span 12;display:grid;grid-template-columns:1fr 1.1fr;align-items:center;background:#fff}
+.pro .ph{padding:24px}
+.pro .tx{border:0;padding:clamp(24px,4vw,56px)}
+@media (max-width:980px){.c-morbida,.c-baronne,.c-amaro,.c-gin,.c-historia,.c-luparia{grid-column:span 6}.c-text{grid-template-columns:1fr}.c-text ul{grid-column:1;grid-row:auto;margin-top:18px}}
+@media (max-width:600px){.card .ph{height:auto;min-height:220px}}
+@media (max-width:600px){.bento>.card{flex-basis:84vw!important}.bento{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 calc(-1*var(--pad));padding:0 var(--pad) 8px;scrollbar-width:none}.bento::-webkit-scrollbar{display:none}.bento>.card{flex:0 0 80vw;scroll-snap-align:start}.bento>.c-text{flex-basis:86vw}.card .ph{height:260px}.card .ph img{max-height:240px}.c-text ul{grid-template-columns:1fr}
+ html.shot .bento{display:grid;grid-template-columns:1fr 1fr;overflow:visible;margin:0;padding:0}html.shot .bento>.card{grid-column:span 1}html.shot .bento>.c-text{grid-column:1/-1}html.shot .card .ph{height:170px}html.shot .card .ph img{max-height:150px}html.shot .card .tx{padding:14px}html.shot .card h3{font-size:22px}html.shot .card p{font-size:13.5px}}
+.swipe-c{display:none;align-items:center;gap:10px;font-size:13px;color:#6b5d4f;margin:14px 0 0}.swipe-c span{display:inline-block;width:38px;height:1px;background:#6b5d4f}@media (max-width:600px){.swipe-c{display:flex}html.shot .swipe-c{display:none}}
+
+
+.c-feat{grid-column:span 12;display:grid;grid-template-columns:1.25fr 1fr;background:var(--wine2);color:var(--ivory);border:0}
+.c-feat .fph img{width:100%;height:100%;object-fit:cover}
+.c-feat .ftx{padding:clamp(28px,4vw,56px);align-self:center}
+.c-feat h3{font-size:clamp(36px,4vw,56px);margin-bottom:14px}.c-feat .tag{color:#efc98a}.c-feat p{color:#ead9cb;font-size:16px}
+.c-text{grid-column:span 4!important;display:flex!important;flex-direction:column;justify-content:center}
+.c-text h3{font-size:clamp(30px,3vw,40px)}.c-text ul{grid-template-columns:1fr!important;grid-column:auto!important;grid-row:auto!important;margin-top:18px!important}
+@media (max-width:980px){.c-feat{grid-template-columns:1fr}.c-text{grid-column:span 6!important}}
+@media (max-width:600px){.bento>.c-feat{flex-basis:86vw;display:flex;flex-direction:column}.bento>.c-feat .fph img{height:200px}.c-feat .ftx{padding:22px}.c-feat h3{font-size:32px}.c-feat p{font-size:15px}html.shot .bento>.c-feat,html.shot .bento>.c-historia{grid-column:1/-1}html.shot .bento>.c-text{grid-column:1/-1!important}}
+
+/* professionisti */
+.pro-band{background:var(--wine2);padding:clamp(80px,10vw,140px) 0}
+.pro-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,6vw,90px);align-items:start}
+.pro-ph{margin-top:48px!important}@media (max-width:900px){.pro-ph{margin-top:0!important}}
+.pro-band h2{font-size:clamp(38px,5vw,70px)}
+.pro-band h2 em{font-style:italic;color:var(--brass)}
+.pro-band .kicker{color:#efc98a}
+.pro-txt{color:#f0e2d6;max-width:520px;margin-top:22px}
+.pro-list{list-style:none;padding:0;margin:26px 0 30px;max-width:520px}
+.pro-list li{padding:12px 0;border-top:1px solid rgba(243,236,224,.22);font-size:16px}
+.pro-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.pro-ph{margin:0;background:#f4eee4;border-radius:6px;padding:clamp(16px,2.4vw,34px)}.pro-ph img{mix-blend-mode:multiply}
+@media (max-width:900px){.pro-ph{order:-1}}
+@media (max-width:900px){.pro-grid{grid-template-columns:1fr}}
+
+/* grapperia */
+.grapperia{position:relative;padding:clamp(90px,12vw,160px) 0;background:var(--ink)}
+.grapperia .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(36px,6vw,90px);align-items:start}
+.grapperia h2{font-size:clamp(42px,6vw,88px)}
+.grapperia h2 em{font-style:italic;color:var(--brass)}
+.grapperia .big-photo{margin:40px 0 0;overflow:hidden;border-radius:4px}
+.grapperia .big-photo img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:62% 50%}
+.rooms{list-style:none;padding:0;margin:30px 0 0}
+.rooms li{display:flex;gap:18px;align-items:baseline;padding:16px 0;border-bottom:1px solid var(--line);font-size:16.5px}
+.rooms li span{font-family:var(--serif);font-size:22px;color:var(--brass);min-width:30px}
+.g-ph{margin:34px 0 0;overflow:hidden;border-radius:4px}.g-ph img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:40% 60%}
+.orari{position:relative;background:var(--ink3);border-radius:10px;padding:clamp(26px,3vw,40px);margin-top:4px}
+.orari h3{font-size:34px;margin-bottom:18px}
+.orari table{width:100%;border-collapse:collapse;font-size:16px}
+.orari td{padding:12px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.orari td:last-child{text-align:right;color:#efe5d5;font-weight:500}
+.orari .addr{margin:24px 0 20px;color:#d9cdbb;font-size:16px}
+.orari .ctas{display:flex;flex-direction:column;gap:10px}
+.orari .ctas .btn{width:100%}
+.orari .note{font-size:13.5px;color:var(--muted);margin:16px 0 0}
+@media (max-width:900px){.grapperia .grid{grid-template-columns:1fr}}
+
+/* footer */
+.foot{background:#0b0907;padding:clamp(70px,9vw,110px) 0 130px;border-top:1px solid var(--line)}
+.foot .grid{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px}
+.foot h2{font-size:clamp(34px,4.4vw,60px);margin-bottom:22px}
+.foot h4{font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--brass);margin:0 0 14px;font-weight:600}
+.foot p,.foot a{font-size:15.5px;color:#d7cbb9}
+.foot a{text-decoration:none;border-bottom:1px solid rgba(215,203,185,.3)}
+.foot a:hover{color:var(--ivory);border-color:var(--ivory)}
+.foot .small{margin-top:60px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.foot .small p{font-size:13px;color:var(--muted);margin:0}
+@media (max-width:900px){.foot .grid{grid-template-columns:1fr}}
+
+/* barra contatti mobile */
+.dock{position:fixed;left:10px;right:10px;bottom:10px;z-index:55;display:none;grid-template-columns:1fr 1fr 1fr;gap:6px;background:rgba(18,14,11,.94);border:1px solid var(--line);border-radius:16px;padding:6px;backdrop-filter:blur(10px)}
+.dock a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:52px;border-radius:11px;text-decoration:none;font-size:12.5px;font-weight:600;color:var(--ivory)}
+.dock a.main{background:var(--brass);color:var(--ink)}
+.dock svg{width:20px;height:20px}
+@media (max-width:900px){.dock{display:grid}.bozza{top:0;bottom:auto;left:0;right:0;border-radius:0;text-align:center;font-size:10.5px;padding:3px 8px;border:0;border-bottom:1px solid var(--line)}.top{top:20px}.hide-m{display:none}}
+
+/* animazioni: stato iniziale solo con JS attivo e moto consentito */
+.js .rv{opacity:0;transform:translateY(28px)}
+html.shot .rv,html.static .rv{opacity:1!important;transform:none!important}
+@media (prefers-reduced-motion:reduce){.js .rv{opacity:1;transform:none}.btn:hover{transform:none}}
+html.shot .top{position:absolute}
+html.shot .tl-wrap{overflow:visible}
+html.shot .tl{display:grid;grid-template-columns:repeat(3,1fr);width:auto;padding-right:max(var(--pad),calc((100vw - 1280px)/2 + var(--pad)))}
+html.shot .tl article,html.shot .tl article.wide{width:auto}
+html.shot .tl .rule{right:0}
+@media (max-width:899px){html.shot .tl{grid-template-columns:1fr;gap:30px}html.shot .tl .y{font-size:56px}html.shot .tl figure img{height:190px}}
+html.shot .swipe,html.shot .tl-progress{display:none!important}
+html.shot .hero{min-height:900px}
+@media (max-width:700px){html.shot .hero{min-height:844px}}
+</style>
+<script>
+document.documentElement.classList.add('js');
+if(/[?&]shot=1\b/.test(location.search)){document.documentElement.classList.add('shot');document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'})});}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<div class="bozza" aria-hidden="true">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top" id="top">
+  <a class="logo" href="#" aria-label="Magnoberta, distilleria in Casale Monferrato, 1918 – inizio pagina"><img src="img/logo-chiaro.png" width="335" height="196" alt="Magnoberta – Distilleria in Casale Monferrato – 1918"></a>
+  <nav aria-label="Principale">
+    <a href="#storia">Storia</a><a href="#distillati">Distillati</a><a href="#professionisti">Professionisti</a><a href="#grapperia">Grapperia 918</a><a href="#contatti">Contatti</a>
+  </nav>
+  <a class="btn btn-gold hide-m" href="tel:+390142452022">Chiama 0142 452022</a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mnav">Menu</button>
+  <nav class="mnav" id="mnav" aria-label="Menu" hidden>
+    <a href="#storia">Storia</a><a href="#distillati">Distillati</a><a href="#professionisti">Professionisti</a><a href="#grapperia">Grapperia 918</a><a href="#contatti">Contatti</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" aria-labelledby="h-hero">
+  <picture>
+    <source media="(max-width: 700px)" srcset="img/facciata-sera-m.jpg" width="540" height="1167">
+    <img class="hero-img" src="img/facciata-sera.jpg" width="1920" height="1282" alt="La sede Magnoberta in Strada Asti a Casale Monferrato, al tramonto, con l'insegna della Grapperia 918 illuminata" fetchpriority="high">
+  </picture>
+  <div class="hero-inner">
+    <p class="kicker">Distilleria Magnoberta · Grapperia 918</p>
+    <h1 id="h-hero" class="split">Distillatori a Casale Monferrato <em>dal 1918.</em></h1>
+    <p class="lead"><i>Passione e arte di distillare</i>: grappe del Monferrato, l'Amaro Casale e i distillati della famiglia Luparia, da scoprire alla Grapperia 918.</p>
+    <div class="ctas">
+      <a class="btn btn-gold" href="#grapperia">Visita la Grapperia 918</a>
+      <a class="btn btn-ghost" href="#distillati">Scopri i distillati</a>
+    </div>
+    <div class="meta"><span><b>1918</b> fondazione</span><span><b>Strada Asti 6</b> Casale Monferrato</span><span><b>Grapperia 918</b> degustazioni</span></div>
+  </div>
+</section>
+
+<section class="manifesto" aria-labelledby="h-man">
+  <div class="wrap">
+    <div class="grid">
+      <div class="rv">
+        <p class="kicker">La distilleria</p>
+        <h2 id="h-man">Dal laboratorio di Via Lanza agli <em>alambicchi in rame</em> di Strada Asti.</h2>
+        <div class="txt">
+          <p>Nel 1918 Paolo Berta e Domenico Magno aprono a Casale Monferrato un laboratorio di liquori e vermouth. Dal 1937 la famiglia Luparia ne fa una distilleria di grappa, che nel 1949 prende il nome Magnoberta.</p>
+          <p>Nel 1962 arrivano gli alambicchi in rame a ciclo discontinuo; nel 1964 la prima grappa di un solo vitigno, la Malvasia.</p>
+        </div>
+      </div>
+      <figure class="rv">
+        <div class="beam-frame"><span class="vng-beam" aria-hidden="true"></span>
+          <div class="frame"><img class="par" src="img/alambicchi-famiglia.jpg" width="1024" height="713" loading="lazy" alt="La famiglia Luparia accanto agli alambicchi in rame della distilleria"></div>
+        </div>
+        <figcaption>La famiglia Luparia in distilleria, accanto agli alambicchi in rame.</figcaption>
+      </figure>
+    </div>
+    <div class="stats rv">
+      <div><span class="n" data-vng-count="6">6</span><p>alambicchi in rame a ciclo discontinuo, dal 1962</p></div>
+      <div><span class="n" data-vng-count="12">12</span><p>erbe e spezie nella ricetta dell'Amaro Casale</p></div>
+      
+      <div><span class="n" data-vng-count="10">10</span><p>anni di invecchiamento per la Grappa 918</p></div>
+      <div><span class="n" data-vng-count="5">5</span><p>grappoli Bibenda alla Grappa Morbida</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="storia" id="storia" aria-labelledby="h-storia">
+  <div class="wrap storia-head">
+    <div class="row rv">
+      <div><p class="kicker">Cento anni distillati</p><h2 id="h-storia">Una storia di famiglia,<br>anno per anno.</h2></div>
+      <p>Dall'Amaro Casale del laboratorio di Via Lanza alla Grapperia aperta per il centenario.</p>
+    </div>
+  </div>
+  <div class="tl-pin">
+    <div class="tl-wrap">
+      <div class="tl">
+        <article class="wide"><div class="rule"></div><div class="dot"></div>
+          <figure><img src="img/insegna-magno-berta.jpg" width="800" height="379" loading="lazy" alt="Antica insegna Magno &amp; Berta, Fabbrica Vermouth e Liquori, Specialità Amaro Casale, Via G. Lanza 33"></figure>
+          <span class="y">1918</span><h3>Magno &amp; Berta</h3><p>Paolo Berta e Domenico Magno aprono in Via Lanza un laboratorio con spaccio di liquori e vermouth. Nasce l'Amaro Casale.</p></article>
+        <article><div class="rule"></div><div class="dot"></div>
+          <span class="y">1937</span><h3>Arrivano i Luparia</h3><p>Giuseppe Luparia rileva l'attività con il figlio Rinaldo: cresce la produzione di grappa e il laboratorio diventa distilleria.</p></article>
+        <article class="wide"><div class="rule"></div><div class="dot"></div>
+          <figure><img src="img/insegna-distillerie.jpg" width="800" height="379" loading="lazy" alt="Insegna storica Distillerie Magnoberta in bianco e nero"></figure>
+          <span class="y">1949</span><h3>Nasce Magnoberta</h3><p>Il nuovo nome e il trasferimento sulla strada tra Casale e Asti.</p></article>
+        <article><div class="rule"></div><div class="dot"></div>
+          <figure><img src="img/botti-ritratto.jpg" width="1154" height="1600" loading="lazy" alt="Ritratto in bianco e nero tra le botti della distilleria" style="object-position:50% 25%"></figure>
+          <span class="y">1962</span><h3>Il rame</h3><p>Entra Alberto Luparia e vengono installati sei alambicchi in rame a ciclo discontinuo.</p></article>
+        <article><div class="rule"></div><div class="dot"></div>
+          <span class="y">1964</span><h3>La Malvasia</h3><p>Nasce la grappa di Malvasia, il primo monovitigno della distilleria.</p></article>
+        <article><div class="rule"></div><div class="dot"></div>
+          <figure><img src="img/rinaldo-alberto.jpg" width="1029" height="1398" loading="lazy" alt="Due generazioni della famiglia Luparia in distilleria, tra le botti" style="object-position:50% 30%"></figure>
+          <span class="y">1974</span><h3>Mambo</h3><p>Il lancio di Mambo, la prima vodka lemon italiana.</p></article>
+        <article><div class="rule"></div><div class="dot"></div>
+          <span class="y">2000</span><h3>Casa Luparia</h3><p>Nascono i Distillati di Casa Luparia e le Nobili di Casa Luparia: Marquise, Princesse e Baronne.</p></article>
+        <article><div class="rule"></div><div class="dot"></div>
+          <span class="y">2008</span><h3>Historia</h3><p>Per i 90 anni dell'azienda nasce la linea Historia.</p></article>
+        <article><div class="rule"></div><div class="dot"></div>
+          <span class="y">2018</span><h3>Il centenario</h3><p>Apre la Grapperia 918 ed esce il libro «Cento anni distillati».</p></article>
+      </div>
+    </div>
+    <p class="swipe" aria-hidden="true"><span></span>scorri gli anni</p>
+    <div class="tl-progress" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+<section class="cantina" id="distillati" aria-labelledby="h-dist">
+  <div class="wrap">
+    <div class="intro rv">
+      <div><p class="kicker">I distillati</p><h2 id="h-dist">Grappe, amari e gin <em>del Monferrato.</em></h2></div>
+      <p>Grappe giovani, invecchiate e di un solo vitigno, l'Amaro Casale, il GIN.IT e le linee per l'alta pasticceria.</p>
+    </div>
+    <div class="bento">
+      <article class="card c-morbida rv">
+        <div class="ph"><img src="img/grappa-morbida.jpg" width="255" height="769" loading="lazy" alt="Bottiglia di Grappa Morbida Magnoberta"></div>
+        <div class="tx"><span class="tag">Cinque Grappoli Bibenda</span><h3>Grappa Morbida</h3><p>Premiata con i Cinque Grappoli della guida Bibenda.</p></div>
+      </article>
+      <article class="card c-baronne rv">
+        <div class="ph"><img src="img/baronne.jpg" width="417" height="774" loading="lazy" alt="Bottiglia di grappa Baronne delle Nobili di Casa Luparia"></div>
+        <div class="tx"><span class="tag">Nobili di Casa Luparia</span><h3>Baronne</h3><p>Con Marquise e Princesse, le Nobili nate nel 2000 in ricordo di Rinaldo Luparia.</p></div>
+      </article>
+      <article class="card c-historia rv">
+        <div class="ph"><img src="img/historia.jpg" width="800" height="380" loading="lazy" alt="Linea Historia: grappe in bottiglie con etichette d'epoca"></div>
+        <div class="tx"><span class="tag">Dal 2008</span><h3>Historia</h3><p>La linea nata per i 90 anni della distilleria.</p></div>
+      </article>
+      <article class="card c-feat rv">
+        <div class="fph"><img src="img/amaro-casale-scena.jpg" width="640" height="560" loading="lazy" alt="Bottiglia di Amaro Casale, Edizione del Centenario"></div>
+        <div class="ftx"><span class="tag">Ricetta di famiglia</span><h3>Amaro Casale</h3><p>Il prodotto da cui tutto è partito, nel laboratorio di Via Lanza. Un'infusione di 12 erbe e spezie, tra cui zafferano, china e zedoaria. Oggi anche nell'Edizione del Centenario.</p></div>
+      </article>
+      <article class="card c-gin rv">
+        <div class="ph"><img src="img/gin-it.jpg" width="755" height="399" loading="lazy" alt="Tre bottiglie di GIN.IT con cocktail"></div>
+        <div class="tx"><span class="tag">Gin italiano</span><h3>GIN.IT</h3><p>Il gin della distilleria, prodotto con botaniche selezionate.</p></div>
+      </article>
+      <article class="card c-luparia rv">
+        <div class="ph"><img src="img/casa-luparia.jpg" width="589" height="735" loading="lazy" alt="Cassetta in legno Casa Luparia con due bottiglie di grappa"></div>
+        <div class="tx"><span class="tag">Dal 2000</span><h3>Distillati di Casa Luparia</h3><p>La linea che porta il nome della famiglia, anche in cassetta di legno.</p></div>
+      </article>
+      <article class="card c-text rv">
+        <span class="vng-beam" aria-hidden="true"></span>
+        <h3>Le grappe invecchiate</h3>
+        <ul>
+          <li><b>Grappa 918</b>invecchiata dieci anni</li>
+          <li><b>Le Riserve</b>grappa stravecchia, quattro anni</li>
+          <li><b>Barrique</b>affinata in piccole botti</li>
+        </ul>
+      </article>
+    </div>
+    <p class="swipe-c" aria-hidden="true"><span></span>scorri i distillati</p>
+  </div>
+</section>
+
+<section class="pro-band" id="professionisti" aria-labelledby="h-pro">
+  <div class="wrap pro-grid">
+    <div class="rv">
+      <p class="kicker">Per pasticcerie e laboratori</p>
+      <h2 id="h-pro">Grand Patissier, <em>la linea per i professionisti.</em></h2>
+      <p class="pro-txt">Bagne per l'alta pasticceria, frutta al naturale e sciroppi: i prodotti Magnoberta pensati per pasticcerie, laboratori e locali.</p>
+      <ul class="pro-list"><li>Bagne per l'alta pasticceria</li><li>Frutta al naturale, da 1,3 e 3,8 kg</li><li>Sciroppi di zucchero e concentrati</li></ul>
+      <div class="pro-ctas"><a class="btn btn-gold" href="mailto:info@magnoberta.com?subject=Richiesta%20listino%20Grand%20Patissier">Chiedi il listino via email</a><a class="btn btn-ghost" href="tel:+390142452022">Chiama 0142 452022</a></div>
+    </div>
+    <figure class="pro-ph rv"><img src="img/bagne-frutta.jpg" width="783" height="497" loading="lazy" alt="Bagne Grand Patissier e frutta al naturale in barattolo per pasticceria"></figure>
+  </div>
+</section>
+
+<section class="grapperia" id="grapperia" aria-labelledby="h-grap">
+  <div class="wrap grid">
+    <div class="rv">
+      <p class="kicker">Venite a trovarci</p>
+      <h2 id="h-grap">Grapperia <em>918.</em></h2>
+      <p style="color:#d9cdbb;max-width:560px;margin-top:24px">Per il centenario l'edificio di Strada Asti è stato rinnovato. Dietro la nuova facciata trovate:</p>
+      <ul class="rooms">
+        <li><span>i</span>la Grapperia 918, il negozio con tutti i prodotti della distilleria</li>
+        <li><span>ii</span>la sala degustazione</li>
+        <li><span>iii</span>l'esposizione permanente sulla storia della distilleria</li>
+        <li><span>iv</span>la sala conferenze</li>
+      </ul>
+    </div>
+    <div class="gcol">
+    <aside class="orari rv" aria-labelledby="h-orari">
+      <span class="vng-beam" aria-hidden="true"></span>
+      <h3 id="h-orari">Orari</h3>
+      <table>
+        <tr><td>Lunedì – venerdì</td><td>9:00 – 18:00</td></tr>
+        <tr><td>Sabato</td><td>10:00 – 13:00<br>15:00 – 18:00</td></tr>
+        <tr><td>Domenica</td><td><a href="tel:+390142452022">su appuntamento</a></td></tr>
+      </table>
+      <p class="addr">Strada Asti, 6 · 15033 Casale Monferrato (AL)</p>
+      <div class="ctas">
+        <a class="btn btn-gold" href="tel:+390142452022">Chiama +39 0142 452022</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Magnoberta%20Strada%20Asti%206%20Casale%20Monferrato" target="_blank" rel="noopener">Indicazioni stradali</a>
+      </div>
+      <p class="note">Per visite guidate e degustazioni di gruppo, chiamateci o scrivete a <a href="mailto:info@magnoberta.com">info@magnoberta.com</a>.</p>
+    </aside>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot" id="contatti">
+  <div class="wrap">
+    <div class="grid">
+      <div><h2>Magnoberta,<br>Casale Monferrato.</h2><p>Distilleria Magnoberta di Luparia Alberto &amp; Figli sas</p></div>
+      <div><h4>Contatti</h4>
+        <p>Strada Asti, 6<br>15033 Casale Monferrato (AL)</p>
+        <p><a href="tel:+390142452022">+39 0142 452022</a><br><a href="mailto:info@magnoberta.com">info@magnoberta.com</a></p></div>
+      <div><h4>Esplora</h4>
+        <p><a href="#storia">Storia</a><br><a href="#distillati">Distillati</a><br><a href="#professionisti">Professionisti</a><br><a href="#grapperia">Grapperia 918</a></p></div>
+    </div>
+    <div class="small"><p>P.IVA 00452380066 · Bevi responsabilmente.</p><p>Bozza di restyling non ufficiale, non pubblicata su Google · testi e foto da magnoberta.com</p></div>
+  </div>
+</footer>
+
+<nav class="dock" aria-label="Contatti rapidi">
+  <a class="main" href="tel:+390142452022"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>Chiama</a>
+  <a href="mailto:info@magnoberta.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Scrivi</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Magnoberta%20Strada%20Asti%206%20Casale%20Monferrato" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Indicazioni</a>
+</nav>
+
+<script src="../vendor/vng/vng.js" defer></script>
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
+<script>
+window.addEventListener('DOMContentLoaded',function(){
+  var html=document.documentElement;
+  var SHOT=html.classList.contains('shot');
+  var REDUCED=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var top=document.getElementById('top');
+  var onScroll=function(){top.classList.toggle('solid',window.scrollY>40)};
+  var mb=document.querySelector('.menu-btn'),mn=document.getElementById('mnav');
+  if(mb){mb.addEventListener('click',function(){var o=mn.hasAttribute('hidden');if(o){mn.removeAttribute('hidden')}else{mn.setAttribute('hidden','')}mb.setAttribute('aria-expanded',String(o))});mn.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mn.setAttribute('hidden','');mb.setAttribute('aria-expanded','false')})});}
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+  if(SHOT||REDUCED||!window.gsap||!window.ScrollTrigger){html.classList.add('static');return;}
+  gsap.registerPlugin(ScrollTrigger);
+  var lenis=null;
+  if(window.Lenis){lenis=new Lenis({lerp:.1});lenis.on('scroll',ScrollTrigger.update);gsap.ticker.add(function(t){lenis.raf(t*1000)});gsap.ticker.lagSmoothing(0);
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var id=a.getAttribute('href');if(id.length>1){var el=document.querySelector(id);if(el){e.preventDefault();lenis.scrollTo(el,{offset:-60});}}})});}
+  // titolo
+  if(window.SplitText){gsap.registerPlugin(SplitText);
+    var st=new SplitText('.hero h1',{type:'lines,words',linesClass:'ln'});
+    gsap.set('.hero h1 .ln',{overflow:'hidden',paddingBottom:'.06em'});
+    gsap.from(st.words,{yPercent:110,duration:1.1,ease:'expo.out',stagger:.06,delay:.15});}
+  gsap.from('.hero .kicker,.hero .lead,.hero .ctas,.hero .meta',{opacity:0,y:20,duration:1,ease:'power3.out',stagger:.1,delay:.5});
+  gsap.fromTo('.hero-img',{scale:1.12},{scale:1,duration:2.4,ease:'power2.out'});
+  gsap.to('.hero-img',{yPercent:8,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+  // entrate
+  gsap.utils.toArray('.rv').forEach(function(el){
+    gsap.to(el,{opacity:1,y:0,duration:1.1,ease:'expo.out',scrollTrigger:{trigger:el,start:'top 86%',once:true}});
+  });
+  // parallax leggero
+  gsap.utils.toArray('img.par').forEach(function(im){
+    gsap.fromTo(im,{yPercent:-4},{yPercent:4,ease:'none',scrollTrigger:{trigger:im.parentNode,start:'top bottom',end:'bottom top',scrub:1}});
+  });
+  // timeline orizzontale pinnata (solo desktop)
+  ScrollTrigger.matchMedia({
+    '(min-width: 900px)':function(){
+      var track=document.querySelector('.tl');
+      var dist=function(){return Math.max(0,track.scrollWidth-window.innerWidth)};
+      var tw=gsap.to(track,{x:function(){return -dist()},ease:'none',scrollTrigger:{trigger:'.storia',start:'top top',end:function(){return '+='+dist()},pin:true,scrub:1,invalidateOnRefresh:true,anticipatePin:1}});
+      gsap.to('.tl-progress i',{scaleX:1,ease:'none',scrollTrigger:{trigger:'.storia',start:'top top',end:function(){return '+='+dist()},scrub:1}});
+      return function(){tw.kill()};
+    }
+  });
+  window.addEventListener('load',function(){ScrollTrigger.refresh()});
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){ScrollTrigger.refresh()});
+});
+</script>
+</body>
+</html>
