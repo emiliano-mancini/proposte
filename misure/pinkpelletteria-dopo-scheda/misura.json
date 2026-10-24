@@ -1,0 +1,107 @@
+{
+  "slug": "pinkpelletteria-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/joia-paris-clash-wine/",
+  "misuratoIl": "2026-10-24T03:17:46.795Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 161,
+  "lcpMs": 156,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/291ecb562377-L.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/joia-paris-clash-wine/",
+  "titolo": "Joia Paris Joia Paris Clash Woman Sneaker Wine (bordeaux) – Pink Pelletteria",
+  "descrizione": "Joia Paris Joia Paris Clash Woman Sneaker Wine (bordeaux) a 395 euro. Spedizione gratis sopra 59 euro. Bozza di restyling.",
+  "h1": [
+    "Joia Paris Clash Woman Sneaker Wine (bordeaux)"
+  ],
+  "ttfb": 91,
+  "fcp": 156,
+  "domReady": 132,
+  "load": 160,
+  "pesoKB": 651,
+  "richieste": 14,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/0efd832c2d8f-L.webp",
+      "kb": 184
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/fa3efca6c43c-L.webp",
+      "kb": 102
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/cd8c191b6e7a-L.webp",
+      "kb": 74
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/291ecb562377-L.webp",
+      "kb": 73
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/40d7a2ac805a.webp",
+      "kb": 32
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 638,
+    "visibileSenzaScorrere": true
+  },
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pinkpelletteria.it"
+  ],
+  "telefono": [
+    "+390758012467"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/assistenza/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Tutte le condizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/assistenza/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/assistenza/#resi"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 3,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 2,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

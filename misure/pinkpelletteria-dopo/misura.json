@@ -1,0 +1,103 @@
+{
+  "slug": "pinkpelletteria-dopo",
+  "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/",
+  "misuratoIl": "2026-10-24T03:17:43.001Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 271,
+  "lcpMs": 279,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/291ecb562377-L.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/",
+  "titolo": "Pink Pelletteria – Borse, sneakers e valigie a Bastia Umbra",
+  "descrizione": "Borse, sneakers e valigie di Joia Paris, Coccinelle, Alviero Martini e altri marchi. Spedizione gratis sopra 59 euro. Bozza di restyling.",
+  "h1": [
+    "Le sneakers Joia Paris sono arrivate."
+  ],
+  "ttfb": 84,
+  "fcp": 220,
+  "domReady": 173,
+  "load": 267,
+  "pesoKB": 439,
+  "richieste": 18,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/291ecb562377-L.webp",
+      "kb": 73
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/a328a426610e.webp",
+      "kb": 49
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/627bf0321be5.webp",
+      "kb": 30
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/291ecb562377.webp",
+      "kb": 29
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/img/2b9cf6bbfc9b.webp",
+      "kb": 27
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@pinkpelletteria.it"
+  ],
+  "telefono": [
+    "+390758012467"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e resi",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/assistenza/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/chi-siamo/"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Resi e recesso",
+      "h": "https://emiliano-mancini.github.io/proposte/pinkpelletteria-shop/assistenza/#resi"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 8,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

@@ -1,0 +1,206 @@
+{
+  "slug": "casaprosciutto-ricontrollo",
+  "url": "https://lacasadelprosciutto.com/shop/",
+  "misuratoIl": "2026-10-24T03:18:00.423Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 9012,
+  "lcpMs": 4673,
+  "lcpElemento": "IMG https://lacasadelprosciutto.com/wp-content/uploads/2024/07/Prosciutto-San-Daniele-intero-con-osso-1024x1536.jpg",
+  "cls": 0,
+  "urlFinale": "https://lacasadelprosciutto.com/shop/",
+  "titolo": "Shop Online Prosciutto San Daniele | Alberti 1906",
+  "descrizione": "Acquista online il prosciutto crudo San Daniele Alberti 1906: intero, disossato, affettato e tranci. Spedizione in tutta Italia. Qualità artigianale dal 1906.",
+  "h1": [
+    "Porta a tavola la tradizione"
+  ],
+  "ttfb": 3666,
+  "fcp": 4600,
+  "domReady": 5338,
+  "load": 9011,
+  "pesoKB": 5463,
+  "richieste": 192,
+  "script": 102,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.youtube.com",
+    "cdn.brevo.com",
+    "www.googletagmanager.com",
+    "cdn.jsdelivr.net",
+    "maps.googleapis.com",
+    "www.google.com",
+    "static.cloudflareinsights.com",
+    "sibautomation.com",
+    "consent.cookiebot.com",
+    "sc.lfeeder.com",
+    "static.hotjar.com",
+    "pagead2.googlesyndication.com",
+    "consentcdn.cookiebot.com",
+    "www.gstatic.com",
+    "script.hotjar.com",
+    "vc.hotjar.io",
+    "content.hotjar.io",
+    "in-automate.brevo.com",
+    "tr-rc.lfeeder.com",
+    "connect.facebook.net",
+    "www.facebook.com",
+    "s.pinimg.com",
+    "bat.bing.com",
+    "analytics.tiktok.com",
+    "ct.pinterest.com",
+    "analytics-ipv6.tiktokw.us",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://lacasadelprosciutto.com/wp-content/uploads/2026/02/e_Alberti_logo_120anni.svg",
+      "kb": 203
+    },
+    {
+      "url": "https://lacasadelprosciutto.com/wp-content/uploads/2024/07/Prosciutto-San-Daniele-intero-con-osso-1024x1536.jpg",
+      "kb": 140
+    },
+    {
+      "url": "https://lacasadelprosciutto.com/wp-content/uploads/2024/07/San-Daniele-a-coltello-1024x1536.jpg",
+      "kb": 138
+    },
+    {
+      "url": "https://lacasadelprosciutto.com/wp-content/uploads/2024/11/cofanetto-10x-1024x1536.jpg",
+      "kb": 138
+    },
+    {
+      "url": "https://lacasadelprosciutto.com/wp-content/uploads/2024/11/cofanetto-5x-1024x1536.jpg",
+      "kb": 138
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "CybotCookiebotDialog",
+      "copre": "94%",
+      "testo": "Uso responsabile dei dati Noi e i nostri 1086 partner trattiamo i vostri dati personali, ad esempio il vostro numero IP,"
+    }
+  ],
+  "pulsanteAcquisto": {
+    "testo": "Aggiungi al carrello",
+    "yPx": 932,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@lacasadelprosciutto.com",
+    "casapros@legalmail.it"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "https://trust.accurat.ai/resources?s=8chel2j4fm42z",
+      "h": "https://trust.accurat.ai/resources?s=8chel2j4fm42zhutgqxh6z&name=legitimate-interest-assessment"
+    },
+    {
+      "t": "https://www.nanointeractive.com/resources/legal/pr",
+      "h": "https://www.nanointeractive.com/resources/legal/privacy-policy/"
+    },
+    {
+      "t": "https://www.nanointeractive.com/resources/legal/pr",
+      "h": "https://www.nanointeractive.com/resources/legal/privacy-policy/"
+    },
+    {
+      "t": "https://www.nordicdataresources.com/privacy/produc",
+      "h": "https://www.nordicdataresources.com/privacy/products/"
+    },
+    {
+      "t": "https://www.nordicdataresources.com/privacy/net/",
+      "h": "https://www.nordicdataresources.com/privacy/net/"
+    },
+    {
+      "t": "https://reso.no/privacy-policy/",
+      "h": "https://reso.no/privacy-policy/"
+    },
+    {
+      "t": "https://reso.no/privacy-policy/",
+      "h": "https://reso.no/privacy-policy/"
+    },
+    {
+      "t": "https://wearesilverbullet.com/privacy-policy/",
+      "h": "https://wearesilverbullet.com/privacy-policy/"
+    },
+    {
+      "t": "https://wearesilverbullet.com/privacy-policy/",
+      "h": "https://wearesilverbullet.com/privacy-policy/"
+    },
+    {
+      "t": "https://www.resonate.com/privacy-policy/",
+      "h": "https://www.resonate.com/privacy-policy/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://lacasadelprosciutto.com/contatti/"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://lacasadelprosciutto.com/faq/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+  "rispostaServer": [
+    {
+      "ms": 3633,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 2041,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 2106,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.min.js?ver=5.4.0"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=1&tid=AW-16690754926&en=page_view&dl=https%3A%2F%2Flacasadelprosciutto.com%2Fshop&scrsrc=www."
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=8&frm=0&apvc=0&ae=g&en=page_view&dl=https%3A%2F%2Flacasadelprosciutto.com%2Fshop&scrsrc=www.googletagmanag"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&apvc=0&ae=g&tid=AW-624656308&dl=https%3A%2F%2Flacasadelprosciutto.com%2Fshop&scrsrc=www.googletagm"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LfbXhwqAAAAALITggNDlvj7YAs2962U7gXdwAS4"
+    },
+    {
+      "status": 400,
+      "url": "https://ct.pinterest.com/v3/?tid=9999999999999&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fla"
+    },
+    {
+      "status": 400,
+      "url": "https://ct.pinterest.com/v3/?event=viewcategory&ed=%7B%22line_items%22%3A%5B%5D%2C%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&tid=9999999999999&p"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=4&frm=0&apvc=0&ae=g&tid=AW-1&en=view_item_list&dl=https%3A%2F%2Flacasadelprosciutto.com%2Fshop&scrsrc=www."
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9999999999&gtm=45je6al1z89192091908za20gzb9192091908zd9192091908xf1&_p=1792811871279&gcs=G100&gcd=13q3p3q3q"
+    }
+  ]
+}

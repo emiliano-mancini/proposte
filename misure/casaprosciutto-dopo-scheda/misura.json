@@ -1,0 +1,101 @@
+{
+  "slug": "casaprosciutto-dopo-scheda",
+  "url": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/shop/",
+  "misuratoIl": "2026-10-24T03:17:39.065Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 136,
+  "lcpMs": 164,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/img/baceaf3202dd.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/shop/",
+  "titolo": "Shop – La Casa del Prosciutto Alberti 1906",
+  "descrizione": "Shop online del prosciutto San Daniele Alberti 1906: intero, disossato, tranci, affettato e specialità friulane. Bozza di restyling.",
+  "h1": [
+    "Porta a tavola la tradizione"
+  ],
+  "ttfb": 90,
+  "fcp": 143,
+  "domReady": 107,
+  "load": 132,
+  "pesoKB": 316,
+  "richieste": 16,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/img/875adcadc33d.webp",
+      "kb": 32
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/img/c6611e8c93c9.webp",
+      "kb": 30
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/img/6626af20ac1b.webp",
+      "kb": 30
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/img/2cb5940d7525.webp",
+      "kb": 21
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/img/f049cfa13341.webp",
+      "kb": 20
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@lacasadelprosciutto.com"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Spedizioni e pagamenti",
+      "h": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/assistenza/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/assistenza/#contatti"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/assistenza/#spedizioni"
+    },
+    {
+      "t": "Recesso e reclami",
+      "h": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/assistenza/#recesso"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/casaprosciutto-shop/assistenza/#contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 8,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
