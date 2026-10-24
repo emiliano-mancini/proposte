@@ -1,0 +1,91 @@
+{
+  "slug": "magnoberta-nuovo2",
+  "url": "https://emiliano-mancini.github.io/proposte/magnoberta/",
+  "misuratoIl": "2026-10-24T02:21:11.302Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 406,
+  "lcpMs": 304,
+  "lcpElemento": "H1 ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/magnoberta/",
+  "titolo": "Magnoberta – Distilleria in Casale Monferrato dal 1918",
+  "descrizione": "Distilleria Magnoberta, Casale Monferrato, dal 1918: grappe, Amaro Casale, GIN.IT e la Grapperia 918. Proposta di restyling, bozza non ufficiale.",
+  "h1": [
+    "Distillatori a\nCasale Monferrato\ndal 1918."
+  ],
+  "ttfb": 144,
+  "fcp": 304,
+  "domReady": 360,
+  "load": 405,
+  "pesoKB": 1425,
+  "richieste": 26,
+  "script": 5,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/img/botti-ritratto.jpg",
+      "kb": 361
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/img/rinaldo-alberto.jpg",
+      "kb": 225
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/img/facciata-sera-m.jpg",
+      "kb": 168
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/img/alambicchi-famiglia.jpg",
+      "kb": 122
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/img/insegna-magno-berta.jpg",
+      "kb": 71
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@magnoberta.com"
+  ],
+  "telefono": [
+    "+390142452022"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/magnoberta/#contatti"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/magnoberta/#contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 145,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 10,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

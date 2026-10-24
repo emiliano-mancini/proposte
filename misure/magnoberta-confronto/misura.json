@@ -1,0 +1,62 @@
+{
+  "slug": "magnoberta-confronto",
+  "url": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/",
+  "misuratoIl": "2026-10-24T02:21:15.178Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 117,
+  "lcpMs": 117,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/",
+  "titolo": "Page not found · GitHub Pages",
+  "descrizione": null,
+  "h1": [
+    "404"
+  ],
+  "ttfb": 102,
+  "fcp": 117,
+  "domReady": 115,
+  "load": 115,
+  "pesoKB": 6,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": 12,
+      "status": 404,
+      "cache": "HIT"
+    },
+    {
+      "ms": 11,
+      "status": 404,
+      "cache": "HIT"
+    },
+    {
+      "ms": 11,
+      "status": 404,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 404,
+      "url": "https://emiliano-mancini.github.io/proposte/magnoberta/confronto/"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "magnoberta-contatti2",
+  "url": "https://www.magnoberta.com/ita/contatti/",
+  "misuratoIl": "2026-10-24T02:21:06.121Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2380,
+  "lcpMs": 1975,
+  "lcpElemento": "IMG https://www.magnoberta.com/images/logo.png",
+  "cls": 0,
+  "urlFinale": "https://www.magnoberta.com/ita/contatti/",
+  "titolo": "Contatti - Magnoberta - Distilleria in Casale Monferrato",
+  "descrizione": null,
+  "h1": [
+    ""
+  ],
+  "ttfb": 424,
+  "fcp": 1441,
+  "domReady": 2042,
+  "load": 2375,
+  "pesoKB": 917,
+  "richieste": 63,
+  "script": 23,
+  "serviziEsterni": [
+    "privacy.ene.si",
+    "ajax.googleapis.com",
+    "fonts.googleapis.com",
+    "connect.facebook.net",
+    "www.facebook.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.magnoberta.com/images/sprites/sprite.png",
+      "kb": 83
+    },
+    {
+      "url": "https://www.magnoberta.com/images/footerbg.png",
+      "kb": 37
+    },
+    {
+      "url": "https://www.magnoberta.com/admin/public/articolo_categoria/f8d03ebd404348f32a4b7357299e80c7/20151124033445/1448375685_30659_grappe.png",
+      "kb": 34
+    },
+    {
+      "url": "https://www.magnoberta.com/admin/public/articolo_categoria/675d6a7edd12ae64f80c1a87c5c7572f/20151124044814/1448380094_45438_bagne.png",
+      "kb": 28
+    },
+    {
+      "url": "https://www.magnoberta.com/admin/public/articolo_categoria/a03baced77891284087640aa133c1d46/20151124035646/1448377006_83380_frutta.png",
+      "kb": 25
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "age_check_overlay",
+      "copre": "100%",
+      "testo": "Hai l'età legale per consumare bevande alcoliche nel tuo paese? Per favore inserisci la tua data di nascita. Ricordami s"
+    },
+    {
+      "id": "epp epp-lb epp-cb epp-lb-tx epp-cbp-bottom epp-cbp-center ep",
+      "copre": "100%",
+      "testo": "Informativa sui cookie Continua senza accettare In questo sito utilizziamo cookie o tecnologie simili come specificato n"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@magnoberta.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.magnoberta.com/ita/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.magnoberta.com/ita/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.magnoberta.com/ita/contatti/"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 869,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 150,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 145,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://m.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Fpage.php%3Fadapt_container_width%3Dtrue%26app_id%3D215731708485886%26channel%3Dhtt"
+    }
+  ]
+}
