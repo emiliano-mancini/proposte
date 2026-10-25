@@ -1,0 +1,100 @@
+{
+  "slug": "morelli-prodotti",
+  "url": "https://www.distilleriamorelli.it/prodotti.aspx",
+  "misuratoIl": "2026-10-25T03:14:34.043Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1203,
+  "lcpMs": 1208,
+  "lcpElemento": "DIV https://www.distilleriamorelli.it/img/sfumaturastriscia.png",
+  "cls": 0,
+  "urlFinale": "https://www.distilleriamorelli.it/prodotti/MonteIngino/Monte+Ingino.aspx",
+  "titolo": "distilleriamorelli.it | Monte Ingino cl. 70 | distilleria | liquori | grappa | monte ingino | iguvium | gubbio",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 546,
+  "fcp": 857,
+  "domReady": 880,
+  "load": 1199,
+  "pesoKB": 424,
+  "richieste": 22,
+  "script": 7,
+  "serviziEsterni": [
+    "www.freeprivacypolicy.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.distilleriamorelli.it/img/monteingino_bordo.png",
+      "kb": 174
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/sfumaturastriscia.png",
+      "kb": 75
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/monteingino.png",
+      "kb": 11
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/iguvium.png",
+      "kb": 11
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/titololungo.png",
+      "kb": 10
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.distilleriamorelli.it/chi_siamo.aspx"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.distilleriamorelli.it/contatti.aspx"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": 1742,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 269,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 270,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.distilleriamorelli.it/prodotti/MonteIngino/Scripts/prototype.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.distilleriamorelli.it/prodotti/MonteIngino/Scripts/scriptaculous.js?load=effects,builder"
+    },
+    {
+      "status": 999,
+      "url": "https://www.distilleriamorelli.it/prodotti/MonteIngino/Scripts/lightbox.js"
+    }
+  ]
+}

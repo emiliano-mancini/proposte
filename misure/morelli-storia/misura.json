@@ -1,0 +1,87 @@
+{
+  "slug": "morelli-storia",
+  "url": "https://www.distilleriamorelli.it/la_storia.aspx",
+  "misuratoIl": "2026-10-25T03:14:22.430Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1304,
+  "lcpMs": 1185,
+  "lcpElemento": "DIV https://www.distilleriamorelli.it/img/sfumaturastriscia.png",
+  "cls": 0,
+  "urlFinale": "https://www.distilleriamorelli.it/la_storia.aspx",
+  "titolo": "distilleriamorelli.it | la storia | distilleria | liquori | grappa | monte ingino | iguvium | gubbio",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 403,
+  "fcp": 954,
+  "domReady": 953,
+  "load": 1303,
+  "pesoKB": 649,
+  "richieste": 15,
+  "script": 6,
+  "serviziEsterni": [
+    "www.freeprivacypolicy.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.distilleriamorelli.it/img/medagliere.png",
+      "kb": 196
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/locandine.png",
+      "kb": 184
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/sfumaturastriscia.png",
+      "kb": 75
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/sfondo2.png",
+      "kb": 1
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/sfondo1.png",
+      "kb": 1
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.distilleriamorelli.it/chi_siamo.aspx"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.distilleriamorelli.it/contatti.aspx"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": 527,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 130,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 130,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

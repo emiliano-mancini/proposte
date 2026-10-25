@@ -1,0 +1,89 @@
+{
+  "slug": "morelli-contatti",
+  "url": "https://www.distilleriamorelli.it/contatti.aspx",
+  "misuratoIl": "2026-10-25T03:14:57.792Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 941,
+  "lcpMs": 961,
+  "lcpElemento": "DIV https://www.distilleriamorelli.it/img/scrittacontatti.png",
+  "cls": 0,
+  "urlFinale": "https://www.distilleriamorelli.it/contatti.aspx",
+  "titolo": "distilleriamorelli.it | contatti | distilleria | liquori | grappa | monte ingino | iguvium | gubbio",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 403,
+  "fcp": 692,
+  "domReady": 695,
+  "load": 939,
+  "pesoKB": 269,
+  "richieste": 10,
+  "script": 4,
+  "serviziEsterni": [
+    "www.freeprivacypolicy.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.distilleriamorelli.it/img/scrittacontatti.png",
+      "kb": 85
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/sfumaturastriscia.png",
+      "kb": 75
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/sfondo2.png",
+      "kb": 1
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/sfondo1.png",
+      "kb": 1
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/WebResource.axd?d=P0R5YfF6kPKhlEXpvHp8SbqhrJD3CfPnGhqLhUd_8paynChBXCalBFPGPMbSxILxVRnzIrT50lX0cV3wHmleA6bywwhQeplyB__r95F31B01",
+      "kb": 0
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@distilleriamorelli.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.distilleriamorelli.it/chi_siamo.aspx"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.distilleriamorelli.it/contatti.aspx"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": 864,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 130,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 130,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

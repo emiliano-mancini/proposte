@@ -1,0 +1,100 @@
+{
+  "slug": "morelli-maso",
+  "url": "https://www.distilleriamorelli.it/prodotti/GrappaDelMaso/Grappa+Del+Maso+cl.+50.aspx",
+  "misuratoIl": "2026-10-25T03:14:52.040Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1041,
+  "lcpMs": 1046,
+  "lcpElemento": "DIV https://www.distilleriamorelli.it/img/sfumaturastriscia.png",
+  "cls": 0,
+  "urlFinale": "https://www.distilleriamorelli.it/prodotti/GrappaDelMaso/Grappa+Del+Maso+cl.+50.aspx",
+  "titolo": "distilleriamorelli.it | Grappa Del Maso cl. 50 | distilleria | liquori | grappa | monte ingino | iguvium | gubbio",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 406,
+  "fcp": 690,
+  "domReady": 763,
+  "load": 1038,
+  "pesoKB": 351,
+  "richieste": 22,
+  "script": 7,
+  "serviziEsterni": [
+    "www.freeprivacypolicy.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.distilleriamorelli.it/img/delmaso_bordo.png",
+      "kb": 100
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/sfumaturastriscia.png",
+      "kb": 75
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/monteingino.png",
+      "kb": 11
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/iguvium.png",
+      "kb": 11
+    },
+    {
+      "url": "https://www.distilleriamorelli.it/img/titololungo.png",
+      "kb": 10
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.distilleriamorelli.it/chi_siamo.aspx"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.distilleriamorelli.it/contatti.aspx"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": 920,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 144,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 144,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.distilleriamorelli.it/prodotti/GrappaDelMaso/Scripts/prototype.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.distilleriamorelli.it/prodotti/GrappaDelMaso/Scripts/scriptaculous.js?load=effects,builder"
+    },
+    {
+      "status": 999,
+      "url": "https://www.distilleriamorelli.it/prodotti/GrappaDelMaso/Scripts/lightbox.js"
+    }
+  ]
+}
