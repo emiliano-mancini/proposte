@@ -1,0 +1,80 @@
+{
+  "slug": "morelli-confronto",
+  "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/confronto/",
+  "misuratoIl": "2026-10-25T03:41:17.191Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 199,
+  "lcpMs": 220,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/distilleria-morelli/confronto/nuovo-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/confronto/",
+  "titolo": "Il sito di Distilleria Dante Morelli, oggi e domani",
+  "descrizione": "Confronto tra il sito attuale di Distilleria Dante Morelli e una proposta di restyling (bozza non ufficiale).",
+  "h1": [
+    "Il sito di Distilleria Dante Morelli, oggi e domani"
+  ],
+  "ttfb": 100,
+  "fcp": 168,
+  "domReady": 113,
+  "load": 196,
+  "pesoKB": 450,
+  "richieste": 9,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/confronto/nuovo-mobile.jpg",
+      "kb": 111
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/confronto/vecchio-mobile.jpg",
+      "kb": 104
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/confronto/problema-telefono.jpg",
+      "kb": 96
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/confronto/problema-acquista.jpg",
+      "kb": 58
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/confronto/problema-telefono-testo.jpg",
+      "kb": 26
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lmsoftique@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 82,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

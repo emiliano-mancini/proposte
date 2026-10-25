@@ -1,0 +1,87 @@
+{
+  "slug": "morelli-nuovo",
+  "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/",
+  "misuratoIl": "2026-10-25T03:41:13.141Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 569,
+  "lcpMs": 471,
+  "lcpElemento": "H1 ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/",
+  "titolo": "Distilleria Dante Morelli – Gubbio, dal 1894 · Monte Ingino, Iguvium, Grappa Del Maso",
+  "descrizione": "Premiata Distilleria Dante Morelli, Gubbio, dal 1894: liquore Monte Ingino con zafferano, Iguvium, Grappa Del Maso. Proposta di restyling, bozza non ufficiale.",
+  "h1": [
+    "Erbe, rame e zafferano."
+  ],
+  "ttfb": 119,
+  "fcp": 471,
+  "domReady": 506,
+  "load": 564,
+  "pesoKB": 264,
+  "richieste": 19,
+  "script": 5,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/img/medagliere.jpg",
+      "kb": 26
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/img/monte-ingino.webp",
+      "kb": 25
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/img/iguvium.webp",
+      "kb": 21
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/img/marchio-rosso.png",
+      "kb": 14
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/img/grappa-del-maso.webp",
+      "kb": 14
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@distilleriamorelli.it"
+  ],
+  "telefono": [
+    "+390759271862"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/distilleria-morelli/#contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 164,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 9,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
