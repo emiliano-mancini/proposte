@@ -1,0 +1,95 @@
+{
+  "slug": "cand-venezia",
+  "url": "https://www.hotelveneziadolomiti.com/",
+  "misuratoIl": "2026-10-26T02:54:22.699Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3425,
+  "lcpMs": 3416,
+  "lcpElemento": "DIV https://www.hotelveneziadolomiti.com/wp-content/uploads/2024/03/hotel-ext.avif",
+  "cls": 0.141,
+  "urlFinale": "https://www.hotelveneziadolomiti.com/",
+  "titolo": "Hotel nelle Dolomiti con ristorante e spa sport invernali e tanto relax - Hotel Venezia",
+  "descrizione": "camere da 1 a 5 letti bar tabacchi eventi congressi navetta per impianti Civetta noleggio auto hotel nelle Dolomiti con ristorante e spa",
+  "h1": [],
+  "ttfb": 1967,
+  "fcp": 2553,
+  "domReady": 3238,
+  "load": 3422,
+  "pesoKB": 3598,
+  "richieste": 52,
+  "script": 9,
+  "serviziEsterni": [
+    "www.google.com",
+    "fonts.gstatic.com",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.hotelveneziadolomiti.com/wp-content/uploads/2026/08/daria-yakovleva-cheese-1887233-2-1200x1691.jpg",
+      "kb": 275
+    },
+    {
+      "url": "https://www.hotelveneziadolomiti.com/wp-content/uploads/2026/08/husien_pro-coffee-10260378_1920-1200x1800.jpg",
+      "kb": 193
+    },
+    {
+      "url": "https://www.hotelveneziadolomiti.com/wp-content/uploads/2026/08/FOTO-272-copia-1200x800.jpg",
+      "kb": 179
+    },
+    {
+      "url": "https://www.hotelveneziadolomiti.com/wp-content/uploads/2026/08/FOTO-264-1200x800.jpg",
+      "kb": 157
+    },
+    {
+      "url": "https://www.hotelveneziadolomiti.com/wp-content/uploads/2026/08/FOTO-121-1200x800.jpg",
+      "kb": 157
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "booking@hotelveneziadolomiti.com"
+  ],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "CONTATTI",
+      "h": "https://www.hotelveneziadolomiti.com/contatti/"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://www.hotelveneziadolomiti.com/eventi/"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://www.hotelveneziadolomiti.com/eventi/"
+    }
+  ],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1536,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1107,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1097,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

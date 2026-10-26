@@ -1,0 +1,118 @@
+{
+  "slug": "cand-marinelli",
+  "url": "https://campanemarinelli.com/",
+  "misuratoIl": "2026-10-26T02:53:56.418Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2559,
+  "lcpMs": 1406,
+  "lcpElemento": "IMG https://campanemarinelli.com/wp-content/uploads/2024/02/photo1708436012-768x512.jpeg",
+  "cls": 0,
+  "urlFinale": "https://campanemarinelli.com/",
+  "titolo": "Campane Marinelli - Pontificia Fonderia di Campane",
+  "descrizione": "Campane Marinelli SNC è la più antica fonderia Italiana e fra le più antiche del mondo, specializzata nella costruzione di campane.",
+  "h1": [
+    "CAMPANE\nMARINELLI"
+  ],
+  "ttfb": 818,
+  "fcp": 1360,
+  "domReady": 1954,
+  "load": 2557,
+  "pesoKB": 2179,
+  "richieste": 28,
+  "script": 14,
+  "serviziEsterni": [
+    "cs.iubenda.com",
+    "use.typekit.net",
+    "cdn.iubenda.com",
+    "www.google.com",
+    "cdn.jsdelivr.net",
+    "idb.iubenda.com",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://campanemarinelli.com/wp-content/uploads/2024/02/photo1708436012.jpeg",
+      "kb": 1004
+    },
+    {
+      "url": "https://campanemarinelli.com/wp-content/uploads/2024/02/20230829_100441-1100x819.jpg",
+      "kb": 161
+    },
+    {
+      "url": "https://campanemarinelli.com/wp-content/uploads/2024/02/photo1708436012-768x512.jpeg",
+      "kb": 81
+    },
+    {
+      "url": "https://campanemarinelli.com/wp-content/uploads/2024/01/IMG_20220328_171456-830x620.jpg",
+      "kb": 73
+    },
+    {
+      "url": "https://campanemarinelli.com/wp-content/uploads/2023/10/Logotipo_Campane-Marinelli-1110x281.png",
+      "kb": 53
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Noi (campanemarinelli.com) e terze parti selezionate (1) raccogliamo informazioni personali come specificato nella priva"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://campanemarinelli.com/la-nostra-storia/"
+    },
+    {
+      "t": "VAI AI CONTATTI",
+      "h": "https://campanemarinelli.com/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://campanemarinelli.com/contatti/"
+    }
+  ],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 525,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 129,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 129,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://campanemarinelli.com/wp-content/uploads/2023/10/Fonderia-Marinelli-sito-verticale.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://campanemarinelli.com/wp-content/uploads/2023/10/Fonderia-Marinelli-sito-verticale.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6Le5ri8qAAAAANZVV62DMTDisZO9l65suTxnbMQ1"
+    }
+  ]
+}

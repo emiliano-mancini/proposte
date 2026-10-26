@@ -1,0 +1,169 @@
+{
+  "slug": "cand-teadolomiti",
+  "url": "https://www.teadolomiti.com/",
+  "misuratoIl": "2026-10-26T02:54:14.863Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5945,
+  "lcpMs": 2968,
+  "lcpElemento": "DIV https://resx.octorate.com/content/772615/1665053367348.jpg",
+  "cls": 0.043,
+  "urlFinale": "https://www.teadolomiti.com/",
+  "titolo": "Hotel TEA Dolomiti | Lago di Alleghe | Monte Civetta",
+  "descrizione": "Soggiorna all'Hotel TEA Dolomiti sul Lago di Alleghe. Camere confortevoli, colazione self-service e accoglienza pet-friendly. Prenota ora!",
+  "h1": [],
+  "ttfb": 552,
+  "fcp": 796,
+  "domReady": 1477,
+  "load": 5943,
+  "pesoKB": 5931,
+  "richieste": 104,
+  "script": 40,
+  "serviziEsterni": [
+    "static.cdn-website.com",
+    "s.ksrndkehqnwntyxlhgto.com",
+    "resx.octorate.com",
+    "dd-cdn.multiscreensite.com",
+    "app.sendapp.ai",
+    "static.tacdn.com",
+    "www.jscache.com",
+    "le-de.cdn-website.com",
+    "www.tripadvisor.it",
+    "de.cdn-website.com",
+    "process.iconnode.com",
+    "p.ksrndkehqnwntyxlhgto.com",
+    "www.googletagmanager.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "www.googleadservices.com",
+    "alleghe.panomax.com",
+    "scontent-fra3-2.cdninstagram.com",
+    "scontent-fra3-1.cdninstagram.com",
+    "scontent-fra5-1.cdninstagram.com",
+    "d3uzsv7k2lpopp.cloudfront.net",
+    "api.octorate.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com",
+    "rtc.eu-multiscreensite.com",
+    "book.octorate.com",
+    "unpkg.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://panodata40.panomax.com/cams/2052/2026/10/26/03-40-00_default.jpg",
+      "kb": 376
+    },
+    {
+      "url": "https://resx.octorate.com/content/772615/1665053367348.jpg",
+      "kb": 250
+    },
+    {
+      "url": "https://scontent-fra3-2.cdninstagram.com/v/t51.82787-15/605955232_17847813114620590_1179261385532898253_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18",
+      "kb": 219
+    },
+    {
+      "url": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/584053239_17842841148620590_3376031391512980646_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18",
+      "kb": 205
+    },
+    {
+      "url": "https://resx.octorate.com/content/772615/1703688127018.jpg",
+      "kb": 194
+    }
+  ],
+  "scorrimentoOrizzontale": true,
+  "sovrapposizioni": [
+    {
+      "id": "flex-sticky",
+      "copre": "100%",
+      "testo": ""
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Contatti / dove siamo",
+      "h": "https://www.teadolomiti.com/contact"
+    },
+    {
+      "t": "CONTATTACI",
+      "h": "https://www.teadolomiti.com/contact"
+    },
+    {
+      "t": "Contatti / dove siamo",
+      "h": "https://www.teadolomiti.com/contact"
+    },
+    {
+      "t": "Contatti / dove siamo",
+      "h": "https://www.teadolomiti.com/contact"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover",
+  "rispostaServer": [
+    {
+      "ms": 398,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 122,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 120,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=1780922305.1792983246&dt=Hotel%20TEA%20Dolomiti%20%7C%20Lago%20di%20Alleghe%20%7C%20Monte%20Civ"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=V42Sez68CKCbOT44j-IpoDBSr31QbU5e3g&auid=1780922305.1792983246&gtm=45E92e6al1v9102001055za204zd9102001055xeaxf4&fm"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/11042000018/?random=1792983246458&cv=11&fst=1792983246458&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45892e6al1v9180"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=0&auid=1780922305.1792983246&dt=Hotel%20TEA%20Dolomiti%20%7C%20Lago%20di%20Alleghe%20%7C%20Monte%20Civetta&t"
+    },
+    {
+      "status": 999,
+      "url": "https://www.teadolomiti.com/dnc17plhbz-db0b5e628a614508a4740bfde8930eba/as/p/c/11042000018/?random=1792983246486&cv=11&fst=1792983246486&fmt=3&bg=ffffff&guid=ON"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/pagead/1p-conversion/11042000018/?random=1700822668&cv=11&fst=1792983246486&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45892e6al1v9"
+    },
+    {
+      "status": 999,
+      "url": "https://www.teadolomiti.com/dnc17plhbz-db0b5e628a614508a4740bfde8930eba/ag/g/c?v=2&tid=G-122YGGMDV8&gtm=45g92e6al1v9101235964za20szb9102001055zd9102001055xf4&_p"
+    },
+    {
+      "status": 999,
+      "url": "https://rtc.eu-multiscreensite.com/performance/metrics"
+    },
+    {
+      "status": 999,
+      "url": "https://rtc.eu-multiscreensite.com/performance/metrics"
+    },
+    {
+      "status": 999,
+      "url": "https://rtc.eu-multiscreensite.com/feature/metrics"
+    }
+  ]
+}

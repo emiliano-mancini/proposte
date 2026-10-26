@@ -1,0 +1,103 @@
+{
+  "slug": "cand-albergodolomiti",
+  "url": "https://www.albergo-dolomiti.it/",
+  "misuratoIl": "2026-10-26T02:53:39.119Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 5662,
+  "lcpMs": 4697,
+  "lcpElemento": "DIV https://www.albergo-dolomiti.it/images/demo/Slide_2.JPG",
+  "cls": 0.005,
+  "urlFinale": "https://www.albergo-dolomiti.it/",
+  "titolo": "Albergo Dolomiti - val di Fiemme - Trentino - ITALY",
+  "descrizione": "Albergo Dolomiti, Hotel in Trentino sull'altopiano di Lavazè nel cuore della valle di Fiemme, ideale per una vacanza tranquilla e rilassante ai piedi delle Dolomiti del Latemar...",
+  "h1": [],
+  "ttfb": 838,
+  "fcp": 1882,
+  "domReady": 2208,
+  "load": 5660,
+  "pesoKB": 5353,
+  "richieste": 67,
+  "script": 26,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.albergo-dolomiti.it/images/demo/MTBike.jpg",
+      "kb": 1092
+    },
+    {
+      "url": "https://www.albergo-dolomiti.it/images/demo/Slide-1.jpg",
+      "kb": 469
+    },
+    {
+      "url": "https://www.albergo-dolomiti.it/images/demo/slide-7.jpg",
+      "kb": 375
+    },
+    {
+      "url": "https://www.albergo-dolomiti.it/images/demo/slide-3.jpg",
+      "kb": 366
+    },
+    {
+      "url": "https://www.albergo-dolomiti.it/images/demo/Slide_2.JPG",
+      "kb": 363
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@albergo-dolomiti.it"
+  ],
+  "telefono": [
+    "+39%200462%20341103"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatto",
+      "h": "https://www.albergo-dolomiti.it/index.php/modulo-di-contatto-albergodolomiti"
+    },
+    {
+      "t": "Contatto",
+      "h": "https://www.albergo-dolomiti.it/index.php/modulo-di-contatto-albergodolomiti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=2.0",
+  "rispostaServer": [
+    {
+      "ms": 808,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 273,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 235,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.albergo-dolomiti.it/index.php?error=404&itemId=99999"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-272T5FGZ83&gtm=45je6al1v9129839744za20oxf1&_p=1792983211449&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAI&are=1&cid"
+    }
+  ]
+}

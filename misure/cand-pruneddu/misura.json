@@ -1,0 +1,110 @@
+{
+  "slug": "cand-pruneddu",
+  "url": "https://pruneddu.com/torronificio-artigianale/",
+  "misuratoIl": "2026-10-26T02:53:47.996Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3883,
+  "lcpMs": 3739,
+  "lcpElemento": "DIV https://pruneddu.com/wp-content/uploads/2019/12/IMG_0188.jpg",
+  "cls": 0.003,
+  "urlFinale": "https://pruneddu.com/torronificio-artigianale/",
+  "titolo": "TORRONIFICIO ARTIGIANALE - Pruneddu",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 2353,
+  "fcp": 3077,
+  "domReady": 3486,
+  "load": 3881,
+  "pesoKB": 2015,
+  "richieste": 47,
+  "script": 16,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://pruneddu.com/wp-content/uploads/2019/12/IMG_0188.jpg",
+      "kb": 222
+    },
+    {
+      "url": "https://pruneddu.com/wp-content/uploads/2020/03/SLIDE_azienda_1.jpg",
+      "kb": 138
+    },
+    {
+      "url": "https://pruneddu.com/wp-content/uploads/2019/12/torronificio3-1280x854.jpg",
+      "kb": 122
+    },
+    {
+      "url": "https://pruneddu.com/wp-content/uploads/2019/12/torronificio4-1280x854.jpg",
+      "kb": 112
+    },
+    {
+      "url": "https://pruneddu.com/wp-content/uploads/2020/03/Lavorazione-Web-9-1280x853.jpg",
+      "kb": 101
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CONTATTI",
+      "h": "https://pruneddu.com/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pruneddu.com/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pruneddu.com/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://pruneddu.com/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://pruneddu.com/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://pruneddu.com/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0",
+  "rispostaServer": [
+    {
+      "ms": 1021,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 558,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 597,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5NRKY6JLKZ&gtm=45je6al1v9110636617za20oxf1&_p=1792983223480&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAI&are=1&cid"
+    }
+  ]
+}

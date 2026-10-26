@@ -1,0 +1,115 @@
+{
+  "slug": "cand-ban",
+  "url": "https://www.birrificioartigianalenapoletano.it/",
+  "misuratoIl": "2026-10-26T02:54:04.197Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3225,
+  "lcpMs": 3226,
+  "lcpElemento": "VIDEO https://www.birrificioartigianalenapoletano.it/wp-content/themes/nartigiana/dist/video/intro.webm",
+  "cls": 0.049,
+  "urlFinale": "https://www.birrificioartigianalenapoletano.it/",
+  "titolo": "Birrificio Artigianale Napoletano | Birra artigianale campana",
+  "descrizione": "Il Birrificio Artigianale Napoletano è il primo birrificio di Napoli con un impianto di produzione proprio. Scopri la gamma N'Artigiana e acquista birra artigianale online!",
+  "h1": [
+    "BIRRIFICIO ARTIGIANALE NAPOLETANO"
+  ],
+  "ttfb": 605,
+  "fcp": 1993,
+  "domReady": 2013,
+  "load": 3224,
+  "pesoKB": 1139,
+  "richieste": 32,
+  "script": 1,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "use.typekit.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.birrificioartigianalenapoletano.it/wp-content/uploads/2024/04/2.png",
+      "kb": 279
+    },
+    {
+      "url": "https://www.birrificioartigianalenapoletano.it/wp-content/uploads/2025/11/bannaer-natale-talefono.png",
+      "kb": 242
+    },
+    {
+      "url": "https://www.birrificioartigianalenapoletano.it/wp-content/themes/nartigiana/dist/img/logo.svg",
+      "kb": 31
+    },
+    {
+      "url": "https://www.birrificioartigianalenapoletano.it/wp-content/uploads/2021/10/hero-home.svg",
+      "kb": 14
+    },
+    {
+      "url": "https://www.birrificioartigianalenapoletano.it/wp-content/themes/nartigiana/dist/img/logo-bg.svg",
+      "kb": 2
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": {
+    "testo": "ACQUISTA ORA !",
+    "yPx": 1978,
+    "visibileSenzaScorrere": false
+  },
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@nartigiana.it"
+  ],
+  "telefono": [
+    " +390817529376"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://www.birrificioartigianalenapoletano.it/contatti/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.birrificioartigianalenapoletano.it/chi-siamo/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.birrificioartigianalenapoletano.it/contatti/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://www.birrificioartigianalenapoletano.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+  "rispostaServer": [
+    {
+      "ms": 746,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 135,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 134,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.birrificioartigianalenapoletano.it/wp-content/themes/nartigiana/dist/video/intro.mp4"
+    },
+    {
+      "status": 999,
+      "url": "https://www.birrificioartigianalenapoletano.it/wp-content/themes/nartigiana/dist/video/intro.webm"
+    }
+  ]
+}
