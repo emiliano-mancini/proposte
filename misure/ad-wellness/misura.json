@@ -1,0 +1,108 @@
+{
+  "slug": "ad-wellness",
+  "url": "https://www.albergo-dolomiti.it/index.php/hotel/wellness",
+  "misuratoIl": "2026-10-26T03:00:25.308Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3498,
+  "lcpMs": 1555,
+  "lcpElemento": "P ",
+  "cls": 0.112,
+  "urlFinale": "https://www.albergo-dolomiti.it/index.php/hotel/wellness",
+  "titolo": "Lascia alle spalle lo stress della vita di tutti i giorni nel nostro centro Wellness!",
+  "descrizione": "Albergo Dolomiti, Hotel in Trentino sull'altopiano di Lavazè nel cuore della valle di Fiemme, ideale per una vacanza tranquilla e rilassante ai piedi delle Dolomiti del Latemar...",
+  "h1": [
+    "Lascia alle spalle lo stress della vita di tutti i giorni nel nostro centro Wellness!"
+  ],
+  "ttfb": 574,
+  "fcp": 1410,
+  "domReady": 2102,
+  "load": 3497,
+  "pesoKB": 2168,
+  "richieste": 60,
+  "script": 29,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "www.googletagmanager.com",
+    "apis.google.com",
+    "platform.twitter.com",
+    "connect.facebook.net",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.albergo-dolomiti.it/images/k2/d81dde7813bd99a2f6a5498a2ec932ec.jpg",
+      "kb": 697
+    },
+    {
+      "url": "https://www.albergo-dolomiti.it/images/demo/Wellness5.jpg",
+      "kb": 109
+    },
+    {
+      "url": "https://www.albergo-dolomiti.it/images/logo3.png",
+      "kb": 104
+    },
+    {
+      "url": "https://www.albergo-dolomiti.it/images/demo/Wellness4.jpg",
+      "kb": 94
+    },
+    {
+      "url": "https://www.albergo-dolomiti.it/images/demo/wellness3.jpg",
+      "kb": 53
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@albergo-dolomiti.it"
+  ],
+  "telefono": [
+    "+39%200462%20341103"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatto",
+      "h": "https://www.albergo-dolomiti.it/index.php/modulo-di-contatto-albergodolomiti"
+    },
+    {
+      "t": "Contatto",
+      "h": "https://www.albergo-dolomiti.it/index.php/modulo-di-contatto-albergodolomiti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=2.0",
+  "rispostaServer": [
+    {
+      "ms": 612,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 265,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 311,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.albergo-dolomiti.it/index.php?error=404&itemId=99999"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-272T5FGZ83&gtm=45je6al1v9129839744za20oxf1&_p=1792983619562&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAI&are=1&cid"
+    }
+  ]
+}
