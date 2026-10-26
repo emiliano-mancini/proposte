@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Il sito di Albergo Dolomiti, oggi e domani</title>
+<meta name="theme-color" content="#1b1d16">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Cpath d=%22M2 28 12 8l6 10 4-6 8 16z%22 fill=%22%23c41926%22/%3E%3C/svg%3E">
+<link rel="preload" href="../fonts/gloock-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Gloock";src:url(../fonts/gloock-latin-400-normal.woff2) format("woff2");font-display:swap}
+@font-face{font-family:"Figtree";src:url(../fonts/figtree-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Figtree";src:url(../fonts/figtree-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+:root{--snow:#f3efe6;--snow2:#e9e3d6;--ink:#1d2018;--ink2:#4a4b3c;--night:#1b1d16;--larch:#7a5f1f;--gold:#c9a24e;--red:#c41926;--line:rgba(29,32,24,.16)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--snow);color:var(--ink);font:400 17px/1.6 "Figtree",system-ui,sans-serif;font-variant-numeric:lining-nums}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:"Gloock",Georgia,serif;font-weight:400;margin:0;line-height:1.05;text-wrap:balance}
+.wrap{max-width:1120px;margin:0 auto;padding:0 clamp(16px,4vw,48px)}
+.eyebrow{font:600 13px/1.3 "Figtree",sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--larch)}
+header{background:var(--night);color:var(--snow);padding:clamp(56px,8vw,96px) 0 clamp(40px,6vw,64px)}
+header .eyebrow{color:var(--gold)}
+header h1{font-size:clamp(40px,6.4vw,78px);margin:14px 0 18px}
+header p{max-width:40rem;color:rgba(243,239,230,.84);margin:0}
+.sec{padding:clamp(56px,8vw,96px) 0}
+.ba{position:relative;width:min(390px,100%);margin:0 auto;aspect-ratio:780/1688;overflow:hidden;border-radius:28px;box-shadow:0 30px 60px rgba(0,0,0,.25);touch-action:none;user-select:none;-webkit-user-select:none;background:#000}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .old{clip-path:inset(0 calc(100% - var(--p,50%)) 0 0)}
+.ba .bar{position:absolute;top:0;bottom:0;left:var(--p,50%);width:3px;margin-left:-1.5px;background:#fff}
+.ba .knob{position:absolute;top:50%;left:var(--p,50%);width:52px;height:52px;margin:-26px 0 0 -26px;border-radius:50%;background:#fff;color:var(--ink);display:grid;place-items:center;font:600 18px/1 sans-serif;box-shadow:0 4px 16px rgba(0,0,0,.3)}
+.ba .lab{position:absolute;top:14px;padding:5px 10px;border-radius:999px;background:rgba(27,29,22,.82);color:#fff;font-size:13px;font-weight:600}
+.ba .l{left:14px}.ba .r{right:14px}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.hint{text-align:center;color:var(--ink2);font-size:15px;margin-top:16px}
+.probs{display:grid;gap:clamp(40px,6vw,72px)}
+.prob{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,56px);align-items:center}
+.prob:nth-child(even) .shot{order:2}
+.prob .shot{border:1px solid var(--line);background:#fff}
+.prob h3{font-size:clamp(28px,3.4vw,40px);margin:10px 0 14px}
+.prob p{color:var(--ink2);margin:0 0 10px}
+.prob .n{font:400 56px/1 "Gloock",serif;color:var(--red)}
+.nums{background:var(--snow2)}
+.nums h2,.probs-h{font-size:clamp(34px,4.6vw,56px);margin:12px 0 30px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.num{background:var(--snow);padding:24px}
+.num small{display:block;font-size:14px;color:var(--ink2)}
+.num .v{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:10px 0 6px}
+.num .v s{color:var(--ink2);font-size:22px}
+.num .v b{font:400 44px/1 "Gloock",serif;color:var(--ink)}
+.num p{font-size:14.5px;color:var(--ink2);margin:0}
+.note{font-size:14px;color:var(--ink2);margin-top:18px}
+.cta{text-align:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:60px;padding:0 34px;border-radius:999px;background:var(--red);color:#fff;font:600 18px/1 "Figtree",sans-serif;text-decoration:none}
+.btn:hover{background:#9e121d}
+footer{background:var(--night);color:rgba(243,239,230,.8);padding:36px 0 44px;font-size:15px}
+footer a{color:#fff}
+@media (max-width:760px){.prob{grid-template-columns:1fr}.prob:nth-child(even) .shot{order:0}.grid3{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="eyebrow">Albergo Dolomiti · Passo di Lavazè</span>
+    <h1>Il sito di Albergo Dolomiti, oggi e domani</h1>
+    <p>A sinistra il sito di oggi, a destra la bozza della nuova homepage, entrambi come si vedono da telefono appena aperti. Trascina il cursore.</p>
+  </div>
+</header>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="ba" id="ba">
+      <img src="nuovo-mobile.jpg" width="780" height="1688" alt="Prima schermata da telefono della nuova homepage">
+      <img class="old" src="vecchio-mobile.jpg" width="780" height="1688" alt="Prima schermata da telefono del sito attuale">
+      <span class="bar" aria-hidden="true"></span><span class="knob" aria-hidden="true">⇆</span>
+      <span class="lab l">Oggi</span><span class="lab r">Domani</span>
+      <input type="range" min="0" max="100" value="50" aria-label="Sposta il confronto tra sito di oggi e nuova homepage">
+    </div>
+    <p class="hint">Trascina con il dito o con il mouse: a sinistra oggi, a destra domani.</p>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <span class="eyebrow">Cosa non funziona oggi</span>
+    <h2 class="probs-h">Tre problemi del sito attuale</h2>
+    <div class="probs">
+      <article class="prob">
+        <img class="shot" src="problema-contatti.jpg" width="696" height="900" alt="La pagina Contatto del sito attuale mostra la scritta: 500, An 500 error occured during your request" loading="lazy">
+        <div><span class="n">1</span><h3>La pagina «Contatto» non si apre</h3><p>Chi tocca «Contatto» nel menu trova solo un errore: «500 – An 500 error occured during your request.», in inglese, al posto della pagina dei contatti.</p></div>
+      </article>
+      <article class="prob">
+        <img class="shot" src="problema-listino.jpg" width="900" height="665" alt="Il listino del sito attuale: Prezzi Appartamenti INVERNO 2020/21" loading="lazy">
+        <div><span class="n">2</span><h3>Il listino è del 2020</h3><p>Il collegamento «Listino Prezzi», tra i collegamenti rapidi del sito, porta ai «Prezzi Appartamenti INVERNO 2020/21». Chi cerca le tariffe di questo inverno non le trova.</p></div>
+      </article>
+      <article class="prob">
+        <img class="shot" src="problema-cookie.jpg" width="900" height="709" alt="L'avviso sui cookie in inglese in fondo alla prima schermata del sito attuale" loading="lazy">
+        <div><span class="n">3</span><h3>Pagina pesante e avviso in inglese</h3><p>Da telefono la home scarica <b>5,2 MB</b> e l'immagine principale arriva dopo <b>3,8 s</b>; la prima cosa in basso è un avviso sui cookie in inglese: «We use cookies… I consent».</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec nums">
+  <div class="wrap">
+    <span class="eyebrow">Misurato da telefono</span>
+    <h2>Tre numeri, prima e dopo</h2>
+    <div class="grid3">
+      <div class="num"><small>Immagine principale visibile dopo</small><div class="v"><s>3,8 s</s><b>0,4 s</b></div><p>tempo di caricamento della parte più grande della prima schermata</p></div>
+      <div class="num"><small>Peso della homepage</small><div class="v"><s>5,2 MB</s><b>1,2 MB</b></div><p>dati scaricati dal telefono all'apertura</p></div>
+      <div class="num"><small>File richiesti</small><div class="v"><s>67</s><b>17</b></div><p>immagini, script e fogli di stile caricati</p></div>
+    </div>
+    <p class="note">Misure fatte il 26 ottobre 2026 con lo stesso strumento per i due siti (Chrome su un telefono simulato, prima visita senza cache).</p>
+  </div>
+</section>
+
+<section class="sec cta">
+  <div class="wrap">
+    <a class="btn" href="../">Guarda il sito nuovo</a>
+    <p class="hint">Meglio dal telefono. È una bozza non ufficiale, non pubblicata su Google.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Proposta preparata da LMSoftique · <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></div>
+</footer>
+<script>
+(function(){var b=document.getElementById('ba'),r=b.querySelector('input');function s(){b.style.setProperty('--p',r.value+'%')}r.addEventListener('input',s);
+function mv(e){var x=(e.touches?e.touches[0].clientX:e.clientX),q=b.getBoundingClientRect();r.value=Math.max(0,Math.min(100,(x-q.left)/q.width*100));s()}
+b.addEventListener('pointerdown',function(e){mv(e);b.setPointerCapture&&b.setPointerCapture(e.pointerId);b.onpointermove=mv});b.addEventListener('pointerup',function(){b.onpointermove=null});s()})();
+</script>
+</body>
+</html>
