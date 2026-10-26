@@ -7,6 +7,7 @@
 <title>Albergo Dolomiti – Passo di Lavazè, 1808 m · Val di Fiemme · famiglia Monsorno dal 1966</title>
 <meta name="description" content="Albergo e Appart-Hotel Dolomiti al Passo di Lavazè (1808 m), Varena, Val di Fiemme: camere, appartamenti, cucina trentina e wellness. Proposta di restyling, bozza non ufficiale.">
 <meta name="theme-color" content="#1b1d16">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Cpath d=%22M2 28 12 8l6 10 4-6 8 16z%22 fill=%22%23c41926%22/%3E%3C/svg%3E">
 <link rel="preload" href="fonts/gloock-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="img/hero.jpg" as="image" media="(min-width: 700px)">
@@ -30,13 +31,14 @@
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--snow);color:var(--ink);font:400 17px/1.62 var(--sans);overflow-x:hidden}
+body{font-variant-numeric:lining-nums;margin:0;background:var(--snow);color:var(--ink);font:400 17px/1.62 var(--sans);overflow-x:hidden}
 img{max-width:100%;height:auto;display:block}
 a{color:inherit}
+h1,h2,h3,b{font-variant-numeric:lining-nums}
 h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;line-height:1.02;letter-spacing:-.005em;text-wrap:balance}
 p{margin:0 0 1em}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
-.eyebrow{display:inline-block;font:600 12.5px/1.3 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--larch)}
+.eyebrow{display:inline-block;font:600 13px/1.3 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--larch)}
 .nw{white-space:nowrap}
 .skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:10px 14px;z-index:99}.skip:focus{left:8px;top:8px}
 .bozza{position:fixed;left:12px;bottom:12px;z-index:70;background:rgba(27,29,22,.88);color:var(--snow);font-size:11.5px;letter-spacing:.03em;padding:6px 11px;border-radius:999px}
@@ -46,95 +48,115 @@ p{margin:0 0 1em}
 .top .wrap{display:flex;align-items:center;gap:20px;height:72px}
 .brand{display:flex;flex-direction:column;text-decoration:none;margin-right:auto;line-height:1}
 .brand b{font:400 23px/1 var(--serif);letter-spacing:.01em}
+.stars{color:#e2434d;letter-spacing:.08em;margin-right:4px}
 .brand small{font:600 10.5px/1.2 var(--sans);letter-spacing:.24em;text-transform:uppercase;opacity:.85;margin-top:5px}
 .top .vng-spot{--vng-fg:currentColor;--vng-muted:currentColor;background:transparent;border-color:transparent}
 .top .vng-spot a{opacity:.86}
+.top:not(.on) .vng-spot::after{opacity:0}
+.top:not(.on) .vng-spot a.is-active{opacity:.86}
 .top .vng-spot a:hover,.top .vng-spot a.is-active{opacity:1}
 .tel{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid currentColor;text-decoration:none;font-weight:600;font-size:15px}
-.top.on .tel{background:var(--red);border-color:var(--red);color:#fff}
+.top .ask{background:var(--red);border-color:var(--red);color:#fff}
+@media (max-width:1180px){.top .ask{display:none}}
 /* bottoni */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 26px;border-radius:999px;font:600 16px/1 var(--sans);text-decoration:none}
 .btn-red{background:var(--red);color:#fff}.btn-red:hover{background:var(--red-d)}
 .btn-line{border:1px solid currentColor}
-.vng-hbtn{--vng-accent:var(--red);--vng-accent-fg:#fff;--vng-fg:#fff}
+.vng-hbtn{--vng-accent:#fff;--vng-accent-fg:var(--red);--vng-fg:#fff;background:var(--red);border-color:var(--red);min-height:50px;justify-content:center;font-size:16px}
 /* hero */
 .hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;color:var(--snow);overflow:hidden;background:var(--night)}
 .hero picture,.hero .bg{position:absolute;inset:0}
 .hero .bg img{width:100%;height:100%;object-fit:cover;object-position:60% 40%}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,20,14,.55) 0,rgba(18,20,14,0) 22%,rgba(18,20,14,0) 45%,rgba(18,20,14,.78) 100%)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,20,14,.5) 0,rgba(18,20,14,0) 20%,rgba(18,20,14,0) 34%,rgba(18,20,14,.82) 100%),linear-gradient(90deg,rgba(18,20,14,.55),rgba(18,20,14,0) 62%)}
 .hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:clamp(96px,11vh,120px)}
 .hero h1{font-size:clamp(50px,8.6vw,132px);max-width:11ch;margin:18px 0 22px}
-.hero h1 em{font-style:normal;color:var(--larch-l)}
+.hero h1 em{font-style:normal;color:#f2d79b}
+.hero h1,.hero .lead,.hero .eyebrow{text-shadow:0 2px 24px rgba(0,0,0,.35)}
 .hero .eyebrow{color:var(--snow);opacity:.92}
 .hero .lead{max-width:36rem;font-size:clamp(17px,1.5vw,20px);opacity:.94}
 .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
 .hero .btn-line{color:var(--snow)}
 .hero .meta{position:absolute;right:var(--pad);bottom:clamp(96px,11vh,120px);z-index:2;text-align:right;font:500 13px/1.5 var(--sans);letter-spacing:.14em;text-transform:uppercase;opacity:.86}
 /* sezioni */
-.sec{padding:clamp(80px,11vw,150px) 0}
+.sec{padding-block:clamp(80px,11vw,150px)}
 .h2{font-size:clamp(40px,5.8vw,84px)}
 .h2 em{font-style:normal;color:var(--larch)}
 .lead2{font-size:clamp(18px,1.6vw,21px);color:var(--ink2);max-width:40rem}
 /* benvenuti */
-.wel .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(36px,6vw,96px);align-items:end}
+.wel .grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(36px,6vw,96px);align-items:center}
 .wel .h2{margin:16px 0 28px}
+.sig{display:flex;align-items:center;gap:24px;margin-top:26px;flex-wrap:wrap}.sig img{width:150px;height:auto}
+.sig .firma{margin:0}
 .firma{font:400 26px/1.2 var(--serif);color:var(--ink);margin-top:22px}
 .firma small{display:block;font:500 13px/1.4 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin-top:6px}
+.casa{aspect-ratio:16/10;margin-bottom:28px}
 .facts{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-.facts li{display:grid;grid-template-columns:7.5rem 1fr;gap:16px;padding:18px 0;border-bottom:1px solid var(--line);align-items:baseline}
-.facts b{font:400 30px/1 var(--serif)}
-.facts span{color:var(--ink2)}
+.facts li{display:grid;grid-template-columns:8rem 1fr;gap:16px;padding:18px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.facts b{font:400 34px/1 var(--serif);white-space:nowrap}
+.facts b small{font-size:.55em}
+.facts span{color:var(--ink2);font-size:15.5px}
 /* firma 1808 */
 .quota{position:relative;color:var(--snow);background:var(--night);overflow:hidden}
 .quota .bg{position:absolute;inset:0}
 .quota .bg img{width:100%;height:100%;object-fit:cover;object-position:50% 45%}
-.quota::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,20,14,.82),rgba(18,20,14,.35) 60%,rgba(18,20,14,.2))}
-.quota .wrap{position:relative;z-index:2;padding-top:clamp(110px,16vw,220px);padding-bottom:clamp(90px,12vw,170px)}
-.big{display:block;font:400 clamp(120px,24vw,360px)/.82 var(--serif);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
-.big small{font-size:.22em;letter-spacing:0;margin-left:.15em;color:var(--larch-l)}
-.quota p{max-width:32rem;font-size:clamp(17px,1.5vw,20px);margin-top:28px}
-.quota .line{display:block;width:min(560px,80%);height:auto;margin-top:34px;opacity:.9}
+.quota::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(18,20,14,.75),rgba(18,20,14,.1) 60%)}
+.quota{min-height:clamp(300px,26vw,380px);display:flex;align-items:flex-end}
+.quota .wrap{position:relative;z-index:2;width:100%;padding-top:120px;padding-bottom:clamp(40px,6vw,80px);display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.qt{font-size:clamp(38px,5.4vw,80px);max-width:16ch;line-height:1.02}
+
+.quota p{max-width:32rem;font-size:clamp(17px,1.5vw,20px);margin:0 0 8px}
 /* camere */
-.cam .head{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,80px);align-items:end;margin-bottom:clamp(40px,6vw,80px)}
+.cam .head{display:grid;grid-template-columns:1.3fr .7fr;gap:clamp(30px,5vw,80px);align-items:end;margin-bottom:clamp(40px,6vw,80px)}
 .cam .head .h2{margin-top:14px}
-.cam .bento{display:grid;grid-template-columns:1.35fr 1fr;grid-template-rows:auto auto;gap:clamp(14px,2vw,24px)}
+.cam .bento{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,2vw,24px)}
 .ph{position:relative;overflow:hidden;margin:0;background:var(--snow2)}
 .ph img{width:100%;height:100%;object-fit:cover}
 .ph figcaption{position:absolute;left:14px;bottom:12px;background:rgba(27,29,22,.78);color:var(--snow);font-size:13px;padding:5px 10px;border-radius:4px}
-.cam .a{grid-row:span 2;aspect-ratio:auto;min-height:520px}
-.cam .b,.cam .c{aspect-ratio:1240/750}
+.cam .a{aspect-ratio:4/3}
+.cam .b,.cam .c{aspect-ratio:4/3}
+.cam .b img{object-position:50% 0}
 .tipi{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,4vw,64px);margin-top:clamp(40px,6vw,72px)}
-.tipi h3{font-size:clamp(28px,3vw,40px);margin-bottom:14px}
+.tipi h3{font-size:clamp(28px,3vw,40px);margin-bottom:14px;display:inline}
+.tipi summary{list-style:none;cursor:default;margin-bottom:12px}.tipi summary::-webkit-details-marker{display:none}
 .tipi ul{margin:0;padding:0;list-style:none}
 .tipi li{padding:10px 0;border-bottom:1px solid var(--line);color:var(--ink2)}
 .tipi li b{color:var(--ink);font-weight:600}
 .servizi{margin-top:clamp(36px,5vw,60px);padding-top:22px;border-top:1px solid var(--line);color:var(--ink2);font-size:15.5px}
-.servizi b{color:var(--ink);font-weight:600;margin-right:6px}
+.servizi b{display:block;color:var(--ink);font-weight:600;margin-bottom:12px}
+.chips{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:14.5px;color:var(--ink)}
 /* cucina */
 .cucina{background:var(--night);color:var(--snow)}
 .cucina .eyebrow{color:var(--larch-l)}
 .cucina .h2 em{color:var(--larch-l)}
-.cucina .wide{position:relative;height:clamp(320px,52vw,680px);overflow:hidden}
+.cucina .wide{position:relative;height:clamp(240px,34vw,500px);overflow:hidden}
 .cucina .wide img{width:100%;height:118%;object-fit:cover;object-position:50% 50%}
 .cucina .cols{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(30px,6vw,96px);padding-top:clamp(56px,8vw,110px)}
 .cucina .cols .h2{margin:14px 0 26px}
 .cucina p{color:rgba(243,239,230,.84)}
 .prod{list-style:none;margin:0;padding:0}
-.prod li{display:flex;justify-content:space-between;gap:14px;padding:13px 0;border-bottom:1px solid var(--line-n);font-size:16px}
-.prod li span{color:rgba(243,239,230,.66);text-align:right}
-.cucina .ph{margin-top:28px;aspect-ratio:960/450}
+.prod{display:grid;grid-template-columns:1fr 1fr;gap:18px 28px;margin-top:8px}
+.prod li{display:flex;flex-direction:column;font:400 22px/1.15 var(--serif)}
+.prod li span{font:400 14.5px/1.4 var(--sans);color:rgba(243,239,230,.78);margin-top:4px}
+.cucina .ph{margin-top:28px;aspect-ratio:auto;height:clamp(220px,22vw,300px)}
+.cucina .sala{aspect-ratio:auto}
+.cucina .sala img{object-position:42% 50%}
 /* wellness */
-.well .grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(30px,6vw,96px);align-items:start}
+.well .grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(30px,6vw,96px);align-items:center}
 .well .h2{margin:14px 0 24px}
 .ore{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin:26px 0}
 .ore div{background:var(--snow);padding:18px}
 .ore b{display:block;font:400 32px/1 var(--serif)}
 .ore span{font-size:14.5px;color:var(--ink2)}
-.well .stack{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,2vw,20px)}
-.well .stack .w1{grid-column:span 2;aspect-ratio:2000/750}
-.well .stack .w2{aspect-ratio:960/480}
+.well .stack{display:grid;grid-template-columns:1.55fr 1fr;gap:clamp(12px,2vw,20px)}
+.well .stack .w1{aspect-ratio:4/5}
+.well .stack .w2{aspect-ratio:auto;height:100%}
+.well .stack .w2 img{object-position:40% 50%}
 .well .stack .w3{aspect-ratio:960/480}
-.temp{list-style:none;padding:0;margin:0}
+.temps{display:grid;grid-template-columns:1fr 1fr;gap:20px 24px}
+.temps div:last-child{grid-column:1/-1}
+.temps b{display:block;font:400 clamp(24px,2.3vw,32px)/1.05 var(--serif);white-space:nowrap}
+.temps span{display:block;font-size:14.5px;color:var(--ink2);margin-top:6px}
 .temp li{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line)}
 .temp li span{color:var(--ink2);text-align:right}
 /* stagioni */
@@ -150,7 +172,7 @@ p{margin:0 0 1em}
 .giri li{display:grid;grid-template-columns:1fr auto;gap:4px 14px;padding:13px 0;border-top:1px solid var(--line)}
 .giri li b{font-weight:600}
 .giri li span{color:var(--ink2);font-size:15px}
-.giri li small{grid-column:1/-1;color:var(--ink2);font-size:14.5px}
+.giri li small{grid-column:1/-1;color:var(--ink2);font-size:15px}
 /* epoca */
 .epoca .head{display:flex;justify-content:space-between;align-items:end;gap:30px;flex-wrap:wrap;margin-bottom:clamp(30px,5vw,56px)}
 .epoca .head .h2{margin-top:14px}
@@ -167,13 +189,16 @@ p{margin:0 0 1em}
 .dove .h2 em{color:var(--larch-l)}
 .km{list-style:none;padding:0;margin:0}
 .km li{display:flex;justify-content:space-between;gap:14px;padding:14px 0;border-bottom:1px solid var(--line-n)}
-.km li b{font:400 28px/1 var(--serif);white-space:nowrap}
+.km li b{font:600 19px/1.2 var(--sans);white-space:nowrap}
 .card{border:1px solid var(--line-n);padding:clamp(22px,3vw,36px)}
 .card a{text-decoration:none}
 .card .r{display:block;padding:12px 0;border-bottom:1px solid var(--line-n)}
 .card .r small{display:block;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:rgba(243,239,230,.66)}
-.card .r b{font:400 26px/1.25 var(--serif);word-break:break-word}
+.card .r b{font:600 21px/1.3 var(--sans);word-break:break-word}
 .card .btn{margin-top:22px;width:100%}
+.card .fax{font-size:15px;color:rgba(243,239,230,.8)}
+.card .two{display:grid;gap:10px;margin-top:22px}.card .two .btn{margin-top:0}
+.btn-snow{background:var(--snow);color:var(--night)}
 footer{background:var(--night);color:rgba(243,239,230,.72);font-size:14px;padding:26px 0 110px;border-top:1px solid var(--line-n)}
 footer .wrap{display:flex;flex-wrap:wrap;gap:8px 30px;justify-content:space-between}
 /* dock mobile */
@@ -184,8 +209,6 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 30px;justify-content:space-betw
 @media (max-width:980px){
   .top .vng-spot{display:none}
   .wel .grid,.cam .head,.cucina .cols,.well .grid,.dove .grid{grid-template-columns:1fr}
-  .cam .bento{grid-template-columns:1fr 1fr}
-  .cam .a{grid-column:span 2;grid-row:auto;min-height:0;aspect-ratio:1240/750}
   .duo{grid-template-columns:1fr}
 }
 @media (max-width:699px){
@@ -194,24 +217,39 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 30px;justify-content:space-betw
   .brand b{font-size:21px}
   .tel{display:none}
   .hero .wrap{padding-bottom:104px}
-  .hero h1{font-size:clamp(48px,13.6vw,64px)}
+  .hero h1{font-size:clamp(36px,10.4vw,44px)}
+  .hero h1 em{white-space:nowrap}
+  .hero .bg{bottom:34%}
+  .hero .bg img{object-position:50% 0}
+  .hero::after{background:linear-gradient(180deg,rgba(18,20,14,.45) 0,rgba(18,20,14,0) 16%,rgba(18,20,14,0) 36%,rgba(27,29,22,.92) 62%,var(--night) 66%)}
+  .quota::after{background:linear-gradient(0deg,rgba(18,20,14,.85),rgba(18,20,14,.55) 55%,rgba(18,20,14,.1))}
   .hero .meta{display:none}
-  .hero .ctas .btn{flex:1 1 100%}
-  .facts li{grid-template-columns:6rem 1fr}
-  .cam .bento{grid-template-columns:1fr}
-  .cam .a,.cam .b,.cam .c{grid-column:auto}
+  .hide-s{display:none!important}
+  .facts li{grid-template-columns:6.4rem 1fr}
+  .facts b{font-size:25px}
+  .hero .ctas .vng-hbtn{flex:1 1 100%}
+  .cam .bento{display:grid;grid-template-columns:none;grid-template-rows:none;grid-auto-flow:column;grid-auto-columns:80%;overflow-x:auto;scroll-snap-type:x mandatory;margin-inline:calc(-1 * var(--pad));padding-inline:var(--pad);scroll-padding-inline:var(--pad);padding-bottom:6px}
+  .cam .a,.cam .b,.cam .c{grid-column:auto;grid-row:auto;aspect-ratio:4/3;min-height:0;scroll-snap-align:start}
+  .hero .ctas .vng-hbtn{flex:1 1 100%}
+  .hero .vng-hbtn__dot{display:none}
+  .tipi summary{border-bottom:1px solid var(--line);padding:6px 0 12px;display:flex;justify-content:space-between;align-items:center}
+  .tipi summary::after{content:"+";font-size:28px;line-height:1;color:var(--larch)}
+  .tipi details[open] summary::after{content:"−"}
   .tipi{grid-template-columns:1fr}
   .well .stack{grid-template-columns:1fr}
   .well .stack .w1{grid-column:auto}
+  .well .stack .w1{aspect-ratio:1165/750}
+  .well .stack .w2{aspect-ratio:960/480;height:auto}
   .ore b{font-size:27px}
   .strip{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:82%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}
   .strip figure{scroll-snap-align:start}
   .big{font-size:clamp(110px,33vw,150px)}
-  .bozza{left:auto;right:10px;bottom:76px;font-size:10.5px}
+  .bozza{left:10px;right:auto;bottom:74px;top:auto;font-size:10.5px;background:rgba(27,29,22,.8)}
+  .hero .eyebrow{font-size:11.5px;letter-spacing:.18em}
   .dock{display:grid;grid-template-columns:1fr 1fr 1fr;position:fixed;left:10px;right:10px;bottom:10px;z-index:60;background:var(--night);border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.28);overflow:hidden}
   .dock a{display:flex;align-items:center;justify-content:center;min-height:54px;color:var(--snow);text-decoration:none;font-weight:600;font-size:15px}
   .dock a+a{border-left:1px solid var(--line-n)}
-  .dock a:first-child{background:var(--red)}
+  .dock a:first-child::before{content:"";width:8px;height:8px;border-radius:50%;background:#e2434d;margin-right:9px}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 .shot .rv,.static .rv{opacity:1!important;transform:none!important}
@@ -229,11 +267,12 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
 
 <header class="top" id="top">
   <div class="wrap">
-    <a class="brand" href="#"><b>Albergo Dolomiti</b><small>Passo di Lavazè · 1808 m</small></a>
+    <a class="brand" href="#"><b>Albergo Dolomiti</b><small><span class="stars" aria-hidden="true">★★★</span> Passo di Lavazè · 1808 m</small></a>
     <nav class="vng-spot" data-vng-spot aria-label="Sezioni">
       <a href="#camere">Camere</a><a href="#cucina">Cucina</a><a href="#wellness">Wellness</a><a href="#stagioni">Estate e inverno</a><a href="#dove">Dove siamo</a>
     </nav>
     <a class="tel" href="tel:+390462341103">0462 341103</a>
+    <a class="tel ask" href="mailto:info@albergo-dolomiti.it?subject=Richiesta%20disponibilit%C3%A0">Chiedi la disponibilità</a>
   </div>
 </header>
 
@@ -241,17 +280,17 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
 <section class="hero" aria-labelledby="h1">
   <div class="bg">
     <picture>
-      <source media="(max-width: 699px)" srcset="img/hero-m.jpg" width="900" height="1400">
-      <img src="img/hero.jpg" width="2000" height="720" alt="Le Dolomiti del Latemar al tramonto viste dai pascoli del Passo di Lavazè" fetchpriority="high">
+      <source media="(max-width: 699px)" srcset="img/hero-m.jpg" width="720" height="900">
+      <img src="img/hero.jpg" width="2006" height="720" alt="Le Dolomiti del Latemar al tramonto viste dai pascoli del Passo di Lavazè" fetchpriority="high">
     </picture>
   </div>
   <div class="wrap">
-    <span class="eyebrow">Val di Fiemme · famiglia Monsorno, dal 1966</span>
-    <h1 id="h1">Al Passo di Lavazè, <em>sotto il Latemar.</em></h1>
+    <span class="eyebrow">Famiglia Monsorno · dal 1966</span>
+    <h1 id="h1">Al Passo di Lavazè,<br> <em>sotto il Latemar.</em></h1>
     <p class="lead">Camere, appartamenti, cucina trentina e un piccolo centro wellness a 1808 metri, tra la Val di Fiemme e la Val d'Ega. Aperto tutto l'anno.</p>
     <div class="ctas">
-      <a class="vng-hbtn" href="mailto:info@albergo-dolomiti.it?subject=Richiesta%20disponibilit%C3%A0"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Chiedi la disponibilità</span><span class="vng-hbtn__b" aria-hidden="true">Scrivici →</span></a>
-      <a class="btn btn-line" href="tel:+390462341103">Chiama 0462 341103</a>
+      <a class="vng-hbtn" href="mailto:info@albergo-dolomiti.it?subject=Richiesta%20disponibilit%C3%A0&amp;body=Buongiorno,%0D%0Avorremmo%20sapere%20se%20avete%20disponibilit%C3%A0.%0D%0A%0D%0AArrivo%3A%20%0D%0APartenza%3A%20%0D%0APersone%20(adulti%20e%20bambini)%3A%20%0D%0ACamera%20o%20appartamento%3A%20%0D%0A%0D%0AGrazie"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Chiedi la disponibilità</span><span class="vng-hbtn__b" aria-hidden="true">Scrivi l'email →</span></a>
+      <a class="btn btn-line hide-s" href="tel:+390462341103">Chiama 0462 341103</a>
     </div>
   </div>
   <p class="meta" aria-hidden="true">Varena (TN)<br>Trentino</p>
@@ -264,24 +303,24 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
       <h2 class="h2" id="h-wel">Albergatori <em>dal 1966.</em></h2>
       <p class="lead2">L'albergo è in posizione soleggiata, di fronte alle piste. D'estate la vista va alle Dolomiti del Latemar, che si specchiano nel lago del Lavazè; d'inverno le piste da sci sono proprio di fronte.</p>
       <p class="lead2">Il Latemar fa parte delle Dolomiti riconosciute dall'UNESCO nel 2009 Patrimonio dell'Umanità; di fronte, i monti del Lagorai chiudono la Val di Fiemme.</p>
-      <p class="firma">Milena, Michele e Lucia<small>famiglia Monsorno</small></p>
+      <div class="sig"><p class="firma">Milena, Michele e Lucia<small>famiglia Monsorno</small></p></div>
     </div>
+    <div class="side">
+    <figure class="ph casa rv"><img class="px" src="img/albergo.jpg" width="2006" height="720" alt="L'Albergo Dolomiti: la facciata in legno con i balconi fioriti e la terrazza" loading="lazy"><figcaption>L'albergo, al passo</figcaption></figure>
     <ul class="facts rv" aria-label="In breve">
-      <li><b>1808 m</b><span>la quota del Passo di Lavazè, tra Val di Fiemme e Val d'Ega</span></li>
-      <li><b>2</b><span>skilift sul passo, vicino agli impianti del Cermis e di Obereggen</span></li>
-      <li><b>Aperto</b><span>tutto l'anno, e attrezzato per gli ospiti con disabilità</span></li>
-      <li><b>60+</b><span>anni al servizio dei nostri ospiti</span></li>
+      <li><b><span data-vng-count="1808">1808</span><small> m</small></b><span>la quota del Passo di Lavazè, tra Val di Fiemme e Val d'Ega</span></li>
+      <li><b>200<small> km</small></b><span>e più di itinerari in mountain bike in Val di Fiemme; noleggio ed e-bike in albergo</span></li>
+      <li><b>30<small> km</small></b><span>o meno da Bolzano, 70 km da Trento</span></li>
     </ul>
+    </div>
   </div>
 </section>
 
 <section class="quota" aria-labelledby="h-quota">
-  <div class="bg"><img class="px" src="img/panorama-latemar.jpg" width="2000" height="720" alt="Il Latemar e i pascoli del Lavazè in estate" loading="lazy"></div>
+  <div class="bg"><img class="px" src="img/lago.jpg" width="2000" height="720" alt="Il laghetto del Lavazè con la spiaggetta, la baita e il Latemar sullo sfondo" loading="lazy"></div>
   <div class="wrap">
-    <span class="eyebrow" style="color:var(--larch-l)">Passo di Lavazè</span>
-    <h2 id="h-quota" class="big"><span data-vng-count="1808" data-decimals="0">1808</span><small>m</small></h2>
-    <p>Metri sul livello del mare. Un altopiano di pascoli e boschi tra due valli, con il centro fondo di Lavazè d'inverno e i sentieri verso il Latemar d'estate.</p>
-    <svg class="line" viewBox="0 0 560 60" aria-hidden="true"><path d="M0 52 L70 40 L120 46 L170 22 L205 30 L250 8 L290 26 L330 18 L380 36 L430 28 L480 44 L560 38" fill="none" stroke="#c9a24e" stroke-width="2"/><circle cx="250" cy="8" r="4" fill="#c9a24e"/></svg>
+    <h2 id="h-quota" class="qt">Il Latemar si specchia nel lago del Lavazè.</h2>
+    <p>D'estate, è la vista dall'albergo.</p>
   </div>
 </section>
 
@@ -290,7 +329,7 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
     <div class="head">
       <div class="rv">
         <span class="eyebrow">Camere e appartamenti</span>
-        <h2 class="h2" id="h-cam">Abete della Val di Fiemme, <em>balcone sul Latemar.</em></h2>
+        <h2 class="h2" id="h-cam">Abete della Val di Fiemme, balcone sul Latemar.</h2>
       </div>
       <p class="lead2 rv">Camere classic e superior arredate in stile montano con il pregiato abete della valle, da 1 a 4 persone. Molte hanno il balcone: a nord verso il Latemar, a sud verso la Val di Fiemme e il Lagorai.</p>
     </div>
@@ -300,8 +339,8 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
       <figure class="ph c rv"><img src="img/appartamento.jpg" width="1240" height="750" alt="Appartamento con camera matrimoniale e letti singoli" loading="lazy"><figcaption>Appartamento</figcaption></figure>
     </div>
     <div class="tipi">
-      <div class="rv">
-        <h3>Le camere</h3>
+      <details class="rv" open>
+        <summary><h3>Le camere</h3></summary>
         <ul>
           <li><b>Classic e superior</b>, con metrature diverse e camere più ampie</li>
           <li><b>Bagno privato</b> con vasca o doccia, asciugacapelli</li>
@@ -309,9 +348,9 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
           <li><b>Piumini</b> estivi e piumoni invernali; letti aggiunti per i bambini su richiesta</li>
           <li><b>Camere per ospiti con disabilità</b></li>
         </ul>
-      </div>
-      <div class="rv">
-        <h3>Gli appartamenti</h3>
+      </details>
+      <details class="rv" open>
+        <summary><h3>Gli appartamenti</h3></summary>
         <ul>
           <li><b>Bilocali</b> da 2 a 4 persone, <b>trilocali</b> da 4 a 6</li>
           <li><b>Angolo cottura</b> con microonde, lavastoviglie, frigo con freezer e piastra a induzione</li>
@@ -319,14 +358,13 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
           <li><b>Uno o più bagni</b> con doccia, asciugacapelli e set di cortesia</li>
           <li><b>Spesa a domicilio</b>, su richiesta</li>
         </ul>
-      </div>
+      </details>
     </div>
-    <p class="servizi rv"><b>In albergo:</b> ristorante e bar, sala TV e sala lettura, terrazza soleggiata e giardino, ascensore, palestra, deposito sci e bici, lavaggio bici, uso lavatrice, culla, parcheggio privato, fermata diretta dello SkiBus. Animali ammessi.</p>
+    <div class="servizi rv"><b>In albergo</b><ul class="chips"><li>Ristorante e bar</li><li>Terrazza soleggiata e giardino</li><li>Deposito e lavaggio sci e bici</li><li>Palestra</li><li>Parcheggio privato</li><li>Fermata SkiBus</li><li>Animali ammessi</li><li>e altro: ascensore, sala TV e lettura, lavatrice, culla</li></ul></div>
   </div>
 </section>
 
 <section class="cucina" id="cucina" aria-labelledby="h-cuc">
-  <div class="wide"><img class="pxw" src="img/sala.jpg" width="2000" height="720" alt="La sala del ristorante con le tavole apparecchiate e la stufa in maiolica verde" loading="lazy"></div>
   <div class="wrap cols sec" style="padding-top:clamp(56px,8vw,110px)">
     <div class="rv">
       <span class="eyebrow">Il ristorante</span>
@@ -346,6 +384,7 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
         <li>Birra di Fiemme <span>della valle</span></li>
         <li>Vini <span>della Val di Cembra</span></li>
       </ul>
+      <figure class="ph sala"><img src="img/sala.jpg" width="2000" height="720" alt="La sala del ristorante con le tavole apparecchiate e la stufa in maiolica verde" loading="lazy"><figcaption>La sala</figcaption></figure>
     </div>
   </div>
 </section>
@@ -354,24 +393,21 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
   <div class="wrap grid">
     <div class="rv">
       <span class="eyebrow">Wellness</span>
-      <h2 class="h2" id="h-well">Dopo il fondo, <em>il caldo.</em></h2>
+      <h2 class="h2" id="h-well">Dopo il fondo, il caldo.</h2>
       <p class="lead2">Un piccolo centro benessere, raccolto, per chiudere la giornata in montagna.</p>
       <div class="ore">
-        <div><b>17–19</b><span>libero per tutti gli ospiti, ogni giorno</span></div>
-        <div><b>14–17</b><span>riservabile in esclusiva, con un piccolo supplemento</span></div>
+        <div><b>17–19</b><span>dalle 17 alle 19, libero per tutti gli ospiti, ogni giorno</span></div>
+        <div><b>14–17</b><span>dalle 14 alle 17, riservabile in esclusiva con un piccolo supplemento</span></div>
       </div>
-      <ul class="temp">
-        <li>Sauna finlandese <span>80–100 °C</span></li>
-        <li>Idromassaggio <span>37–38 °C</span></li>
-        <li>Percorso Kneipp <span>acqua calda e fredda</span></li>
-        <li>Doccia cervicale <span>prima e dopo la sauna</span></li>
-        <li>Sala relax <span>sdraio e musica</span></li>
-      </ul>
+      <div class="temps">
+        <div><b>80–100 °C</b><span>sauna finlandese</span></div>
+        <div><b>37–38 °C</b><span>idromassaggio</span></div>
+        <div><b>Kneipp</b><span>percorso caldo e freddo, doccia cervicale, sala relax</span></div>
+      </div>
     </div>
     <div class="stack">
-      <figure class="ph w1 rv"><img class="px" src="img/wellness.jpg" width="2000" height="750" alt="Il percorso Kneipp con la colonna e la parete dipinta con un lago di montagna" loading="lazy"></figure>
+      <figure class="ph w1 rv"><img class="px" src="img/wellness.jpg" width="1165" height="750" alt="Il percorso Kneipp con la colonna e la parete dipinta con un lago di montagna" loading="lazy"></figure>
       <figure class="ph w2 rv"><img src="img/relax.jpg" width="960" height="480" alt="La sala relax con due sdraio bianche e pareti in legno" loading="lazy"></figure>
-      <figure class="ph w3 rv"><img src="img/idromassaggio.jpg" width="960" height="440" alt="La vasca idromassaggio" loading="lazy"></figure>
     </div>
   </div>
 </section>
@@ -380,7 +416,7 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
   <div class="wrap">
     <div class="head rv">
       <span class="eyebrow">Estate e inverno</span>
-      <h2 class="h2" id="h-stag">Due stagioni, <em>un solo passo.</em></h2>
+      <h2 class="h2" id="h-stag">Due stagioni, un solo passo.</h2>
     </div>
     <div class="duo">
       <article class="season rv">
@@ -416,7 +452,7 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
 <section class="sec epoca" aria-labelledby="h-epo">
   <div class="wrap">
     <div class="head">
-      <div class="rv"><span class="eyebrow">Com'era</span><h2 class="h2" id="h-epo">Il Lavazè <em>d'epoca.</em></h2></div>
+      <div class="rv"><span class="eyebrow">Com'era</span><h2 class="h2" id="h-epo">Il Lavazè d'epoca.</h2></div>
       <p class="rv">Lo stesso altopiano e lo stesso Latemar, in tre foto d'epoca del passo.</p>
     </div>
     <div class="strip">
@@ -431,10 +467,10 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
   <div class="wrap grid">
     <div class="rv">
       <span class="eyebrow">Dove siamo</span>
-      <h2 class="h2" id="h-dove">Passo di Lavazè 1, <em>Varena.</em></h2>
+      <h2 class="h2" id="h-dove">Passo di Lavazè 1, Varena</h2>
       <p style="color:rgba(243,239,230,.84);max-width:34rem">In Trentino, tra la Val di Fiemme e la Val d'Ega, vicino a Cavalese. Ampi parcheggi al passo.</p>
       <ul class="km">
-        <li>Bolzano <b>&lt; 30 km</b></li>
+        <li>Bolzano <b>meno di 30 km</b></li>
         <li>Uscita A22 Bolzano Nord <b>25 km</b></li>
         <li>Uscita A22 Ora/Egna <b>35 km</b></li>
         <li>Trento <b>70 km</b></li>
@@ -442,10 +478,9 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
     </div>
     <div class="card rv">
       <a class="r" href="tel:+390462341103"><small>Telefono</small><b>+39 0462 341103</b></a>
-      <span class="r"><small>Fax</small><b>+39 0462 341137</b></span>
       <a class="r" href="mailto:info@albergo-dolomiti.it"><small>Email</small><b>info@albergo-dolomiti.it</b></a>
       <span class="r"><small>Indirizzo</small><b>Passo di Lavazè 1 · 38030 Varena (TN)</b></span>
-      <a class="btn btn-red" href="https://www.google.com/maps/search/?api=1&amp;query=Albergo+Dolomiti+Passo+di+Lavaz%C3%A8+Varena" rel="noopener" target="_blank">Apri le indicazioni</a>
+      <div class="two"><a class="btn btn-red" href="mailto:info@albergo-dolomiti.it?subject=Richiesta%20disponibilit%C3%A0&amp;body=Buongiorno,%0D%0Avorremmo%20sapere%20se%20avete%20disponibilit%C3%A0.%0D%0A%0D%0AArrivo%3A%20%0D%0APartenza%3A%20%0D%0APersone%20(adulti%20e%20bambini)%3A%20%0D%0ACamera%20o%20appartamento%3A%20%0D%0A%0D%0AGrazie">Chiedi la disponibilità</a><a class="btn btn-snow" href="https://www.google.com/maps/search/?api=1&amp;query=Albergo+Dolomiti+Passo+di+Lavaz%C3%A8+Varena" rel="noopener" target="_blank">Indicazioni</a></div>
     </div>
   </div>
 </section>
@@ -453,14 +488,14 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
 
 <footer>
   <div class="wrap">
-    <span>Albergo Dolomiti · Passo di Lavazè 1 · 38030 Varena (TN) · P.Iva 01307950228</span>
+    <span>Albergo Dolomiti · Passo di Lavazè 1 · 38030 Varena (TN) · fax +39 0462 341137 · P.Iva 01307950228</span>
     <span>Proposta di restyling non ufficiale. Testi e foto: <a href="https://www.albergo-dolomiti.it/" rel="nofollow">albergo-dolomiti.it</a></span>
   </div>
 </footer>
 
 <nav class="dock" aria-label="Contatti rapidi">
   <a href="tel:+390462341103">Chiama</a>
-  <a href="mailto:info@albergo-dolomiti.it?subject=Richiesta%20disponibilit%C3%A0">Scrivici</a>
+  <a href="mailto:info@albergo-dolomiti.it?subject=Richiesta%20disponibilit%C3%A0&amp;body=Buongiorno,%0D%0Avorremmo%20sapere%20se%20avete%20disponibilit%C3%A0.%0D%0A%0D%0AArrivo%3A%20%0D%0APartenza%3A%20%0D%0APersone%20(adulti%20e%20bambini)%3A%20%0D%0ACamera%20o%20appartamento%3A%20%0D%0A%0D%0AGrazie">Disponibilità</a>
   <a href="https://www.google.com/maps/search/?api=1&amp;query=Albergo+Dolomiti+Passo+di+Lavaz%C3%A8+Varena" rel="noopener" target="_blank">Indicazioni</a>
 </nav>
 
@@ -471,6 +506,7 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
 <script src="../vendor/lenis.min.js" defer></script>
 <script>
 window.addEventListener('DOMContentLoaded',function(){
+  if(innerWidth<700&&!document.documentElement.classList.contains('shot')){document.querySelectorAll('.tipi details').forEach(function(d){d.removeAttribute('open')});document.querySelectorAll('.tipi summary').forEach(function(x){x.style.cursor='pointer'})}
   var top=document.getElementById('top');
   function hd(){top.classList.toggle('on',scrollY>40)}hd();addEventListener('scroll',hd,{passive:true});
   var still=document.documentElement.classList.contains('shot')||document.documentElement.classList.contains('static');
@@ -484,11 +520,9 @@ window.addEventListener('DOMContentLoaded',function(){
   gsap.to('.hero .bg',{yPercent:12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
   gsap.utils.toArray('.rv').forEach(function(el){gsap.to(el,{opacity:1,y:0,duration:1,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%',once:true}})});
   gsap.utils.toArray('.px').forEach(function(im){gsap.fromTo(im,{scale:1.1,yPercent:-4},{scale:1.1,yPercent:4,ease:'none',scrollTrigger:{trigger:im.closest('section,figure'),start:'top bottom',end:'bottom top',scrub:1}})});
-  gsap.fromTo('.pxw',{yPercent:-12},{yPercent:0,ease:'none',scrollTrigger:{trigger:'.cucina .wide',start:'top bottom',end:'bottom top',scrub:1}});
-  gsap.from('.quota .line path',{strokeDasharray:900,strokeDashoffset:900,ease:'none',scrollTrigger:{trigger:'.quota',start:'top 70%',end:'center center',scrub:1}});
+    if(window.SplitText){var q=new SplitText('.qt',{type:'words'});gsap.from(q.words,{yPercent:60,opacity:0.01,duration:1,ease:'expo.out',stagger:.05,scrollTrigger:{trigger:'.quota',start:'top 70%',once:true}})}
   addEventListener('load',function(){ScrollTrigger.refresh()});
 });
 </script>
-<!-- foto da scaricare (slide del sito attuale): img/01bb6c016254.jpg img/cb2f4f90c19d.jpg img/e73e6cacd0c1.jpg img/69f462b1fc64.jpg img/3730cdcf3084.jpg img/d6e612b899ac.jpg img/d16c23c5e0d1.jpg img/b127b3509b47.jpg -->
 </body>
 </html>
