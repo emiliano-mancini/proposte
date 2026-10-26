@@ -1,0 +1,82 @@
+{
+  "slug": "ad-nuovo",
+  "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/",
+  "misuratoIl": "2026-10-26T03:22:02.893Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 365,
+  "lcpMs": 383,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/albergo-dolomiti/img/hero-m.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/",
+  "titolo": "Albergo Dolomiti – Passo di Lavazè, 1808 m · Val di Fiemme · famiglia Monsorno dal 1966",
+  "descrizione": "Albergo e Appart-Hotel Dolomiti al Passo di Lavazè (1808 m), Varena, Val di Fiemme: camere, appartamenti, cucina trentina e wellness. Proposta di restyling, bozza non ufficiale.",
+  "h1": [
+    "Al Passo di Lavazè,\nsotto il Latemar."
+  ],
+  "ttfb": 54,
+  "fcp": 383,
+  "domReady": 318,
+  "load": 361,
+  "pesoKB": 1209,
+  "richieste": 17,
+  "script": 5,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/img/albergo.jpg",
+      "kb": 312
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/img/lago.jpg",
+      "kb": 270
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/img/appartamento.jpg",
+      "kb": 141
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/img/camera-mansarda.jpg",
+      "kb": 117
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/img/hero-m.jpg",
+      "kb": 116
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [
+    "info@albergo-dolomiti.it"
+  ],
+  "telefono": [
+    "+390462341103"
+  ],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 84,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 7,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 8,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
