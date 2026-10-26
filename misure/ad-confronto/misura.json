@@ -1,0 +1,80 @@
+{
+  "slug": "ad-confronto",
+  "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/confronto/",
+  "misuratoIl": "2026-10-26T03:27:36.275Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 340,
+  "lcpMs": 371,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/albergo-dolomiti/confronto/nuovo-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/confronto/",
+  "titolo": "Il sito di Albergo Dolomiti, oggi e domani",
+  "descrizione": null,
+  "h1": [
+    "Il sito di Albergo Dolomiti, oggi e domani"
+  ],
+  "ttfb": 102,
+  "fcp": 231,
+  "domReady": 115,
+  "load": 337,
+  "pesoKB": 556,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/confronto/vecchio-mobile.jpg",
+      "kb": 177
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/confronto/nuovo-mobile.jpg",
+      "kb": 147
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/confronto/problema-cookie.jpg",
+      "kb": 102
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/confronto/problema-listino.jpg",
+      "kb": 47
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/albergo-dolomiti/confronto/problema-contatti.jpg",
+      "kb": 30
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lmsoftique@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 40,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 7,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 10,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
