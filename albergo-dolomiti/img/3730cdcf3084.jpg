@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html class="com_content j4" lang="it-it">
+<head>
+					<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
+	
+	<meta charset="utf-8">
+	<meta name="rights" content="Albergo Dolomiti">
+	<meta name="description" content="Albergo Dolomiti, Hotel in Trentino sull'altopiano di Lavazè nel cuore della valle di Fiemme, ideale per una vacanza tranquilla e rilassante ai piedi delle Dolomiti del Latemar...">
+	<meta name="generator" content="Joomla! - Open Source Content Management">
+	<title>An 500 error occured during your request.</title>
+	<link href="/index.php?error=500&amp;itemId=99999&amp;format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="Albergo Dolomiti - val di Fiemme - Trentino - ITALY">
+	<link href="/index.php?error=500&amp;itemId=99999&amp;format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Albergo Dolomiti - val di Fiemme - Trentino - ITALY">
+	<link href="https://www.albergo-dolomiti.it/images/fav_icon.jpg" rel="icon" type="image/vnd.microsoft.icon">
+<link href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/k2.css" rel="stylesheet">
+	<link href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/font-awesome.css" rel="stylesheet">
+	<link href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/normalize.css" rel="stylesheet">
+	<link href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/system/system.css" rel="stylesheet">
+	<link href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/fontawesome5.css" rel="stylesheet">
+	<link href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/legacy.css" rel="stylesheet">
+	<link href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/legacy4.css" rel="stylesheet">
+	<link href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/template.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<style>
+                .childcontent { padding: 16px; }
+                .childcontent .gkcol { width: 200px; }
+            </style>
+	<style>body,
+button,
+.button,
+select,
+textarea,
+input[type="submit"],
+input[type="button"],
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="email"],
+cite small,
+blockquote > cite,
+#gkHeaderNav .gkMainMenu .gkmenu > li div.childcontent li,
+h3.roomtype_name > .label,
+.ui-widget,
+.breakdown,
+#gkHeaderSidebar .box .header > small,
+label.error { font-family: 'Open Sans', Arial, sans-serif; }
+</style>
+	<style>h1,h2,h3,h4,h5,h6,
+select,
+#gkLogo,
+.box.big-title .header,
+cite,
+.gkIsWrapper-gk_hotel_tabs figcaption h2,
+.gkIsWrapper-gk_hotel_tabs figcaption small,
+blockquote,
+.blog-page .header .item-title,
+ol.item-list li,
+.profile fieldset legend, .profile-edit fieldset legend,
+.min_tariff, .normal_tariff,
+#gkHeaderSidebar .box .header,
+#sr-checkavailability-form .datefield,
+.button-row,
+#acymodifyform legend,
+#cc-modal #cc-modal-wrapper h2, #cc-settingsmodal-wrapper h2 { font-family: 'PT Serif', Arial, sans-serif; }
+</style>
+	<style>.gkMainMenu,
+.box .header,
+.gkTab,
+.gkIsWrapper-gk_hotel_tabs figcaption .readon,
+.itemSubheader h3,
+.item-desc,
+.blog-page .item-view .cat-item-date,
+.blog-page .item-view .cat-item-author,
+.user-page .item-author-details .item-desc,
+#gkFooterNav h3,
+.box.offers .nspHeader,
+.box.category-layout .nspHeader,
+.latest-page h2,
+.latest-page h3 { font-family: 'Montserrat', Arial, sans-serif; }
+</style>
+	<style>.blank { font-family: Arial, Helvetica, sans-serif; }
+</style>
+	<style>@media screen and (max-width: 780px) {
+	    	#k2Container .itemsContainer { width: 100%!important; } 
+	    	.cols-2 .column-1,
+	    	.cols-2 .column-2,
+	    	.cols-3 .column-1,
+	    	.cols-3 .column-2,
+	    	.cols-3 .column-3,
+	    	.demo-typo-col2,
+	    	.demo-typo-col3,
+	    	.demo-typo-col4 {width: 100%; }
+	    	}</style>
+	<style>#gkHeaderSidebar { width: 30%; }
+</style>
+	<style>#gkSidebar { width: 30%; }
+</style>
+	<style>#gkContent { width: 70%; }
+</style>
+	<style>#gkContentWrap { width: 100%; }
+</style>
+	<style>.gkPage, #gkHeaderNav .gkPage, #gkMainbody .content { max-width: 1260px; }
+</style>
+	<style>#menu1138 > div,
+#menu1138 > div > .childcontent-inner { width: 200px; }
+</style>
+	<style>#menu1139 > div,
+#menu1139 > div > .childcontent-inner { width: 200px; }
+</style>
+	<style>#menu1140 > div,
+#menu1140 > div > .childcontent-inner { width: 200px; }
+</style>
+	<style>#menu1151 > div,
+#menu1151 > div > .childcontent-inner { width: 200px; }
+</style>
+	<style>#menu1688 > div,
+#menu1688 > div > .childcontent-inner { width: 200px; }
+</style>
+<script type="application/json" class="joomla-script-options new">{"system.paths":{"root":"","rootFull":"https:\/\/www.albergo-dolomiti.it\/","base":"","baseFull":"https:\/\/www.albergo-dolomiti.it\/"},"csrf.token":"7b21980839cdc5d2db908b2b2d09fbef"}</script>
+	<script src="/media/system/js/core.min.js?a3d8f8"></script>
+	<script src="/media/vendor/webcomponentsjs/js/webcomponents-bundle.min.js?2.8.0" nomodule defer></script>
+	<script src="/media/vendor/jquery/js/jquery.min.js?3.7.1"></script>
+	<script src="/media/legacy/js/jquery-noconflict.min.js?504da4"></script>
+	<script src="/media/vendor/bootstrap/js/alert.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/button.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/carousel.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/collapse.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/dropdown.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/modal.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/offcanvas.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/popover.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/scrollspy.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/tab.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/toast.min.js?5.3.8" type="module"></script>
+	<script src="/media/system/js/joomla-hidden-mail.min.js?80d9c7" type="module"></script>
+	<script src="https://www.albergo-dolomiti.it/templates/gk_hotel/js/modernizr.js"></script>
+	<script src="https://www.albergo-dolomiti.it/templates/gk_hotel/js/gk.scripts.js"></script>
+	<script src="https://www.albergo-dolomiti.it/templates/gk_hotel/js/gk.menu.js"></script>
+	<script src="https://www.albergo-dolomiti.it/templates/gk_hotel/js/photoswipe.min.js"></script>
+	<script src="https://www.albergo-dolomiti.it/templates/gk_hotel/js/photoswipe-ui.min.js"></script>
+	<script src="https://www.albergo-dolomiti.it/templates/gk_hotel/js/scrollreveal.js"></script>
+	<script>
+ $GKMenu = { height:true, width:false, duration: 150 };</script>
+	<script>
+$GK_TMPL_URL = "https://www.albergo-dolomiti.it/templates/gk_hotel";
+</script>
+	<script>
+$GK_URL = "https://www.albergo-dolomiti.it/";
+</script>
+	<link rel="apple-touch-icon" href="https://www.albergo-dolomiti.it/images/favicon.jpg">
+	<link rel="apple-touch-icon-precomposed" href="https://www.albergo-dolomiti.it/images/favicon.jpg">
+
+	<link rel="stylesheet" href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/small.desktop.css" media="(max-width: 1920px)" />
+<link rel="stylesheet" href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/tablet.css" media="(max-width: 1040px)" />
+<link rel="stylesheet" href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/small.tablet.css" media="(max-width: 840px)" />
+<link rel="stylesheet" href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/mobile.css" media="(max-width: 640px)" />
+<link rel="stylesheet" href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/override.css" />
+
+<!--[if IE 9]>
+<link rel="stylesheet" href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/ie/ie9.css" type="text/css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/ie/ie8.css" type="text/css" />
+<![endif]-->
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="https://www.albergo-dolomiti.it/templates/gk_hotel/css/ie/ie7.css" type="text/css" />
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script type="text/javascript" src="https://www.albergo-dolomiti.it/templates/gk_hotel/js/ie.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="https://www.albergo-dolomiti.it/templates/gk_hotel/js/respond.js"></script>
+<script type="text/javascript" src="https://www.albergo-dolomiti.it/templates/gk_hotel/js/selectivizr.js"></script>
+<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->	  	<!-- Begin Cookie Consent plugin by Silktide -->
+      <script>
+          window.cookieconsent_options = {
+              message: 'We use cookies to ensure you get the best experience on our website',
+              dismiss: 'I consent',
+              learnMore: 'Learn more',
+              link: "https://www.albergo-dolomiti.it/index.php/cookie-policy",
+              theme: "dark-bottom",
+          };
+      </script>
+
+      <!-- Minified Cookie Consent served from CDN -->
+      <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+    
+      
+      <!-- End Cookie Consent plugin -->
+ 
+	</head>
+<body class="frontpage error-page"  data-tablet-width="1040" data-mobile-width="640" data-zoom-size="150" data-parallax="true">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-41390358-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-41390358-1');</script>
+
+
+
+<div id="gkBg">
+	
+	<header id="gkHeader" class="gk-clearfix">
+		<div id="gkHeaderNav" class="gk-clearfix gk-fixed" data-fixed="1"><div>
+			
+     	 <a href="https://www.albergo-dolomiti.it/" id="gkLogo">
+        <img 
+        	src="https://www.albergo-dolomiti.it/images/logo3.png" 
+        	alt="Albergo Dolomiti" 
+        />
+     </a>
+     
+			
+							<div id="gkTopInfo">
+					<div class="no-mobile">
+<p>&nbsp;<br /><em class="fa fa-phone"></em><a href="tel:+39%200462%20341103">+39 0462 341103</a></p>
+<p><em class="gk-icon-marker"></em> Passo di Lavaz&egrave; 1 - 38030 Varena (TN) - ITALY</p>
+</div>
+				</div>
+			
+												<nav class="gkMainMenu gkMenu" data-duration="150" data-opacity="1" data-height="1" data-width="0">
+<ul class="gkmenu level0"><li  class="first active"><a href="https://www.albergo-dolomiti.it/"  class=" first active" id="menu640" title=" Home Menu Item" >Home</a></li><li  class="haschild"><a href="/index.php/hotel"  class=" haschild" id="menu1138"  >Hotel</a><div class="childcontent has-cols-1">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first"><a href="/index.php/hotel/appart-hotel"  class=" first" id="menu1142"  >Appart-Hotel</a></li><li ><a href="/index.php/hotel/ristorante"  id="menu1144"  >Ristorante</a></li><li ><a href="/index.php/hotel/wellness"  id="menu1145"  >Wellness</a></li><li  class="last"><a href="/index.php/hotel/servizi"  class=" last" id="menu1146"  >Servizi</a></li></ul></div>
+</div>
+</div></li><li  class="haschild"><a href="/index.php/camere-e-prezzi"  class=" haschild" id="menu1139"  >Camere e Appartamenti</a><div class="childcontent has-cols-1">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first"><a href="/index.php/camere-e-prezzi/le-nostre-camere"  class=" first" id="menu1148"  >Le nostre Camere</a></li><li  class="last"><a href="/index.php/camere-e-prezzi/roomsgallery"  class=" last" id="menu1225"  >Rooms Gallery</a></li></ul></div>
+</div>
+</div></li><li  class="haschild"><a href="/index.php/attivita"  class=" haschild" id="menu1140"  >Attività</a><div class="childcontent has-cols-1">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level1"><li  class="first haschild"><a href="/index.php/attivita/estate"  class=" first haschild" id="menu1151"  >Estate</a><div class="childcontent has-cols-1">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level2"><li  class="first"><a href="/index.php/attivita/estate/mountain-bike"  class=" first" id="menu1154"  >Mountain Bike</a></li><li ><a href="/index.php/attivita/estate/bici-da-strada"  id="menu1155"  >Bici da Strada</a></li><li ><a href="/index.php/attivita/estate/escursioni"  id="menu1153"  >Escursioni</a></li><li ><a href="/index.php/attivita/estate/nordic-walking"  id="menu1156"  >Nordic Walking</a></li><li ><a href="/index.php/attivita/estate/pesca-sportiva"  id="menu1157"  >Pesca Sportiva</a></li><li  class="last"><a href="/index.php/attivita/estate/trekking"  class=" last" id="menu1159"  >Trekking</a></li></ul></div>
+</div>
+</div></li><li  class="last haschild"><a href="/index.php/attivita/inverno"  class=" last haschild" id="menu1688"  >Inverno</a><div class="childcontent has-cols-1">
+<div class="childcontent-inner">
+<div class="gkcol gkcol1  first"><ul class="gkmenu level2"><li  class="first"><a href="/index.php/attivita/inverno/sci-da-fondo"  class=" first" id="menu1160"  >Sci da Fondo</a></li></ul></div>
+</div>
+</div></li></ul></div>
+</div>
+</div></li><li ><a href="/index.php/fiemmemotion-card"  id="menu1141"  >FiemmEmotion Card</a></li><li ><a href="/index.php/lavaze"  id="menu1224"  >Lavazè</a></li><li ><a href="/index.php/modulo-di-contatto-albergodolomiti"  id="menu1218"  >Contatto</a></li><li  class="last"><a href="https://www.albergo-dolomiti.it/webcam/fi9900p.php" target="_blank"  class=" last" id="menu1244"  >webcam</a></li></ul>
+</nav>				
+				<div id="gkMobileMenu" class="gkPage">
+					<span id="gk-mobile-menu-text">Menu</span>
+					<i id="static-aside-menu-toggler"></i>
+				</div>
+			
+			
+		</div>
+	</div>
+</header>
+
+
+
+<div id="gkPageContent">
+	
+	
+	<div class="gkPage">
+	<div>
+
+			
+		<section id="gkMainbody">
+		
+<div class="gkPage error-page-container">
+     <h1>500</h1>
+          <h2>An 500 error occured during your request.</h2>
+     
+</div>
+
+<p class="error-links">
+      <a href="https://www.albergo-dolomiti.it/">Back to our homepage</a>
+            <joomla-hidden-mail  is-link="1" is-email="0" first="c3RlZ2lyYXJkaQ==" last="Z21haWwuY29t" text="Q29udGFjdCBXZWJtYXN0ZXI=" base="" >Questo indirizzo email è protetto dagli spambots. È necessario abilitare JavaScript per vederlo.</joomla-hidden-mail>      </p>	</section>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<footer id="gkFooter">
+	<div class="gkPage">
+				<div id="gkFooterNav">
+			
+<div class="gk-cols" data-cols="3">
+<div>
+<h3>Quick Links</h3>
+<div class="gk-cols" data-cols="2">
+<div>
+<ul>
+<li><a href="/index.php/hotel">Hotel</a></li>
+<li><a href="/index.php/camere-e-prezzi">Camere</a></li>
+<li><a href="/index.php?view=article&amp;id=166:prezzi-appartamenti-inverno-2020-21&amp;catid=44">Listino Prezzi</a></li>
+<li><a href="/index.php/hotel/wellness">Wellness</a></li>
+<li><a href="/index.php/hotel/ristorante">Ristorante</a></li>
+</ul>
+</div>
+<div>
+<ul>
+<li><a href="/index.php/modulo-di-contatto-albergodolomiti">Contatto</a></li>
+<li><a href="/index.php/cookie-policy">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div>
+<h3>Contatti</h3>
+<div class="gk-cols" data-cols="2">
+<div>
+<ul>
+<li>Telefono:</li>
+<li>Fax:</li>
+</ul>
+<p> </p>
+<ul>
+<li><a href="mailto:info@albergo-dolomiti.it">info@albergo-dolomiti.it<br /><br /></a></li>
+</ul>
+</div>
+<div>
+<ul>
+<li>+39 0462 341103</li>
+<li>+39 0462 341137</li>
+</ul>
+</div>
+</div>
+</div>
+<div>
+<h3>Albergo Dolomiti</h3>
+<p>Passo di Lavazè 1,</p>
+<p>I-38030 Varena (TN)</p>
+<p>VAL DI FIEMME - TRENTINO</p>
+<p>P.Iva 01307950228</p>
+<p>© by Albergo Dolomiti. All rights reserved.</p>
+<p> </p>
+</div>
+</div>
+
+<p><a href="http://www.visitfiemme.it" target="_blank"><img src="/images/banners/logoVDF.png" alt="logoVDF" /></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://www.visittrentino.it" target="_blank"><img src="/images/banners/Logo_Trentino.png" alt="Logo Trentino" /></a></p>
+<ul class="gk-social-links">
+<li><a href="#"><em class="gk-icon-twitter"></em></a></li>
+<li><a href="https://www.facebook.com/albdolomiti/" target="_blank"><em class="gk-icon-fb"></em></a></li>
+<li><a href="#"><em class="gk-icon-gplus"></em></a></li>
+<li><a href="#"><em class="gk-icon-linkedin"></em></a></li>
+<li><a href="#"><em class="gk-icon-pinterest"></em></a></li>
+</ul>
+
+		</div>
+				
+			</div>
+</footer>
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                
+                <div class="pswp__preloader"></div>
+                
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		if(jQuery(window).outerWidth() > 600) {
+			jQuery('.nspMain').each(function(i, el) {
+				el = jQuery(el);
+				if(el.hasClass('offers') || el.hasClass('category-layout')) {
+					var imgs = el.find('.nspArtPage').first().find('.nspImage');
+					for(var i = 0; i < imgs.length; i++) {
+						jQuery(imgs[i]).attr('data-sr', 'scale up 10% and wait ' + i * 0.15 + 's');
+					}
+				}
+			});
+
+			jQuery('.gkIsWrapper-gk_hotel_tabs[data-mode="testimonial"]').each(function(i, el) {
+				jQuery(el).parent().attr('data-sr', 'scale up 10%');
+			});
+
+			var config = {
+				complete: function(el) {
+					el = jQuery(el);
+
+					if(el.hasClass('bar')) {
+						el.addClass('gk-loaded');
+					}
+				},
+				mobile: true
+			};
+
+			window.sr = new scrollReveal(config);
+		} else {
+			jQuery('*[data-sr]').each(function(i, el) {
+				el = jQuery(el);
+
+				if(el.hasClass('bar')) {
+					el.addClass('gk-loaded');
+				}
+			});
+		}
+	</script>
+
+
+</body>
+</html>
