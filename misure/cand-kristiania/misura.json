@@ -1,0 +1,149 @@
+{
+  "slug": "cand-kristiania",
+  "url": "https://www.hotelkristiania.it/",
+  "misuratoIl": "2026-10-26T02:47:53.359Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3718,
+  "lcpMs": 2967,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://www.hotelkristiania.it/",
+  "titolo": "Kristiania Pure Nature Hotel & Spa | Hotel Pejo | Val di Sole 4 stelle S",
+  "descrizione": "Kristiania Pure Nature Hotel & Spa: Hotel 4 Stelle Superior a Cogolo di Pejo, Val di Sole ✔ Piscina coperta ✔ Centro benessere ✔ Escursioni guidati ✔",
+  "h1": [
+    "Splendido hotel 4 stelle Superior a Pejo, in Val di Sole, dove tutto è più puro!"
+  ],
+  "ttfb": 925,
+  "fcp": 1939,
+  "domReady": 2638,
+  "load": 3712,
+  "pesoKB": 3502,
+  "richieste": 116,
+  "script": 55,
+  "serviziEsterni": [
+    "cloud.aikosmo.com",
+    "www.googletagmanager.com",
+    "maps.googleapis.com",
+    "cdn.iubenda.com",
+    "cdn.jsdelivr.net",
+    "ajax.googleapis.com",
+    "storage.googleapis.com",
+    "cdn.accessibit.com",
+    "use.fontawesome.com",
+    "fonts.googleapis.com",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "static.hotjar.com",
+    "s.adroll.com",
+    "www.google-analytics.com",
+    "connect.facebook.net",
+    "cs.iubenda.com",
+    "api.aikosmo.com",
+    "cdnjs.cloudflare.com",
+    "d.adroll.com",
+    "idb.iubenda.com",
+    "api.accessibit.com",
+    "ujybktuqsubkfmoatdyw.supabase.co",
+    "www.facebook.com",
+    "od-18c216b54e2045bdbb2d2f70bc4834b0.ecs.us-east-2.on.aws"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.hotelkristiania.it/wp-content/uploads/2019/10/HOTEL-PISTA-NOTTE-1920x1190.jpg",
+      "kb": 263
+    },
+    {
+      "url": "https://www.hotelkristiania.it/wp-content/themes/kristiania19/assets/images/pattern.png",
+      "kb": 213
+    },
+    {
+      "url": "https://www.hotelkristiania.it/wp-content/uploads/2019/10/Camera-Kristiania-1920x1190.jpg",
+      "kb": 186
+    },
+    {
+      "url": "https://www.hotelkristiania.it/wp-content/uploads/2023/09/20221221_kristiania_AR900689-1920x1190.jpg",
+      "kb": 101
+    },
+    {
+      "url": "https://www.hotelkristiania.it/wp-content/uploads/2019/10/Animali-Selvatici-Cervo_Ph-Sergio-Peroceschi-1920x1190.jpg",
+      "kb": 91
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo con"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@%68%6Ftelk%72%69%73tiani%61%2Eit"
+  ],
+  "telefono": [
+    "+39 0463 754157"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.hotelkristiania.it/#"
+    }
+  ],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 913,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 697,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 696,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=1&auid=28560344.1792982868&dt=Kristiania%20Pure%20Nature%20Hotel%20%26%20Spa%20%7C%20Hotel%20Pejo%20%7C%20Va"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=28560344.1792982868&gtm=45be6al1v897976803za208zd897976803xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/11031545123/?random=1792982868021&cv=11&fst=1792982868021&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1v897976"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=28560344.1792982868&dt=Kristiania%20Pure%20Nature%20Hotel%20%26%20Spa%20%7C%20Hotel%20Pejo%20%7"
+    },
+    {
+      "status": 999,
+      "url": "https://od-18c216b54e2045bdbb2d2f70bc4834b0.ecs.us-east-2.on.aws/events?cee=no"
+    },
+    {
+      "status": 999,
+      "url": "https://od-18c216b54e2045bdbb2d2f70bc4834b0.ecs.us-east-2.on.aws/events?cee=no"
+    },
+    {
+      "status": 999,
+      "url": "https://od-18c216b54e2045bdbb2d2f70bc4834b0.ecs.us-east-2.on.aws/events?cee=no"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "slug": "cand-arcangelo",
+  "url": "https://www.hotelarcangelo.it/",
+  "misuratoIl": "2026-10-26T02:47:05.950Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 14214,
+  "lcpMs": 3171,
+  "lcpElemento": "IMG https://hotelarcangelo.it/wp-content/uploads/2021/03/logo-arcangelo.png",
+  "cls": 0.081,
+  "urlFinale": "https://hotelarcangelo.it/",
+  "titolo": "Hotel Val di Sole con piscina e wellness - Hotel Arcangelo",
+  "descrizione": "Scegli la comodità di un hotel Val di Sole a Pellizzano per le tue vacanze in Trentino! A pochi minuti piste da sci e splendide escursioni!",
+  "h1": [
+    "HOTEL IN VAL DI SOLE"
+  ],
+  "ttfb": 2019,
+  "fcp": 2502,
+  "domReady": 3473,
+  "load": 14213,
+  "pesoKB": 8343,
+  "richieste": 68,
+  "script": 14,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "fonts.googleapis.com",
+    "prodsecurehoteldoor.blob.core.windows.net",
+    "www.youtube.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://hotelarcangelo.it/wp-content/uploads/2020/09/piscina-centro-benessere-hotel-arcangelo.jpg",
+      "kb": 543
+    },
+    {
+      "url": "https://hotelarcangelo.it/wp-content/uploads/2020/07/camera-del-castello-hotel-in-val-di-sole.jpg",
+      "kb": 458
+    },
+    {
+      "url": "https://hotelarcangelo.it/wp-content/uploads/2020/07/tana-dell-orso-hotel-arcangelo.jpg",
+      "kb": 458
+    },
+    {
+      "url": "https://hotelarcangelo.it/wp-content/uploads/2019/10/pellizzano-inverno-hotel-arcangelo.jpg",
+      "kb": 456
+    },
+    {
+      "url": "https://hotelarcangelo.it/wp-content/uploads/2019/10/sciare-in-val-di-sole.jpeg",
+      "kb": 437
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [
+    "info@hotelarcangelo.it"
+  ],
+  "telefono": [
+    "0463751650"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "FAQ",
+      "h": "https://hotelarcangelo.it/faq/"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://hotelarcangelo.it/faq/"
+    }
+  ],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2534,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1237,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1254,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-5SGMV2HQGM&gtm=45je6al1v9127295451za208zd9127295451xf1&_p=1792982809477&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=fz3udyDr3oZ4JXXA&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=_8lxgoQAgcuLxLSz&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=zjFl5Stb-XVChpS3&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=I-nNJKbuaCxODHzM&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=rzISfEtYxjvisLxc&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=L2pPOSvFkUD47r1b&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=I2vOXL4d_t4AidaC&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=As8Sr4FZvwTI-9Yy&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=rQOSRut5we_hUTRH&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    }
+  ]
+}

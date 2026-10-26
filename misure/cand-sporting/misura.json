@@ -1,0 +1,116 @@
+{
+  "slug": "cand-sporting",
+  "url": "https://www.albergosporting.it/",
+  "misuratoIl": "2026-10-26T02:46:19.307Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2842,
+  "lcpMs": 1918,
+  "lcpElemento": "IMG https://www.albergosporting.it/wp-content/uploads/2021/07/DSC_1455-828x1472.jpg",
+  "cls": 0.119,
+  "urlFinale": "https://www.albergosporting.it/",
+  "titolo": "Hotel Sporting | Albergo 3 stelle a Pejo Fonti, Val di Sole",
+  "descrizione": "Nel cuore del Parco Nazionale dello Stelvio, a due passi dalle Terme di Pejo e dagli impianti Pejo 3000. Scopri l'ospitalità dell'Albergo Sporting.",
+  "h1": [
+    "Val di Pejo, settimana bianca e vacanza nel verde del Trentino"
+  ],
+  "ttfb": 1124,
+  "fcp": 1837,
+  "domReady": 2173,
+  "load": 2839,
+  "pesoKB": 3396,
+  "richieste": 42,
+  "script": 27,
+  "serviziEsterni": [
+    "cdnjs.cloudflare.com",
+    "ajax.googleapis.com",
+    "www.google.com",
+    "cdn.iubenda.com",
+    "www.scidoo.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "fonts.googleapis.com",
+    "www.gstatic.com",
+    "cs.iubenda.com",
+    "idb.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.albergosporting.it/wp-content/uploads/2024/02/DSC_0087-828x1472.jpg",
+      "kb": 416
+    },
+    {
+      "url": "https://www.albergosporting.it/wp-content/themes/sporting/assets/images/2x-pattern-boxed.png",
+      "kb": 355
+    },
+    {
+      "url": "https://www.albergosporting.it/wp-content/themes/sporting/assets/images/2x-pattern-bianco.png",
+      "kb": 327
+    },
+    {
+      "url": "https://www.albergosporting.it/wp-content/uploads/2026/09/grok-image-aa422883-e72a-4cfd-ac35-c41f5eb7d5ac-1-828x1472.jpg",
+      "kb": 231
+    },
+    {
+      "url": "https://www.albergosporting.it/wp-content/uploads/2021/07/DSC_1455-828x1472.jpg",
+      "kb": 201
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo c"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": true,
+  "email": [],
+  "telefono": [
+    "390463753241"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.albergosporting.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 1052,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 168,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 169,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.scidoo.com/widget_recensioni/include_widget.js"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-JEWMTB1181&gtm=45je6al1v871441073za20ozb844292441zd844292441xf1&_p=1792982774483&gcd=13l3l3l3l1l1&npa=0&dma"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LcUA7waAAAAAPz1X2X3HjXsI08byMYWwFWqhFJo"
+    }
+  ]
+}

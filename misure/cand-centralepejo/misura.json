@@ -1,0 +1,116 @@
+{
+  "slug": "cand-centralepejo",
+  "url": "https://www.hotelcentralepejo.com/",
+  "misuratoIl": "2026-10-26T02:46:27.574Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2962,
+  "lcpMs": 2931,
+  "lcpElemento": "IMG https://www.hotelcentralepejo.com/images/jch-optimize/ng/images_slider-home_slider-home-inverno__001.webp",
+  "cls": 0.045,
+  "urlFinale": "https://www.hotelcentralepejo.com/",
+  "titolo": "Hotel e chalet in centro a Pejo in Val di Sole | Hotel Centrale",
+  "descrizione": "Soggiorna in un hotel o in appartamenti immersi tra le montagne della Val di Sole, nel centro storico di Pejo e vicino alle principali attrazioni del luogo.",
+  "h1": [
+    "IL TUO HOTEL A PEJO"
+  ],
+  "ttfb": 1115,
+  "fcp": 1173,
+  "domReady": 2216,
+  "load": 2960,
+  "pesoKB": 4764,
+  "richieste": 45,
+  "script": 9,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "cdn.cookie-script.com",
+    "pagead2.googlesyndication.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.hotelcentralepejo.com/templates/omni/styles/OverrideCustom/images/pejo-winter.jpg",
+      "kb": 325
+    },
+    {
+      "url": "https://www.hotelcentralepejo.com/templates/omni/styles/OverrideCustom/images/cervo.png",
+      "kb": 295
+    },
+    {
+      "url": "https://www.hotelcentralepejo.com/media/zoo/images/hotel_4586e89006949851204528211b8db439.jpg",
+      "kb": 258
+    },
+    {
+      "url": "https://www.hotelcentralepejo.com/templates/omni/styles/OverrideCustom/images/spa-pejo.jpg",
+      "kb": 256
+    },
+    {
+      "url": "https://www.hotelcentralepejo.com/templates/omni/styles/OverrideCustom/images/hotel-centrale-pejo_002.jpg",
+      "kb": 254
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cookiescript_injected_wrapper",
+      "copre": "100%",
+      "testo": "ITALIAN ENGLISH GERMAN DUTCH FRENCH × Gestione Cookie Utilizziamo i cookie per migliorare la tua esperienza di navigazio"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@hotelcentralepejo.com"
+  ],
+  "telefono": [
+    "+390463753244"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Info & Contatti",
+      "h": "https://www.hotelcentralepejo.com/contatti"
+    },
+    {
+      "t": "contattaci",
+      "h": "https://www.hotelcentralepejo.com/contatti#form"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1067,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 456,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 411,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwww.hotelcentralepejo.com%2F&scrsrc=www.googletagmanage"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HQRNFJRWG7&gtm=45je6al1v9206297426za20ozb9206259463zd9206259463xf1&_p=1792982783034&gcs=G101&gcd=13p3t3l3l5"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=14&frm=0&apvc=0&ae=g&tid=AW-17080125695&dl=https%3A%2F%2Fwww.hotelcentralepejo.com%2F&scrsrc=www.googletag"
+    }
+  ]
+}

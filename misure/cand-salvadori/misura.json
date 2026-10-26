@@ -1,0 +1,154 @@
+{
+  "slug": "cand-salvadori",
+  "url": "https://www.hotelsalvadori.it/",
+  "misuratoIl": "2026-10-26T02:46:42.991Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 9320,
+  "lcpMs": 5770,
+  "lcpElemento": "LI https://www.hotelsalvadori.it/wp-content/uploads/2015/02/EmptyName-2-scaled-e1721144285798-2000x1300.jpg",
+  "cls": 0.561,
+  "urlFinale": "https://www.hotelsalvadori.it/",
+  "titolo": "Hotel Salvadori | Hotel 4 Stelle a Mezzana in Val di Sole, Trentino",
+  "descrizione": "Esperienza di lusso e comfort in Val di Sole. Prenota ora il tuo soggiorno al Hotel Salvadori e scopri l'ospitalità di un hotel 4S!",
+  "h1": [
+    "Benvenuti all’Hotel Salvadori"
+  ],
+  "ttfb": 2710,
+  "fcp": 3675,
+  "domReady": 4241,
+  "load": 9318,
+  "pesoKB": 10994,
+  "richieste": 79,
+  "script": 30,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "code.jquery.com",
+    "content.r9cdn.net",
+    "www.googletagmanager.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.google-analytics.com",
+    "googleads.g.doubleclick.net",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "cdn.iubenda.com",
+    "www.youtube.com",
+    "cs.iubenda.com",
+    "idb.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.hotelsalvadori.it/wp-content/uploads/2024/09/salvadori-winter-13.jpg",
+      "kb": 2082
+    },
+    {
+      "url": "https://www.hotelsalvadori.it/wp-content/uploads/2024/09/EmptyName-4-1-scaled.jpg",
+      "kb": 1145
+    },
+    {
+      "url": "https://www.hotelsalvadori.it/wp-content/uploads/2025/08/DP140725008_LOW.jpg",
+      "kb": 997
+    },
+    {
+      "url": "https://www.hotelsalvadori.it/wp-content/uploads/2024/01/EmptyName-14-1-scaled.jpg",
+      "kb": 683
+    },
+    {
+      "url": "https://www.hotelsalvadori.it/wp-content/uploads/2015/02/EmptyName-2-scaled-e1721144285798-2000x1300.jpg",
+      "kb": 639
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo c"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@hotelsalvadori.it"
+  ],
+  "telefono": [
+    "+390463757109"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Info e contatti",
+      "h": "https://www.hotelsalvadori.it/info-e-contatti/"
+    },
+    {
+      "t": "Info e contatti",
+      "h": "https://www.hotelsalvadori.it/info-e-contatti/"
+    }
+  ],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 2277,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 920,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 875,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=wpCXB7RP8eIFwE0LcM3sa-cdhJ-QRpBNXg&auid=1382630119.1792982794&gtm=45He6al1h1v812553734za200zd812553734xeaxf1&fmt="
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=1&ae=g&auid=1382630119.1792982794&dt=Hotel%20Salvadori%20%7C%20Hotel%204%20Stelle%20a%20Mezzana%20in%20Val%"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-68J9DVPN71&gtm=45je6al1h1v9257525700za20ozb812553734zd812553734xf1&_p=1792982792713&gcd=13l3l3l3l1l1&npa=0&"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/938080911/?random=1792982793988&cv=11&fst=1792982793988&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6al1h1v918165"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=0&ae=g&auid=1382630119.1792982794&dt=Hotel%20Salvadori%20%7C%20Hotel%204%20Stelle%20a%20Mezzana%20in%20Val%"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=11&frm=0&apvc=0&auid=1382630119.1792982794&dt=Hotel%20Salvadori%20%7C%20Hotel%204%20Stelle%20a%20Mezzana%20in%20Val%20di%"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/938080911/?random=1792982794047&cv=11&fst=1792982794047&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6al1h1v9181652896z8812553734"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TJBN13PZPE&gtm=45je6al1h1v872606696za20ozb812553734zd812553734xf1&_p=1792982792713&_gaz=1&gcd=13l3l3l3l1l1&npa="
+    },
+    {
+      "status": 999,
+      "url": "https://i.ytimg.com/vi/dUdjwk9Yrsk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH6CYAC0AWKAgwIABABGEMgZSguMA8=&rs=AOn4CLD-XGwfHQl7MWlRQwyba7wA5xPftA"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "cand-genziana",
+  "url": "https://www.hotelchaletgenziana.it/",
+  "misuratoIl": "2026-10-26T02:48:03.761Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4403,
+  "lcpMs": 4468,
+  "lcpElemento": "DIV https://chaletgenziana.it/wp-content/uploads/2023/02/chalet-genziana-pejo-inverno.webp",
+  "cls": 0.007,
+  "urlFinale": "https://chaletgenziana.it/",
+  "titolo": "Chalet Trentino in Val di Pejo nel Parco dello Stelvio",
+  "descrizione": "Chalet Genziana è uno chalet trentino, un antico maso del XVIII secolo con stalla e animali, per le vacanze in montagna in autentico stile trentino!",
+  "h1": [
+    "Chalet Genziana"
+  ],
+  "ttfb": 2516,
+  "fcp": 3230,
+  "domReady": 3831,
+  "load": 4401,
+  "pesoKB": 5988,
+  "richieste": 133,
+  "script": 45,
+  "serviziEsterni": [
+    "js-eu1.hs-scripts.com",
+    "www.googletagmanager.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.youtube.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://chaletgenziana.it/wp-content/uploads/2024/05/Genziana.webp",
+      "kb": 1270
+    },
+    {
+      "url": "https://chaletgenziana.it/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-28-at-15.19.26.webp",
+      "kb": 498
+    },
+    {
+      "url": "https://chaletgenziana.it/wp-content/uploads/2023/02/chalet-genziana-pejo-inverno.webp",
+      "kb": 378
+    },
+    {
+      "url": "https://chaletgenziana.it/wp-content/uploads/2026/06/lago-dei-caprioli.webp",
+      "kb": 252
+    },
+    {
+      "url": "https://chaletgenziana.it/wp-content/uploads/2022/12/hotel-chalet-genziana-val-di-pejo-prodotti-territorio-.webp",
+      "kb": 211
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "47%",
+      "testo": "Non sembra ma i cookies hanno un’utilità: servono a far funzionare meglio il sito (cookie tecnici, che sono necessari), "
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@chaletgenziana.it"
+  ],
+  "telefono": [
+    "+393333599915"
+  ],
+  "whatsapp": true,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2098,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 601,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 563,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://js-eu1.hs-scripts.com/144590281.js?integration=WordPress&ver=11.3.75"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-K30C0GM7HY&gtm=45je6al1v9115163868za208zd9115163868xf1&_p=1792982878864&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu"
+    },
+    {
+      "status": 999,
+      "url": "https://www.youtube.com/api/stats/qoe?cpn=JRcNIZ1zV3DddCJc&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509"
+    }
+  ]
+}

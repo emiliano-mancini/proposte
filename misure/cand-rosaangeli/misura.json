@@ -1,0 +1,109 @@
+{
+  "slug": "cand-rosaangeli",
+  "url": "https://www.hotelrosadegliangeli.it/",
+  "misuratoIl": "2026-10-26T02:47:19.263Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 4533,
+  "lcpMs": 3016,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://hotelrosadegliangeli.it/",
+  "titolo": "Hotel Pejo per famiglie Val di Sole - Rosa degli Angeli",
+  "descrizione": "Stai cercando un hotel pejo in Val di Pejo nel Parco dello Stelvio adatto a famiglie con bambini, con tante attività e intrattenimento?",
+  "h1": [
+    "benvenuto a pejo all’hotel rosa degli angeli"
+  ],
+  "ttfb": 2102,
+  "fcp": 2817,
+  "domReady": 3688,
+  "load": 4530,
+  "pesoKB": 2847,
+  "richieste": 112,
+  "script": 48,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.iubenda.com",
+    "www.googletagmanager.com",
+    "s3-eu-west-1.amazonaws.com",
+    "www.youtube.com",
+    "connect.facebook.net",
+    "api.trustyou.com",
+    "widget.visittrentino.info",
+    "www.google.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "cs.iubenda.com",
+    "www.facebook.com",
+    "idb.iubenda.com",
+    "www.google-analytics.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://hotelrosadegliangeli.it/wp-content/uploads/2022/03/rosadegliangelihead-1.jpg",
+      "kb": 234
+    },
+    {
+      "url": "https://hotelrosadegliangeli.it/wp-content/uploads/2020/01/unnamed.png",
+      "kb": 130
+    },
+    {
+      "url": "https://hotelrosadegliangeli.it/wp-content/uploads/2021/10/hotel-pejo-rosa-degli-angeli-camera-1.jpg",
+      "kb": 115
+    },
+    {
+      "url": "https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i4442627&2i2972198&2e2&3u15&4m2&1u389&2u450&5m6&1e3&5sit&6sit&10b1&12b1&14i47083502&8e",
+      "kb": 39
+    },
+    {
+      "url": "https://hotelrosadegliangeli.it/wp-content/uploads/2019/12/004-300x300.png",
+      "kb": 7
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "× Informativa Noi e terze parti selezionate utilizziamo cookie o tecnologie simili per finalità tecniche e, con il tuo c"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@hotelrosadegliangeli.it"
+  ],
+  "telefono": [
+    "+390463743031"
+  ],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
+  "rispostaServer": [
+    {
+      "ms": 2141,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 609,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 637,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-4136ZQE5HM&gtm=45je6al1v9132633136za208zd9132633136xf1&_p=1792982833813&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu"
+    }
+  ]
+}

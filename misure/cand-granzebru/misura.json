@@ -1,0 +1,126 @@
+{
+  "slug": "cand-granzebru",
+  "url": "https://www.hotelgranzebru.com/",
+  "misuratoIl": "2026-10-26T02:47:30.436Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3795,
+  "lcpMs": 1820,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://www.hotelgranzebru.com/it",
+  "titolo": "Hotel a Cogolo di Peio in Val di Sole – Hotel Gran Zebrù 3 stelle",
+  "descrizione": "L'Hotel Gran Zebrù è un hotel 3 stelle a Cogolo in Val di Peio e  Val di Sole ai piedi delle Alpi Ortles Cevedale in posizione incantevole nel Parco Nazionale dello Stelvio.",
+  "h1": [
+    "Benvenuti al Gran Zebrù a Pejo, hotel 3 stelle in Val di Sole",
+    "Privacy Policy di hotelgranzebru.com"
+  ],
+  "ttfb": 1333,
+  "fcp": 1820,
+  "domReady": 2821,
+  "load": 3793,
+  "pesoKB": 5169,
+  "richieste": 65,
+  "script": 19,
+  "serviziEsterni": [
+    "cdnjs.cloudflare.com",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "cdn.iubenda.com",
+    "s3-eu-west-1.amazonaws.com",
+    "fareharbor.com",
+    "api.trustyou.com",
+    "www.google-analytics.com",
+    "googleads.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "cs.iubenda.com",
+    "widget.visittrentino.info",
+    "idb.iubenda.com",
+    "www.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.hotelgranzebru.com/assets/images/home/hotel-gran-zebru-con-centro-benessere-peio.jpg",
+      "kb": 341
+    },
+    {
+      "url": "https://www.hotelgranzebru.com/assets/images/home/peio-val-di-sole-trentino.jpg",
+      "kb": 335
+    },
+    {
+      "url": "https://www.hotelgranzebru.com/assets/images/home/mountainbike-val-di-sole-trentino.jpg",
+      "kb": 153
+    },
+    {
+      "url": "https://www.hotelgranzebru.com/assets/images/home/trekking-bike-sci-ciaspole-val-di-sole.jpg",
+      "kb": 91
+    },
+    {
+      "url": "https://www.hotelgranzebru.com/clientfiles/topslide/20201102100039_foto-sci-alpinismo-homepage-1_c500.jpg",
+      "kb": 84
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "iubenda-cs-banner",
+      "copre": "100%",
+      "testo": "Informativa Noi e terze parti selezionate raccogliamo informazioni personali e utilizziamo cookie o tecnologie simili pe"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [
+    "+39 0463754433"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "CONTATTI",
+      "h": "https://www.hotelgranzebru.com/it/home/contacts"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no",
+  "rispostaServer": [
+    {
+      "ms": null,
+      "error": "fetch failed"
+    },
+    {
+      "ms": null,
+      "error": "fetch failed"
+    },
+    {
+      "ms": null,
+      "error": "fetch failed"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-GE05ZQZ0ZW&gtm=45je6al1v9185081050za208zd9185081050xf1&_p=1792982844704&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1059996988.1792982845&gtm=45je6al1v9185081050za208zd9185081050xecxf1&fmt=8"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&auid=1059996988.1792982845&dt=Hotel%20a%20Cogolo%20di%20Peio%20in%20Val%20di%20Sole%20%E2%80%93%20Hotel%2"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/rmkt/collect/11254166013/?random=1792982844908&cv=11&fst=1792982844908&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je6al1v918508"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-L341XKFY9T&gtm=45je6am0h2v9121939361za208zb9185081050zd9185081050xf1&_p=1792982844704&gcd=13l3l3l3l1l1&npa="
+    }
+  ]
+}
