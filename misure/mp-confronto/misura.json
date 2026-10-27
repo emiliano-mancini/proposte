@@ -1,0 +1,80 @@
+{
+  "slug": "mp-confronto",
+  "url": "https://emiliano-mancini.github.io/proposte/metpro/confronto/",
+  "misuratoIl": "2026-10-27T03:08:40.231Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 503,
+  "lcpMs": 505,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/metpro/confronto/nuovo-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/metpro/confronto/",
+  "titolo": "Il sito di MetPro, oggi e domani",
+  "descrizione": null,
+  "h1": [
+    "IL SITO DI METPRO, OGGI E DOMANI"
+  ],
+  "ttfb": 113,
+  "fcp": 480,
+  "domReady": 201,
+  "load": 498,
+  "pesoKB": 500,
+  "richieste": 9,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/confronto/nuovo-mobile.jpg",
+      "kb": 143
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/confronto/problema-cookie.jpg",
+      "kb": 87
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/confronto/problema-hero.jpg",
+      "kb": 72
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/confronto/vecchio-mobile.jpg",
+      "kb": 58
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/confronto/problema-contatti.jpg",
+      "kb": 55
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lmsoftique@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 65,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 20,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 19,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}

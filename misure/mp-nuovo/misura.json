@@ -1,0 +1,87 @@
+{
+  "slug": "mp-nuovo",
+  "url": "https://emiliano-mancini.github.io/proposte/metpro/",
+  "misuratoIl": "2026-10-27T03:08:35.846Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 676,
+  "lcpMs": 601,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/metpro/img/hero-m.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/metpro/",
+  "titolo": "MetPro Srl – Lavorazione lamiera a Zanè (VI): taglio laser, piegatura, saldatura, verniciatura",
+  "descrizione": "MetPro Srl, Zanè (VI): lavorazione di ferro, acciaio e alluminio su disegno. Taglio laser, punzonatura, piegatura, saldatura TIG e MIG, lucidatura, verniciatura a polveri, serigrafia e montaggio. Proposta di restyling, bozza non ufficiale.",
+  "h1": [
+    "DALLA LAMIERA AL PEZZO FINITO."
+  ],
+  "ttfb": 273,
+  "fcp": 479,
+  "domReady": 533,
+  "load": 672,
+  "pesoKB": 864,
+  "richieste": 24,
+  "script": 5,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/img/hero-m.jpg",
+      "kb": 165
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/img/02-punzonatura.jpg",
+      "kb": 106
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/img/03-piegatura.jpg",
+      "kb": 84
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/img/punzonatrice.jpg",
+      "kb": 77
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/metpro/img/01-laser.jpg",
+      "kb": 70
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@metprosrl.it"
+  ],
+  "telefono": [
+    "+3904451921110"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/metpro/#contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 167,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 24,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 21,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
