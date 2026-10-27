@@ -1,0 +1,142 @@
+{
+  "slug": "mp-vecchio",
+  "url": "https://www.metprosrl.it/",
+  "misuratoIl": "2026-10-27T02:44:18.294Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 7867,
+  "lcpMs": 6099,
+  "lcpElemento": "SPAN ",
+  "cls": 0,
+  "urlFinale": "https://www.metprosrl.it/",
+  "titolo": "Azienda lavorazione metalli - MetPro Srl - Il tuo partner nei prodotti serigrafati",
+  "descrizione": "Azienda lavorazione metalli, Ferro, Acciaio e Alluminio, Taglio laser, Piegatura, Serigrafia, Pulitura e lucidatura metalli, Montaggi.",
+  "h1": [
+    "Azienda lavorazione metalli"
+  ],
+  "ttfb": 3590,
+  "fcp": 4130,
+  "domReady": 4648,
+  "load": 7864,
+  "pesoKB": 1833,
+  "richieste": 87,
+  "script": 26,
+  "serviziEsterni": [
+    "cdn.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/01/20231114_101826_piegatrici_MetPro.jpg",
+      "kb": 326
+    },
+    {
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/02/Met_Pro_20240215_104355.jpg",
+      "kb": 300
+    },
+    {
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/03/Capannone_20231114_094920_MetPro.jpg",
+      "kb": 137
+    },
+    {
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/03/Capannone_20231114_094920_MetPro-1024x461.jpg",
+      "kb": 122
+    },
+    {
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/01/black-bottle-modern-design-eye-dropper-with-painted-leaves-background-3d-illustration.jpg",
+      "kb": 84
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@metprosrl.it"
+  ],
+  "telefono": [
+    "+3904451921110"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.metprosrl.it/pannelli-alluminio-serigrafati-chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.metprosrl.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.metprosrl.it/pannelli-alluminio-serigrafati-chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.metprosrl.it/contatti/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.metprosrl.it/pannelli-alluminio-serigrafati-chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.metprosrl.it/contatti/"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.iubenda.com/termini-e-condizioni/99550587"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.metprosrl.it/pannelli-alluminio-serigrafati-chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.metprosrl.it/contatti/"
+    }
+  ],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1325,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 576,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 580,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 404,
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/01/black-bottle-modern-design-eye-dropper-with-painted-leaves-background-3d-illustration.jpg"
+    },
+    {
+      "status": 404,
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/01/black-bottle-modern-design-eye-dropper-with-painted-leaves-background-3d-illustration.jpg"
+    },
+    {
+      "status": 404,
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/01/the-sensual-and-emotional-dance-of-beautiful-ballerina.jpg"
+    },
+    {
+      "status": 404,
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/01/black-blank-cardboard-box-on-a-dark-background-mock-up-template-1-1.jpg"
+    },
+    {
+      "status": 404,
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/01/black-blank-open-cardboard-box-on-a-dark-background-mock-up-template-.jpg"
+    }
+  ]
+}

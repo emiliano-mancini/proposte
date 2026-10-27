@@ -1,0 +1,117 @@
+{
+  "slug": "mp-contatti",
+  "url": "https://www.metprosrl.it/contatti/",
+  "misuratoIl": "2026-10-27T02:44:26.312Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1529,
+  "lcpMs": 1537,
+  "lcpElemento": "DIV ",
+  "cls": 0,
+  "urlFinale": "https://www.metprosrl.it/contatti/",
+  "titolo": "Contatti - MetPro Srl - Il tuo partner nei prodotti serigrafati",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 734,
+  "fcp": 1174,
+  "domReady": 1526,
+  "load": 1527,
+  "pesoKB": 903,
+  "richieste": 57,
+  "script": 21,
+  "serviziEsterni": [
+    "www.google.com",
+    "www.gstatic.com",
+    "cdn.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.metprosrl.it/wp-content/uploads/2024/01/202206_MetPro_logo_definitivo-1000px-1.png",
+      "kb": 23
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "kb": 2
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "43%",
+      "testo": "Per fornire le migliori esperienze, utilizziamo tecnologie come i cookie per memorizzare e/o accedere alle informazioni "
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "kevinclarkfit@training.com",
+    "info@metprosrl.it"
+  ],
+  "telefono": [
+    "+3904451921110",
+    "213-200-5078%20"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.metprosrl.it/pannelli-alluminio-serigrafati-chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.metprosrl.it/contatti/"
+    },
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.metprosrl.it/pannelli-alluminio-serigrafati-chi-siamo/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.metprosrl.it/contatti/"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.metprosrl.it/pannelli-alluminio-serigrafati-chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.metprosrl.it/contatti/"
+    },
+    {
+      "t": "Termini e Condizioni",
+      "h": "https://www.iubenda.com/termini-e-condizioni/99550587"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.metprosrl.it/pannelli-alluminio-serigrafati-chi-siamo/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.metprosrl.it/contatti/"
+    }
+  ],
+  "piattaforma": "WordPress",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1081,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 561,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 545,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}
