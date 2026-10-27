@@ -10,8 +10,8 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%230f1011%22/%3E%3Cpath d=%22M7 23V9l5 7 5-7v14M21 23V9h3a4 4 0 0 1 0 8h-3%22 fill=%22none%22 stroke=%22%23f9b233%22 stroke-width=%222.6%22/%3E%3C/svg%3E">
 <link rel="preload" href="fonts/ibm-plex-sans-condensed-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="img/hero.jpg" as="image" media="(min-width: 900px)">
-<link rel="preload" href="img/hero-m.jpg" as="image" media="(max-width: 899px)">
+<link rel="preload" href="img/hero.webp" as="image" type="image/webp" media="(min-width: 900px)">
+<link rel="preload" href="img/hero-m.webp" as="image" type="image/webp" media="(max-width: 899px)">
 <link rel="stylesheet" href="../vendor/vng/vng.css" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="../vendor/lenis.css" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="../vendor/vng/vng.css"></noscript>
@@ -277,7 +277,9 @@ if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)doc
   </div>
   <div class="ph">
     <picture>
+      <source media="(max-width: 899px)" srcset="img/hero-m.webp" type="image/webp" width="780" height="953">
       <source media="(max-width: 899px)" srcset="img/hero-m.jpg" width="900" height="1100">
+      <source srcset="img/hero.webp" type="image/webp" width="1920" height="1287">
       <img src="img/hero.jpg" width="2400" height="1609" alt="Il reparto di taglio laser e punzonatura di MetPro a Zanè, con le macchine e i bancali pronti" fetchpriority="high">
     </picture>
     <span class="crop a" aria-hidden="true"></span><span class="crop b" aria-hidden="true"></span>
