@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Il sito di MetPro, oggi e domani</title>
+<meta name="theme-color" content="#0f1011">
+<style>
+@font-face{font-family:"Plex Cond";src:url(../fonts/ibm-plex-sans-condensed-latin-700-normal.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Plex Sans";src:url(../fonts/ibm-plex-sans-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Plex Sans";src:url(../fonts/ibm-plex-sans-latin-600-normal.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Plex Mono";src:url(../fonts/ibm-plex-mono-latin-500-normal.woff2) format("woff2");font-weight:500;font-display:swap}
+:root{--bg:#0f1011;--bg2:#16181a;--fg:#eef0f1;--mute:#c3c9ce;--amber:#f9b233;--red:#e21d1d;--line:rgba(238,240,241,.14)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.6 "Plex Sans",system-ui,sans-serif;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+h1,h2{font-family:"Plex Cond","Arial Narrow",sans-serif;font-weight:700;text-transform:uppercase;line-height:.98;margin:0;text-wrap:balance}
+h1{font-size:clamp(40px,7vw,84px);margin:16px 0 18px}
+h1 span{color:var(--amber)}
+h2{font-size:clamp(30px,4.4vw,52px);margin-bottom:22px}
+.eb{font:500 13px/1.3 "Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--amber)}
+.bozza{position:fixed;right:10px;top:10px;z-index:9;background:rgba(15,16,17,.9);border:1px solid var(--line);font-size:11px;padding:5px 9px;border-radius:4px}
+header{padding:64px 0 30px}
+header p{color:var(--mute);max-width:40rem;margin:0}
+section{padding:46px 0;border-top:1px solid var(--line)}
+/* cursore */
+.ba{position:relative;max-width:390px;margin:0 auto;aspect-ratio:780/1588;border-radius:18px;overflow:hidden;border:1px solid var(--line);touch-action:pan-y;user-select:none;-webkit-user-select:none;background:#000}
+.ba img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.ba .old{clip-path:inset(0 50% 0 0)}
+.ba .bar{position:absolute;top:0;bottom:0;left:50%;width:3px;margin-left:-1.5px;background:var(--amber)}
+.ba .knob{position:absolute;top:50%;left:50%;width:48px;height:48px;margin:-24px 0 0 -24px;border-radius:50%;background:var(--amber);color:#111;display:flex;align-items:center;justify-content:center;font:600 18px/1 "Plex Mono",monospace;box-shadow:0 4px 18px rgba(0,0,0,.5)}
+.ba .lb{position:absolute;top:12px;font:500 12px/1 "Plex Mono",monospace;text-transform:uppercase;letter-spacing:.08em;background:rgba(15,16,17,.85);padding:7px 9px;border-radius:4px}
+.ba .l1{left:12px}.ba .l2{right:12px;color:var(--amber)}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.hint{text-align:center;color:var(--mute);font-size:14px;margin-top:12px}
+/* problemi */
+.pr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.pr article{background:var(--bg2);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.pr figure{margin:0;aspect-ratio:1;overflow:hidden;background:#fff}
+.pr figure img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.pr .t{padding:16px 16px 18px}
+.pr h3{margin:0 0 8px;font:600 18px/1.3 "Plex Sans",sans-serif}
+.pr p{margin:0;color:var(--mute);font-size:15.5px}
+.pr code{font:500 13.5px "Plex Mono",monospace;color:#fff;background:rgba(226,29,29,.22);padding:1px 4px;border-radius:3px;word-break:break-all}
+@media (max-width:820px){.pr{grid-template-columns:1fr}}
+/* numeri */
+.nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.nums div{border-top:2px solid var(--amber);padding-top:16px}
+.nums b{display:block;font:700 clamp(30px,4.4vw,48px)/1 "Plex Cond",sans-serif}
+.nums b s{color:#8d959b;text-decoration-thickness:2px;font-size:.62em;margin-right:8px}
+.nums span{color:var(--mute);font-size:15px}
+@media (max-width:700px){.nums{grid-template-columns:1fr}}
+.note{color:#9aa2a8;font-size:13.5px;margin-top:18px}
+.cta{text-align:center;padding:60px 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:60px;padding:0 34px;border-radius:6px;background:var(--amber);color:#111;font:600 19px/1 "Plex Sans",sans-serif;text-decoration:none}
+.btn:focus-visible{outline:2px solid #fff;outline-offset:3px}
+footer{border-top:1px solid var(--line);padding:30px 0 40px;color:var(--mute);font-size:15px;text-align:center}
+footer a{color:var(--fg)}
+</style>
+</head>
+<body>
+<div class="bozza">Proposta di restyling – bozza non ufficiale</div>
+<div class="wrap">
+<header>
+  <div class="eb">MetPro Srl · Zanè (VI)</div>
+  <h1>Il sito di MetPro, <span>oggi e domani</span></h1>
+  <p>La prima schermata di metprosrl.it vista da un telefono, oggi e con la nuova homepage. Trascinate il cursore.</p>
+</header>
+
+<section aria-labelledby="h-ba">
+  <h2 id="h-ba" class="eb" style="font-size:13px;font-family:'Plex Mono',monospace;letter-spacing:.1em">Prima / dopo, da telefono</h2>
+  <div class="ba" id="ba">
+    <img src="nuovo-mobile.jpg" width="780" height="1588" alt="La nuova homepage di MetPro vista da telefono">
+    <img class="old" id="old" src="vecchio-mobile.jpg" width="780" height="1588" alt="La homepage attuale di MetPro vista da telefono, con il banner dei cookie che copre metà schermo">
+    <span class="lb l1">Oggi</span><span class="lb l2">Con noi</span>
+    <span class="bar" id="bar"></span><span class="knob" id="knob" aria-hidden="true">⇆</span>
+    <input type="range" min="0" max="100" value="50" id="rng" aria-label="Sposta il confronto tra sito attuale e sito nuovo">
+  </div>
+  <p class="hint">Trascinate verso destra o sinistra, anche con il dito.</p>
+</section>
+
+<section aria-labelledby="h-pr">
+  <h2 id="h-pr">Tre cose che oggi non vanno</h2>
+  <div class="pr">
+    <article><figure><img src="problema-contatti.jpg" width="780" height="800" loading="lazy" alt="La pagina Contatti del sito attuale vista da telefono"></figure>
+      <div class="t"><h3>Email e telefono della pagina Contatti portano altrove</h3><p>Il testo dice info@metprosrl.it, ma il link apre <code>kevinclarkfit@training.com</code>; il numero +39 0445 1921110 chiama <code>213-200-5078</code>. Si vede solo nel codice della pagina, ma chi tocca dal telefono scrive o chiama un indirizzo sbagliato.</p></div></article>
+    <article><figure><img src="problema-cookie.jpg" width="780" height="768" loading="lazy" alt="Il banner dei cookie che copre metà della prima schermata da telefono"></figure>
+      <div class="t"><h3>Il banner dei cookie copre metà schermo</h3><p>Da telefono, appena si apre il sito, il banner occupa la metà inferiore della prima schermata. Nelle preferenze compaiono anche testi non compilati come <code>{vendor_count}</code> e voci doppie come "Funzionale Funzionale".</p></div></article>
+    <article><figure><img src="problema-hero.jpg" width="1000" height="583" loading="lazy" alt="La prima schermata del sito attuale da computer, con la foto coperta da un velo bianco"></figure>
+      <div class="t"><h3>L'officina non si vede, il testo è da modello</h3><p>La foto del reparto è coperta da un velo bianco. Più sotto restano sezioni in inglese del modello grafico, come "Why Choose Us" e "Customer Stories", con link "View Details" che non portano da nessuna parte.</p></div></article>
+  </div>
+</section>
+
+<section aria-labelledby="h-nu">
+  <h2 id="h-nu">Tre numeri, misurati</h2>
+  <div class="nums">
+    <div><b><s>6,1 s</s>NEW_LCP</b><span>prima che compaia il contenuto principale (telefono, cache vuota)</span></div>
+    <div><b><s>1833 KB</s>NEW_KB</b><span>peso della homepage scaricata</span></div>
+    <div><b><s>87</s>NEW_REQ</b><span>richieste al caricamento della homepage</span></div>
+  </div>
+  <p class="note">Misure del 27 ottobre 2026 con lo stesso strumento per i due siti: browser Chrome che simula un Pixel 7, cache vuota, server GitHub. Il sito nuovo è una bozza ospitata su GitHub Pages.</p>
+</section>
+
+<div class="cta"><a class="btn" href="../">Guarda il sito nuovo</a></div>
+</div>
+<footer><div class="wrap">Bozza preparata da LMSoftique · <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></div></footer>
+<script>
+(function(){var r=document.getElementById('rng'),o=document.getElementById('old'),b=document.getElementById('bar'),k=document.getElementById('knob');
+function u(){var v=r.value;o.style.clipPath='inset(0 '+(100-v)+'% 0 0)';b.style.left=v+'%';k.style.left=v+'%'}
+r.addEventListener('input',u);u();})();
+</script>
+</body>
+</html>
