@@ -1,0 +1,85 @@
+{
+  "slug": "sanmartino-nuovo",
+  "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/",
+  "misuratoIl": "2026-10-28T03:08:33.371Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 397,
+  "lcpMs": 324,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/frantoio-san-martino/img/mani-olive.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/",
+  "titolo": "Frantoio San Martino – Olio extravergine taggiasco dal 1932, Dolcedo",
+  "descrizione": "Frantoio di famiglia a Dolcedo (IM) dal 1932: olio extravergine di oliva taggiasca macinato a pietra e spremuto a freddo, olive, conserve e vini della Riviera Ligure di Ponente.",
+  "h1": [
+    "L’olio taggiasco\nmacinato a pietra"
+  ],
+  "ttfb": 125,
+  "fcp": 312,
+  "domReady": 372,
+  "load": 393,
+  "pesoKB": 738,
+  "richieste": 18,
+  "script": 5,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/img/pasta-olive.webp",
+      "kb": 237
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/img/raccolta-reti.webp",
+      "kb": 161
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/img/cassette-olive.jpg",
+      "kb": 62
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/img/macine-granito.jpg",
+      "kb": 55
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/img/mani-olive.webp",
+      "kb": 32
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@frantoiosanmartino.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/#contatti"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 106,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
