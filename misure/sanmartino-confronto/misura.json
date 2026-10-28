@@ -1,0 +1,80 @@
+{
+  "slug": "sanmartino-confronto",
+  "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/confronto/",
+  "misuratoIl": "2026-10-28T03:10:59.547Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 294,
+  "lcpMs": 279,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/frantoio-san-martino/confronto/nuovo-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/confronto/",
+  "titolo": "Il sito di Frantoio San Martino, oggi e domani",
+  "descrizione": null,
+  "h1": [
+    "Il sito di Frantoio San Martino, oggi e domani"
+  ],
+  "ttfb": 116,
+  "fcp": 173,
+  "domReady": 166,
+  "load": 290,
+  "pesoKB": 441,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/confronto/vecchio-mobile.jpg",
+      "kb": 124
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/confronto/nuovo-mobile.jpg",
+      "kb": 106
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/confronto/problema-hero.jpg",
+      "kb": 82
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/confronto/problema-contatti.jpg",
+      "kb": 42
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/frantoio-san-martino/confronto/problema-email.jpg",
+      "kb": 35
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lmsoftique@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 167,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 5,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
