@@ -1,0 +1,99 @@
+{
+  "slug": "sanmartino-contatti",
+  "url": "https://www.frantoiosanmartino.com/contatti/",
+  "misuratoIl": "2026-10-28T02:44:39.957Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2951,
+  "lcpMs": 2882,
+  "lcpElemento": "DIV https://www.frantoiosanmartino.com/wp-content/uploads/2018/04/olio-extravergine-di-oliva.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.frantoiosanmartino.com/contatti/",
+  "titolo": "Contatta il Frantoio San Martino - Frantoio San Martino",
+  "descrizione": "Per informazioni sui nostri prodotti tipici liguri, sulle attività del Frantoio e sull'ospitalità contattateci, saremo felici di rispondere alle vostre domande",
+  "h1": [],
+  "ttfb": 1756,
+  "fcp": 2350,
+  "domReady": 2754,
+  "load": 2949,
+  "pesoKB": 1009,
+  "richieste": 131,
+  "script": 49,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/04/olio-extravergine-di-oliva.jpg",
+      "kb": 209
+    },
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/09/logo-dop.png",
+      "kb": 20
+    },
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/05/paypal22-300x35.png",
+      "kb": 14
+    },
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/05/corriere.png",
+      "kb": 8
+    },
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/10/logo-100ITA.png",
+      "kb": 8
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "%20info@frantoiosanmartino.com",
+    "info@frantoiosanmartino.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.frantoiosanmartino.com/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.frantoiosanmartino.com/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.frantoiosanmartino.com/contatti/"
+    },
+    {
+      "t": "CONDIZIONI DI VENDITA",
+      "h": "https://www.frantoiosanmartino.com/condizioni-vendita/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 1861,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1487,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1402,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

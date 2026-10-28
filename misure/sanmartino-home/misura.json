@@ -1,0 +1,100 @@
+{
+  "slug": "sanmartino-home",
+  "url": "https://www.frantoiosanmartino.com/",
+  "misuratoIl": "2026-10-28T02:44:28.350Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 6661,
+  "lcpMs": 6107,
+  "lcpElemento": "DIV https://www.frantoiosanmartino.com/wp-content/uploads/2018/02/home-07.jpg",
+  "cls": 0,
+  "urlFinale": "https://www.frantoiosanmartino.com/",
+  "titolo": "Frantoio San Martino - Imperia",
+  "descrizione": "Scopri tutto il gusto dei prodotti tipici liguri sul nostro sito: il Frantoio San Martino di Dolcedo produce olio extravergine, olive Taggiasche, pesto genovese",
+  "h1": [
+    "LA TRADIZIONE DELL'OLIO DAL 1932"
+  ],
+  "ttfb": 5139,
+  "fcp": 5848,
+  "domReady": 6636,
+  "load": 6658,
+  "pesoKB": 1949,
+  "richieste": 141,
+  "script": 51,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdn.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/04/olio-extravergine-di-oliva.jpg",
+      "kb": 209
+    },
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/06/olive-taggiasche-san-martino-1.png",
+      "kb": 193
+    },
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/02/home-07.jpg",
+      "kb": 182
+    },
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/06/olio-dop-san-martino.png",
+      "kb": 155
+    },
+    {
+      "url": "https://www.frantoiosanmartino.com/wp-content/uploads/2018/09/olio-extravergine-riserva-caratteristiche.jpg",
+      "kb": 106
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "%20info@frantoiosanmartino.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.frantoiosanmartino.com/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.frantoiosanmartino.com/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.frantoiosanmartino.com/contatti/"
+    },
+    {
+      "t": "CONDIZIONI DI VENDITA",
+      "h": "https://www.frantoiosanmartino.com/condizioni-vendita/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2008,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1467,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1518,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}
