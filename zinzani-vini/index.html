@@ -7,6 +7,7 @@
 <title>Zinzani Vini – Cantina a Faenza dal 1970 (proposta di restyling)</title>
 <meta name="description" content="Azienda Agricola Zinzani: vini delle colline di Faenza, visite e degustazioni in cantina, vino sfuso. Proposta di restyling non ufficiale.">
 <meta name="theme-color" content="#2a1519">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%238e1b2c%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-family=%22Georgia%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%23fff%22%3EZ%3C/text%3E%3C/svg%3E">
 <link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="img/hero-m.jpg" as="image" media="(max-width: 760px)">
 <link rel="preload" href="img/hero.jpg" as="image" media="(min-width: 761px)">
@@ -63,9 +64,9 @@ p{text-wrap:pretty}
 .hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:var(--ink)}
 .hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .hero picture img{object-position:90% 75%;transform-origin:70% 70%}
-@media(max-width:760px){.hero picture img{object-position:85% 70%}}
-.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,12,14,.45) 0%,rgba(26,12,14,0) 22%,rgba(26,12,14,.25) 42%,rgba(30,15,15,.92) 100%)}
-@media(min-width:900px){.hero::after{background:linear-gradient(90deg,rgba(40,20,22,.82) 0,rgba(40,20,22,.45) 50%,rgba(40,20,22,0) 75%),linear-gradient(180deg,rgba(26,12,14,.5) 0,transparent 28%)}}
+@media(max-width:760px){.hero picture img{object-position:80% 100%}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,12,14,.35) 0%,rgba(26,12,14,0) 18%,rgba(26,12,14,0) 34%,rgba(35,18,20,.55) 55%,rgba(35,18,20,.9) 100%)}
+@media(min-width:900px){.hero::after{background:linear-gradient(90deg,rgba(35,18,20,.78) 0,rgba(35,18,20,.55) 38%,rgba(35,18,20,0) 68%),linear-gradient(180deg,rgba(26,12,14,.4) 0,transparent 22%)}}
 .hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:calc(6.2rem + env(safe-area-inset-bottom))}
 @media(min-width:900px){.hero .wrap{padding-bottom:6rem}}
 .hero h1{font-size:clamp(3.4rem,12vw,7.6rem);max-width:10ch;text-wrap:balance}
@@ -95,7 +96,7 @@ p{text-wrap:pretty}
 .stats div{border-right:1px solid var(--line);padding-left:.8rem!important}.stats div:first-child{padding-left:0!important}.stats div:last-child{border-right:0}
 .stats span{display:block;font:600 clamp(2.4rem,4.5vw,3.4rem)/1 "Fraunces",Georgia,serif}
 .stats p{margin:.4rem 0 0;font-weight:700;color:var(--muted);font-size:.95rem}
-@media(min-width:860px){.nums .intro{grid-template-columns:1.1fr .9fr}.stats{grid-template-columns:repeat(3,1fr)}.stats div{border-right:1px solid var(--line);padding-left:1.2rem!important}.stats div:first-child{padding-left:0!important}.stats div:last-child{border-right:0}}
+@media(min-width:860px){.nums .intro{grid-template-columns:1.1fr .9fr;align-items:end}.stats{grid-template-columns:repeat(3,1fr)}.stats div{border-right:1px solid var(--line);padding-left:1.2rem!important}.stats div:first-child{padding-left:0!important}.stats div:last-child{border-right:0}}
 
 /* carta dei vini (elemento firma) */
 .carta{padding:clamp(3rem,7vw,6rem) 0;background:var(--white)}
@@ -126,7 +127,7 @@ p{text-wrap:pretty}
 .wine.big h3{font-size:clamp(2.4rem,5vw,3.6rem)}
 .wine.big p{font-size:.95rem}
 @media(min-width:760px){.wine{min-height:500px}.wine.big{min-height:500px}}
-@media(max-width:759px){.wine{min-height:300px}.wine img{height:calc(100% - 7.6rem)}.wine.big{grid-column:1/-1;min-height:340px}.wine h3{font-size:1.45rem}.wine p{font-size:.8rem;min-height:2.6em}.wine.big .txt{max-width:58%}}
+@media(max-width:759px){.wine{min-height:300px}.wine img{height:calc(100% - 7.6rem)}.wine.big{grid-column:1/-1;min-height:340px}.wine h3{font-size:1.45rem}.wine p{font-size:.8rem;min-height:2.6em}.wine.big .txt{max-width:58%}.wine{padding:.75rem}.wine img{height:calc(100% - 6.8rem);top:2.1rem}}
 .carta .note{margin:1.4rem 0 0;color:var(--muted);font-size:.95rem}
 
 /* uve */
@@ -155,7 +156,7 @@ p{text-wrap:pretty}
 .cantina .b{aspect-ratio:1}
 .cantina .c{aspect-ratio:4/3}
 .cantina .e{aspect-ratio:4/3}
-.cantina .e img{object-position:85% 30%}
+.cantina .e img{object-position:70% 30%}
 .cantina .phs{display:contents}
 @media(max-width:899px){.cantina .lay{grid-auto-flow:dense}.cantina .b{display:none}.cantina .c{grid-column:1/2!important;aspect-ratio:1}.cantina .e{grid-column:2/3!important;aspect-ratio:1!important}.cantina .lay{grid-template-columns:1fr 1fr}.cantina .txt,.cantina .a,.cantina .c{grid-column:1/-1}}
 .cantina .quote{background:var(--teal);color:#fff;border-radius:22px;padding:1.6rem;display:flex;flex-direction:column;justify-content:space-between;gap:1rem}
@@ -185,6 +186,7 @@ p{text-wrap:pretty}
 .offer{background:var(--ink-2);border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
 .offer img{aspect-ratio:16/10;object-fit:cover;width:100%}
 .offer .in{padding:1.3rem 1.3rem 1.5rem;display:flex;flex-direction:column;gap:.8rem;flex:1}
+.offer{border:1px solid rgba(255,255,255,.12)}
 .offer h3{font-size:1.9rem;display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
 .offer h3 small{font:600 1.5rem/1 "Fraunces",Georgia,serif;color:var(--sun)}
 .offer .sub{margin:0;font-weight:700;color:#cfc4dc;font-size:.95rem}
@@ -258,7 +260,7 @@ footer p{margin:0}
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#" aria-label="Zinzani Vini, inizio pagina"><b>Zinzani</b><small>Vini · Faenza</small></a>
+    <a class="brand" href="#"><b>Zinzani</b><small>Vini · Faenza</small></a>
     <nav class="nav" aria-label="Sezioni">
       <a href="#vini">I vini</a><a href="#cantina">La cantina</a><a href="#visite">Visite</a><a href="#sfuso">Vino sfuso</a><a href="#dove">Dove siamo</a>
     </nav>
@@ -275,7 +277,7 @@ footer p{margin:0}
   </picture>
   <div class="wrap">
     <p class="kicker">Azienda Agricola Zinzani · Faenza (RA)</p>
-    <h1 id="t-hero">Vino di collina, <em>dal 1970.</em></h1>
+    <h1 id="t-hero">Vino di Faenza, <em>dal 1970.</em></h1>
     <p class="lead">Sulle colline di Faenza la famiglia Zinzani coltiva sei ettari di vigna e fa dodici vini tra rossi, bianchi, rosati e passiti. Si assaggiano in cantina e si portano a casa in bottiglia o sfusi.</p>
     <div class="ctas">
       <a class="btn" href="#visite">Prenota una degustazione <span aria-hidden="true">→</span></a>
@@ -290,7 +292,7 @@ footer p{margin:0}
 <section class="nums" aria-labelledby="t-nums">
   <div class="wrap">
     <div class="intro">
-      <h2 id="t-nums" class="rv">Una famiglia, tre generazioni, una collina</h2>
+      <h2 id="t-nums" class="rv">Una famiglia, tre generazioni</h2>
       <p class="rv">La cantina l’ha fondata Antonio Zinzani nel 1970. Da allora la portano avanti i suoi familiari, con i metodi tradizionali tramandati in famiglia e tecniche nuove dove servono, come l'irrigazione di precisione in vigna.</p>
     </div>
     <div class="stats">
@@ -334,7 +336,7 @@ footer p{margin:0}
   <div class="wrap cols">
     <div class="side">
             <h2 id="t-uve" class="rv">Le uve delle colline faentine</h2>
-      <p class="rv">Albana, Trebbiano, Malvasia, Grechetto Gentile e Sauvignon per i bianchi; Sangiovese, Cabernet Sauvignon e Centesimino per i rossi. Le foto sono delle nostre vigne.</p>
+      <p class="rv">Albana, Trebbiano, Malvasia, Grechetto Gentile e Sauvignon per i bianchi; Sangiovese, Cabernet Sauvignon e Centesimino per i rossi.</p>
       <p class="hint" aria-hidden="true">Scorrete le uve →</p>
     </div>
     <div class="strip" tabindex="0" aria-label="Foto delle uve, scorrevoli">
@@ -374,7 +376,7 @@ footer p{margin:0}
         <div class="in"><h3>Base <small>15 €</small></h3><p class="sub">Per conoscere la cantina</p>
           <ul><li>Visita guidata della cantina</li><li>Passeggiata in vigna</li><li>Degustazione di 5 vini sfusi</li></ul></div>
       </article>
-      <article class="offer feat rv">
+      <article class="offer rv">
         <div class="in"><h3>Plus <small>20 €</small></h3><p class="sub">Con i prodotti del territorio</p>
           <ul><li>Visita in cantina e in vigna</li><li>Degustazione di 7 vini sfusi</li><li>Pane di Marradi e olio dell’azienda</li><li>Salumi e formaggi locali</li></ul></div>
       </article>
