@@ -1,0 +1,106 @@
+{
+  "slug": "zinzani-en-contatti",
+  "url": "https://www.zinzanivini.it/en/contatti-2/",
+  "misuratoIl": "2026-10-29T03:04:27.131Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 7000,
+  "lcpMs": 6270,
+  "lcpElemento": "DIV ",
+  "cls": 0,
+  "urlFinale": "https://www.zinzanivini.it/en/contatti-2/",
+  "titolo": "Contacts - Zinzani Vini",
+  "descrizione": "Via Casale 23 - 48018 Faenza – Ravea – Italy",
+  "h1": [],
+  "ttfb": 3748,
+  "fcp": 5038,
+  "domReady": 6419,
+  "load": 6999,
+  "pesoKB": 2202,
+  "richieste": 103,
+  "script": 75,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.google.com",
+    "cdnjs.cloudflare.com",
+    "matomo.goshopfor.it",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/02/logo-zinzani-vini-faenza.jpg",
+      "kb": 31
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/cabernet-sauvignon-igp-pet-5-litri-zinzani-vini-100x100.jpg",
+      "kb": 3
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/lov-trebbiano-frizzante-Zinzani-Vini-Faenza-100x100.jpg",
+      "kb": 3
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/drago-vino-centesimino-zinzani-vini-100x100.jpg",
+      "kb": 3
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/campet-cabernet-sauvignon-zinzani-vini-faenza-100x100.jpg",
+      "kb": 3
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "49%",
+      "testo": "To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting "
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@zinzanivini.it"
+  ],
+  "telefono": [
+    "+393487932617"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Condizioni di Vendita",
+      "h": "https://www.zinzanivini.it/condizioni-vendita/"
+    },
+    {
+      "t": "Politica di rimborso e reso",
+      "h": "https://www.zinzanivini.it/rimborso_reso/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 3890,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3054,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3165,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LftbO0UAAAAAF31ULSQWCj4A0A3iTbHSQWATXDa"
+    }
+  ]
+}

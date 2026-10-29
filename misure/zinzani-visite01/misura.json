@@ -1,0 +1,60 @@
+{
+  "slug": "zinzani-visite01",
+  "url": "https://www.zinzanivini.it/prodotto/68fa0f4916f7c/",
+  "misuratoIl": "2026-10-29T03:04:44.772Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2377,
+  "lcpMs": null,
+  "lcpElemento": null,
+  "cls": 0,
+  "urlFinale": "https://www.zinzanivini.it/prodotto/68fa0f4916f7c/",
+  "titolo": "",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 2367,
+  "fcp": null,
+  "domReady": 2375,
+  "load": 2375,
+  "pesoKB": 1,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": 2517,
+      "status": 404,
+      "cache": null
+    },
+    {
+      "ms": 2553,
+      "status": 404,
+      "cache": null
+    },
+    {
+      "ms": 4060,
+      "status": 404,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 404,
+      "url": "https://www.zinzanivini.it/prodotto/68fa0f4916f7c/"
+    }
+  ]
+}
