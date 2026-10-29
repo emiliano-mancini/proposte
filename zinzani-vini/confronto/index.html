@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Il sito di Zinzani Vini, oggi e domani</title>
+<meta property="og:title" content="Il sito di Zinzani Vini, oggi e domani">
+<meta property="og:image" content="confronto.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%238e1b2c%22/%3E%3Ctext x=%2216%22 y=%2223%22 font-family=%22Georgia%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%23fff%22%3EZ%3C/text%3E%3C/svg%3E">
+<style>
+@font-face{font-family:"Fraunces";src:url(../fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Figtree";src:url(../fonts/figtree-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Figtree";src:url(../fonts/figtree-700.woff2) format("woff2");font-weight:700 800;font-display:swap}
+:root{--ink:#2a1519;--red:#8e1b2c;--sun:#f2b42a;--paper:#f5f0ea;--muted:#4a3c3e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:#33201f;font:400 1.05rem/1.6 "Figtree",system-ui,sans-serif;overflow-x:hidden}
+img{max-width:100%;display:block;height:auto}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:600;line-height:1.05;margin:0;text-wrap:balance}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+.badge{display:block;width:max-content;max-width:calc(100% - 32px);margin:12px auto 0;background:var(--sun);color:var(--ink);font-weight:800;font-size:.72rem;padding:.4rem .75rem;border-radius:99px}
+header{padding:2.2rem 0 1.5rem;text-align:center}
+header p.k{font-weight:800;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;margin:0 0 .8rem;color:var(--red)}
+header h1{font-size:clamp(2.2rem,6vw,4rem)}
+header p.s{max-width:36rem;margin:1rem auto 0;color:var(--muted)}
+.slider{position:relative;width:min(390px,100%);margin:1.5rem auto 0;aspect-ratio:780/1688;border-radius:28px;overflow:hidden;box-shadow:0 20px 50px rgba(42,21,25,.25);border:6px solid var(--ink);touch-action:pan-y;user-select:none;-webkit-user-select:none;background:#000}
+.slider img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.slider .old{clip-path:inset(0 calc(100% - var(--x,50%)) 0 0)}
+.slider .line{position:absolute;top:0;bottom:0;left:var(--x,50%);width:3px;margin-left:-1.5px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.2)}
+.slider .knob{position:absolute;top:50%;left:var(--x,50%);width:52px;height:52px;margin:-26px 0 0 -26px;border-radius:50%;background:var(--sun);color:var(--ink);display:grid;place-items:center;font-weight:800;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:ew-resize}
+.slider .lab{position:absolute;top:12px;font-weight:800;font-size:.8rem;background:rgba(0,0,0,.65);color:#fff;padding:.25rem .6rem;border-radius:99px}
+.slider .lab.l{left:12px}.slider .lab.r{right:12px;background:var(--sun);color:var(--ink)}
+.slider input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.hint{text-align:center;font-size:.9rem;color:var(--muted);margin:.8rem 0 0}
+section{padding:3rem 0}
+h2{font-size:clamp(1.8rem,4.5vw,2.8rem);margin-bottom:1.5rem}
+.probs{display:grid;gap:1.2rem}
+@media(min-width:860px){.probs{grid-template-columns:repeat(3,1fr)}}
+.prob{background:#fff;border-radius:20px;overflow:hidden;border:1px solid rgba(42,21,25,.12)}
+.prob img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#fff;border-bottom:1px solid rgba(42,21,25,.12)}
+.prob div{padding:1rem 1.1rem 1.2rem}
+.prob h3{font-size:1.35rem;margin-bottom:.4rem}
+.prob p{margin:0;font-size:.97rem}
+.nums{background:var(--ink);color:#f4ecea}
+.nums h2{color:#fff}
+.grid3{display:grid;gap:1rem}
+@media(min-width:760px){.grid3{grid-template-columns:repeat(3,1fr)}}
+.num{border:1px solid rgba(255,255,255,.18);border-radius:20px;padding:1.2rem}
+.num b{display:block;font-weight:800;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:#d9c9c6}
+.num .v{display:flex;align-items:baseline;gap:.6rem;margin:.6rem 0 .2rem;flex-wrap:wrap}
+.num .o{font:600 1.6rem/1 "Fraunces",Georgia,serif;text-decoration:line-through;text-decoration-thickness:2px;color:#c9a9a5}
+.num .n{font:600 2.6rem/1 "Fraunces",Georgia,serif;color:var(--sun)}
+.num small{color:#d9c9c6;font-size:.88rem}
+.note{font-size:.85rem;color:#cdbab6;margin:1.2rem 0 0}
+.cta{text-align:center}
+.big{display:inline-flex;align-items:center;gap:.6rem;background:var(--sun);color:var(--ink);font-weight:800;font-size:1.15rem;text-decoration:none;padding:1.1rem 1.8rem;border-radius:99px;box-shadow:0 10px 24px rgba(242,180,42,.35)}
+footer{padding:2.5rem 0 3rem;text-align:center;color:var(--muted);font-size:.95rem;border-top:1px solid rgba(42,21,25,.12)}
+footer a{color:var(--red);font-weight:800}
+</style>
+</head>
+<body>
+<span class="badge" role="note">Proposta di restyling – bozza non ufficiale</span>
+<header class="wrap">
+  <p class="k">Zinzani Vini · Faenza</p>
+  <h1>Il sito di Zinzani Vini, oggi e domani</h1>
+  <p class="s">La prima schermata che vede chi apre il sito dal telefono. Trascinate il cursore: a sinistra il sito di oggi, a destra la bozza nuova.</p>
+  <div class="slider" id="sl" style="--x:50%">
+    <img src="nuovo-mobile.jpg" width="780" height="1688" alt="La bozza della nuova homepage di Zinzani Vini sul telefono">
+    <img class="old" src="vecchio-mobile.jpg" width="780" height="1688" alt="L'homepage attuale di zinzanivini.it sul telefono, con la finestra dei cookie">
+    <span class="lab l">Oggi</span><span class="lab r">Con noi</span>
+    <span class="line" aria-hidden="true"></span><span class="knob" aria-hidden="true">⇆</span>
+    <input type="range" min="0" max="100" value="50" aria-label="Sposta il confronto tra sito di oggi e bozza nuova" id="rg">
+  </div>
+  <p class="hint">Trascinate con il dito o con il mouse</p>
+</header>
+
+<section class="wrap" aria-labelledby="t-p">
+  <h2 id="t-p">Tre cose che oggi non funzionano</h2>
+  <div class="probs">
+    <article class="prob"><img src="problema-cookie.jpg" width="428" height="720" loading="lazy" alt="La finestra dei cookie copre la metà bassa dello schermo del telefono"><div><h3>Mezzo schermo coperto</h3><p>Dal telefono, appena si apre il sito, la finestra dei cookie copre circa metà dello schermo. Sopra, al posto del video, compare la scritta «Fai clic su "Accetto" per abilitare Youtube».</p></div></article>
+    <article class="prob"><img src="problema-404.jpg" width="720" height="433" loading="lazy" alt="Pagina con la scritta La pagina non può essere trovata"><div><h3>Pagine che non esistono più</h3><p>Alcuni indirizzi del sito che compaiono nei risultati di ricerca, come la pagina del negozio online e quella del rosato Rogé, rispondono «La pagina non può essere trovata».</p></div></article>
+    <article class="prob"><img src="problema-prova.jpg" width="720" height="579" loading="lazy" alt="Pagina prodotto di prova con l'immagine segnaposto"><div><h3>Un prodotto «prova» online</h3><p>Nel negozio è pubblicata una pagina prodotto chiamata «prova», con l'immagine segnaposto al posto della foto.</p></div></article>
+  </div>
+</section>
+
+<section class="nums" aria-labelledby="t-n">
+  <div class="wrap">
+    <h2 id="t-n">Tre numeri, prima e dopo</h2>
+    <div class="grid3">
+      <div class="num"><b>Prima risposta del server</b><div class="v"><span class="o">3,1–4,3 s</span><span class="n">0,1 s</span></div><small>quanto si aspetta prima che arrivi qualcosa</small></div>
+      <div class="num"><b>Contenuto principale visibile</b><div class="v"><span class="o">6,1–17,9 s</span><span class="n">0,3 s</span></div><small>tempo per vedere la parte più grande della pagina</small></div>
+      <div class="num"><b>Peso della pagina</b><div class="v"><span class="o">2,1 MB</span><span class="n">0,6 MB</span></div><small>dati scaricati dal telefono all'apertura</small></div>
+    </div>
+    <p class="note">Misure fatte il 29 ottobre 2026 con un telefono simulato (Chrome, Pixel 7), cache vuota, sulla homepage di oggi (tre misure) e sulla bozza.</p>
+  </div>
+</section>
+
+<section class="wrap cta">
+  <a class="big" href="../">Guarda il sito nuovo <span aria-hidden="true">→</span></a>
+</section>
+
+<footer class="wrap">
+  <p>Bozza preparata da LMSoftique · <a href="mailto:lmsoftique@gmail.com">lmsoftique@gmail.com</a></p>
+</footer>
+<script>
+(function(){var s=document.getElementById('sl'),r=document.getElementById('rg');function set(v){s.style.setProperty('--x',v+'%')}
+r.addEventListener('input',function(){set(r.value)});
+function fromX(e){var b=s.getBoundingClientRect();var x=((e.clientX-b.left)/b.width)*100;x=Math.max(0,Math.min(100,x));r.value=x;set(x)}
+var drag=false;s.addEventListener('pointerdown',function(e){drag=true;fromX(e)});window.addEventListener('pointermove',function(e){if(drag)fromX(e)});window.addEventListener('pointerup',function(){drag=false});})();
+</script>
+</body>
+</html>
