@@ -1,0 +1,106 @@
+{
+  "slug": "zinzani-azienda",
+  "url": "https://www.zinzanivini.it/en/azienda-2/",
+  "misuratoIl": "2026-10-29T02:58:51.491Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 6863,
+  "lcpMs": 5026,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://www.zinzanivini.it/en/azienda-2/",
+  "titolo": "The Winery - Zinzani Vini",
+  "descrizione": "Founded in 1970 by Antonio Zinzani and subsequently managed with dedication by three generations of his family, the Zinzani winery represents an emblem of",
+  "h1": [],
+  "ttfb": 3863,
+  "fcp": 5026,
+  "domReady": 6301,
+  "load": 6861,
+  "pesoKB": 2267,
+  "richieste": 106,
+  "script": 77,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.google.com",
+    "cdnjs.cloudflare.com",
+    "matomo.goshopfor.it",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/Zinzani-Vini-vista-della-cantina-a-faenza-verticale.jpg",
+      "kb": 334
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/02/logo-zinzani-vini-faenza.jpg",
+      "kb": 31
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/cabernet-sauvignon-igp-pet-5-litri-zinzani-vini-100x100.jpg",
+      "kb": 3
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/lov-trebbiano-frizzante-Zinzani-Vini-Faenza-100x100.jpg",
+      "kb": 3
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/drago-vino-centesimino-zinzani-vini-100x100.jpg",
+      "kb": 3
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "49%",
+      "testo": "To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting "
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@zinzanivini.it"
+  ],
+  "telefono": [
+    "+393487932617"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Condizioni di Vendita",
+      "h": "https://www.zinzanivini.it/condizioni-vendita/"
+    },
+    {
+      "t": "Politica di rimborso e reso",
+      "h": "https://www.zinzanivini.it/rimborso_reso/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 3203,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3110,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3374,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LftbO0UAAAAAF31ULSQWCj4A0A3iTbHSQWATXDa"
+    }
+  ]
+}

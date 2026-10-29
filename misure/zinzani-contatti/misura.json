@@ -1,0 +1,118 @@
+{
+  "slug": "zinzani-contatti",
+  "url": "https://www.zinzanivini.it/contatti/",
+  "misuratoIl": "2026-10-29T02:57:07.423Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 7075,
+  "lcpMs": 6423,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://www.zinzanivini.it/contatti/",
+  "titolo": "Contatti - Zinzani Vini",
+  "descrizione": "Via Casale 23 - 48018 Faenza – Ravenna – Italy",
+  "h1": [],
+  "ttfb": 4060,
+  "fcp": 5991,
+  "domReady": 6527,
+  "load": 7069,
+  "pesoKB": 2196,
+  "richieste": 102,
+  "script": 75,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.google.com",
+    "cdnjs.cloudflare.com",
+    "matomo.goshopfor.it",
+    "www.gstatic.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/02/logo-zinzani-vini-faenza.jpg",
+      "kb": 31
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/drago-vino-centesimino-zinzani-vini-100x100.jpg",
+      "kb": 3
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/07/Ravenna-Igp-Cabernet-Sauvignon-affinato-in-Barrique-negozio-Zinzani-Vini-Faenza-q1ilfhgmx2hpspmgdcgcuupxy7",
+      "kb": 3
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/campet-cabernet-sauvignon-zinzani-vini-faenza-100x100.jpg",
+      "kb": 3
+    },
+    {
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+      "kb": 2
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "52%",
+      "testo": "Per offrire le migliori esperienze, utilizziamo tecnologie come i cookie per archiviare e/o accedere alle informazioni d"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": true,
+  "recensioni": false,
+  "email": [
+    "info@zinzanivini.it"
+  ],
+  "telefono": [
+    "+393487932617"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.zinzanivini.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.zinzanivini.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.zinzanivini.it/contatti/"
+    },
+    {
+      "t": "Condizioni di Vendita",
+      "h": "https://www.zinzanivini.it/condizioni-vendita/"
+    },
+    {
+      "t": "Politica di rimborso e reso",
+      "h": "https://www.zinzanivini.it/rimborso_reso/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 4372,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3238,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3049,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6LftbO0UAAAAAF31ULSQWCj4A0A3iTbHSQWATXDa"
+    }
+  ]
+}
