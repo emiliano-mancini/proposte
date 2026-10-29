@@ -1,0 +1,179 @@
+{
+  "slug": "margiotta-home",
+  "url": "https://www.margiottavini.it/",
+  "misuratoIl": "2026-10-29T02:48:59.900Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2337,
+  "lcpMs": 1468,
+  "lcpElemento": "IMG https://www.margiottavini.it/cdn/shop/files/16F28A6E-DF58-4098-8062-56DDF29DA5C4_1_201_a.webp?v=1785831724&width=600",
+  "cls": 0,
+  "urlFinale": "https://www.margiottavini.it/",
+  "titolo": "Vini e liquori abruzzesi | Cantina Margiotta",
+  "descrizione": "Montepulciano d'Abruzzo, Liquore di Genziana, Ratafià e molto altro: acquista i nostri vini abruzzesi o prenota una degustazione presso Cantina Margiotta.",
+  "h1": [
+    ""
+  ],
+  "ttfb": 566,
+  "fcp": 775,
+  "domReady": 1136,
+  "load": 2335,
+  "pesoKB": 3991,
+  "richieste": 261,
+  "script": 74,
+  "serviziEsterni": [
+    "cdn.shopify.com",
+    "shop.app",
+    "fonts.googleapis.com",
+    "eu-assets.i.posthog.com",
+    "cdn.ecomposer.app",
+    "monorail-edge.shopifysvc.com",
+    "otlp-http-production.shopifysvc.com",
+    "widget-view.dondy.net",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "www.googleadservices.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.merchant-center-analytics.goog",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.facebook.com",
+    "googleads.g.doubleclick.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.margiottavini.it/cdn/shop/collections/vini-abruzzesi-cantina-margiotta.jpg?v=1719344387&width=1000",
+      "kb": 175
+    },
+    {
+      "url": "https://www.margiottavini.it/cdn/shop/files/terroir-suolo.jpg?v=1716964737&width=1000",
+      "kb": 165
+    },
+    {
+      "url": "https://www.margiottavini.it/cdn/shop/files/terroir-clima.jpg?v=1716964737&width=1000",
+      "kb": 124
+    },
+    {
+      "url": "https://www.margiottavini.it/cdn/shop/files/16F28A6E-DF58-4098-8062-56DDF29DA5C4_1_201_a.webp?v=1785831724&width=600",
+      "kb": 119
+    },
+    {
+      "url": "https://www.margiottavini.it/cdn/shop/collections/liquori-abruzzesi-cantina-margiotta.jpg?v=1714418639&width=1000",
+      "kb": 106
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": true,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [],
+  "telefono": [],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Chi siamo",
+      "h": "https://www.margiottavini.it/pages/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.margiottavini.it/pages/contact"
+    },
+    {
+      "t": "Chi siamo",
+      "h": "https://www.margiottavini.it/pages/chi-siamo"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.margiottavini.it/pages/contact"
+    },
+    {
+      "t": "Termini e condizioni",
+      "h": "https://www.iubenda.com/termini-e-condizioni/67340978"
+    },
+    {
+      "t": "Condizioni di vendita",
+      "h": "https://www.margiottavini.it/policies/terms-of-service"
+    },
+    {
+      "t": "Spedizioni",
+      "h": "https://www.margiottavini.it/policies/shipping-policy"
+    },
+    {
+      "t": "Politica di reso",
+      "h": "https://www.margiottavini.it/policies/refund-policy"
+    },
+    {
+      "t": "Termini e condizioni del servizio",
+      "h": "https://www.margiottavini.it/policies/terms-of-service"
+    },
+    {
+      "t": "Informativa sulle spedizioni",
+      "h": "https://www.margiottavini.it/policies/shipping-policy"
+    }
+  ],
+  "piattaforma": "Shopify",
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 324,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 268,
+      "status": 200,
+      "cache": "DYNAMIC"
+    },
+    {
+      "ms": 189,
+      "status": 200,
+      "cache": "DYNAMIC"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://monorail-edge.shopifysvc.com/v1/produce"
+    },
+    {
+      "status": 999,
+      "url": "https://www.margiottavini.it/api/collect"
+    },
+    {
+      "status": 999,
+      "url": "https://www.margiottavini.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://shop.app/pay/hop?analytics_trace_id=d0dbad8a-2725-4e76-9592-325091bdb418&target_origin=https%3A%2F%2Fwww.margiottavini.it&client_handle=ajejebrazorv.mys"
+    },
+    {
+      "status": 999,
+      "url": "https://www.margiottavini.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.margiottavini.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.margiottavini.it/shopify_pay/accelerated_checkout"
+    },
+    {
+      "status": 999,
+      "url": "https://www.margiottavini.it/.well-known/shopify/monorail/unstable/produce_batch"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&auid=1411434428.1793242136&dt=Vini%20e%20liquori%20abruzzesi%20%7C%20Cantina%20Margiotta&tid=AW-1649458662"
+    },
+    {
+      "status": 999,
+      "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1411434428.1793242136&gtm=45Pe6ar1v9189553077za208zb9192042215zd9192042215xecxf1&fmt=8"
+    }
+  ]
+}

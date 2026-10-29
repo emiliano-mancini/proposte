@@ -1,0 +1,125 @@
+{
+  "slug": "dogliotti-home",
+  "url": "https://www.dogliotti1870.com/",
+  "misuratoIl": "2026-10-29T02:48:02.268Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 3233,
+  "lcpMs": 1957,
+  "lcpElemento": "IMG https://www.dogliotti1870.com/immagini/Dogliotti2025.png",
+  "cls": 0.046,
+  "urlFinale": "https://www.dogliotti1870.com/",
+  "titolo": "Dogliotti1870 — Vini pregiati piemontesi",
+  "descrizione": "Situati tra le Langhe e il Monferrato, produciamo con passione i grandi vini di questi territori da cinque generazioni. Scopri la nostra cantina a Castagnole delle Lanze.",
+  "h1": [],
+  "ttfb": 833,
+  "fcp": 1139,
+  "domReady": 1519,
+  "load": 3230,
+  "pesoKB": 6623,
+  "richieste": 60,
+  "script": 24,
+  "serviziEsterni": [
+    "widgets.regiondo.net",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "js.stripe.com",
+    "partner-widgets-editor-backend.prod.regiondo.net",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com",
+    "shared-frontend-resources.prod.regiondo.net",
+    "shopping-experience-api.prod.regiondo.net",
+    "cdn.regiondo.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.dogliotti1870.com/immagini/cantina-bottiglie-storiche-mobile_dogliotti1870.jpg",
+      "kb": 675
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/attrezzi-storici-cantina-mobile_dogliotti1870.jpg",
+      "kb": 587
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/bottiglia-barbera-asti-stappata_dogliotti1870.jpg",
+      "kb": 532
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/cantina-bottiglie-storiche_dogliotti1870.jpg",
+      "kb": 507
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/bottiglie-barbis_dogliotti1870.jpg",
+      "kb": 446
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@dogliotti1870.com"
+  ],
+  "telefono": [
+    "+390141878153"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.dogliotti1870.com/pagine/chi-siamo.html"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.dogliotti1870.com/pagine/contatti.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.dogliotti1870.com/pagine/faq.html"
+    },
+    {
+      "t": "TERMINI E CONDIZIONI",
+      "h": "https://www.dogliotti1870.com/pagine/termini.html"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 763,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 143,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 135,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FTF768FSCH&gtm=45je6ar1v9105529631za208zd9105529631xf1&_p=1793242076370&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=1&tid=AW-1030596322&en=page_view&dl=https%3A%2F%2Fwww.dogliotti1870.com&scrsrc=www.googletag"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=0&dt=Catalogo%20dei%20prodotti&tid=AW-1030596322&en=page_view&dl=https%3A%2F%2Fwww.dogliotti"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=0&tid=AW-1030596322&en=search&dl=https%3A%2F%2Fwww.dogliotti1870.com&scrsrc=www.googletagman"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "dogliotti-visite",
+  "url": "https://www.dogliotti1870.com/pagine/visite.html",
+  "misuratoIl": "2026-10-29T02:48:09.610Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2624,
+  "lcpMs": 842,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://www.dogliotti1870.com/pagine/visite.html",
+  "titolo": "Visite e Soggiorno — Dogliotti1870",
+  "descrizione": "Prenota una visita e degustazione in cantina a Castagnole delle Lanze e scopri le camere in arrivo per pernottare tra le vigne di Dogliotti1870.",
+  "h1": [
+    "VISITE E SOGGIORNO"
+  ],
+  "ttfb": 410,
+  "fcp": 842,
+  "domReady": 846,
+  "load": 2622,
+  "pesoKB": 4215,
+  "richieste": 45,
+  "script": 22,
+  "serviziEsterni": [
+    "widgets.regiondo.net",
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "js.stripe.com",
+    "partner-widgets-editor-backend.prod.regiondo.net",
+    "shared-frontend-resources.prod.regiondo.net",
+    "shopping-experience-api.prod.regiondo.net",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com",
+    "cdn.regiondo.net"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.dogliotti1870.com/immagini/sala-degustazione-storica_dogliotti1870.jpg",
+      "kb": 634
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/cantina-bottiglie-storiche_dogliotti1870.jpg",
+      "kb": 507
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/bottiglie-barbis_dogliotti1870.jpg",
+      "kb": 446
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/tavolo-degustazione_dogliotti1870.jpg",
+      "kb": 445
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/visita-guidata-botti_dogliotti1870.jpg",
+      "kb": 303
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@dogliotti1870.com"
+  ],
+  "telefono": [
+    "+390141878153"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.dogliotti1870.com/pagine/chi-siamo.html"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.dogliotti1870.com/pagine/contatti.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.dogliotti1870.com/pagine/faq.html"
+    },
+    {
+      "t": "TERMINI E CONDIZIONI",
+      "h": "https://www.dogliotti1870.com/pagine/termini.html"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 397,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 145,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 137,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FTF768FSCH&gtm=45je6ar1v9105529631za208zd9105529631xf1&_p=1793242084163&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=1&tid=AW-1030596322&en=page_view&dl=https%3A%2F%2Fwww.dogliotti1870.com%2Fpagine%2Fvisite.ht"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=0&dt=Catalogo%20dei%20prodotti&tid=AW-1030596322&en=page_view&dl=https%3A%2F%2Fwww.dogliotti"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=0&tid=AW-1030596322&en=search&dl=https%3A%2F%2Fwww.dogliotti1870.com%2Fpagine%2Fvisite.html&"
+    }
+  ]
+}

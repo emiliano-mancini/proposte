@@ -1,0 +1,106 @@
+{
+  "slug": "dogliotti-contatti",
+  "url": "https://www.dogliotti1870.com/pagine/contatti.html",
+  "misuratoIl": "2026-10-29T02:48:21.546Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1224,
+  "lcpMs": 1081,
+  "lcpElemento": "P ",
+  "cls": 0.083,
+  "urlFinale": "https://www.dogliotti1870.com/pagine/contatti.html",
+  "titolo": "Contatti — Dogliotti1870",
+  "descrizione": "Contatta la cantina Dogliotti1870 a Castagnole delle Lanze. Trova indirizzo, numero di telefono, email e orari delle visite.",
+  "h1": [
+    "CONTATTI"
+  ],
+  "ttfb": 402,
+  "fcp": 831,
+  "domReady": 1070,
+  "load": 1221,
+  "pesoKB": 1053,
+  "richieste": 15,
+  "script": 7,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "docs.google.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.dogliotti1870.com/immagini/cantina-bottiglie-storiche_dogliotti1870.jpg",
+      "kb": 507
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/DogliottiSmall.png",
+      "kb": 19
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/logo-simbolo_dogliotti1870.png",
+      "kb": 6
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@dogliotti1870.com"
+  ],
+  "telefono": [
+    "+390141878153"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.dogliotti1870.com/pagine/chi-siamo.html"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.dogliotti1870.com/pagine/contatti.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.dogliotti1870.com/pagine/faq.html"
+    },
+    {
+      "t": "TERMINI E CONDIZIONI",
+      "h": "https://www.dogliotti1870.com/pagine/termini.html"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 384,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 135,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 135,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FTF768FSCH&gtm=45je6ar1h1v9105529631za208zd9105529631xf1&_p=1793242097522&gcs=G100&gcd=13p3p3p3p5l1&npa=1&d"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=14&frm=0&apvc=1&tid=AW-1030596322&en=page_view&dl=https%3A%2F%2Fwww.dogliotti1870.com%2Fpagine%2Fcontatti."
+    }
+  ]
+}

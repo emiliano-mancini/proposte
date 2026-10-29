@@ -1,0 +1,109 @@
+{
+  "slug": "dogliotti-altalanga",
+  "url": "https://www.dogliotti1870.com/pagine/prodotti/alta-langa.html",
+  "misuratoIl": "2026-10-29T02:48:16.001Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 2078,
+  "lcpMs": 1039,
+  "lcpElemento": "IMG https://www.dogliotti1870.com/immagini/AltaLanga_Dogliotti1870-2.png",
+  "cls": 0,
+  "urlFinale": "https://www.dogliotti1870.com/pagine/prodotti/alta-langa.html",
+  "titolo": "Alta Langa — Dogliotti1870",
+  "descrizione": "L'Alta Langa DOCG rappresenta la massima espressione del metodo classico piemontese, nato tra le colline calcaree delle province di Cuneo, Asti e…",
+  "h1": [
+    "ALTA LANGA"
+  ],
+  "ttfb": 386,
+  "fcp": 800,
+  "domReady": 1061,
+  "load": 2076,
+  "pesoKB": 1335,
+  "richieste": 13,
+  "script": 5,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "pagead2.googlesyndication.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.dogliotti1870.com/immagini/cantina-bottiglie-storiche_dogliotti1870.jpg",
+      "kb": 507
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/AltaLanga_Dogliotti1870-2.png",
+      "kb": 298
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/DogliottiSmall.png",
+      "kb": 19
+    },
+    {
+      "url": "https://www.dogliotti1870.com/immagini/logo-simbolo_dogliotti1870.png",
+      "kb": 6
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@dogliotti1870.com"
+  ],
+  "telefono": [
+    "+390141878153"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "CHI SIAMO",
+      "h": "https://www.dogliotti1870.com/pagine/chi-siamo.html"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://www.dogliotti1870.com/pagine/contatti.html"
+    },
+    {
+      "t": "FAQ",
+      "h": "https://www.dogliotti1870.com/pagine/faq.html"
+    },
+    {
+      "t": "TERMINI E CONDIZIONI",
+      "h": "https://www.dogliotti1870.com/pagine/termini.html"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 406,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 140,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 141,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-FTF768FSCH&gtm=45je6ar1v9105529631za208zd9105529631xf1&_p=1793242091080&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma"
+    },
+    {
+      "status": 999,
+      "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=16&frm=0&apvc=1&tid=AW-1030596322&en=page_view&dl=https%3A%2F%2Fwww.dogliotti1870.com%2Fpagine%2Fprodotti%"
+    }
+  ]
+}
