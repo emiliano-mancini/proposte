@@ -1,0 +1,80 @@
+{
+  "slug": "zinzani-confronto",
+  "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/confronto/",
+  "misuratoIl": "2026-10-29T03:32:27.654Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 395,
+  "lcpMs": 285,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/zinzani-vini/confronto/nuovo-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/zinzani-vini/confronto/",
+  "titolo": "Il sito di Zinzani Vini, oggi e domani",
+  "descrizione": null,
+  "h1": [
+    "Il sito di Zinzani Vini, oggi e domani"
+  ],
+  "ttfb": 120,
+  "fcp": 268,
+  "domReady": 132,
+  "load": 391,
+  "pesoKB": 506,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/confronto/vecchio-mobile.jpg",
+      "kb": 151
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/confronto/nuovo-mobile.jpg",
+      "kb": 147
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/confronto/problema-cookie.jpg",
+      "kb": 56
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/confronto/problema-404.jpg",
+      "kb": 39
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/confronto/problema-prova.jpg",
+      "kb": 21
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lmsoftique@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 86,
+      "status": 200,
+      "cache": "MISS"
+    },
+    {
+      "ms": 18,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 16,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
