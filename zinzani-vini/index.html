@@ -1,15 +1,58 @@
 <!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Zinzani Vini – raccolta materiali (bozza)</title>
-<style>body{margin:0;font:13px/1.3 monospace;background:#fff;color:#000}#m{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;padding:6px}#m div{border:1px solid #ccc}#m img{width:100%;height:150px;object-fit:contain;background:#eee;display:block}#m p{margin:2px;word-break:break-all;font-size:12px}#p{padding:6px;font-size:13px}#p div{border-bottom:1px solid #ccc;padding:3px 0}</style></head><body>
-<h1>Raccolta materiali (bozza di lavoro)</h1><div id="s">caricamento…</div><div id="p"></div><div id="m"></div>
+<style>body{margin:0;font:12px/1.35 monospace;background:#fff;color:#000}iframe{display:block;border:0}#a{width:1440px;height:900px}#b{width:390px;height:5200px;float:left;margin-right:10px}#d{column-count:2;column-gap:14px;padding:4px;font-size:12px}#d h3{margin:8px 0 2px;font-size:14px;background:#ff0}</style></head><body>
+<iframe id="a" src="https://www.zinzanivini.it/" title="sito attuale"></iframe>
+<iframe id="b" src="https://www.zinzanivini.it/" title="sito attuale telefono"></iframe>
+<div id="d">caricamento…</div>
 <script>
-var B='https://www.zinzanivini.it/wp-json/';var all=[];
-function med(d){d.forEach(function(x){if(!x.media_details)return;all.push(x)});draw()}
-function draw(){var m=document.getElementById('m');m.innerHTML='';document.getElementById('s').textContent='media: '+all.length;
-all.filter(function(x){return (x.media_details.width||0)>=600}).sort(function(a,b){return a.source_url<b.source_url?-1:1}).forEach(function(x){var t=(x.media_details.sizes&&x.media_details.sizes.medium)?x.media_details.sizes.medium.source_url:x.source_url;
-var d=document.createElement('div');d.innerHTML='<img src="'+t+'"><p>'+x.source_url.replace(/^.*uploads\//,'')+' '+x.media_details.width+'x'+x.media_details.height+'</p>';m.appendChild(d)})}
-function prod(d){var p=document.getElementById('p');d.forEach(function(x){var e=document.createElement('div');var tmp=document.createElement('div');tmp.innerHTML=x.short_description||'';
-e.textContent=x.name+' | '+(x.prices?(x.prices.price/100)+' '+x.prices.currency_code:'')+' | '+x.permalink.replace('https://www.zinzanivini.it','')+' | img: '+(x.images&&x.images[0]?x.images[0].src.replace(/^.*uploads\//,''):'')+' | '+tmp.textContent.trim().slice(0,160);p.appendChild(e)})}
-function js(u){var s=document.createElement('script');s.src=u;document.head.appendChild(s)}
-for(var i=1;i<=3;i++)js(B+'wp/v2/media?per_page=100&page='+i+'&_jsonp=med');
-js(B+'wc/store/v1/products?per_page=60&_jsonp=prod');
-</script></body></html>
+var want=/^(home|azienda|degustazione|vino-sfuso|contatti|cantina|chi-siamo)/;
+function pg(d){var o=document.getElementById('d');o.innerHTML='<h3>PAGINE: '+d.map(function(x){return x.slug+' '+x.link.replace('https://www.zinzanivini.it','')}).join(' · ')+'</h3>';
+d.forEach(function(x){if(!want.test(x.slug)&&x.link!=='https://www.zinzanivini.it/')return;var t=document.createElement('div');t.innerHTML=x.content.rendered;var s=t.textContent.replace(/\s+/g,' ').trim();
+var e=document.createElement('div');e.innerHTML='<h3>'+x.slug+' '+x.link+'</h3>';e.appendChild(document.createTextNode(s.slice(0,3500)));o.appendChild(e)})}
+var s=document.createElement('script');s.src='https://www.zinzanivini.it/wp-json/wp/v2/pages?per_page=60&_jsonp=pg';document.head.appendChild(s);
+</script>
+<!-- foto del sito attuale:
+https://www.zinzanivini.it/wp-content/uploads/2023/08/vista-vigna-zinzani-vini-faenza.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/Zinzani-Vini-vista-Faenza.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/vista-vigneto.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/Zinzani_laCantina_img1.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/Zinzani_LaCantina_img2.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/Zinzani_LaCantina_img3.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/Zinzani_LaCantina_img4.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/Zinzani_LaCantina_img5.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/Zinzani_LaCantina_img6.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/botti-cantina.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/visite-cantina.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/vigna-visita2.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/zinzani-vini-interno-cantina-faenza.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/zinzani-vini-vino-in-bottiglia-e-sfuso.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/Zinzani-Vini-vista-della-cantina-a-faenza.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/zinzani-vini-visita-in-cantina.jpeg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/Marco-Zinzani-in-vigna-a-faenza.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/zinzani-vini-vigna-uva-rossa.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/09/centesimino-corretto-scaled.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/09/sang-1.jpeg
+https://www.zinzanivini.it/wp-content/uploads/2023/09/sauv-1.jpeg
+https://www.zinzanivini.it/wp-content/uploads/2023/10/albana-uva.webp
+https://www.zinzanivini.it/wp-content/uploads/2023/10/grechetto-gentile.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/10/trebbiano.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/04/cabernet-sauvignon.jpeg
+https://www.zinzanivini.it/wp-content/uploads/2023/07/degustazione-base-oriz.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/07/degustazione-full-oriz.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/07/degustazione-plus-oriz.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/campet-cabernet-sauvignon-zinzani-vini-faenza.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/drago-vino-centesimino-zinzani-vini.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/roge-sangiovese-rosato-zinzani-vini-faenza.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/pinolo-grechetto-gentile-Zinzani-Vini.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/lov-trebbiano-frizzante-Zinzani-Vini-Faenza.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/malvagia-malvasia-frizzante-Zinzani-Vini.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/savi-sauvignon-bianco-600x600-1.webp
+https://www.zinzanivini.it/wp-content/uploads/2023/08/toni-bianco-ravenna-full-600x600-1.webp
+https://www.zinzanivini.it/wp-content/uploads/2023/08/Ravenna-Sangiovese-igp-zinzani-vini-faenza-600x600-1.webp
+https://www.zinzanivini.it/wp-content/uploads/2023/07/Ravenna-Igp-Cabernet-Sauvignon-affinato-in-Barrique-negozio-Zinzani-Vini-Faenza-q1ilfhgmx2hpspmgdcgcuupxy7crpmt8i6990hz76o.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/10/Solalba-vino-bianco-passito-zinzani-vini-faenza.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/Ravenna-Igp-Cabernet-Sauvignon-Zinzani-vini.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/sangiovese-igp-pet-5-litri-zinzani-vini.jpg
+https://www.zinzanivini.it/wp-content/uploads/2024/03/Ravenna-bianco-IGP-5l-Albana.jpg
+https://www.zinzanivini.it/wp-content/uploads/2023/08/cabernet-sauvignon-zinzani-vini-faenza-sul-tavolo-da-pranzo.jpg
+-->
+</body></html>
