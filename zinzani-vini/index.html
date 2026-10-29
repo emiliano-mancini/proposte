@@ -1,58 +1,479 @@
-<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Zinzani Vini – raccolta materiali (bozza)</title>
-<style>body{margin:0;font:12px/1.35 monospace;background:#fff;color:#000}iframe{display:block;border:0}#a{width:1440px;height:900px}#b{width:390px;height:5200px;float:left;margin-right:10px}#d{column-count:2;column-gap:14px;padding:4px;font-size:12px}#d h3{margin:8px 0 2px;font-size:14px;background:#ff0}</style></head><body>
-<iframe id="a" src="https://www.zinzanivini.it/" title="sito attuale"></iframe>
-<iframe id="b" src="https://www.zinzanivini.it/" title="sito attuale telefono"></iframe>
-<div id="d">caricamento…</div>
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Zinzani Vini – Cantina a Faenza dal 1970 (proposta di restyling)</title>
+<meta name="description" content="Azienda Agricola Zinzani: vini delle colline di Faenza, visite e degustazioni in cantina, vino sfuso. Proposta di restyling non ufficiale.">
+<meta name="theme-color" content="#2a1519">
+<link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/hero-m.jpg" as="image" media="(max-width: 760px)">
+<link rel="preload" href="img/hero.jpg" as="image" media="(min-width: 761px)">
+<link rel="stylesheet" href="../vendor/vng/vng.css">
+<style>
+@font-face{font-family:"Fraunces";src:url(fonts/fraunces.woff2) format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Figtree";src:url(fonts/figtree-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Figtree";src:url(fonts/figtree-600.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Figtree";src:url(fonts/figtree-700.woff2) format("woff2");font-weight:700 800;font-display:swap}
+:root{
+  --ink:#2a1519;      /* rosso vino scurissimo, dal Drago */
+  --ink-2:#40222a;
+  --paper:#f5f0ea;
+  --white:#fff;
+  --red:#8e1b2c;      /* Drago / Ven */
+  --pink:#e9a3a6;     /* Rogé */
+  --teal:#2b8a8e;     /* Pinolo */
+  --teal-d:#1d6467;
+  --sun:#f2b42a;      /* Solalba */
+  --leaf:#5f7f2e;
+  --muted:#4a3c3e;
+  --line:rgba(42,21,25,.14);
+  --vng-fg:var(--ink);--vng-muted:var(--muted);--vng-bg:var(--paper);--vng-accent:var(--sun);--vng-accent-fg:var(--ink);--vng-line:var(--line);
+  --pad:clamp(1rem,4vw,3.5rem);
+  --max:1240px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:#33201f;font:400 1.0625rem/1.6 "Figtree",system-ui,sans-serif;overflow-x:hidden}
+img{max-width:100%;display:block;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:"Fraunces",Georgia,serif;font-weight:600;line-height:1.04;letter-spacing:0;margin:0;font-variation-settings:"opsz" 144;text-wrap:balance}
+p{text-wrap:pretty}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--pad)}
+.kicker{font:800 .78rem/1.2 "Figtree",sans-serif;letter-spacing:.16em;text-transform:uppercase;margin:0 0 1rem}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;z-index:99;background:#fff;padding:.5rem 1rem}
+.badge{position:fixed;left:50%;transform:translateX(-50%);top:.5rem;z-index:60;background:var(--sun);color:var(--ink);font:800 .7rem/1 "Figtree",sans-serif;padding:.4rem .7rem;border-radius:99px;letter-spacing:.03em;white-space:nowrap;box-shadow:0 2px 10px rgba(0,0,0,.18)}
+
+/* header */
+.top{position:absolute;inset:0 0 auto 0;z-index:30;color:#fff}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-top:2.6rem;padding-bottom:1rem}
+.brand{text-decoration:none;display:flex;flex-direction:column;line-height:1}
+.brand b{font:600 1.55rem/1 "Fraunces",Georgia,serif;letter-spacing:.14em;text-transform:uppercase}
+.brand small{font:700 .7rem/1 "Figtree",sans-serif;letter-spacing:.2em;text-transform:uppercase;margin-top:.3rem;opacity:.9}
+.nav{display:none;gap:1.6rem;font-weight:700;font-size:.95rem}
+.nav a{text-decoration:none;opacity:.92}.nav a:hover{opacity:1;text-decoration:underline;text-underline-offset:.3em}
+.call{display:inline-flex;align-items:center;gap:.5rem;text-decoration:none;font-weight:800;font-size:.9rem;border:2px solid rgba(255,255,255,.85);border-radius:99px;padding:.55rem 1rem}
+@media(min-width:960px){.nav{display:flex}}
+@media(max-width:599px){.call{display:none}}
+.mnav{display:flex;gap:1.1rem;overflow-x:auto;padding:.2rem var(--pad) .6rem;font-weight:700;font-size:.92rem;scrollbar-width:none;position:relative;z-index:30;color:#fff;margin-top:-.4rem}.mnav a{text-decoration:none;white-space:nowrap;border-bottom:2px solid rgba(255,255,255,.5)}
+@media(min-width:960px){.mnav{display:none}}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:var(--ink)}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero picture img{object-position:75% 70%;transform-origin:70% 70%}
+@media(max-width:760px){.hero picture img{object-position:85% 70%}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,12,14,.45) 0%,rgba(26,12,14,0) 22%,rgba(26,12,14,.25) 42%,rgba(30,15,15,.92) 100%)}
+@media(min-width:900px){.hero::after{background:linear-gradient(90deg,rgba(40,20,22,.82) 0,rgba(40,20,22,.45) 50%,rgba(40,20,22,0) 75%),linear-gradient(180deg,rgba(26,12,14,.5) 0,transparent 28%)}}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:calc(6.2rem + env(safe-area-inset-bottom))}
+@media(min-width:900px){.hero .wrap{padding-bottom:6rem}}
+.hero h1{font-size:clamp(3.4rem,12vw,7.6rem);max-width:10ch;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--sun)}
+.hero p.lead{max-width:36rem;font-size:clamp(1.05rem,1.6vw,1.25rem);margin:1.2rem 0 1.8rem;color:#fff;font-weight:600}
+.ctas{display:flex;flex-wrap:wrap;gap:.8rem 1.4rem;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:.6rem;background:var(--sun);color:var(--ink);font-weight:800;text-decoration:none;padding:1rem 1.4rem;border-radius:99px;font-size:1rem;transition:transform .3s cubic-bezier(.34,1.56,.64,1)}
+.btn:hover{transform:translateY(-3px) rotate(-1deg)}
+.link{font-weight:800;text-decoration:underline;text-underline-offset:.3em;text-decoration-thickness:2px}
+.hb{display:flex;position:absolute;right:1rem;top:5.6rem;z-index:2;align-items:flex-end}
+.hb img{height:24svh;width:auto;filter:drop-shadow(0 14px 14px rgba(0,0,0,.5))}.hb img+img{margin-left:-.9rem}.hb img:nth-child(1),.hb img:nth-child(5){display:none}.hb img:nth-child(3){height:27svh}
+@media(max-height:700px){.hb{display:none}}
+@media(min-width:1000px){.hb{top:auto;right:max(var(--pad),calc((100vw - var(--max))/2 + 1rem));bottom:4.5rem}.hb img:nth-child(1),.hb img:nth-child(5){display:block}
+.hb img{height:min(52vh,470px);width:auto;filter:drop-shadow(0 22px 22px rgba(0,0,0,.5))}.hb img+img{margin-left:-1.6rem}.hb img:nth-child(3){height:min(58vh,520px)}}
+.hours{margin:1rem 0 0;font-weight:700;font-size:.92rem;color:#f2e9e4}
+
+/* marquee nomi */
+
+/* numeri */
+.nums{padding:clamp(3.5rem,8vw,6.5rem) 0 clamp(2.5rem,6vw,4.5rem);border-bottom:3px solid var(--ink)}
+.nums .intro{display:grid;gap:1.5rem;align-items:end}
+.nums h2{font-size:clamp(2.2rem,5.4vw,4.4rem);max-width:15ch}
+.nums .intro p{max-width:34rem;margin:0;color:var(--muted);font-size:1.1rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:clamp(2rem,5vw,3.5rem);border-top:3px solid var(--ink)}
+.stats div{padding:1.2rem 1rem 1.2rem 0;border-bottom:1px solid var(--line)}
+.stats div{border-right:1px solid var(--line);padding-left:.8rem!important}.stats div:first-child{padding-left:0!important}.stats div:last-child{border-right:0}
+.stats span{display:block;font:600 clamp(2.8rem,7vw,5.2rem)/1 "Fraunces",Georgia,serif}
+.stats p{margin:.4rem 0 0;font-weight:700;color:var(--muted);font-size:.95rem}
+@media(min-width:860px){.nums .intro{grid-template-columns:1.1fr .9fr}.stats{grid-template-columns:repeat(3,1fr)}.stats div{border-right:1px solid var(--line);padding-left:1.2rem!important}.stats div:first-child{padding-left:0!important}.stats div:last-child{border-right:0}}
+
+/* carta dei vini (elemento firma) */
+.carta{padding:clamp(3rem,7vw,6rem) 0;background:var(--white)}
+.carta .head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:1rem 2rem;margin-bottom:clamp(1.8rem,4vw,3rem)}
+.carta h2{font-size:clamp(2.4rem,6vw,5rem)}
+.carta .head p{max-width:30rem;margin:0;color:var(--muted)}
+.legend{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1rem}
+.legend span{font-weight:700;font-size:.82rem;color:var(--ink);display:inline-flex;align-items:center;gap:.4rem}.legend i{width:.9rem;height:.9rem;border-radius:4px;border:1px solid rgba(0,0,0,.15);display:inline-block}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem}
+@media(min-width:760px){.grid{grid-template-columns:repeat(3,1fr);gap:1rem}}
+@media(min-width:1100px){.grid{grid-template-columns:repeat(4,1fr)}}
+.wine{position:relative;border-radius:22px;padding:1rem .9rem 1rem;min-height:330px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;isolation:isolate;color:var(--ink)}
+.wine img{position:absolute;left:50%;top:2.2rem;height:calc(100% - 7.6rem);width:auto;max-width:none;transform:translateX(-50%);filter:drop-shadow(0 18px 18px rgba(0,0,0,.28));transition:transform .5s cubic-bezier(.34,1.56,.64,1)}
+.wine:hover img{transform:translateX(-50%) translateY(-8px) rotate(-3deg)}
+.wine h3{font-size:clamp(1.6rem,3vw,2.3rem);position:relative;min-height:1em}
+.wine p{margin:.25rem 0 0;font-weight:700;font-size:.86rem;line-height:1.3;position:relative;min-height:2.6em}
+.wine .t{position:absolute;z-index:2;top:.8rem;left:.8rem;font-weight:800;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;background:#fff;color:var(--ink);padding:.25rem .5rem;border-radius:99px}
+.r,.r2{background:#8e1b2c;color:#fff}
+.ro{background:#f7d6d3}
+.w{background:#bfe2df}
+.f{background:#d5ecd0}
+.p{background:#f9dc94}
+.wine.big{grid-column:span 2;min-height:360px;background:var(--red);color:#fff}
+.wine.big .t{color:var(--ink)}
+.wine.big img{left:auto;right:8%;transform:none;top:1rem;height:calc(100% - 2rem)}
+.wine.big:hover img{transform:translateY(-8px) rotate(-3deg)}
+.wine.big .txt{max-width:55%}.wine.big p{min-height:0}
+.wine.big h3{font-size:clamp(2.4rem,5vw,3.6rem)}
+.wine.big p{font-size:.95rem}
+@media(min-width:760px){.wine{min-height:500px}.wine.big{min-height:500px}}
+@media(max-width:759px){.grid{grid-template-columns:1fr}.wine{min-height:0;display:grid;grid-template-columns:120px 1fr;align-items:end;gap:.2rem 1rem;padding:1rem 1rem 1.2rem}.wine img,.wine.big img{position:static;transform:none;height:260px;width:auto;margin:1.4rem auto 0;grid-row:1/3}.wine:hover img{transform:none}.wine.big{grid-column:auto}.wine.big .txt{max-width:none}.wine{grid-template-rows:1fr auto}.wine h3{grid-column:2;grid-row:1;align-self:end}.wine p{grid-column:2;grid-row:2;align-self:start}.wine .txt{grid-column:2}.wine.big .txt{grid-row:1/3;align-self:end}.wine p{min-height:0}}
+.carta .note{margin:1.4rem 0 0;color:var(--muted);font-size:.95rem}
+
+/* uve */
+.uve{background:var(--paper);padding:clamp(3.5rem,8vw,6.5rem) 0}
+.uve .cols{display:grid;gap:2rem}
+.uve h2{font-size:clamp(2.2rem,5vw,4rem)}
+.uve .side p{color:var(--muted);max-width:28rem}
+.strip{display:flex;gap:.8rem;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 var(--pad);padding:0 var(--pad) 1rem;margin:0 calc(var(--pad)*-1);scrollbar-width:thin}
+.hint{font-weight:700;font-size:.9rem;margin-top:.4rem;color:var(--red)}
+.strip figure{flex:0 0 78%;margin:0;scroll-snap-align:start}
+.strip img{border-radius:18px;aspect-ratio:4/3;object-fit:cover;width:100%}
+.strip figcaption{margin-top:.6rem}
+.strip figcaption b{font:600 1.35rem/1.1 "Fraunces",Georgia,serif;display:block}
+.strip figcaption span{font-size:.95rem;line-height:1.5;color:#4a3c3e;display:block;margin-top:.3rem}
+@media(min-width:760px){.strip figure{flex-basis:34%}}
+@media(min-width:1100px){.uve .cols{grid-template-columns:1fr 2fr;align-items:start}.uve .side{position:sticky;top:2rem}.strip{margin:0;padding:0 0 1rem}.strip figure{flex-basis:31%}}
+
+/* cantina */
+.cantina{padding:clamp(3.5rem,8vw,7rem) 0;background:var(--white)}
+.cantina .lay{display:grid;gap:1.2rem}
+.cantina h2{font-size:clamp(2.2rem,5.4vw,4.6rem);max-width:12ch}
+.cantina .txt p{max-width:33rem;color:#3d3549}
+.cantina .ph{overflow:hidden;border-radius:22px}
+.cantina .ph img{width:100%;height:100%;object-fit:cover}
+.cantina .a{aspect-ratio:4/3}
+.cantina .b{aspect-ratio:1}
+.cantina .c{aspect-ratio:4/3}
+.cantina .e{aspect-ratio:4/3}
+.cantina .e img{object-position:80% 20%}
+.cantina .phs{display:contents}
+@media(max-width:899px){.cantina .b{display:none}.cantina .lay{grid-template-columns:1fr 1fr}.cantina .txt,.cantina .a,.cantina .c{grid-column:1/-1}.cantina .e{aspect-ratio:4/3;grid-column:1/-1}}
+.cantina .quote{background:var(--teal);color:#fff;border-radius:22px;padding:1.6rem;display:flex;flex-direction:column;justify-content:space-between;gap:1rem}
+.cantina .quote b{font:600 clamp(1.6rem,3vw,2.3rem)/1.05 "Fraunces",Georgia,serif}
+.cantina .quote span{font-weight:700;font-size:.92rem}
+@media(min-width:900px){
+  .cantina .lay{grid-template-columns:repeat(12,1fr);grid-auto-rows:minmax(0,auto);gap:1.2rem}
+  .cantina .txt{grid-column:1/6;grid-row:1;align-self:center;padding-right:1rem}
+  .cantina .a{grid-column:6/13;grid-row:1}
+  .cantina .c{grid-column:1/5;grid-row:2;aspect-ratio:4/3}
+  .cantina .b{grid-column:5/9;grid-row:2;aspect-ratio:4/3}
+  .cantina .e{grid-column:9/13;grid-row:2;aspect-ratio:4/3}
+}
+.cantina .d p{margin:0;color:var(--muted);font-size:.95rem;max-width:34rem}
+
+/* visite (sezione scura) */
+.visite{background:var(--ink);color:#f4effa;padding:clamp(3.5rem,8vw,7rem) 0}
+.visite .head{display:grid;gap:1.2rem;margin-bottom:clamp(2rem,5vw,3.5rem)}
+.visite h2{font-size:clamp(2.4rem,6vw,5.2rem);max-width:13ch}
+.visite h2 span{color:var(--sun)}
+.visite .head p{max-width:34rem;color:#d9d0e4;margin:0}
+@media(min-width:900px){.visite .head{grid-template-columns:1.2fr .8fr;align-items:end}}
+.vfoto{border-radius:22px;overflow:hidden;margin-bottom:1rem;aspect-ratio:16/7}.vfoto img{width:100%;height:100%;object-fit:cover}
+@media(max-width:899px){.vfoto{aspect-ratio:4/3}}
+.offers{display:grid;gap:1rem}
+@media(min-width:900px){.offers{grid-template-columns:repeat(3,1fr)}}
+.offer{background:var(--ink-2);border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+.offer img{aspect-ratio:16/10;object-fit:cover;width:100%}
+.offer .in{padding:1.3rem 1.3rem 1.5rem;display:flex;flex-direction:column;gap:.8rem;flex:1}
+.offer h3{font-size:1.9rem;display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.offer h3 small{font:600 1.5rem/1 "Fraunces",Georgia,serif;color:var(--sun)}
+.offer .sub{margin:0;font-weight:700;color:#cfc4dc;font-size:.95rem}
+.offer ul{margin:0;padding:0;list-style:none;display:grid;gap:.35rem;font-size:.95rem}
+.offer li{padding-left:1.2rem;position:relative}
+.offer li::before{content:"";position:absolute;left:0;top:.62em;width:.5rem;height:.5rem;border-radius:50%;background:var(--sun)}
+.offer.feat{background:var(--sun);color:var(--ink)}
+.offer.feat .sub{color:#4a3a1a}
+.offer.feat h3 small{color:var(--ink)}
+.offer.feat li::before{background:var(--ink)}
+.visite .info{margin-top:1.6rem;display:flex;flex-wrap:wrap;gap:.8rem 2rem;align-items:center;justify-content:space-between}
+.visite .info p{margin:0;color:#d9d0e4;font-weight:700}
+.btn.light{background:#fff}
+.visite .vng-hbtn{--vng-accent:var(--sun);background:#fff;color:var(--ink);border-color:#fff;font-weight:800}
+
+/* sfuso */
+.sfuso{background:var(--paper);padding:clamp(3.5rem,8vw,7rem) 0;overflow:hidden}
+.sfuso .lay{display:grid;gap:2rem;align-items:center}
+.sfuso h2{font-size:clamp(2.2rem,5vw,4.2rem);max-width:12ch}
+.sfuso p{color:#3d3549;max-width:32rem}
+.fmt{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem;margin:1.6rem 0}
+.fmt div{border:2px solid var(--ink);border-radius:18px;padding:1rem}
+.fmt b{font:600 clamp(1.4rem,4.5vw,2rem)/1.05 "Fraunces",Georgia,serif;display:block}
+.fmt span{font-weight:700;font-size:.9rem;color:var(--muted)}
+.sfuso .vis{position:relative}
+.sfuso .vis .ph{border-radius:22px;overflow:hidden;aspect-ratio:4/3}
+.sfuso .vis .ph img{width:100%;height:100%;object-fit:cover}
+.sfuso .pets{display:none}
+.sfuso .pets img{width:clamp(70px,14vw,150px);filter:drop-shadow(0 14px 14px rgba(0,0,0,.3))}
+.sfuso .pets img+img{margin-left:-2.2rem}
+.varieta{display:flex;flex-wrap:wrap;gap:.45rem;margin:0;padding:0;list-style:none}
+.varieta li{background:var(--white);border:1px solid var(--line);border-radius:99px;padding:.3rem .75rem;font-weight:700;font-size:.88rem}
+@media(min-width:900px){.sfuso .lay{grid-template-columns:1fr 1fr;gap:4rem}}
+
+/* dove */
+.dove{background:var(--red);color:#fff;padding:clamp(3.5rem,8vw,6.5rem) 0}
+.dove .lay{display:grid;gap:2rem}
+.dove h2{font-size:clamp(2.4rem,6vw,5rem)}
+.dove dl{display:grid;gap:1.1rem;margin:1.6rem 0}
+.dove dt{font-weight:800;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
+.dove dd{margin:.2rem 0 0;font-size:1.15rem;font-weight:700}
+.dove dd a{text-decoration-thickness:2px;text-underline-offset:.25em}
+.dove .ph{border-radius:22px;overflow:hidden;aspect-ratio:4/3}
+.dove .ph img{width:100%;height:100%;object-fit:cover}
+.dove .ctas .btn{background:var(--sun)}
+.dove .link{color:#fff}
+@media(min-width:900px){.dove .lay{grid-template-columns:1fr 1.1fr;align-items:center;gap:4rem}}
+
+footer{background:var(--ink);color:#d9d0e4;padding:2.5rem 0 calc(6.5rem + env(safe-area-inset-bottom));font-size:.9rem}
+footer .wrap{display:grid;gap:1rem}
+footer b{font:600 1.5rem/1 "Fraunces",Georgia,serif;letter-spacing:.14em;text-transform:uppercase;color:#fff}
+footer p{margin:0}
+@media(min-width:900px){footer{padding-bottom:2.5rem}footer .wrap{grid-template-columns:1fr auto;align-items:end}}
+
+/* barra contatti da telefono */
+.bar{position:fixed;left:.6rem;right:.6rem;bottom:.6rem;z-index:50;display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:.4rem;background:var(--ink);padding:.4rem;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.bar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.15rem;text-decoration:none;color:#fff;font-weight:800;font-size:.8rem;padding:.6rem .3rem;border-radius:14px;min-height:52px}
+.bar a:first-child{background:var(--sun);color:var(--ink)}
+.bar svg{width:20px;height:20px}
+@media(min-width:900px){.bar{display:none}}
+
+/* movimento: solo se JS attivo e senza ?shot=1 */
+.js .rv{opacity:0;transform:translateY(28px)}
+.shot .rv,.reduce .rv{opacity:1!important;transform:none!important}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1!important;transform:none!important}.btn,.wine img{transition:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<div class="badge" role="note">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#" aria-label="Zinzani Vini, inizio pagina"><b>Zinzani</b><small>Vini · Faenza</small></a>
+    <nav class="nav" aria-label="Sezioni">
+      <a href="#vini">I vini</a><a href="#cantina">La cantina</a><a href="#visite">Visite</a><a href="#sfuso">Vino sfuso</a><a href="#dove">Dove siamo</a>
+    </nav>
+    <a class="call" href="tel:+393487932617"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>348 793 2617</a>
+  </div>
+  <nav class="mnav" aria-label="Sezioni"><a href="#vini">I vini</a><a href="#cantina">La cantina</a><a href="#visite">Visite</a><a href="#sfuso">Vino sfuso</a><a href="#dove">Dove siamo</a></nav>
+</header>
+
+<main id="main">
+<section class="hero" aria-labelledby="t-hero">
+  <picture>
+    <source media="(max-width: 760px)" srcset="img/hero-m.jpg" width="640" height="932">
+    <img src="img/hero.jpg" width="2048" height="1152" alt="Le vigne Zinzani sulle colline di Faenza al tramonto, con il trattore tra i filari" fetchpriority="high" id="heroimg">
+  </picture>
+  <div class="wrap">
+    <p class="kicker">Azienda Agricola Zinzani · Faenza (RA)</p>
+    <h1 id="t-hero">Vino di collina, <em>dal 1970.</em></h1>
+    <p class="lead">Sulle colline di Faenza la famiglia Zinzani coltiva sei ettari di vigna e fa dodici vini tra rossi, bianchi, rosati e passiti. Si assaggiano in cantina e si portano a casa in bottiglia o sfusi.</p>
+    <div class="ctas">
+      <a class="btn" href="#visite">Prenota una degustazione <span aria-hidden="true">→</span></a>
+      <a class="link" href="#vini">Scopri i vini</a>
+    </div>
+    <p class="hours">Cantina aperta lun–sab 8–12 e 14–19 · Via Casale 23, Faenza</p>
+  </div>
+  
+</section>
+
+
+<section class="nums" aria-labelledby="t-nums">
+  <div class="wrap">
+    <div class="intro">
+      <h2 id="t-nums" class="rv">Una famiglia, tre generazioni, una collina</h2>
+      <p class="rv">La cantina l'ha fondata Antonio Zinzani nel 1970. Da allora la portano avanti i suoi familiari, con i metodi tradizionali tramandati in famiglia e tecniche nuove dove servono, come l'irrigazione di precisione in vigna.</p>
+    </div>
+    <div class="stats">
+            <div><span data-vng-count="3">3</span><p>generazioni in cantina</p></div>
+      <div><span data-vng-count="6">6</span><p>ettari di vigna</p></div>
+      <div><span data-vng-count="12">12</span><p>vini diversi</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="carta" id="vini" aria-labelledby="t-vini">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="kicker">La carta dei vini</p>
+        <h2 id="t-vini">Ogni vino ha un nome<br>e un'etichetta sua.</h2>
+      </div>
+      <div>
+        <p>Etichette illustrate e un nome proprio per ogni bottiglia. Il colore del riquadro vi dice che vino trovate dentro.</p>
+        <div class="legend" aria-hidden="true"><span><i style="background:#8e1b2c"></i>Rossi</span><span><i style="background:#f7d6d3"></i>Rosato</span><span><i style="background:#bfe2df"></i>Bianchi</span><span><i style="background:#d5ecd0"></i>Frizzanti</span><span><i style="background:#f9dc94"></i>Passito</span></div>
+      </div>
+    </div>
+    <div class="grid">
+      <article class="wine big rv"><span class="t">Rosso</span><img src="img/b-drago.webp" width="274" height="1100" loading="lazy" alt="Bottiglia di Drago, etichetta con un drago disegnato"><div class="txt"><h3>Drago</h3><p>Centesimino da uve stramature: rubino fitto, profumi di fragole al vino e fichi in confettura.</p></div></article>
+      <article class="wine r rv"><span class="t">Rosso</span><img src="img/b-campet.webp" width="272" height="1100" loading="lazy" alt="Bottiglia di Campet"><h3>Campet</h3><p>Cabernet Sauvignon IGP</p></article>
+      <article class="wine r2 rv"><span class="t">Rosso</span><img src="img/b-bot.webp" width="270" height="1100" loading="lazy" alt="Bottiglia di Bòt"><h3>Bòt</h3><p>Cabernet Sauvignon IGP affinato in barrique</p></article>
+      <article class="wine r rv"><span class="t">Rosso</span><img src="img/b-ven.webp" width="280" height="1100" loading="lazy" alt="Bottiglia di Ven"><h3>Ven</h3><p>Sangiovese Ravenna IGP</p></article>
+      <article class="wine ro rv"><span class="t">Rosato</span><img src="img/b-roge.webp" width="275" height="1100" loading="lazy" alt="Bottiglia di Rogé"><h3>Rogé</h3><p>Sangiovese rosato Ravenna IGP</p></article>
+      <article class="wine w rv"><span class="t">Bianco</span><img src="img/b-toni.webp" width="279" height="1100" loading="lazy" alt="Bottiglia di Toni"><h3>Toni</h3><p>Bianco Ravenna IGP</p></article>
+      <article class="wine w rv"><span class="t">Bianco</span><img src="img/b-savi.webp" width="276" height="1100" loading="lazy" alt="Bottiglia di Savì"><h3>Savì</h3><p>Sauvignon Bianco Ravenna IGP</p></article>
+      <article class="wine w rv"><span class="t">Bianco</span><img src="img/b-pinolo.webp" width="272" height="1100" loading="lazy" alt="Bottiglia di Pinolo"><h3>Pinolo</h3><p>Grechetto Gentile IGP</p></article>
+      <article class="wine f rv"><span class="t">Frizzante</span><img src="img/b-lov.webp" width="276" height="1100" loading="lazy" alt="Bottiglia di Lov"><h3>Lov</h3><p>Trebbiano frizzante IGP</p></article>
+      <article class="wine f rv"><span class="t">Frizzante</span><img src="img/b-malvagia.webp" width="276" height="1100" loading="lazy" alt="Bottiglia di Malvagia"><h3>Malvagia</h3><p>Vino bianco frizzante</p></article>
+      <article class="wine p rv"><span class="t">Passito</span><img src="img/b-solalba.webp" width="218" height="1070" loading="lazy" alt="Bottiglia di Solalba"><h3>Solalba</h3><p>Bianco passito da uve appassite</p></article>
+    </div>
+    <p class="note">Molti vini si trovano anche in scatola e come vino sfuso: chiedete in cantina o scriveteci.</p>
+  </div>
+</section>
+
+<section class="uve" aria-labelledby="t-uve">
+  <div class="wrap cols">
+    <div class="side">
+      <p class="kicker">Nella vigna</p>
+      <h2 id="t-uve" class="rv">Le uve delle colline faentine</h2>
+      <p class="rv">Albana, Trebbiano, Malvasia, Grechetto Gentile e Sauvignon per i bianchi; Sangiovese, Cabernet Sauvignon e Centesimino per i rossi. Le foto sono delle nostre vigne.</p>
+      <p class="hint" aria-hidden="true">Scorrete le uve →</p>
+    </div>
+    <div class="strip" tabindex="0" aria-label="Foto delle uve, scorrevoli">
+      <figure><img src="img/albana.jpg" width="1400" height="1050" loading="lazy" alt="Grappoli dorati di Albana"><figcaption><b>Albana</b><span>Il vino: giallo paglierino che tende al dorato, fiori bianchi, pesca e albicocca.</span></figcaption></figure>
+      <figure><img src="img/sangiovese.jpg" width="1400" height="1051" loading="lazy" alt="Grappoli di Sangiovese"><figcaption><b>Sangiovese</b><span>Il vino: rosso rubino vivace, lampone, fragoline di bosco e ciliegia.</span></figcaption></figure>
+      <figure><img src="img/trebbiano.jpg" width="1400" height="1050" loading="lazy" alt="Grappolo di Trebbiano sulla pianta"><figcaption><b>Trebbiano</b><span>Il vino: secco e leggero, frutta bianca, fiori e note agrumate.</span></figcaption></figure>
+      <figure><img src="img/cabernet.jpg" width="1400" height="1051" loading="lazy" alt="Grappoli di Cabernet Sauvignon"><figcaption><b>Cabernet Sauvignon</b><span>Il vino: rosso scuro e profondo, frutta rossa matura, cedro e menta.</span></figcaption></figure>
+      <figure><img src="img/grechetto.jpg" width="1400" height="1050" loading="lazy" alt="Grappolo di Grechetto Gentile"><figcaption><b>Grechetto Gentile</b><span>Il vino: frutta bianca, fiori bianchi e mandorla, buona mineralità.</span></figcaption></figure>
+      <figure><img src="img/sauvignon.jpg" width="1400" height="1051" loading="lazy" alt="Grappoli di Sauvignon tra le foglie"><figcaption><b>Sauvignon</b><span>Uva bianca per Savì e per lo sfuso.</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="cantina" id="cantina" aria-labelledby="t-cantina">
+  <div class="wrap lay">
+    <div class="txt">
+      <p class="kicker">La cantina</p>
+      <h2 id="t-cantina" class="rv">Dalla vigna alla bottiglia, tutto in casa</h2>
+      <p class="rv">Coltiviamo, vinifichiamo e imbottigliamo in azienda, a Faenza. Ogni passaggio lo seguiamo da vicino: metodi tradizionali tramandati in famiglia, con le tecniche di oggi dove servono.</p>
+      <p class="rv">Dagli alberi da frutto dell'azienda nascono anche le nostre confetture artigianali. In cantina potete acquistare le bottiglie e il vino sfuso da portare a casa.</p>
+    </div>
+    <div class="ph a"><img src="img/cisterne.jpg" width="1400" height="1050" loading="lazy" alt="Le cisterne in acciaio della cantina Zinzani" data-par></div>
+    <div class="ph b"><img src="img/cantina-vista.jpg" width="1400" height="788" loading="lazy" alt="La cantina Zinzani con l'insegna dipinta sulla facciata" data-par></div>
+    <div class="ph e"><img src="img/marco-insegna.jpg" width="1400" height="1050" loading="lazy" alt="In cantina con l'insegna in legno dipinta della famiglia Zinzani" data-par></div>
+    <div class="ph c"><img src="img/bottiglie-parete.jpg" width="1400" height="1050" loading="lazy" alt="Lo scaffale con tutte le bottiglie Zinzani in cantina" data-par></div>
+  </div>
+</section>
+
+<section class="visite" id="visite" aria-labelledby="t-visite">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="t-visite" class="rv">Venite ad <span>assaggiare</span> in cantina.</h2>
+      <p class="rv">Marco Zinzani vi accompagna dalle cisterne all'imbottigliamento e, se il tempo lo permette, a passeggio tra i filari. Il percorso finisce con la degustazione dei nostri vini, abbinati a specialità locali.</p>
+    </div>
+    <div class="vfoto rv"><img src="img/degu-full.jpg" width="1400" height="1051" loading="lazy" alt="Tavolo della degustazione in cantina: calici, salumi, formaggi e l'insegna Zinzani"></div>
+    <div class="offers">
+      <article class="offer rv">
+        <div class="in"><h3>Base <small>15 €</small></h3><p class="sub">Per conoscere la cantina</p>
+          <ul><li>Visita guidata della cantina</li><li>Passeggiata in vigna</li><li>Degustazione di 5 vini sfusi</li></ul></div>
+      </article>
+      <article class="offer feat rv">
+        <div class="in"><h3>Plus <small>20 €</small></h3><p class="sub">Con i prodotti del territorio</p>
+          <ul><li>Visita in cantina e in vigna</li><li>Degustazione di 7 vini sfusi</li><li>Pane di Marradi e olio dell'azienda</li><li>Salumi e formaggi locali</li></ul></div>
+      </article>
+      <article class="offer rv">
+        <div class="in"><h3>Full <small>25 €</small></h3><p class="sub">I nostri vini migliori</p>
+          <ul><li>Visita in cantina e in vigna</li><li>6 vini sfusi e 2 vini in bottiglia</li><li>Pane di Marradi, olio, salumi e formaggi</li><li>Dolci fatti in casa</li></ul></div>
+      </article>
+    </div>
+    <div class="info">
+      <p>Prezzi a persona · circa 1 ora · minimo 4 persone</p>
+      <div class="ctas">
+        <a class="vng-hbtn" href="tel:+393487932617"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Chiama 348 793 2617</span><span class="vng-hbtn__b" aria-hidden="true">Chiama 348 793 2617 →</span></a>
+        <a class="link" href="mailto:info@zinzanivini.it?subject=Prenotazione%20degustazione">oppure scrivete a info@zinzanivini.it</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sfuso" id="sfuso" aria-labelledby="t-sfuso">
+  <div class="wrap lay">
+    <div>
+      <p class="kicker">Vino sfuso</p>
+      <h2 id="t-sfuso" class="rv">Lo stesso vino, in damigiana</h2>
+      <p class="rv">Lo sfuso riceve la stessa cura del vino in bottiglia. Si può prenotare e passare a ritirarlo in cantina; a chi acquista direttamente da noi riserviamo uno sconto.</p>
+      <div class="fmt">
+        <div><b>5 L</b><span>bottiglione in PET, a perdere</span></div>
+        <div><b>28 · 34 · 54 L</b><span>damigiane, a rendere</span></div>
+      </div>
+      <p class="vlist"><b>In sfuso:</b> Sangiovese, Cabernet Sauvignon, Centesimino, Sangiovese Rosato, Albana, Trebbiano, Grechetto Gentile, Malvasia e Sauvignon Bianco.</p>
+    </div>
+    <div class="vis rv">
+      <div class="ph"><img src="img/cantina-sfuso.jpg" width="1400" height="1051" loading="lazy" alt="Bottiglioni di vino sfuso pronti in cantina" data-par></div>
+      <div class="pets" aria-hidden="true"><img src="img/pet-albana.webp" width="554" height="1100" loading="lazy" alt=""><img src="img/pet-sangiovese.webp" width="489" height="1100" loading="lazy" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<section class="dove" id="dove" aria-labelledby="t-dove">
+  <div class="wrap lay">
+    <div>
+      <p class="kicker">Dove siamo</p>
+      <h2 id="t-dove" class="rv">Venite a trovarci</h2>
+      <dl>
+        <div><dt>Indirizzo</dt><dd>Via Casale 23 – 48018 Faenza (RA)</dd></div>
+        <div><dt>Orari</dt><dd>Lunedì–sabato 8:00–12:00 e 14:00–19:00<br>Domenica chiuso</dd></div>
+        <div><dt>Telefono</dt><dd><a href="tel:+393487932617">+39 348 793 2617</a></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:info@zinzanivini.it">info@zinzanivini.it</a></dd></div>
+      </dl>
+      <div class="ctas">
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Via+Casale+23+48018+Faenza+RA" target="_blank" rel="noopener">Indicazioni stradali <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <div class="ph rv"><img src="img/cantina-esterno.jpg" width="1400" height="1051" loading="lazy" alt="La sede dell'azienda agricola Zinzani tra gli alberi"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>Zinzani</b><p style="margin-top:.6rem">Azienda Agricola Zinzani Marco · Via Casale 23 – 48018 Faenza (RA) · P.IVA 02586520393</p></div>
+    <p>Proposta di restyling non ufficiale, con foto e testi del sito zinzanivini.it.</p>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Contatti rapidi">
+  <a href="tel:+393487932617"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Chiama</a>
+  <a href="#visite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M8 3h8l-1 7a3 3 0 0 1-6 0zM12 13v7M8 21h8"/></svg>Degustazioni</a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Via+Casale+23+48018+Faenza+RA" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Indicazioni</a>
+</nav>
+
+<script src="../vendor/vng/vng.js" defer></script>
+<script src="../vendor/gsap.min.js" defer></script>
+<script src="../vendor/ScrollTrigger.min.js" defer></script>
+<script src="../vendor/SplitText.min.js" defer></script>
+<script src="../vendor/lenis.min.js" defer></script>
 <script>
-var want=/^(home|azienda|degustazione|vino-sfuso|contatti|cantina|chi-siamo)/;
-function pg(d){var o=document.getElementById('d');o.innerHTML='<h3>PAGINE: '+d.map(function(x){return x.slug+' '+x.link.replace('https://www.zinzanivini.it','')}).join(' · ')+'</h3>';
-d.forEach(function(x){if(!want.test(x.slug)&&x.link!=='https://www.zinzanivini.it/')return;var t=document.createElement('div');t.innerHTML=x.content.rendered;var s=t.textContent.replace(/\s+/g,' ').trim();
-var e=document.createElement('div');e.innerHTML='<h3>'+x.slug+' '+x.link+'</h3>';e.appendChild(document.createTextNode(s.slice(0,3500)));o.appendChild(e)})}
-var s=document.createElement('script');s.src='https://www.zinzanivini.it/wp-json/wp/v2/pages?per_page=60&_jsonp=pg';document.head.appendChild(s);
+(function(){
+  var SHOT=/[?&]shot=1\b/.test(location.search);
+  var RED=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var root=document.documentElement;
+  if(SHOT){root.classList.add('shot');document.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager'});var b=document.querySelector('.bar');if(b)b.style.position='static';return;}
+  if(RED){root.classList.add('reduce');return;}
+  root.classList.add('js');
+  window.addEventListener('DOMContentLoaded',function(){
+    if(!window.gsap||!window.ScrollTrigger){root.classList.remove('js');return;}
+    gsap.registerPlugin(ScrollTrigger);
+    var lenis;
+    if(window.Lenis){lenis=new Lenis({lerp:.1});lenis.on('scroll',ScrollTrigger.update);gsap.ticker.add(function(t){lenis.raf(t*1000)});gsap.ticker.lagSmoothing(0);}
+    // titolo diviso in parole
+    if(window.SplitText){var st=new SplitText('#t-hero',{type:'words'});gsap.from(st.words,{yPercent:110,opacity:0,duration:1.1,ease:'expo.out',stagger:.07,delay:.15});}
+    gsap.from('.hero .lead,.hero .ctas,.hero .kicker',{y:24,opacity:0,duration:1,ease:'power3.out',stagger:.08,delay:.45});
+    gsap.to('#heroimg',{scale:1.12,yPercent:6,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+    gsap.utils.toArray('.rv').forEach(function(el){gsap.to(el,{opacity:1,y:0,duration:.9,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 88%'}})});
+    gsap.utils.toArray('[data-par]').forEach(function(img){gsap.fromTo(img,{scale:1.12,yPercent:-4},{scale:1.12,yPercent:4,ease:'none',scrollTrigger:{trigger:img.parentNode,start:'top bottom',end:'bottom top',scrub:1}})});
+    window.addEventListener('load',function(){ScrollTrigger.refresh()});
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var id=a.getAttribute('href');if(id.length>1&&lenis){var t=document.querySelector(id);if(t){e.preventDefault();lenis.scrollTo(t,{offset:-10});}}})});
+  });
+})();
 </script>
-<!-- foto del sito attuale:
-img/80c253a19c12.jpg
-img/a57a3fba0081.jpg
-img/de522bf22fe0.jpg
-img/b55d65a03ca2.jpg
-img/ce86a408e32d.jpg
-img/91a90fc7ea31.jpg
-img/6655a6fd863b.jpg
-img/9561b6dadb1c.jpg
-img/a6e7acb3fc51.jpg
-img/cce94d2fe78e.jpg
-img/d82b09d1a1bc.jpg
-img/00fbbf9b0a3b.jpg
-img/72608f5d5fb2.jpg
-img/d0b7f8fc5525.jpg
-img/45d77ea0625c.jpg
-img/776ca3bcacbc.jpg
-img/0b9cbcf7e1c7.jpg
-img/46b431e2f991.jpg
-img/ebe73baaeb8b.jpg
-img/9ed5e722481f.jpg
-img/ca0a9c8989d2.jpg
-img/059fc17b2f6c.webp
-img/fbbfe7143ecc.jpg
-img/398a6ff4e014.jpg
-img/0031c03a0b01.jpg
-img/b7324e1cf471.jpg
-img/3a586e06c35d.jpg
-img/116fa557403c.jpg
-img/75bfd2281319.jpg
-img/56b0211e7c02.jpg
-img/4a9e912a0edc.jpg
-img/d3237302331e.jpg
-img/0e748f5576eb.jpg
-img/e2152799d460.jpg
-img/ff6978dc6d4b.webp
-img/1a31bc52e084.webp
-img/8812bde40b59.webp
-img/42ae3d052213.jpg
-img/0570d15297fa.jpg
-img/70a8edd93a42.jpg
-img/8096fbd1089f.jpg
-img/a2e529911794.jpg
-img/3aa121470c2b.jpg
--->
-</body></html>
+</body>
+</html>
