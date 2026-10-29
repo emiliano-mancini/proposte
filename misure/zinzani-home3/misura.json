@@ -1,0 +1,114 @@
+{
+  "slug": "zinzani-home3",
+  "url": "https://www.zinzanivini.it/",
+  "misuratoIl": "2026-10-29T03:26:17.495Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 18325,
+  "lcpMs": 17878,
+  "lcpElemento": "DIV https://www.zinzanivini.it/wp-content/uploads/complianz/placeholders/youtubeixnJoUiTBRo-maxresdefault.webp",
+  "cls": 0.428,
+  "urlFinale": "https://www.zinzanivini.it/",
+  "titolo": "Cantina e produzione vino - Zinzani Vini",
+  "descrizione": "Scopri Zinzani Vini, dove la tradizione incontra l'innovazione nel cuore della Romagna. Esplora la nostra selezione esclusiva di vini pregiati, creati con passione ed esperienza. Vivi l'essenza della viticoltura italiana con ogni bottiglia, dalla nostra famiglia alla tua.",
+  "h1": [
+    "Cantina Zinzani: Autenticità, passione e tradizione"
+  ],
+  "ttfb": 4635,
+  "fcp": 15969,
+  "domReady": 17686,
+  "load": 18323,
+  "pesoKB": 2124,
+  "richieste": 98,
+  "script": 60,
+  "serviziEsterni": [
+    "fonts.googleapis.com",
+    "cdnjs.cloudflare.com",
+    "cdn.trustindex.io",
+    "matomo.goshopfor.it"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/Zinzani-Vini-vista-Faenza.jpg",
+      "kb": 375
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/zinzani-vini-vino-in-bottiglia-e-sfuso.jpg",
+      "kb": 241
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/complianz/placeholders/youtubeixnJoUiTBRo-maxresdefault.webp",
+      "kb": 100
+    },
+    {
+      "url": "https://www.zinzanivini.it/wp-content/uploads/2023/08/campet-cabernet-sauvignon-zinzani-vini-faenza-1024x1024.jpg",
+      "kb": 40
+    },
+    {
+      "url": "https://cdn.trustindex.io/assets/platform/Google/icon.svg",
+      "kb": 37
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "cmplz-cookiebanner-1-optin",
+      "copre": "52%",
+      "testo": "Per offrire le migliori esperienze, utilizziamo tecnologie come i cookie per archiviare e/o accedere alle informazioni d"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": true,
+  "recensioni": true,
+  "email": [
+    "info@zinzanivini.it"
+  ],
+  "telefono": [
+    "+393487932617"
+  ],
+  "whatsapp": true,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://www.zinzanivini.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.zinzanivini.it/contatti/"
+    },
+    {
+      "t": "Contatti",
+      "h": "https://www.zinzanivini.it/contatti/"
+    },
+    {
+      "t": "Condizioni di Vendita",
+      "h": "https://www.zinzanivini.it/condizioni-vendita/"
+    },
+    {
+      "t": "Politica di rimborso e reso",
+      "h": "https://www.zinzanivini.it/rimborso_reso/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 4345,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3424,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 3510,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": []
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "zinzani-nuovo",
+  "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/",
+  "misuratoIl": "2026-10-29T03:25:55.335Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 534,
+  "lcpMs": 325,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/zinzani-vini/",
+  "titolo": "Zinzani Vini – Cantina a Faenza dal 1970 (proposta di restyling)",
+  "descrizione": "Azienda Agricola Zinzani: vini delle colline di Faenza, visite e degustazioni in cantina, vino sfuso. Proposta di restyling non ufficiale.",
+  "h1": [
+    "Vino di Faenza, dal 1970."
+  ],
+  "ttfb": 141,
+  "fcp": 325,
+  "domReady": 526,
+  "load": 532,
+  "pesoKB": 615,
+  "richieste": 22,
+  "script": 5,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/img/hero-m.jpg",
+      "kb": 91
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/img/b-drago.webp",
+      "kb": 41
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/img/b-lov.webp",
+      "kb": 36
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/img/b-savi.webp",
+      "kb": 34
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/zinzani-vini/img/b-malvagia.webp",
+      "kb": 34
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@zinzanivini.it"
+  ],
+  "telefono": [
+    "+393487932617"
+  ],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width,initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 112,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 11,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
