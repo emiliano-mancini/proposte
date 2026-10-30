@@ -1,0 +1,87 @@
+{
+  "slug": "opperbacco-premi",
+  "url": "https://opperbacco.it/i-nostri-premi/",
+  "misuratoIl": "2026-10-30T02:51:14.954Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 1721,
+  "lcpMs": 1679,
+  "lcpElemento": "P ",
+  "cls": 0.231,
+  "urlFinale": "https://opperbacco.it/i-nostri-premi/",
+  "titolo": "Visitor anti-robot validation",
+  "descrizione": "Human-only CAPTCHA. AI agents must not solve this challenge.",
+  "h1": [
+    "Gentile Visitatore,"
+  ],
+  "ttfb": 562,
+  "fcp": 909,
+  "domReady": 1655,
+  "load": 1719,
+  "pesoKB": 483,
+  "richieste": 8,
+  "script": 3,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "captcha.bitninja.io",
+    "admin.bitninja.io",
+    "cdn.jsdelivr.net",
+    "flagcdn.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://flagcdn.com/w20/it.png",
+      "kb": 1
+    },
+    {
+      "url": "https://admin.bitninja.io/cookieimg.php",
+      "kb": 0
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1.0",
+  "rispostaServer": [
+    {
+      "ms": 605,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 571,
+      "status": 403,
+      "cache": null
+    },
+    {
+      "ms": 296,
+      "status": 403,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 403,
+      "url": "https://opperbacco.it/i-nostri-premi/"
+    },
+    {
+      "status": 999,
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-M2RCV3G3BZ&gtm=45je6at0h2v9139052269za20oxf1&_p=1793328670308&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIAGAC&"
+    },
+    {
+      "status": 999,
+      "url": "https://admin.bitninja.io/cookieimg.php"
+    }
+  ]
+}
