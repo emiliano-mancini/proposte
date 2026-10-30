@@ -51,11 +51,12 @@ p{margin:0 0 1em}
 .nav a{text-decoration:none;font-weight:600;font-size:.95rem}
 .nav a:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:5px}
 .top .call{margin-left:auto;font-weight:800;text-decoration:none;border:var(--b);padding:.45rem .8rem;border-radius:99px;font-size:.9rem;background:var(--lime)}
-.top .call{display:inline-block;margin-left:auto;padding:.45rem .7rem}
+.top .call{display:inline-block;margin-left:auto;padding:.45rem .8rem;background:var(--ink);color:var(--cream)}
+@media(min-width:900px){.top .call{background:var(--lime);color:var(--ink)}}
 .top .call .n{display:none}
 @media(min-width:900px){.top .call .n{display:inline}}
 .mnav{margin-left:.5rem;position:relative}
-.mnav summary{list-style:none;cursor:pointer;font-weight:800;border:var(--b);border-radius:99px;padding:.45rem .9rem;background:var(--lime)}
+.mnav summary{list-style:none;cursor:pointer;font-weight:800;border:var(--b);border-radius:99px;padding:.45rem .9rem;background:transparent}
 .mnav summary::-webkit-details-marker{display:none}
 .mnav nav{position:absolute;right:0;top:calc(100% + .5rem);background:var(--cream);border:var(--b);border-radius:14px;padding:.4rem;display:grid;min-width:200px;box-shadow:var(--sh)}
 .mnav nav a{padding:.75rem .9rem;font-weight:700;text-decoration:none;border-bottom:1px solid rgba(29,24,19,.15)}
@@ -81,7 +82,7 @@ p{margin:0 0 1em}
 .hero__kick span{border:2px solid var(--ink);border-radius:99px;padding:.3rem .65rem;background:var(--cream)}
 .hero h1{font-size:clamp(3.6rem, 15vw, 8.8rem);line-height:.86}
 .hero h1 .l1{display:block;font-size:.4em;line-height:1;margin-bottom:.12em}
-.hero h1 .l2{display:block;color:var(--cream);-webkit-text-stroke:3px var(--ink);paint-order:stroke fill;text-shadow:6px 6px 0 var(--ink)}
+.hero h1 .l2{display:block;color:var(--cream);-webkit-text-stroke:3px var(--ink);paint-order:stroke fill;text-shadow:4px 4px 0 var(--ink)}
 .hero__lead{font-size:1.1rem;max-width:32ch;margin:1.1rem 0 1.4rem;font-weight:600;line-height:1.45}
 .hero__cta{display:flex;flex-wrap:wrap;gap:.8rem 1.4rem}
 @media(max-width:899px){.hero h1{font-size:clamp(3.2rem,15vw,5rem)}.hero h1 .l1{font-size:.42em}.hero__lead{font-size:1.02rem;margin:.8rem 0 1.1rem}}
@@ -94,7 +95,7 @@ p{margin:0 0 1em}
 .spec{position:absolute;left:0;bottom:4%;background:var(--cream);border:var(--b);padding:.6rem .8rem;box-shadow:4px 4px 0 var(--ink)}
 .spec strong{display:block;font-family:var(--disp);font-weight:400;font-size:1.3rem;text-transform:uppercase}
 @media(min-width:900px){
-  .hero .wrap{grid-template-columns:1.15fr .85fr;align-items:center;padding:3.5rem 0 3.5rem;min-height:calc(100svh - 140px)}
+  .hero .wrap{grid-template-columns:1.15fr .85fr;align-items:center;padding:3rem 0 3rem}
   .hero__prod{min-height:580px}.hero__can{height:500px}.badge{width:160px}
 }
 
@@ -132,7 +133,7 @@ p{margin:0 0 1em}
 .can--d{color:var(--cream)}
 .can .flag{position:absolute;top:.8rem;left:.8rem;background:var(--ink);color:var(--cream);font:500 .66rem/1 var(--mono);text-transform:uppercase;padding:.35rem .5rem;border-radius:99px;letter-spacing:.05em}
 @media(min-width:1100px){.shelf{grid-auto-flow:row;grid-template-columns:repeat(4,1fr);overflow:visible;margin:0;padding:0}.can--wide{grid-column:span 2}}
-.shelf-hint{margin-top:.4rem}
+.shelf-hint{margin-top:.4rem;text-transform:none;letter-spacing:.02em;font-size:.85rem}
 @media(min-width:1100px){.shelf-hint{display:none}}
 
 /* origini */
@@ -155,7 +156,7 @@ p{margin:0 0 1em}
 .nat{background:var(--ink);color:var(--cream)}
 .nat .split{display:grid;gap:1.5rem}
 .nat h2{color:var(--lime)}
-.nat__card{border:3px solid var(--cream);border-radius:18px;padding:1.5rem;position:relative}
+.nat__card{border:3px solid var(--cream);border-radius:18px;padding:1.5rem;position:relative;min-width:0;overflow:hidden}
 .nat__card h3{font-size:clamp(2rem,6vw,3.2rem);margin-bottom:.8rem}
 .natp{list-style:none;margin:1.2rem 0 0;padding:1rem 0 0;border-top:2px solid rgba(244,239,227,.25);display:grid;gap:.5rem;font-size:.95rem}
 .natp b{color:var(--lime);display:block;font-family:var(--disp);font-weight:400;text-transform:uppercase}
@@ -163,12 +164,12 @@ p{margin:0 0 1em}
 .abx{display:flex;gap:.2rem;margin-top:1.4rem;overflow:hidden}
 .abx img{height:210px;width:auto;flex:0 0 auto;margin-right:-12px}
 @media(min-width:900px){.nat .split{grid-template-columns:1fr 1fr}}
-.abx-row{display:flex;gap:1.2rem;margin:2.5rem -1rem 0;padding:2rem 1rem .6rem;border-top:2px solid rgba(244,239,227,.25);overflow-x:auto;scroll-snap-type:x mandatory}
+.abx-row{display:flex;gap:1rem;margin:1.4rem -1.5rem 0;padding:1.4rem 1.5rem .6rem;border-top:2px solid rgba(244,239,227,.25);overflow-x:auto;scroll-snap-type:x mandatory}
 .abx-row figure{flex:0 0 auto;scroll-snap-align:start;text-align:center}
-.abx-row img{height:260px;width:auto;margin:0 auto .6rem}
+.abx-row img{height:200px;width:auto;margin:0 auto .6rem}
 .abx-row figcaption{font:500 .78rem/1.3 var(--mono);text-transform:uppercase;color:var(--lime)}
-@media(min-width:1000px){.abx-row{justify-content:space-between;overflow:visible;margin:2.5rem 0 0;padding:2rem 0 0}}
-.abx-cap{text-align:center;margin-top:1rem;color:var(--lime)}
+@media(min-width:1200px){.abx-row{justify-content:space-between;overflow:visible;margin:1.4rem 0 0;padding:1.4rem 0 0}.abx-row img{height:150px}}
+.abx-cap{margin:.8rem 0 0;color:var(--lime)}
 
 /* birrificio */
 .story{background:var(--cream)}
@@ -190,14 +191,14 @@ p{margin:0 0 1em}
 .palm{background:var(--lime)}
 .years{border-top:var(--b)}
 .yr{display:grid;grid-template-columns:auto 1fr;gap:.6rem 1.2rem;padding:1.2rem 0;border-bottom:var(--b);align-items:center}
-.yr h3{font-size:clamp(2.6rem,11vw,7.5rem);line-height:.85;color:var(--ink)}
+.yr h3{font-size:clamp(2.1rem,9vw,7.5rem);line-height:.85;color:var(--ink)}
 @media(min-width:900px){.yr h3{-webkit-text-stroke:2px var(--ink);color:transparent}}
 .yr:hover h3{color:var(--ink)}
 .yr ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem;align-content:center}
 .yr li{font-weight:600}
 .yr li b{font-weight:800}
-.yr .pos{font-style:normal;white-space:nowrap;font:500 .72rem/1 var(--mono);background:var(--ink);color:var(--lime);padding:.25rem .45rem;border-radius:99px;vertical-align:.15em;margin-left:.3rem}
-.yr li span{font:500 .78rem/1.3 var(--mono);text-transform:uppercase;display:block;opacity:.8}
+.yr .pos{display:table;margin:.3rem 0 .2rem;font-style:normal;white-space:nowrap;font:500 .72rem/1 var(--mono);background:var(--ink);color:var(--lime);padding:.25rem .45rem;border-radius:99px;vertical-align:.15em;margin-left:.3rem}
+.yr li span{font:500 .82rem/1.35 var(--mono);display:block;opacity:.85}
 @media(min-width:900px){.yr{grid-template-columns:250px 1fr;align-items:center}.yr h3{font-size:5.4rem}}
 .palm__grid{display:grid;gap:2rem}
 .palm__ph{border:var(--b);border-radius:18px;overflow:hidden;margin:0;background:var(--ink)}
@@ -218,8 +219,8 @@ p{margin:0 0 1em}
 .pub__info ul{margin:0;padding-left:1.1rem}
 .pub__info .btn{background:var(--lime);color:var(--ink);border-color:var(--lime);box-shadow:none;align-self:flex-start}
 .hours{font-family:var(--disp);font-size:1.6rem;line-height:1.05;text-transform:uppercase}
-.pub__info{order:-1}
-@media(min-width:900px){.pub__info{order:0}.pub__grid{grid-template-columns:1.2fr .8fr .9fr;grid-template-rows:300px 300px}.pub__a{grid-row:span 2}.pub__info{grid-row:span 2}}
+.pub__grid{grid-template-columns:1fr 1fr}.pub__a,.pub__info{grid-column:1/-1}.pub__a{order:-2}.pub__info{order:-1}.pub__ph img{aspect-ratio:1}
+@media(min-width:900px){.pub__info{order:0}.pub__a{order:0}.pub__a,.pub__info{grid-column:auto}.pub__ph img{aspect-ratio:auto}.pub__grid{grid-template-columns:1.2fr .8fr .9fr;grid-template-rows:300px 300px}.pub__a{grid-row:span 2}.pub__info{grid-row:span 2}}
 
 /* visita */
 .visit{background:var(--cream)}
@@ -262,7 +263,7 @@ footer small{opacity:.8}
     <nav class="nav" aria-label="Sezioni">
       <a href="#birre">Le birre</a><a href="#birrificio">Il birrificio</a><a href="#premi">Premi</a><a href="#agripub">Agripub</a><a href="#visita">Contatti</a>
     </nav>
-    <a class="call" href="tel:+390857994332">Chiama<span class="n"> il birrificio 085 799 43 32</span></a>
+    <a class="call" href="tel:+390857994332">✆ Chiama<span class="n"> il birrificio 085 799 43 32</span></a>
     <details class="mnav"><summary>Menu</summary><nav aria-label="Sezioni (telefono)"><a href="#birre">Le birre</a><a href="#birrificio">Il birrificio</a><a href="#premi">Premi</a><a href="#agripub">Agripub</a><a href="#visita">Contatti</a></nav></details>
   </div>
 </header>
@@ -313,8 +314,8 @@ footer small{opacity:.8}
     </div>
     <div class="shelf" role="list">
       <article class="can can--wide rv" role="listitem" style="--c:#F3D04A"><img src="img/latt-slip.webp" width="494" height="760" loading="lazy" alt="Lattina SLIP"><h3>SLIP</h3><p>Pilsner di ispirazione tedesca</p></article>
-      <article class="can rv" role="listitem" style="--c:#9DBB5A"><img src="img/latt-rusthell.webp" width="347" height="878" loading="lazy" alt="Lattina Rusthell"><h3>Rusthell</h3><p>Helles · 4,8% · frumento Rosciola di Castel del Monte</p></article>
-      <article class="can rv" role="listitem" style="--c:#E9E3D3"><img src="img/latt-overdose.webp" width="301" height="760" loading="lazy" alt="Lattina Overdose"><h3>Overdose</h3><p>Imperial IPA</p></article>
+      <article class="can rv" role="listitem" style="--c:#9DBB5A"><img src="img/latt-rusthell.webp" width="347" height="878" loading="lazy" alt="Lattina Rusthell"><h3>Rusthell</h3><p>Helles</p></article>
+      <article class="can rv" role="listitem" style="--c:#A9B4BC"><img src="img/latt-overdose.webp" width="301" height="760" loading="lazy" alt="Lattina Overdose"><h3>Overdose</h3><p>Imperial IPA</p></article>
       <article class="can can--d rv" role="listitem" style="--c:#2C4A94"><img src="img/latt-eipiei.webp" width="299" height="760" loading="lazy" alt="Lattina EI.PI.EI."><h3>EI.PI.EI.</h3><p>American Pale Ale</p></article>
       <article class="can rv" role="listitem" style="--c:#F2A3C4"><img src="img/latt-behappy.webp" width="301" height="760" loading="lazy" alt="Lattina Be Happy"><h3>Be Happy</h3><p>New England IPA</p></article>
       <article class="can can--d rv" role="listitem" style="--c:#5B3F8F"><img src="img/latt-violent.webp" width="299" height="760" loading="lazy" alt="Lattina Violent Shared"><h3>Violent Shared</h3><p>Session Grapefruit IPA</p></article>
@@ -405,10 +406,10 @@ footer small{opacity:.8}
         <span class="mono">Farmhouse Wild Ale · ogni 4 mesi</span>
         <h3>Abruxensis</h3>
         <p>«Se le Nature hanno un ciclo annuale legato alla vendemmia, le Abruxensis sono realizzate stagionalmente ogni 4 mesi.» Frutta abruzzese, lieviti selvaggi e maturazione in barrique ex Montepulciano d'Abruzzo. In bottiglia da 33 cl e in fusto da 16 litri.</p>
+        <div class="abx-row"><figure><img src="img/abx-melograno.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Melograno"><figcaption>Melograno</figcaption></figure><figure><img src="img/abx-genziana.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Genziana"><figcaption>Genziana</figcaption></figure><figure><img src="img/abx-mandarini.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Mandarini"><figcaption>Mandarini</figcaption></figure><figure><img src="img/abx-farmhouse.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Lievito Farmhouse"><figcaption>Lievito Farmhouse</figcaption></figure><figure><img src="img/abx-mele.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Mele"><figcaption>Mele</figcaption></figure><figure><img src="img/abx-arance.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Arance"><figcaption>Arance</figcaption></figure></div>
+    <p class="abx-cap mono">← scorri le Abruxensis →</p>
       </article>
     </div>
-    <div class="abx-row rv"><figure><img src="img/abx-melograno.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Melograno"><figcaption>Melograno</figcaption></figure><figure><img src="img/abx-genziana.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Genziana"><figcaption>Genziana</figcaption></figure><figure><img src="img/abx-mandarini.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Mandarini"><figcaption>Mandarini</figcaption></figure><figure><img src="img/abx-farmhouse.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Lievito Farmhouse"><figcaption>Lievito Farmhouse</figcaption></figure><figure><img src="img/abx-mele.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Mele"><figcaption>Mele</figcaption></figure><figure><img src="img/abx-arance.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Arance"><figcaption>Arance</figcaption></figure></div>
-    <p class="abx-cap mono rv">Abruxensis · bottiglia 33 cl e fusto 16 l</p>
   </div>
 </section>
 
@@ -451,8 +452,8 @@ footer small{opacity:.8}
     </div>
     <div class="visit__grid">
       <div class="vcard rv"><h3>Dove</h3><p>Via Casarino, 21<br>64024 Notaresco (TE)</p><p style="margin-top:.8rem"><a href="https://www.google.com/maps/search/?api=1&amp;query=Opperbacco+Via+Casarino+Notaresco">Apri le indicazioni →</a></p></div>
-      <div class="vcard rv"><h3>Birrificio</h3><p><a href="tel:+390857994332">+39 085 799 43 32</a></p><p><a href="mailto:info@opperbacco.it">info@opperbacco.it</a></p></div>
-      <div class="vcard rv"><h3>Agripub</h3><p><a href="tel:+393283156009">+39 328 31 56 009</a></p><p><a href="mailto:agripubopperbacco@gmail.com">agripubopperbacco@gmail.com</a></p></div>
+      <div class="vcard rv"><h3>Birrificio</h3><p><a href="tel:+390857994332">+39 085 799 43 32</a></p><p><a href="mailto:info@opperbacco.it">info@opperbacco.it</a></p><p style="margin-top:1rem"><a class="btn btn--ink" href="tel:+390857994332">Chiama il birrificio</a></p></div>
+      <div class="vcard rv"><h3>Agripub</h3><p>Tutti i giorni tranne il mercoledì, 19:30 – 01:00</p><p><a href="tel:+393283156009">+39 328 31 56 009</a></p><p><a href="mailto:agripubopperbacco@gmail.com">agripubopperbacco@gmail.com</a></p><p style="margin-top:1rem"><a class="btn" style="background:var(--lime)" href="tel:+393283156009">Prenota all'Agripub</a></p></div>
     </div>
   </div>
 </section>
