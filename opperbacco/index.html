@@ -7,7 +7,8 @@
 <title>Opperbacco – Microbirrificio a Notaresco dal 2009 (proposta di restyling)</title>
 <meta name="description" content="Microbirrificio Opperbacco, Notaresco (TE): birre artigianali d'Abruzzo dal 2009, Agripub con 8 spine. Proposta di restyling, bozza non ufficiale.">
 <link rel="preload" href="fonts/archivo-black-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="img/latt-rusthell.webp" as="image">
+<link rel="preload" href="img/latt-rusthell.webp" as="image" fetchpriority="high">
+<link rel="icon" href="img/logo.webp" type="image/webp">
 <link rel="stylesheet" href="../vendor/vng/vng.css">
 <style>
 @font-face{font-family:"Archivo Black";src:url(fonts/archivo-black-latin-400-normal.woff2) format("woff2");font-weight:400;font-display:swap}
@@ -123,7 +124,7 @@ p{margin:0 0 1em}
 .evo{background:var(--paper)}
 .shelf{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(210px,1fr);gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 1rem 1.4rem;margin:0 -1rem;scrollbar-width:thin}
 .can{scroll-snap-align:start;border:var(--b);border-radius:18px;background:var(--c, var(--lime));box-shadow:var(--sh);padding:1.2rem 1rem 1rem;display:flex;flex-direction:column;min-height:440px;position:relative;overflow:hidden}
-.can img{height:300px;width:auto;margin:0 auto .8rem;
+.can img{height:300px;width:auto;object-fit:contain;margin:0 auto .8rem;
 }
 .can--wide img{height:340px}
 .can img{transition:transform .45s cubic-bezier(.34,1.56,.64,1)}
@@ -282,7 +283,7 @@ footer small{opacity:.8}
     </div>
     <div class="hero__prod">
       <div class="hero__disc" aria-hidden="true"></div>
-      <img class="hero__can" src="img/latt-rusthell.webp" width="347" height="878" alt="Lattina di Rusthell, Helles di Opperbacco, con l'etichetta illustrata verde">
+      <img class="hero__can" fetchpriority="high" src="img/latt-rusthell.webp" width="347" height="878" alt="Lattina di Rusthell, Helles di Opperbacco, con l'etichetta illustrata verde">
       <div class="badge" aria-label="Birra dell'Anno 2023: prima classificata categoria Helles"><span><b>1ª</b>Birra dell'Anno 2023<br>cat. Helles</span></div>
       <div class="spec"><span class="mono">Evoluzioni · lattina 33 cl</span><strong>Rusthell</strong><span class="mono">Helles · 4,8% · 16 IBU</span></div>
     </div>
@@ -302,7 +303,7 @@ footer small{opacity:.8}
 </div>
 
 <section class="band" aria-label="Il birrificio dall'alto">
-  <img src="img/birrificio-dall-alto.jpg" width="1920" height="800" alt="Il birrificio Opperbacco visto dall'alto, tra gli ulivi delle colline di Notaresco">
+  <img src="img/birrificio-dall-alto.webp" srcset="img/birrificio-dall-alto-960.webp 960w, img/birrificio-dall-alto.webp 1920w" sizes="100vw" width="1920" height="800" alt="Il birrificio Opperbacco visto dall'alto, tra gli ulivi delle colline di Notaresco">
   <p class="band__cap"><span class="mono">Notaresco (TE)</span>Una vecchia stalla tra gli ulivi delle colline teramane</p>
 </section>
 
@@ -312,14 +313,14 @@ footer small{opacity:.8}
       <h2 id="t-evo" class="rv">Le Evoluzioni</h2>
       <p class="rv">«Con il passare degli anni, l'esperienza e la tecnologia si sono sommate alla passione»: le birre più recenti, con le etichette illustrate.</p>
     </div>
-    <div class="shelf" role="list">
-      <article class="can can--wide rv" role="listitem" style="--c:#F3D04A"><img src="img/latt-slip.webp" width="494" height="760" loading="lazy" alt="Lattina SLIP"><h3>SLIP</h3><p>Pilsner di ispirazione tedesca</p></article>
-      <article class="can rv" role="listitem" style="--c:#9DBB5A"><img src="img/latt-rusthell.webp" width="347" height="878" loading="lazy" alt="Lattina Rusthell"><h3>Rusthell</h3><p>Helles</p></article>
-      <article class="can rv" role="listitem" style="--c:#A9B4BC"><img src="img/latt-overdose.webp" width="301" height="760" loading="lazy" alt="Lattina Overdose"><h3>Overdose</h3><p>Imperial IPA</p></article>
-      <article class="can can--d rv" role="listitem" style="--c:#2C4A94"><img src="img/latt-eipiei.webp" width="299" height="760" loading="lazy" alt="Lattina EI.PI.EI."><h3>EI.PI.EI.</h3><p>American Pale Ale</p></article>
-      <article class="can rv" role="listitem" style="--c:#F2A3C4"><img src="img/latt-behappy.webp" width="301" height="760" loading="lazy" alt="Lattina Be Happy"><h3>Be Happy</h3><p>New England IPA</p></article>
-      <article class="can can--d rv" role="listitem" style="--c:#5B3F8F"><img src="img/latt-violent.webp" width="299" height="760" loading="lazy" alt="Lattina Violent Shared"><h3>Violent Shared</h3><p>Session Grapefruit IPA</p></article>
-      <article class="can rv" role="listitem" style="--c:#E58E5A"><img src="img/latt-4x4.webp" width="299" height="760" loading="lazy" alt="Lattina 4×4"><h3>4×4</h3><p>West Coast IPA</p></article>
+    <div class="shelf">
+      <article class="can can--wide rv" style="--c:#F3D04A"><img src="img/latt-slip.webp" width="494" height="760" loading="lazy" alt="Lattina SLIP"><h3>SLIP</h3><p>Pilsner di ispirazione tedesca</p></article>
+      <article class="can rv" style="--c:#9DBB5A"><img src="img/latt-rusthell.webp" width="347" height="878" loading="lazy" alt="Lattina Rusthell"><h3>Rusthell</h3><p>Helles</p></article>
+      <article class="can rv" style="--c:#A9B4BC"><img src="img/latt-overdose.webp" width="301" height="760" loading="lazy" alt="Lattina Overdose"><h3>Overdose</h3><p>Imperial IPA</p></article>
+      <article class="can can--d rv" style="--c:#2C4A94"><img src="img/latt-eipiei.webp" width="299" height="760" loading="lazy" alt="Lattina EI.PI.EI."><h3>EI.PI.EI.</h3><p>American Pale Ale</p></article>
+      <article class="can rv" style="--c:#F2A3C4"><img src="img/latt-behappy.webp" width="301" height="760" loading="lazy" alt="Lattina Be Happy"><h3>Be Happy</h3><p>New England IPA</p></article>
+      <article class="can can--d rv" style="--c:#5B3F8F"><img src="img/latt-violent.webp" width="299" height="760" loading="lazy" alt="Lattina Violent Shared"><h3>Violent Shared</h3><p>Session Grapefruit IPA</p></article>
+      <article class="can rv" style="--c:#E58E5A"><img src="img/latt-4x4.webp" width="299" height="760" loading="lazy" alt="Lattina 4×4"><h3>4×4</h3><p>West Coast IPA</p></article>
     </div>
     <p class="shelf-hint mono">← scorri le lattine →</p>
   </div>
@@ -328,7 +329,7 @@ footer small{opacity:.8}
 <section class="sec story" id="birrificio" aria-labelledby="t-story">
   <div class="wrap">
     <div class="story__grid">
-      <figure class="story__ph rv" style="margin:0"><img src="img/luigi-spina.jpg" width="930" height="900" loading="lazy" alt="Il mastro birraio Luigi Recchiuti spilla una birra al bancone"></figure>
+      <figure class="story__ph rv" style="margin:0"><img src="img/luigi-spina.webp" width="930" height="900" loading="lazy" alt="Il mastro birraio Luigi Recchiuti spilla una birra al bancone"></figure>
       <div class="story__txt">
         <p class="mono rv">Il birrificio</p>
         <h2 class="rv" style="font-size:clamp(2.5rem,7vw,4.8rem);margin:.4rem 0 1.4rem">Dal 2009, la birra di Luigi</h2>
@@ -351,8 +352,8 @@ footer small{opacity:.8}
       <p class="rv">Accanto al birrificio: tutte le birre alla spina, pizza con l'impasto al malto d'orzo e arrosticini fatti a mano.</p>
     </div>
     <div class="pub__grid">
-      <figure class="pub__ph pub__a rv" style="margin:0"><img src="img/agripub-camino.jpg" width="960" height="960" loading="lazy" alt="La sala dell'Agripub con il grande camino"></figure>
-      <figure class="pub__ph rv" style="margin:0"><img src="img/agripub-pizza.jpg" width="800" height="800" loading="lazy" alt="Pizza al taglio dell'Agripub"></figure>
+      <figure class="pub__ph pub__a rv" style="margin:0"><img src="img/agripub-camino.webp" width="960" height="960" loading="lazy" alt="La sala dell'Agripub con il grande camino"></figure>
+      <figure class="pub__ph rv" style="margin:0"><img src="img/agripub-pizza.webp" width="800" height="800" loading="lazy" alt="Pizza al taglio dell'Agripub"></figure>
       <div class="pub__info rv">
         <p class="mono" style="margin:0">Orari</p>
         <p class="hours">Tutti i giorni tranne il mercoledì<br>19:30 – 01:00</p>
@@ -365,7 +366,7 @@ footer small{opacity:.8}
         <a href="https://opperbacco.it/prodotto/regala-una-cena/" style="font-weight:600">Regala una cena all'Agripub →</a>
         <p class="today" id="oggi">Via Casarino, Notaresco (TE)</p>
       </div>
-      <figure class="pub__ph rv" style="margin:0"><img src="img/agripub-piatto.jpg" width="800" height="800" loading="lazy" alt="Piatto dell'Agripub con il boccale Opperbacco"></figure>
+      <figure class="pub__ph rv" style="margin:0"><img src="img/agripub-piatto.webp" width="800" height="800" loading="lazy" alt="Piatto dell'Agripub con il boccale Opperbacco"></figure>
     </div>
   </div>
 </section>
@@ -421,7 +422,7 @@ footer small{opacity:.8}
       <p class="rv">Dal primo posto al Campionato Italiano del 2009 alla Chiocciola Slow Food del 2023. Una selezione dei riconoscimenti.</p>
     </div>
     <div class="palm__grid">
-    <figure class="palm__ph rv"><img src="img/premiazione.jpg" width="1920" height="1000" loading="lazy" alt="Festa sul palco con il cartello della Birra dell'Anno"><figcaption class="mono">Sul palco della Birra dell'Anno</figcaption></figure>
+    <figure class="palm__ph rv"><img src="img/premiazione.webp" width="1920" height="1000" loading="lazy" alt="Festa sul palco con il cartello della Birra dell'Anno"><figcaption class="mono">Sul palco della Birra dell'Anno</figcaption></figure>
     <div class="years">
       <div class="yr rv"><h3>2023</h3><ul>
         <li><b>Rusthell</b> <em class="pos">1ª classificata</em><span>Birra dell'Anno · cat. 2 Helles</span></li>
@@ -494,7 +495,7 @@ window.addEventListener('DOMContentLoaded', function () {
     gsap.from(sp.chars, { yPercent: 110, opacity: 0, duration: .8, ease: 'expo.out', stagger: .025 });
     ScrollTrigger.refresh();
   });
-  gsap.from('.hero__can', { y: 120, rotate: 8, opacity: 0, duration: 1.1, ease: 'expo.out', delay: .2 });
+  gsap.from('.hero__can', { y: 60, rotate: 8, duration: 1.1, ease: 'expo.out', delay: .2 });
   gsap.from('.badge', { scale: 0, rotate: -40, duration: .8, ease: 'back.out(2)', delay: .7 });
   gsap.to('.hero__can', { yPercent: -12, rotate: -2, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: 1 } });
   gsap.utils.toArray('.rv').forEach(function (el) {
