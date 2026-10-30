@@ -1,0 +1,130 @@
+{
+  "slug": "opperbacco-arch-contatti",
+  "url": "https://web.archive.org/web/2026if_/https://opperbacco.it/contatti/",
+  "misuratoIl": "2026-10-30T02:57:29.081Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 22393,
+  "lcpMs": 7156,
+  "lcpElemento": "H3 ",
+  "cls": 0.023,
+  "urlFinale": "https://web.archive.org/web/20240912211255if_/https://opperbacco.it/contatti/",
+  "titolo": "Contatti - Opperbacco",
+  "descrizione": null,
+  "h1": [],
+  "ttfb": 4208,
+  "fcp": 7116,
+  "domReady": 12331,
+  "load": 22391,
+  "pesoKB": 2456,
+  "richieste": 100,
+  "script": 45,
+  "serviziEsterni": [
+    "web-static.archive.org"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://web.archive.org/web/20240911001708im_/https://opperbacco.it/wp-content/uploads/2020/04/base-footer.jpg",
+      "kb": 256
+    },
+    {
+      "url": "https://web.archive.org/web/20240911001906im_/https://opperbacco.it/wp-content/uploads/2020/04/logo-footer_2x.png",
+      "kb": 55
+    },
+    {
+      "url": "https://web.archive.org/web/20240911001725im_/https://opperbacco.it/wp-content/uploads/2019/10/logo.png",
+      "kb": 12
+    },
+    {
+      "url": "https://web.archive.org/web/20240911001739im_/https://opperbacco.it/wp-content/uploads/2019/10/logo-stk.png",
+      "kb": 7
+    },
+    {
+      "url": "https://web.archive.org/web/20240912211255im_/https://opperbacco.it/wp-content/uploads/2020/02/av_SX_3840x1842.jpg?id=2119",
+      "kb": 5
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "ch2-dialog ch2-dialog-left ch2-visible",
+      "copre": "54%",
+      "testo": "Informazioni sui cookie presenti in questo sito Utilizziamo i cookie per raccogliere e analizzare informazioni sulle pre"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Ho letto e accetto le condizioni di Privacy",
+      "h": "https://opperbacco.it/privacy-policy/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://opperbacco.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 180,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 15,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 13,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 404,
+      "url": "https://web.archive.org/web/20240912211255if_/https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1467.2203298243514!2d13.885796092284396!3d42.65201646966388!"
+    },
+    {
+      "status": 404,
+      "url": "https://web.archive.org/web/20240912211255im_/https://opperbacco.it/wp-content/uploads/2020/02/av_SX_3840x1842.jpg?id=2119"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20240912211255js_/https://www.googletagmanager.com/gtag/js?id=G-9P1MTZ0TQF&l=dataLayer&cx=c"
+    },
+    {
+      "status": 404,
+      "url": "https://web.archive.org/web/20240912211255/https://opperbacco.it/?wc-ajax=get_refreshed_fragments"
+    },
+    {
+      "status": 404,
+      "url": "https://web.archive.org/web/20240912211255/https://opperbacco.it/wp-json/contact-form-7/v1/contact-forms/2113/feedback/schema"
+    },
+    {
+      "status": 404,
+      "url": "https://web.archive.org/web/20240912211255/https://opperbacco.it/wp-content/uploads/2020/02/birrificio_contatti.jpg"
+    },
+    {
+      "status": 404,
+      "url": "https://web.archive.org/web/20240912211255/https://opperbacco.it/wp-content/uploads/2020/02/birrificio_contatti.jpg"
+    },
+    {
+      "status": 404,
+      "url": "https://web.archive.org/web/20240911001838/https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ldip_0UAAAAANRgoksTpuSj9Kyh4X88VexQxMmE&co=aHR0cHM6Ly9vcHBlcmJhY"
+    }
+  ]
+}

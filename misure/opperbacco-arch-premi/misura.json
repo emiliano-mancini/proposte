@@ -1,0 +1,142 @@
+{
+  "slug": "opperbacco-arch-premi",
+  "url": "https://web.archive.org/web/2026if_/https://opperbacco.it/i-nostri-premi/",
+  "misuratoIl": "2026-10-30T02:57:41.116Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 8061,
+  "lcpMs": 3116,
+  "lcpElemento": "IMG https://web.archive.org/web/20260711174807im_/https://opperbacco.it/wp-content/uploads/2019/10/logo.png",
+  "cls": 0.016,
+  "urlFinale": "https://web.archive.org/web/20260711174807if_/https://opperbacco.it/i-nostri-premi/",
+  "titolo": "Staff del Birrificio Opperbacco - Birra artigianale d'Abruzzo",
+  "descrizione": "Lo Staff del Birrificio Opperbacco è l'ingrediente segreto della nostra birra, un ingrediente raro, buono e genuino, come noi ABRUZZESI.",
+  "h1": [],
+  "ttfb": 657,
+  "fcp": 3116,
+  "domReady": 7056,
+  "load": 8058,
+  "pesoKB": 2648,
+  "richieste": 98,
+  "script": 46,
+  "serviziEsterni": [
+    "web-static.archive.org"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://web.archive.org/web/20260217154005im_/https://opperbacco.it/wp-content/uploads/2020/04/base-footer.jpg",
+      "kb": 256
+    },
+    {
+      "url": "https://web.archive.org/web/20260217154004im_/https://opperbacco.it/wp-content/uploads/2020/04/logo-footer_2x.png",
+      "kb": 55
+    },
+    {
+      "url": "https://web.archive.org/web/20260217153949im_/https://opperbacco.it/wp-content/uploads/2019/10/luppolo@2x.png",
+      "kb": 14
+    },
+    {
+      "url": "https://web.archive.org/web/20260217153949im_/https://opperbacco.it/wp-content/uploads/2019/10/logo.png",
+      "kb": 12
+    },
+    {
+      "url": "https://web.archive.org/web/20260217153949im_/https://opperbacco.it/wp-content/uploads/2019/10/logo-stk.png",
+      "kb": 7
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "ch2-dialog",
+      "copre": "54%",
+      "testo": "Informazioni sui cookie presenti in questo sito Utilizziamo i cookie per raccogliere e analizzare informazioni sulle pre"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://opperbacco.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 102,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 14,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 13,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://opperbacco.it/wp-includes/css/dist/block-library/style.min.css?ver=a3cac5914f0c7caa55af14e33b85ac76"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://opperbacco.it/wp-content/plugins/ultimate-carousel-for-visual-composer//css/css/font-awesome.min.css?ver=a"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://opperbacco.it/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=7.1.2"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://opperbacco.it/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://opperbacco.it/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.7"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://opperbacco.it/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=7.1.2"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://opperbacco.it/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=7.1.2"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://opperbacco.it/wp-content/plugins/wp-logo-showcase-responsive-slider-slider/assets/css/slick.css?ver=3.8.7"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://fonts.googleapis.com/css?family=Lora%3A1%2C300%2C400%2C400italic%2C500%2C700%2C700italic&ver=a3cac5914f0c7"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711174807cs_/https://fonts.googleapis.com/css?family=Roboto+Slab%3A1%2C300%2C400%2C400italic%2C500%2C700%2C700italic&ver=a3cac5"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "opperbacco-arch-home",
+  "url": "https://web.archive.org/web/2026if_/https://opperbacco.it/",
+  "misuratoIl": "2026-10-30T02:57:02.746Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 16265,
+  "lcpMs": 9522,
+  "lcpElemento": "P ",
+  "cls": 0.066,
+  "urlFinale": "https://web.archive.org/web/20260711165148if_/https://opperbacco.it/",
+  "titolo": "Microbirrificio Opperbacco - Birra artigianale italiana",
+  "descrizione": "Il Microbirrificio Opperbacco nasce nel 2009 grazie al Mastro Birraio Luigi Recchiuti. Opperbacco birra artigianale italiana con identità abruzzese.",
+  "h1": [],
+  "ttfb": 1133,
+  "fcp": 8142,
+  "domReady": 11183,
+  "load": 16262,
+  "pesoKB": 9493,
+  "richieste": 155,
+  "script": 50,
+  "serviziEsterni": [
+    "web-static.archive.org"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://web.archive.org/web/20230525194359/https://opperbacco.it/wp-content/uploads/2020/02/bottiglia33_N1_727x1372.png",
+      "kb": 621
+    },
+    {
+      "url": "https://web.archive.org/web/20240911001703/https://opperbacco.it/wp-content/uploads/2023/10/EVOLUZIONE-LATT33-SLEEK-VIOLENT-SHARED.png",
+      "kb": 612
+    },
+    {
+      "url": "https://web.archive.org/web/20260217153957im_/https://opperbacco.it/wp-content/uploads/2020/02/Opperbacco_birra_ABRUXENSIS_1256x162.jpg",
+      "kb": 368
+    },
+    {
+      "url": "https://web.archive.org/web/20260217154005im_/https://opperbacco.it/wp-content/uploads/2020/04/base-footer.jpg",
+      "kb": 256
+    },
+    {
+      "url": "https://web.archive.org/web/20260217153949im_/https://opperbacco.it/wp-content/uploads/2019/11/dx.jpg",
+      "kb": 222
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "ch2-dialog",
+      "copre": "54%",
+      "testo": "Informazioni sui cookie presenti in questo sito Utilizziamo i cookie per raccogliere e analizzare informazioni sulle pre"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://opperbacco.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 193,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 15,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 13,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://opperbacco.it/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=7.1.2"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://opperbacco.it/wp-includes/css/dist/block-library/style.min.css?ver=a3cac5914f0c7caa55af14e33b85ac76"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://opperbacco.it/wp-content/plugins/ultimate-carousel-for-visual-composer//css/css/font-awesome.min.css?ver=a"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://opperbacco.it/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.7"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://opperbacco.it/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=7.1.2"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://opperbacco.it/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=7.1.2"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://opperbacco.it/wp-content/plugins/wp-logo-showcase-responsive-slider-slider/assets/css/wpls-public.css?ver="
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://opperbacco.it/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://fonts.googleapis.com/css?family=Roboto%3A1%2C300%2C400%2C400italic%2C500%2C700%2C700italic&ver=a3cac5914f0"
+    },
+    {
+      "status": 999,
+      "url": "https://web.archive.org/web/20260711165148cs_/https://fonts.googleapis.com/css?family=Roboto+Slab%3A1%2C300%2C400%2C400italic%2C500%2C700%2C700italic&ver=a3cac5"
+    }
+  ]
+}
