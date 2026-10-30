@@ -1,0 +1,118 @@
+{
+  "slug": "opperbacco-home3",
+  "url": "https://opperbacco.it/",
+  "misuratoIl": "2026-10-30T03:19:22.579Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 6611,
+  "lcpMs": 5809,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://opperbacco.it/",
+  "titolo": "Microbirrificio Opperbacco - Birra artigianale italiana",
+  "descrizione": "Il Microbirrificio Opperbacco nasce nel 2009 grazie al Mastro Birraio Luigi Recchiuti. Opperbacco birra artigianale italiana con identità abruzzese.",
+  "h1": [],
+  "ttfb": 5236,
+  "fcp": 5716,
+  "domReady": 6046,
+  "load": 6608,
+  "pesoKB": 8254,
+  "richieste": 128,
+  "script": 42,
+  "serviziEsterni": [
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "www.google.com",
+    "cookiehub.net",
+    "www.google-analytics.com",
+    "www.gstatic.com",
+    "cdn.iubenda.com"
+  ],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://opperbacco.it/wp-content/uploads/2020/02/bottiglia33_N1_727x1372.png",
+      "kb": 619
+    },
+    {
+      "url": "https://opperbacco.it/wp-content/uploads/2023/10/EVOLUZIONE-LATT33-SLEEK-VIOLENT-SHARED.png",
+      "kb": 610
+    },
+    {
+      "url": "https://opperbacco.it/wp-content/uploads/2020/02/Opperbacco_birra_ABRUXENSIS_1256x162.jpg",
+      "kb": 366
+    },
+    {
+      "url": "https://opperbacco.it/wp-content/uploads/2020/04/base-footer.jpg",
+      "kb": 254
+    },
+    {
+      "url": "https://opperbacco.it/wp-content/uploads/2019/11/dx.jpg",
+      "kb": 220
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [
+    {
+      "id": "ch2-dialog",
+      "copre": "54%",
+      "testo": "Informazioni sui cookie presenti in questo sito Utilizziamo i cookie per raccogliere e analizzare informazioni sulle pre"
+    }
+  ],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@opperbacco.it"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contattaci",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "Contattaci",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://opperbacco.it/contatti/"
+    },
+    {
+      "t": "CONTATTI",
+      "h": "https://opperbacco.it/contatti/"
+    }
+  ],
+  "piattaforma": "WooCommerce",
+  "viewport": "width=device-width, initial-scale=1, maximum-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 2600,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 2089,
+      "status": 200,
+      "cache": null
+    },
+    {
+      "ms": 1124,
+      "status": 200,
+      "cache": null
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 999,
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9P1MTZ0TQF&gtm=45je6as1v9110047221za20oxf1&_p=1793330357534&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAI&are=1&cid"
+    },
+    {
+      "status": 999,
+      "url": "https://www.google.com/recaptcha/api2/clr?k=6Ldip_0UAAAAANRgoksTpuSj9Kyh4X88VexQxMmE"
+    }
+  ]
+}
