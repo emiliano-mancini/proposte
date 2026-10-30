@@ -1,0 +1,62 @@
+{
+  "slug": "opperbacco-confronto",
+  "url": "https://emiliano-mancini.github.io/proposte/opperbacco/confronto/",
+  "misuratoIl": "2026-10-30T03:21:21.673Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 408,
+  "lcpMs": 429,
+  "lcpElemento": "P ",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/opperbacco/confronto/",
+  "titolo": "Page not found · GitHub Pages",
+  "descrizione": null,
+  "h1": [
+    "404"
+  ],
+  "ttfb": 395,
+  "fcp": 429,
+  "domReady": 405,
+  "load": 405,
+  "pesoKB": 6,
+  "richieste": 0,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": null,
+  "rispostaServer": [
+    {
+      "ms": 121,
+      "status": 404,
+      "cache": "HIT"
+    },
+    {
+      "ms": 21,
+      "status": 404,
+      "cache": "HIT"
+    },
+    {
+      "ms": 22,
+      "status": 404,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": [
+    {
+      "status": 404,
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/confronto/"
+    }
+  ]
+}
