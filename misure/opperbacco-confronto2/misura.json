@@ -1,0 +1,76 @@
+{
+  "slug": "opperbacco-confronto2",
+  "url": "https://emiliano-mancini.github.io/proposte/opperbacco/confronto/",
+  "misuratoIl": "2026-10-30T03:22:49.732Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 336,
+  "lcpMs": 353,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/opperbacco/confronto/vecchio-mobile.jpg",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/opperbacco/confronto/",
+  "titolo": "Il sito di Opperbacco, oggi e domani",
+  "descrizione": null,
+  "h1": [
+    "IL SITO DI OPPERBACCO, OGGI E DOMANI"
+  ],
+  "ttfb": 141,
+  "fcp": 193,
+  "domReady": 184,
+  "load": 332,
+  "pesoKB": 487,
+  "richieste": 8,
+  "script": 0,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/confronto/nuovo-mobile.jpg",
+      "kb": 158
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/confronto/vecchio-mobile.jpg",
+      "kb": 114
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/confronto/problema-cookie.jpg",
+      "kb": 75
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/confronto/problema-primo-schermo.jpg",
+      "kb": 74
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "lmsoftique@gmail.com"
+  ],
+  "telefono": [],
+  "whatsapp": false,
+  "linkUtili": [],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 159,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 20,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 20,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
