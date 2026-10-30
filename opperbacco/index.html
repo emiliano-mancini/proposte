@@ -50,13 +50,15 @@ p{margin:0 0 1em}
 .nav a{text-decoration:none;font-weight:600;font-size:.95rem}
 .nav a:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:5px}
 .top .call{margin-left:auto;font-weight:800;text-decoration:none;border:var(--b);padding:.45rem .8rem;border-radius:99px;font-size:.9rem;background:var(--lime)}
-@media(min-width:900px){.nav{display:flex}.top .call{margin-left:1rem}}
+.top .call{display:none}
+@media(min-width:900px){.nav{display:flex}.top .call{display:inline-block;margin-left:1rem}}
 
 /* bottoni */
 .btn{display:inline-flex;align-items:center;gap:.5rem;font:800 1rem/1 Archivo, sans-serif;text-decoration:none;border:var(--b);border-radius:99px;padding:1rem 1.4rem;box-shadow:4px 4px 0 var(--ink);transition:transform .2s, box-shadow .2s}
 .btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
 .btn--ink{background:var(--ink);color:var(--cream)}
 .btn--ghost{background:transparent;color:var(--ink)}
+.txtlink{font-weight:800;align-self:center;text-decoration-thickness:2px;text-underline-offset:4px}
 .vng-hbtn{border:var(--b);box-shadow:4px 4px 0 var(--ink);background:var(--ink);color:var(--cream);--vng-accent:var(--lime)}
 .vng-hbtn .vng-hbtn__b{color:var(--ink)}
 
@@ -70,11 +72,12 @@ p{margin:0 0 1em}
 .hero h1 .l1{display:block;font-size:.4em;line-height:1;margin-bottom:.12em}
 .hero h1 .l2{display:block;color:var(--cream);-webkit-text-stroke:3px var(--ink);paint-order:stroke fill;text-shadow:6px 6px 0 var(--ink)}
 .hero__lead{font-size:1.1rem;max-width:32ch;margin:1.1rem 0 1.4rem;font-weight:600;line-height:1.45}
-.hero__cta{display:flex;flex-wrap:wrap;gap:.8rem}
-.hero__prod{position:relative;display:grid;place-items:center;min-height:360px}
-@media(max-width:899px){.spec{display:none}.hero__disc{width:300px}.badge{width:112px;right:4%;top:2%}}
+.hero__cta{display:flex;flex-wrap:wrap;gap:.8rem 1.4rem}
+@media(max-width:899px){.hero h1 .l1{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.hero h1{font-size:clamp(3.2rem,15vw,5rem)}.hero__lead{font-size:1.02rem;margin:.8rem 0 1.1rem}}
+.hero__prod{position:relative;display:grid;place-items:center;min-height:310px}
+@media(max-width:899px){.spec{display:none}.hero__disc{width:270px}.badge{width:112px;right:4%;top:2%}}
 .hero__disc{position:absolute;width:min(92%,440px);aspect-ratio:1;border-radius:50%;background:var(--cream);border:var(--b);box-shadow:var(--sh)}
-.hero__can{position:relative;width:auto;height:330px;transform:rotate(-7deg);filter:drop-shadow(14px 18px 0 rgba(29,24,19,.85))}
+.hero__can{position:relative;width:auto;height:290px;transform:rotate(-7deg);filter:drop-shadow(14px 18px 0 rgba(29,24,19,.85))}
 .badge{position:absolute;right:2%;top:6%;width:132px;aspect-ratio:1;border-radius:50%;background:var(--amber);border:var(--b);display:grid;place-items:center;text-align:center;font:800 .78rem/1.15 Archivo, sans-serif;text-transform:uppercase;transform:rotate(12deg);padding:.8rem;box-shadow:4px 4px 0 var(--ink)}
 .badge b{display:block;font-family:var(--disp);font-weight:400;font-size:1.5rem;line-height:1}
 .spec{position:absolute;left:0;bottom:4%;background:var(--cream);border:var(--b);padding:.6rem .8rem;box-shadow:4px 4px 0 var(--ink)}
@@ -98,6 +101,12 @@ p{margin:0 0 1em}
 .sec__head p{max-width:52ch;font-size:1.1rem}
 @media(min-width:900px){.sec__head{grid-template-columns:1.3fr 1fr;align-items:end}}
 
+/* fascia territorio */
+.band{position:relative;border-bottom:var(--b);overflow:hidden;background:var(--ink)}
+.band img{width:100%;height:clamp(320px,52vw,640px);object-fit:cover}
+.band__cap{position:absolute;left:1rem;right:1rem;bottom:1rem;margin:0;background:var(--cream);border:var(--b);padding:.9rem 1rem;font-family:var(--disp);text-transform:uppercase;font-size:clamp(1.2rem,3.6vw,2.4rem);line-height:1;max-width:820px}
+.band__cap .mono{display:block;font-family:var(--mono);font-size:.78rem;margin-bottom:.45rem}
+@media(min-width:900px){.band__cap{left:calc((100% - min(1240px,100% - 2rem))/2);bottom:2rem}}
 /* lattine (firma) */
 .evo{background:var(--paper)}
 .shelf{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(210px,1fr);gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 1rem 1.4rem;margin:0 -1rem;scrollbar-width:thin}
@@ -117,7 +126,7 @@ p{margin:0 0 1em}
 .ori .sec__head p{font-weight:600}
 .bottles{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
 .bot{background:var(--cream);border:var(--b);border-radius:18px;padding:1.2rem .8rem 1rem;text-align:center;box-shadow:var(--sh)}
-.bot img{height:230px;width:auto;margin:0 auto 1rem}
+.bot img{height:230px;width:auto;margin:0 auto 1rem;mix-blend-mode:multiply}
 .bot h3{font-size:1.25rem}
 .bot p{margin:.4rem 0 0;font:500 .78rem/1.35 var(--mono);text-transform:uppercase}
 .bot dl{display:flex;justify-content:center;gap:1rem;margin:.7rem 0 0;font:500 .78rem/1 var(--mono)}
@@ -167,11 +176,15 @@ p{margin:0 0 1em}
 .yr ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem;align-content:center}
 .yr li{font-weight:600}
 .yr li b{font-weight:800}
+.yr .pos{font-style:normal;white-space:nowrap;font-weight:600}
+.yr .pos::before{content:"– "}
 .yr li span{font:500 .78rem/1.3 var(--mono);text-transform:uppercase;display:block;opacity:.8}
-@media(min-width:900px){.yr{grid-template-columns:380px 1fr;align-items:center}}
-.palm__ph{margin-top:2.5rem;border:var(--b);border-radius:18px;overflow:hidden}
-.palm__ph img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:62% 30%}
-@media(min-width:900px){.palm__ph img{aspect-ratio:21/9}}
+@media(min-width:900px){.yr{grid-template-columns:250px 1fr;align-items:center}.yr h3{font-size:5.4rem}}
+.palm__grid{display:grid;gap:2rem}
+.palm__ph{border:var(--b);border-radius:18px;overflow:hidden;margin:0}
+@media(min-width:900px){.palm__grid{grid-template-columns:1.3fr .7fr;align-items:start}.palm__ph{order:2;position:sticky;top:90px}}
+.palm__ph img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:30% 40%}
+
 
 /* agripub */
 .pub{background:var(--paper)}
@@ -189,7 +202,7 @@ p{margin:0 0 1em}
 /* visita */
 .visit{background:var(--cream)}
 .visit__grid{display:grid;gap:1.4rem}
-.vcard{border:var(--b);border-radius:18px;padding:1.5rem;background:var(--paper);box-shadow:var(--sh)}
+.vcard{border:var(--b);border-radius:18px;padding:1.5rem;background:var(--paper)}
 .vcard h3{font-size:1.5rem;margin-bottom:.8rem}
 .vcard a{font-weight:800}
 .vcard p{margin:.2rem 0}
@@ -238,7 +251,7 @@ footer small{opacity:.8}
       <p class="hero__lead">Birre artigianali d'Abruzzo, tra i colli teramani, il Gran Sasso e il mare Adriatico.</p>
       <div class="hero__cta">
         <a class="vng-hbtn" href="#birre"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Scopri le birre</span><span class="vng-hbtn__b" aria-hidden="true">Scopri le birre →</span></a>
-        <a class="btn btn--ghost" href="#agripub">L'Agripub</a>
+        <a class="txtlink" href="#agripub">L'Agripub, accanto al birrificio →</a>
       </div>
     </div>
     <div class="hero__prod">
@@ -262,6 +275,11 @@ footer small{opacity:.8}
   </div>
 </div>
 
+<section class="band" aria-label="Il birrificio dall'alto">
+  <img src="img/birrificio-dall-alto.jpg" width="1920" height="800" alt="Il birrificio Opperbacco visto dall'alto, tra gli ulivi delle colline di Notaresco">
+  <p class="band__cap"><span class="mono">Notaresco (TE)</span>Una vecchia stalla tra gli ulivi delle colline teramane</p>
+</section>
+
 <section class="sec evo" id="birre" aria-labelledby="t-evo">
   <div class="wrap">
     <div class="sec__head">
@@ -269,15 +287,34 @@ footer small{opacity:.8}
       <p class="rv">«Con il passare degli anni, l'esperienza e la tecnologia si sono sommate alla passione»: le birre più recenti, in lattina da 33 cl con le etichette illustrate.</p>
     </div>
     <div class="shelf" role="list">
-      <article class="can can--wide rv" role="listitem" style="--c:#9DBB5A"><img src="img/latt-rusthell.webp" width="347" height="878" loading="lazy" alt="Lattina Rusthell"><h3>Rusthell</h3><p>Helles · 4,8% · frumento Rosciola di Castel del Monte</p></article>
+      <article class="can can--wide rv" role="listitem" style="--c:#F3D04A"><img src="img/latt-slip.webp" width="494" height="760" loading="lazy" alt="Lattina SLIP"><h3>SLIP</h3><p>Pilsner di ispirazione tedesca</p></article>
+      <article class="can rv" role="listitem" style="--c:#9DBB5A"><img src="img/latt-rusthell.webp" width="347" height="878" loading="lazy" alt="Lattina Rusthell"><h3>Rusthell</h3><p>Helles · 4,8% · frumento Rosciola di Castel del Monte</p></article>
       <article class="can rv" role="listitem" style="--c:#E9E3D3"><img src="img/latt-overdose.webp" width="301" height="760" loading="lazy" alt="Lattina Overdose"><h3>Overdose</h3><p>Imperial IPA</p></article>
       <article class="can can--d rv" role="listitem" style="--c:#2C4A94"><img src="img/latt-eipiei.webp" width="299" height="760" loading="lazy" alt="Lattina EI.PI.EI."><h3>EI.PI.EI.</h3><p>American Pale Ale</p></article>
       <article class="can rv" role="listitem" style="--c:#F2A3C4"><img src="img/latt-behappy.webp" width="301" height="760" loading="lazy" alt="Lattina Be Happy"><h3>Be Happy</h3><p>New England IPA</p></article>
       <article class="can can--d rv" role="listitem" style="--c:#5B3F8F"><img src="img/latt-violent.webp" width="299" height="760" loading="lazy" alt="Lattina Violent Shared"><h3>Violent Shared</h3><p>Session Grapefruit IPA</p></article>
       <article class="can rv" role="listitem" style="--c:#E58E5A"><img src="img/latt-4x4.webp" width="299" height="760" loading="lazy" alt="Lattina 4×4"><h3>4×4</h3><p>West Coast IPA</p></article>
-      <article class="can rv" role="listitem" style="--c:#F3D04A"><img src="img/latt-slip.webp" width="494" height="760" loading="lazy" alt="Lattina SLIP"><h3>SLIP</h3><p>Pilsner di ispirazione tedesca</p></article>
     </div>
     <p class="shelf-hint mono">← scorri le lattine →</p>
+  </div>
+</section>
+
+<section class="sec story" id="birrificio" aria-labelledby="t-story">
+  <div class="wrap">
+    <div class="story__grid">
+      <figure class="story__ph rv" style="margin:0"><img src="img/luigi-spina.jpg" width="930" height="900" loading="lazy" alt="Il mastro birraio Luigi Recchiuti spilla una birra al bancone"></figure>
+      <div class="story__txt">
+        <p class="mono rv">Il birrificio</p>
+        <h2 class="rv" style="font-size:clamp(2.5rem,7vw,4.8rem);margin:.4rem 0 1.4rem">Una vecchia stalla, una passione</h2>
+        <p class="rv">Il Microbirrificio Opperbacco nasce nel 2009 a Notaresco, in provincia di Teramo, dal mastro birraio Luigi Recchiuti. La birra nasce in una vecchia stalla riadattata e attrezzata per la produzione.</p>
+        <p class="rv">Oggi produce circa 3.000 ettolitri l'anno per il mercato italiano ed estero, e collabora con l'Università di Teramo.</p>
+        <div class="nums rv">
+          <div><span>2009</span><small>anno di nascita</small></div>
+          <div><span>~3.000</span><small>ettolitri l'anno</small></div>
+          <div><span data-vng-count="4">4</span><small>linee di birre</small></div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -323,25 +360,6 @@ footer small{opacity:.8}
   </div>
 </section>
 
-<section class="sec story" id="birrificio" aria-labelledby="t-story">
-  <div class="wrap">
-    <div class="story__grid">
-      <figure class="story__ph rv" style="margin:0"><img src="img/luigi-spina.jpg" width="930" height="900" loading="lazy" alt="Il mastro birraio Luigi Recchiuti spilla una birra al bancone"></figure>
-      <div class="story__txt">
-        <p class="mono rv">Il birrificio</p>
-        <h2 class="rv" style="font-size:clamp(2.5rem,7vw,4.8rem);margin:.4rem 0 1.4rem">Una vecchia stalla, una passione</h2>
-        <p class="rv">Il Microbirrificio Opperbacco nasce nel 2009 a Notaresco, in provincia di Teramo, dal mastro birraio Luigi Recchiuti. La birra nasce in una vecchia stalla riadattata e attrezzata per la produzione.</p>
-        <p class="rv">Oggi produce circa 3.000 ettolitri l'anno per il mercato italiano ed estero, e collabora con l'Università di Teramo.</p>
-        <div class="nums rv">
-          <div><span>2009</span><small>anno di nascita</small></div>
-          <div><span>~3.000</span><small>ettolitri l'anno</small></div>
-          <div><span data-vng-count="4">4</span><small>linee di birre</small></div>
-        </div>
-      </div>
-    </div>
-    <figure class="aerial rv"><img src="img/birrificio-dall-alto.jpg" width="1920" height="800" loading="lazy" alt="Il birrificio Opperbacco visto dall'alto, tra gli ulivi delle colline teramane"><figcaption>Notaresco, colline teramane</figcaption></figure>
-  </div>
-</section>
 
 <section class="sec palm" id="premi" aria-labelledby="t-palm">
   <div class="wrap">
@@ -349,24 +367,26 @@ footer small{opacity:.8}
       <h2 id="t-palm" class="rv">Il palmarès</h2>
       <p class="rv">Dal primo posto al Campionato Italiano del 2009 alla Chiocciola Slow Food del 2023. Una selezione dei riconoscimenti.</p>
     </div>
+    <div class="palm__grid">
+    <figure class="palm__ph rv"><img src="img/premiazione.jpg" width="1920" height="1000" loading="lazy" alt="Festa sul palco con il cartello della Birra dell'Anno"></figure>
     <div class="years">
       <div class="yr rv"><h3>2023</h3><ul>
-        <li><b>Rusthell</b> – 1ª classificata<span>Birra dell'Anno · cat. 2 Helles</span></li>
-        <li><b>Nature Amarene</b> – 2ª classificata<span>Birra dell'Anno · cat. 39 Sour Fruit</span></li>
+        <li><b>Rusthell</b> <em class="pos">1ª classificata</em><span>Birra dell'Anno · cat. 2 Helles</span></li>
+        <li><b>Nature Amarene</b> <em class="pos">2ª classificata</em><span>Birra dell'Anno · cat. 39 Sour Fruit</span></li>
         <li><b>Chiocciola</b><span>Guida alle Birre d'Italia · Slow Food</span></li></ul></div>
       <div class="yr rv"><h3>2022</h3><ul>
-        <li><b>TriplIPA</b> – 1ª classificata<span>Birra dell'Anno · cat. 18 Speciality IPA</span></li>
-        <li><b>Nature Terra 2019</b> – 1ª classificata<span>IGA Beer Challenge · Sour low alcohol</span></li></ul></div>
+        <li><b>TriplIPA</b> <em class="pos">1ª classificata</em><span>Birra dell'Anno · cat. 18 Speciality IPA</span></li>
+        <li><b>Nature Terra 2019</b> <em class="pos">1ª classificata</em><span>IGA Beer Challenge · Sour low alcohol</span></li></ul></div>
       <div class="yr rv"><h3>2021</h3><ul>
-        <li><b>Nature Terra 2020</b> – 1ª classificata<span>Birra dell'Anno · cat. 44 Sour IGA</span></li>
+        <li><b>Nature Terra 2020</b> <em class="pos">1ª classificata</em><span>Birra dell'Anno · cat. 44 Sour IGA</span></li>
         <li><b>Chiocciola</b><span>Guida alle Birre d'Italia · Slow Food</span></li></ul></div>
       <div class="yr rv"><h3>2020</h3><ul>
-        <li><b>Quis Ut Deus</b> – 1ª classificata<span>Birra dell'Anno · cat. 27 Belgian Golden Strong Ale</span></li>
-        <li><b>Nature Terra Caprera</b> – 1ª classificata<span>Birra dell'Anno · cat. 41 Sour IGA</span></li></ul></div>
+        <li><b>Quis Ut Deus</b> <em class="pos">1ª classificata</em><span>Birra dell'Anno · cat. 27 Belgian Golden Strong Ale</span></li>
+        <li><b>Nature Terra Caprera</b> <em class="pos">1ª classificata</em><span>Birra dell'Anno · cat. 41 Sour IGA</span></li></ul></div>
       <div class="yr rv"><h3>2009</h3><ul>
-        <li><b>4punto7</b> – 1ª classificata<span>Campionato Italiano Birre Artigianali · ADB</span></li></ul></div>
+        <li><b>4punto7</b> <em class="pos">1ª classificata</em><span>Campionato Italiano Birre Artigianali · ADB</span></li></ul></div>
     </div>
-    <figure class="palm__ph rv"><img src="img/premiazione.jpg" width="1920" height="1000" loading="lazy" alt="Festa sul palco con il cartello della Birra dell'Anno"></figure>
+    </div>
   </div>
 </section>
 
@@ -451,7 +471,7 @@ window.addEventListener('DOMContentLoaded', function () {
   gsap.utils.toArray('.rv').forEach(function (el) {
     gsap.to(el, { opacity: 1, y: 0, duration: .9, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 88%' } });
   });
-  gsap.utils.toArray('.aerial img, .palm__ph img').forEach(function (im) {
+  gsap.utils.toArray('.band img').forEach(function (im) {
     gsap.fromTo(im, { scale: 1.12, yPercent: -4 }, { scale: 1.02, yPercent: 4, ease: 'none', scrollTrigger: { trigger: im, start: 'top bottom', end: 'bottom top', scrub: 1 } });
   });
   window.addEventListener('load', function () { ScrollTrigger.refresh(); });
