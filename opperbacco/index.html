@@ -39,7 +39,7 @@ p{margin:0 0 1em}
 :focus-visible{outline:3px solid var(--amber);outline-offset:3px}
 
 /* etichetta bozza */
-.draft{position:fixed;left:50%;bottom:.6rem;transform:translateX(-50%);z-index:60;background:var(--ink);color:var(--cream);font:500 .7rem/1 var(--mono);letter-spacing:.06em;padding:.45rem .7rem;border-radius:99px;white-space:nowrap;pointer-events:none}
+.draft{position:fixed;right:.6rem;top:72px;z-index:60;background:var(--ink);color:var(--cream);font:500 .7rem/1 var(--mono);letter-spacing:.06em;padding:.45rem .7rem;border-radius:99px;white-space:nowrap;pointer-events:none}
 
 /* header */
 .top{position:sticky;top:0;z-index:50;background:var(--cream);border-bottom:var(--b)}
@@ -51,6 +51,13 @@ p{margin:0 0 1em}
 .nav a:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:5px}
 .top .call{margin-left:auto;font-weight:800;text-decoration:none;border:var(--b);padding:.45rem .8rem;border-radius:99px;font-size:.9rem;background:var(--lime)}
 .top .call{display:none}
+.mnav{margin-left:auto;position:relative}
+.mnav summary{list-style:none;cursor:pointer;font-weight:800;border:var(--b);border-radius:99px;padding:.45rem .9rem;background:var(--lime)}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav nav{position:absolute;right:0;top:calc(100% + .5rem);background:var(--cream);border:var(--b);border-radius:14px;padding:.4rem;display:grid;min-width:200px;box-shadow:var(--sh)}
+.mnav nav a{padding:.75rem .9rem;font-weight:700;text-decoration:none;border-bottom:1px solid rgba(29,24,19,.15)}
+.mnav nav a:last-child{border-bottom:0}
+@media(min-width:900px){.mnav{display:none}}
 @media(min-width:900px){.nav{display:flex}.top .call{display:inline-block;margin-left:1rem}}
 
 /* bottoni */
@@ -58,13 +65,14 @@ p{margin:0 0 1em}
 .btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
 .btn--ink{background:var(--ink);color:var(--cream)}
 .btn--ghost{background:transparent;color:var(--ink)}
+@media(max-width:899px){.hide-m{display:none}}
 .txtlink{font-weight:800;align-self:center;text-decoration-thickness:2px;text-underline-offset:4px}
 .vng-hbtn{border:var(--b);box-shadow:4px 4px 0 var(--ink);background:var(--ink);color:var(--cream);--vng-accent:var(--lime)}
 .vng-hbtn .vng-hbtn__b{color:var(--ink)}
 
 /* HERO */
 .hero{background:var(--lime);border-bottom:var(--b);position:relative;overflow:hidden}
-.hero .wrap{display:grid;grid-template-columns:1fr;gap:.5rem;padding:1.6rem 0 2.5rem}
+.hero .wrap{display:grid;grid-template-columns:1fr;gap:.5rem;padding:2.6rem 0 2.5rem}
 .hero .wrap>*{min-width:0}
 .hero__kick{display:flex;flex-wrap:wrap;gap:.4rem .9rem;margin-bottom:1rem}
 .hero__kick span{border:2px solid var(--ink);border-radius:99px;padding:.3rem .65rem;background:var(--cream)}
@@ -95,7 +103,7 @@ p{margin:0 0 1em}
 .ticker .it::after{content:"✱";color:var(--amber);margin-left:1.7rem}
 
 /* sezioni */
-.sec{padding:clamp(4rem,9vw,7.5rem) 0;border-bottom:var(--b)}
+.sec{padding:clamp(3.5rem,7vw,6rem) 0;border-bottom:var(--b)}
 .sec__head{display:grid;gap:1rem;margin-bottom:2.6rem}
 .sec__head h2{font-size:clamp(2.7rem,9vw,6.2rem)}
 .sec__head p{max-width:52ch;font-size:1.1rem}
@@ -111,7 +119,10 @@ p{margin:0 0 1em}
 .evo{background:var(--paper)}
 .shelf{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(210px,1fr);gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 1rem 1.4rem;margin:0 -1rem;scrollbar-width:thin}
 .can{scroll-snap-align:start;border:var(--b);border-radius:18px;background:var(--c, var(--lime));box-shadow:var(--sh);padding:1.2rem 1rem 1rem;display:flex;flex-direction:column;min-height:440px;position:relative;overflow:hidden}
-.can img{height:300px;width:auto;margin:0 auto .8rem;transition:transform .45s cubic-bezier(.34,1.56,.64,1)}
+.can img{height:300px;width:auto;margin:0 auto .8rem;
+}
+.can--wide img{height:340px}
+.can img{transition:transform .45s cubic-bezier(.34,1.56,.64,1)}
 .can:hover img{transform:rotate(-6deg) translateY(-8px)}
 .can h3{font-size:1.55rem;margin-top:auto}
 .can p{margin:.35rem 0 0;font:500 .8rem/1.3 var(--mono);text-transform:uppercase;letter-spacing:.05em}
@@ -143,12 +154,17 @@ p{margin:0 0 1em}
 .nat h2{color:var(--lime)}
 .nat__card{border:3px solid var(--cream);border-radius:18px;padding:1.5rem;position:relative}
 .nat__card h3{font-size:clamp(2rem,6vw,3.2rem);margin-bottom:.8rem}
+.natp{list-style:none;margin:1.2rem 0 0;padding:1rem 0 0;border-top:2px solid rgba(244,239,227,.25);display:grid;gap:.5rem;font-size:.95rem}
+.natp b{color:var(--lime);display:block;font-family:var(--disp);font-weight:400;text-transform:uppercase}
 .nat__card .mono{color:var(--lime);display:block;margin-bottom:.8rem}
 .abx{display:flex;gap:.2rem;margin-top:1.4rem;overflow:hidden}
 .abx img{height:210px;width:auto;flex:0 0 auto;margin-right:-12px}
 @media(min-width:900px){.nat .split{grid-template-columns:1fr 1fr}}
-.abx-row{display:flex;justify-content:center;gap:clamp(.4rem,2vw,1.6rem);margin-top:2.5rem;border-top:2px solid rgba(244,239,227,.25);padding-top:2rem}
-.abx-row img{height:clamp(150px,28vw,300px);width:auto}
+.abx-row{display:flex;gap:1.2rem;margin:2.5rem -1rem 0;padding:2rem 1rem .6rem;border-top:2px solid rgba(244,239,227,.25);overflow-x:auto;scroll-snap-type:x mandatory}
+.abx-row figure{flex:0 0 auto;scroll-snap-align:start;text-align:center}
+.abx-row img{height:260px;width:auto;margin:0 auto .6rem}
+.abx-row figcaption{font:500 .78rem/1.3 var(--mono);text-transform:uppercase;color:var(--lime)}
+@media(min-width:1000px){.abx-row{justify-content:space-between;overflow:visible;margin:2.5rem 0 0;padding:2rem 0 0}}
 .abx-cap{text-align:center;margin-top:1rem;color:var(--lime)}
 
 /* birrificio */
@@ -171,19 +187,21 @@ p{margin:0 0 1em}
 .palm{background:var(--lime)}
 .years{border-top:var(--b)}
 .yr{display:grid;grid-template-columns:auto 1fr;gap:.6rem 1.2rem;padding:1.2rem 0;border-bottom:var(--b);align-items:center}
-.yr h3{font-size:clamp(2.2rem,10vw,7.5rem);line-height:.85;-webkit-text-stroke:2px var(--ink);color:transparent}
+.yr h3{font-size:clamp(2.6rem,11vw,7.5rem);line-height:.85;color:var(--ink)}
+@media(min-width:900px){.yr h3{-webkit-text-stroke:2px var(--ink);color:transparent}}
 .yr:hover h3{color:var(--ink)}
 .yr ul{list-style:none;margin:0;padding:0;display:grid;gap:.45rem;align-content:center}
 .yr li{font-weight:600}
 .yr li b{font-weight:800}
-.yr .pos{font-style:normal;white-space:nowrap;font-weight:600}
-.yr .pos::before{content:"– "}
+.yr .pos{font-style:normal;white-space:nowrap;font:500 .72rem/1 var(--mono);background:var(--ink);color:var(--lime);padding:.25rem .45rem;border-radius:99px;vertical-align:.15em;margin-left:.3rem}
 .yr li span{font:500 .78rem/1.3 var(--mono);text-transform:uppercase;display:block;opacity:.8}
 @media(min-width:900px){.yr{grid-template-columns:250px 1fr;align-items:center}.yr h3{font-size:5.4rem}}
 .palm__grid{display:grid;gap:2rem}
-.palm__ph{border:var(--b);border-radius:18px;overflow:hidden;margin:0}
-@media(min-width:900px){.palm__grid{grid-template-columns:1.3fr .7fr;align-items:start}.palm__ph{order:2;position:sticky;top:90px}}
-.palm__ph img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:30% 40%}
+.palm__ph{border:var(--b);border-radius:18px;overflow:hidden;margin:0;background:var(--ink)}
+.palm__ph figcaption{color:var(--cream);padding:.7rem .9rem}
+.palm__ph img{filter:brightness(1.12)}
+@media(min-width:900px){.palm__ph img{aspect-ratio:4/5}.palm__grid{grid-template-columns:1.3fr .7fr;align-items:start}.palm__ph{order:2;position:sticky;top:90px}}
+.palm__ph img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:30% 40%}
 
 
 /* agripub */
@@ -197,7 +215,8 @@ p{margin:0 0 1em}
 .pub__info ul{margin:0;padding-left:1.1rem}
 .pub__info .btn{background:var(--lime);color:var(--ink);border-color:var(--lime);box-shadow:none;align-self:flex-start}
 .hours{font-family:var(--disp);font-size:1.6rem;line-height:1.05;text-transform:uppercase}
-@media(min-width:900px){.pub__grid{grid-template-columns:1.2fr .8fr .9fr;grid-template-rows:300px 300px}.pub__a{grid-row:span 2}.pub__info{grid-row:span 2}}
+.pub__info{order:-1}
+@media(min-width:900px){.pub__info{order:0}.pub__grid{grid-template-columns:1.2fr .8fr .9fr;grid-template-rows:300px 300px}.pub__a{grid-row:span 2}.pub__info{grid-row:span 2}}
 
 /* visita */
 .visit{background:var(--cream)}
@@ -215,7 +234,9 @@ footer small{opacity:.8}
 @media(min-width:900px){footer .wrap{grid-template-columns:auto 1fr auto;align-items:center}}
 
 /* barra pollice mobile */
-.thumb{position:fixed;left:.6rem;right:.6rem;bottom:2.4rem;z-index:55;display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.thumb{position:fixed;left:.6rem;right:.6rem;bottom:.7rem;z-index:55;display:grid;grid-template-columns:1fr 1fr;gap:.5rem;transition:transform .35s, opacity .35s}
+.js .thumb.off{transform:translateY(140%);opacity:0;pointer-events:none}
+.shot .thumb{display:none}
 .thumb a{display:flex;justify-content:center;align-items:center;gap:.4rem;padding:.85rem .5rem;border:var(--b);border-radius:99px;font-weight:800;text-decoration:none;box-shadow:3px 3px 0 var(--ink);font-size:.95rem}
 .thumb a:first-child{background:var(--ink);color:var(--cream)}
 .thumb a:last-child{background:var(--lime);color:var(--ink)}
@@ -238,7 +259,8 @@ footer small{opacity:.8}
     <nav class="nav" aria-label="Sezioni">
       <a href="#birre">Le birre</a><a href="#birrificio">Il birrificio</a><a href="#premi">Premi</a><a href="#agripub">Agripub</a><a href="#visita">Contatti</a>
     </nav>
-    <a class="call" href="tel:+390857994332">Chiama</a>
+    <a class="call" href="tel:+390857994332">Chiama 085 799 43 32</a>
+    <details class="mnav"><summary>Menu</summary><nav aria-label="Sezioni (telefono)"><a href="#birre">Le birre</a><a href="#birrificio">Il birrificio</a><a href="#premi">Premi</a><a href="#agripub">Agripub</a><a href="#visita">Contatti</a></nav></details>
   </div>
 </header>
 
@@ -251,7 +273,7 @@ footer small{opacity:.8}
       <p class="hero__lead">Birre artigianali d'Abruzzo, tra i colli teramani, il Gran Sasso e il mare Adriatico.</p>
       <div class="hero__cta">
         <a class="vng-hbtn" href="#birre"><span class="vng-hbtn__dot"></span><span class="vng-hbtn__a">Scopri le birre</span><span class="vng-hbtn__b" aria-hidden="true">Scopri le birre →</span></a>
-        <a class="txtlink" href="#agripub">L'Agripub, accanto al birrificio →</a>
+        <a class="txtlink hide-m" href="#agripub">L'Agripub, accanto al birrificio →</a>
       </div>
     </div>
     <div class="hero__prod">
@@ -348,6 +370,7 @@ footer small{opacity:.8}
         <span class="mono">Italian Grape Ale · una volta l'anno</span>
         <h3>Nature</h3>
         <p>«Dalla raccolta delle uve, nelle vigne dei migliori produttori di vini naturali abruzzesi.» Nature Terra con uve di Montepulciano d'Abruzzo, Nature Viva con uve di Trebbiano. L'uva è il 20% della ricetta.</p>
+        <ul class="natp"><li><b>Nature Terra 2020</b> 1ª classificata · Birra dell'Anno 2021</li><li><b>Nature Terra 2019</b> 1ª classificata · IGA Beer Challenge 2022</li><li><b>Nature Terra Caprera</b> 1ª classificata · Birra dell'Anno 2020</li></ul>
       </article>
       <article class="nat__card rv">
         <span class="mono">Farmhouse Wild Ale · ogni 4 mesi</span>
@@ -355,8 +378,8 @@ footer small{opacity:.8}
         <p>«Se le Nature hanno un ciclo annuale legato alla vendemmia, le Abruxensis sono realizzate stagionalmente ogni 4 mesi.» Frutta abruzzese, lieviti selvaggi e maturazione in barrique ex Montepulciano d'Abruzzo. In bottiglia da 33 cl e in fusto da 16 litri.</p>
       </article>
     </div>
-    <div class="abx-row rv" aria-hidden="true"><img src="img/abx-melograno.webp" width="230" height="700" loading="lazy" alt=""><img src="img/abx-genziana.webp" width="230" height="700" loading="lazy" alt=""><img src="img/abx-mandarini.webp" width="230" height="700" loading="lazy" alt=""><img src="img/abx-farmhouse.webp" width="230" height="700" loading="lazy" alt=""><img src="img/abx-mele.webp" width="230" height="700" loading="lazy" alt=""><img src="img/abx-arance.webp" width="230" height="700" loading="lazy" alt=""></div>
-    <p class="abx-cap mono rv">Abruxensis: melograno, genziana, mandarini, farmhouse, mele, arance</p>
+    <div class="abx-row rv"><figure><img src="img/abx-melograno.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Melograno"><figcaption>Melograno</figcaption></figure><figure><img src="img/abx-genziana.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Genziana"><figcaption>Genziana</figcaption></figure><figure><img src="img/abx-mandarini.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Mandarini"><figcaption>Mandarini</figcaption></figure><figure><img src="img/abx-farmhouse.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Lievito Farmhouse"><figcaption>Lievito Farmhouse</figcaption></figure><figure><img src="img/abx-mele.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Mele"><figcaption>Mele</figcaption></figure><figure><img src="img/abx-arance.webp" width="230" height="700" loading="lazy" alt="Bottiglia Abruxensis Arance"><figcaption>Arance</figcaption></figure></div>
+    <p class="abx-cap mono rv">Abruxensis · bottiglia 33 cl e fusto 16 l</p>
   </div>
 </section>
 
@@ -368,7 +391,7 @@ footer small{opacity:.8}
       <p class="rv">Dal primo posto al Campionato Italiano del 2009 alla Chiocciola Slow Food del 2023. Una selezione dei riconoscimenti.</p>
     </div>
     <div class="palm__grid">
-    <figure class="palm__ph rv"><img src="img/premiazione.jpg" width="1920" height="1000" loading="lazy" alt="Festa sul palco con il cartello della Birra dell'Anno"></figure>
+    <figure class="palm__ph rv"><img src="img/premiazione.jpg" width="1920" height="1000" loading="lazy" alt="Festa sul palco con il cartello della Birra dell'Anno"><figcaption class="mono">Sul palco della Birra dell'Anno</figcaption></figure>
     <div class="years">
       <div class="yr rv"><h3>2023</h3><ul>
         <li><b>Rusthell</b> <em class="pos">1ª classificata</em><span>Birra dell'Anno · cat. 2 Helles</span></li>
@@ -451,6 +474,7 @@ footer small{opacity:.8}
 <script src="../vendor/lenis.min.js" defer></script>
 <script>
 window.addEventListener('DOMContentLoaded', function () {
+  var th=document.querySelector('.thumb'), he=document.querySelector('.hero'); if(th&&he&&'IntersectionObserver' in window){th.classList.add('off'); new IntersectionObserver(function(e){th.classList.toggle('off', e[0].isIntersecting)},{threshold:.15}).observe(he);}
   var o=document.getElementById('oggi'); if(o && !/[?&]shot=1/.test(location.search)){var d=new Date(), w=d.getDay(), h=d.getHours()+d.getMinutes()/60; var open=(w!==3&&h>=19.5)||(w!==4&&h<1); o.textContent= open?'Adesso è aperto: ti aspettiamo fino all\'1:00': (w===3?'Oggi è mercoledì: siamo chiusi, a domani dalle 19:30':'Stasera aperto dalle 19:30');}
   var shot = document.documentElement.classList.contains('shot');
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
