@@ -1,0 +1,89 @@
+{
+  "slug": "opperbacco-nuovo3",
+  "url": "https://emiliano-mancini.github.io/proposte/opperbacco/",
+  "misuratoIl": "2026-10-30T03:31:50.840Z",
+  "dispositivo": "Pixel 7 (Chrome mobile), cache vuota, server GitHub (USA/EU)",
+  "erroreCaricamento": null,
+  "bloccatoDaProtezione": false,
+  "caricamentoTotaleMs": 395,
+  "lcpMs": 414,
+  "lcpElemento": "IMG https://emiliano-mancini.github.io/proposte/opperbacco/img/latt-rusthell.webp",
+  "cls": 0,
+  "urlFinale": "https://emiliano-mancini.github.io/proposte/opperbacco/",
+  "titolo": "Opperbacco – Microbirrificio a Notaresco dal 2009 (proposta di restyling)",
+  "descrizione": "Microbirrificio Opperbacco, Notaresco (TE): birre artigianali d'Abruzzo dal 2009, Agripub con 8 spine. Proposta di restyling, bozza non ufficiale.",
+  "h1": [
+    "OPPERBACCO,\nCHE BIRRA!"
+  ],
+  "ttfb": 77,
+  "fcp": 311,
+  "domReady": 351,
+  "load": 392,
+  "pesoKB": 1211,
+  "richieste": 23,
+  "script": 5,
+  "serviziEsterni": [],
+  "immaginiPiuPesanti": [
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/img/agripub-camino.webp",
+      "kb": 147
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/img/birrificio-dall-alto-960.webp",
+      "kb": 132
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/img/latt-rusthell.webp",
+      "kb": 127
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/img/latt-eipiei.webp",
+      "kb": 100
+    },
+    {
+      "url": "https://emiliano-mancini.github.io/proposte/opperbacco/img/latt-overdose.webp",
+      "kb": 100
+    }
+  ],
+  "scorrimentoOrizzontale": false,
+  "sovrapposizioni": [],
+  "pulsanteAcquisto": null,
+  "parlaDiSpedizione": false,
+  "parlaDiResi": false,
+  "recensioni": false,
+  "email": [
+    "info@opperbacco.it",
+    "agripubopperbacco@gmail.com"
+  ],
+  "telefono": [
+    "+390857994332",
+    "+393283156009"
+  ],
+  "whatsapp": false,
+  "linkUtili": [
+    {
+      "t": "Contatti",
+      "h": "https://emiliano-mancini.github.io/proposte/opperbacco/#visita"
+    }
+  ],
+  "piattaforma": null,
+  "viewport": "width=device-width, initial-scale=1",
+  "rispostaServer": [
+    {
+      "ms": 90,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 4,
+      "status": 200,
+      "cache": "HIT"
+    },
+    {
+      "ms": 6,
+      "status": 200,
+      "cache": "HIT"
+    }
+  ],
+  "risorseRotte": []
+}
