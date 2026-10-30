@@ -46,12 +46,15 @@ p{margin:0 0 1em}
 .top .wrap{display:flex;align-items:center;gap:1rem;height:64px}
 .brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;font-family:var(--disp);font-size:1.15rem;text-transform:uppercase}
 .brand img{width:42px;height:42px}
+@media(max-width:420px){.brand .bt{display:none}}
 .nav{display:none;margin-left:auto;gap:1.6rem}
 .nav a{text-decoration:none;font-weight:600;font-size:.95rem}
 .nav a:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:5px}
 .top .call{margin-left:auto;font-weight:800;text-decoration:none;border:var(--b);padding:.45rem .8rem;border-radius:99px;font-size:.9rem;background:var(--lime)}
-.top .call{display:none}
-.mnav{margin-left:auto;position:relative}
+.top .call{display:inline-block;margin-left:auto;padding:.45rem .7rem}
+.top .call .n{display:none}
+@media(min-width:900px){.top .call .n{display:inline}}
+.mnav{margin-left:.5rem;position:relative}
 .mnav summary{list-style:none;cursor:pointer;font-weight:800;border:var(--b);border-radius:99px;padding:.45rem .9rem;background:var(--lime)}
 .mnav summary::-webkit-details-marker{display:none}
 .mnav nav{position:absolute;right:0;top:calc(100% + .5rem);background:var(--cream);border:var(--b);border-radius:14px;padding:.4rem;display:grid;min-width:200px;box-shadow:var(--sh)}
@@ -65,7 +68,7 @@ p{margin:0 0 1em}
 .btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
 .btn--ink{background:var(--ink);color:var(--cream)}
 .btn--ghost{background:transparent;color:var(--ink)}
-@media(max-width:899px){.hide-m{display:none}}
+@media(max-width:899px){.hide-m{font-size:.95rem}}
 .txtlink{font-weight:800;align-self:center;text-decoration-thickness:2px;text-underline-offset:4px}
 .vng-hbtn{border:var(--b);box-shadow:4px 4px 0 var(--ink);background:var(--ink);color:var(--cream);--vng-accent:var(--lime)}
 .vng-hbtn .vng-hbtn__b{color:var(--ink)}
@@ -81,9 +84,9 @@ p{margin:0 0 1em}
 .hero h1 .l2{display:block;color:var(--cream);-webkit-text-stroke:3px var(--ink);paint-order:stroke fill;text-shadow:6px 6px 0 var(--ink)}
 .hero__lead{font-size:1.1rem;max-width:32ch;margin:1.1rem 0 1.4rem;font-weight:600;line-height:1.45}
 .hero__cta{display:flex;flex-wrap:wrap;gap:.8rem 1.4rem}
-@media(max-width:899px){.hero h1 .l1{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.hero h1{font-size:clamp(3.2rem,15vw,5rem)}.hero__lead{font-size:1.02rem;margin:.8rem 0 1.1rem}}
+@media(max-width:899px){.hero h1{font-size:clamp(3.2rem,15vw,5rem)}.hero h1 .l1{font-size:.42em}.hero__lead{font-size:1.02rem;margin:.8rem 0 1.1rem}}
 .hero__prod{position:relative;display:grid;place-items:center;min-height:310px}
-@media(max-width:899px){.spec{display:none}.hero__disc{width:270px}.badge{width:112px;right:4%;top:2%}}
+@media(max-width:899px){.spec{display:none}.hero__disc{width:240px}.hero__prod{min-height:280px;margin-top:1.2rem}.hero__can{height:260px}.badge{width:112px;right:4%;top:2%}}
 .hero__disc{position:absolute;width:min(92%,440px);aspect-ratio:1;border-radius:50%;background:var(--cream);border:var(--b);box-shadow:var(--sh)}
 .hero__can{position:relative;width:auto;height:290px;transform:rotate(-7deg);filter:drop-shadow(14px 18px 0 rgba(29,24,19,.85))}
 .badge{position:absolute;right:2%;top:6%;width:132px;aspect-ratio:1;border-radius:50%;background:var(--amber);border:var(--b);display:grid;place-items:center;text-align:center;font:800 .78rem/1.15 Archivo, sans-serif;text-transform:uppercase;transform:rotate(12deg);padding:.8rem;box-shadow:4px 4px 0 var(--ink)}
@@ -91,7 +94,7 @@ p{margin:0 0 1em}
 .spec{position:absolute;left:0;bottom:4%;background:var(--cream);border:var(--b);padding:.6rem .8rem;box-shadow:4px 4px 0 var(--ink)}
 .spec strong{display:block;font-family:var(--disp);font-weight:400;font-size:1.3rem;text-transform:uppercase}
 @media(min-width:900px){
-  .hero .wrap{grid-template-columns:1.15fr .85fr;align-items:center;padding:4rem 0 4.5rem;min-height:calc(100svh - 64px)}
+  .hero .wrap{grid-template-columns:1.15fr .85fr;align-items:center;padding:3.5rem 0 3.5rem;min-height:calc(100svh - 140px)}
   .hero__prod{min-height:580px}.hero__can{height:500px}.badge{width:160px}
 }
 
@@ -107,7 +110,7 @@ p{margin:0 0 1em}
 .sec__head{display:grid;gap:1rem;margin-bottom:2.6rem}
 .sec__head h2{font-size:clamp(2.7rem,9vw,6.2rem)}
 .sec__head p{max-width:52ch;font-size:1.1rem}
-@media(min-width:900px){.sec__head{grid-template-columns:1.3fr 1fr;align-items:end}}
+@media(min-width:900px){.sec__head{grid-template-columns:1.3fr 1fr;align-items:end}.sec__head h2{font-size:clamp(3rem,5.6vw,5.4rem)}}
 
 /* fascia territorio */
 .band{position:relative;border-bottom:var(--b);overflow:hidden;background:var(--ink)}
@@ -255,11 +258,11 @@ footer small{opacity:.8}
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#main" aria-label="Opperbacco, torna all'inizio"><img src="img/logo.webp" width="42" height="42" alt="">Opperbacco</a>
+    <a class="brand" href="#main" aria-label="Opperbacco, torna all'inizio"><img src="img/logo.webp" width="42" height="42" alt=""><span class="bt">Opperbacco</span></a>
     <nav class="nav" aria-label="Sezioni">
       <a href="#birre">Le birre</a><a href="#birrificio">Il birrificio</a><a href="#premi">Premi</a><a href="#agripub">Agripub</a><a href="#visita">Contatti</a>
     </nav>
-    <a class="call" href="tel:+390857994332">Chiama 085 799 43 32</a>
+    <a class="call" href="tel:+390857994332">Chiama<span class="n"> il birrificio 085 799 43 32</span></a>
     <details class="mnav"><summary>Menu</summary><nav aria-label="Sezioni (telefono)"><a href="#birre">Le birre</a><a href="#birrificio">Il birrificio</a><a href="#premi">Premi</a><a href="#agripub">Agripub</a><a href="#visita">Contatti</a></nav></details>
   </div>
 </header>
@@ -306,7 +309,7 @@ footer small{opacity:.8}
   <div class="wrap">
     <div class="sec__head">
       <h2 id="t-evo" class="rv">Le Evoluzioni</h2>
-      <p class="rv">«Con il passare degli anni, l'esperienza e la tecnologia si sono sommate alla passione»: le birre più recenti, in lattina da 33 cl con le etichette illustrate.</p>
+      <p class="rv">«Con il passare degli anni, l'esperienza e la tecnologia si sono sommate alla passione»: le birre più recenti, con le etichette illustrate.</p>
     </div>
     <div class="shelf" role="list">
       <article class="can can--wide rv" role="listitem" style="--c:#F3D04A"><img src="img/latt-slip.webp" width="494" height="760" loading="lazy" alt="Lattina SLIP"><h3>SLIP</h3><p>Pilsner di ispirazione tedesca</p></article>
@@ -327,7 +330,7 @@ footer small{opacity:.8}
       <figure class="story__ph rv" style="margin:0"><img src="img/luigi-spina.jpg" width="930" height="900" loading="lazy" alt="Il mastro birraio Luigi Recchiuti spilla una birra al bancone"></figure>
       <div class="story__txt">
         <p class="mono rv">Il birrificio</p>
-        <h2 class="rv" style="font-size:clamp(2.5rem,7vw,4.8rem);margin:.4rem 0 1.4rem">Una vecchia stalla, una passione</h2>
+        <h2 class="rv" style="font-size:clamp(2.5rem,7vw,4.8rem);margin:.4rem 0 1.4rem">Dal 2009, la birra di Luigi</h2>
         <p class="rv">Il Microbirrificio Opperbacco nasce nel 2009 a Notaresco, in provincia di Teramo, dal mastro birraio Luigi Recchiuti. La birra nasce in una vecchia stalla riadattata e attrezzata per la produzione.</p>
         <p class="rv">Oggi produce circa 3.000 ettolitri l'anno per il mercato italiano ed estero, e collabora con l'Università di Teramo.</p>
         <div class="nums rv">
@@ -336,6 +339,32 @@ footer small{opacity:.8}
           <div><span data-vng-count="4">4</span><small>linee di birre</small></div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec pub" id="agripub" aria-labelledby="t-pub">
+  <div class="wrap">
+    <div class="sec__head">
+      <h2 id="t-pub" class="rv">L'Agripub</h2>
+      <p class="rv">Accanto al birrificio: tutte le birre alla spina, pizza con l'impasto al malto d'orzo e arrosticini fatti a mano.</p>
+    </div>
+    <div class="pub__grid">
+      <figure class="pub__ph pub__a rv" style="margin:0"><img src="img/agripub-camino.jpg" width="960" height="960" loading="lazy" alt="La sala dell'Agripub con il grande camino"></figure>
+      <figure class="pub__ph rv" style="margin:0"><img src="img/agripub-pizza.jpg" width="800" height="800" loading="lazy" alt="Pizza al taglio dell'Agripub"></figure>
+      <div class="pub__info rv">
+        <p class="mono" style="margin:0">Orari</p>
+        <p class="hours">Tutti i giorni tranne il mercoledì<br>19:30 – 01:00</p>
+        <ul>
+          <li>8 vie alla spina in rotazione, più le bottiglie</li>
+          <li>Pizza con impasto al malto d'orzo</li>
+          <li>Arrosticini fatti a mano, dolci della casa</li>
+        </ul>
+        <a class="btn" href="tel:+393283156009">Prenota: 328 31 56 009</a>
+        <a href="https://opperbacco.it/prodotto/regala-una-cena/" style="font-weight:600">Regala una cena all'Agripub →</a>
+        <p class="today" id="oggi">Via Casarino, Notaresco (TE)</p>
+      </div>
+      <figure class="pub__ph rv" style="margin:0"><img src="img/agripub-piatto.jpg" width="800" height="800" loading="lazy" alt="Piatto dell'Agripub con il boccale Opperbacco"></figure>
     </div>
   </div>
 </section>
@@ -413,31 +442,6 @@ footer small{opacity:.8}
   </div>
 </section>
 
-<section class="sec pub" id="agripub" aria-labelledby="t-pub">
-  <div class="wrap">
-    <div class="sec__head">
-      <h2 id="t-pub" class="rv">L'Agripub</h2>
-      <p class="rv">Accanto al birrificio: tutte le birre alla spina, pizza con l'impasto al malto d'orzo e arrosticini fatti a mano.</p>
-    </div>
-    <div class="pub__grid">
-      <figure class="pub__ph pub__a rv" style="margin:0"><img src="img/agripub-camino.jpg" width="960" height="960" loading="lazy" alt="La sala dell'Agripub con il grande camino"></figure>
-      <figure class="pub__ph rv" style="margin:0"><img src="img/agripub-pizza.jpg" width="800" height="800" loading="lazy" alt="Pizza al taglio dell'Agripub"></figure>
-      <div class="pub__info rv">
-        <p class="mono" style="margin:0">Orari</p>
-        <p class="hours">Tutti i giorni tranne il mercoledì<br>19:30 – 01:00</p>
-        <ul>
-          <li>8 vie alla spina in rotazione, più le bottiglie</li>
-          <li>Pizza con impasto al malto d'orzo</li>
-          <li>Arrosticini fatti a mano, dolci della casa</li>
-        </ul>
-        <a class="btn" href="tel:+393283156009">Prenota: 328 31 56 009</a>
-        <a href="https://opperbacco.it/prodotto/regala-una-cena/" style="font-weight:600">Regala una cena all'Agripub →</a>
-        <p class="today" id="oggi">Via Casarino, Notaresco (TE)</p>
-      </div>
-      <figure class="pub__ph rv" style="margin:0"><img src="img/agripub-piatto.jpg" width="800" height="800" loading="lazy" alt="Piatto dell'Agripub con il boccale Opperbacco"></figure>
-    </div>
-  </div>
-</section>
 
 <section class="sec visit" id="visita" aria-labelledby="t-visit">
   <div class="wrap">
