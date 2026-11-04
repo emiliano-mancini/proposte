@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Gjoka Garage – luci ambiente, cielo stellato e autoradio a Borgo San Dalmazzo</title>
+<meta name="description" content="Gjoka Garage, Borgo San Dalmazzo (CN): kit luci ambiente, cielo stellato, autoradio Android e CarPlay, retrocamera, sensori di parcheggio, tappezzeria. Proposta di restyling – bozza non ufficiale.">
+<meta name="theme-color" content="#08070c">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500;62..125,700;62..125,800&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500;62..125,700;62..125,800&family=Inter:wght@400;500;600&display=swap"></noscript>
+<style>
+:root{
+  /* nero abitacolo, viola dei led, rosso dei loro pulsanti */
+  --bg:#08070c; --bg2:#121019; --card:#17141f; --fg:#f4f1fa; --muted:#b4adc4; --line:rgba(244,241,250,.12);
+  --led:#9b5cff; --led2:#c79bff; --red:#e0262b; --wa:#1fa855;
+  --disp:"Archivo","Arial Narrow",Impact,sans-serif; --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(16px,4vw,48px); --r:16px; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 1.0625rem/1.6 var(--body);overflow-x:hidden;padding-bottom:76px}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--disp);font-weight:800;font-stretch:88%;text-transform:uppercase;line-height:.95;margin:0;letter-spacing:.005em;text-wrap:balance}
+.wrap{width:min(1160px,100% - 2*var(--pad));margin-inline:auto}
+.eyebrow{font:600 .76rem/1.3 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--led2)}
+:focus-visible{outline:3px solid var(--led2);outline-offset:3px}
+svg.i{width:1.15em;height:1.15em;flex:none}
+
+.draft{position:fixed;right:8px;top:66px;z-index:80;background:#000;border:1px solid var(--led);color:var(--led2);font:600 .66rem/1 var(--body);letter-spacing:.06em;padding:.45rem .7rem;border-radius:99px;white-space:nowrap;pointer-events:none}
+
+/* barra in alto */
+.top{position:sticky;top:0;z-index:60;background:rgba(8,7,12,.88);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:60px}
+.brand{display:inline-flex;align-items:center;min-height:44px;font:800 1.25rem/1 var(--disp);font-stretch:100%;text-transform:uppercase;text-decoration:none;letter-spacing:.02em}
+.brand span{color:var(--led2)}
+.top nav{display:none;gap:24px;font-weight:500;font-size:.95rem}
+.top nav a{text-decoration:none;color:var(--muted)}
+.top nav a:hover{color:var(--fg)}
+.top .call{display:inline-flex;align-items:center;gap:.45em;min-height:44px;padding:0 16px;border-radius:99px;background:var(--fg);color:var(--bg);text-decoration:none;font-weight:600;font-size:.95rem}
+.top .call .n{display:none}
+@media(min-width:960px){.top nav{display:flex}.top .call .n{display:inline}}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55em;min-height:54px;padding:0 1.5em;border-radius:14px;font:600 1rem/1 var(--body);text-decoration:none;border:1px solid transparent;cursor:pointer}
+.btn.wa{background:var(--wa);color:#fff}
+.btn.wa:hover{filter:brightness(1.08)}
+.btn.o{border-color:rgba(244,241,250,.35);color:var(--fg);background:rgba(255,255,255,.03)}
+.btn.o:hover{border-color:var(--fg)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;isolation:isolate}
+.hero .ph{position:relative;height:56svh;min-height:320px;max-height:560px}
+.hero .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 42%}
+.hero .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,7,12,.35) 0,rgba(8,7,12,0) 30%,rgba(8,7,12,.6) 72%,var(--bg) 100%)}
+.hero .txt{position:relative;margin-top:-120px;padding-bottom:clamp(36px,6vw,72px)}
+.hero h1{font-size:clamp(2.5rem,11.5vw,6.2rem);margin:12px 0 14px;text-shadow:0 0 40px rgba(155,92,255,.35)}
+.hero h1 em{font-style:normal;color:var(--led2)}
+.hero .lead{font-size:clamp(1.05rem,2.3vw,1.25rem);color:#ddd6ea;max-width:34rem;margin:0 0 22px}
+.hero .cta{display:grid;gap:10px}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.pills span{font-size:.86rem;font-weight:500;border:1px solid var(--line);background:rgba(255,255,255,.04);border-radius:99px;padding:.35rem .8rem}
+.pills b{color:var(--led2);font-weight:600}
+@media(min-width:620px){.hero .cta{grid-template-columns:auto auto;justify-content:start}}
+@media(min-width:960px){
+  .hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;min-height:calc(100svh - 60px)}
+  .hero .ph{order:2;height:100%;max-height:none;position:absolute;right:0;top:0;bottom:0;width:52%}
+  .hero .ph::after{background:linear-gradient(90deg,var(--bg) 0,rgba(8,7,12,.4) 30%,rgba(8,7,12,0) 60%)}
+  .hero .txt{margin-top:0;grid-column:1/-1}
+  .hero .txt .in{max-width:560px}
+}
+
+section.s{padding:clamp(56px,8vw,104px) 0}
+.head{margin-bottom:28px}
+.head h2{font-size:clamp(2rem,7vw,3.8rem);margin-top:10px}
+.head p{margin:12px 0 0;color:var(--muted);max-width:38rem}
+
+/* servizi */
+.serv{display:grid;gap:16px}
+@media(min-width:760px){.serv{grid-template-columns:repeat(2,1fr)}}
+.sv{position:relative;border-radius:var(--r);overflow:hidden;background:var(--card);border:1px solid var(--line);min-height:420px;display:flex;flex-direction:column;justify-content:flex-end}
+.sv img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.sv::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,7,12,.96) 0,rgba(8,7,12,.7) 34%,rgba(8,7,12,0) 66%)}
+.sv .c{position:relative;z-index:2;padding:22px}
+.sv .k{font:600 .74rem/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--led2)}
+.sv h3{font-size:clamp(1.7rem,6vw,2.4rem);margin:10px 0 10px}
+.sv ul{margin:0 0 16px;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.sv li{font-size:.86rem;background:rgba(255,255,255,.1);border-radius:8px;padding:.25rem .6rem}
+.sv a.q{display:inline-flex;align-items:center;min-height:44px;gap:.4em;font-weight:600;color:#fff;text-decoration:none;border-bottom:2px solid var(--led);padding-bottom:3px}
+.extra{display:grid;gap:12px;margin-top:16px}
+@media(min-width:760px){.extra{grid-template-columns:repeat(2,1fr)}}
+.ex{border:1px solid var(--line);background:var(--bg2);border-radius:var(--r);padding:20px}
+.ex h3{font-size:1.5rem;margin-bottom:8px}
+.ex p{margin:0;color:var(--muted);font-size:.98rem}
+
+/* rate */
+.rate{background:linear-gradient(120deg,#1a0f2e,#0d0a14 60%);border-block:1px solid var(--line)}
+.rate .wrap{display:grid;gap:20px}
+.rate h2{font-size:clamp(2.2rem,8vw,4.4rem)}
+.rate h2 em{font-style:normal;color:var(--led2)}
+.rate p{margin:0;color:#d7cfe6;max-width:36rem}
+@media(min-width:900px){.rate .wrap{grid-template-columns:1.2fr 1fr;align-items:center}}
+
+/* come funziona */
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:12px;counter-reset:s}
+@media(min-width:900px){.steps{grid-template-columns:repeat(3,1fr)}}
+.steps li{counter-increment:s;background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:22px}
+.steps li::before{content:"0" counter(s);display:block;font:800 2.4rem/1 var(--disp);color:var(--led)}
+.steps h3{font-size:1.4rem;margin:12px 0 6px}
+.steps p{margin:0;color:var(--muted)}
+
+/* instagram */
+.ig{display:grid;gap:18px;align-items:center}
+@media(min-width:900px){.ig{grid-template-columns:1fr auto}}
+.ig h2{font-size:clamp(2rem,7vw,3.4rem)}
+.ig p{color:var(--muted);margin:12px 0 0}
+
+/* contatti */
+.ct{background:var(--bg2);border-top:1px solid var(--line)}
+.ct-card{border:1px solid var(--line);border-radius:22px;padding:clamp(22px,4vw,44px);background:radial-gradient(120% 120% at 100% 0,rgba(155,92,255,.18),transparent 55%),var(--card)}
+.ct-card h2{font-size:clamp(2.2rem,8vw,4.2rem)}
+.ct-list{list-style:none;margin:22px 0 26px;padding:0;display:grid;gap:14px}
+.ct-list li{display:flex;gap:12px;align-items:center}
+.ct-list .ic{width:40px;height:40px;border-radius:12px;background:rgba(155,92,255,.16);color:var(--led2);display:grid;place-items:center;flex:none}
+.ct-list b{display:block}
+.ct-list small{color:var(--muted)}
+.ct-btns{display:grid;gap:10px}
+@media(min-width:620px){.ct-btns{grid-template-columns:repeat(3,auto);justify-content:start}}
+
+footer.f{padding:26px 0 40px;font-size:.86rem;color:var(--muted)}
+footer.f .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+
+.thumb{position:fixed;inset:auto 0 0;z-index:70;display:grid;grid-template-columns:1fr 1.3fr;gap:10px;padding:10px var(--pad) calc(10px + env(safe-area-inset-bottom));background:rgba(8,7,12,.96);border-top:1px solid var(--line)}
+.thumb a{min-height:50px;border-radius:12px;display:flex;align-items:center;justify-content:center;gap:.5em;font-weight:600;text-decoration:none}
+.thumb .a{background:var(--fg);color:var(--bg)}
+.thumb .b{background:var(--wa);color:#fff}
+@media(min-width:960px){.thumb{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body>
+<div class="draft" aria-hidden="true">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inizio">Gjoka <span>Garage</span></a>
+    <nav aria-label="Principale">
+      <a href="#servizi">Servizi</a>
+      <a href="#rate">Pagamenti a rate</a>
+      <a href="#come">Come funziona</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+    <a class="call" href="tel:+393277683848"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>Chiama<span class="n">&nbsp;327 768 3848</span></a>
+  </div>
+</header>
+
+<main id="inizio">
+<section class="hero">
+  <div class="ph"><img src="https://gjokagarage.my.canva.site/_assets/media/09a715744bec56764bab2c7076bb3eb2.jpg" alt="Cruscotto con kit luci ambiente viola installato da Gjoka Garage" width="640" height="1138" fetchpriority="high"></div>
+  <div class="txt wrap"><div class="in">
+    <p class="eyebrow">Borgo San Dalmazzo (CN)</p>
+    <h1>Luci, cielo <em>stellato</em> e autoradio per la tua auto</h1>
+    <p class="lead">Kit luci ambiente, cielo stellato, autoradio Android e CarPlay, retrocamera e sensori di parcheggio, installati in officina. Anche a rate.</p>
+    <div class="cta">
+      <a class="btn wa" href="https://wa.me/393277683848?text=Ciao%2C%20vorrei%20un%20preventivo%20per%20la%20mia%20auto%3A%20"><svg class="i" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.4-.3z"/></svg>Chiedi un preventivo su WhatsApp</a>
+      <a class="btn o" href="#servizi">Guarda i lavori</a>
+    </div>
+    <div class="pills"><span><b>Pagamenti</b> a rate</span><span>Diagnosi</span><span>Tappezzeria</span></div>
+  </div></div>
+</section>
+
+<section class="s" id="servizi">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow">Cosa facciamo</p>
+      <h2>I nostri lavori</h2>
+      <p>Foto di installazioni fatte da noi. Scrivici il modello della tua auto e cosa ti piacerebbe: ti diciamo cosa si può fare.</p>
+    </div>
+    <div class="serv">
+      <article class="sv">
+        <img src="https://gjokagarage.my.canva.site/_assets/media/09a715744bec56764bab2c7076bb3eb2.jpg" alt="Kit luci ambiente sul cruscotto" width="640" height="1138" loading="lazy">
+        <div class="c"><span class="k">01 · Abitacolo</span><h3>Kit luci ambiente</h3>
+          <ul><li>Led sul cruscotto</li><li>Luce colorata in abitacolo</li></ul>
+          <a class="q" href="https://wa.me/393277683848?text=Ciao%2C%20vorrei%20un%20preventivo%20per%20il%20kit%20luci%20ambiente%20sulla%20mia%20auto%3A%20">Chiedi il preventivo →</a></div>
+      </article>
+      <article class="sv">
+        <img src="https://gjokagarage.my.canva.site/_assets/media/2d4a4b3a3eefe5e214790344beec552a.jpg" alt="Autoradio Android con CarPlay installata nel cruscotto" width="640" height="1138" loading="lazy">
+        <div class="c"><span class="k">02 · Tecnologia</span><h3>Autoradio Android e CarPlay</h3>
+          <ul><li>Autoradio Android</li><li>CarPlay</li><li>Scatoletta magica</li><li>Retrocamera</li><li>Sensori di parcheggio</li></ul>
+          <a class="q" href="https://wa.me/393277683848?text=Ciao%2C%20vorrei%20un%20preventivo%20per%20autoradio%2FCarPlay%20sulla%20mia%20auto%3A%20">Chiedi il preventivo →</a></div>
+      </article>
+      <article class="sv">
+        <img src="https://gjokagarage.my.canva.site/_assets/media/7693d53287ef16bdcb34c492f5893cc8.jpg" alt="Cielo stellato installato sul tetto dell'auto" width="640" height="1138" loading="lazy">
+        <div class="c"><span class="k">03 · Tetto</span><h3>Cielo stellato</h3>
+          <ul><li>Stelle luminose sul tetto</li></ul>
+          <a class="q" href="https://wa.me/393277683848?text=Ciao%2C%20vorrei%20un%20preventivo%20per%20il%20cielo%20stellato%20sulla%20mia%20auto%3A%20">Chiedi il preventivo →</a></div>
+      </article>
+      <article class="sv">
+        <img src="https://gjokagarage.my.canva.site/_assets/media/ebcc8789870b0308c34b67087572e974.jpg" alt="Rivestimento del cielo in tessuto con disegno luminoso dell'aquila" width="640" height="1138" loading="lazy">
+        <div class="c"><span class="k">04 · Su misura</span><h3>Rivestimento tessuto cielo</h3>
+          <ul><li>Tessuto nuovo per il tetto</li><li>Anche con disegni luminosi</li></ul>
+          <a class="q" href="https://wa.me/393277683848?text=Ciao%2C%20vorrei%20un%20preventivo%20per%20il%20rivestimento%20del%20cielo%3A%20">Chiedi il preventivo →</a></div>
+      </article>
+    </div>
+    <div class="extra">
+      <div class="ex"><h3>Tappezzeria</h3><p>Lavori di tappezzeria per l'interno dell'auto.</p></div>
+      <div class="ex"><h3>Diagnosi</h3><p>Diagnosi elettronica dell'auto, anche Mercedes-Benz.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="s rate" id="rate">
+  <div class="wrap">
+    <h2>Il lavoro che vuoi, <em>a rate</em></h2>
+    <div>
+      <p>Puoi pagare i lavori a rate. Chiedici come funziona quando ci scrivi per il preventivo.</p>
+      <div style="margin-top:18px"><a class="btn wa" href="https://wa.me/393277683848?text=Ciao%2C%20vorrei%20sapere%20come%20funzionano%20i%20pagamenti%20a%20rate">Chiedi delle rate</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="s" id="come">
+  <div class="wrap">
+    <div class="head"><p class="eyebrow">Come funziona</p><h2>Tre passi</h2></div>
+    <ol class="steps">
+      <li><h3>Scrivici</h3><p>Su WhatsApp o al telefono: modello dell'auto e lavoro che ti interessa. Se hai una foto dell'abitacolo, mandala.</p></li>
+      <li><h3>Preventivo</h3><p>Ti diciamo cosa si può montare sulla tua auto e quanto costa, anche con pagamento a rate.</p></li>
+      <li><h3>In officina</h3><p>Fissiamo il giorno e porti l'auto da noi a Borgo San Dalmazzo.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="s" style="padding-top:0">
+  <div class="wrap ig">
+    <div><p class="eyebrow">Instagram</p><h2>Tutti i lavori su @gjokagarage</h2><p>Foto e video delle nostre installazioni.</p></div>
+    <a class="btn o" href="https://www.instagram.com/gjokagarage/">Apri Instagram</a>
+  </div>
+</section>
+
+<section class="s ct" id="contatti">
+  <div class="wrap">
+    <div class="ct-card">
+      <p class="eyebrow">Contatti</p>
+      <h2>Porta la tua auto da Gjoka</h2>
+      <ul class="ct-list">
+        <li><span class="ic"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span><b>Borgo San Dalmazzo (CN)</b><small>Chiedici l'indirizzo dell'officina quando fissi l'appuntamento</small></span></li>
+        <li><span class="ic"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><span><b><a href="tel:+393277683848">327 768 3848</a></b><small>Telefono e WhatsApp</small></span></li>
+      </ul>
+      <div class="ct-btns">
+        <a class="btn wa" href="https://wa.me/393277683848?text=Ciao%2C%20vorrei%20un%20preventivo%20per%20la%20mia%20auto%3A%20">WhatsApp</a>
+        <a class="btn o" href="tel:+393277683848">Chiama</a>
+        <a class="btn o" href="https://www.instagram.com/gjokagarage/">Instagram</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="f">
+  <div class="wrap"><span>Gjoka Garage · Borgo San Dalmazzo (CN)</span><span>Proposta di restyling non ufficiale, non pubblicata sui motori di ricerca</span></div>
+</footer>
+
+<nav class="thumb" aria-label="Contatto rapido">
+  <a class="a" href="tel:+393277683848">Chiama</a>
+  <a class="b" href="https://wa.me/393277683848?text=Ciao%2C%20vorrei%20un%20preventivo%20per%20la%20mia%20auto%3A%20"><svg class="i" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.4-.3z"/></svg>Preventivo su WhatsApp</a>
+</nav>
+</body>
+</html>
