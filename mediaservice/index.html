@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Mediaservice – consulenti immobiliari a Cuneo</title>
+<meta name="description" content="Mediaservice, Cuneo: consulenti immobiliari, tecnici e per i mutui nello stesso studio. Proposta di restyling – bozza non ufficiale.">
+<meta name="theme-color" content="#5a0d12">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap"></noscript>
+<style>
+:root{
+  /* bordeaux del loro logo, carta calda, inchiostro */
+  --bord:#6e0f16; --bord-d:#4a080d; --bord-l:#f4e6e2;
+  --paper:#faf7f2; --sand:#efe8de; --ink:#1f1a17; --muted:#5f5650; --line:rgba(31,26,23,.14);
+  --serif:"Fraunces",Georgia,"Times New Roman",serif; --sans:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(16px,4vw,48px); --r:14px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-padding-top:72px}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.6 var(--sans);overflow-x:hidden;padding-bottom:76px}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.wrap{width:min(1180px,100% - 2*var(--pad));margin-inline:auto}
+.eyebrow{font:700 .76rem/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--bord)}
+:focus-visible{outline:3px solid var(--bord);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* etichetta bozza */
+.draft{position:fixed;right:8px;top:68px;z-index:80;background:var(--ink);color:#fff;font:600 .68rem/1 var(--sans);letter-spacing:.06em;padding:.5rem .8rem;border-radius:99px;white-space:nowrap;pointer-events:none;opacity:.9}
+
+
+/* barra in alto: piccola, mai metà schermo */
+.top{position:sticky;top:0;z-index:60;background:rgba(250,247,242,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:62px}
+.logo img{height:34px;width:auto}
+.top nav{display:none;gap:26px;font-weight:600;font-size:.95rem}
+.top nav a{text-decoration:none}
+.top nav a:hover{color:var(--bord)}
+.top .call{display:inline-flex;align-items:center;gap:.45em;min-height:44px;padding:0 16px;border-radius:99px;background:var(--bord);color:#fff;text-decoration:none;font-weight:700;font-size:.95rem}
+.top .call .n{display:none}
+@media(min-width:960px){.top nav{display:flex}.top .call .n{display:inline}}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:52px;padding:0 1.4em;border-radius:99px;font:700 1rem/1 var(--sans);text-decoration:none;border:2px solid var(--bord);cursor:pointer}
+.btn.p{background:var(--bord);color:#fff}
+.btn.p:hover{background:var(--bord-d);border-color:var(--bord-d)}
+.btn.s{background:transparent;color:var(--bord)}
+.btn.s:hover{background:var(--bord-l)}
+svg.i{width:1.15em;height:1.15em;flex:none}
+
+/* hero */
+.hero{padding:0 0 clamp(36px,6vw,80px)}
+.hero-grid{display:grid;gap:22px}
+.hero-photo{position:relative;margin:0 calc(-1*var(--pad));overflow:hidden;aspect-ratio:16/10;background:var(--sand)}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.hero-photo figcaption{position:absolute;left:12px;bottom:12px;background:rgba(255,255,255,.92);border-radius:99px;padding:.4rem .8rem;font-size:.8rem;font-weight:600}
+.hero h1{font-size:clamp(2.1rem,8.4vw,4.4rem);margin:10px 0 14px}
+.hero h1 em{font-style:italic;color:var(--bord)}
+.hero .lead{font-size:clamp(1.05rem,2.2vw,1.22rem);color:var(--muted);max-width:34rem;margin:0 0 22px}
+.hero .cta{display:grid;gap:12px}
+.proof{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:22px;font-size:.92rem;color:var(--muted)}
+.proof b{color:var(--ink)}
+.stars{color:#b8860b;letter-spacing:1px}
+@media(min-width:620px){.hero .cta{grid-template-columns:auto auto;justify-content:start}}
+@media(min-width:960px){
+  .hero{padding-top:clamp(36px,5vw,64px)}
+  .hero-grid{grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+  .hero-photo{margin:0;border-radius:22px;aspect-ratio:5/4;order:2}
+}
+
+/* tre numeri */
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--line);background:#fff}
+.facts div{padding:18px 10px;text-align:center;border-right:1px solid var(--line)}
+.facts div:last-child{border-right:0}
+.facts b{display:block;font:500 clamp(1.5rem,5vw,2.4rem)/1 var(--serif);color:var(--bord)}
+.facts span{font-size:.8rem;color:var(--muted);line-height:1.3;display:block;margin-top:6px}
+
+section.s{padding:clamp(52px,8vw,104px) 0}
+.head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px;margin-bottom:26px}
+.head h2{font-size:clamp(1.9rem,5.4vw,3.2rem);margin-top:8px}
+.head p{margin:10px 0 0;color:var(--muted);max-width:36rem}
+
+/* immobili */
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin-bottom:20px;scrollbar-width:none}
+.chips button{flex:none;min-height:44px;padding:0 18px;border-radius:99px;border:1px solid var(--line);background:#fff;font:600 .95rem var(--sans);color:var(--ink);cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+.grid{display:grid;gap:18px}
+@media(min-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1060px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;text-decoration:none;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(31,26,23,.12)}
+.card .ph{position:relative;aspect-ratio:4/3;background:var(--sand);overflow:hidden}
+.card .ph img{width:100%;height:100%;object-fit:cover}
+.card .tipo{position:absolute;left:10px;top:10px;background:rgba(255,255,255,.94);border-radius:99px;padding:.3rem .7rem;font-size:.75rem;font-weight:700}
+.card .body{padding:16px 16px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card .luogo{font-size:.85rem;font-weight:700;color:var(--bord);text-transform:uppercase;letter-spacing:.06em}
+.card h3{font-size:1.25rem;line-height:1.2}
+.card .dati{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.card .dati span{font-size:.82rem;background:var(--sand);border-radius:6px;padding:.2rem .5rem}
+.card .fondo{display:flex;justify-content:space-between;align-items:baseline;margin-top:auto;padding-top:10px;border-top:1px solid var(--line)}
+.card .prezzo{font:600 1.35rem/1 var(--serif)}
+.card .rif{font-size:.78rem;color:var(--muted)}
+.card[hidden]{display:none}
+.more{margin-top:26px;display:flex;flex-wrap:wrap;gap:12px}
+.ricerca{margin-top:30px;background:var(--bord-l);border-radius:var(--r);padding:22px;display:grid;gap:14px}
+.ricerca h3{font-size:1.35rem}
+.ricerca p{margin:0;color:var(--muted)}
+@media(min-width:760px){.ricerca{grid-template-columns:1fr auto;align-items:center}}
+
+/* tre consulenti */
+.tre{background:var(--ink);color:#f5f0ea}
+.tre .eyebrow{color:#e9a6a0}
+.tre .head p{color:#c9c0b8}
+.cols{display:grid;gap:16px}
+@media(min-width:900px){.cols{grid-template-columns:repeat(3,1fr)}}
+.col{border:1px solid rgba(245,240,234,.16);border-radius:var(--r);padding:24px;background:rgba(255,255,255,.03)}
+.col .n{font:500 2.4rem/1 var(--serif);color:#e9a6a0}
+.col h3{font-size:1.5rem;margin:12px 0 10px}
+.col p{color:#d3cac2;margin:0 0 12px}
+.col ul{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.col li{padding-left:1.4em;position:relative;color:#eee7e0}
+.col li::before{content:"";position:absolute;left:0;top:.62em;width:.6em;height:2px;background:#e9a6a0}
+
+/* vendi */
+.vendi-grid{display:grid;gap:28px}
+@media(min-width:960px){.vendi-grid{grid-template-columns:1fr 1fr;gap:64px;align-items:center}}
+.report{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;box-shadow:0 20px 40px rgba(31,26,23,.08)}
+.report h3{font-size:1.3rem;margin-bottom:14px}
+.report ol{margin:0;padding:0;list-style:none;counter-reset:r;display:grid;gap:12px}
+.report li{counter-increment:r;display:grid;grid-template-columns:2.2rem 1fr;align-items:start}
+.report li::before{content:counter(r);width:1.8rem;height:1.8rem;border-radius:50%;background:var(--bord);color:#fff;display:grid;place-items:center;font-weight:700;font-size:.85rem}
+.gratis{display:inline-block;margin-top:16px;background:var(--bord-l);color:var(--bord);font-weight:700;border-radius:8px;padding:.45rem .7rem;font-size:.92rem}
+.vendi p.t{color:var(--muted);margin:14px 0 0}
+
+/* recensioni */
+.rec{background:var(--sand)}
+.score{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:22px}
+.score div{background:#fff;border-radius:12px;padding:12px 16px;border:1px solid var(--line)}
+.score b{font:600 1.6rem/1 var(--serif)}
+.score span{display:block;font-size:.82rem;color:var(--muted);margin-top:4px}
+.quotes{display:grid;gap:16px}
+@media(min-width:900px){.quotes{grid-template-columns:repeat(3,1fr)}}
+blockquote{margin:0;background:#fff;border-radius:var(--r);padding:22px;border:1px solid var(--line);display:flex;flex-direction:column;gap:14px}
+blockquote p{margin:0;font:500 1.12rem/1.45 var(--serif)}
+blockquote footer{font-size:.88rem;color:var(--muted);margin-top:auto}
+
+/* storia */
+.storia-grid{display:grid;gap:28px}
+@media(min-width:960px){.storia-grid{grid-template-columns:1fr 1.1fr;gap:64px;align-items:start}}
+.tl{list-style:none;margin:0;padding:0;border-left:2px solid var(--bord-l)}
+.tl li{position:relative;padding:0 0 24px 22px}
+.tl li::before{content:"";position:absolute;left:-7px;top:.45em;width:12px;height:12px;border-radius:50%;background:var(--bord)}
+.tl b{font:600 1.35rem/1 var(--serif);color:var(--bord)}
+.tl p{margin:6px 0 0;color:var(--muted)}
+.motto{font:500 clamp(1.4rem,3.6vw,2rem)/1.25 var(--serif);border-left:4px solid var(--bord);padding-left:16px;margin:22px 0 0}
+
+/* contatti */
+.contatti{background:#fff;border-top:1px solid var(--line)}
+.ct-grid{display:grid;gap:24px}
+@media(min-width:960px){.ct-grid{grid-template-columns:1fr 1fr;gap:56px;align-items:center}}
+.ct-photo{border-radius:var(--r);overflow:hidden;aspect-ratio:4/3;background:var(--sand)}
+.ct-photo img{width:100%;height:100%;object-fit:cover}
+.ct-list{list-style:none;margin:18px 0 22px;padding:0;display:grid;gap:14px}
+.ct-list li{display:grid;grid-template-columns:2.4rem 1fr;align-items:start}
+.ct-list .ic{width:2rem;height:2rem;border-radius:50%;background:var(--bord-l);color:var(--bord);display:grid;place-items:center}
+.ct-list small{display:block;color:var(--muted)}
+.ct-list a{font-weight:700}
+.ct-btns{display:grid;gap:10px}
+@media(min-width:620px){.ct-btns{grid-template-columns:auto auto auto;justify-content:start}}
+
+footer.f{background:var(--bord-d);color:#f2e3e0;padding:28px 0 40px;font-size:.88rem}
+footer.f .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+
+/* barra pollice (solo telefono) */
+.thumb{position:fixed;inset:auto 0 0;z-index:70;display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px var(--pad) calc(10px + env(safe-area-inset-bottom));background:rgba(250,247,242,.97);border-top:1px solid var(--line)}
+.thumb a{min-height:50px;border-radius:12px;display:flex;align-items:center;justify-content:center;gap:.5em;font-weight:700;text-decoration:none}
+.thumb .a{background:var(--bord);color:#fff}
+.thumb .b{background:#1f7a4a;color:#fff}
+@media(min-width:960px){.thumb{display:none}body{padding-bottom:0}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="draft" aria-hidden="true">Proposta di restyling – bozza non ufficiale</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#inizio" aria-label="Mediaservice – inizio pagina"><img src="https://www.mediaservice.casa/wp-content/uploads/2019/03/logo_mod.png" alt="Mediaservice" width="296" height="100"></a>
+    <nav aria-label="Principale">
+      <a href="#immobili">Immobili</a>
+      <a href="#vendi">Vendi casa</a>
+      <a href="#servizi">Servizi</a>
+      <a href="#chi-siamo">Chi siamo</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+    <a class="call" href="tel:+390171603995"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>Chiama<span class="n">&nbsp;0171 603995</span></a>
+  </div>
+</header>
+
+<main id="inizio">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <figure class="hero-photo">
+      <img src="https://www.mediaservice.casa/wp-content/uploads/2024/01/PXL_20240116_0905488762-scaled.jpg" alt="Lo staff di Mediaservice in studio a Cuneo" width="2560" height="1928" fetchpriority="high">
+      <figcaption>Lo staff di Mediaservice</figcaption>
+    </figure>
+    <div>
+      <p class="eyebrow">Consulenza e intermediazione immobiliare · Cuneo</p>
+      <h1>Per la tua casa, <em>tre volte</em> consulenti.</h1>
+      <p class="lead">Consulenti immobiliari, tecnici e per i mutui nello stesso studio: ti seguiamo dalla prima visita fino al rogito, e oltre.</p>
+      <div class="cta">
+        <a class="btn p" href="#immobili">Cerco casa</a>
+        <a class="btn s" href="#vendi">Vendo casa · valutazione gratuita</a>
+      </div>
+      <div class="proof">
+        <span><span class="stars" aria-hidden="true">★★★★★</span> <b>4,6</b> su Google · 108 recensioni</span>
+        <span><b>4,9</b> su Facebook · 26 recensioni</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="facts" role="list">
+  <div role="listitem"><b>1985</b><span>nel mondo immobiliare</span></div>
+  <div role="listitem"><b>3</b><span>consulenze in un solo studio</span></div>
+  <div role="listitem"><b>Cuneo</b><span>e provincia, più case al mare in Liguria</span></div>
+</div>
+
+<section class="s" id="immobili">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow">Immobili in vetrina</p>
+        <h2>Case in vendita a Cuneo e dintorni</h2>
+        <p>Una selezione dei nostri annunci. Tocca una casa per vedere tutte le foto e la descrizione completa.</p>
+      </div>
+    </div>
+    <div class="chips" role="group" aria-label="Filtra per tipo">
+      <button type="button" aria-pressed="true" data-f="tutti">Tutti</button>
+      <button type="button" aria-pressed="false" data-f="app">Appartamenti</button>
+      <button type="button" aria-pressed="false" data-f="casa">Ville e case</button>
+    </div>
+    <div class="grid" id="lista">
+      <a class="card" data-t="app" href="https://www.mediaservicecuneo.it/cuneo/attico-in-annuncio/via-roma-attico-di-charme-in-palazzo-cinquecentesco--_3179741.html">
+        <div class="ph"><img src="https://storage.googleapis.com/birgus/annunci/3179741/65635537.jpg" alt="Soggiorno con travi a vista dell'attico in via Roma" width="1920" height="1440" loading="lazy"><span class="tipo">Attico</span></div>
+        <div class="body"><span class="luogo">Cuneo · via Roma</span><h3>Attico di charme in palazzo cinquecentesco</h3>
+          <div class="dati"><span>92 m²</span><span>4° piano</span><span>Ristrutturato nel 2018</span></div>
+          <div class="fondo"><span class="prezzo">€ 225.000</span><span class="rif">Rif. MT22</span></div></div>
+      </a>
+      <a class="card" data-t="casa" href="https://www.mediaservicecuneo.it/cervasca/villa-in-annuncio/prestigiosa-villa-classica-in-centro-a-cervasca--_3185141.html">
+        <div class="ph"><img src="https://storage.googleapis.com/birgus/annunci/3185141/65771060.jpg" alt="Villa classica in centro a Cervasca" width="1920" height="1440" loading="lazy"><span class="tipo">Villa</span></div>
+        <div class="body"><span class="luogo">Cervasca · centro</span><h3>Prestigiosa villa classica su tre livelli</h3>
+          <div class="dati"><span>414 m²</span><span>Salone con camino</span><span>Montacarichi interno</span></div>
+          <div class="fondo"><span class="prezzo">€ 380.000</span><span class="rif">Rif. MV11</span></div></div>
+      </a>
+      <a class="card" data-t="app" href="https://www.mediaservicecuneo.it/cuneo/appartamento-in-annuncio/ampio-cinque-locali-con-vista-sul-verde-in-zona-san-paolo--_3229454.html">
+        <div class="ph"><img src="https://storage.googleapis.com/birgus/annunci/3229454/66837948.jpg" alt="Cinque locali in zona San Paolo a Cuneo" width="1920" height="1440" loading="lazy"><span class="tipo">Appartamento</span></div>
+        <div class="body"><span class="luogo">Cuneo · San Paolo</span><h3>Ampio cinque locali con vista sul verde</h3>
+          <div class="dati"><span>132 m²</span><span>1° piano</span><span>Giardino condominiale</span></div>
+          <div class="fondo"><span class="prezzo">€ 254.000</span><span class="rif">Rif. MC20</span></div></div>
+      </a>
+      <a class="card" data-t="casa" href="https://www.mediaservicecuneo.it/caraglio/casa-indipendente-in-annuncio/san-lorenzo---grande-casa-libera-su-tre-lati-con-terreno--_3176284.html">
+        <div class="ph"><img src="https://storage.googleapis.com/birgus/annunci/3176284/65551788.jpg" alt="Casa libera su tre lati a Caraglio, frazione San Lorenzo" width="1920" height="1440" loading="lazy"><span class="tipo">Casa indipendente</span></div>
+        <div class="body"><span class="luogo">Caraglio · San Lorenzo</span><h3>Grande casa libera su tre lati con terreno</h3>
+          <div class="dati"><span>292 m²</span><span>1.400 m² di esterno</span><span>Due appartamenti</span></div>
+          <div class="fondo"><span class="prezzo">€ 195.000</span><span class="rif">Rif. MV38</span></div></div>
+      </a>
+      <a class="card" data-t="app" href="https://www.mediaservicecuneo.it/villanova-mondovi/appartamento-in-annuncio/trilocale-con-ampio-giardino-box-doppio-e-splendida-vista--_3213867.html">
+        <div class="ph"><img src="https://storage.googleapis.com/birgus/annunci/3213867/66459356.jpg" alt="Trilocale con giardino a Villanova Mondovì" width="1920" height="1440" loading="lazy"><span class="tipo">Appartamento</span></div>
+        <div class="body"><span class="luogo">Villanova Mondovì</span><h3>Trilocale con ampio giardino e box doppio</h3>
+          <div class="dati"><span>85 m²</span><span>Piano terra</span><span>Giardino di circa 200 m²</span></div>
+          <div class="fondo"><span class="prezzo">€ 162.000</span><span class="rif">Rif. MT26</span></div></div>
+      </a>
+      <a class="card" data-t="app" href="https://www.mediaservicecuneo.it/cuneo/appartamento-in-annuncio/luminoso-trilocale-al-quarto-piano-con-ascensore-a-due-passi-da-parco-parri--_3246567.html">
+        <div class="ph"><img src="https://storage.googleapis.com/birgus/annunci/3246567/67270823.jpg" alt="Trilocale vicino al Parco Parri a Cuneo" width="1920" height="1440" loading="lazy"><span class="tipo">Appartamento</span></div>
+        <div class="body"><span class="luogo">Cuneo · Parco Parri</span><h3>Luminoso trilocale con ascensore</h3>
+          <div class="dati"><span>71 m²</span><span>4° piano</span><span>Adatto anche a investimento</span></div>
+          <div class="fondo"><span class="prezzo">€ 120.000</span><span class="rif">Rif. MT25</span></div></div>
+      </a>
+    </div>
+    <div class="more">
+      <a class="btn p" href="https://www.mediaservicecuneo.it/elenco-annunci.php">Vedi tutti gli immobili</a>
+      <a class="btn s" href="https://www.mediaservicecuneo.it/elenco-annunci-mare.php?r=mare">Case al mare in Liguria</a>
+    </div>
+    <div class="ricerca">
+      <div><h3>Non hai trovato la casa giusta?</h3><p>Lasciaci la tua richiesta in due minuti: ti avvisiamo in anteprima quando arriva un immobile come lo cerchi.</p></div>
+      <a class="btn p" href="https://www.mediaservice.casa/105-2/">Lascia la tua richiesta</a>
+    </div>
+  </div>
+</section>
+
+<section class="s tre" id="servizi">
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <p class="eyebrow">Non una semplice agenzia</p>
+        <h2>Tre consulenze, un solo studio</h2>
+        <p>Siamo mediatori abilitati, ma per tutelarti non basta mettere in contatto chi vende e chi compra. Per questo in studio lavorano insieme consulenti immobiliari, tecnici e finanziari.</p>
+      </div>
+    </div>
+    <div class="cols">
+      <article class="col">
+        <span class="n">01</span>
+        <h3>Consulenti immobiliari</h3>
+        <p>Per vendere la tua proprietà o trovare casa ti guidiamo passo passo fino al rogito notarile, e oltre.</p>
+        <ul><li>Consulenza iniziale gratuita e senza impegno</li><li>Assistenza anche nella compravendita tra privati</li></ul>
+      </article>
+      <article class="col">
+        <span class="n">02</span>
+        <h3>Consulenti tecnici</h3>
+        <p>Un immobile in regola con le norme urbanistiche e catastali, senza brutte sorprese al momento della firma.</p>
+        <ul><li>Accessi atti e verifica di conformità</li><li>Certificazione energetica (APE)</li><li>Sanatorie e aggiornamenti catastali</li><li>Successioni e ristrutturazioni</li></ul>
+      </article>
+      <article class="col">
+        <span class="n">03</span>
+        <h3>Consulenti per i mutui</h3>
+        <p>Nel labirinto delle offerte bancarie troviamo la soluzione più adatta a te: più facile, più conveniente, più veloce.</p>
+        <ul><li>Pre-qualifica dell'acquirente: chi vende non aspetta a vuoto la conferma del mutuo</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="s vendi" id="vendi">
+  <div class="wrap vendi-grid">
+    <div>
+      <p class="eyebrow">Vuoi vendere?</p>
+      <h2 style="font-size:clamp(1.9rem,5.4vw,3.2rem);margin-top:8px">Quanto vale casa tua? Te lo diciamo dopo averla vista.</h2>
+      <p class="t">Uno strumento online, con pochi dati, dà solo un valore presunto. Per te è l'investimento di una vita: veniamo a vedere la casa di persona, ti facciamo le domande giuste e calcoliamo le metrature sulla planimetria catastale.</p>
+      <span class="gratis">Valutazione gratuita e senza impegno</span>
+      <div class="more"><a class="btn p" href="https://www.mediaservice.casa/valuta_il_tuo_immobile/">Richiedi la valutazione</a><a class="btn s" href="tel:+390171603995">Chiama lo studio</a></div>
+    </div>
+    <div class="report">
+      <h3>Nel report scritto che ricevi</h3>
+      <ol>
+        <li><span>Analisi del mercato della tua zona</span></li>
+        <li><span>Analisi degli immobili concorrenti al tuo</span></li>
+        <li><span>Analisi delle vendite recenti in zona</span></li>
+        <li><span>Valore di mercato e posizionamento del tuo immobile</span></li>
+      </ol>
+      <p class="t" style="margin-top:16px">In più: i consigli per presentare la casa alle foto e alle visite, e la lista dei documenti da verificare prima di mettere in vendita.</p>
+    </div>
+  </div>
+</section>
+
+<section class="s rec" id="recensioni">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow">Dicono di noi</p><h2>Le parole di chi ha comprato e venduto con noi</h2></div></div>
+    <div class="score">
+      <div><b>4,6</b> <span class="stars" aria-hidden="true">★★★★★</span><span>Google · 108 recensioni</span></div>
+      <div><b>4,9</b> <span class="stars" aria-hidden="true">★★★★★</span><span>Facebook · 26 recensioni</span></div>
+    </div>
+    <div class="quotes">
+      <blockquote><p>«Abbiamo acquistato la nostra prima casa e siamo stati assistiti in ogni passaggio e hanno risposto a qualsiasi nostra domanda.»</p><footer>giorgia dalmasso · Google</footer></blockquote>
+      <blockquote><p>«Sono riuscito a vendere casa facilmente; la parte che ho preferito è stata la presentazione dell'immobile online con foto e video professionali.»</p><footer>Davide Ponso · Google</footer></blockquote>
+      <blockquote><p>«Disponibilità, professionalità ed efficienza. […] Mi hanno fatto affrontare con tranquillità e serenità tutte le fasi della vendita del mio immobile nonostante fossi lontana.»</p><footer>Jessica Argenio · Google</footer></blockquote>
+    </div>
+    <div class="more"><a class="btn s" href="https://www.mediaservice.casa/dicono-di-noi/">Leggi tutte le recensioni</a></div>
+  </div>
+</section>
+
+<section class="s" id="chi-siamo">
+  <div class="wrap storia-grid">
+    <div>
+      <p class="eyebrow">Chi siamo</p>
+      <h2 style="font-size:clamp(1.9rem,5.4vw,3.2rem);margin-top:8px">Padre e figlio nell'immobiliare, dal 1985</h2>
+      <p class="motto">Tutta l'assistenza che ti serve, tutta l'attenzione che meriti.</p>
+    </div>
+    <ol class="tl">
+      <li><b>1985</b><p>Fabrizio Vezzetti entra nel mondo immobiliare a Torino, prima con un noto franchising e poi con la sua agenzia.</p></li>
+      <li><b>2007</b><p>A Cuneo riapre il proprio studio con il figlio Lorenzo, in corso Vittorio Emanuele II.</p></li>
+      <li><b>2023</b><p>Apre la sede di corso Francia 155/M: più grande, più accogliente, con geometri e consulenti finanziari nello stesso studio.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="s contatti" id="contatti">
+  <div class="wrap ct-grid">
+    <div class="ct-photo"><img src="https://www.mediaservice.casa/wp-content/uploads/2023/04/PXL_20230222_162803302-scaled.jpg" alt="La vetrina dello studio Mediaservice a Cuneo" width="2560" height="1928" loading="lazy"></div>
+    <div>
+      <p class="eyebrow">Vieni a trovarci</p>
+      <h2 style="font-size:clamp(1.9rem,5.4vw,3rem);margin-top:8px">Parliamone di persona</h2>
+      <ul class="ct-list">
+        <li><span class="ic"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span><span><b>Corso Francia 155/M, Cuneo</b><small>Palazzo Diamante</small></span></li>
+        <li><span class="ic"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18"/></svg></span><span><b>Vetrine annunci</b><small>Corso Vittorio Emanuele II 4 · Corso Nizza 14 e 20 · Piazza Europa (fronte ACI)</small></span></li>
+        <li><span class="ic"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><span><a href="tel:+390171603995">0171 603995</a><small>Telefono dello studio</small></span></li>
+        <li><span class="ic"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><span><a href="mailto:info@mediaservicecuneo.it">info@mediaservicecuneo.it</a><small>Email dello studio</small></span></li>
+      </ul>
+      <div class="ct-btns">
+        <a class="btn p" href="tel:+390171603995">Chiama</a>
+        <a class="btn s" href="https://wa.me/message/VKASSZ6Z42FGL1">Scrivici su WhatsApp</a>
+        <a class="btn s" href="https://www.google.com/maps/search/?api=1&amp;query=Mediaservice+Corso+Francia+155+Cuneo">Indicazioni</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="f">
+  <div class="wrap">
+    <span>Mediaservice · Consulenza e Intermediazione · Corso Francia 155/M, Cuneo</span>
+    <span>Proposta di restyling non ufficiale, non pubblicata sui motori di ricerca</span>
+  </div>
+</footer>
+
+<nav class="thumb" aria-label="Contatto rapido">
+  <a class="a" href="tel:+390171603995"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>Chiama</a>
+  <a class="b" href="https://wa.me/message/VKASSZ6Z42FGL1"><svg class="i" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2s.2-1.1.2-1.2-.2-.2-.4-.3z"/></svg>WhatsApp</a>
+</nav>
+
+<script>
+(function(){
+  var chips=document.querySelectorAll('.chips button'), cards=document.querySelectorAll('#lista .card');
+  chips.forEach(function(b){b.addEventListener('click',function(){
+    var f=b.dataset.f;
+    chips.forEach(function(c){c.setAttribute('aria-pressed',c===b?'true':'false')});
+    cards.forEach(function(c){c.hidden=!(f==='tutti'||c.dataset.t===f)});
+  })});
+})();
+</script>
+</body>
+</html>
